@@ -16,7 +16,7 @@ next:
 Con este endpoint podrás hacer un retiro instantáneo desde el comercio a una wallet.
 
 > 📘 Lista de wallets
-> 
+>
 > Para conocer la lista de wallets disponibles para el número de teléfono celular del beneficiario, consulta primero [este endpoint](https://docs.prontopaga.com/reference/wallets-list).
 
 ## Lista completa de wallets
