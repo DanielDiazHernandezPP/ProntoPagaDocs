@@ -28,7 +28,7 @@ next:
 Endpoint para crear una nueva solicitud de retiro con PIX. 
 
 > 📘 Webhook
-> 
+>
 > Una vez que el usuario haya completado el proceso de retiro, ProntoPaga devolverá los datos a la URL que hayas especificado en la `confirmationURL`.
 
 ## Tipos de cuentas
