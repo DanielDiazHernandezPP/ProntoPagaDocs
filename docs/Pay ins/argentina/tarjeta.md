@@ -12,7 +12,7 @@ next:
 ---
 Crear un pago con tarjeta en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (_challenges_) correspondientes para validar o rechazar transacciones.
+Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (*challenges*) correspondientes para validar o rechazar transacciones.
 
 ## ¿Cómo funciona?
 
@@ -139,16 +139,16 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción. 
 
-| Título                       | Descripción                                                                                 |
-| :--------------------------- | :------------------------------------------------------------------------------------------ |
-| FONDOS_INSUFICIENTES         | Saldo insuficiente para realizar la transacción.                                            |
-| RECHAZADO_POR_BANCO          | Tu banco rechazó la transacción. Contáctate con ellos para más información.                 |
-| TRANSACCION_RECHAZADA        | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.            |
-| CODIGO_DE_SEGURIDAD_INVALIDO | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                    |
-| DATOS_DE_TARJETA_INVALIDOS   | Los datos de la tarjeta ingresados son incorrectos. Verifica e inténtalo nuevamente.        |
-| NUMERO_DE_TARJETA_INVALIDO   | El número de tarjeta ingresado es incorrecto. Verifica e inténtalo nuevamente.              |
-| TARJETA_REPORTADA            | La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.         |
-| ERROR                        | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago. |
+| Título                          | Descripción                                                                                 |
+| :------------------------------ | :------------------------------------------------------------------------------------------ |
+| FONDOS\_INSUFICIENTES           | Saldo insuficiente para realizar la transacción.                                            |
+| RECHAZADO\_POR\_BANCO           | Tu banco rechazó la transacción. Contáctate con ellos para más información.                 |
+| TRANSACCION\_RECHAZADA          | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.            |
+| CODIGO\_DE\_SEGURIDAD\_INVALIDO | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                    |
+| DATOS\_DE\_TARJETA\_INVALIDOS   | Los datos de la tarjeta ingresados son incorrectos. Verifica e inténtalo nuevamente.        |
+| NUMERO\_DE\_TARJETA\_INVALIDO   | El número de tarjeta ingresado es incorrecto. Verifica e inténtalo nuevamente.              |
+| TARJETA\_REPORTADA              | La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.         |
+| ERROR                           | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago. |
 
 ## Prueba tu integración
 
@@ -158,6 +158,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
