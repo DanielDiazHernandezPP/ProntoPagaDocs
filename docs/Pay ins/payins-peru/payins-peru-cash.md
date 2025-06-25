@@ -69,10 +69,10 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace con la hoja
 
 El cliente verá en pantalla y recibirá en su correo electrónico la hoja de pago, que contendrá:
 
-- Monto a pagar
-- Código de pago
-- Instituciones en las que puede hacer el pago 
-- Instrucciones para hacer el pago 
+* Monto a pagar
+* Código de pago
+* Instituciones en las que puede hacer el pago 
+* Instrucciones para hacer el pago 
 
 ### Confirmación de un pago
 
@@ -90,6 +90,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
