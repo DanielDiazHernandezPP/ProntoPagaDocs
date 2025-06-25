@@ -18,23 +18,9 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/933d0090646d5cc0354e287b4d84eccd245130527f44959c81db060d5744af76-peru_-_04.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/933d0090646d5cc0354e287b4d84eccd245130527f44959c81db060d5744af76-peru_-_04.jpg" />
 
-
-1. **Selección de método. **El cliente elige pagar con wallet (Yape) en tu sitio web o aplicación. 
+1. **Selección de método.** El cliente elige pagar con wallet (Yape) en tu sitio web o aplicación. 
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** Se le solicita al cliente un código de aprobación. Puede ingresar a su aplicación a través de un botón de acceso rápido, obtener el código y luego ingresarlo para aprobar el pago.
 4. **Validación.** ProntoPaga valida que el código sea correcto. En caso de serlo, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio. 
@@ -44,8 +30,8 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 Es posible integrar el servicio de pago con Botón Yape de dos formas en ProntoPaga:
 
-- Usando nuestro iFrame para el front-end.
-- Vía 100% API, sin usar nuestro iFrame (tu comercio tendrá el manejo total del front-end del checkout).
+* Usando nuestro iFrame para el front-end.
+* Vía 100% API, sin usar nuestro iFrame (tu comercio tendrá el manejo total del front-end del checkout).
 
 ## Crea un nuevo pago con iFrame
 
@@ -65,22 +51,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "200px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="200px" src="https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png" />
 
 ### Body de la solicitud
 
@@ -106,7 +77,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 ### Pago en la wallet
@@ -179,7 +150,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 ```
 
 > 🚧 Número de teléfono
-> 
+>
 > Tu comercio ya tiene registrado el número de teléfono del usuario (tu cliente) al crear el pago. Por lo que en este paso, recomendamos que el campo de teléfono **no sea editable en tu front-end.** Por lo tanto, el número de teléfono que se envíe en el request de este endpoint debe ser el mismo que el usado al crear el pago.
 
 ### Respuesta
@@ -189,39 +160,24 @@ Como respuesta a una solicitud de procesamiento de pago exitosa recibirás el `u
 En caso de ocurrir un error, nuestro sistema te enviaré el código y mensaje de error, el cual podrás mostrar en tu front-end.
 
 > 🚧 Tipos de rechazo y datos de prueba
-> 
+>
 > Consulta los posibles tipos de rechazo para este método, su código y detalle en [esta página](https://docs.prontopaga.com/docs/payins-rejections#yape---primarios). Además, consulta los datos de prueba con diferentes escenarios [aquí.](https://docs.prontopaga.com/docs/test-data-cards-peru#bot%C3%B3n-yape)
 
 ### Recomendaciones generales para tu front-end
 
 Si estás integrando pagos con Yape sin nuestro iFrame, estas son algunas recomendaciones generales que te damos para construir el front-end de tu checkout:
 
-- Que el logo de Yape aparezca hasta arriba.
-- Que haya un texto describiendo brevemente lo que el cliente debe hacer.
-- Que la zona para ingresar el celular esté separada en espacio para el código de país y espacio para el número de teléfono. 
-- Que en la parte en donde se debe ingresar el OTP, el número de teléfono no sea editable (es decir, que sea el mismo que se mandó durante la creación del pago).
-- Que el OTP valide que solo se puedan ingresar números, y que solo sean dígitos del 1 al 9, si se ajustan celdas una a una. También se puede crear una sola celda que valide que sean 6 dígitos numéricos máximo.
-- Que exista un mensaje debajo del OTP, diciendo que pueden encontrar ese código en el menú de su aplicación de Yape. Para dispositivos móviles, agregar un deeplink de Yape al lado o debajo del OTP, con el mensaje "Abre tu Yape". Este deeplink redirecciona automáticamente al usuario a la sección de "Código de aprobación" de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
-- Que el botón de pago diga "Yapear" en vez de "Pagar", para mayor personalización, así como el monto exacto.
+* Que el logo de Yape aparezca hasta arriba.
+* Que haya un texto describiendo brevemente lo que el cliente debe hacer.
+* Que la zona para ingresar el celular esté separada en espacio para el código de país y espacio para el número de teléfono. 
+* Que en la parte en donde se debe ingresar el OTP, el número de teléfono no sea editable (es decir, que sea el mismo que se mandó durante la creación del pago).
+* Que el OTP valide que solo se puedan ingresar números, y que solo sean dígitos del 1 al 9, si se ajustan celdas una a una. También se puede crear una sola celda que valide que sean 6 dígitos numéricos máximo.
+* Que exista un mensaje debajo del OTP, diciendo que pueden encontrar ese código en el menú de su aplicación de Yape. Para dispositivos móviles, agregar un deeplink de Yape al lado o debajo del OTP, con el mensaje "Abre tu Yape". Este deeplink redirecciona automáticamente al usuario a la sección de "Código de aprobación" de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
+* Que el botón de pago diga "Yapear" en vez de "Pagar", para mayor personalización, así como el monto exacto.
 
 Puedes ver un ejemplo de las anteriores recomendaciones aplicadas en esta imagen:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/933b1e6be8cf3243b46a018e64cf2c8f87c2ad05a2873fcfc4cc9579b6eed6b7-yapesintelef.jpg",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "300px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="300px" src="https://files.readme.io/933b1e6be8cf3243b46a018e64cf2c8f87c2ad05a2873fcfc4cc9579b6eed6b7-yapesintelef.jpg" />
 
 ## Prueba tu integración
 
@@ -231,6 +187,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
