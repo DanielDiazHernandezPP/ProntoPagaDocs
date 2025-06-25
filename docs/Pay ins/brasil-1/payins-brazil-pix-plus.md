@@ -35,28 +35,14 @@ PIX+ (Open Finance) es un servicio de pagos instantáneos que permite a los usua
 
 El proceso de pago con PIX+ (Open Finance) consta de seis etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5991e52161cfe59eff8a4a23a46b957a9e8494f8ab11e6f4e2460217d72bb434-Pipx-02.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/5991e52161cfe59eff8a4a23a46b957a9e8494f8ab11e6f4e2460217d72bb434-Pipx-02.png" />
 
 1. **Selección de método.** El cliente elige pagar con PIX+ (Open Finance) en tu sitio web o aplicación. 
-2. **Listado de bancos. **Se le muestra un listado de bancos al cliente, en donde podrá seleccionar el que desee usar para hacer el pago. 
+2. **Listado de bancos.** Se le muestra un listado de bancos al cliente, en donde podrá seleccionar el que desee usar para hacer el pago. 
 3. **Redirección al banco** Al seleccionar un banco, el cliente es redirigido a la aplicación del banco en su teléfono móvil.
 4. **Pago en aplicación.** El cliente accede a la aplicación indicada y realiza el pago siguiendo las instrucciones en pantalla. 
 5. **Captura.** El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio. 
-6. **Confirmación. **El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+6. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 ### Crea un nuevo pago
 
@@ -114,9 +100,9 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/ana_escalante_prontopaga_com/EvoLzSVLQBtBtvUlXKCUPtkByzlMhjY7LLux9Dc6Dvmlzw?e=fMKXW0).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/ana_escalante_prontopaga_com/EvoLzSVLQBtBtvUlXKCUPtkByzlMhjY7LLux9Dc6Dvmlzw?e=fMKXW0).
 
 ## PIX+ v2
 
@@ -182,6 +168,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment-brazil-pixplusv2).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment-brazil-pixplusv2).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
