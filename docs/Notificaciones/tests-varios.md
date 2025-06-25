@@ -18,7 +18,7 @@ next:
 
 <div class="enlace">
 
-[Descarga solo texto](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
+[Descarga solo texto](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
 
 </div>
 
