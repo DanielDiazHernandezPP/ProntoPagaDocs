@@ -30,8 +30,8 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 Es posible integrar el servicio **Botón Yape: One Shot** de dos maneras:
 
-- **Versión web.**
-- **Versión mobile.**
+* **Versión web.**
+* **Versión mobile.**
 
 A continuación, verás las instrucciones para la versión web. Más abajo, dentro de esta misma página, verás los pasos para la versión mobile. Para una navegación más rápida, te sugerimos usar el índice de la derecha.
 
@@ -71,7 +71,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 #### Confirmación de un pago
@@ -79,7 +79,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
 
 > 📘 Notificación del estado de la transacción
-> 
+>
 > Para configurar el webhook que irá en el campo `urlConfirmation` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
@@ -136,7 +136,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 #### Confirmación de un pago
@@ -144,7 +144,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
 
 > 📘 Notificación del estado de la transacción
-> 
+>
 > Para configurar el webhook que irá en el campo `urlConfirmation` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
