@@ -42,7 +42,7 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 ### Ubicaciones
 
-🌎 Conoce los puntos PonleMas **cercanos a ti **en el mapa disponible en [esta página](https://promociones.ponlemas.com/wsUbicacionPDV/Home/ComerciosCercanos/) ⬅️
+🌎 Conoce los puntos PonleMas **cercanos a ti** en el mapa disponible en [esta página](https://promociones.ponlemas.com/wsUbicacionPDV/Home/ComerciosCercanos/) ⬅️
 
 #### Especificaciones
 
