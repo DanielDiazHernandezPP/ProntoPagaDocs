@@ -31,27 +31,13 @@ PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Cen
 
 El proceso de payout con QR/Wallet PIX consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8ca29e682667c63a0323926a1ed2216aaec0c665ead429c0f8e043d59b45e92b-Pipx-01.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/8ca29e682667c63a0323926a1ed2216aaec0c665ead429c0f8e043d59b45e92b-Pipx-01.jpg" />
 
-
-1. **Selección de método. **El cliente elige retirar dinero con PIX en tu sitio web o aplicación. 
+1. **Selección de método.** El cliente elige retirar dinero con PIX en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado y confirma la transacción. 
 3. **Validación de datos.** ProntoPaga valida la infomación e inicia la solicitud del retiro.
 4. **Captura.**  Se aprueba el retiro y el dinero se mueve desde la cuenta del comercio hacia la cuenta del cliente.  
-5. **Confirmación. **El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+5. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo retiro
 
