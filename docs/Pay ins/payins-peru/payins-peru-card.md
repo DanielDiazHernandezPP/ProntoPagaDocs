@@ -27,27 +27,13 @@ next:
 ---
 Crear un pago con tarjeta en Perú consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un bearer token y una firma secreta. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (_challenges_) correspondientes para validar o rechazar transacciones.
+Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (*challenges*) correspondientes para validar o rechazar transacciones.
 
 ## ¿Cómo funciona?
 
 El proceso de pago con tarjeta en Perú consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/341224d75b1d4619ee7ff57c93c63a3c05300691f309dfd6b92f8e18e518af38-peru_-_01.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/341224d75b1d4619ee7ff57c93c63a3c05300691f309dfd6b92f8e18e518af38-peru_-_01.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico. Si tienes activadas las opciones, el cliente verá también la opción de pagar en cuotas y la de recordar tarjeta. 
@@ -63,65 +49,23 @@ El pago con tarjeta en Perú cuenta con características extras. Algunas de ella
 
 El switch de pago con cuotas puede encenderse o apagarse desde la Consola. Al estar encendido, la opción de cuotas se mostrará en automático en el formulario. El número de cuotas son definidas por el emisor de la tarjeta, así como por el banco del usuario. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/deee08d0ef65a7124c0f6208436b93e0c3035b039ea3c069b930786377102a0f-cuotas.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/deee08d0ef65a7124c0f6208436b93e0c3035b039ea3c069b930786377102a0f-cuotas.png" />
 
 ### Recordar tarjeta
 
 Esta función también puede ser controlada desde la Consola. Si se habilita, al cliente le aparecerá un campo extra en su formulario de pago con la opción de recordar su tarjeta para futuras compras. Podrá asignarle un alias a cada tarjeta que decida guardar:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/05694f34656428e9cabb3184d9f52bde33c4eb8d1628f5146329b52849ee3f0b-recordar.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/05694f34656428e9cabb3184d9f52bde33c4eb8d1628f5146329b52849ee3f0b-recordar.png" />
 
 > 📘 Monedas
-> 
+>
 > Si el cliente guarda una tarjeta después de un pago en soles, esa tarjeta guardada solo se podrá utilizar para pagos futuros en soles. Si desea usarla en dólares, deberá guardarla nuevamente en dólares.
 
 ### Pago con tarjetas foráneas
 
 Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectará en automático cuando se trata de una tarjeta de este tipo, con lo cual, el cliente verá dos campos extras en su formulario de pagos (ciudad y país de la tarjeta):
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png" />
 
 ## Crea un nuevo pago
 
@@ -240,59 +184,217 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 
 A continuación se muestran varios posibles casos de rechazo junto con su código y descripción. Además, incluimos posibles datos de prueba para utilizar en cada caso:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Código",
-    "h-1": "Descripción",
-    "h-2": "Datos de prueba para casos denegados",
-    "0-0": "101",
-    "0-1": "Tarjeta vencida",
-    "0-2": "4024007126919058  \n03/19  \n111",
-    "1-0": "102",
-    "1-1": "Operación no permitida para esta tarjeta",
-    "1-2": "4916122919724598  \n03/28  \n111",
-    "2-0": "113",
-    "2-1": "Monto no permitido",
-    "2-2": "4242424242424242  \n03/28  \n111",
-    "3-0": "116",
-    "3-1": "Fondos insuficientes",
-    "3-2": "4041650444437904  \n03/28  \n111",
-    "4-0": "118",
-    "4-1": "Tarjeta inválida",
-    "4-2": "4111111111111111  \n03/28  \n111",
-    "5-0": "129",
-    "5-1": "Tarjeta no operativa",
-    "5-2": "4534410925317008  \n03/28  \n111",
-    "6-0": "208",
-    "6-1": "Tarjeta perdida",
-    "6-2": "4557885040264791  \n03/28  \n111",
-    "7-0": "209",
-    "7-1": "Tarjeta robada",
-    "7-2": "4557883870910971  \n03/28  \n111",
-    "8-0": "666",
-    "8-1": "Problemas de comunicación",
-    "8-2": "4285975261967724  \n03/28  \n111",
-    "9-0": "670",
-    "9-1": "Transacción denegada por posible fraude",
-    "9-2": "4551707477308329  \n03/28  \n111",
-    "10-0": "679",
-    "10-1": "Error de autenticación",
-    "10-2": "4732453453776393  \n03/28  \n111",
-    "11-0": "191",
-    "11-1": "Contactar emisor",
-    "11-2": "4539676788512233  \n03/28  \n111"
-  },
-  "cols": 3,
-  "rows": 12,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Código
+      </th>
 
+      <th>
+        Descripción
+      </th>
+
+      <th>
+        Datos de prueba para casos denegados
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        101
+      </td>
+
+      <td>
+        Tarjeta vencida
+      </td>
+
+      <td>
+        4024007126919058\
+        03/19\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        102
+      </td>
+
+      <td>
+        Operación no permitida para esta tarjeta
+      </td>
+
+      <td>
+        4916122919724598\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        113
+      </td>
+
+      <td>
+        Monto no permitido
+      </td>
+
+      <td>
+        4242424242424242\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        116
+      </td>
+
+      <td>
+        Fondos insuficientes
+      </td>
+
+      <td>
+        4041650444437904\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        118
+      </td>
+
+      <td>
+        Tarjeta inválida
+      </td>
+
+      <td>
+        4111111111111111\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        129
+      </td>
+
+      <td>
+        Tarjeta no operativa
+      </td>
+
+      <td>
+        4534410925317008\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        208
+      </td>
+
+      <td>
+        Tarjeta perdida
+      </td>
+
+      <td>
+        4557885040264791\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        209
+      </td>
+
+      <td>
+        Tarjeta robada
+      </td>
+
+      <td>
+        4557883870910971\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        666
+      </td>
+
+      <td>
+        Problemas de comunicación
+      </td>
+
+      <td>
+        4285975261967724\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        670
+      </td>
+
+      <td>
+        Transacción denegada por posible fraude
+      </td>
+
+      <td>
+        4551707477308329\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        679
+      </td>
+
+      <td>
+        Error de autenticación
+      </td>
+
+      <td>
+        4732453453776393\
+        03/28\
+        111
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        191
+      </td>
+
+      <td>
+        Contactar emisor
+      </td>
+
+      <td>
+        4539676788512233\
+        03/28\
+        111
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## Prueba tu integración
 
@@ -302,6 +404,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
