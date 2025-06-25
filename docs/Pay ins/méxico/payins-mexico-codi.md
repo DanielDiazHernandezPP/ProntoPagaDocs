@@ -39,7 +39,6 @@ De este modo, el cliente podrá escanear el QR con la aplicación de CoDi o con 
 A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json
-
 ```
 
 ### Respuesta
@@ -62,6 +61,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/ana_escalante_prontopaga_com/EvoLzSVLQBtBtvUlXKCUPtkByzlMhjY7LLux9Dc6Dvmlzw?e=fMKXW0).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/ana_escalante_prontopaga_com/EvoLzSVLQBtBtvUlXKCUPtkByzlMhjY7LLux9Dc6Dvmlzw?e=fMKXW0).
