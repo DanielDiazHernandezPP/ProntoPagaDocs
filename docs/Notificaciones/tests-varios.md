@@ -18,7 +18,7 @@ next:
 
 <div class="enlace">
 
-[Descarga solo texto](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
+[Descarga solo texto](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
 
 </div>
 
@@ -49,31 +49,17 @@ next:
 <br />
 
 > 📘 ASAA
-> 
+>
 > CAsa
 
 <NotaFirma />
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6e52a1e15051ba76b3802d4441bb26ef72f064dd19b315f052b69d39f626d45f-image_15.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/6e52a1e15051ba76b3802d4441bb26ef72f064dd19b315f052b69d39f626d45f-image_15.png" />
 
 <br />
 
 > 📘 ASAA
-> 
+>
 > CAsa
