@@ -29,21 +29,7 @@ Crear un pago en efectivo en Perú consiste en capturar los datos necesarios del
 
 El proceso de pago con efectivo en Perú consta de seis etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4064ebeacb9246b61a55911d539385ffd7af7b7d2d1d5ceb7f90bd44f9df32a7-peru_-_02.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/4064ebeacb9246b61a55911d539385ffd7af7b7d2d1d5ceb7f90bd44f9df32a7-peru_-_02.jpg" />
 
 1. **Ingreso de datos.** Después de seleccionar los productos o servicios a comprar, el cliente ingresa sus datos personales en un formulario. 
 2. **Selección de método.** El cliente elige pagar con efectivo en tu sitio web o aplicación. 
@@ -96,10 +82,10 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace con la hoja
 
 El cliente verá en pantalla y recibirá en su correo electrónico la hoja de pago, que contendrá:
 
-- Monto a pagar
-- Código de pago
-- Instituciones en las que puede hacer el pago 
-- Instrucciones para hacer el pago 
+* Monto a pagar
+* Código de pago
+* Instituciones en las que puede hacer el pago 
+* Instrucciones para hacer el pago 
 
 ### Confirmación de un pago
 
@@ -117,6 +103,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
