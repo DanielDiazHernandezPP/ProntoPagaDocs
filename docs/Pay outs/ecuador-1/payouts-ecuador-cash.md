@@ -25,9 +25,9 @@ next:
 ---
 En Ecuador puedes crear retiros en efectivo a través de los siguientes servicios:
 
-- [Red Activa / Western Union](https://docs.prontopaga.com/docs/payouts-ecuador-cash#red-activa--western-union)
-- [Bemovil](https://docs.prontopaga.com/docs/payouts-ecuador-cash#bemovil)
-- [Ponle más](https://docs.prontopaga.com/docs/payouts-ecuador-cash#ponle-m%C3%A1s)
+* [Red Activa / Western Union](https://docs.prontopaga.com/docs/payouts-ecuador-cash#red-activa--western-union)
+* [Bemovil](https://docs.prontopaga.com/docs/payouts-ecuador-cash#bemovil)
+* [Ponle más](https://docs.prontopaga.com/docs/payouts-ecuador-cash#ponle-m%C3%A1s)
 
 ## Red Activa / Western Union
 
