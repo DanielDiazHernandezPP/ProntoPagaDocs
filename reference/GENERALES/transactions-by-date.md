@@ -27,11 +27,11 @@ next:
 ---
 ProntoPaga te permite hacer consultas de tus transacciones a través de este endpoint, en el cual puedes seleccionar:
 
-- Periodo de tiempo (fecha inicial y fecha final).
-- Tipo de transacción.
-- Número de página.
-- Cantidad de registros por página.
+* Periodo de tiempo (fecha inicial y fecha final).
+* Tipo de transacción.
+* Número de página.
+* Cantidad de registros por página.
 
 > 📘 IVA y comisión
-> 
+>
 > Los pagos que tengan un estado diferente a `success` no traerán el detalle del IVA ni de las comisiones en la respuesta de este endpoint.
