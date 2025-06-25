@@ -30,23 +30,9 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/933d0090646d5cc0354e287b4d84eccd245130527f44959c81db060d5744af76-peru_-_04.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/933d0090646d5cc0354e287b4d84eccd245130527f44959c81db060d5744af76-peru_-_04.jpg" />
 
-
-1. **Selección de método. **El cliente elige pagar con wallet (Yape) en tu sitio web o aplicación. 
+1. **Selección de método.** El cliente elige pagar con wallet (Yape) en tu sitio web o aplicación. 
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** Se le solicita al cliente un código de aprobación. Puede ingresar a su aplicación a través de un botón de acceso rápido, obtener el código y luego ingresarlo para aprobar el pago.
 4. **Validación.** ProntoPaga valida que el código sea correcto. En caso de serlo, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio. 
@@ -70,21 +56,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png" />
 
 ### Body de la solicitud
 
@@ -138,6 +110,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
