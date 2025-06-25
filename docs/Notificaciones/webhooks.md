@@ -58,7 +58,7 @@ Ejemplo:
 ```
 
 > 📘 Estados de las transacciones
-> 
+>
 > Conoce los posibles estados de los pay ins en [este enlace](https://docs.prontopaga.com/docs/payins-status). Los estados de los pay outs, los puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/payouts-status).
 
 ## Estructura de la notificación
@@ -77,8 +77,8 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 | order                 | string |
 | currency              | string |
 | country               | string |
-| method_type           | string |
-| method_detail         | string |
+| method\_type          | string |
+| method\_detail        | string |
 | hash                  | string |
 | note                  | string |
 | sign                  | string |
