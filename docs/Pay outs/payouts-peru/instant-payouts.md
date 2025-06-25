@@ -30,8 +30,8 @@ Hacer un retiro en Perú a una cuenta bancaria o interbancaria consiste en captu
 
 ProntoPaga te permite hacer retiros instantáneos en Perú. Para ello, cuentas con dos modalidades disponibles:
 
-- Retiros vía CCI (Cuenta bancaria / Cuenta interbancaria), los cuales se cubren en esta página.
-- [Retiros vía wallet.](https://docs.prontopaga.com/docs/instant-withdrawal-wallet)
+* Retiros vía CCI (Cuenta bancaria / Cuenta interbancaria), los cuales se cubren en esta página.
+* [Retiros vía wallet.](https://docs.prontopaga.com/docs/instant-withdrawal-wallet)
 
 A continuación, puedes encontrar información detallada de cómo hacer retiros vía CCI.
 
@@ -39,25 +39,11 @@ A continuación, puedes encontrar información detallada de cómo hacer retiros 
 
 El proceso de payout con transferencia (retiros instantáneos) en Perú consta de cuatro etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/149a54f4d90599dd421fbd4e89786257bb12ae426173ca0bf8852615248dfa92-Peru-01.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/149a54f4d90599dd421fbd4e89786257bb12ae426173ca0bf8852615248dfa92-Peru-01.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero por medio de transferencia en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como banco, número de cuenta bancaria e interbancaria y tipo de cuenta) y confirma la transacción. 
-3. **Validación y Captura. **ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
+3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Lista de bancos
