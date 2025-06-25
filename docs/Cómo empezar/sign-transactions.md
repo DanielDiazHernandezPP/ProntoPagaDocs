@@ -42,7 +42,7 @@ Para firmar tus transacciones, sigue estos pasos:
 ```
 
 > 📘 Parámetros
-> 
+>
 > Todos los parámetros deben estar en la firma, excepto el parámetro "sign" (que es en donde va la firma).
 
 Entonces, la cadena ordenada para la firma deberá tener este aspecto:
