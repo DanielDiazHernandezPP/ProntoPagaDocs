@@ -191,21 +191,21 @@ Estos son los tipos de pagos rechazados en Perú.
 
 A continuación se listan los posibles **rechazos secundarios** al realizar un pago con Yape (aparecerán en el formulario de pago):
 
-| YAPE_ACTION_CODE | YAPE_ACTION_DESCRIPTION                            |
-| :--------------- | :------------------------------------------------- |
-| 410              | Operacion denegada. OTP Incorrecto                 |
-| 411              | Operacion denegada. Cuenta Inactiva                |
-| 412              | Operacion Denegada. Cuenta no permitida            |
-| 413              | Limite diario excedido                             |
-| 414              | Operacion denegada. OTP Bloqueado                  |
-| 415              | Operacion denegada. Cuenta no asociada al programa |
-| 416              | Error codigo yape Incorrecto                       |
-| 417              | Error codigo yape Incorrecto                       |
-| 418              | Error codigo yape Incorrecto                       |
-| 503              | Operacion denegada. Problemas de comunicacion      |
-| 504              | Operacion denegada. Problemas de comunicacion      |
-| 511              | Operacion denegada. Problemas de comunicacion      |
-| 599              | Operacion denegada. Problemas de comunicacion      |
+| YAPE\_ACTION\_CODE | YAPE\_ACTION\_DESCRIPTION                          |
+| :----------------- | :------------------------------------------------- |
+| 410                | Operacion denegada. OTP Incorrecto                 |
+| 411                | Operacion denegada. Cuenta Inactiva                |
+| 412                | Operacion Denegada. Cuenta no permitida            |
+| 413                | Limite diario excedido                             |
+| 414                | Operacion denegada. OTP Bloqueado                  |
+| 415                | Operacion denegada. Cuenta no asociada al programa |
+| 416                | Error codigo yape Incorrecto                       |
+| 417                | Error codigo yape Incorrecto                       |
+| 418                | Error codigo yape Incorrecto                       |
+| 503                | Operacion denegada. Problemas de comunicacion      |
+| 504                | Operacion denegada. Problemas de comunicacion      |
+| 511                | Operacion denegada. Problemas de comunicacion      |
+| 599                | Operacion denegada. Problemas de comunicacion      |
 
 ### Yape y Tarjeta
 
