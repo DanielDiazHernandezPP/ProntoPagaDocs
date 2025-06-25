@@ -20,8 +20,8 @@ next:
 ---
 Dentro de tu Consola cuentas con un Balance general (wallet empresarial). Este balance se subdivide en diferentes tipos de saldos, que a continuación se detallan:
 
-- **Saldo Neto: **Saldo total del comercio, contando el saldo ya disponible para retiro y el saldo diferido.
-- **Saldo Diferido: **Saldo a la espera de cumplir el tiempo necesario para estar disponible.
-- **Saldo Bloqueado: **Saldo bloqueado por procesos de contracargos.
-- **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
-- **Pendiente por Retiro:** Saldo en retiros pendientes.
+* **Saldo Neto:** Saldo total del comercio, contando el saldo ya disponible para retiro y el saldo diferido.
+* **Saldo Diferido:** Saldo a la espera de cumplir el tiempo necesario para estar disponible.
+* **Saldo Bloqueado:** Saldo bloqueado por procesos de contracargos.
+* **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
+* **Pendiente por Retiro:** Saldo en retiros pendientes.
