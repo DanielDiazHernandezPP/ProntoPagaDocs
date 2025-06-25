@@ -29,38 +29,24 @@ Crear un pago en Chile con Webpay consiste en capturar los datos necesarios del 
 
 **Hay dos formas de integrar Webpay como método de pago en tu comercio:**
 
-- [Redirección a Webpay (flujo completo)](https://docs.prontopaga.com/docs/payins-chile-card#redirecci%C3%B3n-a-webpay-flujo-completo): En este flujo, el cliente es redirigido desde tu sitio al portal de Webpay para ingresar los datos de su tarjeta y completar el pago. Al finalizar, es redirigido de vuelta a tu sitio web, con el resultado de la transacción.
-- [Webpay en iFrame (flujo embebido)](https://docs.prontopaga.com/docs/payins-chile-card#webpay-en-iframe-flujo-embebido): Para quienes desean mantener al cliente dentro del mismo sitio, sin redirecciones. Este flujo permite abrir un iFrame o modal directamente en tu página, integrando el formulario de pago de Webpay en tu interfaz. 
+* [Redirección a Webpay (flujo completo)](https://docs.prontopaga.com/docs/payins-chile-card#redirecci%C3%B3n-a-webpay-flujo-completo): En este flujo, el cliente es redirigido desde tu sitio al portal de Webpay para ingresar los datos de su tarjeta y completar el pago. Al finalizar, es redirigido de vuelta a tu sitio web, con el resultado de la transacción.
+* [Webpay en iFrame (flujo embebido)](https://docs.prontopaga.com/docs/payins-chile-card#webpay-en-iframe-flujo-embebido): Para quienes desean mantener al cliente dentro del mismo sitio, sin redirecciones. Este flujo permite abrir un iFrame o modal directamente en tu página, integrando el formulario de pago de Webpay en tu interfaz. 
 
 > ❗️ Función Beta
-> 
+>
 > Actualmente, la función embebida está en Beta, bajo pruebas supervisadas con comercios específicos. Cuando esté disponible para todos, será notificado y agregado a la versión principal de esta documentación.
 
 ***
 
 # Redirección a Webpay (flujo completo)
 
-En esta modalidad, la transacción se inicia en tu sitio y se redirecciona al entorno de Webpay, en donde el cliente completa el proceso de pago en un ambiente seguro administrado por Transbank. Es decir, esta implementación utiliza el _checkout_ de Webpay. Al finalizar el pago, el usuario es redirigido de vuelta a tu sitio, en donde se le muestra el resultado final de la transacción.
+En esta modalidad, la transacción se inicia en tu sitio y se redirecciona al entorno de Webpay, en donde el cliente completa el proceso de pago en un ambiente seguro administrado por Transbank. Es decir, esta implementación utiliza el *checkout* de Webpay. Al finalizar el pago, el usuario es redirigido de vuelta a tu sitio, en donde se le muestra el resultado final de la transacción.
 
 ## ¿Cómo funciona?
 
 El proceso de pago con tarjeta en Chile consta de seis etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/142fd0e9bcf0ba84714c8cd3817dbba89c667b35ed12b60fd341a149b7ee125c-Chile-01.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/142fd0e9bcf0ba84714c8cd3817dbba89c667b35ed12b60fd341a149b7ee125c-Chile-01.png" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta (Webpay) en tu sitio web o aplicación. 
 2. **Redirección a Webpay.** El cliente es redirigido al portal de Webpay, en donde ingresa los datos de su tarjeta. 
@@ -120,7 +106,7 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 # Webpay en iFrame (flujo embebido)
 
 > ❗️ Función Beta
-> 
+>
 > Actualmente, esta función está en Beta, bajo pruebas supervisadas con comercios específicos. Cuando esté disponible para todos, será notificado y agregado a la versión principal de esta documentación.
 
 En este flujo, el cliente realiza el pago directamente en tu sitio, sin ser redirigido a otra página. Al generar la transacción, se abre un iFrame o modal con el formulario de Webpay integrado, lo que permite mantener la experiencia de compra dentro de tu misma interfaz. 
@@ -184,6 +170,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
