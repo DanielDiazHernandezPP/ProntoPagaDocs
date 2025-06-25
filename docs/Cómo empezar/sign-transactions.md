@@ -19,7 +19,7 @@ next:
   description: ''
 ---
 > 📘 Parámetros
-> 
+>
 > Todos los parámetros deben estar en la firma, excepto el parámetro "sign" (que es en donde va la firma).
 
 Para firmar tus transacciones, sigue estos tres pasos:
