@@ -25,14 +25,14 @@ next:
   description: ''
 ---
 > 📘 Datos del cliente
-> 
+>
 > Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
 
 La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
 
 ## Logos de los métodos de pago
 
-Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
+Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
 
 ## Métodos por país
 
@@ -42,41 +42,41 @@ Antes de finalizar tu integración, recuerda agregar los logotipos de los difere
 
 | Solución                 | Método de pago | Marca |
 | :----------------------- | :------------- | :---- |
-| QR/Wallet                | pix_payment    | Pix   |
-| QR/Wallet (Open-Finance) | belvo_payment  | Pix+  |
+| QR/Wallet                | pix\_payment   | Pix   |
+| QR/Wallet (Open-Finance) | belvo\_payment | Pix+  |
 
 ### Chile
 
-| Solución      | Método de pago        | Marca             |
-| :------------ | :-------------------- | :---------------- |
-| Tarjeta       | webpay_payment        | Webpay            |
-| Transferencia | PagaConTuBanco        | Paga con tu Banco |
-| QR/Wallet     | mercadopagoqr_payment | Mercado Pago      |
-| QR/Wallet     | mach_payment          | MACH              |
+| Solución      | Método de pago         | Marca             |
+| :------------ | :--------------------- | :---------------- |
+| Tarjeta       | webpay\_payment        | Webpay            |
+| Transferencia | PagaConTuBanco         | Paga con tu Banco |
+| QR/Wallet     | mercadopagoqr\_payment | Mercado Pago      |
+| QR/Wallet     | mach\_payment          | MACH              |
 
 ### Ecuador
 
-| Solución      | Método de pago    | Marca                      |
-| :------------ | :---------------- | :------------------------- |
-| Tarjeta       | ec_card_payment   | Payphone                   |
-| Transferencia | PagaConTuBanco    | Paga con tu Banco          |
-| Wallet        | payphone_payment  | Payphone                   |
-| Efectivo      | broadnet_payment  | Ponle más                  |
-| Efectivo      | bemovil_payment   | Bemovil                    |
-| Efectivo      | redactiva_payment | Red Activa / Western Union |
+| Solución      | Método de pago     | Marca                      |
+| :------------ | :----------------- | :------------------------- |
+| Tarjeta       | ec\_card\_payment  | Payphone                   |
+| Transferencia | PagaConTuBanco     | Paga con tu Banco          |
+| Wallet        | payphone\_payment  | Payphone                   |
+| Efectivo      | broadnet\_payment  | Ponle más                  |
+| Efectivo      | bemovil\_payment   | Bemovil                    |
+| Efectivo      | redactiva\_payment | Red Activa / Western Union |
 
 ### Perú
 
-| Solución      | Método de pago       | Marca             |
-| :------------ | :------------------- | :---------------- |
-| Tarjetas      | pe_card_payment      | VISA y MasterCard |
-| Transferencia | PagaConTuBanco       | Paga con tu banco |
-| Wallet        | yape_payment         | Botón Yape        |
-| QR            | pe_qr_payment        | QR                |
-| Efectivo      | pagoefectivo_payment | PagoEfectivo      |
+| Solución      | Método de pago        | Marca             |
+| :------------ | :-------------------- | :---------------- |
+| Tarjetas      | pe\_card\_payment     | VISA y MasterCard |
+| Transferencia | PagaConTuBanco        | Paga con tu banco |
+| Wallet        | yape\_payment         | Botón Yape        |
+| QR            | pe\_qr\_payment       | QR                |
+| Efectivo      | pagoefectivo\_payment | PagoEfectivo      |
 
 </div>
 
 > 👍 Solicitud a un banco específico (Direct Banks - Chile y Perú)
-> 
+>
 > Para hacer una solicitud a un banco específico, primero debes consultar el endpoint de [Lista de códigos bancarios](https://docs.prontopaga.com/reference/bank-codes), tomar el valor del campo `code` y colocarlo en el parámetro `bankCode` de este endpoint. Puedes ver un ejemplo en nuestra sección de [Recipes](https://docs.prontopaga.com/recipes/crea-un-solicitud-de-pago-a-un-banco-espec%C3%ADfico-direct-banks).
