@@ -27,13 +27,13 @@ Tarjetas para realizar pagos en modo prueba con el servicio de Webpay en Chile.
 
 | Tipo de tarjeta     | Detalle                                                      | Resultado                                                                          |
 | :------------------ | :----------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| VISA (crédito)      | 4051 8856 0044 6623 **CVV **123 Cualquier fecha de caducidad | Genera transacciones aprobadas.                                                    |
+| VISA (crédito)      | 4051 8856 0044 6623 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones aprobadas.                                                    |
 | AMEX                | 3700 0000 0002 032 **CVV** 1234 Cualquier fecha de caducidad | Genera transacciones aprobadas.                                                    |
 | MasterCard          | 5186 0595 5959 0568 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones rechazadas.                                                   |
 | Red compra (débito) | 4051 8842 3993 7763                                          | Genera transacciones aprobadas (para operaciones que permiten débito Red compra).  |
 | Red compra          | 4511 3466 6003 7060                                          | Genera transacciones aprobadas (para operaciones que permiten débito Red compra).  |
 | Red compra          | 5186 0085 4123 3829                                          | Genera transacciones rechazadas (para operaciones que permiten débito Red compra). |
-| Prepago VISA        | 4051 8860 0005 6590 **CVV** 123 msg_testCard4                | Genera transacciones aprobadas.                                                    |
+| Prepago VISA        | 4051 8860 0005 6590 **CVV** 123 msg\_testCard4               | Genera transacciones aprobadas.                                                    |
 | Prepago MasterCard  | 5186 1741 1062 9480 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones rechazadas.                                                   |
 
 Además, puedes usar los siguientes datos para tus pruebas con Webpay:
