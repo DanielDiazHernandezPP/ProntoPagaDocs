@@ -20,17 +20,4 @@ next:
 ---
 Los métodos con los que contamos en Perú, tanto para pay ins como para pay outs los podrás ver listados a continuación.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/37bc3ccad4a3398fdb6640c98e0d85ec9b8f1bfcb31118a6406aa2e2c0f35bfc-Coverage_in_Peru_1.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/37bc3ccad4a3398fdb6640c98e0d85ec9b8f1bfcb31118a6406aa2e2c0f35bfc-Coverage_in_Peru_1.png" />
