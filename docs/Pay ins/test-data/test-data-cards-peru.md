@@ -185,7 +185,7 @@ Datos para pruebas en el servicio Paga con tu banco de Perú.
 Datos para pruebas en el servicio de Botón Yape de Perú.
 
 > 🚧 Motivos de rechazo para integración sin iFrame
-> 
+>
 > Puedes revisar los posibles motivos de rechazo, así como el mensaje que tu comercio debe mostrar al cliente en su front-end en integraciones sin iFrame en [esta página](https://docs.prontopaga.com/docs/payins-rejections#yape---primarios).
 
 | Número de celular | OTP    | Detalle del escenario                                                                                                                                    |
@@ -195,8 +195,8 @@ Datos para pruebas en el servicio de Botón Yape de Perú.
 | 993355231         | 784592 | Cuenta en blacklist                                                                                                                                      |
 | 969929157         | 285743 | Límite diario excedido (> 500.00). **⚠️Nota:** En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP. |
 | 991055199         | 378458 | Cuenta bloqueada por OTP. **⚠️Nota:** En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP.          |
-| 995555126         | 678452 | Ausencia en F&F                                                                                                                                          |
+| 995555126         | 678452 | Ausencia en F\&F                                                                                                                                         |
 | 969929158         | 528475 | 1er intento de OTP incorrecto                                                                                                                            |
 | 969929158         | 074854 | 2do intento de OTP incorreto                                                                                                                             |
-| 969929158         | 875612 | 3er intento de OTP incorrecto. **⚠️Nota: **En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP.     |
+| 969929158         | 875612 | 3er intento de OTP incorrecto. **⚠️Nota:** En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP.     |
 | 969929157         | 000000 | OTP no generado                                                                                                                                          |
