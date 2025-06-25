@@ -1,0 +1,101 @@
+---
+title: Wallet Payphone
+excerpt: ''
+deprecated: false
+hidden: false
+metadata:
+  title: ''
+  description: >-
+    To make a payout to a wallet in Ecuador, capture the recipient's data and
+    send a request through the API with a bearer token and a secret signature to
+    authenticate and secure the transaction. You will receive an identifier and
+    the status of the withdrawal, and you can confirm the success of the
+    transaction in your webhook.
+  keywords:
+    - wallet payouts
+    - ' wallet payout'
+    - ' ecuador'
+    - ' wallet'
+    - ' guide'
+    - ' integration'
+    - ' prontopaga'
+    - ' how to make a wallet payout'
+  robots: index
+next:
+  description: ''
+---
+Hacer un retiro a una wallet en Ecuador consiste en capturar los datos necesarios de la persona que recibirá el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
+
+## ¿Cómo funciona?
+
+Payphone es una billetera digital ecuatoriana que permite recibir pagos, administrar dinero y realizar transacciones desde el celular. Para completar una transacción utilizando este método de retiro, el cliente debe seleccionar la opción "Retiro con Payphone", ingresar su número de teléfono registrado con la cuenta y confirmar la operación.
+
+El proceso de payout con Wallet Payphone consta de cuatro etapas principales:
+
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://files.readme.io/48d4a30ebbdf1146be448659c39934c68d582a110dbe367a3eef6d9f51cbb84b-Ecuador-03.jpg",
+        "",
+        ""
+      ],
+      "align": "center"
+    }
+  ]
+}
+[/block]
+
+
+1. **Selección de método.** El cliente elige retirar dinero por medio de wallet (Payphone) en tu sitio web o aplicación. 
+2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado y confirma la transacción. 
+3. **Validación y Captura. **ProntoPaga valida la infomación del retiro, hace la solicitud y mueve el dinero desde la cuenta del comercio hacia la cuenta Payphone del cliente.  
+4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+
+## Crea un nuevo retiro
+
+Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar [este endpoint](https://docs.prontopaga.com/reference/payout-ecuador-payphone). La solicitud se envía con tu Bearer Token, así como con tu secretKey. 
+
+<NotaFirma />
+
+Además, debes incluir los datos necesarios del cliente al que le mandarás el dinero, como: nombre, apellido, correo electrónico, teléfono, ID, entre otros.
+
+<NotaWebhooks />
+
+### Body de la solicitud
+
+A continuación puedes ver un ejemplo del body que se envía en la solicitud:
+
+```json
+{
+  "amount": "100.00",
+  "document_id": "12345678912",
+  "beneficiaryName": "John",
+  "beneficiaryLastName": "Doe",
+  "beneficiaryEmail": "johndoe@example.com",
+  "beneficiaryPhone": "999999999",
+  "accountType": "C",
+  "data": "1234",
+  "confirmationURL": "Webhook",
+  "currency": "USD",
+  "country": "EC",
+  "sign": "Signature of the parameters"
+}
+```
+
+### Respuesta
+
+Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema, el estado del retiro y datos adicionales de la transacción.
+
+### Confirmación de un retiro
+
+Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`. 
+
+Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+
+## Prueba tu integración
+
+Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
