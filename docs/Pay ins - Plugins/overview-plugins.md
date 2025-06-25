@@ -31,59 +31,16 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/prestashop).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/25c17c8c2e125e5eb175bb2335ac99e344dc97345dfc2b4512eca067eff7ca19-logo_prestashop.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "320px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="320px" src="https://files.readme.io/25c17c8c2e125e5eb175bb2335ac99e344dc97345dfc2b4512eca067eff7ca19-logo_prestashop.png" />
 
 ### 🧩 VTEX
 
 Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/vtex).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7b22a59702d3dfd2e5aeacf37c8417ae48fe0eb876aa9d36f90cf3c9aea0e7fa-VTEX_Logo.svg.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "300px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="300px" src="https://files.readme.io/7b22a59702d3dfd2e5aeacf37c8417ae48fe0eb876aa9d36f90cf3c9aea0e7fa-VTEX_Logo.svg.png" />
 
 ### 🧩 WooCommerce
 
 Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/woocommerce).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/97529e03f740ca262b79a67d48576abbc50993c1aca690acd6d9cfd405234f42-woocommerce_logo.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/97529e03f740ca262b79a67d48576abbc50993c1aca690acd6d9cfd405234f42-woocommerce_logo.png" />
