@@ -35,8 +35,8 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de se
 
 Es posible integrar el servicio **Yape On File: One Click Payment** de dos maneras:
 
-- **Versión web.**
-- **Versión mobile.**
+* **Versión web.**
+* **Versión mobile.**
 
 A continuación, verás las instrucciones para la versión web. Más abajo, dentro de esta misma página, verás los pasos para la versión mobile. Para una navegación más rápida, te sugerimos usar el índice de la derecha.
 
@@ -63,7 +63,7 @@ Para crear una solicitud de afiliación de tipo One Click Payment, deberás usar
 Si la afiliación se realizó con éxito, se mostrará el resultado de la transacción en pantalla. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
 
 > 🚧 Tiempo de expiración
-> 
+>
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
 ### Crea un One Click Payment
@@ -96,7 +96,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 #### Confirmación de un pago
@@ -104,7 +104,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
 
 > 📘 Notificación del estado de la transacción
-> 
+>
 > Para configurar el webhook que irá en el campo `urlConfirmation` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
@@ -115,57 +115,202 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 A continuación, se listan los posibles motivos de rechazo para un pago de tipo One Click Payment, así como los mensajes que se muestran en pantalla a tu cliente.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Motivo",
-    "h-1": "Mensaje ",
-    "0-0": "Error por cuenta yapera no existe o inactiva",
-    "0-1": "**Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.",
-    "1-0": "Error por tipo de cuenta yapera no soportada",
-    "1-1": "**Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.** Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.",
-    "2-0": "Error por cuenta yapera en blacklist",
-    "2-1": "**Por seguridad, tu cuenta Yape fue bloqueada.** Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.",
-    "3-0": "Error por cuenta yapera bloqueada para el canal e-commerce",
-    "3-1": "**Tu cuenta Yape está bloqueada temporalmente.** Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.",
-    "4-0": "Error por suscripción confirmada no existente",
-    "4-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.",
-    "5-0": "Error por no coincidencia del código de comercio de la suscripción",
-    "5-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.",
-    "6-0": "Error por límite diario excedido",
-    "6-1": "**Esta operación excede tu monto límite diario para compras por internet.** Vuelve a intentarlo el día de mañana.",
-    "7-0": "Error por autorización detectada como fraude",
-    "7-1": "**Detectamos una actividad sospechosa.** Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.",
-    "8-0": "Error por fondos insuficientes",
-    "8-1": "**Necesitas más saldo para este pago.** No cuentas con saldo suficiente para realizar este pago.",
-    "9-0": "Error por cuenta bancaria bloqueada",
-    "9-1": "**Tu cuenta asociada a Yape está bloqueada.** No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.",
-    "10-0": "Error por timeout en el proceso de transferencia",
-    "10-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.",
-    "11-0": "Error por cuenta yapera no encontrada",
-    "11-1": "**Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.",
-    "12-0": "Error por tarjeta BCP desactualizada",
-    "12-1": "**Necesitas asociar tu nueva tarjeta BCP a Yape.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.",
-    "13-0": "Error por tarjeta BCP bloqueada",
-    "13-1": "**Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.",
-    "14-0": "Error por tarjeta digital inválida",
-    "14-1": "**Tu cuenta está bloqueada.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.",
-    "15-0": "Error por tarjeta BCP vencida",
-    "15-1": "**Tu cuenta está vencida.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.",
-    "16-0": "Error por cuenta bancaria  \ncerrada",
-    "16-1": "**Tu cuenta asociada a Yape está cerrada.** No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.",
-    "17-0": "Error inesperado ocurrido en el servidor",
-    "17-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos."
-  },
-  "cols": 2,
-  "rows": 18,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Motivo
+      </th>
 
+      <th>
+        Mensaje 
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Error por cuenta yapera no existe o inactiva
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tipo de cuenta yapera no soportada
+      </td>
+
+      <td>
+        * \*Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.\*\* Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta yapera en blacklist
+      </td>
+
+      <td>
+        * \*Por seguridad, tu cuenta Yape fue bloqueada.\*\* Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta yapera bloqueada para el canal e-commerce
+      </td>
+
+      <td>
+        * \*Tu cuenta Yape está bloqueada temporalmente.\*\* Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por suscripción confirmada no existente
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por no coincidencia del código de comercio de la suscripción
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por límite diario excedido
+      </td>
+
+      <td>
+        * \*Esta operación excede tu monto límite diario para compras por internet.\*\* Vuelve a intentarlo el día de mañana.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por autorización detectada como fraude
+      </td>
+
+      <td>
+        * \*Detectamos una actividad sospechosa.\*\* Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por fondos insuficientes
+      </td>
+
+      <td>
+        * \*Necesitas más saldo para este pago.\*\* No cuentas con saldo suficiente para realizar este pago.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta bancaria bloqueada
+      </td>
+
+      <td>
+        * \*Tu cuenta asociada a Yape está bloqueada.\*\* No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por timeout en el proceso de transferencia
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta yapera no encontrada
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta BCP desactualizada
+      </td>
+
+      <td>
+        * \*Necesitas asociar tu nueva tarjeta BCP a Yape.\*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta BCP bloqueada
+      </td>
+
+      <td>
+        * \*Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.\*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta digital inválida
+      </td>
+
+      <td>
+        * \*Tu cuenta está bloqueada.\*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta BCP vencida
+      </td>
+
+      <td>
+        * \*Tu cuenta está vencida.\*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta bancaria\
+        cerrada
+      </td>
+
+      <td>
+        * \*Tu cuenta asociada a Yape está cerrada.\*\* No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error inesperado ocurrido en el servidor
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ### Devolución de un One Click Payment
 
@@ -230,7 +375,7 @@ Para crear una solicitud de afiliación de tipo One Click Payment, deberás usar
 Si la afiliación se realizó con éxito, se mostrará el resultado de la transacción en pantalla. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
 
 > 🚧 Tiempo de expiración
-> 
+>
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
 ### Crea un One Click Payment
@@ -263,7 +408,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 #### Confirmación de un pago
@@ -271,7 +416,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
 
 > 📘 Notificación del estado de la transacción
-> 
+>
 > Para configurar el webhook que irá en el campo `urlConfirmation` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
@@ -282,57 +427,202 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 A continuación, se listan los posibles motivos de rechazo para un pago de tipo One Click Payment, así como los mensajes que se muestran en pantalla a tu cliente.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Motivo",
-    "h-1": "Mensaje ",
-    "0-0": "Error por cuenta yapera no existe o inactiva",
-    "0-1": "**Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.",
-    "1-0": "Error por tipo de cuenta yapera no soportada",
-    "1-1": "**Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.** Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.",
-    "2-0": "Error por cuenta yapera en blacklist",
-    "2-1": "**Por seguridad, tu cuenta Yape fue bloqueada.** Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.",
-    "3-0": "Error por cuenta yapera bloqueada para el canal e-commerce",
-    "3-1": "**Tu cuenta Yape está bloqueada temporalmente.** Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.",
-    "4-0": "Error por suscripción confirmada no existente",
-    "4-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.",
-    "5-0": "Error por no coincidencia del código de comercio de la suscripción",
-    "5-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.",
-    "6-0": "Error por límite diario excedido",
-    "6-1": "**Esta operación excede tu monto límite diario para compras por internet.** Vuelve a intentarlo el día de mañana.",
-    "7-0": "Error por autorización detectada como fraude",
-    "7-1": "**Detectamos una actividad sospechosa.** Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.",
-    "8-0": "Error por fondos insuficientes",
-    "8-1": "**Necesitas más saldo para este pago.** No cuentas con saldo suficiente para realizar este pago.",
-    "9-0": "Error por cuenta bancaria bloqueada",
-    "9-1": "**Tu cuenta asociada a Yape está bloqueada.** No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.",
-    "10-0": "Error por timeout en el proceso de transferencia",
-    "10-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.",
-    "11-0": "Error por cuenta yapera no encontrada",
-    "11-1": "**Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.",
-    "12-0": "Error por tarjeta BCP desactualizada",
-    "12-1": "**Necesitas asociar tu nueva tarjeta BCP a Yape.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.",
-    "13-0": "Error por tarjeta BCP bloqueada",
-    "13-1": "**Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.",
-    "14-0": "Error por tarjeta digital inválida",
-    "14-1": "**Tu cuenta está bloqueada.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.",
-    "15-0": "Error por tarjeta BCP vencida",
-    "15-1": "**Tu cuenta está vencida.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.",
-    "16-0": "Error por cuenta bancaria  \ncerrada",
-    "16-1": "**Tu cuenta asociada a Yape está cerrada.** No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.",
-    "17-0": "Error inesperado ocurrido en el servidor",
-    "17-1": "**Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos."
-  },
-  "cols": 2,
-  "rows": 18,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Motivo
+      </th>
 
+      <th>
+        Mensaje 
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Error por cuenta yapera no existe o inactiva
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tipo de cuenta yapera no soportada
+      </td>
+
+      <td>
+        * \*Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.\*\* Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta yapera en blacklist
+      </td>
+
+      <td>
+        * \*Por seguridad, tu cuenta Yape fue bloqueada.\*\* Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta yapera bloqueada para el canal e-commerce
+      </td>
+
+      <td>
+        * \*Tu cuenta Yape está bloqueada temporalmente.\*\* Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por suscripción confirmada no existente
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por no coincidencia del código de comercio de la suscripción
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por límite diario excedido
+      </td>
+
+      <td>
+        * \*Esta operación excede tu monto límite diario para compras por internet.\*\* Vuelve a intentarlo el día de mañana.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por autorización detectada como fraude
+      </td>
+
+      <td>
+        * \*Detectamos una actividad sospechosa.\*\* Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por fondos insuficientes
+      </td>
+
+      <td>
+        * \*Necesitas más saldo para este pago.\*\* No cuentas con saldo suficiente para realizar este pago.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta bancaria bloqueada
+      </td>
+
+      <td>
+        * \*Tu cuenta asociada a Yape está bloqueada.\*\* No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por timeout en el proceso de transferencia
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta yapera no encontrada
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta BCP desactualizada
+      </td>
+
+      <td>
+        * \*Necesitas asociar tu nueva tarjeta BCP a Yape.\*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta BCP bloqueada
+      </td>
+
+      <td>
+        * \*Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.\*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta digital inválida
+      </td>
+
+      <td>
+        * \*Tu cuenta está bloqueada.\*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por tarjeta BCP vencida
+      </td>
+
+      <td>
+        * \*Tu cuenta está vencida.\*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por cuenta bancaria\
+        cerrada
+      </td>
+
+      <td>
+        * \*Tu cuenta asociada a Yape está cerrada.\*\* No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error inesperado ocurrido en el servidor
+      </td>
+
+      <td>
+        * \*Ocurrió un inconveniente.\*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ### Devolución de un One Click Payment
 
