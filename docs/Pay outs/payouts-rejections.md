@@ -91,7 +91,7 @@ El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pa
 },
 ```
 
-#### 5_1 - La cuenta corriente no coincide con el RUT
+#### 5\_1 - La cuenta corriente no coincide con el RUT
 
 El número de **cuenta corriente** no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros).
 
@@ -104,7 +104,7 @@ El número de **cuenta corriente** no coincide con el RUT ingresado (normalmente
 },
 ```
 
-#### 5_2 - La cuenta corriente no coincide con el RUT
+#### 5\_2 - La cuenta corriente no coincide con el RUT
 
 El número de **cuenta corriente** no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros).
 
@@ -117,7 +117,7 @@ El número de **cuenta corriente** no coincide con el RUT ingresado (normalmente
 },
 ```
 
-#### 5_3 - Cuenta corriente incorrecta
+#### 5\_3 - Cuenta corriente incorrecta
 
 El número de cuenta corriente del destinatario es incorrecto.
 
