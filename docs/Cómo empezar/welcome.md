@@ -20,7 +20,7 @@ metadata:
 next:
   description: ''
 ---
-Nuestra API te permitirá integrar nuestra amplia variedad de métodos de pago. La documentación de **ProntoPaga ** está diseñada para guiarte paso a paso en el proceso, asegurando que tengas todo lo necesario para comenzar a usar nuestra API de forma exitosa.
+Nuestra API te permitirá integrar nuestra amplia variedad de métodos de pago. La documentación de **ProntoPaga** está diseñada para guiarte paso a paso en el proceso, asegurando que tengas todo lo necesario para comenzar a usar nuestra API de forma exitosa.
 
 En **ProntoPaga**, somos líderes en el procesamiento de pagos en Latinoamérica, distinguiéndonos por nuestra rapidez y eficiencia en las transacciones. Nuestra plataforma ofrece una amplia gama de métodos de pago, incluyendo tarjetas de crédito, débito, prepago, pagos en efectivo y transferencias bancarias, garantizando así accesibilidad para todos, desde individuos hasta negocios. **Todo con una sola integración.**
 
