@@ -30,5 +30,5 @@ Estos son los posibles estados que pueden tener los pay outs.
 | canceled | Solicitud rechazada. Conoce los tipos de retiros rechazados [aquí.](https://docs.prontopaga.com/docs/payouts-rejections) |
 
 > 📘 Estado process y canceled
-> 
+>
 > El estado **process** se notifica al momento de procesar el retiro en la entidad bancaria. Sin embargo, el estado **canceled** se puede notificar antes de **process** si se detecta algún dato erróneo o un problema en la entidad bancaria.
