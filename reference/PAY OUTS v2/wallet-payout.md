@@ -30,7 +30,7 @@ next:
 Endpoint para crear un retiro desde el comercio a una wallet.
 
 > 📘 Wallets asociadas a un teléfono en Perú
-> 
+>
 > Para conocer la lista de wallets asociadas al número de teléfono celular del beneficiario en Perú, consulta primero [este endpoint](https://docs.prontopaga.com/reference/wallets-list).
 
 ## Lista completa de wallets por país
