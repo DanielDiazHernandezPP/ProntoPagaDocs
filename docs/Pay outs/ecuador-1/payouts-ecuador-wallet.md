@@ -32,25 +32,11 @@ Payphone es una billetera digital ecuatoriana que permite recibir pagos, adminis
 
 El proceso de payout con Wallet Payphone consta de cuatro etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/48d4a30ebbdf1146be448659c39934c68d582a110dbe367a3eef6d9f51cbb84b-Ecuador-03.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/48d4a30ebbdf1146be448659c39934c68d582a110dbe367a3eef6d9f51cbb84b-Ecuador-03.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero por medio de wallet (Payphone) en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado y confirma la transacción. 
-3. **Validación y Captura. **ProntoPaga valida la infomación del retiro, hace la solicitud y mueve el dinero desde la cuenta del comercio hacia la cuenta Payphone del cliente.  
+3. **Validación y Captura.** ProntoPaga valida la infomación del retiro, hace la solicitud y mueve el dinero desde la cuenta del comercio hacia la cuenta Payphone del cliente.  
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo retiro
