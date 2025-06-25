@@ -25,29 +25,15 @@ next:
 ---
 En Ecuador puedes crear retiros en efectivo a través de los siguientes servicios:
 
-- [Red Activa / Western Union](https://docs.prontopaga.com/docs/payouts-ecuador-cash#red-activa--western-union)
-- [Bemovil](https://docs.prontopaga.com/docs/payouts-ecuador-cash#bemovil)
-- [Ponle más](https://docs.prontopaga.com/docs/payouts-ecuador-cash#ponle-m%C3%A1s)
+* [Red Activa / Western Union](https://docs.prontopaga.com/docs/payouts-ecuador-cash#red-activa--western-union)
+* [Bemovil](https://docs.prontopaga.com/docs/payouts-ecuador-cash#bemovil)
+* [Ponle más](https://docs.prontopaga.com/docs/payouts-ecuador-cash#ponle-m%C3%A1s)
 
 ## ¿Cómo funciona?
 
 El proceso de payout con efectivo en Ecuador consta de seis etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8e05caca6fb699284abb15ec89188e5b6774f796319ab08cf642d6236b711c4c-Ecuador-01.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/8e05caca6fb699284abb15ec89188e5b6774f796319ab08cf642d6236b711c4c-Ecuador-01.jpg" />
 
 1. **Selección de método.** El cliente elige en tu sitio web o aplicación la opción de retirar dinero en efectivo. 
 2. **Cantidad.** El cliente selecciona la cantidad que desea retirar y confirma la transacción. 
