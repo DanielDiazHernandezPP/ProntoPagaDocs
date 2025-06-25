@@ -20,17 +20,4 @@ next:
 ---
 Los métodos con los que contamos en Chile, tanto para pay ins como para pay outs los podrás ver listados a continuación.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/41eecd41fc5ea4a56691acda0d277e3030ed8401a95d9ea48ab7a78886f69db4-Coverage_in_Chile_3.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/41eecd41fc5ea4a56691acda0d277e3030ed8401a95d9ea48ab7a78886f69db4-Coverage_in_Chile_3.png" />
