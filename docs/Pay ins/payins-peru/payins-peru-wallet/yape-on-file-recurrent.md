@@ -35,8 +35,8 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de seis eta
 
 Es posible integrar el servicio **Yape On File: Recurrencia** de dos maneras:
 
-- **Versión web.**
-- **Versión mobile.**
+* **Versión web.**
+* **Versión mobile.**
 
 A continuación, verás las instrucciones para la versión web. Más abajo, dentro de esta misma página, verás los pasos para la versión mobile. Para una navegación más rápida, te sugerimos usar el índice de la derecha.
 
@@ -63,7 +63,7 @@ Para crear una solicitud de afiliación de tipo Recurrencia, deberás usar [este
 Si la afiliación se realizó con éxito, se mostrará el resultado de la transacción en pantalla. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
 
 > 🚧 Tiempo de expiración
-> 
+>
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
 ### Haz un pago recurrente
@@ -96,7 +96,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 #### Confirmación de un pago
@@ -104,7 +104,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una notificación push con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
 
 > 📘 Notificación del estado de la transacción
-> 
+>
 > Para configurar el webhook que irá en el campo `urlConfirmation` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
@@ -191,7 +191,7 @@ Para crear una solicitud de afiliación de tipo Recurrencia, deberás usar [este
 Si la recurrencia se realizó con éxito, se mostrará el resultado de la transacción en pantalla. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
 
 > 🚧 Tiempo de expiración
-> 
+>
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
 ### Haz un pago recurrente
@@ -224,7 +224,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 ```
 
 > 🚧 Límite transaccional
-> 
+>
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
 #### Confirmación de un pago
@@ -232,7 +232,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una notificación push con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
 
 > 📘 Notificación del estado de la transacción
-> 
+>
 > Para configurar el webhook que irá en el campo `urlConfirmation` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
