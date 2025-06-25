@@ -25,83 +25,227 @@ Los límites transaccionales para pay ins en Chile se dividen en tres: límites 
 
 ### Límites transaccionales para el comercio
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de pago",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "h-4": "Máximo por semana",
-    "h-5": "Máximo por mes",
-    "0-0": "Tarjeta",
-    "0-1": "$50  \n(recomendación Adquirente)",
-    "0-2": "$7.000.000  \n(configurado por cada usuario)",
-    "0-3": "$40.000.000",
-    "0-4": "$60.000.000",
-    "0-5": "$200.000.000",
-    "1-0": "Transferencia",
-    "1-1": "$200  \n(depende del banco)",
-    "1-2": "$250.000 (primera transacción)  \n$5.000.000 (desde segunda trx)",
-    "1-3": "$250.000  \n(primera transacción)  \n$5.000.000  \n (desde segunda trx)",
-    "1-4": "$30.000.000  \n(monto diario por 7 días)",
-    "1-5": "$120.000.000  \n(monto semanal por 4 semanas)",
-    "2-0": "Wallet",
-    "2-1": "$1.000",
-    "2-2": "$100.000  \n(primer pago entre contactos MACH)  \nSin Límite  \n(entre contactos MACH a contar de la segunda trx)  \n$7.000.000  \n(wallet MercadoPago)",
-    "2-3": "$100.000  \n(primer pago entre contactos MACH)  \n$40.000.000",
-    "2-4": "$60.000.000",
-    "2-5": "$200.000.000"
-  },
-  "cols": 6,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Método de pago
+      </th>
 
+      <th style={{ textAlign: "left" }}>
+        Mínimo por transacción
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Máximo por transacción
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Máximo por día
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Máximo por semana
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Máximo por mes
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Tarjeta
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $50\
+        (recomendación Adquirente)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $7.000.000\
+        (configurado por cada usuario)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $40.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $60.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $200.000.000
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Transferencia
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $200\
+        (depende del banco)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $250.000 (primera transacción)\
+        $5.000.000 (desde segunda trx)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+         (desde segunda trx)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $30.000.000\
+        (monto diario por 7 días)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $120.000.000\
+        (monto semanal por 4 semanas)
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Wallet
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $1.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $100.000\
+        (primer pago entre contactos MACH)\
+        Sin Límite\
+        (entre contactos MACH a contar de la segunda trx)\
+        $7.000.000\
+        (wallet MercadoPago)
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $100.000\
+        (primer pago entre contactos MACH)\
+        $40.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $60.000.000
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        $200.000.000
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
 ### Límites del procesador
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de pago",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "0-0": "Tarjeta",
-    "0-1": "$50  \n(recomendación adquirente)",
-    "0-2": "NA  \n(configurado por cada usuario)",
-    "0-3": "NA",
-    "1-0": "Transferencia",
-    "1-1": "$200  \n(depende del banco)",
-    "1-2": "$250.000  \n(primera transacción)  \n$5.000.000  \n(desde segunda trx)",
-    "1-3": "$250.000 (primera transacción)  \n$5.000.000 (desde segunda trx)",
-    "2-0": "Wallet",
-    "2-1": "$1.000 ",
-    "2-2": "$100.000  \n(primer pago entre contactos MACH)  \nSin Límite  \n(entre contactos MACH a contar de la segunda trx)  \n$7.000.000  \n(wallet MercadoPago)",
-    "2-3": "$100.000  \n(primer pago entre contactos MACH)  \nSin Límite"
-  },
-  "cols": 4,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de pago
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Tarjeta
+      </td>
+
+      <td>
+        $50\
+        (recomendación adquirente)
+      </td>
+
+      <td>
+        NA\
+        (configurado por cada usuario)
+      </td>
+
+      <td>
+        NA
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        $200\
+        (depende del banco)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+        (desde segunda trx)
+      </td>
+
+      <td>
+        $250.000 (primera transacción)\
+        $5.000.000 (desde segunda trx)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Wallet
+      </td>
+
+      <td>
+        $1.000 
+      </td>
+
+      <td>
+        $100.000\
+        (primer pago entre contactos MACH)\
+        Sin Límite\
+        (entre contactos MACH a contar de la segunda trx)\
+        $7.000.000\
+        (wallet MercadoPago)
+      </td>
+
+      <td>
+        $100.000\
+        (primer pago entre contactos MACH)\
+        Sin Límite
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
@@ -123,73 +267,181 @@ Los límites transaccionales para pay outs en Chile se dividen en tres: límites
 
 ### Límite transaccional para el comercio
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de retiro",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día ",
-    "h-4": "Máximo por semana",
-    "h-5": "Máximo por mes",
-    "0-0": "Transferencia",
-    "0-1": "$200  \n(depende del banco)",
-    "0-2": "$250.000 (primera transacción)  \n$5.000.000 (desde segunda trx)",
-    "0-3": "$250.000  \n(primera transacción)  \n$5.000.000  \n(desde segunda trx)         ",
-    "0-4": "$30.000.000  \n(monto diario por 7 días)  ",
-    "0-5": "$120.000.000  \n(monto semanal por 4 semanas)",
-    "1-0": "Transferencia instantánea",
-    "1-1": "$200  \n(depende del banco)",
-    "1-2": "$250.000 (primera transacción)  \n$5.000.000 (desde segunda trx)",
-    "1-3": "$250.000  \n(primera transacción)  \n$5.000.000  \n (desde segunda trx)",
-    "1-4": "$30.000.000  \n(monto diario por 7 días)",
-    "1-5": "$120.000.000  \n(monto semanal por 4 semanas)"
-  },
-  "cols": 6,
-  "rows": 2,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de retiro
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día 
+      </th>
+
+      <th>
+        Máximo por semana
+      </th>
+
+      <th>
+        Máximo por mes
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        $200\
+        (depende del banco)
+      </td>
+
+      <td>
+        $250.000 (primera transacción)\
+        $5.000.000 (desde segunda trx)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+        (desde segunda trx)         
+      </td>
+
+      <td>
+        $30.000.000\
+        (monto diario por 7 días)  
+      </td>
+
+      <td>
+        $120.000.000\
+        (monto semanal por 4 semanas)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia instantánea
+      </td>
+
+      <td>
+        $200\
+        (depende del banco)
+      </td>
+
+      <td>
+        $250.000 (primera transacción)\
+        $5.000.000 (desde segunda trx)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+         (desde segunda trx)
+      </td>
+
+      <td>
+        $30.000.000\
+        (monto diario por 7 días)
+      </td>
+
+      <td>
+        $120.000.000\
+        (monto semanal por 4 semanas)
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
 ### Límites del procesador
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de retiro",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "0-0": "Transferencia",
-    "0-1": "$200  \n(depende del banco)",
-    "0-2": "$250.000  \n(primera transacción)  \n$5.000.000  \n(desde segunda trx)",
-    "0-3": "$250.000  \n(primera transacción)  \n$5.000.000  \n(desde segunda trx)",
-    "1-0": "Transferencia instantánea",
-    "1-1": "$200  \n(depende del banco)",
-    "1-2": "$250.000  \n(primera transacción)  \n$5.000.000  \n(desde segunda trx)",
-    "1-3": "$250.000  \n(primera transacción)  \n$5.000.000  \n(desde segunda trx)"
-  },
-  "cols": 4,
-  "rows": 2,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de retiro
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        $200\
+        (depende del banco)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+        (desde segunda trx)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+        (desde segunda trx)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia instantánea
+      </td>
+
+      <td>
+        $200\
+        (depende del banco)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+        (desde segunda trx)
+      </td>
+
+      <td>
+        $250.000\
+        (primera transacción)\
+        $5.000.000\
+        (desde segunda trx)
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
@@ -210,83 +462,201 @@ Los límites transaccionales para pay ins en Ecuador se dividen en tres: límite
 
 ### Límites transaccionales para el comercio
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de pago",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "h-4": "Máximo por semana",
-    "h-5": "Máximo por mes",
-    "0-0": "Efectivo",
-    "0-1": "1                                               ",
-    "0-2": "50",
-    "0-3": "No límite                                                            ",
-    "0-4": "No límite                                                         ",
-    "0-5": "No límite                                                         ",
-    "1-0": "Transferencia",
-    "1-1": "USD 0,26",
-    "1-2": "USD 7.700 (o la  \nconfiguración realizada por el usuario final)",
-    "1-3": "USD 42.000",
-    "1-4": "USD 66.000",
-    "1-5": "USD 220.000",
-    "2-0": "Wallet",
-    "2-1": "1",
-    "2-2": "1000",
-    "2-3": "1200",
-    "2-4": "USD 2.000  \n(límite mensual)",
-    "2-5": "USD 2.000  \n(límite mensual)"
-  },
-  "cols": 6,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de pago
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día
+      </th>
+
+      <th>
+        Máximo por semana
+      </th>
+
+      <th>
+        Máximo por mes
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Efectivo
+      </td>
+
+      <td>
+        1                                               
+      </td>
+
+      <td>
+        50
+      </td>
+
+      <td>
+        No límite                                                            
+      </td>
+
+      <td>
+        No límite                                                         
+      </td>
+
+      <td>
+        No límite                                                         
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        USD 0,26
+      </td>
+
+      <td>
+        USD 7.700 (o la\
+        configuración realizada por el usuario final)
+      </td>
+
+      <td>
+        USD 42.000
+      </td>
+
+      <td>
+        USD 66.000
+      </td>
+
+      <td>
+        USD 220.000
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Wallet
+      </td>
+
+      <td>
+        1
+      </td>
+
+      <td>
+        1000
+      </td>
+
+      <td>
+        1200
+      </td>
+
+      <td>
+        USD 2.000\
+        (límite mensual)
+      </td>
+
+      <td>
+        USD 2.000\
+        (límite mensual)
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
 ### Límites del procesador
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de pago",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "0-0": "Efectivo",
-    "0-1": "1",
-    "0-2": "100",
-    "0-3": "No límite",
-    "1-0": "Transferencia",
-    "1-1": "USD 0,26",
-    "1-2": "NA  \n(limite configurado por cada usuario)",
-    "1-3": "NA",
-    "2-0": "Wallet",
-    "2-1": "1",
-    "2-2": "1000",
-    "2-3": "1200"
-  },
-  "cols": 4,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de pago
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Efectivo
+      </td>
+
+      <td>
+        1
+      </td>
+
+      <td>
+        100
+      </td>
+
+      <td>
+        No límite
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        USD 0,26
+      </td>
+
+      <td>
+        NA\
+        (limite configurado por cada usuario)
+      </td>
+
+      <td>
+        NA
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Wallet
+      </td>
+
+      <td>
+        1
+      </td>
+
+      <td>
+        1000
+      </td>
+
+      <td>
+        1200
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
@@ -344,59 +714,175 @@ Los límites transaccionales para pay ins en Perú se dividen en tres: límites 
 
 ### Límites transaccionales para el comercio
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de pago",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "h-4": "Máximo por semana",
-    "h-5": "Máximo por mes",
-    "0-0": "Tarjeta",
-    "0-1": "S/ 1,00",
-    "0-2": "S/ 30.000",
-    "0-3": "S/ 160 000",
-    "0-4": "S/ 320.000",
-    "0-5": "S/ 800.000",
-    "1-0": "Efectivo",
-    "1-1": "S/ 1,00",
-    "1-2": "S/ 30.000",
-    "1-3": "S/ 160 000",
-    "1-4": "S/ 320.000",
-    "1-5": "S/ 800.000",
-    "2-0": "Transferencia",
-    "2-1": "S/ 1,00",
-    "2-2": "S/ 30,000 (o la  \nconfiguración realizada por el usuario final)",
-    "2-3": "S/ 160 000",
-    "2-4": "S/ 320.000",
-    "2-5": "S/ 800.000",
-    "3-0": "Wallet",
-    "3-1": "S/ 0,10",
-    "3-2": "S/ 500",
-    "3-3": "S/ 2,000 por usuario (pagador)  \nS/ 160,000 por comercio (receptor)",
-    "3-4": "S/ 320.000",
-    "3-5": "S/ 800.000",
-    "4-0": "QR",
-    "4-1": "S/ 0.10 (depende de cada wallet)",
-    "4-2": "S/ 500 (depende de cada wallet)",
-    "4-3": "Por usuario (pagador):  \n--> S/ 2,000 (Yape)  \n--> s/ 1,500  (Plin)  \n(Depende de configuración del usuario en cada wallet)  \n  \nPor comercio (receptor):  \n--> s/ 160,000",
-    "4-4": "S/ 320.000",
-    "4-5": "S/ 800.000"
-  },
-  "cols": 6,
-  "rows": 5,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de pago
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día
+      </th>
+
+      <th>
+        Máximo por semana
+      </th>
+
+      <th>
+        Máximo por mes
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Tarjeta
+      </td>
+
+      <td>
+        S/ 1,00
+      </td>
+
+      <td>
+        S/ 30.000
+      </td>
+
+      <td>
+        S/ 160 000
+      </td>
+
+      <td>
+        S/ 320.000
+      </td>
+
+      <td>
+        S/ 800.000
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Efectivo
+      </td>
+
+      <td>
+        S/ 1,00
+      </td>
+
+      <td>
+        S/ 30.000
+      </td>
+
+      <td>
+        S/ 160 000
+      </td>
+
+      <td>
+        S/ 320.000
+      </td>
+
+      <td>
+        S/ 800.000
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        S/ 1,00
+      </td>
+
+      <td>
+        S/ 30,000 (o la\
+        configuración realizada por el usuario final)
+      </td>
+
+      <td>
+        S/ 160 000
+      </td>
+
+      <td>
+        S/ 320.000
+      </td>
+
+      <td>
+        S/ 800.000
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Wallet
+      </td>
+
+      <td>
+        S/ 0,10
+      </td>
+
+      <td>
+        S/ 500
+      </td>
+
+      <td>
+        S/ 2,000 por usuario (pagador)\
+        S/ 160,000 por comercio (receptor)
+      </td>
+
+      <td>
+        S/ 320.000
+      </td>
+
+      <td>
+        S/ 800.000
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        QR
+      </td>
+
+      <td>
+        S/ 0.10 (depende de cada wallet)
+      </td>
+
+      <td>
+        S/ 500 (depende de cada wallet)
+      </td>
+
+      <td>
+        Por usuario (pagador):\
+        \--> S/ 2,000 (Yape)\
+        \--> s/ 1,500  (Plin)\
+        (Depende de configuración del usuario en cada wallet)  
+
+        Por comercio (receptor):\
+        \--> s/ 160,000
+      </td>
+
+      <td>
+        S/ 320.000
+      </td>
+
+      <td>
+        S/ 800.000
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
@@ -442,37 +928,84 @@ Los límites transaccionales para pay outs en Perú se dividen en tres: límites
 
 ### Límites del procesador
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Método de retiro",
-    "h-1": "Mínimo por transacción",
-    "h-2": "Máximo por transacción",
-    "h-3": "Máximo por día",
-    "0-0": "Transferencia",
-    "0-1": "NA",
-    "0-2": "Mismo banco NA  \nOtro bancos S/ 420,000",
-    "0-3": "NA",
-    "1-0": "Transferencia instantánea",
-    "1-1": "S/ 1,00",
-    "1-2": "S/ 30.000",
-    "1-3": "NA",
-    "2-0": "Wallet",
-    "2-1": "S/ 1,00",
-    "2-2": "S/ 30.000",
-    "2-3": "NA"
-  },
-  "cols": 4,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Método de retiro
+      </th>
 
+      <th>
+        Mínimo por transacción
+      </th>
+
+      <th>
+        Máximo por transacción
+      </th>
+
+      <th>
+        Máximo por día
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Transferencia
+      </td>
+
+      <td>
+        NA
+      </td>
+
+      <td>
+        Mismo banco NA\
+        Otro bancos S/ 420,000
+      </td>
+
+      <td>
+        NA
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Transferencia instantánea
+      </td>
+
+      <td>
+        S/ 1,00
+      </td>
+
+      <td>
+        S/ 30.000
+      </td>
+
+      <td>
+        NA
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Wallet
+      </td>
+
+      <td>
+        S/ 1,00
+      </td>
+
+      <td>
+        S/ 30.000
+      </td>
+
+      <td>
+        NA
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <br />
 
