@@ -32,21 +32,7 @@ Payphone es una billetera digital ecuatoriana que permite recibir pagos, adminis
 
 El proceso de pago con wallet en Ecuador consta de cuatro etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3490310339d9a60072aef598a1df7b2c241f3e63745d72763a64503622931cd4-Ecuador_-_03.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/3490310339d9a60072aef598a1df7b2c241f3e63745d72763a64503622931cd4-Ecuador_-_03.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con wallet (Payphone) en tu sitio web o aplicación. 
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago. 
@@ -113,6 +99,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
