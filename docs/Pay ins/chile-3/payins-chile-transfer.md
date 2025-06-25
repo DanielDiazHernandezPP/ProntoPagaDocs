@@ -32,21 +32,7 @@ Los pagos con transferencia son una forma común de realizar transacciones entre
 
 El proceso de pago con transferencia en Chile consta de cuatro etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/69fe50cdef55e7e15ea855157082a443a11feff735e1a6d32b6b769c1772bd2b-Chile-03.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/69fe50cdef55e7e15ea855157082a443a11feff735e1a6d32b6b769c1772bd2b-Chile-03.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con transferencia en tu sitio web o aplicación. 
 2. **Selección de banco.** Se le muestra un listado de bancos al cliente, en donde podrá seleccionar el suyo. 
@@ -88,7 +74,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 ```
 
 > 👍 Solicitud a un banco específico (Direct Banks - Chile y Perú)
-> 
+>
 > Para hacer una solicitud a un banco específico, primero debes consultar el endpoint de [Lista de códigos bancarios](https://docs.prontopaga.com/reference/bank-codes), tomar el valor del campo `code` y colocarlo en el parámetro `bankCode` de [este endpoint](https://docs.prontopaga.com/reference/create-payment).
 
 ### Respuesta
@@ -115,6 +101,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
