@@ -31,32 +31,18 @@ Conoce los puntos físicos de pago disponibles en [este artículo](https://docs.
 
 Red Activa / Western Union, BeMovil y PonleMás son redes y plataformas que operan en Ecuador y permiten realizar pagos en efectivo para servicios, recargas y otras transacciones. Para completar una transacción con cualquiera de estos métodos, el usuario debe seleccionar la opción correspondiente: 
 
-- Paga con Efectivo - Western Union | Red Activa 
-- Paga con Efectivo - BeMovil 
-- Paga con Efectivo - PonleMás 
+* Paga con Efectivo - Western Union | Red Activa 
+* Paga con Efectivo - BeMovil 
+* Paga con Efectivo - PonleMás 
 
 Luego, debe acudir al punto de atención más cercano con su código de pago y una identificación válida (cédula nacional, cédula de extranjería o pasaporte).
 
 El proceso de pago con efectivo en Ecuador consta de seis etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bf07abc6015467c1a8a44d3f2ff1f8f43eaa3c42cd73ae006bfe0bd47c135e6d-Ecuador_-_01.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/bf07abc6015467c1a8a44d3f2ff1f8f43eaa3c42cd73ae006bfe0bd47c135e6d-Ecuador_-_01.jpg" />
 
 1. **Ingreso de datos.** Después de seleccionar los productos o servicios a comprar, el cliente ingresa sus datos personales en un formulario. 
-2. **Selección de método. **El cliente elige pagar con efectivo en tu sitio web o aplicación. 
+2. **Selección de método.** El cliente elige pagar con efectivo en tu sitio web o aplicación. 
 3. **Hoja de pago**. ProntoPaga le entrega una hoja de pago personalizada al cliente, con un código de pago único, así como la información de los puntos físicos en donde puede realizar el pago. 
 4. **Pago en punto físico.** El cliente se dirige a uno de los puntos físicos con su hoja de pago y su identificación, y hace el depósito del efectivo. 
 5. **Validación de datos.** ProntoPaga valida la infomación del pago. 
@@ -106,10 +92,10 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace con la hoja
 
 El cliente verá en pantalla y recibirá en su correo electrónico la hoja de pago, que contendrá:
 
-- Monto a pagar
-- Código de pago
-- Instituciones en las que puede hacer el pago 
-- Instrucciones para hacer el pago 
+* Monto a pagar
+* Código de pago
+* Instituciones en las que puede hacer el pago 
+* Instrucciones para hacer el pago 
 
 ### Confirmación de un pago
 
@@ -127,6 +113,6 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
