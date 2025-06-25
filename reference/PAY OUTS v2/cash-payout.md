@@ -29,7 +29,7 @@ next:
 Endpoint para crear una nueva solicitud de retiro en efectivo. 
 
 > 📘 Webhook
-> 
+>
 > Una vez que el usuario haya completado el proceso de retiro, ProntoPaga devolverá los datos a la URL que hayas especificado en la `confirmationURL`.
 
 ## Plataformas
