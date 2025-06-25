@@ -32,21 +32,7 @@ MACH y Mercado Pago son billeteras digitales utilizadas en Chile que permiten re
 
 El proceso de pago con wallet en Chile consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d3c75fd752b1ff12a272919a8fc206ad0cb664c25b35e34488645bab9016f0b0-Chile-04.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/d3c75fd752b1ff12a272919a8fc206ad0cb664c25b35e34488645bab9016f0b0-Chile-04.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con wallet en tu sitio web o aplicación. 
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago. 
@@ -114,6 +100,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
