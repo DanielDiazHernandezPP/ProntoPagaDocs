@@ -30,27 +30,13 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 El proceso de pago con PIX consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png" />
 
-
-1. **Selección de método. **El cliente elige pagar con PIX en tu sitio web o aplicación. 
-2. **Generación de QR. **ProntoPaga le entrega un QR y un código único al cliente. 
-3. **Pago en aplicación. **El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla. 
-4. **Captura. **El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio. 
-5. **Confirmación. **El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+1. **Selección de método.** El cliente elige pagar con PIX en tu sitio web o aplicación. 
+2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente. 
+3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla. 
+4. **Captura.** El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio. 
+5. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo pago
 
@@ -124,6 +110,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
