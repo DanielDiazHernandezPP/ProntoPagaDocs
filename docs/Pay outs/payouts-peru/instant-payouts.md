@@ -30,8 +30,8 @@ Hacer un retiro en Perú a una cuenta bancaria o interbancaria consiste en captu
 
 ProntoPaga te permite hacer retiros instantáneos en Perú. Para ello, cuentas con dos modalidades disponibles:
 
-- Retiros vía CCI (Cuenta bancaria / Cuenta interbancaria), los cuales se cubren en esta página.
-- [Retiros vía wallet.](https://docs.prontopaga.com/docs/instant-withdrawal-wallet)
+* Retiros vía CCI (Cuenta bancaria / Cuenta interbancaria), los cuales se cubren en esta página.
+* [Retiros vía wallet.](https://docs.prontopaga.com/docs/instant-withdrawal-wallet)
 
 A continuación, puedes encontrar información detallada de cómo hacer retiros vía CCI.
 
