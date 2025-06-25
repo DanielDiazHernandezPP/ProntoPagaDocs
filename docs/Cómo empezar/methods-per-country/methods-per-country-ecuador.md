@@ -20,17 +20,4 @@ next:
 ---
 Los métodos con los que contamos en Ecuador, tanto para pay ins como para pay outs los podrás ver listados a continuación.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a39dc5d02df8230482304eea7c5c02cf64f536f2cfb77d085763256ead903a27-Coverage_in_Ecuador_2.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/a39dc5d02df8230482304eea7c5c02cf64f536f2cfb77d085763256ead903a27-Coverage_in_Ecuador_2.png" />
