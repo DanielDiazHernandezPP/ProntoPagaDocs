@@ -32,25 +32,11 @@ Transferencia es una forma de retirar fondos en Chile mediante transferencias ba
 
 El proceso de payout con transferencia en Chile consta de cuatro etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/13560fca486b2b1ac4120d7c4ba0c60c7efa2c93c9b080de22fe45e0a1327042-Chile-01.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/13560fca486b2b1ac4120d7c4ba0c60c7efa2c93c9b080de22fe45e0a1327042-Chile-01.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero por medio de transferencia en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como banco, número y tipo de cuenta) y confirma la transacción. 
-3. **Validación y Captura. **ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
+3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Lista de bancos
