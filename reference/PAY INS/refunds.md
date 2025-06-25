@@ -25,9 +25,9 @@ next:
   description: ''
 ---
 > 📘 Reembolsos
-> 
+>
 > Solo pagos exitosos pueden ser rembolsados
 
 > 👍 Tiempo máximo
-> 
+>
 > Actualmente no existe un tiempo máximo para realizar un reembolso. Si el dinero ya ingresó en tu cuenta de ProntoPaga, es posible realizar el reembolso cuando indiques que es necesario.
