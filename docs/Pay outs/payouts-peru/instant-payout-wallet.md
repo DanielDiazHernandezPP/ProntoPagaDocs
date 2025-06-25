@@ -26,8 +26,8 @@ Hacer un retiro en Perú a una wallet consiste en capturar los datos necesarios 
 
 ProntoPaga te permite hacer retiros instantáneos en Perú. Para ello, cuentas con dos modalidades disponibles:
 
-- [Retiros vía CCI](https://docs.prontopaga.com/docs/instant-withdrawals) (Cuenta bancaria / Cuenta interbancaria)
-- Retiros vía wallet.
+* [Retiros vía CCI](https://docs.prontopaga.com/docs/instant-withdrawals) (Cuenta bancaria / Cuenta interbancaria)
+* Retiros vía wallet.
 
 A continuación, puedes encontrar información detallada de cómo hacer retiros instantáneos desde el comercio a una wallet específica.
 
@@ -35,25 +35,11 @@ A continuación, puedes encontrar información detallada de cómo hacer retiros 
 
 El proceso de payout con wallet en Perú consta de cuatro etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/150951e1035b2d433aa2f6ee32afcbffa29cb598f966cb725da2ece36d368bfe-Peru-02.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/150951e1035b2d433aa2f6ee32afcbffa29cb598f966cb725da2ece36d368bfe-Peru-02.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero por medio de wallet en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como su número de teléfono y wallet) y confirma la transacción. 
-3. **Validación y Captura. **ProntoPaga valida la información del retiro, hace la solicitud de transferencia a la wallet y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
+3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia a la wallet y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Wallets disponibles
