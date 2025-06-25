@@ -19,17 +19,4 @@ next:
 ---
 Los métodos con los que contamos en Brasil, tanto para pay ins como para pay outs los podrás ver listados a continuación.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a026207d7bb4cbef07694be70b368268b704fafe04c739982fbd216a517ba922-Coverage_in_Brazil_1.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/a026207d7bb4cbef07694be70b368268b704fafe04c739982fbd216a517ba922-Coverage_in_Brazil_1.png" />
