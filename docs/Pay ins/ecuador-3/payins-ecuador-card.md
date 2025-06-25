@@ -36,21 +36,7 @@ PayPhone es un método de pago en línea utilizado en Ecuador que permite recibi
 
 El proceso de pago con tarjeta (Payphone) en Ecuador consta de cinco etapas principales:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/af15b14a7884f57ab27b9df13f97087233bfe5c854f2af06fbcaa6722a2fa7be-Payment_witch_card_-_Ecuador.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/af15b14a7884f57ab27b9df13f97087233bfe5c854f2af06fbcaa6722a2fa7be-Payment_witch_card_-_Ecuador.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación. 
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico. 
@@ -114,6 +100,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
 
-- No almacenar datos sensibles del cliente en tu base de datos.
-- Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-- Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
