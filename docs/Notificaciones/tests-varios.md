@@ -61,6 +61,6 @@ next:
 > CAsa
 
 \<details>
-&#x20; \<summary>Mostrar datos\<summary/>
+&#x20; \<summary>Mostrar datos\\\<summary/>
 &#x20;   \*\*Detalles\*\*
-&#x20;   \</details>
+&#x20;   \</details>&#x20;
