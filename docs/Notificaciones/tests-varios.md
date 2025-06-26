@@ -95,9 +95,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <br />
 
-<br />
-
-1. **Identificador del Cliente**
+#### Identificador del Cliente
 
 * [ ] ⚠️El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
 
