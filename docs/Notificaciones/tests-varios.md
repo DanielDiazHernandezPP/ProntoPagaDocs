@@ -64,7 +64,7 @@ next:
 
 <details>
   <summary>Ver más información aquí</summary>
-  <p>Esto es lo que aparecerá al hacer clic:</p>
+  <p>**Requisitos para la Certificación de Integración en Sandbox**</p>
 
   <ul>
     <li>Dato importante 1</li>
