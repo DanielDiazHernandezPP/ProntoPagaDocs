@@ -75,7 +75,10 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <a href="#modal-info" class="open-btn">Ver información detallada</a>
 
+\<!-- — Trigger para abrir el modal — -->
 
+\<a href="#modal-info" class="open-btn">Ver detalles de datos\</a>
+\<!-- — Modal — -->
 \<div id="modal-info" class="modal-window">
 &#x20; \<a href="#" class="modal-close">\</a>
 &#x20; \<div class="modal-box">
@@ -91,34 +94,3 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 &#x20; \</div>
 \</div>
 \<style>
-.modal-window \{
-&#x20; position: fixed;
-&#x20; top:0; left:0;
-&#x20; width:100%; height:100%;
-&#x20; background: rgba(0,0,0,0.6);
-&#x20; opacity: 0;
-&#x20; visibility: hidden;
-&#x20; transition: opacity 0.3s ease;
-}
-.modal-window:target \{
-&#x20; opacity: 1;
-&#x20; visibility: visible;
-}
-.modal-box \{
-&#x20; background: #fff;
-&#x20; padding: 1.5rem;
-&#x20; border-radius: 6px;
-&#x20; max-width: 500px;
-&#x20; margin: 10% auto;
-&#x20; position: relative;
-}
-.modal-close \{
-&#x20; position: absolute;
-&#x20; top:0; left:0;
-&#x20; width:100%; height:100%;
-}
-.modal-box a \{
-&#x20; margin-top:1rem;
-&#x20; display:inline-block;
-}
-\</style>
