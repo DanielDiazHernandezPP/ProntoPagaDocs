@@ -77,8 +77,6 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <br />
 
-\<!-- — Trigger para abrir el modal — -->
-
 \<a href="#modal-info" class="open-btn">Ver detalles de datos\</a>
 \<!-- — Modal — -->
 \<div id="modal-info" class="modal-window">
