@@ -73,19 +73,16 @@ aprobada.
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
-\<div class="table-five-columns">
-&#x20; \*\*Tabla 1\*\*
+| Identificador del Cliente                                                                                                            |
+| :----------------------------------------------------------------------------------------------------------------------------------- |
+| El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.                                                  |
+| Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado. |
+| Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.     |
 
-| Escenario                        | Número           | Mes / año | CVV | Código de acción |
-| :------------------------------- | :--------------- | :-------- | :-- | :--------------- |
-| Venta exitosa – con cuotas       | 4551708161768059 | 03/2028   | 111 | 000              |
-| Venta exitosa – afiliación a REC | 4474118355632240 | 03/2028   | 000 | 000              |
+1. **Identificador del Cliente**
 
-<a href="#modal-info" class="open-btn">Ver información detallada</a>
-
-<a href="#info">Ver detalles</a>
-
-<div id="info">
-  <h3>Información adicional</h3>
-  <p>Aquí puedes colocar la información que deseas mostrar.</p>
-</div>
+<Accordion title="Identificador del Cliente" icon="fa-info-circle">
+  <li>El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.</li>
+  <li>Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.</li>
+  <li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.</li>
+</Accordion>
