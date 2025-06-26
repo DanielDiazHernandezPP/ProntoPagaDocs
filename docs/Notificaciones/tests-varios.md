@@ -67,6 +67,8 @@ next:
 <details>
   <summary>**Ver más información aquí**</summary>
 
+  <br />
+
   <p>Esto es lo que aparecerá al hacer clic:</p>
 
   <ul>
