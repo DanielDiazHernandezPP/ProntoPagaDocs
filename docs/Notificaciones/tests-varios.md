@@ -77,15 +77,32 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <br />
 
-\<div id="modal-info" class="modal">
-&#x20; \<div class="modal-content">
-&#x20;   \<a href="#" class="close-btn">×\</a>
-&#x20;   \<h3>Tabla de datos\</h3>
-
-&#x20;   \<table border="1" style="width:100%; border-collapse: collapse;">
-&#x20;     \<tr>\<th>Clave\</th>\<th>Valor\</th>\</tr>
-&#x20;     \<tr>\<td>Dato A\</td>\<td>123\</td>\</tr>
-&#x20;     \<tr>\<td>Dato B\</td>\<td>456\</td>\</tr>
-&#x20;     \<tr>\<td>Dato C\</td>\<td>789\</td>\</tr>
-&#x20;   \</table>
-&#x20; \</div>
+\<style>
+.modal \{
+&#x20; visibility: hidden;
+&#x20; opacity: 0;
+&#x20; position: fixed; top: 0; left: 0;
+&#x20; width: 100%; height: 100%;
+&#x20; background: rgba(0,0,0,0.6);
+&#x20; transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.modal:target \{
+&#x20; visibility: visible;
+&#x20; opacity: 1;
+}
+.modal-content \{
+&#x20; position: relative;
+&#x20; margin: 10% auto;
+&#x20; background: #fff;
+&#x20; padding: 1.5rem;
+&#x20; border-radius: 6px;
+&#x20; max-width: 500px;
+}
+.close-btn \{
+&#x20; position: absolute;
+&#x20; top: 0.5rem; right: 1rem;
+&#x20; text-decoration: none;
+&#x20; font-size: 1.5rem;
+&#x20; color: #333;
+}
+\</style>
