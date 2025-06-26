@@ -98,7 +98,8 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 \<form>
 &#x20; \<label>
 &#x20;   \<input type="checkbox" name="task1"> Tarea 1
-&#x20; \</label>\<br>
+&#x20;     \</label>\<br>
+
 &#x20; \<label>
 &#x20;   \<input type="checkbox" name="task2"> Tarea 2
 &#x20; \</label>\<br>
