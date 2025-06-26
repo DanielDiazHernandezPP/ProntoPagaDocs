@@ -86,9 +86,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <br />
 
-\<!-- Enlace que abre el popup -->
-
-\<a href="#modal-info" class="open-btn">aqui\</a>
+\<a href="#modal-info" class="open-btn">Ver información detallada\</a>
 \<!-- Popup -->
 \<div id="modal-info" class="modal">
 &#x20; \<div class="modal-content">
