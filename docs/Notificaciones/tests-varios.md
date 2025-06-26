@@ -83,3 +83,22 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     <li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.</li>
   </ul>
 </details>
+
+<br />
+
+\<!-- Enlace que abre el popup -->
+
+\<a href="#modal-info" class="open-btn">aqui\</a>
+\<!-- Popup -->
+\<div id="modal-info" class="modal">
+&#x20; \<div class="modal-content">
+&#x20;   \<a href="#" class="close-btn">\&times;\</a>
+&#x20;   \<h3>Tabla de datos\</h3>
+&#x20;   \<table border="1" style="width:100%; border-collapse: collapse;">
+&#x20;     \<tr>\<th>Clave\</th>\<th>Valor\</th>\</tr>
+&#x20;     \<tr>\<td>Dato A\</td>\<td>123\</td>\</tr>
+&#x20;     \<tr>\<td>Dato B\</td>\<td>456\</td>\</tr>
+&#x20;     \<tr>\<td>Dato C\</td>\<td>789\</td>\</tr>
+&#x20;   \</table>
+&#x20; \</div>
+\</div>
