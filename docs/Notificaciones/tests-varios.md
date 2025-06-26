@@ -74,7 +74,7 @@ aprobada.
 ### Requisitos de Certificación
 
 <details>
-  <summary>Identificador del Cliente: RUT/DNI</summary>
+  <summary>**Identificador del Cliente: RUT/DNI**</summary>
   <p>Esto es lo que aparecerá al hacer clic:</p>
 
   <ul>
@@ -83,5 +83,3 @@ aprobada.
     <li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.</li>
   </ul>
 </details>
-
-\<p>
