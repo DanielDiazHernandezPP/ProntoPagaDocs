@@ -77,32 +77,53 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <br />
 
+<a href="#modal-info" class="open-btn">Ver detalles de datos</a>
+
+<br />
+
+\<div id="modal-info" class="modal-window">
+&#x20; \<a href="#" class="modal-close">\</a>
+&#x20; \<div class="modal-box">
+&#x20;   \<h3>Tabla de datos\</h3>
+&#x20;   \<table border="1" style="width:100%; border-collapse: collapse;">
+&#x20;     \<tr>\<th>Clave\</th>\<th>Valor\</th>\</tr>
+&#x20;     \<tr>\<td>Dato A\</td>\<td>123\</td>\</tr>
+&#x20;     \<tr>\<td>Dato B\</td>\<td>456\</td>\</tr>
+&#x20;     \<tr>\<td>Dato C\</td>\<td>789\</td>\</tr>
+&#x20;   \</table>
+&#x20;   \<br>
+&#x20;   \<a href="#">Cerrar\</a>
+&#x20; \</div>
+\</div>
 \<style>
-.modal \{
-&#x20; visibility: hidden;
-&#x20; opacity: 0;
-&#x20; position: fixed; top: 0; left: 0;
-&#x20; width: 100%; height: 100%;
+.modal-window \{
+&#x20; position: fixed;
+&#x20; top:0; left:0;
+&#x20; width:100%; height:100%;
 &#x20; background: rgba(0,0,0,0.6);
-&#x20; transition: opacity 0.3s ease, visibility 0.3s ease;
+&#x20; opacity: 0;
+&#x20; visibility: hidden;
+&#x20; transition: opacity 0.3s ease;
 }
-.modal:target \{
-&#x20; visibility: visible;
+.modal-window:target \{
 &#x20; opacity: 1;
+&#x20; visibility: visible;
 }
-.modal-content \{
-&#x20; position: relative;
-&#x20; margin: 10% auto;
+.modal-box \{
 &#x20; background: #fff;
 &#x20; padding: 1.5rem;
 &#x20; border-radius: 6px;
 &#x20; max-width: 500px;
+&#x20; margin: 10% auto;
+&#x20; position: relative;
 }
-.close-btn \{
+.modal-close \{
 &#x20; position: absolute;
-&#x20; top: 0.5rem; right: 1rem;
-&#x20; text-decoration: none;
-&#x20; font-size: 1.5rem;
-&#x20; color: #333;
+&#x20; top:0; left:0;
+&#x20; width:100%; height:100%;
+}
+.modal-box a \{
+&#x20; margin-top:1rem;
+&#x20; display:inline-block;
 }
 \</style>
