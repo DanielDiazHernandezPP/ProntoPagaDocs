@@ -63,7 +63,7 @@ next:
 <br />
 
 <details>
-  <summary>:pin: Ver más información aquí</summary>
+  <summary>Ver más información aquí</summary>
   <p>Esto es lo que aparecerá al hacer clic:</p>
 
   <ul>
