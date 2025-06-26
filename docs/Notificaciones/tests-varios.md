@@ -62,7 +62,7 @@ next:
 
 <br />
 
-<br />
+## Certifica tu integración
 
 <details>
   <summary>**Ver más información aquí**</summary>
