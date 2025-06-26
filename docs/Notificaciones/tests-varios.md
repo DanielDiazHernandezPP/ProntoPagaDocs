@@ -62,12 +62,13 @@ next:
 
 <br />
 
-<details>
-  <summary>Ver más información aquí</summary>
-  <p>**Requisitos para la Certificación de Integración en Sandbox**</p>
+\<details>
+&#x20; \<summary>Ver más información aquí\</summary>
+\<br>
+&#x20; \<p>\*\*Requisitos para la Certificación de Integración en Sandbox\*\*\</p>
 
-  <ul>
-    <li>Dato importante 1</li>
-    <li>Otro dato relevante</li>
-  </ul>
-</details>
+&#x20; \<ul>
+&#x20;   \<li>Dato importante 1\</li>
+&#x20;   \<li>Otro dato relevante\</li>
+&#x20; \</ul>
+\</details>
