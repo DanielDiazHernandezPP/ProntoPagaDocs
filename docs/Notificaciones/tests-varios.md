@@ -73,6 +73,15 @@ aprobada.
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
+\<div class="table-five-columns">
+&#x20; \*\*Tabla 1\*\*
+
+&#x20; \| Escenario                        | Número           | Mes / año | CVV | Código de acción |
+&#x20; \| :------------------------------- | :--------------- | :-------- | :-- | :--------------- |
+&#x20; \| Venta exitosa – con cuotas       | 4551708161768059 | 03/2028   | 111 | 000              |
+&#x20; \| Venta exitosa – afiliación a REC | 4474118355632240 | 03/2028   | 000 | 000              |
+
+
 <a href="#modal-info" class="open-btn">Ver información detallada</a>
 
 <a href="#info">Ver detalles</a>
