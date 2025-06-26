@@ -64,14 +64,14 @@ next:
 
 ## Certifica tu integración
 
-La certificación de la integración en sandbox es un paso obligatorio para todos los comercios antes de recibir\
-credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos,
-funcionales y de seguridad requeridos por ProntoPaga.
+La certificación de la integración en sandbox es un paso obligatorio para todos los comercios antes de recibir credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga.
 
 Este documento establece los requisitos mínimos que deben cumplirse sin excepción para que la certificación sea\
 aprobada.
 
 ### Requisitos de Certificación
+
+A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
 <details>
   <summary>**Identificador del Cliente: RUT/DNI**</summary>
