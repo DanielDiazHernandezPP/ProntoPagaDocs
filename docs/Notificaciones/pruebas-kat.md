@@ -27,6 +27,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
   <Tab title="Métodos de Pago">
     🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan inducir a error.
+
     ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
 
