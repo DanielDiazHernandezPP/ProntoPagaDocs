@@ -104,7 +104,3 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 * [ ] ⚠️Es recomendable que este dato no se muestre en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.
 
 * [ ] ⚠️Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
-
-<br />
-
-* <br />
