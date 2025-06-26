@@ -92,3 +92,20 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     Here's content that's only inside the third Tab.
   </Tab>
 </Tabs>
+
+<br />
+
+\<form>
+&#x20; \<label>
+&#x20;   \<input type="checkbox" name="Identificador del Cliente"> Tarea 1
+&#x20; \</label>\<br>
+&#x20; \<label>
+&#x20;   \<input type="checkbox" name="task2"> Tarea 2
+&#x20; \</label>\<br>
+&#x20; \<label>
+&#x20;   \<input type="checkbox" name="task3"> Tarea 3
+&#x20; \</label>\<br>
+&#x20; \<label>
+&#x20;   \<input type="checkbox" name="task4"> Tarea 4
+&#x20; \</label>\<br>
+\</form>
