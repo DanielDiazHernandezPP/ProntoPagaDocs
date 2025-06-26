@@ -81,6 +81,8 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 1. **Identificador del Cliente**
 
+\[ ]El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
+
 <Accordion title="Identificador del Cliente" icon="wa-info-circle">
   <li>\[ ]El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.</li>
   <li>\[ ]Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.</li>
