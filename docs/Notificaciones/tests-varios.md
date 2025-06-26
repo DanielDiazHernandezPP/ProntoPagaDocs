@@ -75,10 +75,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <a href="#modal-info" class="open-btn">Ver información detallada</a>
 
-<br />
 
-
-\<!-- — Modal — -->
 \<div id="modal-info" class="modal-window">
 &#x20; \<a href="#" class="modal-close">\</a>
 &#x20; \<div class="modal-box">
