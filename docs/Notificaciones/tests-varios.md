@@ -64,15 +64,25 @@ next:
 
 ## Certifica tu integración
 
-<details>
-  <summary>**Ver más información aquí**</summary>
+La certificación de la integración en sandbox es un paso obligatorio para todos los comercios antes de recibir\
+credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos,
+funcionales y de seguridad requeridos por ProntoPaga.
 
-  <br />
+Este documento establece los requisitos mínimos que deben cumplirse sin excepción para que la certificación sea\
+aprobada.
 
-  <p>Esto es lo que aparecerá al hacer clic:</p>
+### Requisitos de Certificación
 
-  <ul>
-    <li>Dato importante 1</li>
-    <li>Otro dato relevante</li>
-  </ul>
-</details>
+\<details>
+&#x20; \<summary>\*\*Identificador del Cliente: RUT/DNI\*\*\</summary>
+
+&#x20; \<br />
+
+&#x20; \<p>Esto es lo que aparecerá al hacer clic:\</p>
+
+&#x20; \<ul>
+&#x20;   \<li>El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.\</li>
+&#x20;   \<li>Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.\</li>
+&#x20;   \<li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.\<li>
+&#x20; \</ul>
+\</details>
