@@ -59,3 +59,12 @@ next:
 > 📘 ASAA
 >
 > CAsa
+
+\<details>
+&#x20; \<summary>Ver informacion aqui\</summary>
+&#x20; \<p>Esto es lo que aparecera al hacer clic:\<p>
+&#x20;   \<ul>
+&#x20;     \<li>Dato importante1\</li>
+&#x20;     \<li>Otro dato relevante\</li>
+&#x20;     \<ul>
+&#x20;       \</details>
