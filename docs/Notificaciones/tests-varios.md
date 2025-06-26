@@ -93,19 +93,9 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 </Tabs>
 
-<br />
+* [ ] El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
+* [ ] Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del\
+  usuario autenticado.
 
-\<form>
-&#x20; \<label>
-&#x20;   \<input checkbox> Tarea 1
-&#x20; \</label>\<br>
-&#x20; \<label>
-&#x20;   \<input type="checkbox" name="task2"> Tarea 2
-&#x20; \</label>\<br>
-&#x20; \<label>
-&#x20;   \<input type="checkbox" name="task3"> Tarea 3
-&#x20; \</label>\<br>
-&#x20; \<label>
-&#x20;   \<input type="checkbox" name="task4"> Tarea 4
-&#x20; \</label>\<br>
-\</form>
+
+* [ ] Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
