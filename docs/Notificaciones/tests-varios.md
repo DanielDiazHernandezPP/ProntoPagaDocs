@@ -73,21 +73,4 @@ aprobada.
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
-\<details>
-&#x20; \<summary>\*\*Identificador del Cliente: RUT/DNI\*\*\</summary>
-&#x20; \<p>Esto es lo que aparecerá al hacer clic:\</p>
-
-&#x20; \<ul>
-&#x20;   \<li>El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.\</li>
-&#x20;   \<li>Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.\</li>
-&#x20;   \<li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.\</li>
-&#x20; \</ul>
-\</details>
-
-\<div class="table-five-columns">
-&#x20; \*\*Tabla 1\*\*
-
-&#x20; \| Escenario                        | Número           | Mes / año | CVV | Código de acción |
-&#x20; \| :------------------------------- | :--------------- | :-------- | :-- | :--------------- |
-&#x20; \| Venta exitosa – con cuotas       | 4551708161768059 | 03/2028   | 111 | 000              |
-&#x20; \| Venta exitosa – afiliación a REC | 4474118355632240 | 03/2028   | 000 | 000              |
+<a href="#modal-info" class="open-btn">Ver información detallada</a>
