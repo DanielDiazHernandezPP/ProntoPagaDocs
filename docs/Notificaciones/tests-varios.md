@@ -75,25 +75,25 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <br />
 
-<Tabs>
-  <Tab title="Identificador del Cliente">
-    \[ ]El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
-    \[ ]Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.
-    \[ ]Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
-  </Tab>
+\<Tabs>
+&#x20; \<Tab title="Identificador del Cliente">
+&#x20;   \<li>\<input> type="checkbox"El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.\</li>
+&#x20;   \\\[ ]Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.
+&#x20;   \\\[ ]Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+&#x20; \</Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="Second Tab">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="Third Tab">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+&#x20; \<Tab title="Third Tab">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
+\</Tabs>
 
 <br />
 
