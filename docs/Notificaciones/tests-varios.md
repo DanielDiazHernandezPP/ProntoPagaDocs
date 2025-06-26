@@ -74,3 +74,10 @@ aprobada.
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
 <a href="#modal-info" class="open-btn">Ver información detallada</a>
+
+<a href="#info">Ver detalles</a>
+
+<div id="info">
+  <h3>Información adicional</h3>
+  <p>Aquí puedes colocar la información que deseas mostrar.</p>
+</div>
