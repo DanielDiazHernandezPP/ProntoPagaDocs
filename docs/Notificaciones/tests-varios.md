@@ -73,15 +73,15 @@ aprobada.
 
 ### Requisitos de Certificación
 
-\<details>
-&#x20; \<summary>\*\*Identificador del Cliente: RUT/DNI\*\*\</summary>
-&#x20; \<br>\</br>
-\<p>Esto es lo que aparecerá al hacer clic:\</p>
-&#x20; \<ul>
-\<li>El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.\</li>
-\<li>Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.\</li>
-\<li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.\<li>
-\</ul>
-\</details>
+<details>
+  <summary>Identificador del Cliente: RUT/DNI</summary>
+  <p>Esto es lo que aparecerá al hacer clic:</p>
+
+  <ul>
+    <li>El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.</li>
+    <li>Idealmente, este dato no debe mostrarse en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.</li>
+    <li>Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.</li>
+  </ul>
+</details>
 
 \<p>
