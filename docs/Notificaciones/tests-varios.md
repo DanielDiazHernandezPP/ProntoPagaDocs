@@ -60,11 +60,14 @@ next:
 >
 > CAsa
 
-\<details>\
-\<summary>Ver informacion aqui\</summary>
-\<p>Esto es lo que aparecera al hacer clic:\<p>
-\<ul>
-\<li>Dato importante1\</li>
-\<li>Otro dato relevante\</li>
-\<ul>
-\</details>
+<br />
+
+<details>
+  <summary>:pin: Ver más información aquí</summary>
+  <p>Esto es lo que aparecerá al hacer clic:</p>
+
+  <ul>
+    <li>Dato importante 1</li>
+    <li>Otro dato relevante</li>
+  </ul>
+</details>
