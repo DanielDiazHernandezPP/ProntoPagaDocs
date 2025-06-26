@@ -17,34 +17,30 @@ next:
 <a href="https://drive.google.com/uc?export=download&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr" download>Descarga los logos2</a>
 
 <div class="enlace">
-
-[Descarga solo texto](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
-
+  [Descarga solo texto](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
 </div>
 
 ## Espacios en tablas
 
-<div class="table-five-columns"> 
+<div class="table-five-columns">
+  **Tabla 1**
 
-**Tabla 1**
+  | Escenario                        | Número           | Mes / año | CVV | Código de acción |
+  | :------------------------------- | :--------------- | :-------- | :-- | :--------------- |
+  | Venta exitosa – con cuotas       | 4551708161768059 | 03/2028   | 111 | 000              |
+  | Venta exitosa – afiliación a REC | 4474118355632240 | 03/2028   | 000 | 000              |
 
-| Escenario                        | Número           | Mes / año | CVV | Código de acción |
-| :------------------------------- | :--------------- | :-------- | :-- | :--------------- |
-| Venta exitosa – con cuotas       | 4551708161768059 | 03/2028   | 111 | 000              |
-| Venta exitosa – afiliación a REC | 4474118355632240 | 03/2028   | 000 | 000              |
+  **Tabla 2**
 
-**Tabla 2**
-
-| Escenario                  | Número           | Mes / año | CVV | Código |
-| :------------------------- | :--------------- | :-------- | :-- | :----- |
-| Venta exitosa – con cuotas | 4551708161768059 | 03/2028   | 111 | 2      |
-| Venta exitosa – sin cuotas | 4474118355632240 | 03/2028   | 000 | 3      |
-
+  | Escenario                  | Número           | Mes / año | CVV | Código |
+  | :------------------------- | :--------------- | :-------- | :-- | :----- |
+  | Venta exitosa – con cuotas | 4551708161768059 | 03/2028   | 111 | 2      |
+  | Venta exitosa – sin cuotas | 4474118355632240 | 03/2028   | 000 | 3      |
 </div>
 
 <br />
 
-/// 
+///
 
 <br />
 
@@ -63,3 +59,8 @@ next:
 > 📘 ASAA
 >
 > CAsa
+
+\<details>
+&#x20; \<summary>Mostrar datos\<summary/>
+&#x20;   \*\*Detalles\*\*
+&#x20;   \</details>
