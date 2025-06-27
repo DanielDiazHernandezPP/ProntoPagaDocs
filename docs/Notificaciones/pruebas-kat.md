@@ -22,8 +22,9 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
   </Tab>
 
-  <Tab title="Métodos de Pago">
-    * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+  <Tab title="Logotipos">
+    * Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+      \*🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
 
@@ -38,7 +39,6 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
   <Tab title="Consideraciones importantes">
     * No almacenar datos sensibles del cliente en tu base de datos.
-    * Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
     * La certificación se otorga únicamente si estos requisitos se cumplen en su totalidad en el entorno de sandbox.
     * Una vez validada la integración, se habilitarán las credenciales para el entorno productivo.
     * El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
