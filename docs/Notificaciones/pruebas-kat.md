@@ -34,7 +34,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     ✅ El checkout debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
 
     ❗️ Es obligatorio mostrar:
-    ℹ️ Montos mínimos y máximos permitidos para cada método de pago.
+    ℹ️ Montos mínimos y máximos permitidos para cada método de pago.<br />
     ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
   </Tab>
 
