@@ -35,8 +35,8 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
     ❗️ Es obligatorio mostrar:
 
-    ℹ️ Montos mínimos y máximos permitidos para cada método de pago.
+    * ℹ️ Montos mínimos y máximos permitidos para cada método de pago.
 
-    ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
+    * ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
   </Tab>
 </Tabs>
