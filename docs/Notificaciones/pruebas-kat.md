@@ -36,3 +36,11 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     * ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
   </Tab>
 </Tabs>
+
+#### Consideraciones importantes
+
+* No almacenar datos sensibles del cliente en tu base de datos.
+* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+* La certificación se otorga únicamente si estos requisitos se cumplen en su totalidad en el entorno de sandbox.
+* Una vez validada la integración, se habilitarán las credenciales para el entorno productivo.
+* El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
