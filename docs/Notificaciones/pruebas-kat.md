@@ -15,30 +15,25 @@ Este documento establece los requisitos mínimos que deben cumplirse sin excepci
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
-<Tabs>
-  <Tab title="Identificador del Cliente">
-    ❌ El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
+\<Tabs>
+&#x20; \<Tab title="Identificador del Cliente">
+&#x20;   ❌ El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
 
-    ✅ Es recomendable que este dato no se muestre en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.
+&#x20;   ✅ Es recomendable que este dato no se muestre en el checkout. Puede estar disponible solo en la sección de perfil del usuario autenticado.
 
-    ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
-  </Tab>
+&#x20;   ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+&#x20; \</Tab>
 
-  <Tab title="Métodos de Pago">
-    🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+&#x20; \<Tab title="Métodos de Pago">
+&#x20;   🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
 
-    ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
-  </Tab>
+&#x20;   ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
+&#x20; \</Tab>
 
-  <Tab title=" Información Guiada y Mensajes al Usuario">
-    ✅ El checkout debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
+&#x20; \<Tab title=" Información Guiada y Mensajes al Usuario">
+&#x20;   ✅ El checkout debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
 
-    ❗️ Es obligatorio mostrar:
-    ℹ️ Montos mínimos y máximos permitidos para cada método de pago.<br />
-    ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
-  </Tab>
-
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+&#x20;   ❗️ Es obligatorio mostrar:
+&#x20;   ℹ️ Montos mínimos y máximos permitidos para cada método de pago.\<br />
+&#x20;   ℹ️ Estados transaccionales con claridad: por ejemplo, \*\*Transacción aprobada\*\* o \*\*Transacción rechazada\*\*, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
+&#x20; \</Tab>
