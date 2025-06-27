@@ -15,7 +15,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 <Tabs>
   <Tab title="ID del cliente">
-    * ❌ El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
+    * ❌ El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de la transacción.
     * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
     * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
   </Tab>
