@@ -25,13 +25,17 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Métodos de Pago">
-    🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan inducir a error.
+    🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
 
     ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title=" Información Guiada y Mensajes al Usuario">
+    ✅ El checkout debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
+
+    ❗️ Es obligatorio mostrar:
+    ℹ️ Montos mínimos y máximos permitidos para cada método de pago.
+    ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
   </Tab>
 
   <Tab title="Third Tab">
