@@ -12,8 +12,6 @@ Se utiliza el mismo texto tanto para payins y payouts, ambos son casi iguales, s
 1. El primer punto de la sección **Logotipos** (Agregar los logotipos de los diferentes métodos de pago y/o retiro...) y el segundo punto de la misma sección (Todos los nombres y logos de los métodos de pago y/o retiro...)
 2. El segundo punto de la sección **Mensajes al usuario** (Montos mínimos y máximos permitidos para cada método de pago y/o retiro.)
 
-***
-
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
@@ -52,9 +50,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 </Tabs>
 
-<br />
-
-<br />
+***
 
 # Opción 2
 
