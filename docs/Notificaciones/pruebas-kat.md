@@ -42,8 +42,3 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
   </Tab>
 </Tabs>
-
-<br />
-
-```
-```
