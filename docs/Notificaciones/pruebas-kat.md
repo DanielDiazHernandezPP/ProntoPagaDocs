@@ -15,8 +15,6 @@ Este documento establece los requisitos mínimos que deben cumplirse sin excepci
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
-<br />
-
 <Tabs>
   <Tab title="Identificador del Cliente">
     ❌ El DNI o RUT del cliente no debe ser modificable en ningún punto del flujo de pago.
