@@ -80,8 +80,20 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
       "name":"Consorcio"
    },
    {
+      "code":59,
+      "name":"Banco BTG Pactual Chile"
+   },
+   {
+      "code":62,
+      "name":"Tanner Banco Digital"
+   },
+   {
       "code":116,
       "name":"BCI (Mach)"
+   },
+   {
+      "code":267,
+      "name":"Transbank S.A."
    },
    {
       "code":504,
@@ -96,12 +108,40 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
       "name":"Coopeuch"
    },
    {
-      "code":730,
-      "name":"Tenpo"
+      "code":682,
+      "name":"Iswitch S.A. - Klap"
+   },
+   {
+      "code":697,
+      "name":"La Polar Prepago"
    },
    {
       "code":729,
       "name":"Prepago los Héroes"
+   },
+   {
+      "code":730,
+      "name":"Tenpo"
+   },
+   {
+      "code":732,
+      "name":"Tapp - Prepago los Andes - Caja los andes"
+   },
+   {
+      "code":738,
+      "name":"Global66"
+   },
+   {
+      "code":741,
+      "name":"Copec Pay"
+   },
+   {
+      "code":743,
+      "name":"Prex"
+   },
+   {
+      "code":746,
+      "name":"Fintual"
    },
    {
       "code":875,
