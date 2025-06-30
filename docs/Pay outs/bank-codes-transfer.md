@@ -104,7 +104,7 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
       "name":"Prepago los Héroes"
    },
    {
-      "code":874,
+      "code":875,
       "name":"MercadoPago”
    }
 ]
