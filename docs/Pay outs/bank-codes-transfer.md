@@ -92,10 +92,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
       "name":"BCI (Mach)"
    },
    {
-      "code":267,
-      "name":"Transbank S.A."
-   },
-   {
       "code":504,
       "name":"BBVA Chile"
    },
@@ -106,10 +102,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
    {
       "code":672,
       "name":"Coopeuch"
-   },
-   {
-      "code":682,
-      "name":"Iswitch S.A. - Klap"
    },
    {
       "code":697,
