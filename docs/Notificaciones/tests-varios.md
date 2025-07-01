@@ -74,5 +74,3 @@ next:
     <li>RUT</li>
   </ul>
 </details>
-
-jdjjdk
