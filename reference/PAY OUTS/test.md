@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: test
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''

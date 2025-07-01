@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: create-payment-chile-webpay-mall
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: Endpoint to create a new card payment with ProntoPaga in Chile (Webpay).

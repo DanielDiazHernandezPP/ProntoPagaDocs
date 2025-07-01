@@ -1,10 +1,10 @@
 ---
-title: Test nuevo endpoint
+title: post
 api:
   file: prontopaga-api.json
   operationId: get_new-endpoint
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
