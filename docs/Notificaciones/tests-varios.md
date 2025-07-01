@@ -64,12 +64,12 @@ next:
 
 ## Menú desplegable
 
-\<details>
-&#x20; \<summary>📌 Requisitos para la certificación\</summary>
-&#x20; \<ul>
-&#x20; \<p>ID del cliente:\</p>
-&#x20; \<ul>
-&#x20;   \<li>DNI\</li>
-&#x20;   \<li>RUT\</li>
-&#x20; \</ul>
-\</details>
+<details>
+  <summary>📌 Requisitos para la certificación</summary>
+  <p>ID del cliente:</p>
+
+  <ul>
+    <li>DNI</li>
+    <li>RUT</li>
+  </ul>
+</details>
