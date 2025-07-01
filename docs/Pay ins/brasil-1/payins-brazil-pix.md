@@ -34,10 +34,10 @@ El proceso de pago con PIX consta de cinco etapas principales:
 
 <Image align="center" src="https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png" />
 
-1. **Selección de método.** El cliente elige pagar con PIX en tu sitio web o aplicación. 
-2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente. 
-3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla. 
-4. **Captura.** El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio. 
+1. **Selección de método.** El cliente elige pagar con PIX en tu sitio web o aplicación.
+2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente.
+3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla.
+4. **Captura.** El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo pago
@@ -46,7 +46,7 @@ Tu front-end será el encargado de recopilar los datos necesarios de tu cliente 
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `pix_payment` como método de pago en el body de la solicitud.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros. 
+La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -60,7 +60,7 @@ El valor del campo `isIframePay` deberá ser enviado como  `true` para este mét
 
 ### Tipo de pago
 
-El campo  `typePixPayment` es requerido para este método de pago. Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran: 
+El campo  `typePixPayment` es requerido para este método de pago. Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran:
 
 | Valor | Descripción                                                           |
 | :---- | :-------------------------------------------------------------------- |
@@ -98,7 +98,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace de iFrame p
 
 ### Confirmación de un pago
 
-Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
+Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
