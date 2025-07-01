@@ -59,3 +59,17 @@ next:
 > 📘 ASAA
 >
 > CAsa
+
+<br />
+
+## Menú desplegable
+
+<details>
+  <summary>📌 Requisitos para la certificación</summary>
+  <p>ID del cliente:</p>
+
+  <ul>
+    <li>DNI</li>
+    <li>RUT</li>
+  </ul>
+</details>
