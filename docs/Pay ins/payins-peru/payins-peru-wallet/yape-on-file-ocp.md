@@ -100,6 +100,10 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
+#### Validación de pago de terceros
+
+Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
+
 #### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -412,6 +416,10 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
+
+#### Validación de pago de terceros
+
+Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
