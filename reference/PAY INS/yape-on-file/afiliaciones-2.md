@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: post_new-endpoint-1
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
