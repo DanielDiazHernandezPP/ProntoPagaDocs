@@ -22,6 +22,8 @@ next:
 >
 > These courses focus on technical writing, not on general English writing or business writing.
 
+<Embed typeOfEmbed="pdf" url="file:///Users/tahbetreategui/Downloads/c79990b0b853932d36ddc117ce2503e3%20(1).pdf" />
+
 <br />
 
 > ❗️ What format do these courses take?
