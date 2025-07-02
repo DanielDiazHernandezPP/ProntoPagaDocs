@@ -58,7 +58,7 @@ Para crear una solicitud de afiliación de tipo Recurrencia, deberás usar [este
   "webhookUrl": "https://www.webhook.com",
   "type": "RECURRENT",
   "clientName": "John Doe",
-	"clientDocumentType": "PP"
+  "clientDocumentType": "PP"
 }
 ```
 
@@ -192,7 +192,7 @@ Para crear una solicitud de afiliación de tipo Recurrencia, deberás usar [este
   "webhookUrl": "https://www.webhook.com",
   "type": "RECURRENT",
   "clientName": "John Doe",
-	"clientDocumentType": "PP"
+  "clientDocumentType": "PP"
 }
 ```
 
