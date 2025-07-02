@@ -8,6 +8,19 @@ hidden: true
 link:
   new_tab: false
 metadata:
+  description: >-
+    ProntoPaga allows you to make requests of your transactions through this
+    endpoint, in which you can select: Time period (start date and end date),
+    Transaction type and Page number.
+  keywords:
+    - transactions by date
+    - transactions
+    - time period
+    - transactions per period
+    - prontopaga
+    - api
+    - endpoint
+    - request
   robots: index
 ---
 ProntoPaga te permite hacer consultas de tus transacciones a través de este endpoint, en el cual puedes seleccionar:
