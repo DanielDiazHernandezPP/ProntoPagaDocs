@@ -58,7 +58,7 @@ Para crear una solicitud de afiliación de tipo One Click Payment, deberás usar
   "webhookUrl": "https://www.webhook.com",
   "type": "ON_DEMAND",
   "clientName": "John Doe",
-	"clientDocumentType": "PP"
+  "clientDocumentType": "PP"
 }
 ```
 
@@ -376,7 +376,7 @@ Para crear una solicitud de afiliación de tipo One Click Payment, deberás usar
   "webhookUrl": "https://www.webhook.com",
   "type": "ON_DEMAND",
   "clientName": "John Doe",
-	"clientDocumentType": "PP"
+  "clientDocumentType": "PP"
 }
 ```
 
