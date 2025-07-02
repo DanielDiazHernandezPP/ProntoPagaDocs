@@ -29,13 +29,13 @@ A continuación, te mostramos qué puedes encontrar en cada una, así como conse
 
 ## Guides
 
-La pestaña de **Guides** contiene principalmente todas las Guías de integración, ordenadas por país y métodos. Además, también contiene información general que puede ser de utilidad para tu integración. En la siguiente imagen puedes observar sus características: 
+La pestaña de **Guides** contiene principalmente todas las Guías de integración, ordenadas por país y métodos. Además, también contiene información general que puede ser de utilidad para tu integración. En la siguiente imagen puedes observar sus características:
 
 <Image align="center" src="https://files.readme.io/49a9a08bc7807a835a59d53ed5ada771565057e65069c9ba494912425ca2e6ab-03.png" />
 
 Dentro de cada Guía de integración podrás encontrar información detallada, como:
 
-* Introducción al método 
+* Introducción al método
 * Notas o especificaciones importantes
 * Ejemplos de body request para la solicitud
 * Ejemplos de posibles respuestas
