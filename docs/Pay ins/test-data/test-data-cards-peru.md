@@ -45,29 +45,6 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Venta exitosa – sin cuotas       | 5455460920094260 | 03/2028   | 111 | 000              |
 | Venta exitosa – afiliación a REC | 5443599980000447 | 03/2028   | 111 | 000              |
 
-#### American Express
-
-| Escenario                  | Número          | Mes / año | CVV | Código de acción |
-| :------------------------- | :-------------- | :-------- | :-- | :--------------- |
-| Venta exitosa – con cuotas | 371064649323968 | 03/2028   | 111 | 000              |
-| Venta exitosa – sin cuotas | 371204534881155 | 03/2028   | 111 | 000              |
-
-#### Diners Club
-
-| Escenario                  | Número         | Mes / año | CVV | Código de acción |
-| :------------------------- | :------------- | :-------- | :-- | :--------------- |
-| Venta exitosa – con cuotas | 36006616055724 | 04/2025   | 111 | 000              |
-| Venta exitosa – sin cuotas | 36340477773855 | 04/2025   | 111 | 000              |
-
-#### Union Pay
-
-| Escenario                  | Número           | Mes / año | CVV | Código de acción |
-| :------------------------- | :--------------- | :-------- | :-- | :--------------- |
-| Venta exitosa – con cuotas | 6210945888010005 | 10/2030   | 123 | 000              |
-| Venta exitosa – Foranea    | 6210945888021    | 10/2030   | 123 | 000              |
-
-<br />
-
 ### Casos denegados
 
 #### Visa
