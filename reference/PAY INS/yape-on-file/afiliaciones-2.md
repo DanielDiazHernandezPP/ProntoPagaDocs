@@ -1,5 +1,5 @@
 ---
-title: Afiliaciones 2
+title: Afiliaciones - One Click Payment y Recurrencia
 api:
   file: prontopaga-api.json
   operationId: post_new-endpoint-1
