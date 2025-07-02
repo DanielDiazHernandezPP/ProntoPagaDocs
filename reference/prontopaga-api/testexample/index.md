@@ -1,4 +1,4 @@
 ---
 title: /test{example}
-hidden: false
+hidden: true
 ---
