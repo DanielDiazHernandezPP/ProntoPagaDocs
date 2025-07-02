@@ -40,10 +40,10 @@ next:
 
 <br />
 
-\<Accordion title="My Accordion Title" icon="fa-info-circle">
-&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
-&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-&#x20; occaecat cupidatat non proident!
+\<Accordion title="My Accordion Title" icon="fa-info-circle">\
+Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+occaecat cupidatat non proident!
 \</Accordion
 
 /
@@ -64,14 +64,23 @@ We've aimed these courses at people in the following roles:
 3. These courses focus on technical writing, not on general English writing or business writing.
 4. menu\_book
 
+### Título 3
+
+<br />
+
+| 1              | 2              | 3                |
+| :------------- | :------------- | :--------------- |
+| **Prontopaga** | **Prontopaga** | ***Prontopaga*** |
+|                |                |                  |
+
 <br />
 
 * [x] Technical Writing One objectives
 
-
 * [x] Technical Writing Two objectives
-* [x] accessibility\_new
-* [x] Tech Writing for Accessibility objectives
 
+* [x] accessibility\_new
+
+* [x] Tech Writing for Accessibility objectives
 
 * [x] Writing Helpful Error Messages objectives
