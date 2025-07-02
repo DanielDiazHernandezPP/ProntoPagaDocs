@@ -1,11 +1,11 @@
 ---
-title: Afiliaciones - One Click Payment y Recurrencia
+title: Afiliaciones - [DEPRECADO]
 excerpt: ''
 api:
   file: prontopaga-api.json
   operationId: affiliations
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
