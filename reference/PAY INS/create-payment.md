@@ -4,7 +4,7 @@ excerpt: ''
 api:
   file: prontopaga-api.json
   operationId: create-payment
-deprecated: true
+deprecated: false
 hidden: false
 metadata:
   title: ''
