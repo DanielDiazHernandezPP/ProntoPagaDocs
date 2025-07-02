@@ -18,7 +18,7 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
-1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación. 
+1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** El flujo de aprobación del pago depende del dispositivo que esté usando el cliente:
    1. En web: Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
@@ -45,7 +45,7 @@ El front-end será el encargado de recopilar los datos necesarios de tu cliente 
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_oneshot_payment` como método de pago en el body de la solicitud. Además, deberás especificar en el parámetro `origin` que se trata de un pago de tipo `web`.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros. 
+La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
 
@@ -62,6 +62,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
+  "clientDocumentType": "PP",
   "paymentMethod": "yape_oneshot_payment",
   "urlConfirmation": "https://www.webhook.com",
   "order": "1234",
@@ -76,7 +77,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 
 #### Confirmación de un pago
 
-Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
+Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 > 📘 Notificación del estado de la transacción
 >
@@ -110,7 +111,7 @@ El front-end será el encargado de recopilar los datos necesarios de tu cliente 
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_oneshot_payment` como método de pago en el body de la solicitud. Además, deberás especificar en el parámetro `origin` que se trata de un pago de tipo `mobile`.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros. 
+La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
 
@@ -127,6 +128,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
+  "clientDocumentType": "PP",
   "paymentMethod": "yape_oneshot_payment",
   "urlConfirmation": "https://www.webhook.com",
   "order": "1234",
@@ -141,7 +143,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 
 #### Confirmación de un pago
 
-Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
+Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 > 📘 Notificación del estado de la transacción
 >
