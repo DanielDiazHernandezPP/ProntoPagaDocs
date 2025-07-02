@@ -1,8 +1,11 @@
 ---
-title: Tahbet
+title: Tahbét
 deprecated: false
 hidden: true
 metadata:
+  description: 'Pruebas de Tahbét sobre uso de Readme '
+  keywords:
+    - Pruebas
   robots: index
 next:
   description: 'Puedes continuar tu proceso en:'
@@ -11,4 +14,64 @@ next:
       title: Crear un nuevo retiro a wallet - Perú
       type: endpoint
 ---
-Hola
+> 📘 Prontopaga
+>
+> You need at least a little writing proficiency in English, but you don't need to be a strong writer to take these courses.
+>
+> You will find these courses easier to understand if you have at least a little background in coding, though you don't need to be an expert coder.
+>
+> These courses focus on technical writing, not on general English writing or business writing.
+
+<br />
+
+> ❗️ What format do these courses take?
+>
+> Technical Writing One and Technical Writing Two consist of two parts:
+>
+> pre-class lessons\
+> in-class lessons with a facilitator and other students
+> The pre-class lessons provide a solid educational experience, which the in-class lessons enhance. That said, the pre-class lessons on their own are still valuable.
+>
+> Ordinarily, we expect organizations (universities, software companies, and so on) to facilitate the in-class lessons. However, Google occasionally provides free in-class lessons to everyone. For details, see Announcements.
+
+***
+
+<br />
+
+<br />
+
+\<Accordion title="My Accordion Title" icon="fa-info-circle">
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!
+\</Accordion
+
+/
+
+Are these courses for me?\
+We've aimed these courses at people in the following roles:
+
+* [ ] professional software engineers
+* [ ] computer science students
+* [ ] engineering-adjacent roles, such as product managers
+
+<br />
+
+## Título 2
+
+1. You need at least a little writing proficiency in English, but you don't need to be a strong writer to take these courses.
+2. You will find these courses easier to understand if you have at least a little background in coding, though you don't need to be an expert coder.
+3. These courses focus on technical writing, not on general English writing or business writing.
+4. menu\_book
+
+<br />
+
+* [x] Technical Writing One objectives
+
+
+* [x] Technical Writing Two objectives
+* [x] accessibility\_new
+* [x] Tech Writing for Accessibility objectives
+
+
+* [x] Writing Helpful Error Messages objectives
