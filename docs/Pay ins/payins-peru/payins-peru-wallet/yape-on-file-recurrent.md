@@ -102,7 +102,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 
 #### Validación de pago de terceros
 
-Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
+Para activar el servicio de validación de pago de terceros, deberás solicitar y enviar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
@@ -235,7 +235,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 
 #### Validación de pago de terceros
 
-Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
+Para activar el servicio de validación de pago de terceros, deberás solicitar y enviar de forma obligatoria el número de teléfono del cliente en el checkout de pago (incluso si se trata de una solicitud de origen mobile). Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
