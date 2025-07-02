@@ -36,20 +36,36 @@ next:
 
 ***
 
-<br />
+<Image align="center" width="154px" src="https://files.readme.io/9ca0da7df82757a7b950329fe1106ca46e48fa5755c0e7e25c90012dfcdfde5e-ticket.png" />
 
-<br />
+<Cards columns={4}>
+  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+    Neque porro quisquam est qui dolorem ipsum quia
+  </Card>
+
+  <Card title="Second Card" icon="fa-user">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+
+  <Card title="Third Card" icon="fa-star">
+    > Ut enim ad minim veniam, quis nostrud ullamco
+  </Card>
+
+  <Card title="Fourth Card" icon="fa-question">
+    **Excepteur sint occaecat cupidatat non proident**
+  </Card>
+</Cards>
 
 \<Accordion title="My Accordion Title" icon="fa-info-circle">\
 Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+ad minim *veniam*, quis nostrud exercitation ullamco. Excepteur sint
 occaecat cupidatat non proident!
 \</Accordion
 
-/
+//**prueba**
 
 Are these courses for me?\
-We've aimed these courses at people in the following roles:
+~~We've aimed these courses at people in the following roles:~~
 
 * [ ] professional software engineers
 * [ ] computer science students
@@ -59,10 +75,10 @@ We've aimed these courses at people in the following roles:
 
 ## Título 2
 
-1. You need at least a little writing proficiency in English, but you don't need to be a strong writer to take these courses.
-2. You will find these courses easier to understand if you have at least a little background in coding, though you don't need to be an expert coder.
+1. [You need at least a little writing proficiency in English, but you don't need to be a strong writer to take these courses.]()
+2. You **will find these courses easier to understand if you have at least a little background in coding, though you don't need to be an expert coder**.
 3. These courses focus on technical writing, not on general English writing or business writing.
-4. menu\_book
+4. `menu_book`
 
 ### Título 3
 
