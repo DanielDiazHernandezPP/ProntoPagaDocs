@@ -225,15 +225,15 @@ Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
 
 ***
 
-## Prueba tu integración
+# Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
 
-## Certifica tu integración
+# Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
-### Requisitos de certificación
+## Requisitos de certificación
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
 
