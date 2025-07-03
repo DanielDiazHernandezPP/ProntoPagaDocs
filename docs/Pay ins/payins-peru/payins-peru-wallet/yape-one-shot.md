@@ -19,7 +19,7 @@ next:
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Validaci´on pago terceros">
+  <Tab title="Validacion pago terceros">
     Here's content that's only inside the third Tab.
   </Tab>
 </Tabs>
