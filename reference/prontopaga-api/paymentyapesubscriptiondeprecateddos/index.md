@@ -1,4 +1,4 @@
 ---
 title: /payment/yape/subscription/deprecateddos
-hidden: false
+hidden: true
 ---
