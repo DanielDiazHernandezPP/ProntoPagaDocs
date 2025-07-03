@@ -20,9 +20,13 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
-3. **Aprobación.** El flujo de aprobación del pago depende del dispositivo que esté usando el cliente:
-   1. En web: Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
-   2. En mobile: El cliente ve el botón de "Abrir Yape", el cual lo redireccionará a la aprobación del pago en su aplicación. Además, se rellena en automático el código de validación. (*Nota: Este paso cambia si se está usando el servicio de validación pago terceros, en donde también debe pedírsele el número de celular al cliente*)
+3. **Aprobación.** El flujo de aprobación del pago depende del dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
+   1. **En web:**
+      1. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si coinciden, se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
+   2. **En mobile:**
+      1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de "Abrir Yape", el cual lo redireccionará a la aprobación del pago en su aplicación. Además, se rellena en automático el código de validación.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si coinciden, se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
 4. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
