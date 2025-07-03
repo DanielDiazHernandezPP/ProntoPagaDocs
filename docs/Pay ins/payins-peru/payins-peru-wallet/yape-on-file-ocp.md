@@ -16,20 +16,18 @@ Crear un pago con esta modalidad consiste en hacer una solicitud de afiliación 
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Agrega Yape como método de pago", tener una cuenta creada y aprobar la afiliación desde su aplicación.
 
-El proceso de pago con **Yape On File: One Click Payment** en Perú consta de seis etapas principales:
+El proceso de pago con **Yape On File: One Click Payment** en Perú consta de cuatro etapas principales:
 
-1. **Selección de afiliación.** Durante el checkout, el cliente elige la opción de "Agrega Yape como método de pago".
-   1. En la versión web, se le pide al cliente ingresar su número de celular y hacer clic en el botón de solicitud de aprobación.
-   2. En la versión mobile, el cliente debe hacer clic en el botón de solicitud de aprobación.
-2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de afiliación.
-3. **Aprobación.** El cliente accede a su aplicación de Yape, en donde hará el siguiente proceso:
-   1. Autenticarse con su clave o Face ID.
-   2. Dirigirse a **Aprobar compras > Solicitudes por aprobar.**
-   3. Abrir la solicitud de tu comercio y hacer clic en **Aprobar afiliación.**
-   4. Ingresar el código de validación.
-4. **Validación y confirmación de la afiliación.** Se valida que el código sea correcto. En caso de serlo, se hace la afiliación, la pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
-5. **One Click Payment.** Ahora el cliente puede ver en el checkout la sección de "Métodos de pago guardados", con su cuenta Yape. Al elegirla, comienza el proceso de pago, y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
-6. **Confirmación del One Click Payment.** La pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+1. **Selección de afiliación.** Durante el checkout, el cliente elige la opción de "Agrega Yape como método de pago". La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
+   1. **En web:**
+      1. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+   2. **En mobile**
+      1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente debe hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+2. **Validación y confirmación de la afiliación.** Se valida que el código sea correcto. En caso de serlo, se hace la afiliación, la pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+3. **One Click Payment.** Ahora el cliente puede ver en el checkout la sección de "Métodos de pago guardados", con su cuenta Yape. Al elegirla, comienza el proceso de pago, y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
+4. **Confirmación del One Click Payment.** La pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Versiones
 
