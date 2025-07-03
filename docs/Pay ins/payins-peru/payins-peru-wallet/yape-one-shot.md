@@ -20,7 +20,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
-3. **Aprobación.** El flujo de aprobación del pago depende del dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
+3. **Aprobación.** El flujo de aprobación del pago cambia según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
    1. **En web:**
       1. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
       2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si coinciden, se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
