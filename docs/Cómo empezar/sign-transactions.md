@@ -21,24 +21,23 @@ next:
 Para firmar tus transacciones, sigue estos pasos:
 
 1. Clasifica los parámetros en orden alfabético ascendente, según el nombre del parámetro.
-2. Una vez ordenados, los parámetros deben concatenarse en una cadena. Por ejemplo, si los parámetros son:
+2. Una vez ordenados, los parámetros deben concatenarse en una cadena. Por ejemplo, si los parámetros son
 
 ```json
- "$data":     
-				{
-            "amount": 45000,
-            "clientDocument": "999999999",
-            "clientEmail": "johndoe@example.com",
-            "clientName": "John Doe",
-            "clientPhone": "999999999",
-            "country": "CL",
-            "currency": "CLP",
-            "order": 3000001,          
-            "paymentMethod": "webpay_payment",
-            "urlConfirmation": "Webhook",
-            "urlFinal": "example.com/successful",
-            "urlRejected": "example.com/declined"
-        }
+{
+	"amount": 45000,
+	"clientDocument": "999999999",
+	"clientEmail": "johndoe@example.com",
+	"clientName": "John Doe",
+	"clientPhone": "999999999",
+  "country": "CL",
+	"currency": "CLP",
+	"order": 3000001,          
+	"paymentMethod": "webpay_payment",
+	"urlConfirmation": "Webhook",
+	"urlFinal": "example.com/successful",
+	"urlRejected": "example.com/declined"
+}
 ```
 
 > 📘 Parámetros
