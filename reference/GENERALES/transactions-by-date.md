@@ -1,10 +1,10 @@
 ---
-title: Consultar transacciones por fecha
+title: post
 api:
   file: prontopaga-api.json
   operationId: post_transactionscustom-date2
 deprecated: false
-hidden: true
+hidden: false
 link:
   new_tab: false
 metadata:
