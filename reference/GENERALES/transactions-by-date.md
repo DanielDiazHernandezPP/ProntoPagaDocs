@@ -1,5 +1,5 @@
 ---
-title: post
+title: Consultar transacciones por fecha
 api:
   file: prontopaga-api.json
   operationId: post_transactionscustom-date2
