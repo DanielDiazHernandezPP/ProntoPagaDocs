@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: get_new-endpoint
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   description: >-
     API endpoint for integrating Yape payment button without using an iFrame,
