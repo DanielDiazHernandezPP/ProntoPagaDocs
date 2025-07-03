@@ -56,7 +56,9 @@ Para crear una solicitud de afiliación de tipo One Click Payment, deberás usar
   "document": "12345678",
   "phoneNumber": "999999999",
   "webhookUrl": "https://www.webhook.com",
-  "type": "ON_DEMAND"
+  "type": "ON_DEMAND",
+  "clientName": "John Doe",
+  "clientDocumentType": "PP"
 }
 ```
 
@@ -65,6 +67,10 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 > 🚧 Tiempo de expiración
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
+
+#### Validación de pago de terceros
+
+Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 ### Crea un One Click Payment
 
@@ -87,7 +93,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
-  "clientDocumentType": "PP",
   "paymentMethod": "yape_cof_payment",
   "urlConfirmation": "https://www.webhook.com",
   "order": "1234",
@@ -99,10 +104,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
-
-#### Validación de pago de terceros
-
-Para activar el servicio de validación de pago de terceros, deberás solicitar y enviar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
@@ -373,7 +374,9 @@ Para crear una solicitud de afiliación de tipo One Click Payment, deberás usar
   "origin": "MOBILE",
   "document": "12345678",
   "webhookUrl": "https://www.webhook.com",
-  "type": "ON_DEMAND"
+  "type": "ON_DEMAND",
+  "clientName": "John Doe",
+  "clientDocumentType": "PP"
 }
 ```
 
@@ -382,6 +385,10 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 > 🚧 Tiempo de expiración
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
+
+#### Validación de pago de terceros
+
+Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente (incluso si se trata de una solicitud de origen mobile). Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 ### Crea un One Click Payment
 
@@ -404,7 +411,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
-  "clientDocumentType": "PP",
   "paymentMethod": "yape_cof_payment",
   "urlConfirmation": "https://www.webhook.com",
   "order": "1234",
@@ -416,10 +422,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
-
-#### Validación de pago de terceros
-
-Para activar el servicio de validación de pago de terceros, deberás solicitar y enviar de forma obligatoria el número de teléfono del cliente en el checkout de pago (incluso si se trata de una solicitud de origen mobile). Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
