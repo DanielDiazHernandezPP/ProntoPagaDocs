@@ -43,9 +43,9 @@ El proceso de payout con transferencia (retiros instantáneos) en Perú consta d
 
 <Image align="center" src="https://files.readme.io/149a54f4d90599dd421fbd4e89786257bb12ae426173ca0bf8852615248dfa92-Peru-01.jpg" />
 
-1. **Selección de método.** El cliente elige retirar dinero por medio de transferencia en tu sitio web o aplicación. 
-2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como banco, número de cuenta bancaria e interbancaria y tipo de cuenta) y confirma la transacción. 
-3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.  
+1. **Selección de método.** El cliente elige retirar dinero por medio de transferencia en tu sitio web o aplicación.
+2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como banco, número de cuenta bancaria e interbancaria y tipo de cuenta) y confirma la transacción.
+3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Lista de bancos
@@ -109,7 +109,7 @@ Si la transacción es rechazada, recibirás esta respuesta similar a esta:
 
 ### Confirmación de un retiro
 
-Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`. 
+Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
@@ -136,3 +136,41 @@ Al finalizar una transacción exitosa, recibirás un webhook similar al ejemplo 
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
+
+## Certifica tu integración
+
+La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+### Requisitos de certificación
+
+A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
+
+<Tabs>
+  <Tab title="ID del cliente">
+    * ❌ El documento de identidad del cliente no debe ser modificable en ningún punto de la transacción.
+    * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
+    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+  </Tab>
+
+  <Tab title="Logotipos">
+    * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 🔎 Todos los nombres y logos de los métodos de retiro habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+    * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
+  </Tab>
+
+  <Tab title="Mensajes al usuario">
+    * ✅ El *checkout* debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
+
+    ❗ Es obligatorio mostrar:
+
+    * ℹ️ Montos mínimos y máximos permitidos para cada método de retiro.
+    * ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
+  </Tab>
+
+  <Tab title="Consideraciones importantes">
+    * ❌ No almacenar datos sensibles del cliente en tu base de datos.
+    * ✅ La certificación se otorga únicamente si estos requisitos se cumplen en su totalidad en el entorno de *sandbox*.
+    * 💻 Una vez validada la integración, se habilitarán las credenciales para el entorno productivo.
+    * ⚠️ El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
+  </Tab>
+</Tabs>
