@@ -1,7 +1,7 @@
 ---
 title: Procesa un pago - Perú Botón Yape (sin iFrame)
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
