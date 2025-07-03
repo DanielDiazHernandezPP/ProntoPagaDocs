@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: cancel-qr-peru
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: >-
