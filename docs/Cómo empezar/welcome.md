@@ -14,8 +14,9 @@ metadata:
     https://files.readme.io/33d08699a197cb7ae3e430d7e058867c8c75887133986dae302ce738384d5fc9-Logo_PP_page-0001_-_copia.jpg
   keywords:
     - welcome
-    - ' payment methods'
-    - ' prontopaga'
+    - payment methods
+    - prontopaga
+    - métodos de pago
   robots: index
 next:
   description: ''
