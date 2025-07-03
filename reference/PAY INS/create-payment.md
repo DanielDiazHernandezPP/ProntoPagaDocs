@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: post_paymentnew
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   description: >-
     Endpoint to create a new payment with ProntoPaga in Brasil, Chile, Ecuador
