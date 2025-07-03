@@ -6,6 +6,18 @@ api:
 deprecated: false
 hidden: true
 metadata:
+  description: >-
+    API endpoint for integrating Yape payment button without using an iFrame,
+    allowing merchants in Peru to fully control the checkout appearance. It
+    provides a link to view possible rejection types and their details.
+  keywords:
+    - api yape
+    - boton yape api
+    - yape api prontopaga
+    - yape prontopaga
+    - prontopaga api
+    - integra yape
+    - integrate yape
   robots: index
 ---
 Endpoint para procesar pagos con Botón Yape vía API (sin iFrame). Con este servicio, ProntoPaga no generará el front-end, por lo que tu comercio tendrá el manejo total de la apariencia del checkout durante un pago con Yape en Perú.
