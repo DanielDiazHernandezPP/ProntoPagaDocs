@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: post_peqrcancel{uid}
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   description: >-
     This page describes an endpoint that allows to cancel a QR payment in Peru
