@@ -31,11 +31,11 @@ En Ecuador puedes crear retiros en efectivo a través de los siguientes servicio
 
 ## ¿Cómo funciona?
 
-Red Activa / Western Union, BeMovil y PonleMás son redes y plataformas que operan en Ecuador y permiten realizar retiros en efectivo. Para completar un retiro utilizando cualquiera de estos métodos, el usuario debe seleccionar la opción correspondiente: 
+Red Activa / Western Union, BeMovil y PonleMás son redes y plataformas que operan en Ecuador y permiten realizar retiros en efectivo. Para completar un retiro utilizando cualquiera de estos métodos, el usuario debe seleccionar la opción correspondiente:
 
-* Retiro con Efectivo - Red Activa 
-* Retiro con Efectivo - PonleMás 
-* Retiro con Efectivo - BeMovil 
+* Retiro con Efectivo - Red Activa
+* Retiro con Efectivo - PonleMás
+* Retiro con Efectivo - BeMovil
 
 Luego, debe acudir al punto de atención más cercano con su código de retiro y una identificación válida (cédula nacional, cédula de extranjería o pasaporte). Para conocer el listado de los puntos físicos de retiro, puedes consultarlo [aquí](https://docs.prontopaga.com/docs/physical-points-payouts).
 
@@ -43,11 +43,11 @@ El proceso de payout con efectivo en Ecuador consta de seis etapas principales:
 
 <Image align="center" src="https://files.readme.io/8e05caca6fb699284abb15ec89188e5b6774f796319ab08cf642d6236b711c4c-Ecuador-01.jpg" />
 
-1. **Selección de método.** El cliente elige en tu sitio web o aplicación la opción de retirar dinero en efectivo. 
-2. **Cantidad.** El cliente selecciona la cantidad que desea retirar y confirma la transacción. 
-3. **Hoja de confirmación.** El cliente recibe una hoja con un código único de retiro, así como con las instrucciones de dónde y cómo recibir el dinero en efectivo.  
-4. **Validación de datos.** ProntoPaga separa el dinero en tu balance, y cuando el cliente acude al punto físico a retirarlo, valida los datos. 
-5. **Retiro.**  Si los datos son correctos, ProntoPaga mueve el dinero desde la cuenta de tu comercio hacia ese punto físico y se le entrega el efectivo al cliente. 
+1. **Selección de método.** El cliente elige en tu sitio web o aplicación la opción de retirar dinero en efectivo.
+2. **Cantidad.** El cliente selecciona la cantidad que desea retirar y confirma la transacción.
+3. **Hoja de confirmación.** El cliente recibe una hoja con un código único de retiro, así como con las instrucciones de dónde y cómo recibir el dinero en efectivo.
+4. **Validación de datos.** ProntoPaga separa el dinero en tu balance, y cuando el cliente acude al punto físico a retirarlo, valida los datos.
+5. **Retiro.**  Si los datos son correctos, ProntoPaga mueve el dinero desde la cuenta de tu comercio hacia ese punto físico y se le entrega el efectivo al cliente.
 6. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Red Activa / Western Union
@@ -58,7 +58,7 @@ Conoce los puntos físicos de pago disponibles en [este artículo](https://docs.
 
 ### Crea un nuevo retiro
 
-Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar [este endpoint](https://docs.prontopaga.com/reference/payout-ecuador-redactiva). La solicitud se envía con tu Bearer Token, así como con tu secretKey. 
+Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar [este endpoint](https://docs.prontopaga.com/reference/payout-ecuador-redactiva). La solicitud se envía con tu Bearer Token, así como con tu secretKey.
 
 <NotaFirma />
 
@@ -92,7 +92,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un identificador del 
 
 #### Confirmación de un retiro
 
-Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`. 
+Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
@@ -140,7 +140,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un identificador del 
 
 #### Confirmación de un retiro
 
-Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`. 
+Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
@@ -188,7 +188,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un identificador del 
 
 #### Confirmación de un retiro
 
-Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`. 
+Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
@@ -197,3 +197,41 @@ Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados 
 ### Demos
 
 Contamos con demos que simulan la experiencia de retiro del cliente, en donde podrás hacer pruebas. [Conócelos aquí](https://demo.insospa.com/transactions/withdrawal).
+
+## Certifica tu integración
+
+La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+### Requisitos de certificación
+
+A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
+
+<Tabs>
+  <Tab title="ID del cliente">
+    * ❌ El documento de identidad del cliente no debe ser modificable en ningún punto de la transacción.
+    * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
+    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+  </Tab>
+
+  <Tab title="Logotipos">
+    * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 🔎 Todos los nombres y logos de los métodos de retiro habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+    * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
+  </Tab>
+
+  <Tab title="Mensajes al usuario">
+    * ✅ El *checkout* debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
+
+    ❗ Es obligatorio mostrar:
+
+    * ℹ️ Montos mínimos y máximos permitidos para cada método de retiro.
+    * ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
+  </Tab>
+
+  <Tab title="Consideraciones importantes">
+    * ❌ No almacenar datos sensibles del cliente en tu base de datos.
+    * ✅ La certificación se otorga únicamente si estos requisitos se cumplen en su totalidad en el entorno de *sandbox*.
+    * 💻 Una vez validada la integración, se habilitarán las credenciales para el entorno productivo.
+    * ⚠️ El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
+  </Tab>
+</Tabs>
