@@ -16,20 +16,18 @@ Crear pagos recurrentes con Yape On File consiste en hacer una solicitud de afil
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar a Yape como método de pago, tener una cuenta creada y aprobar la suscripción desde su aplicación.
 
-El proceso de pago con **Yape On File: Recurrencia** en Perú consta de seis etapas principales:
+El proceso de pago con **Yape On File: Recurrencia** en Perú consta de cuatro etapas principales:
 
-1. **Selección de método.** Durante el checkout de un pago de suscripción, el cliente selecciona a Yape como método de pago en tu sitio web o aplicación.
-   1. En la versión web, se le pide al cliente ingresar su número de celular y hacer clic en el botón de solicitud de aprobación.
-   2. En la versión mobile, el cliente debe hacer clic en el botón de solicitud de aprobación.
-2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de suscripción.
-3. **Aprobación.** El cliente accede a su aplicación de Yape, en donde hará el siguiente proceso:
-   1. Autenticarse con su clave o Face ID.
-   2. Dirigirse a **Aprobar compras > Solicitudes por aprobar.**
-   3. Abrir la solicitud de tu comercio y hacer clic en **Aprobar afiliación.**
-   4. Ingresar el código de validación.
-4. **Validación y confirmación de la afiliación.** Se valida que el código sea correcto. En caso de serlo, se hace la afiliación, la pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
-5. **Recurrencia.** Ahora podrás llamar a nuestro endpoint de cobro de pago para realizar los cargos a su cuenta de Yape, cada vez que lo requieras (según los detalles especificados por el cliente y por tu comercio, sobre su plan de suscripción).
-6. **Confirmación de pago recurrente** Tu cliente recibirá notificaciones push en su wallet cada vez que se realice un pago recurrente. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
+1. **Selección de método.** Durante el checkout de un pago de suscripción, el cliente selecciona a Yape como método de pago en tu sitio web o aplicación. La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
+   1. **En web:**
+      1. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+   2. **En mobile**
+      1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente debe hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+2. **Confirmación de la afiliación.** Se hace la afiliación, la pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+3. **Recurrencia.** Ahora podrás llamar a nuestro endpoint de cobro de pago para realizar los cargos a su cuenta de Yape, cada vez que lo requieras (según los detalles especificados por el cliente y por tu comercio, sobre su plan de suscripción).
+4. **Confirmación de pago recurrente** Tu cliente recibirá notificaciones push en su wallet cada vez que se realice un pago recurrente. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
 
 ## Versiones
 
