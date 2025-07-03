@@ -11,9 +11,10 @@ metadata:
     pay ins and pay outs.
   keywords:
     - firts steps
-    - ' how to start'
-    - ' prontopaga'
-    - ' integration'
+    - how to start
+    - prontopaga
+    - integration
+    - empezar en Prontopaga
   robots: index
 next:
   description: ''
