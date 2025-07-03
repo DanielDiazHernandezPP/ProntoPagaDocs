@@ -1,4 +1,4 @@
 ---
 title: /payment/yape/subscription/2
-hidden: false
+hidden: true
 ---
