@@ -8,3 +8,4 @@ hidden: true
 metadata:
   robots: index
 ---
+Con este endpoint podrás cancelar un pago con QR en Perú (cuando no se realizó al momento). De este modo, se evitará que un cliente guarde la imagen del QR e intente pagar tiempo después.
