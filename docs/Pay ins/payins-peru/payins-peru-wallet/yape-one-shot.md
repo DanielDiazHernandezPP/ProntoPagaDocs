@@ -10,19 +10,35 @@ metadata:
 next:
   description: ''
 ---
-\<Tabs>
-&#x20; \<Tab title="Web">
-&#x20;   Welcome to the content that you can only see inside the first Tab.
-&#x20; \</Tab>
+\<Tabs>\
+\<Tab title="Web">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
 
-&#x20; \<Tab title="Mobile">
-&#x20;   Here's content that's only inside the second Tab.
-&#x20; \</Tab>
+\<Tab title="Mobile">\
+Here's content that's only inside the second Tab.
+\</Tab>
 
-&#x20; \<Tab title="Servicio de validacici´on pago terceros"
-&#x20;   Here's content that's only inside the third Tab.
-&#x20; \</Tab>
+\<Tab title="Servicio de validacici´on pago terceros"\
+Here's content that's only inside the third Tab.
+\</Tab>
 \</Tabs>
+
+<br />
+
+<Tabs>
+  <Tab title="Web">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
+
+  <Tab title="Mobile">
+    Here's content that's only inside the second Tab.
+  </Tab>
+
+  <Tab title="Validaci´on pago terceros">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
 
 Crear un pago con **Botón Yape: One Shot** en Perú consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. Esta solicitud podrá realizarse tanto para versión web, como para versión mobile. Además, el flujo de pago del cliente también varía ligeramente, dependiendo del dispositivo que esté usando.
 
