@@ -86,9 +86,9 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "urlFinal": "example.com/successful",
   "urlRejected": "example.com/declined",
   "order": "1234",
-  "sign": "Signature of the parameters",
   "typePixPayment": 1,
-  "isIframePay": "true"
+  "isIframePay": "true",
+  "sign": "Signature of the parameters"
 }
 ```
 
