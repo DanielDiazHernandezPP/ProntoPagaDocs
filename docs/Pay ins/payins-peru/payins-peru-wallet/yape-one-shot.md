@@ -22,9 +22,15 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** El flujo de aprobación del pago depende del dispositivo que esté usando el cliente:
    1. En web: Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de "Aprobar compras". Además, se rellena en automático el código de validación.
-   2. En mobile: El cliente ve el botón de "Abrir Yape", el cual lo redireccionará a la aprobación del pago en su aplicación. Además, se rellena en automático el código de validación.
+   2. En mobile: El cliente ve el botón de "Abrir Yape", el cual lo redireccionará a la aprobación del pago en su aplicación. Además, se rellena en automático el código de validación. (*Nota: Este paso cambia si se está usando el servicio de validación pago terceros, en donde también debe pedírsele el número de celular al cliente*)
 4. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+
+## Servicio de validación pago terceros
+
+Ahora contamos con un servicio de validación de pago de terceros. Si deseas activarlo, comunícate con nuestro equipo de soporte. Además, toma en cuenta que para usar este servicio, deberás modificar la experiencia de tu cliente en el checkout (en pagos mobile). Esa modificación implica que tanto en la experiencia web, como en la experiencia mobile, **debes de solicitar el número de teléfono del cliente.**
+
+De ese modo, ProntoPaga hará una validación de los datos del cliente, evitando que se realicen pagos de terceros, y maximizando la seguridad de tus transacciones.
 
 ## Versiones
 
@@ -77,7 +83,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 
 #### Validación de pago de terceros
 
-Para activar el servicio de validación de pago de terceros, deberás solicitar y enviar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
+Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
@@ -147,7 +153,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 
 #### Validación de pago de terceros
 
-Para activar el servicio de validación de pago de terceros, deberás solicitar y enviar de forma obligatoria el número de teléfono del cliente en el checkout de pago (incluso si se trata de una solicitud de origen mobile). Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
+Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago (incluso si se trata de una solicitud de origen mobile). Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
