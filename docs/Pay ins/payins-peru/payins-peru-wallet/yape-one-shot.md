@@ -11,16 +11,12 @@ next:
   description: ''
 ---
 <Tabs>
-  <Tab title="Web">
+  <Tab title="Sin validacion pago a terceros">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Mobile">
+  <Tab title="Con validacion pago a terceros">
     Here's content that's only inside the second Tab.
-  </Tab>
-
-  <Tab title="Validacion pago terceros">
-    Here's content that's only inside the third Tab.
   </Tab>
 </Tabs>
 
