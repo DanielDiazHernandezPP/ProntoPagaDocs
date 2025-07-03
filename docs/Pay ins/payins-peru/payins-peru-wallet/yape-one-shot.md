@@ -30,12 +30,6 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 4. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
-## Servicio de validación pago terceros
-
-Ahora contamos con un servicio de validación de pago de terceros. Si deseas activarlo, comunícate con nuestro equipo de soporte. Además, toma en cuenta que para usar este servicio, deberás modificar la experiencia de tu cliente en el checkout (en pagos mobile). Esa modificación implica que tanto en la experiencia web, como en la experiencia mobile, **debes de solicitar el número de teléfono del cliente.**
-
-De ese modo, ProntoPaga hará una validación de los datos del cliente, evitando que se realicen pagos de terceros, y maximizando la seguridad de tus transacciones.
-
 ## Versiones
 
 Es posible integrar el servicio **Botón Yape: One Shot** de dos maneras:
@@ -84,10 +78,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
-
-#### Validación de pago de terceros
-
-Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago. Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
@@ -154,10 +144,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
-
-#### Validación de pago de terceros
-
-Para activar el servicio de validación de pago de terceros, deberás solicitar de forma obligatoria el número de teléfono del cliente en el checkout de pago (incluso si se trata de una solicitud de origen mobile). Esta validación permite verificar que el número ingresado corresponde al titular de la cuenta Yape, previniendo así pagos de terceros y fortaleciendo la seguridad en las transacciones.
 
 #### Confirmación de un pago
 
