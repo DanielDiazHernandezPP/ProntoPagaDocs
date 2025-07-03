@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: create-payment-peru-yape-api
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: >-
