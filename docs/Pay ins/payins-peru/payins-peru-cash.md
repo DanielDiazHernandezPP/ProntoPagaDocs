@@ -33,11 +33,11 @@ El proceso de pago con efectivo en Perú consta de seis etapas principales:
 
 <Image align="center" src="https://files.readme.io/4064ebeacb9246b61a55911d539385ffd7af7b7d2d1d5ceb7f90bd44f9df32a7-peru_-_02.jpg" />
 
-1. **Ingreso de datos.** Después de seleccionar los productos o servicios a comprar, el cliente ingresa sus datos personales en un formulario. 
-2. **Selección de método.** El cliente elige pagar con efectivo en tu sitio web o aplicación. 
-3. **Hoja de pago.** ProntoPaga le entrega una hoja de pago personalizada al cliente, con un código de pago único, así como la información de los puntos físicos en donde puede realizar el pago. 
-4. **Pago en punto físico o app del banco.** El cliente se dirige a uno de los puntos físicos con su hoja de pago y su identificación, y hace el depósito del efectivo. También puede pagar a través de la sección de "pago de servicios" de la aplicación de su banco. 
-5. **Validación de datos.** ProntoPaga valida la infomación del pago. 
+1. **Ingreso de datos.** Después de seleccionar los productos o servicios a comprar, el cliente ingresa sus datos personales en un formulario.
+2. **Selección de método.** El cliente elige pagar con efectivo en tu sitio web o aplicación.
+3. **Hoja de pago.** ProntoPaga le entrega una hoja de pago personalizada al cliente, con un código de pago único, así como la información de los puntos físicos en donde puede realizar el pago.
+4. **Pago en punto físico o app del banco.** El cliente se dirige a uno de los puntos físicos con su hoja de pago y su identificación, y hace el depósito del efectivo. También puede pagar a través de la sección de "pago de servicios" de la aplicación de su banco.
+5. **Validación de datos.** ProntoPaga valida la infomación del pago.
 6. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo pago
@@ -46,7 +46,7 @@ Tu front-end será el encargado de recopilar los datos necesarios de tu cliente 
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `pagoefectivo_payment` como método de pago en el body de la solicitud.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros. 
+La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -86,12 +86,12 @@ El cliente verá en pantalla y recibirá en su correo electrónico la hoja de pa
 
 * Monto a pagar
 * Código de pago
-* Instituciones en las que puede hacer el pago 
-* Instrucciones para hacer el pago 
+* Instituciones en las que puede hacer el pago
+* Instrucciones para hacer el pago
 
 ### Confirmación de un pago
 
-Una vez que el usuario haya realizado el pago en efectivo, ProntoPaga le notificará el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
+Una vez que el usuario haya realizado el pago en efectivo, ProntoPaga le notificará el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
@@ -101,10 +101,40 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. [Conócelos aquí](https://demo.insospa.com/transactions/deposit).
 
-## Antes de finalizar tu integración
+## Certifica tu integración
 
-Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu integración con nosotros:
+La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
-* No almacenar datos sensibles del cliente en tu base de datos.
-* Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
-* Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+### Requisitos de certificación
+
+A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
+
+<Tabs>
+  <Tab title="ID del cliente">
+    * ❌ El documento de identidad del cliente no debe ser modificable en ningún punto de la transacción.
+    * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
+    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+  </Tab>
+
+  <Tab title="Logotipos">
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+    * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
+  </Tab>
+
+  <Tab title="Mensajes al usuario">
+    * ✅ El *checkout* debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
+
+    ❗ Es obligatorio mostrar:
+
+    * ℹ️ Montos mínimos y máximos permitidos para cada método de pago.
+    * ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
+  </Tab>
+
+  <Tab title="Consideraciones importantes">
+    * ❌ No almacenar datos sensibles del cliente en tu base de datos.
+    * ✅ La certificación se otorga únicamente si estos requisitos se cumplen en su totalidad en el entorno de *sandbox*.
+    * 💻 Una vez validada la integración, se habilitarán las credenciales para el entorno productivo.
+    * ⚠️ El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
+  </Tab>
+</Tabs>
