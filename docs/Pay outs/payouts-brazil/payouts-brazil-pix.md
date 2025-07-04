@@ -64,7 +64,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "accountType": "1",
   "bankCode": "633",
   "data": "1234",
-  "confirmationURL": "Webhook",
+  "confirmationURL": "https://www.webhook.com",
   "currency": "BRL",
   "country": "BR",
   "pagamentoType": 1,
