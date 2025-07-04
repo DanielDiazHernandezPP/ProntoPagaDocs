@@ -125,11 +125,11 @@ Al finalizar una transacción exitosa, recibirás un webhook similar al ejemplo 
       "status": "success",
       "data": "3325492",
       "type": "bank",
-      "sign": "e198c7a2c33d697c551c445b37659e06bf7c1e92db8bae04c7a1f5411b1e8a00",
       "statusCode": "200",
       "startNotificationTime": "2024-08-13 12:16:54",
       "endNotificationTime": "2024-08-13 12:16:54",
-      "totalRequestTime": "0.393352"
+      "totalRequestTime": "0.393352",
+      "sign": "e198c7a2c33d697c551c445b37659e06bf7c1e92db8bae04c7a1f5411b1e8a00"
 }         
 ```
 
