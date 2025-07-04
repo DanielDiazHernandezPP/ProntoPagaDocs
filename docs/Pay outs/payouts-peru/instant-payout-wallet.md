@@ -115,7 +115,7 @@ Después de seleccionar una wallet del listado obtenido en el [endpoint anterior
   "beneficiaryEmail": "johndoe@example.com",
   "beneficiaryPhone": "999999999",
   "data": "1234",
-  "confirmationURL": "Webhook",
+  "confirmationURL": "https://www.webhook.com",
   "currency": "PEN",
   "country": "PE",
   "wallet": "luqea",
