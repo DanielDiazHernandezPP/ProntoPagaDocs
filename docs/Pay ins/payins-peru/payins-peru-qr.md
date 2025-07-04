@@ -83,9 +83,9 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
   "paymentMethod": "pe_qr_payment",
-  "urlConfirmation": "Webhook",
-  "urlFinal": "example.com/successful",
-  "urlRejected": "example.com/declined",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
   "order": "1234",
   "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\"}]",
   "sign": "Signature of the parameters"
@@ -149,8 +149,8 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "clientDocument": "12345678912",
   "paymentMethod": "pe_qr_payment",
   "urlConfirmation": "https://www.webhook.com",
-  "urlFinal": "example.com/successful",
-  "urlRejected": "example.com/declined",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
   "order": "12345678",
   "theme": "{\"type\":\"qr\"}",
   "sign": "Signature of the parameters"
