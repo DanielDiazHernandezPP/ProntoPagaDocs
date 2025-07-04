@@ -79,7 +79,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "beneficiaryEmail": "johndoe@example.com",
   "beneficiaryPhone": "999999999",
   "data": "1234",
-  "confirmationURL": "Webhook",
+  "confirmationURL": "https://www.webhook.com",
   "currency": "USD",
   "country": "EC",
   "sign": "Signature of the parameters"
