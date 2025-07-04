@@ -74,7 +74,7 @@ Consulta el endpoint de [Crear un nuevo retiro](https://docs.prontopaga.com/refe
   "accountType": "C",
   "bankCode": "011",
   "data": "1234",
-  "confirmationURL": "Webhook",
+  "confirmationURL": "https://www.webhook.com",
   "currency": "PEN",
   "country": "PE",
   "accountInterbank": "01150004004006000900",
