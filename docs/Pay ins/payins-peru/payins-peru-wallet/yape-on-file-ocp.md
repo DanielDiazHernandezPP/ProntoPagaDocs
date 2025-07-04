@@ -141,7 +141,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+        * **Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
       </td>
     </tr>
 
@@ -151,7 +151,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.*\* Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.
+        * **Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.** Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.
       </td>
     </tr>
 
@@ -161,7 +161,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Por seguridad, tu cuenta Yape fue bloqueada.*\* Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.
+        * **Por seguridad, tu cuenta Yape fue bloqueada.** Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.
       </td>
     </tr>
 
@@ -171,7 +171,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta Yape está bloqueada temporalmente.*\* Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.
+        * **Tu cuenta Yape está bloqueada temporalmente.** Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.
       </td>
     </tr>
 
@@ -181,7 +181,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
 
@@ -191,7 +191,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
 
@@ -201,7 +201,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Esta operación excede tu monto límite diario para compras por internet.*\* Vuelve a intentarlo el día de mañana.
+        * **Esta operación excede tu monto límite diario para compras por internet.** Vuelve a intentarlo el día de mañana.
       </td>
     </tr>
 
@@ -211,7 +211,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Detectamos una actividad sospechosa.*\* Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.
+        * **Detectamos una actividad sospechosa.** Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.
       </td>
     </tr>
 
@@ -221,7 +221,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Necesitas más saldo para este pago.*\* No cuentas con saldo suficiente para realizar este pago.
+        * **Necesitas más saldo para este pago.** No cuentas con saldo suficiente para realizar este pago.
       </td>
     </tr>
 
@@ -231,7 +231,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta asociada a Yape está bloqueada.*\* No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.
+        * **Tu cuenta asociada a Yape está bloqueada.** No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.
       </td>
     </tr>
 
@@ -241,7 +241,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
 
@@ -251,7 +251,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+        * **Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
       </td>
     </tr>
 
@@ -261,7 +261,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Necesitas asociar tu nueva tarjeta BCP a Yape.*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.
+        * **Necesitas asociar tu nueva tarjeta BCP a Yape.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.
       </td>
     </tr>
 
@@ -271,7 +271,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.
+        * **Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.
       </td>
     </tr>
 
@@ -281,7 +281,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta está bloqueada.*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.
+        * **Tu cuenta está bloqueada.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.
       </td>
     </tr>
 
@@ -291,7 +291,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta está vencida.*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.
+        * **Tu cuenta está vencida.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.
       </td>
     </tr>
 
@@ -302,7 +302,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta asociada a Yape está cerrada.*\* No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.
+        * **Tu cuenta asociada a Yape está cerrada.** No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.
       </td>
     </tr>
 
@@ -312,7 +312,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
   </tbody>
@@ -455,7 +455,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+        * **Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
       </td>
     </tr>
 
@@ -465,7 +465,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.*\* Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.
+        * **Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.** Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.
       </td>
     </tr>
 
@@ -475,7 +475,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Por seguridad, tu cuenta Yape fue bloqueada.*\* Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.
+        * **Por seguridad, tu cuenta Yape fue bloqueada.** Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.
       </td>
     </tr>
 
@@ -485,7 +485,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta Yape está bloqueada temporalmente.*\* Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.
+        * **Tu cuenta Yape está bloqueada temporalmente.** Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.
       </td>
     </tr>
 
@@ -495,7 +495,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
 
@@ -505,7 +505,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
 
@@ -515,7 +515,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Esta operación excede tu monto límite diario para compras por internet.*\* Vuelve a intentarlo el día de mañana.
+        * **Esta operación excede tu monto límite diario para compras por internet.** Vuelve a intentarlo el día de mañana.
       </td>
     </tr>
 
@@ -525,7 +525,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Detectamos una actividad sospechosa.*\* Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.
+        * **Detectamos una actividad sospechosa.** Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.
       </td>
     </tr>
 
@@ -535,7 +535,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Necesitas más saldo para este pago.*\* No cuentas con saldo suficiente para realizar este pago.
+        * **Necesitas más saldo para este pago.** No cuentas con saldo suficiente para realizar este pago.
       </td>
     </tr>
 
@@ -545,7 +545,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta asociada a Yape está bloqueada.*\* No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.
+        * **Tu cuenta asociada a Yape está bloqueada.** No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.
       </td>
     </tr>
 
@@ -555,7 +555,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
 
@@ -565,7 +565,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
+        * **Ocurrió un inconveniente.** Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.
       </td>
     </tr>
 
@@ -575,7 +575,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Necesitas asociar tu nueva tarjeta BCP a Yape.*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.
+        * **Necesitas asociar tu nueva tarjeta BCP a Yape.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.
       </td>
     </tr>
 
@@ -585,7 +585,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.
+        * **Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta con tus mismos datos.
       </td>
     </tr>
 
@@ -595,7 +595,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta está bloqueada.*\* Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.
+        * **Tu cuenta está bloqueada.** Ingresa al Centro de Ayuda de [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para eliminar tu Yape y crear una nueva cuenta. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.
       </td>
     </tr>
 
@@ -605,7 +605,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta está vencida.*\* Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.
+        * **Tu cuenta está vencida.** Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape [www.yape.com.pe](http://www.yape.com.pe) y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.
       </td>
     </tr>
 
@@ -616,7 +616,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Tu cuenta asociada a Yape está cerrada.*\* No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.
+        * **Tu cuenta asociada a Yape está cerrada.** No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.
       </td>
     </tr>
 
@@ -626,7 +626,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
       </td>
 
       <td>
-        * *Ocurrió un inconveniente.*\* Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
       </td>
     </tr>
   </tbody>
