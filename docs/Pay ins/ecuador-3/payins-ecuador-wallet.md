@@ -69,7 +69,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "paymentMethod": "payphone_payment",
   "urlConfirmation": "Webhook",
   "urlFinal": "example.com/successful",
-  "urlRejected": "example.com/declined",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
   "order": "1234",
   "sign": "Signature of the parameters"
 }
