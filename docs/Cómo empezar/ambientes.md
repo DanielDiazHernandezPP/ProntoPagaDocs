@@ -9,6 +9,8 @@ metadata:
     The ProntoPaga API has two environments: sandbox and production; the sandbox
     uses simulated data and has a certain URL, while the production environment
     requires certification and uses a different URL.
+  image: >-
+    https://files.readme.io/ca34da4fc3a6b679e3463e4e855c9aed48d9e08b346520555505c6a5b4621369-Prontopaga_Logotipo.JPG
   keywords:
     - environment
     - ' sandbox'
