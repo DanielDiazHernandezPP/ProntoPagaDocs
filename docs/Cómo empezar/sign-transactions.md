@@ -34,9 +34,9 @@ Para firmar tus transacciones, sigue estos pasos:
 	"currency": "CLP",
 	"order": 3000001,          
 	"paymentMethod": "webpay_payment",
-	"urlConfirmation": "Webhook",
-	"urlFinal": "example.com/successful",
-	"urlRejected": "example.com/declined"
+	"urlConfirmation": "https://www.webhook.com",
+	"urlFinal": "https://sandbox.prontopaga.com/successful",
+	"urlRejected": "https://sandbox.prontopaga.com/declined"
 }
 ```
 
