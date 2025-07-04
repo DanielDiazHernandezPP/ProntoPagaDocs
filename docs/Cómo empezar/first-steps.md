@@ -9,6 +9,8 @@ metadata:
     The ProntoPaga API integration guide provides instructions for obtaining and
     using API keys, and explains key concepts such as the differences between
     pay ins and pay outs.
+  image: >-
+    https://files.readme.io/7b7ab0bc3a42c1285ad89ace1c69eecb82a090f6845228aa952e4bf684db5d14-Group_1.png
   keywords:
     - firts steps
     - how to start
