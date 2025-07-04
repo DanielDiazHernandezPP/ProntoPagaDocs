@@ -10,7 +10,7 @@ metadata:
     using API keys, and explains key concepts such as the differences between
     pay ins and pay outs.
   image: >-
-    https://files.readme.io/b6419629e48014d40eadabd5fcfb04db2839152c4c68f85930b9ffabbe8dbb5a-Prontopaga_JPG.JPG
+    https://files.readme.io/57ecbda6817de59417f58f81b904b9ce8fa6330aaa462574fed62a47bab18751-PP.JPG
   keywords:
     - firts steps
     - how to start
