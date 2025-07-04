@@ -69,7 +69,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "accountType": "C",
   "bankCode": "1",
   "data": "1234",
-  "confirmationURL": "Webhook",
+  "confirmationURL": "https://www.webhook.com",
   "currency": "CLP",
   "country": "CL",
   "sign": "Signature of the parameters"
