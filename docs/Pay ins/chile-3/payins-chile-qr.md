@@ -71,7 +71,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "urlFinal": "example.com/successful",
   "urlRejected": "example.com/declined",
   "order": "1234",
-  "sing": "Signature of the parameters"
+  "sign": "Signature of the parameters"
 }
 ```
 
