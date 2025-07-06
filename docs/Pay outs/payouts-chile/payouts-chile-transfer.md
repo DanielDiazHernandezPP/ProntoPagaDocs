@@ -60,7 +60,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 ```json
 {
   "amount": "2000",
-  "document_id": "12345678912",
+  "document_id": "11111111-1",
   "beneficiaryName": "John",
   "beneficiaryLastName": "Doe",
   "beneficiaryEmail": "johndoe@example.com",
