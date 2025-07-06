@@ -69,7 +69,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "amount": 10,
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
-  "clientPhone": "999999999",
+  "clientPhone": "0912345678",
   "clientDocument": "12345678912",
   "paymentMethod": "ec_card_payment",
   "urlConfirmation": "https://www.webhook.com",
