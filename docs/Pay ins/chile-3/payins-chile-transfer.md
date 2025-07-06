@@ -63,7 +63,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
-  "clientDocument": "12345678912",
+  "clientDocument": "11111111-1",
   "paymentMethod": "PagaConTuBanco",
   "urlConfirmation": "https://www.webhook.com",
   "urlFinal": "https://sandbox.prontopaga.com/successful",
