@@ -17,7 +17,10 @@ metadata:
     - how to make a cash payment in Ecuador
     - crear pagos en efectivo Ecuador
     - usar efectivo para pagos Prontopaga Ecuador
-    - payins ecuador
+    - Western Union
+    - Red Activa
+    - BeMovil
+    - PonleMás
   robots: index
 next:
   description: ''
