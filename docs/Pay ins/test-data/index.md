@@ -4,17 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Testing at Prontopaga
   description: >-
     ProntoPaga has test card lists to simulate scenarios and verify your
     integration with us.
+  image: >-
+    https://files.readme.io/3b0d5cdd85ad847717d81afadadee1ebc20f8f1ff231059f529fe1fc11930cf9-Prontopaga_logotipo.png
   keywords:
     - test data
-    - ' data'
-    - ' cards'
-    - ' card numbers'
-    - ' testing'
-    - ' prontopaga'
+    - cards
+    - card numbers
+    - testing
+    - prontopaga
+    - pruebas
+    - testeo
+    - integration testing
+    - pruebas en Prontopaga
+    - simulador de pagos
   robots: index
 next:
   description: ''
