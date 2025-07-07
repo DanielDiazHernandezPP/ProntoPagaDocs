@@ -10,6 +10,8 @@ metadata:
     request through the ProntoPaga API with a bearer token and a secret
     signature; the customer will receive a payment slip and confirmation will be
     sent to a specified URL.
+  image: >-
+    https://files.readme.io/bfff8a2c5b9fd5f93b8bde4b0b0332f2529b4b30778099f49e1e916b2042319a-Prontopaga_logotipo.png
   keywords:
     - cash
     - ' cash payment'
@@ -31,11 +33,11 @@ El proceso de pago con efectivo en Chile consta de seis etapas principales:
 
 <Image align="center" src="https://files.readme.io/e48b22d072db81b882009acc6cdc1de9822b2c99c110558b2677f4d4ba3e3cbc-Chile-02.jpg" />
 
-1. **Ingreso de datos.** Después de seleccionar los productos o servicios a comprar, el cliente ingresa sus datos personales en un formulario. 
-2. **Selección de método.** El cliente elige pagar con efectivo en tu sitio web o aplicación. 
-3. **Hoja de pago.** ProntoPaga le entrega una hoja de pago personalizada al cliente, con un código de pago único, así como la información de los puntos físicos en donde puede realizar el pago. 
-4. **Pago en punto físico.** El cliente se dirige a uno de los puntos físicos con su hoja de pago y su identificación, y hace el depósito del efectivo. 
-5. **Validación de datos.** ProntoPaga valida la infomación del pago.  
+1. **Ingreso de datos.** Después de seleccionar los productos o servicios a comprar, el cliente ingresa sus datos personales en un formulario.
+2. **Selección de método.** El cliente elige pagar con efectivo en tu sitio web o aplicación.
+3. **Hoja de pago.** ProntoPaga le entrega una hoja de pago personalizada al cliente, con un código de pago único, así como la información de los puntos físicos en donde puede realizar el pago.
+4. **Pago en punto físico.** El cliente se dirige a uno de los puntos físicos con su hoja de pago y su identificación, y hace el depósito del efectivo.
+5. **Validación de datos.** ProntoPaga valida la infomación del pago.
 6. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo pago
@@ -44,7 +46,7 @@ Tu front-end será el encargado de recopilar los datos necesarios de tu cliente 
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `servifacil_payment` como método de pago en el body de la solicitud.
 
-La solicitud se envía con tu bearer token, así como con tu firma secreta. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros. 
+La solicitud se envía con tu bearer token, así como con tu firma secreta. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -84,12 +86,12 @@ El cliente verá en pantalla y recibirá en su correo electrónico la hoja de pa
 
 * Monto a pagar
 * Código de pago
-* Instituciones en las que puede hacer el pago 
-* Instrucciones para hacer el pago 
+* Instituciones en las que puede hacer el pago
+* Instrucciones para hacer el pago
 
 ### Confirmación de un pago
 
-Una vez que el usuario haya realizado el pago en efectivo, ProntoPaga le notificará el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
+Una vez que el usuario haya realizado el pago en efectivo, ProntoPaga le notificará el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
