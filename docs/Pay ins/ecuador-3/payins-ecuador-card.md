@@ -4,24 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Integrate card payments in Ecuador with Payphone
   description: >-
     Guide to create a secure card payment in Ecuador using Payphone, involving
     data capture, API requests with authentication, and transaction
     confirmation, while utilizing Cybersource's fraud prevention tools. How to
     integrate the payment system, including necessary data, endpoints, and
-    testing procedures.
+    testing procedures. 
+  image: >-
+    https://files.readme.io/57d893b6bf89e9f7573bd836d536b267ed16c3824d88b1b3d8f8e00d0b1590fb-Prontopaga_logotipo.png
   keywords:
-    - payins
-    - ' payins ecuador'
-    - ' ecuador card'
-    - ' ecuador payphone card payments'
-    - ' ecuador payphone card'
-    - ' how to make a card payment payphone'
-    - ' ecuador'
-    - ' api'
-    - ' prontopaga'
-    - ' prontopaga payphone'
+    - payins ecuador
+    - ecuador payphone card payments
+    - how to make a card payment payphone
+    - prontopaga payphone
+    - como pagar con tarjeta en ecuador
+    - Payphone Ecuador
   robots: index
 next:
   description: ''
