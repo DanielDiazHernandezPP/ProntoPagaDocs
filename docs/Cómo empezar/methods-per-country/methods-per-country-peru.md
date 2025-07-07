@@ -4,16 +4,20 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Perú
   description: >-
     Prontopaga offers a wide variety of methods for merchants in Perú, including
     pay in and pay out options.
+  image: >-
+    https://files.readme.io/09a4aab46af5cb051c31da4edf3f16c911dea72f8332cdc518ce600f1113f7f5-Prontopaga_logotipo.png
   keywords:
     - pay ins
-    - ' pay outs'
-    - ' payment methods'
-    - ' peru'
-    - ' prontopaga'
+    - pay outs
+    - payment methods
+    - peru
+    - prontopaga
+    - pagos
+    - métodos de pago
   robots: index
 next:
   description: ''
