@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Check types of rejections in Prontopaga
   description: >-
     The document describes common types of rejections for payments in Brazil,
     Chile and Ecuador, including customer blocking, transaction limits, and
