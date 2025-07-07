@@ -6,23 +6,20 @@ hidden: false
 metadata:
   title: ''
   description: >-
-    To create a payment in Chile with Webpay, customer data must be captured and
-    a request made through the ProntoPaga API using a bearer token and a secret
-    signature. The front-end collects the customer data and the back-end
-    processes the payment, confirming the status of the transaction through
-    webhooks.
+    Learn how to create payments in Chile through Webpay with the Prontopaga
+    API. This guide explains the payin flow, required parameters, webhook
+    confirmation, and how to simulate transactions in sandbox. 
   image: >-
     https://files.readme.io/e5aecf1c9fb709aae486bb76fba9d07df3f27809ce868828b50dcb915012526f-Prontopaga_logotipo.png
   keywords:
-    - webpay
-    - ' card'
-    - ' card payment'
-    - ' chile'
-    - ' payin'
-    - ' make a payment in chile'
-    - ' prontopaga'
-    - ' guide'
-    - ' integration'
+    - webpay Prontopaga
+    - card payment Chile
+    - create a payin Chile
+    - make a payment in chile
+    - Prontopaga guide Chile
+    - integration Prontopaga Chile
+    - Crear un pago Chile
+    - pagos con tarjeta Chile
   robots: index
 next:
   description: ''
