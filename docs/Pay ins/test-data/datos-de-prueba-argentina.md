@@ -14,7 +14,9 @@ metadata:
     - datos de prueba Argentina
     - tarjetas de prueba Argentina
     - data test Argentina
-    - ''
+    - pagos de prueba
+    - test credit cards Argentina
+    - simulate payments Argentina
   robots: index
 next:
   description: ''
