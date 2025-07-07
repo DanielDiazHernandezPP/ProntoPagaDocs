@@ -9,6 +9,8 @@ metadata:
     To create a payment in Chile using a wallet, customer data must be captured
     and a request made through the API with a bearer token and a secret
     signature, ensuring secure and authenticated transactions.
+  image: >-
+    https://files.readme.io/8068cffeec4e7854d20a86991da9cf6529d3975616ef0924b110b6bd3f0f9b0a-Prontopaga_logotipo.png
   keywords:
     - wallet
     - ' wallet payment'
