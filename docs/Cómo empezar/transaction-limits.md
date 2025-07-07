@@ -4,12 +4,14 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
+  title: 'Límites de transacciones '
   description: >-
     This page outlines the transactional limits for pay ins and pay outs in
     Chile, Ecuador, and Peru, detailing the specific limits for different
     payment methods across three categories: commerce, processor, and
     ProntoPaga.
+  image: >-
+    https://files.readme.io/8ca4fe79c715021a08a5eea6dadaecd57cc4670331f0d0ab6da8ac6514950226-Prontopaga_logotipo.png
   keywords:
     - transaction limits
     - ' limits'
