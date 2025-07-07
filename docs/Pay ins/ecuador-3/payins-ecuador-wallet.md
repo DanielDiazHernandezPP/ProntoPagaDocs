@@ -4,20 +4,21 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Create wallet payments in Ecuador '
   description: >-
-    To create a wallet payment in Ecuador, customer data must be captured and a
-    request must be made through the ProntoPaga API with a bearer token and a
-    secret signature, ensuring secure and authenticated transactions.
+    Learn how to create wallet payments in Ecuador using the Prontopaga API.
+    Includes payment flow, API request, test data, and webhook confirmation
+    process.  
+  image: >-
+    https://files.readme.io/76012e67bb57c1cfb6e04cc79665b237b1374d30b32e25c78ad080c8c607bffc-Prontopaga_logotipo.png
   keywords:
-    - wallet
-    - ' wallet payment'
-    - ' payin'
-    - ' ecuador'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a wallet payment'
+    - wallet payment Ecuador
+    - Prontopaga wallet
+    - wallet guide
+    - how to make a wallet payment Ecuador
+    - payments Ecuador
+    - billetera digital Ecuador
+    - pagar con billetera digital Ecuador
   robots: index
 next:
   description: ''
