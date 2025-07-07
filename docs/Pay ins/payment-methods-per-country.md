@@ -60,10 +60,12 @@ En esta página están listados todos los métodos de pago por país, así como 
 
 ## Perú
 
-| Solución      | Método de pago        | Marca             |
-| :------------ | :-------------------- | :---------------- |
-| Tarjetas      | pe\_card\_payment     | VISA y MasterCard |
-| Transferencia | PagaConTuBanco        | Paga con tu banco |
-| Wallet        | yape\_payment         | Botón Yape        |
-| QR            | pe\_qr\_payment       | QR                |
-| Efectivo      | pagoefectivo\_payment | PagoEfectivo      |
+| Solución      | Método de pago         | Marca                                           |
+| :------------ | :--------------------- | :---------------------------------------------- |
+| Tarjetas      | pe\_card\_payment      | VISA y MasterCard                               |
+| Transferencia | PagaConTuBanco         | Paga con tu banco                               |
+| Wallet        | yape\_payment          | Botón Yape                                      |
+| Wallet        | yape\_oneshot\_payment | Botón Yape: One Shot                            |
+| Wallet        | yape\_cof\_payment     | Yape On File (One Click Payments y Recurrencia) |
+| QR            | pe\_qr\_payment        | QR                                              |
+| Efectivo      | pagoefectivo\_payment  | PagoEfectivo                                    |
