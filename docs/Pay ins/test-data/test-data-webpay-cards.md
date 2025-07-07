@@ -10,7 +10,7 @@ metadata:
     indicating the card type, details and whether transactions are approved or
     declined.
   keywords:
-    - card numbers
+    - webpay card numbers
     - Prontopaga chile
     - datos de prueba Chile
     - tarjetas de prueba Chile
