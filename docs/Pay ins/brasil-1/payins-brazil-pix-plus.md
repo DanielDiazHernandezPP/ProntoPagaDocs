@@ -4,11 +4,10 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create a payment with PIX+ (Open Finance)
   description: >-
     To create a payment in Brazil with PIX+, customer data must be captured and
     a request made through the API with a bearer token and a secret signature.
-    Selection of a banking institution is also required.
   keywords:
     - open finance
     - ' pix'
