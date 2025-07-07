@@ -11,6 +11,8 @@ metadata:
     signature. The front-end collects the customer data and the back-end
     processes the payment, confirming the status of the transaction through
     webhooks.
+  image: >-
+    https://files.readme.io/e5aecf1c9fb709aae486bb76fba9d07df3f27809ce868828b50dcb915012526f-Prontopaga_logotipo.png
   keywords:
     - webpay
     - ' card'
