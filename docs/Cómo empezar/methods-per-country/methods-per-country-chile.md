@@ -18,6 +18,7 @@ metadata:
     - prontopaga
     - pagos
     - métodos de pago
+    - webpay
   robots: index
 next:
   description: ''
