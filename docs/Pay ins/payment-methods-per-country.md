@@ -4,8 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: 'Check the payment methods by country '
+  description: >-
+    Check the available payment methods by country using Prontopaga's API. See
+    which options are active in Peru, Brazil, Chile and Ecuador.
+  image: >-
+    https://files.readme.io/d37e0b58dec644e240350156bf87913fb809021ee3f4b234511cad96dad65233-Prontopaga_logotipo.png
+  keywords:
+    - payment methods
+    - Prontopaga
+    - Peru
+    - Brazil
+    - Chile
+    - Ecuador
+    - regional payment options
+    - fintech
+    - métodos de pago
+    - endpoints
   robots: index
 next:
   description: ''
