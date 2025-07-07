@@ -4,11 +4,13 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create Bank Transfer Payments in Chile
   description: >-
-    To create a payment in Chile by bank transfer, you must capture the
-    customer's data and make a request through the ProntoPaga API with a bearer
-    token and a secret signature.
+    Learn how to create secure bank transfer payments in Chile using the
+    Prontopaga API. Includes payment flow, required parameters, webhooks, test
+    data, and certification steps.
+  image: >-
+    https://files.readme.io/ed53d7d42e750212c35b313110a1e79c89dc9b52d246a4aab1b4a66d2e9326a4-Prontopaga_logotipo.png
   keywords:
     - bank transfer
     - bank transfer payments Chile
