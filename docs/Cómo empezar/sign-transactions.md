@@ -13,9 +13,11 @@ metadata:
     https://files.readme.io/0173d1f1eccb72899d88ce1e014cb96a0e46ec380fafb8dd9fd9760c0310ef94-Prontopaga_Logotipo.JPG
   keywords:
     - secretkey
-    - ' secret key'
-    - ' sign'
-    - ' prontopaga'
+    - secret key
+    - sign
+    - prontopaga
+    - firmar transacciones
+    - firmar
   robots: index
 next:
   description: ''
