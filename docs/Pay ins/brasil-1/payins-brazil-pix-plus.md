@@ -8,16 +8,17 @@ metadata:
   description: >-
     To create a payment in Brazil with PIX+, customer data must be captured and
     a request made through the API with a bearer token and a secret signature.
+  image: >-
+    https://files.readme.io/33fea6098473c99b65f6aad03505fb67c1cba75de79ac9d3ed2cb39fc7fcb69c-Prontopaga_logotipo.png
   keywords:
     - open finance
-    - ' pix'
-    - ' pix plus'
-    - ' brazil'
-    - ' payment'
-    - ' payin'
-    - ' integration'
-    - ' guide'
-    - ' prontopaga'
+    - pix plus
+    - payment Brasil
+    - payin
+    - integration
+    - Pix+ guide
+    - Prontopaga Brasil
+    - create payments Pix
   robots: index
 next:
   description: ''
