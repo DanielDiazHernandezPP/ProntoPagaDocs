@@ -4,22 +4,24 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create Wallet Payments in Chile with MACH and Mercado Pago
   description: >-
-    To create a payment in Chile using a wallet, customer data must be captured
-    and a request made through the API with a bearer token and a secret
-    signature, ensuring secure and authenticated transactions.
+    Learn how to create wallet payments in Chile using the Prontopaga API with
+    MACH and Mercado Pago. Includes payment flow, API request, test data, and
+    webhook confirmation process.
   image: >-
     https://files.readme.io/8068cffeec4e7854d20a86991da9cf6529d3975616ef0924b110b6bd3f0f9b0a-Prontopaga_logotipo.png
   keywords:
-    - wallet
-    - ' wallet payment'
-    - ' chile'
-    - ' pay in'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a wallet payment'
+    - wallet payment chile
+    - Prontopaga wallet
+    - wallet guide
+    - how to make a wallet payment
+    - Mach Chile
+    - Mercado Pago Chile
+    - QR payments Chile
+    - wallets Chile
+    - billetera digital Chile
+    - crear pagos con wallet Chile
   robots: index
 next:
   description: ''
