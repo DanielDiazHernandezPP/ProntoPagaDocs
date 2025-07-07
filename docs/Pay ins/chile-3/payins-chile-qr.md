@@ -4,20 +4,18 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create payments in Chile with QR
   description: >-
-    To create a QR payment in Chile, customer data must be captured and a
-    request must be made through the API with a bearer token and a secret
-    signature, ensuring authentication and transaction security.
+    Learn how to create QR payments in Chile using the Prontopaga API. Includes
+    payment flow, API request, test data, and webhook confirmation process.
+  image: >-
+    https://files.readme.io/e7102ae1763d4239412e57076b3ac3f6c760e58fb6caffb099e5205ff816db72-Prontopaga_logotipo.png
   keywords:
-    - qr
-    - ' qr payment'
-    - ' chile'
-    - ' payin'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a qr payment'
+    - QR payments Chile
+    - Prontopaga QR Chile
+    - how to make a QR payment in Chile
+    - crear pagos con QR Chile
+    - usar QR Prontopaga Chile
   robots: index
 next:
   description: ''
