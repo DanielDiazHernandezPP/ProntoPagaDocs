@@ -4,16 +4,20 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Ecuador
   description: >-
     Prontopaga offers a wide variety of methods for merchants in Ecuador,
     including pay in and pay out options.
+  image: >-
+    https://files.readme.io/bf50cdfbba89e1ae6c20a786c80a4968b5d24304bc4b477cc178d5498193cb57-Prontopaga_logotipo.png
   keywords:
     - pay ins
-    - ' pay outs'
-    - ' paymenth methods'
-    - ' ecuador'
-    - ' prontopaga'
+    - pay outs
+    - paymenth methods
+    - ecuador
+    - prontopaga
+    - métodos de pago
+    - pagos
   robots: index
 next:
   description: ''
