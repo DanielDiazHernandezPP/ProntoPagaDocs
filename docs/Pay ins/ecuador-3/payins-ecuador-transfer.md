@@ -4,25 +4,19 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Integrate bank transfers in Ecuador
   description: >-
-    To create a payment in Ecuador via bank transfer, customer data must be
-    captured and a request made through the API with a bearer token and a secret
-    signature. The process includes collecting data on the front-end, processing
-    the payment on the back-end, and confirming the transaction via webhooks,
-    with testing options available to verify the integration.
+    Learn how to create secure bank transfer payments in Ecuador using the
+    Prontopaga API. Includes payment flow, required parameters, webhooks, test
+    data, and certification steps. 
+  image: >-
+    https://files.readme.io/08fc906b454e67bd107f208b454cdbdc55a7a97d30e7fa6c68fa7fc845050889-Prontopaga_logotipo.png
   keywords:
-    - transfer
-    - ' bank'
-    - ' bank transfer'
-    - ' wire transfer'
-    - ' payin'
-    - ' bank payment'
-    - ' guide'
-    - ' integration'
-    - ' ecuador'
-    - ' prontopaga'
-    - ' how to make a wire transfer'
+    - Wire transfer
+    - bank transfer payments Ecuador
+    - payment flow Ecuador
+    - Prontopaga
+    - pagos por transferencia bancaria Ecuador
   robots: index
 next:
   description: ''
