@@ -1,6 +1,8 @@
 ---
 title: Cobertura por país
-excerpt: ''
+excerpt: >-
+  Puedes revisar la cobertura que tenemos actualmente en los diversos países en
+  los que operamos. 
 deprecated: false
 hidden: false
 metadata:
