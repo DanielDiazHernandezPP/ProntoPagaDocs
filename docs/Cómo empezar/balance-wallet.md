@@ -4,16 +4,26 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Balance (Wallet empresarial)
   description: >-
-    Your ProntoPaga Console includes a Balance that is divided into Net Balance,
-    Deferred Balance, Blocked Balance, Available Balance and Pending Withdrawal.
+    Your ProntoPaga Console includes a Balance section that is divided into Net
+    Balance, Deferred Balance, Blocked Balance, Available Balance and Pending
+    Withdrawal. Check your wallet, transactions, and settlement processes
+    quickly and securely.
+  image: >-
+    https://files.readme.io/51f4d1c0c6429901565d7c6471d932d319fa3eb6d25b134e55c3484479a3b048-Prontopaga_logotipo.png
   keywords:
     - wallet
-    - ' balance'
-    - ' enterprise'
-    - ' definitions'
-    - ' prontopaga'
+    - balance
+    - enterprise
+    - definitions
+    - prontopaga
+    - settlement
+    - consulta de saldo
+    - balance inquiry
+    - saldo disponible
+    - fondos
+    - retiros
   robots: index
 next:
   description: ''
