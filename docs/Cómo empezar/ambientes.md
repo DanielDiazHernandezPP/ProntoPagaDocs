@@ -13,10 +13,12 @@ metadata:
     https://files.readme.io/ca34da4fc3a6b679e3463e4e855c9aed48d9e08b346520555505c6a5b4621369-Prontopaga_Logotipo.JPG
   keywords:
     - environment
-    - ' sandbox'
-    - ' production'
-    - ' prontopaga'
-    - ' api'
+    - sandbox
+    - production
+    - prontopaga
+    - api
+    - ambientes
+    - producción
   robots: index
 next:
   description: ''
