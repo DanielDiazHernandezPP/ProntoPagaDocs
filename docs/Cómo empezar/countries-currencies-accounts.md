@@ -4,17 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Países, monedas y cuentas
   description: >-
     It details the country and currency codes for Brazil, Chile, Ecuador and
     Peru, and describes the types of bank accounts available in each country,
     with additional specifications for Payphone accounts in Ecuador.
+  image: >-
+    https://files.readme.io/be36fa313f9f8077f025d1c7cde5dd8750254ccc721b0d9a406702c67dabf553-Prontopaga_logotipo.png
   keywords:
     - countries
-    - ' currencies'
-    - ' accounts'
-    - ' api'
-    - ' prontopaga'
+    - currencies
+    - accounts
+    - api
+    - prontopaga
+    - monedas
+    - cuentas bancarias
+    - países
   robots: index
 next:
   description: ''
