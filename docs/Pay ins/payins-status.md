@@ -11,13 +11,13 @@ metadata:
   image: >-
     https://files.readme.io/3e9d6f50f24cb1db0c6f36214510f01fa0329163510eec6957056185bf5e8b2a-Prontopaga_logotipo.png
   keywords:
-    - pay ins
-    - ' statuses'
-    - ' payment status'
-    - ' status'
-    - ' successful'
-    - ' rejected'
-    - ' prontopaga'
+    - pay ins statuses
+    - payment status
+    - status
+    - successful
+    - rejected
+    - estados de pay ins
+    - estados Prontopaga
   robots: index
 next:
   description: ''
