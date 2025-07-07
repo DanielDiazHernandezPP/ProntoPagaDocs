@@ -4,21 +4,19 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Process cash payments in Ecuador
   description: >-
-    To create a cash payment in Ecuador, capture the customer data and make a
-    request through the ProntoPaga API with a bearer token and a secret
-    signature. Once the payment is made, ProntoPaga will notify the result and
-    return the transaction data to the specified URL.
+    Learn how to accept or process cash payments in Ecuador using the Prontopaga
+    API. This guide includes payment flow, API request format, test data, and
+    webhook response handling.
+  image: >-
+    https://files.readme.io/bb512f737c6f69878c2747206617052931fdd19d98ad91d396faf642989c0417-Prontopaga_logotipo.png
   keywords:
-    - cash
-    - ' cash payment'
-    - ' payin'
-    - ' ecuador'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a cash payment'
+    - cash payments Ecuador
+    - Prontopaga cash Ecuador
+    - how to make a cash payment in Ecuador
+    - crear pagos en efectivo Ecuador
+    - usar efectivo para pagos Prontopaga Ecuador
   robots: index
 next:
   description: ''
