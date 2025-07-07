@@ -7,8 +7,8 @@ metadata:
   title: Check types of rejections in Prontopaga
   description: >-
     The document describes common types of rejections for payments in Brazil,
-    Chile and Ecuador, including customer blocking, transaction limits, and
-    payment system-specific errors.
+    Chile, Ecuador and Peru, including customer blocking, transaction limits,
+    and payment system-specific errors.
   keywords:
     - rejections
     - ' payins'
