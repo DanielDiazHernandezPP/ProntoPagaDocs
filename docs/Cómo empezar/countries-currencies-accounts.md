@@ -17,7 +17,7 @@ metadata:
     - accounts
     - api
     - prontopaga
-    - monedas
+    - moneda
     - cuentas bancarias
     - países
   robots: index
