@@ -12,6 +12,7 @@ metadata:
   image: >-
     https://files.readme.io/e5aecf1c9fb709aae486bb76fba9d07df3f27809ce868828b50dcb915012526f-Prontopaga_logotipo.png
   keywords:
+    - Bancos Chile Transfer In
     - webpay Prontopaga
     - card payment Chile
     - create a payin Chile
