@@ -4,22 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: physical payment locations in Ecuador
   description: >-
     Customers in Ecuador can pay in cash at physical points of Red
     Activa/Western Union, Ponle más, and Bemovil, with specific limits and
     expiration times, and the merchant will receive notifications of payment
     status via webhook.
+  image: >-
+    https://files.readme.io/21f710e245f159c425b89cfdbc8c3e644bf805db03479021996a35a9715f7992-Prontopaga_logotipo.png
   keywords:
     - physical points
-    - ' payins'
-    - ' cash payments'
-    - ' ecuador'
-    - ' red activa'
-    - ' western union'
-    - ' ponlemas'
-    - ' bemovil'
-    - ' prontopaga'
+    - pagos en cash Ecuador
+    - Red Activa Ecuador
+    - PonleMás Ecuador
+    - Bemovil Ecuador
+    - pay in cash Prontopaga
+    - puntos de pago Ecuador
+    - pagar en efectivo Prontopaga Ecuador
   robots: index
 next:
   description: ''
