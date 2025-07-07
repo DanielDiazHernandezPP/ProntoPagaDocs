@@ -4,20 +4,24 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Test data for Peru
   description: >-
     The document provides test card numbers for successful and denied payment
     scenarios using various card types (Visa, MasterCard, American Express,
-    Diners Club, and Union Pay) in Peru, detailing specific conditions and
+    Diners Club, Yape, and Union Pay) in Peru, detailing specific conditions and
     action codes for each case.
+  image: >-
+    https://files.readme.io/39f25b416f21c2d73d73ca3b8a6ccccc5c77fa2947cf1e9e32a36deddb63281f-Prontopaga_logotipo.png
   keywords:
-    - test data
-    - ' test'
-    - ' cards'
-    - ' card numbers'
-    - ' peru'
-    - ' testing'
-    - ' prontopaga'
+    - testing
+    - Prontopaga Peru
+    - datos de prueba Peru
+    - tarjetas de prueba Peru
+    - test data Peru
+    - pagos de prueba
+    - Peru test credit cards
+    - simulate payments Peru
+    - boton Yape test
   robots: index
 next:
   description: ''
