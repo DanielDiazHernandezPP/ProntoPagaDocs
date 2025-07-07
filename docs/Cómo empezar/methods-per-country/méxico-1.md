@@ -5,9 +5,18 @@ deprecated: false
 hidden: true
 metadata:
   title: México
-  description: ''
+  description: >-
+    Prontopaga offers a wide variety of methods for merchants in México,
+    including pay in and pay out options.
   image: >-
     https://files.readme.io/14fd74f8afd36d17b5ff5cbb60a4901d21e7b63a33367b746b925edb5ea8c1d0-Prontopaga_logotipo.png
+  keywords:
+    - México
+    - Prontopaga
+    - pay in
+    - pay out
+    - payment methods
+    - métodos de pago
   robots: index
 next:
   description: ''
