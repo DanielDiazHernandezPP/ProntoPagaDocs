@@ -4,8 +4,21 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
-  description: ''
+  title: Integrate cryptocurrency payments in Chile
+  description: >-
+    Learn how to accept cryptocurrency payments in Chile using Coinbase with the
+    Prontopaga API. This guide covers integration steps, payment flow, test
+    data, and webhook confirmation.
+  image: >-
+    https://files.readme.io/a2c4c94a6bc755f737ba5b8e85318f2d030f1eb2496d49179b52812f38f92d7c-Prontopaga_logotipo.png
+  keywords:
+    - cryptocurrency payments Chile
+    - Coinbase API integration
+    - crypto payins Chile
+    - Prontopaga coinbase payment
+    - accept crypto Chile
+    - pagos con criptomonedas Chile
+    - integrar pagos criptomonedas
   robots: index
 next:
   description: ''
