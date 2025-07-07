@@ -4,23 +4,19 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
+  title: Create cash payments in Chile
   description: >-
-    To create a cash payment in Chile, capture the customer's data and make a
-    request through the ProntoPaga API with a bearer token and a secret
-    signature; the customer will receive a payment slip and confirmation will be
-    sent to a specified URL.
+    Learn how to create cash payments in Chile using the Prontopaga API.
+    Includes payment flow, API request, test data, and webhook confirmation
+    process. 
   image: >-
     https://files.readme.io/bfff8a2c5b9fd5f93b8bde4b0b0332f2529b4b30778099f49e1e916b2042319a-Prontopaga_logotipo.png
   keywords:
-    - cash
-    - ' cash payment'
-    - ' pay in'
-    - ' chile'
-    - ' guide'
-    - ' integration'
-    - ' how to make a cash payment'
-    - ' prontopaga'
+    - cash payments Chile
+    - Prontopaga cash Chile
+    - how to make a cash payment in Chile
+    - crear pagos en efectivo Chile
+    - usar efectivo para pagos Prontopaga Chile
   robots: index
 next:
   description: ''
