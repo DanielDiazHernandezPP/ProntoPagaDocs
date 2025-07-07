@@ -4,19 +4,20 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Test data for cards in Chile  '
   description: >-
     This document provides a list of test cards for the Webpay service in Chile,
     indicating the card type, details and whether transactions are approved or
     declined.
   keywords:
-    - test
-    - ' test data'
-    - ' webpay'
-    - ' webpay cards'
-    - ' card numbers'
-    - ' prontopaga'
-    - ' chile'
+    - card numbers
+    - Prontopaga chile
+    - datos de prueba Chile
+    - tarjetas de prueba Chile
+    - data test Chile
+    - pagos de prueba
+    - test credit cards Chile
+    - simulate payments Chile
   robots: index
 next:
   description: ''
