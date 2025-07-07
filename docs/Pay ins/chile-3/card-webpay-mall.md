@@ -4,8 +4,17 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
-  description: ''
+  title: 'Create a payment in Chile with Webpay Mall '
+  description: >-
+    Learn how to create payments in Chile through Webpay Mall with the
+    Prontopaga API. This guide explains the payin flow, required parameters,
+    webhook confirmation, and how to simulate transactions in sandbox. 
+  keywords:
+    - webpay mall Prontopaga
+    - create a payin webpay mall
+    - make a payment in chile
+    - Prontopaga guide Chile
+    - crear un pago con webpay mall
   robots: index
 next:
   description: ''
@@ -18,18 +27,18 @@ El proceso de pago con tarjeta en Chile consta de seis etapas principales:
 
 <Image align="center" src="https://files.readme.io/142fd0e9bcf0ba84714c8cd3817dbba89c667b35ed12b60fd341a149b7ee125c-Chile-01.png" />
 
-1. **Selección de método.** El cliente elige pagar con tarjeta (Webpay) en tu sitio web o aplicación. 
-2. **Redirección a Webpay.** El cliente es redirigido al portal de Webpay, en donde ingresa los datos de su tarjeta. 
+1. **Selección de método.** El cliente elige pagar con tarjeta (Webpay) en tu sitio web o aplicación.
+2. **Redirección a Webpay.** El cliente es redirigido al portal de Webpay, en donde ingresa los datos de su tarjeta.
 3. **Redirección al banco.** El cliente es redirigido al portal de su banco, en donde debe confirmar la transacción.
-4. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta. 
-5. **Autorización y Captura.** Se verifica que existan los fondos suficientes y el dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio. 
+4. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta.
+5. **Autorización y Captura.** Se verifica que existan los fondos suficientes y el dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
 6. **Confirmación.** El cliente es redirigido a tu sitio y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ## Crea un nuevo pago con Webpay Mall
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment-chile-webpay-mall). La solicitud se envía con tu bearer token, así como con tu firma secreta. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros. 
+De este modo, para crear una solicitud de nuevo pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment-chile-webpay-mall). La solicitud se envía con tu bearer token, así como con tu firma secreta. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -78,7 +87,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 ### Confirmación de un pago
 
-Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`. 
+Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
