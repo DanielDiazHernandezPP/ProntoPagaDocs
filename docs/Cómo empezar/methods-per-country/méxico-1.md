@@ -4,8 +4,10 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
+  title: México
   description: ''
+  image: >-
+    https://files.readme.io/14fd74f8afd36d17b5ff5cbb60a4901d21e7b63a33367b746b925edb5ea8c1d0-Prontopaga_logotipo.png
   robots: index
 next:
   description: ''
