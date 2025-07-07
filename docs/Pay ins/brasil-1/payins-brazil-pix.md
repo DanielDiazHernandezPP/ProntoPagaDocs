@@ -12,13 +12,13 @@ metadata:
   image: >-
     https://files.readme.io/07d6e284af99c80bde77da29d0ffd83e9e22a5f92ca3fadcc06d6b78399729e9-Prontopaga_logotipo.png
   keywords:
-    - pix
-    - ' brazil'
-    - ' pix payment'
-    - ' integration'
-    - ' guide'
-    - ' payin'
-    - ' prontopaga'
+    - Prontopaga brasil
+    - pix payment
+    - integration
+    - pay ins Brasil prontopaga
+    - crear pagos con Pix Brazil
+    - create payments Pix
+    - Guide Brasil pay ins
   robots: index
 next:
   description: ''
