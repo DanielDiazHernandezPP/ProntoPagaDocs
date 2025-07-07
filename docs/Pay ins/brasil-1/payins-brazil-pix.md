@@ -4,12 +4,13 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create a payment with Pix in Brasil
   description: >-
-    To create a payment in Brazil with PIX, customer data must be captured and a
-    request made through the API with a bearer token and a secret signature. In
-    addition, an iFrame and QR code must be integrated on the merchant's page,
-    and the transaction status must be confirmed through a webhook.
+    Learn how to receive payments in Brazil using PIX with the Prontopaga API.
+    This guide explains the payin flow, required parameters, webhook
+    confirmation, and how to simulate transactions in sandbox.
+  image: >-
+    https://files.readme.io/07d6e284af99c80bde77da29d0ffd83e9e22a5f92ca3fadcc06d6b78399729e9-Prontopaga_logotipo.png
   keywords:
     - pix
     - ' brazil'
