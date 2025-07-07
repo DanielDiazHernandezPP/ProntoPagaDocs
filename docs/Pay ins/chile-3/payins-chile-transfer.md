@@ -11,13 +11,12 @@ metadata:
     token and a secret signature.
   keywords:
     - bank transfer
-    - ' bank'
-    - ' bank transfer payment'
-    - ' wire transfer'
-    - ' chile'
-    - ' payin'
-    - ' prontopaga'
-    - ' how to make a wire transfer payment'
+    - bank transfer payments Chile
+    - Prontopaga Chile
+    - Chile API integration Prontopaga
+    - payment flow Chile Prontopaga
+    - pagos por transferencia bancaria Chile
+    - Paga con tu banco Chile
   robots: index
 next:
   description: ''
