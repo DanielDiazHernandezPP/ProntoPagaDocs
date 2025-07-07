@@ -4,8 +4,13 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
-  description: ''
+  title: 'Create card payments in Argentina '
+  description: >-
+    Learn how to create secure card payments in Argentina using the Prontopaga
+    API. Includes full process flow, test data, error codes, webhook examples,
+    and certification requirements.
+  image: >-
+    https://files.readme.io/90f9c2e90398791f651316ccf7ab6b66a91e0dcea89214c6719d73af0e5060ba-Prontopaga_logotipo.png
   robots: index
 next:
   description: ''
