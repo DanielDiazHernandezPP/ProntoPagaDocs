@@ -11,6 +11,13 @@ metadata:
     and certification requirements.
   image: >-
     https://files.readme.io/90f9c2e90398791f651316ccf7ab6b66a91e0dcea89214c6719d73af0e5060ba-Prontopaga_logotipo.png
+  keywords:
+    - card payments Argentina
+    - webhook examples Argentina
+    - crear pagos con tarjeta Argentina
+    - Bearer Token Argentina
+    - secretKey Argentina
+    - endpoint Argentina Prontopaga
   robots: index
 next:
   description: ''
