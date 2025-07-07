@@ -4,23 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Test data for cards in Ecuador
   description: >-
     This page provides test card details for making card payments with Payphone
     in Ecuador, specifying that using the provided VISA and AMEX card numbers
     will result in approved transactions.
+  image: >-
+    https://files.readme.io/62389b61d5d9bf2d62649d741a5e6ee0a1302acd6935d0218d9fdec6099d0ee9-Prontopaga_logotipo.png
   keywords:
-    - test data
-    - ' test data ecuador'
-    - ' ecuador prontopaga'
-    - ' data'
-    - ' test cards'
-    - ' test data payphone'
-    - ' test cards payphone'
-    - ' payphone card'
-    - ' visa'
-    - ' american express'
-    - ' prontopaga payphone'
+    - Payphone card numbers
+    - Prontopaga Ecuador
+    - datos de prueba Ecuador
+    - tarjetas de prueba Ecuador
+    - data test Ecuador
+    - pagos de prueba
+    - Ecuador test credit cards
+    - simulate payments Ecuador
   robots: index
 next:
   description: ''
