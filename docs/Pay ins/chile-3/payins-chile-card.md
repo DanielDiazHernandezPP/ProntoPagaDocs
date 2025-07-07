@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create a card payment in Chile with Webpay
   description: >-
     Learn how to create payments in Chile through Webpay with the Prontopaga
     API. This guide explains the payin flow, required parameters, webhook
