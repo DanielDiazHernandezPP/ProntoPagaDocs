@@ -17,6 +17,7 @@ metadata:
     - pagos de prueba
     - test credit cards Argentina
     - simulate payments Argentina
+    - Prontopaga Argentina
   robots: index
 next:
   description: ''
