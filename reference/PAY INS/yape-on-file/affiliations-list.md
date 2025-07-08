@@ -8,9 +8,19 @@ deprecated: false
 hidden: false
 metadata:
   title: List of affiliations
-  description: ''
+  description: >-
+    This endpoint is used in Peru to obtain a list of your business's
+    affiliations. 
   image: >-
     https://files.readme.io/1e6bed02cf0740d2d985a718b49722a7475026008d29a6d6027295b00092c709-Prontopaga_logotipo.png
+  keywords:
+    - endpoint yape
+    - yape prontopaga
+    - Yape on File
+    - One Click Payment
+    - recurrencia Yape
+    - list of affiliations Yape
+    - lista de afiliados Yape
   robots: index
 next:
   description: ''
