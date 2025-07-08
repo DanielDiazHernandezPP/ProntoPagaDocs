@@ -4,21 +4,21 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Making cash payouts in Ecuador
   description: >-
     The document describes how to make payouts in Ecuador through Payphone,
     Bemovil, and Ponle más using the ProntoPaga API, including capturing
     recipient data, authentication with bearer token and secret signature, and
     verification of successful transactions through webhooks.
+  image: >-
+    https://files.readme.io/ad21ddc93ed82e4243a9ed07e5612fd1e4dab1a60bd8e61f16f275a8697995c6-Prontopaga_logotipo.png
   keywords:
-    - cash payouts
-    - ' cash payout'
-    - ' cash'
-    - ' ecuador'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a cash payout'
+    - how to make a cash payout
+    - cash payout Ecuador
+    - Prontopaga payout Ecuador
+    - send money in cash Ecuador
+    - API cash Ecuador
+    - cash withdrawal Ecuador
   robots: index
 next:
   description: ''
