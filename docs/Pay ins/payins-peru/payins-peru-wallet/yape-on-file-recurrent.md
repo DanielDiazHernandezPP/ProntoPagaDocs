@@ -26,6 +26,7 @@ metadata:
     - integrar yape
     - pagos recurrentes Yape
     - afiliarse a Yape
+    - recurrencia Yape
   robots: index
 next:
   description: ''
