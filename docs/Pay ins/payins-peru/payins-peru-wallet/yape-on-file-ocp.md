@@ -9,6 +9,8 @@ metadata:
     Yape One Click Payments is a feature that allows users to make payments with
     a single tap after registering their details just once. You can easily add
     this feature to your business through the ProntoPaga API. 
+  image: >-
+    https://files.readme.io/650f2bd6a9aa7dcded6023e3e7a43d99ee109f556991bb114149d712551079fe-Prontopaga_logotipo.png
   keywords:
     - Yape One Click Payments
     - payment Peru
