@@ -4,8 +4,24 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
-  description: ''
+  title: How to Create a Bank Transfer Payment in Mexico via ProntoPaga API (SPEI)
+  description: >-
+    Learn how to create secure bank transfer payments in Mexico using
+    ProntoPaga’s API. Authenticate requests with a bearer token and secret
+    signature. Includes Cybersource fraud protection, sample request body,
+    webhook confirmation, and test data. 
+  image: >-
+    https://files.readme.io/1bd43041f33dc12debb4b266de766ec956d705f357ef8ab7ead7103d4a565ae0-Prontopaga_logotipo.png
+  keywords:
+    - create payment Mexico
+    - bank transfer ProntoPaga
+    - payment methods Mexico
+    - online bank transfer
+    - crear pago México
+    - integración API pagos
+    - ProntoPaga México
+    - pagos bancarios en línea
+    - método de pago México
   robots: index
 next:
   description: ''
