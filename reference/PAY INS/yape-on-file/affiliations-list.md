@@ -7,8 +7,10 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: List of affiliations
   description: ''
+  image: >-
+    https://files.readme.io/1e6bed02cf0740d2d985a718b49722a7475026008d29a6d6027295b00092c709-Prontopaga_logotipo.png
   robots: index
 next:
   description: ''
