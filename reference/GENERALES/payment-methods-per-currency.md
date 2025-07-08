@@ -7,19 +7,19 @@ api:
 deprecated: false
 hidden: true
 metadata:
-  title: ''
+  title: Payment methods per currency Prontopaga
   description: >-
     Endpoint to know the payment methods per currency associated with your
     company in ProntoPaga.
+  image: >-
+    https://files.readme.io/8318c68ef09ca345e26d926dfc166f332456b39b3ec95190befe2f27b737059c-Prontopaga_logotipo.png
   keywords:
     - payment methods
-    - ' currency'
-    - ' payment methods per currency'
-    - ' prontopaga'
-    - ' api'
-    - ' endpoint'
-    - ' body params'
-    - ' request'
+    - currency
+    - payment methods per currency
+    - prontopaga payment methods
+    - endpoint
+    - body params Prontopaga
   robots: index
 next:
   description: ''
