@@ -4,22 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Make a payout via bank transfer in Chile
   description: >-
-    To make a payout in Chile by bank transfer, the recipient's data must be
-    captured and a request made through the API with a bearer token and a secret
-    signature, ensuring secure transactions. In addition, you can display logos
-    of available banks and test the integration with test data and demos.
+    To make a payout in Chile via bank transfer, capture the recipient's
+    information and send a request via the API. This guide explains the
+    withdrawal flow, required parameters, webhook confirmation, and how to
+    simulate transactions in a test environment. 
+  image: >-
+    https://files.readme.io/7646e30360b181ba647e270cad9169c2e7cf91b6ea8c2199e20ed117a7066cd7-Prontopaga_logotipo.png
   keywords:
-    - bank transfer
-    - ' transfer payout'
-    - ' payout'
-    - ' chile'
-    - ' wire transfer payout'
-    - ' how to make a wire transfer payout'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
+    - bank transfer Chile
+    - transfer payout
+    - chile wire transfer payout
+    - how to make a wire transfer payout
+    - Prontopaga
+    - cómo hacer un payout Chile
+    - hacer payout
+    - retiros Prontopaga
   robots: index
 next:
   description: ''
