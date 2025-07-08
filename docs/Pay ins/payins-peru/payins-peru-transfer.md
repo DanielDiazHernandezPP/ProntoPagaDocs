@@ -4,21 +4,20 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Create Bank Transfer Payments in Peru via ProntoPaga API '
   description: >-
-    To create a payment in Peru via bank transfer, customer data must be
-    captured and a request made through the API with a bearer token and secret
-    signature, ensuring secure and authenticated transactions.
+    Learn how to create secure bank transfer payments in Peru using the
+    Prontopaga API. Includes payment flow, required parameters, webhooks, test
+    data, and certification steps.
+  image: >-
+    https://files.readme.io/77e428ec760c8cc8b19ca7059862f383cd964122905d91232d523261873870a2-Prontopaga_logotipo.png
   keywords:
-    - bank transfer
-    - ' bank payment'
-    - ' wire transfer'
-    - ' payin'
-    - ' peru'
-    - ' prontopaga'
-    - ' guide'
-    - ' integration'
-    - ' how to make a wire transfer payment'
+    - how to make a wire transfer payment
+    - bank transfer payments Peru
+    - Prontopaga Peru
+    - Peru API integration Prontopaga
+    - pagos por transferencia bancaria Peru
+    - Paga con tu banco Peru
   robots: index
 next:
   description: ''
