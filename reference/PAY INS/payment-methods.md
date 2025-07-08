@@ -7,17 +7,19 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Payment methods ProntoPaga
   description: >-
     Endpoint to know the payment methods associated with your company in
     ProntoPaga.
+  image: >-
+    https://files.readme.io/2e83eace325c64be82d72b97aee0b81cc31ce14b9a80ff55ce8bce7a99a58c1f-Prontopaga_logotipo.png
   keywords:
-    - payment methods
-    - ' prontopaga'
-    - ' endpoint'
-    - ' api'
-    - ' request'
-    - ' body params'
+    - payment methods prontopaga
+    - endpoint Prontopaga
+    - api
+    - request
+    - body params
+    - métodos de pago pruebas Prontopaga
   robots: index
 next:
   description: ''
