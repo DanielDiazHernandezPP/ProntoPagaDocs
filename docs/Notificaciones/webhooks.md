@@ -23,7 +23,7 @@ metadata:
 next:
   description: ''
 ---
-Configurar un webhook para tus transacciones te ayudará a conocer el estado de tus pay ins y pay outs. Estos callbacks te notificarán cuando ocurra un cambio de estado en cierta transacción.
+**Configurar un webhook para tus transacciones** te ayudará a conocer el estado de tus pay ins y pay outs. Estos callbacks te notificarán cuando ocurra un cambio de estado en cierta transacción.
 
 ## Configura un webhook
 
@@ -35,7 +35,7 @@ Para iniciar la configuración de tu webhook, sigue estos pasos:
 
 ## Agrega la URL a tus transacciones
 
-Para vincular tu webhook con la transacción deseada, agrega la URL del endpoint que creaste en el parámetro indicado del body de la transacción, que sería`urlConfirmation` en el caso de pay ins, o `confirmationURL` en pay outs.
+Para vincular tu webhook con la transacción deseada, **agrega la URL del endpoint que creaste en el parámetro indicado del body de la transacción**, que sería`urlConfirmation` en el caso de pay ins, o `confirmationURL` en pay outs.
 
 Ejemplo:
 
