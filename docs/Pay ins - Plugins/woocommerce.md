@@ -4,19 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: ' Install and Configure the ProntoPaga Payment Plugin for WooCommerce '
+  description: >-
+    Learn how to install, configure, and test the ProntoPaga payment plugin for
+    WooCommerce. This guide walks you through setup requirements, plugin
+    installation, API credential configuration, supported currencies and payment
+    methods, and how to troubleshoot common issues.   
+  image: >-
+    https://files.readme.io/e53ff0cbfc3b6619dae24c75c132751145d191cc3b4ed877c7fbae5621d0ee4f-Prontopaga_logotipo.png
   keywords:
-    - woocommerce
-    - ' plugin de woocommerce'
-    - ' woocommerce plugin'
-    - ' plugin woocommerce prontopaga'
-    - ' woocommerce prontopaga'
-    - ' plugin de pagos woocommerce'
-    - ' plugin de pagos prontopaga'
-    - ' plugin de pagos wordpress'
-    - ' wordpress prontopaga'
-    - ' prontopaga plugins'
+    - plugin woocommerce prontopaga
+    - plugin de pagos woocommerce
+    - plugin de pagos wordpress
+    - prontopaga plugins
+    - install Prontopaga WooCommerce
+    - WooCommerce Peru payments
+    - WooCommerce ProntoPaga guide
   robots: index
 next:
   description: ''
