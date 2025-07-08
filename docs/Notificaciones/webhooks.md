@@ -4,21 +4,21 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Receive notifications about your transactions
   description: >-
     Set up a webhook to receive notifications about the status of your
-    transactions by following a few steps. Add the URL of the endpoint in the
-    `confirmationURL` parameter of the transaction body to link it.
+    transactions. Add the URL of the endpoint in the `confirmation URL`
+    parameter of the transaction body to link to it.
+  image: >-
+    https://files.readme.io/a53e3070e1e0455e0dfb1d091d073103e28b2d3d8b919b63ad13600aca1ebd4b-Prontopaga_logotipo.png
   keywords:
-    - webhook
-    - ' webhooks'
-    - ' notifications'
-    - ' prontopaga webhooks'
-    - ' prontopaga'
-    - ' transaction status'
-    - ' payment status'
-    - ' guide'
-    - ' instructions'
+    - Prontopaga notifications
+    - prontopaga webhooks
+    - prontopaga
+    - transaction status
+    - payment status
+    - estado de transacciones
+    - recibir notificaciones de transacciones
   robots: index
 next:
   description: ''
