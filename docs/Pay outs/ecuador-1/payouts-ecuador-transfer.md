@@ -4,22 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Create a payout with bank transfer in Ecuador     '
   description: >-
-    To make a payout in Ecuador by bank transfer, capture the recipient's data
-    and make a request through the API with a bearer token and a secret
-    signature; the transaction is authenticated and secure. You can test the
-    integration using test data and demos provided.
+    To make a payout in Ecuador via bank transfer, capture the recipient's
+    information and send a request via the API. This guide explains the
+    withdrawal flow, required parameters, webhook confirmation, and how to
+    simulate transactions in a test environment. 
+  image: >-
+    https://files.readme.io/94fe2ba4a30f9e23130f6ddd7378efb1a4b41ecbdfa1306513b27dafd47c9d90-Prontopaga_logotipo.png
   keywords:
-    - bank transfer payout
-    - ' transfer payout'
-    - ' wire transfer payout'
-    - ' payouts'
-    - ' ecuador'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a wire transfer payout'
+    - bank transfer Ecuador
+    - transfer payout
+    - Ecuador wire transfer payout
+    - how to make a wire transfer payout
+    - Prontopaga
+    - cómo hacer un payout Ecuador
+    - hacer payout
+    - retiros Prontopaga
   robots: index
 next:
   description: ''
