@@ -4,8 +4,21 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
-  description: ''
+  title: 'Integrate cryptocurrency payments in Peru '
+  description: >-
+    Learn how to accept cryptocurrency payments in Peru using Coinbase with the
+    Prontopaga API. This guide covers integration steps, payment flow, test
+    data, and webhook confirmation. 
+  image: >-
+    https://files.readme.io/68bc9d6c47a989db7383d112a0b5558ce0d5407385e77afa7f7b38a150678032-Prontopaga_logotipo.png
+  keywords:
+    - cryptocurrency payments Peru
+    - Coinbase API integration
+    - crypto payins Peru
+    - Prontopaga coinbase payment
+    - accept crypto peru
+    - pagos con criptomonedas Perú
+    - integrar pagos criptomonedas Perú
   robots: index
 next:
   description: ''
