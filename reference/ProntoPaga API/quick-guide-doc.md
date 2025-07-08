@@ -10,6 +10,8 @@ metadata:
     documentation, which includes tabs for Integration Guides, Recipes, API
     Reference, and Changelog, providing details on how to use each section to
     facilitate integration and use of the API.
+  image: >-
+    https://files.readme.io/7de7c9c0d05036c8958655f509bfbcc9cc810b108f142d07da25acb93589f8bd-Prontopaga_logotipo.png
   keywords:
     - api use
     - quick guide Prontopaga
