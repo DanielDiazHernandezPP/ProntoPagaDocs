@@ -4,18 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Payouts Guide in Prontopaga
   description: >-
-    A pay out is a payment of money to individuals or entities, and ProntoPaga
+    A payout is a payment of money to individuals or entities, and ProntoPaga
     merchants use it to pay suppliers, transfer profits to sub-merchants, or
-    returns to customers; methods can be tested in an available demo.
+    return to customers; methods can be tested in an available demo. 
+  image: >-
+    https://files.readme.io/bf6a5492841ab64c593accac78cf5ffa3b9b907cb2e634b209792ade903e8c20-Prontopaga_logotipo.png
   keywords:
     - payouts
-    - ' withdrawals'
-    - ' prontopaga'
-    - ' overview'
-    - ' how do they work'
-    - ' what is a payout'
+    - withdrawals
+    - payouts prontopaga
+    - overview
+    - how do they work
+    - what is a payout
+    - qué es un payout
+    - integrar payouts
   robots: index
 next:
   description: ''
