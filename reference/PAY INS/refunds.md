@@ -7,19 +7,17 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Refund a payment '
   description: Endpoint to refund payments with ProntoPaga.
+  image: >-
+    https://files.readme.io/8ad86258e65f9cb3b9ff72521a49dab4c1babd0254a641d9151edfe49108e884-Prontopaga_logotipo.png
   keywords:
-    - refund
-    - ' refund a payment'
-    - ' refund payments'
-    - ' prontopaga'
-    - ' api'
-    - ' endpoint'
-    - ' request'
-    - ' body params'
-    - ' response'
-    - ' examples'
+    - refund a payment prontopaga
+    - refund payments endpoint
+    - prontopaga api
+    - request
+    - body params Prontopaga
+    - devolver un pago prontopaga
   robots: index
 next:
   description: ''
