@@ -7,21 +7,19 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Payment details (order)
   description: >-
     Endpoint to obtain details of a payment using the payment identifier, where
     the order field must be included in the path.
+  image: >-
+    https://files.readme.io/f4e1f1ce7c0e2f687a7d23c137cbe846822009df6eadba65a01e3cc684c3e570-Prontopaga_logotipo.png
   keywords:
-    - payment details
-    - ' order'
-    - ' uid'
-    - ' order payment'
-    - ' order number'
-    - ' prontopaga'
-    - ' prontopaga api'
-    - ' payment details api'
-    - ' payment detail prontopaga'
-    - ' endpoint'
+    - "payment details \tProntopaga"
+    - Prontopaga api
+    - payment details api
+    - payment detail Prontopaga
+    - endpoint Prontopaga
+    - detalles de pago Prontopaga
   robots: index
 next:
   description: ''
