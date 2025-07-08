@@ -6,10 +6,13 @@ api:
 deprecated: false
 hidden: false
 metadata:
+  title: Process a payment - Peru Yape Button
   description: >-
     API endpoint for integrating Yape payment button without using an iFrame,
     allowing merchants in Peru to fully control the checkout appearance. It
     provides a link to view possible rejection types and their details.
+  image: >-
+    https://files.readme.io/ac3f5c079029bfd04bca071bc0c334dde52d4efca5e1b7c567187a6b5bf53331-Prontopaga_logotipo.png
   keywords:
     - api yape
     - boton yape api
