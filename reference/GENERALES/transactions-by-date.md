@@ -8,19 +8,22 @@ hidden: false
 link:
   new_tab: false
 metadata:
+  title: 'Check transaction by date '
   description: >-
     ProntoPaga allows you to make requests of your transactions through this
     endpoint, in which you can select: Time period (start date and end date),
     Transaction type and Page number.
+  image: >-
+    https://files.readme.io/edfa9a193f1380979280da9a707edf72d383fcb32471da78e2b5022759d4fdb4-Prontopaga_logotipo.png
   keywords:
     - transactions by date
     - transactions
     - time period
     - transactions per period
-    - prontopaga
-    - api
+    - prontopaga api
     - endpoint
     - request
+    - ver transacciones por fecha Prontopaga
   robots: index
 ---
 ProntoPaga te permite hacer consultas de tus transacciones a través de este endpoint, en el cual puedes seleccionar:
