@@ -4,8 +4,11 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: 'How to Integrate Yape On File: One Click Payments in Peru via ProntoPaga API'
+  description: >-
+    Yape One Click Payments is a feature that allows users to make payments with
+    a single tap after registering their details just once. You can easily add
+    this feature to your business through the ProntoPaga API. 
   robots: index
 next:
   description: ''
