@@ -4,20 +4,27 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Yape Wallet Payment Methods with ProntoPaga
   description: >-
-    To create a wallet payment in Peru, customer data must be captured and a
-    request made through the ProntoPaga API with a bearer token and a secret
-    signature, ensuring secure and authenticated transactions.
+    ProntoPaga offers multiple wallet-based payment options for your business
+    using Yape, including Yape Button, Yape One Shot, Yape On File, and One
+    Click Payments. Enable fast, recurring, and secure transactions through
+    seamless integration. 
+  image: >-
+    https://files.readme.io/7399944e52bfc05a4ef4b6d0ce4a8168de8927ef0c37d8c0ab3b109fb3aac3c4-Prontopaga_logotipo.png
   keywords:
-    - wallet
-    - ' wallet payment'
-    - ' payin'
-    - ' peru'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a wallet payment'
+    - wallet payment
+    - Prontopaga Peru
+    - how to make a wallet payment
+    - Yape
+    - Botón Yape
+    - Yape One Shot
+    - Yape On File
+    - One Click Payments
+    - recurrencia
+    - cómo integrar Yape
+    - cómo pagar con yape
+    - pay with wallet Peru
   robots: index
 next:
   description: ''
