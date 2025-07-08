@@ -4,14 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: Use the ProntoPaga API collection in Postman
+  description: >-
+    Access and test all ProntoPaga API endpoints easily using our Postman
+    collection. This guide explains how to authenticate requests with generic or
+    personal sandbox credentials, generate secure signatures with pre-request
+    scripts, and configure webhooks. 
+  image: >-
+    https://files.readme.io/60017209c9dc3f3c289e33fcf7c4cbb62f13e0eef91288e5b7ba07819cfcb854-Prontopaga_logotipo.png
   keywords:
-    - postman
-    - ' coleccion de postman'
-    - ' postman prontopaga'
-    - ' api prontopaga'
-    - ' endpoints postman prontopaga'
+    - endpoints postman prontopaga
+    - Postman Prontopaga
+    - Prontopaga API testing
+    - sandbox API credentials
+    - bearer token Prontopaga
+    - secret key Prontopaga
+    - Prontopaga webhook
+    - test Prontopaga API Prontopaga
   robots: index
 next:
   description: ''
