@@ -4,8 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
-  description: ''
+  title: Bank transfer payouts in Peru
+  description: >-
+    Learn how to make bank transfer payouts in Peru using the Prontopaga API.
+    This guide covers how to capture recipient data, authenticate the request
+    using a bearer token and secret signature, retrieve bank codes, and confirm
+    transactions via webhooks. 
+  image: >-
+    https://files.readme.io/fdc5ba801b62da5117d8c01d3d898b1e2bd16941f18d48878b69191cdd9b45ff-Prontopaga_logotipo.png
+  keywords:
+    - payouts Peru
+    - bank transfer Peru
+    - Prontopaga payout Peru
+    - transferencias bancarias Perú
+    - Prontopaga bank withdrawal
+    - how to withdraw money in Peru
+    - hacer retiros por internet
   robots: index
 next:
   description: ''
