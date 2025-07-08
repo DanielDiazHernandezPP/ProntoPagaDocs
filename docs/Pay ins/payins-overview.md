@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Guía de Payins en Prontopaga
+  title: Payins Guide in Prontopaga
   description: >-
     A “pay in” is a transaction to deposit funds into a financial account for
     the purchase or payment of a product or service. ProntoPaga offers several
