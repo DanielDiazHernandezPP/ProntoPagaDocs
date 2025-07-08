@@ -4,19 +4,18 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'How to use our documentation? '
   description: >-
-    The ProntoPaga Quick Guide describes the structure of its Technical
-    Documentation, which includes tabs for Integration Guides, Recipes, API
+    The ProntoPaga Quick Guide describes the structure of its technical
+    documentation, which includes tabs for Integration Guides, Recipes, API
     Reference, and Changelog, providing details on how to use each section to
     facilitate integration and use of the API.
   keywords:
     - api use
-    - ' quick guide'
-    - ' prontopaga'
-    - ' api'
-    - ' api reference'
-    - ' integration guides'
+    - quick guide Prontopaga
+    - documentation Prontopaga
+    - acceder a la documentación de Prontopaga
+    - cómo usar la documentación de Prontopaga
   robots: index
 next:
   description: ''
