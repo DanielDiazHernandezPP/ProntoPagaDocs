@@ -4,17 +4,19 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: Install and Configure the ProntoPaga Payment Plugin for VTEX
+  description: >-
+    Learn how to install, configure, and test the ProntoPaga payment plugin for
+    . VTEX. This guide walks you through setup requirements, plugin
+    installation, API credential configuration, supported currencies and payment
+    methods, and how to troubleshoot common issues.  
+  image: >-
+    https://files.readme.io/3e0e613b238d626c9e130c141eb56d50010ae179085d622f96c005aaac6fc000-Prontopaga_logotipo.png
   keywords:
-    - vtex plugin
-    - ' plugin de vtex'
-    - ' plugin pagos vtex'
-    - ' plugin vtex prontopaga'
-    - ' prontopaga plugin de pagos vtex'
-    - ' plugins de pagos'
-    - ' prontopaga pagos'
-    - ' vtex recibir pagos'
+    - ProntoPaga VTEX plugin
+    - install ProntoPaga VTEX
+    - VTEX Peru payments
+    - VTEX ProntoPaga guide
   robots: index
 next:
   description: ''
@@ -28,9 +30,9 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso con permisos de administrador a la cuenta VTEX en la que instalarás el plugin.
-* Tener configurado VTEX CLI en tu entorno local. 
-* Ser VTEX Partner con acceso al VTEX Admin.  
-* Tener configurado el entorno con Node.js y Yarn (opcional, pero recomendado).  
+* Tener configurado VTEX CLI en tu entorno local.
+* Ser VTEX Partner con acceso al VTEX Admin.
+* Tener configurado el entorno con Node.js y Yarn (opcional, pero recomendado).
 * Tener instalado Git.
 
 ## Instalación
@@ -76,16 +78,16 @@ Para instalar el plugin de pagos ProntoPaga en VTEX, sigue estas instrucciones:
 Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de VTEX y termina la configuración, siguiendo estos pasos:
 
 1. Dirígete a **Pagos > Configuración de medios de pago**
-2. Busca “ProntoPaga” en la lista de medios de pago 
+2. Busca “ProntoPaga” en la lista de medios de pago
 3. Revisa que esté activo, y añade tus credenciales API en esta sección:
    1. Token de autenticación (Bearer Token)
    2. Secret Key
 
 ## Prueba tu integración
 
-Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, realiza una prueba de pago siguiendo estos pasos: 
+Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, realiza una prueba de pago siguiendo estos pasos:
 
-1. Agrega un producto al carrito  
+1. Agrega un producto al carrito
 
 2. Haz clic en el botón **Finalizar compra**, para proceder al *checkout*
 
@@ -126,5 +128,5 @@ Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
 * Documentación oficial de VTEX: [https://developers.vtex.com/](https://developers.vtex.com/)
 * Repositorio de ProntoPaga: [https://ci.prontopaga.com/users/sign\_in](https://ci.prontopaga.com/users/sign_in)
-* Soporte de VTEX (en caso de errores persistentes en la plataforma):  [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com) 
+* Soporte de VTEX (en caso de errores persistentes en la plataforma):  [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
 * Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
