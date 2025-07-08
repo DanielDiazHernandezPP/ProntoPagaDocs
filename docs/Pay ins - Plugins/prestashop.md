@@ -4,15 +4,20 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: Install and Configure the ProntoPaga Payment Plugin for PrestaShop
+  description: >-
+    Learn how to install, configure, and test the ProntoPaga payment plugin for
+    PrestaShop. This guide walks you through setup requirements, plugin
+    installation, API credential configuration, supported currencies, payment
+    methods, and how to troubleshoot common issues. 
+  image: >-
+    https://files.readme.io/4cfb0b23dd053db19b8dfa4c65a5f98b4b1b76c6cd21d9f37131bd9116602503-Prontopaga_logotipo.png
   keywords:
-    - prestashop
-    - ' prestashop plugin'
-    - ' prontopaga plugins'
-    - ' prestashop prontopaga plugins'
-    - ' plugin para pagos'
-    - ' plugin para pagos prestashop'
+    - ProntoPaga PrestaShop plugin
+    - install ProntoPaga PrestaShop
+    - PrestaShop Peru payments
+    - aceptar Yape y Plin en PrestaShop
+    - PrestaShop ProntoPaga guide
   robots: index
 next:
   description: ''
