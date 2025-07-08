@@ -6,18 +6,20 @@ api:
 deprecated: false
 hidden: false
 metadata:
+  title: 'Create a new payment '
   description: >-
     Endpoint to create a new payment with ProntoPaga in Brasil, Chile, Ecuador
     and Perú.
+  image: >-
+    https://files.readme.io/093d7d2050099106203729c4236a6462fa57ae381bf81269d0d0da85dbe62117-Prontopaga_logotipo.png
   keywords:
     - create a payment
     - create a new payment
     - create a payin
-    - prontopaga
-    - request
-    - body params
+    - prontopaga request
+    - body params prontopaga
     - response
-    - examples
+    - crear un nuevo pago Prontopaga
   robots: index
 ---
 Endpoint para crear un nuevo pago en Chile, Brasil, Ecuador y Perú, con distintos métodos. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
