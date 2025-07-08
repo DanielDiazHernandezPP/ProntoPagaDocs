@@ -9,6 +9,17 @@ metadata:
     Yape One Click Payments is a feature that allows users to make payments with
     a single tap after registering their details just once. You can easily add
     this feature to your business through the ProntoPaga API. 
+  keywords:
+    - Yape One Click Payments
+    - payment Peru
+    - ProntoPaga API
+    - integrate Yape
+    - pay with Yape
+    - One Click Payments integration Peru
+    - Yape One Click Payments
+    - wallet checkout Peru
+    - pagar con Yape Perú
+    - integrar Yape Perú
   robots: index
 next:
   description: ''
