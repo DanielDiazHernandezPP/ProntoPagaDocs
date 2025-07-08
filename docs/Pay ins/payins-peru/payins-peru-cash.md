@@ -4,21 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Create cash payments in Peru '
   description: >-
-    To create a cash payment in Peru, customer data must be captured and a
-    request made through the API with a bearer token and a secret signature,
-    ensuring secure transactions; the response will include a link to the
-    payment slip and a payment identifier.
+    Learn how to create cash payments in Peru using the Prontopaga API. Includes
+    payment flow, API request, test data, and webhook confirmation process.   
+  image: >-
+    https://files.readme.io/467b35a9b339a54a63bf8e4e1795cdc86f7e8023aa03457064e64eb4e13ee271-Prontopaga_logotipo.png
   keywords:
-    - cash
-    - ' cash payment'
-    - ' payin'
-    - ' peru'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a cash payment'
+    - cash payments Peru
+    - Prontopaga cash Peru
+    - how to make a cash payment in Peru
+    - crear pagos en efectivo Perú
+    - usar efectivo para pagos Prontopaga Perú
+    - comprar en línea sin tarjeta
+    - código CIP
+    - código de pago único
+    - PagoEfectivo
   robots: index
 next:
   description: ''
