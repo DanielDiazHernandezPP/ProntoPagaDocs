@@ -4,21 +4,21 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create QR Payments in Peru
   description: >-
-    To create a payment in Peru with QR, customer data must be captured and a
-    request must be made through the API with a bearer token and a secret
-    signature. In addition, the form can be customized, an iFrame and QR must be
-    integrated, and the payment can be confirmed through a webhook.
+    Learn how to create QR payments in Peru using the Prontopaga API. This guide
+    covers the payment flow, API requests, test data, and webhook confirmation
+    process.
+  image: >-
+    https://files.readme.io/329c05b4f9ab2db95dc597445b1674784ae56c6d25c7bc9d6530709733295c30-Prontopaga_logotipo.png
   keywords:
-    - qr
-    - ' qr payment'
-    - ' payin'
-    - ' peru'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a qr payment'
+    - QR payments Peru
+    - Prontopaga QR Peru
+    - how to make a QR payment in Peru
+    - create QR payments Peru
+    - use QR Prontopaga Peru
+    - Yape QR
+    - Plin QR
   robots: index
 next:
   description: ''
