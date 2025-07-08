@@ -7,7 +7,7 @@ metadata:
   title: Create a payout with Pix in Brazil
   description: >-
     To make a payout in Brazil using PIX, capture the recipient's data and send
-    a request through the API. This guide explains the payin flow, required
+    a request through the API. This guide explains the payout flow, required
     parameters, webhook confirmation, and how to simulate transactions in
     sandbox. 
   image: >-
