@@ -4,24 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Cash payouts at physical locations in Ecuador
   description: >-
     Customers in Ecuador can payout cash at physical locations of Red
     Activa/Western Union, Ponle más, and Bemovil, with specific limits and
     locations detailed in the links provided.
+  image: >-
+    https://files.readme.io/fd38038ac5a096c67fa3ecf760cbf871eeb2cb2f1c5a6bebc498a3f638ed473e-Prontopaga_logotipo.png
   keywords:
-    - physical points
-    - ' cash'
-    - ' cash payouts'
-    - ' cash payouts points'
-    - ' locations'
-    - ' payout'
-    - ' red activa'
-    - ' western union'
-    - ' ecuador'
-    - ' ponlemas'
-    - ' bemovil'
-    - ' limits'
+    - cash payout Ecuador
+    - physical cash points Ecuador
+    - cash pickup Ecuador
+    - Red Activa Ecuador
+    - Western Union Ecuador
+    - Ponle más Ecuador
+    - Bemovil Ecuador
+    - Prontopaga cash withdrawal
+    - withdraw cash in Ecuador
   robots: index
 next:
   description: ''
