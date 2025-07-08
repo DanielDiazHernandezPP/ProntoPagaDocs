@@ -20,7 +20,7 @@ metadata:
 next:
   description: ''
 ---
-Esta es una Guía Rápida para conocer la plataforma y acomodo de la Documentación Técnica de ProntoPaga. Nuestra documentación cuenta con cuatro pestañas principales en el menú superior:
+Esta es una **Guía Rápida** para conocer la plataforma y acomodo de la Documentación Técnica de ProntoPaga. Nuestra documentación cuenta con cuatro pestañas principales en el menú superior:
 
 <Image align="center" width="500px" src="https://files.readme.io/5c7c84352166fdf0df87772560bb537f69eda81821f14c6b0b002d9df7ae66f2-Captura_de_pantalla_2025-03-04_a_las_8.47.39_p.m..png" />
 
@@ -50,7 +50,7 @@ Además, cada endpoint cuenta con ejemplos de body request y respuestas, así co
 
 <Image align="center" src="https://files.readme.io/e162b75d25a17ec8477a9c625f67292bdedc5f227551064367e727904448a12f-02.png" />
 
-Recuerda que para hacer uso de la caja de pruebas en vivo, deberás contar con tu Bearer Token y secretKey de sandbox (proporcionados por ProntoPaga), y seguir estos pasos:
+Recuerda que para hacer uso de la caja de pruebas en vivo, deberás contar con tu **Bearer Token y secretKey de Sandbox** (proporcionados por ProntoPaga), y seguir estos pasos:
 
 1. Agregar tu Bearer Token en la sección **CREDENTIALS**.
 2. Modificar los valores de los parámetros del body (en caso de ser necesario).
