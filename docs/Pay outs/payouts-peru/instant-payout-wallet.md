@@ -12,14 +12,12 @@ metadata:
   image: >-
     https://files.readme.io/fed45f473bdde3a95f89e9e84fb1bead437b63381cb3ef38a60f2b5277978da3-Prontopaga_logotipo.png
   keywords:
-    - instant payout
-    - ' instant payout to a wallet'
-    - ' wallet payout'
-    - ' peru'
-    - ' prontopaga'
-    - ' guide'
-    - ' integration'
-    - ' how to make a payout to a wallet'
+    - instant payout to a wallet
+    - wallet payout peru
+    - prontopaga
+    - guide
+    - how to make a payout to a wallet
+    - hacer un retiro a una wallet
   robots: index
 next:
   description: ''
