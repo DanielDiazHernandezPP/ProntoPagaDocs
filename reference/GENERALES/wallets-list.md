@@ -7,22 +7,20 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: List of wallets Peru
   description: >-
     Endpoint to obtain the available wallets. You can get the total list or the
     wallets associated to a certain phone number.
+  image: >-
+    https://files.readme.io/030e02b11cd0298def34d356b4191da63aa7cb1ff9379e8a8e0faf156783f5a7-Prontopaga_logotipo.png
   keywords:
-    - wallets list
-    - ' list of wallets'
-    - ' peru wallets'
-    - ' wallets prontopaga'
-    - ' available wallets'
-    - ' wallets per phone'
-    - ' wallets per phone number'
-    - ' wallets per number'
-    - ' prontopaga'
-    - ' api'
-    - ' endpoint'
+    - wallets list Prontopaga
+    - peru wallets
+    - available wallets
+    - wallets per phone number
+    - prontopaga api
+    - endpoint
+    - lista de wallets perú
   robots: index
 next:
   description: ''
