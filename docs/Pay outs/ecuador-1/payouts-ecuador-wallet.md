@@ -4,22 +4,20 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Make a wallet payout in Ecuador
   description: >-
-    To make a payout to a wallet in Ecuador, capture the recipient's data and
-    send a request through the API with a bearer token and a secret signature to
-    authenticate and secure the transaction. You will receive an identifier and
-    the status of the withdrawal, and you can confirm the success of the
-    transaction in your webhook.
+    Learn how to create a payout to a digital wallet in Ecuador using the
+    Prontopaga API. This guide covers recipient data capture, authentication
+    with bearer token and secret signature, response handling, and webhook
+    confirmation.
+  image: >-
+    https://files.readme.io/f9bddb237fbd699006ff0b0ad028f15cba2733c44cf05c10ed0308f509e4ac51-Prontopaga_logotipo.png
   keywords:
-    - wallet payouts
-    - ' wallet payout'
-    - ' ecuador'
-    - ' wallet'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a wallet payout'
+    - wallet payout Ecuador
+    - Prontopaga payout Ecuador
+    - send money to wallet Ecuador
+    - API wallet transfer Ecuador
+    - digital wallet withdrawal Ecuador
   robots: index
 next:
   description: ''
