@@ -4,18 +4,22 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Check types of rejections in Prontopaga Payouts
   description: >-
-    The document describes the types of rejections possible for payouts in
-    Brazil, Chile and Ecuador, including reasons such as blocked customer, trade
-    limits, insufficient balance and various specific banking errors.
+    The document describes common types of payout rejections in Brazil, Chile,
+    Ecuador, and Peru, including customer blocks, transaction limits, and
+    payment system-specific errors. 
+  image: >-
+    https://files.readme.io/1d8dd9ae76841fe399a75c800b1196bd9b0f17a4e83ebdd496b4d640d7f97c74-Prontopaga_logotipo.png
   keywords:
-    - payouts
-    - ' payout rejections'
-    - ' rejections'
-    - ' cancelled'
-    - ' rejected'
-    - ' prontopaga'
+    - rejections Prontopaga
+    - payouts rejections
+    - types of rejections prontopaga
+    - rechazos prontopaga
+    - pago rechazado prontopaga
+    - pago denegado
+    - payout cancelled
+    - rejected
   robots: index
 next:
   description: ''
