@@ -4,8 +4,28 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: 'Yape On File: Recurring Payments Integration with ProntoPaga    '
+  description: >-
+    Recurring Payments allow you to automatically schedule and collect recurring
+    payments from customers who authorize them once through the Yape app. After
+    successful affiliation via the ProntoPaga API, your system can trigger
+    charges to the customer’s Yape wallet without requiring manual confirmation
+    each time. The process includes affiliation, payment execution, and
+    webhook-based confirmations. 
+  image: >-
+    https://files.readme.io/8d3b34d145d77ca2df24ad97a29e089b3111b9a4e965c5b4541bceedc1a95d21-Prontopaga_logotipo.png
+  keywords:
+    - Yape On File Prontopaga
+    - recurring payments Yape
+    - automatic payments Yape
+    - API recurring billing
+    - wallet recurring integration
+    - charge automation Peru
+    - Yape COF
+    - suscribirse a Yape
+    - integrar yape
+    - pagos recurrentes Yape
+    - afiliarse a Yape
   robots: index
 next:
   description: ''
