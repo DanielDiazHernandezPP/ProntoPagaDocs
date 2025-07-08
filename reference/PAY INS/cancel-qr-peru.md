@@ -14,6 +14,7 @@ metadata:
   image: >-
     https://files.readme.io/3caae967b464b2c702e2e6f0298c1dafe6a5ed8ae83762a97ba5c4a156e2e88e-Prontopaga_logotipo.png
   keywords:
+    - endpoint Prontopaga
     - cancel a QR
     - cancel a payment
     - qr peru prontopaga
