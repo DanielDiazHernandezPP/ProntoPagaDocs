@@ -15,18 +15,13 @@ metadata:
   image: >-
     https://files.readme.io/431d44234041702173c77969c7eb695e663f21f1506e10b41e87a59ca297195e-Prontopaga_logotipo.png
   keywords:
-    - institution selection
-    - ' brazil'
-    - ' pix plus'
-    - ' open finance'
-    - ' brazil'
-    - ' endpoint'
-    - ' api'
-    - ' body params'
-    - ' examples'
-    - ' response'
-    - ' request'
-    - ' prontopaga'
+    - Prontopaga brazil
+    - pix plus
+    - open finance
+    - api Prontopaga
+    - body params
+    - response
+    - select payment institution Prontopaga
   robots: index
 next:
   description: ''
