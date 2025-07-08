@@ -14,7 +14,8 @@ metadata:
   image: >-
     https://files.readme.io/ac3f5c079029bfd04bca071bc0c334dde52d4efca5e1b7c567187a6b5bf53331-Prontopaga_logotipo.png
   keywords:
-    - api yape
+    - endpoint yape
+    - yape
     - boton yape api
     - yape api prontopaga
     - yape prontopaga
