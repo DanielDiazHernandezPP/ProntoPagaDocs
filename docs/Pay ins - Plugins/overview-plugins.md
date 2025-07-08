@@ -4,11 +4,13 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Plugins for e-commerce platforms '
   description: >-
     ProntoPaga is developing payment plugins for e-commerce platforms, and has
     already available installation and configuration guides for their
     integration. WooCommerce and Magento plugins by ProntoPaga.
+  image: >-
+    https://files.readme.io/b7bfffa49cb5c5d6a4225dc1a9bdaea43f424bce92b98e1dc66091ded6c37cf9-Prontopaga_logotipo.png
   keywords:
     - woocommerce
     - ' magento'
