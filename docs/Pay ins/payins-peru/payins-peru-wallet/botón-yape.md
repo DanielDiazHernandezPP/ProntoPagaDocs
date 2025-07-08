@@ -4,8 +4,24 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: ' How to Integrate Yape Wallet Payments in Peru via ProntoPaga API '
+  description: >-
+    Integrate secure wallet payments in Peru using ProntoPaga’s API and the Yape
+    app. Capture customer data, authenticate with bearer token and secretKey,
+    and support flows via iFrame or full API. Confirm transactions via webhook
+    and test with sandbox data.
+  image: >-
+    https://files.readme.io/2d0fa5f2c1fa12d2f9d9b6f7eee64d73d70918f7de0815a7b98a0fc2cb01d28f-Prontopaga_logotipo.png
+  keywords:
+    - Yape wallet payment Peru
+    - ProntoPaga API
+    - integrate Yape
+    - pay with Yape
+    - wallet integration Peru
+    - Yape One Shot
+    - wallet checkout Peru
+    - pagar con Yape Perú
+    - integrar Yape Perú
   robots: index
 next:
   description: ''
