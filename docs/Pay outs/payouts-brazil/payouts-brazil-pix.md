@@ -8,7 +8,7 @@ metadata:
   description: >-
     To make a payout in Brazil using PIX, capture the recipient's data and send
     a request through the API. This guide explains the payin flow, required
-    parameters, webhook confirmation, and how to simulate transactions in
+    parameters, webhook confirmation, and how to **simulate transactions** in
     sandbox. 
   image: >-
     https://files.readme.io/a63b6d5526dcc01eca80047c36552f0b0cff5cf7f499c0f4951385e13496fa3a-Prontopaga_logotipo.png
