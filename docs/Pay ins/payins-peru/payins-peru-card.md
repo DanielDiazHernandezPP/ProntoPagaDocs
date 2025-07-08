@@ -4,23 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'How to Create a Card Payment in Peru via ProntoPaga API '
   description: >-
-    To create a card payment in Peru, customer data must be captured and a
-    request made through the API with a bearer token and a secret signature,
-    allowing options such as payment in installments, card reminder, and foreign
-    card payments, all managed from the Console. The request must include
-    customer data and return URLs, and the webhook will indicate the status of
-    the payment.
+    Create card payments in Peru using Prontopaga’s API with a bearer token and
+    secret signature. Enable features such as installments, card reminders, and
+    support for foreign cards. Manage transactions from the Console and track
+    status via webhook.
+  image: >-
+    https://files.readme.io/32916ff5a861e76ac6dcf243192a8c0b1cc5588bd2b09d4968a7c8ff1ecfba79-Prontopaga_logotipo.png
   keywords:
-    - card
-    - ' card payment'
-    - ' peru'
-    - ' payin'
-    - ' guide'
-    - ' integration'
-    - ' prontopaga'
-    - ' how to make a card payment'
+    - how to make a card payment Peru
+    - secure card payments
+    - Prontopaga
+    - online payments Peru
+    - pagos online Perú
+    - pagos con tarjeta Perú
+    - Prontopaga Perú
+    - procesar pagos online
   robots: index
 next:
   description: ''
