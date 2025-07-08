@@ -7,22 +7,24 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Create a new payment Brazil '
   description: >-
     Endpoint to create a new payment in Brazil PIX + (Open Finance) with
     ProntoPaga.
+  image: >-
+    https://files.readme.io/0d8f5a459c9030a38a655f837fb3e141a96cffc2a52af7875510336d744393f0-Prontopaga_logotipo.png
   keywords:
     - create a payment
-    - ' brazil'
-    - ' brazil pix'
-    - ' brazil pix plus'
-    - ' open finance'
-    - ' api'
-    - ' endpoint'
-    - ' body params'
-    - ' request'
-    - ' examples'
-    - ' response'
+    - brazil
+    - brazil pix
+    - brazil pix plus
+    - open finance
+    - api
+    - endpoint
+    - body params
+    - request
+    - examples
+    - crear un nuevo pago Prontopaga Brasil
   robots: index
 next:
   description: 'Siguiente paso:'
