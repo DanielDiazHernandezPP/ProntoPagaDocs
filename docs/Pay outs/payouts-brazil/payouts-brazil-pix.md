@@ -4,21 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Create a payout with Pix in Brazil
   description: >-
     To make a payout in Brazil using PIX, capture the recipient's data and send
-    a request through the API with a bearer token and a secret signature; you
-    will receive an identifier and the status of the withdrawal, and you can
-    confirm the transaction by checking your webhook.
+    a request through the API. This guide explains the payin flow, required
+    parameters, webhook confirmation, and how to simulate transactions in
+    sandbox. 
+  image: >-
+    https://files.readme.io/a63b6d5526dcc01eca80047c36552f0b0cff5cf7f499c0f4951385e13496fa3a-Prontopaga_logotipo.png
   keywords:
-    - pix
-    - ' pix payout'
-    - ' payout'
-    - ' brazil'
-    - ' guide'
-    - ' integration'
-    - ' how to make a pix payout'
-    - ' prontopaga'
+    - how to make a pix payout
+    - Prontopaga brazil
+    - pix payouts
+    - integration
+    - pay outs Brasil prontopaga
+    - Pix Brazil
+    - create payout Pix
+    - Guide Brazil pay outs
   robots: index
 next:
   description: ''
