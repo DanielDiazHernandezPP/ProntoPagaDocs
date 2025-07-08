@@ -4,11 +4,13 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Payouts statuses Prontopaga '
   description: >-
-    The status of the pay outs are: “new” (request received), “process” (in
-    process), “success” (approved) and “canceled” (rejected), with additional
-    details on “process” and “canceled”.
+    The statuses of the payouts in Prontopaga are: “new” (request received),
+    “process” (in process), “success” (approved), and “canceled” (rejected),
+    with additional details on “process” and “canceled”.
+  image: >-
+    https://files.readme.io/639cc6e8b6ccd6cd509c97c8b2a35e9a7d3aa3b234fda90cc41398b537b2a0d0-Prontopaga_logotipo.png
   keywords:
     - payouts
     - ' payout statuses'
