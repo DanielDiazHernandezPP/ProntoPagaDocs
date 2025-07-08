@@ -4,24 +4,23 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: 'Make an instant bank transfer payout (CCI) in Peru with ProntoPaga '
   description: >-
     To make an instant payout in Peru through ProntoPaga, capture the
     beneficiary's data and send a request to the API with a bearer token and
     secret signature; transactions are authenticated and secure.
+  image: >-
+    https://files.readme.io/76579863a9262262c8b2bfffa02a66896b6e4b0d2fc377ed43e5c2aeb7e22d89-Prontopaga_logotipo.png
   keywords:
-    - instant payouts
-    - ' instant payout'
-    - ' bank transfer'
-    - ' cci'
-    - ' interbank'
-    - ' guide'
-    - ' installation'
-    - ' peru'
-    - ' prontopaga'
-    - ' how to make an instant payout'
-    - ' how to make an interbank payout'
-    - ' direct banks'
+    - bank transfer Peru
+    - Prontopaga Peru
+    - CCI Peru withdrawal
+    - make a payout Peru
+    - transferencias interbancarias Perú
+    - retiro bancario API Perú
+    - how to make an instant payout
+    - how to make an interbank payout
+    - direct banks
   robots: index
 next:
   description: ''
