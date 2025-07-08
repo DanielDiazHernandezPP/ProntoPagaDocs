@@ -4,11 +4,13 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Make instant payouts to a wallet in Peru
   description: >-
     To make instant payouts to a wallet in Peru with ProntoPaga, you must
     capture the beneficiary's data and make a request through the API with a
-    bearer token and a secret signature; there are several wallets available.
+    bearer token and a secret signature; there are several wallets available. 
+  image: >-
+    https://files.readme.io/fed45f473bdde3a95f89e9e84fb1bead437b63381cb3ef38a60f2b5277978da3-Prontopaga_logotipo.png
   keywords:
     - instant payout
     - ' instant payout to a wallet'
