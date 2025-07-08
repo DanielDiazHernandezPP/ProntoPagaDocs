@@ -7,20 +7,21 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: Payment details (UID)
   description: >-
     Endpoint to obtain the details of a payment. The uid identifier must be sent
     in the path.
+  image: >-
+    https://files.readme.io/6cf08e0959db2c2fc76a52d9b5c5fff075a8319c00aa367b6c6928ba2c230892-Prontopaga_logotipo.png
   keywords:
-    - payment details
-    - ' details of a payment'
-    - ' prontopaga'
-    - ' endpoint'
-    - ' api'
-    - ' path'
-    - ' body params'
-    - ' request'
-    - ' examples'
+    - payment details Prontopaga
+    - details of a payment
+    - endpoint Prontopaga
+    - api
+    - path
+    - body params
+    - request
+    - detalles de pago Prontopaga
   robots: index
 next:
   description: ''
