@@ -7,8 +7,21 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: 'Create a new payout in Ecuador with Payphone '
+  description: >-
+    This endpoint is used to create a new payout in Ecuador throgout Payphone
+    using the ProntoPaga API. This guide covers required parameters, the use of
+    bank code, and webhook confirmation.
+  image: >-
+    https://files.readme.io/7763cb4f35f503a463dfcd76844a1835e8970997fcdbe6211ca99a2b2d4d2797-Prontopaga_logotipo.png
+  keywords:
+    - create payout API Ecuador
+    - ProntoPaga payout Ecuador
+    - ProntoPaga Ecuador withdrawal
+    - bank transfer Ecuador
+    - crear retiro ProntoPaga
+    - endpoint retiro Ecuador
+    - Payphone Ecuador
   robots: index
 next:
   description: ''
