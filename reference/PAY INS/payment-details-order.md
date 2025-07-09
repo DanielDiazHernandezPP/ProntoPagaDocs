@@ -14,7 +14,8 @@ metadata:
   image: >-
     https://files.readme.io/f4e1f1ce7c0e2f687a7d23c137cbe846822009df6eadba65a01e3cc684c3e570-Prontopaga_logotipo.png
   keywords:
-    - "payment details \tProntopaga"
+    - payment details
+    - Prontopaga
     - Prontopaga api
     - payment details api
     - payment detail Prontopaga
