@@ -9,9 +9,9 @@ hidden: false
 metadata:
   title: Create a new payout in Ecuador with Bemovil
   description: >-
-    This endpoint is used to create a new payout in Ecuador through Payphone
+    This endpoint is used to create a new payout in Ecuador through Bemovil
     using the ProntoPaga API. This guide covers required parameters, the use of
-    bank code, and webhook confirmation.    
+    bank code, and webhook confirmation.   
   image: >-
     https://files.readme.io/edb211052843808b0f51395a675a8f8542047687bac1131515f0ffa1f279e9e0-Prontopaga_logotipo.png
   keywords:
