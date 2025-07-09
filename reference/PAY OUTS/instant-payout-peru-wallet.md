@@ -7,8 +7,22 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: 'Create a payout to a wallet Peru '
+  description: >-
+    Use this endpoint to make an instant payout from your business to a wallet
+    in Peru. This guide explains the required parameters, how to use the
+    bankCode, and how to confirm transactions through webhooks.
+  image: >-
+    https://files.readme.io/5ea4fd45a9e5560657cd9c0ece637024d525806f30b3f98e408a52063678c20a-Prontopaga_logotipo.png
+  keywords:
+    - Peru wallet payout
+    - ProntoPaga payout Peru
+    - send money to wallet Peru
+    - instant withdrawal Peru
+    - payout API ProntoPaga
+    - crear un retiro a wallet
+    - wallet transfer Peru
+    - transferir a billetera Perú
   robots: index
 next:
   description: ''
