@@ -7,8 +7,20 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: Create a new payout in Ecuador with Ponle más
+  description: >-
+    This endpoint is used to create a new payout in Ecuador through Ponle más
+    using the ProntoPaga API. This guide covers required parameters, the use of
+    bank code, and webhook confirmation.
+  image: >-
+    https://files.readme.io/50d1ddb3ff59698104655999512ab620e7ff726f3d3ff8e75d8e0d665dcce82f-Prontopaga_logotipo.png
+  keywords:
+    - create payout API Ecuador
+    - ProntoPaga payout Ecuador
+    - bank transfer Ecuador
+    - crear retiro ProntoPaga
+    - endpoint retiro Ecuador
+    - Ponle más Ecuador integración
   robots: index
 next:
   description: ''
