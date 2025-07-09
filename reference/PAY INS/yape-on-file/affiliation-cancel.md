@@ -7,8 +7,21 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: Cancel an affiliation via API
+  description: >-
+    This endpoint is used to cancel a Yape customer affiliation using the
+    ProntoPaga API. This process disables automatic charges to the customer’s
+    wallet and removes their consent for future payments. Includes endpoint
+    details, parameters, and expected responses. 
+  image: >-
+    https://files.readme.io/040eb89f8a48d04dc11a674aae752ffa8d7525d9d640d92b568c8a8d7014887c-Prontopaga_logotipo.png
+  keywords:
+    - endpoint yape
+    - yape prontopaga
+    - Yape on File
+    - One Click Payment
+    - cancelar una afiliación Yape
+    - cancelar afiliaciones en Yape
   robots: index
 next:
   description: ''
