@@ -11,7 +11,7 @@ metadata:
   description: >-
     This endpoint is used to create a new payout using the ProntoPaga API. This
     guide covers required parameters, the use of bank code, and webhook
-    confirmation.  
+    confirmation.
   image: >-
     https://files.readme.io/f51cda7b4cef2b27a541983c989c232b6ac1f6c9a55a3e1c726dc0a04428d481-Prontopaga_logotipo.png
   keywords:
