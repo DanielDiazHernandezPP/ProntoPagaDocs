@@ -14,14 +14,14 @@ metadata:
   image: >-
     https://files.readme.io/ac3f5c079029bfd04bca071bc0c334dde52d4efca5e1b7c567187a6b5bf53331-Prontopaga_logotipo.png
   keywords:
-    - endpoint yape
-    - yape
-    - boton yape api
-    - yape api prontopaga
-    - yape prontopaga
-    - prontopaga api
-    - integra yape
-    - integrate yape
+    - 'Keywords: api Yape'
+    - boton Yape api
+    - Yape api Prontopaga
+    - yap Yape e Prontopaga
+    - Prontopaga api
+    - integra Yape
+    - integrate Yape
+    - endpoint Yape
   robots: index
 ---
 Endpoint para procesar pagos con Botón Yape vía API (sin iFrame). Con este servicio, ProntoPaga no generará el front-end, por lo que tu comercio tendrá el manejo total de la apariencia del checkout durante un pago con Yape en Perú.
