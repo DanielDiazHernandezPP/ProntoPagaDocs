@@ -7,8 +7,21 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ''
-  description: ''
+  title: Create a new payout in Chile, Ecuador, and Peru
+  description: >-
+    This endpoint is used to create a new payout using the ProntoPaga API. This
+    guide covers required parameters, supported account types by country, the
+    use of bank codes, and webhook confirmation. Includes links to bank code
+    lists for Chile, Ecuador, and Peru. 
+  image: >-
+    https://files.readme.io/04065208016c1b5950bf489fcd3cc5abd5bba0b1a28d02a0ae0ea3423ebb959c-Prontopaga_logotipo.png
+  keywords:
+    - create payout API
+    - ProntoPaga payout Chile
+    - ProntoPaga Ecuador withdrawal
+    - bank transfer Peru
+    - crear retiro ProntoPaga
+    - endpoint retiro Chile Ecuador Perú
   robots: index
 next:
   description: ''
