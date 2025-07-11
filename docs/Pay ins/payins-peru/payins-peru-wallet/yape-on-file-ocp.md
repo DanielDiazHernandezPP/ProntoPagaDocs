@@ -115,14 +115,14 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 {
   "currency": "PEN",
   "country": "PE",
-  "amount": 100,
+  "amount": "100.90",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
   "paymentMethod": "yape_cof_payment",
   "urlConfirmation": "https://www.webhook.com",
-  "order": "1234",
+  "order": "XYZ789",
   "walletUID": "01JXNCAK8TX6PNBBN7ZNBSAEJH",
   "sign": "Signature of the parameters"
 }
@@ -429,14 +429,14 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 {
   "currency": "PEN",
   "country": "PE",
-  "amount": 100,
+  "amount": "100.90",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
   "paymentMethod": "yape_cof_payment",
   "urlConfirmation": "https://www.webhook.com",
-  "order": "1234",
+  "order": "XYZ789",
   "walletUID": "01JXNCAK8TX6PNBBN7ZNBSAEJH",
   "sign": "Signature of the parameters"
 }
