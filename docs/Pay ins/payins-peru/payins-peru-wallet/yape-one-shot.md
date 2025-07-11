@@ -90,7 +90,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 {
   "currency": "PEN",
   "country": "PE",
-  "amount": 100,
+  "amount": "100.90",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
@@ -98,7 +98,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientDocumentType": "PP",
   "paymentMethod": "yape_oneshot_payment",
   "urlConfirmation": "https://www.webhook.com",
-  "order": "1234",
+  "order": "XYZ789",
   "origin": "web",
   "sign": "Signature of the parameters"
 }
