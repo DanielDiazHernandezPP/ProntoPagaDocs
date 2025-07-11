@@ -29,14 +29,14 @@ Para firmar tus transacciones, sigue estos pasos:
 
 ```json
 {
-  "amount": 45000,
+  "amount": "45000",
   "clientDocument": "11111111-1",
   "clientEmail": "johndoe@example.com",
   "clientName": "John Doe",
   "clientPhone": "999999999",
   "country": "CL",
   "currency": "CLP",
-  "order": 3000001,          
+  "order": "XYZ789",          
   "paymentMethod": "webpay_payment",
   "urlConfirmation": "https://www.webhook.com",
   "urlFinal": "https://sandbox.prontopaga.com/successful",
