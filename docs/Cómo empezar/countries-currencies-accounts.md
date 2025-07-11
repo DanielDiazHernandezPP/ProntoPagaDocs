@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Países, monedas y cuentas
+  title: Countries, currencies, and accounts
   description: >-
     It details the country and currency codes for Brazil, Chile, Ecuador and
     Peru, and describes the types of bank accounts available in each country,
