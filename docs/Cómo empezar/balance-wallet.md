@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Balance (Wallet empresarial)
+  title: ' Balance (Business Wallet)'
   description: >-
     Your ProntoPaga Console includes a Balance section that is divided into Net
     Balance, Deferred Balance, Blocked Balance, Available Balance and Pending
