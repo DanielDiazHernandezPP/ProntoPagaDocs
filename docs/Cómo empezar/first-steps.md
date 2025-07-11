@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: First Steps
   description: >-
     The ProntoPaga API integration guide provides instructions for obtaining and
     using API keys, and explains key concepts such as the differences between
