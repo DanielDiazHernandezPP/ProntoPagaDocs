@@ -29,7 +29,7 @@ Para firmar tus transacciones, sigue estos pasos:
 
 ```json
 {
-  "amount": "45000",
+  "amount": "1000",
   "clientDocument": "11111111-1",
   "clientEmail": "johndoe@example.com",
   "clientName": "John Doe",
