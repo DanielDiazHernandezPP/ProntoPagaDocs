@@ -33,7 +33,7 @@ Para firmar tus transacciones, sigue estos pasos:
 	"clientDocument": "11111111-1",
 	"clientEmail": "johndoe@example.com",
 	"clientName": "John Doe",
-	"clientPhone": "999999999",
+  "clientPhone": "999999999",
   "country": "CL",
 	"currency": "CLP",
 	"order": 3000001,          
