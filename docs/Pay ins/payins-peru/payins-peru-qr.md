@@ -221,7 +221,6 @@ Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
 * Panda
 * Caja Cusco
 * Caja Arequipa
-* Otros
 
 ***
 
