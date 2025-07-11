@@ -202,26 +202,26 @@ Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
 
 * Yape
 * Plin
-* OhPay
-* Bim
-* Ligo
-* Edenred
-* Caja Arequipa
-* Tebca
-* Diners Club
-* Wayki
-* F Efectiva
-* Walli
-* Billetera W
-* Prex
-* Panda
-* Maximo
-* Global 66
-* B89
-* Inspira
+* Oh!Pay
+* BIM
+* BCP
+* BBVA
+* Scotiabank
 * Interbank
-* Banbif
-* IzipayYa (Tunki)
+* Banco de la Nación
+* BanBif
+* Banco Falabella
+* Banco Ripley
+* Compartamos
+* Financiera Oh!
+* Financiera Efectiva
+* Prexpe
+* Wayki
+* Luqea
+* Panda
+* Caja Cusco
+* Caja Arequipa
+* Otros
 
 ***
 
