@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: ''
+  title: How to sign your transactions?
   description: >-
     To sign your transactions, sort the parameters alphabetically, concatenate
     them into a string and then sign that string using HMAC with SHA-256 and a
