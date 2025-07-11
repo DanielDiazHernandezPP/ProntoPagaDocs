@@ -60,7 +60,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 {
   "currency": "USD",
   "country": "EC",
-  "amount": 10,
+  "amount": "10.90",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "0912345678",
@@ -69,7 +69,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "urlConfirmation": "https://www.webhook.com",
   "urlFinal": "https://sandbox.prontopaga.com/successful",
   "urlRejected": "https://sandbox.prontopaga.com/declined",
-  "order": "1234",
+  "order": "XYZ789",
   "sign": "Signature of the parameters"
 }
 ```
