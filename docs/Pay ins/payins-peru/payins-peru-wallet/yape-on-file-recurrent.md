@@ -138,6 +138,17 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+### Motivos de rechazo de validación pago terceros
+
+A continuación, se listan los posibles motivos de validación pago terceros, así como los mensajes que se mostrarán.
+
+| Motivo                                                                                                             | Mensaje                                                                                                          |
+| :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| El número de celular y el documento de identidad no están asociados.                                               | `The user's phone number and identity document do not match`                                                     |
+| El usuario no tiene una cuenta de Yape activa.                                                                     | `The user does not have an active Yape account`                                                                  |
+| El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio. | `The Document Type provided by the validation service does not match the one sent by the Merchant`               |
+| El servicio de validación no está respondiendo correctamente.                                                      | `The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM` |
+
 ### Motivos de rechazo de un pago
 
 A continuación, se listan los posibles motivos de rechazo para un pago de tipo Recurrencia, así como las acciones de Yape al respecto.
@@ -267,6 +278,17 @@ Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una no
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
+
+### Motivos de rechazo de validación pago terceros
+
+A continuación, se listan los posibles motivos de validación pago terceros, así como los mensajes que se mostrarán.
+
+| Motivo                                                                                                             | Mensaje                                                                                                          |
+| :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| El número de celular y el documento de identidad no están asociados.                                               | `The user's phone number and identity document do not match`                                                     |
+| El usuario no tiene una cuenta de Yape activa.                                                                     | `The user does not have an active Yape account`                                                                  |
+| El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio. | `The Document Type provided by the validation service does not match the one sent by the Merchant`               |
+| El servicio de validación no está respondiendo correctamente.                                                      | `The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM` |
 
 ### Motivos de rechazo de un pago
 
