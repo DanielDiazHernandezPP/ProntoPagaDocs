@@ -77,7 +77,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 {
   "currency": "BRL",
   "country": "BR",
-  "amount": 1000,
+  "amount": "1000",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
@@ -86,7 +86,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "urlConfirmation": "https://www.webhook.com",
   "urlFinal": " https://sandbox.prontopaga.com/successful",
   "urlRejected": "https://sandbox.prontopaga.com/declined",
-  "order": "1234",
+  "order": "XYZ789",
   "typePixPayment": 1,
   "isIframePay": "true",
   "sign": "Signature of the parameters"
