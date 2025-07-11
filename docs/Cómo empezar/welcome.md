@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Bienvenido a ProntoPaga Docs
+  title: Welcome to ProntoPaga Docs
   description: >-
     ProntoPaga's API allows you to integrate various payment methods quickly and
     efficiently, with detailed documentation to guide you through the process.
