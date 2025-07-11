@@ -57,6 +57,17 @@ ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual co
 
 Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración. Toma en cuenta las diferencias que existen en la experiencia del cliente para cada caso. Esas diferencias están descritas en la sección de **¿Cómo funciona?** de este artículo, en la parte superior.
 
+### Motivos de rechazo de validación pago terceros
+
+A continuación, se listan los posibles motivos de validación pago terceros, así como los mensajes que se mostrarán.
+
+| Motivo                                                                                                             | Mensaje                                                                                                          |
+| :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| El número de celular y el documento de identidad no están asociados.                                               | `The user's phone number and identity document do not match`                                                     |
+| El usuario no tiene una cuenta de Yape activa.                                                                     | `The user does not have an active Yape account`                                                                  |
+| El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio. | `The Document Type provided by the validation service does not match the one sent by the Merchant`               |
+| El servicio de validación no está respondiendo correctamente.                                                      | `The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM` |
+
 ***
 
 ## Integra la versión web
