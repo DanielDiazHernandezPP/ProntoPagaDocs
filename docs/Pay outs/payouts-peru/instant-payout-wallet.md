@@ -108,13 +108,13 @@ Después de seleccionar una wallet del listado obtenido en el [endpoint anterior
 
 ```json
 {
-  "amount": "2.00",
+  "amount": "150.90",
   "document_id": "12345678912",
   "beneficiaryName": "John",
   "beneficiaryLastName": "Doe",
   "beneficiaryEmail": "johndoe@example.com",
   "beneficiaryPhone": "999999999",
-  "data": "1234",
+  "data": "XYZ789",
   "confirmationURL": "https://www.webhook.com",
   "currency": "PEN",
   "country": "PE",
@@ -135,7 +135,7 @@ Si la transacción es exitosa, recibirás la siguiente respuesta:
 {
   "uid": "01J4PG5MET5CV6BCCQB8HRFC2X",
   "status": "new",
-  "data": "1633611",
+  "data": "XYZ789",
   "reference": 8290,
   "plin": true
 }
@@ -165,7 +165,7 @@ Al finalizar una transacción exitosa, recibirás un webhook similar al ejemplo 
 {      
       "uid": "01J8MWMSW7KCVG6YE6X1GZABCD",
       "status": "success",
-      "data": "332512",
+      "data": "XYZ789",
       "statusCode": "200",
       "startNotificationTime": "2024-08-25 12:16:54",
       "endNotificationTime": "2024-08-25 12:16:54",
