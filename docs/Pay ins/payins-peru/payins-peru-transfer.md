@@ -59,7 +59,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 { 
   "currency": "PEN", 
   "country": "PE", 
-  "amount": "10.90",
+  "amount": "100.90",
   "clientName" : "John Doe", 
   "clientEmail" : "johndoe@example.com", 
   "clientPhone" : "999999999", 
