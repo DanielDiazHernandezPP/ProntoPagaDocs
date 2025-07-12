@@ -89,7 +89,7 @@ A continuación puedes ver un ejemplo de request:
 { 
   "currency": "PEN", 
   "country": "PE", 
-  "amount": "10.90",
+  "amount": "100.90",
   "clientName" : "John Doe", 
   "clientEmail" : "johndoe@example.com", 
   "clientPhone" : "999999999", 
@@ -144,7 +144,7 @@ Ejemplo de **webhook para un pago exitoso**:
 { 
   "uid":"01HZ7HFEJZ0GN2TYNDDXC456F", 
   "status":"success", 
-  "amount":"10.90", 
+  "amount":"100.90", 
   "method":"PE Tarjeta", 
   "reference":"1687348107370523",
   "clientEmail" : "johndoe@example.com",
