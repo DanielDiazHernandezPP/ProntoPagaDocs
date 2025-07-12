@@ -53,14 +53,14 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json
 {
-  "amount": "100.00",
+  "amount": "25.90",
   "document_id": "12345678912",
   "beneficiaryName": "John",
   "beneficiaryLastName": "Doe",
   "beneficiaryEmail": "johndoe@example.com",
   "beneficiaryPhone": "999999999",
   "accountType": "C",
-  "data": "1234",
+  "data": "XYZ789",
   "confirmationURL": "https://www.webhook.com",
   "currency": "USD",
   "country": "EC",
