@@ -63,7 +63,7 @@ Consulta el endpoint de [Crear un nuevo retiro](https://docs.prontopaga.com/refe
 
 ```json
 {
-  "amount": "10.00",
+  "amount": "150.90",
   "document_id": "12345678912",
   "beneficiaryName": "John",
   "beneficiaryLastName": "Doe",
@@ -72,7 +72,7 @@ Consulta el endpoint de [Crear un nuevo retiro](https://docs.prontopaga.com/refe
   "accountNumber": "10070010030000",
   "accountType": "C",
   "bankCode": "011",
-  "data": "1234",
+  "data": "XYZ789",
   "confirmationURL": "https://www.webhook.com",
   "currency": "PEN",
   "country": "PE",
@@ -122,7 +122,7 @@ Al finalizar una transacción exitosa, recibirás un webhook similar al ejemplo 
 {      
       "uid": "01J568DSG6CP9412EFPN3QC6WD",
       "status": "success",
-      "data": "3325492",
+      "data": "XYZ789",
       "type": "bank",
       "statusCode": "200",
       "startNotificationTime": "2024-08-13 12:16:54",
