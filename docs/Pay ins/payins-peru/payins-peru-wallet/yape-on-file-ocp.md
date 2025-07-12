@@ -667,7 +667,7 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 {
   "reference": "1111111111",
   "clientDocument": "12345678912",
-  "amount": 300,
+  "amount": "300",
   "urlCallbackRefund": "https://www.webhook.com",
   "sign": "Signature of the parameters"
 }
