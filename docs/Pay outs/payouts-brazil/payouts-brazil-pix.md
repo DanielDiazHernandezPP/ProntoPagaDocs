@@ -57,7 +57,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json
 {
-  "amount": 100,
+  "amount": "100.90",
   "document_id": "12345678912",
   "beneficiaryName": "John",
   "beneficiaryLastName": "Doe",
@@ -65,7 +65,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "beneficiaryPhone": "999999999",
   "accountType": "1",
   "bankCode": "633",
-  "data": "1234",
+  "data": "XYZ789",
   "confirmationURL": "https://www.webhook.com",
   "currency": "BRL",
   "country": "BR",
