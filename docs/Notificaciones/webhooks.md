@@ -53,7 +53,7 @@ Ejemplo:
   "urlFinal": "url redirect",
   "urlRejected": "url reject",
   "order": "order id",
-  "sing": "Firma de los parámetros"
+  "sign": "Firma de los parámetros"
 }
 ```
 
