@@ -116,6 +116,10 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 
 Si únicamente requieres el código QR en formato base64, esta opción es perfecta para ti. Está pensada especialmente para quienes ya cuentan con una interfaz personalizada o un flujo de usuario propio, y solo necesitan incorporar la imagen del QR en el lugar que más les convenga. Es una solución ideal si ya tienes resuelto el front-end y buscas simplemente insertar el QR sin complicaciones adicionales.
 
+> 🚧 Monto no precargado
+>
+> Esta modalidad no carga automáticamente el monto en la wallet, por lo tanto, el cliente debe ingresarlo de manera manual.
+
 ## Crea un nuevo pago (solo datos QR)
 
 En esta modalidad, al hacer una solicitud de pago y mandar dentro del `"theme"` el parámetro `"type": "qr"`, los comercios recibirán en la respuesta de la solicitud el código QR, el cual podrán presentar directamente en su página web o aplicación, dentro de una etiqueta IMG.
