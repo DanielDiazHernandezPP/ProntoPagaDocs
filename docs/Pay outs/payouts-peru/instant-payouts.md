@@ -106,6 +106,66 @@ Si la transacción es rechazada, recibirás esta respuesta similar a esta:
 }
 ```
 
+### Motivos de rechazo de un retiro
+
+A continuación, se listan los posibles motivos de rechazo para un retiro, así como los mensajes que se muestran.
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Motivo
+      </th>
+
+      <th>
+        Mensaje
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Error por número de cuenta incorrecta
+      </td>
+
+      <td>
+        Número de cuenta a acreditar incorrecta
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por transacción prohibida
+      </td>
+
+      <td>
+        Transacción prohibida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error por operación no soportada
+      </td>
+
+      <td>
+        Operación no soportada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error inesperado ocurrido en el servidor
+      </td>
+
+      <td>
+        * **Ocurrió un inconveniente.** Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
 ### Confirmación de un retiro
 
 Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
