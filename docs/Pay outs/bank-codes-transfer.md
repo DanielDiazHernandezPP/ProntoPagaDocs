@@ -59,7 +59,7 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
    },
    {
       "code":16,
-      "name":"Banco Crédito e Inversiones"
+      "name":"BCI (Banco Crédito e Inversiones) - Mach"
    },
    {
       "code":28,
@@ -100,10 +100,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
    {
       "code":62,
       "name":"Tanner Banco Digital"
-   },
-   {
-      "code":116,
-      "name":"BCI (Mach)"
    },
    {
       "code":504,
