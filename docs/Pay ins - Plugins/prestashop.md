@@ -51,14 +51,14 @@ Una vez instalado el plugin de ProntoPaga, podrás proceder a configurarlo. Para
 
 1. En el menú lateral izquierdo, dirígete a **Pago > Métodos de pago**
 2. Busca en la lista de **Módulos de pago activos** el módulo de ProntoPaga y haz clic en el botón **Configurar**, al lado del módulo
-3. En **Settings**, usa el selector **Mode** para elegir el ambiente que deseas usar: **Sandbox** o **Producción**
-4. Según el ambiente seleccionado, agrega tus credenciales de autenticación:
+3. En **Settings**, usa el selector **Mode** para elegir el enviroment que deseas usar: **Sandbox** o **Producción**
+4. Según el enviroment seleccionado, agrega tus credenciales de autenticación:
    1. Authentication Token (Bearer Token)
    2. Secret Key
 
 <Image align="center" width="400px" src="https://files.readme.io/d10e974198fbb518eef249017ee62318da52b5ca91fcadf80106d7a5b480ad9a-Captura_de_pantalla_2025-05-04_a_las_11.40.21_p.m..png" />
 
-5. Haz clic en **Save settings** para guardar el ambiente y tus credenciales
+5. Haz clic en **Save settings** para guardar el enviroment y tus credenciales
 
 > 📘 Credenciales
 >
@@ -86,9 +86,9 @@ Una vez hayas validado tus credenciales y configurado la o las monedas que utili
 
 ## Prueba tu integración
 
-Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de PrestaShop, realiza una prueba de pago siguiendo estos pasos: 
+Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de PrestaShop, realiza una prueba de pago siguiendo estos pasos:
 
-1. Agrega un producto al carrito 
+1. Agrega un producto al carrito
 
 2. Una vez en la página del carrito, haz clic en **FINALIZAR COMPRA**
 
