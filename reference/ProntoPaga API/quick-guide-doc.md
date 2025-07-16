@@ -48,7 +48,7 @@ La pestaña de **API Reference** es la más visitada de nuestro sitio. Aquí enc
 
 <Image align="center" src="https://files.readme.io/cea86d1a25cb96889740a8bd06a1139c9efbe6771459c2deebbf1067a8f67834-01.png" />
 
-Además, cada endpoint cuenta con ejemplos de body request y respuestas, así como un ambiente listo para realizar pruebas de la API en vivo:
+Además, cada endpoint cuenta con ejemplos de body request y respuestas, así como un enviroment listo para realizar pruebas de la API en vivo:
 
 <Image align="center" src="https://files.readme.io/e162b75d25a17ec8477a9c625f67292bdedc5f227551064367e727904448a12f-02.png" />
 
@@ -65,9 +65,9 @@ Si prefieres realizar tus pruebas desde Postman, tenemos a tu disposición una c
 
 Conoce toda la información necesaria para utilizar nuestra colección de Postman en [esta página](https://docs.prontopaga.com/reference/postman).
 
-### Ambientes
+### Environments
 
-Para conocer más sobre los ambientes de ProntoPaga, así como las URL e IP de éstos, te sugerimos revisar [esta página](https://docs.prontopaga.com/docs/ambientes).
+Para conocer más sobre los enviroments de ProntoPaga, así como las URL e IP de éstos, te sugerimos revisar [esta página](https://docs.prontopaga.com/docs/ambientes).
 
 ## Changelog
 
