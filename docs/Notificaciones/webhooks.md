@@ -1,5 +1,5 @@
 ---
-title: Recibe notificaciones de tus transacciones
+title: Webhooks
 excerpt: ''
 deprecated: false
 hidden: false
@@ -61,7 +61,7 @@ Ejemplo:
 >
 > Conoce los posibles estados de los pay ins en [este enlace](https://docs.prontopaga.com/docs/payins-status). Los estados de los pay outs, los puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/payouts-status).
 
-## Estructura de la notificación
+## Estructura del webhook
 
 Estos son los posibles parámetros que se pueden entregar en el cuerpo del webhook:
 
