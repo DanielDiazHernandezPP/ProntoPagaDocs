@@ -24,7 +24,7 @@ metadata:
 next:
   description: ''
 ---
-En ProntoPaga desarrollamos este plugin de pagos específicamente para integrarse con WooCommerce en la plataforma WordPress, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. 
+En ProntoPaga desarrollamos este plugin de pagos específicamente para integrarse con WooCommerce en la plataforma WordPress, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente.
 
 Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para WooCommerce.
 
@@ -55,8 +55,8 @@ Una vez instalado el plugin de ProntoPaga, podrás proceder a configurarlo, sele
 Para configurarlo y elegir los métodos de pago, sigue estos pasos:
 
 1. En el menú lateral de WooCommerce, dirígete a **ProntoPaga**
-2. Selecciona el ambiente que deseas usar: **Sandbox** o **Producción**
-3. Según el ambiente seleccionado, agrega tus credenciales de autenticación:
+2. Selecciona el enviroment que deseas usar: **Sandbox** o **Producción**
+3. Según el enviroment seleccionado, agrega tus credenciales de autenticación:
    1. Token de autenticación (Bearer Token)
    2. Secret Key
 
@@ -75,7 +75,7 @@ Para configurarlo y elegir los métodos de pago, sigue estos pasos:
 
 ### Personalización de textos
 
-Nuestro plugin cuenta con la opción de personalizar el título del método de pago y agregar una descripción. Esta información se mostrará en el carrito de compras del cliente. 
+Nuestro plugin cuenta con la opción de personalizar el título del método de pago y agregar una descripción. Esta información se mostrará en el carrito de compras del cliente.
 
 Para modificarlo:
 
@@ -100,7 +100,7 @@ Dependiendo de lo que requiera tu comercio, podrás configurar el estado final d
 2. Navega hasta la sección inferior de **Ajustes adicionales**
 3. Selecciona el estado final de las transacciones que deseas utilizar
    1. **Procesando:** Utiliza este estado si necesitas completar el proceso manualmente, por ejemplo, si vas a facturar o enviar el producto.
-   2. **Completada:**&#x55;tiliza este estado si con el pago el pedido queda completado y no debes hacer nada más, por ejemplo, en el caso de productos digitales.
+   2. \*\*Completada:\*\*Utiliza este estado si con el pago el pedido queda completado y no debes hacer nada más, por ejemplo, en el caso de productos digitales.
 4. Haz clic en el botón inferior de **Guardar Configuración**
 
 > 📘 Estado de las transacciones
@@ -109,9 +109,9 @@ Dependiendo de lo que requiera tu comercio, podrás configurar el estado final d
 
 ## Prueba tu integración
 
-Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de WooCommerce, realiza una prueba de pago siguiendo estos pasos: 
+Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de WooCommerce, realiza una prueba de pago siguiendo estos pasos:
 
-1. Agrega un producto al carrito  
+1. Agrega un producto al carrito
 
 2. Haz clic en el botón **Finalizar compra**, para proceder al *checkout*
 
