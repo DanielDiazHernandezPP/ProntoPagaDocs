@@ -25,7 +25,7 @@ En esta página podrás familiarizarte con conceptos clave para el procesamiento
 
 ## 1. Obtén tus credenciales
 
-Antes de iniciar con la integración, deberás contar con tus credenciales, las cuales son: 
+Antes de iniciar con la integración, deberás contar con tus credenciales, las cuales son:
 
 * **Bearer Token.** Es el token de autorización en la cabecera de la llamada.
 * **secretKey.** Los datos que se envían en el cuerpo de la llamada deben estar firmados con la "secretKey". De este modo, nuestra plataforma verifica que los datos pertenecen al comercio y que no fueron adulterados durante el envío a través de la red. Conoce cómo crear la firma de tus transacciones en [este artículo](https://docs.prontopaga.com/docs/sign-transactions).
@@ -38,7 +38,7 @@ Tanto el Bearer Token como el secretKey serán proporcionados a tu comercio por 
 
 ### 1.1. Credenciales de prueba
 
-Si aún no cuentas con tus credenciales para el ambiente de sandbox y deseas comenzar a probar nuestra API, ponemos a tu disposición las siguientes credenciales:
+Si aún no cuentas con tus credenciales para el enviroment de sandbox y deseas comenzar a probar nuestra API, ponemos a tu disposición las siguientes credenciales:
 
 * **Bearer Token (sandbox):** `caff446438560a48438e0b49e5a6a0870ac5624b9f9ce1577858595d1a8ba1ec`
 * **secretKey (sandbox):** `01JNH2SBC5Z2CM1PWQXM2C1XK9`
@@ -60,8 +60,8 @@ Sigue estos pasos para hacer tu primera solicitud en nuestra Referencia API onli
 2. Selecciona el endpoint que deseas probar.
 3. En la esquina superior derecha, agrega tu Bearer Token en la caja de **CREDENTIALS** (OAuth2).
 4. Si la llamada es tipo POST, selecciona un ejemplo de body request en la caja superior derecha, debajo de donde ingresaste tu Bearer Token.
-5. Si el body request requiere el parámetro `sign`, usa tu secretKey y sigue [estas instrucciones](https://docs.prontopaga.com/docs/sign-transactions) para construir la firma de tu transacción. 
-6. Haz clic en el botón **Try it!** para enviar la solicitud. Verás la respuesta justo debajo. 
+5. Si el body request requiere el parámetro `sign`, usa tu secretKey y sigue [estas instrucciones](https://docs.prontopaga.com/docs/sign-transactions) para construir la firma de tu transacción.
+6. Haz clic en el botón **Try it!** para enviar la solicitud. Verás la respuesta justo debajo.
 
 ### 2.2. Hacer una solicitud en la Colección de Postman
 
@@ -78,7 +78,7 @@ Un método de pago es una forma específica en la que un cliente puede realizar 
 * **Tarjetas de crédito/débito/prepago**: Uno de los métodos más utilizados a nivel mundial, en donde el cliente paga utilizando su tarjeta bancaria.
 * **Transferencias bancarias**: Permiten al cliente transferir dinero directamente desde su cuenta bancaria.
 * **Wallets (billeteras digitales):** Son servicios como PayPal o GooglePay, que permiten almacenar fondos y realizar pagos en línea de manera segura.
-* **QR**: Este método permite escanear un código QR para realizar un pago de manera rápida, a través de distintos servicios. 
+* **QR**: Este método permite escanear un código QR para realizar un pago de manera rápida, a través de distintos servicios.
 * **Efectivo**: Algunas regiones permiten pagos en efectivo a través de intermediarios como tiendas de conveniencia.
 
 ### 3.2. ¿Qué es un método de retiro?
