@@ -30,7 +30,7 @@ La API de ProntoPaga cuenta con dos enviroments:
 
 ## Pruebas (sandbox)
 
-Como primer paso, nosotros crearemos y te proporcionaremos tu Bearer Token y secretKey en el enviroment de pruebas, para que puedas hacer tu integración y realizar las pruebas que desees en sandbox. Realizar pruebas en este ambiente no afectará los datos reales de tu comercio, ya que se utilizan datos simulados.
+Como primer paso, nosotros crearemos y te proporcionaremos tu Bearer Token y secretKey en el enviroment de pruebas, para que puedas hacer tu integración y realizar las pruebas que desees en sandbox. Realizar pruebas en este enviroment no afectará los datos reales de tu comercio, ya que se utilizan datos simulados.
 
 La URL base de este enviroment es:
 
