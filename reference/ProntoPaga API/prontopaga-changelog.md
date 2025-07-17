@@ -1,7 +1,7 @@
 ---
 title: ProntoPaga Changelog
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ProntoPaga API Changelog
   description: >-
