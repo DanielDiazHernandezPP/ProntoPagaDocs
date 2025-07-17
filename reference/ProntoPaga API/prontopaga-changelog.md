@@ -1,5 +1,5 @@
 ---
-title: ProntoPaga Changelog
+title: Changelog
 deprecated: false
 hidden: false
 metadata:
