@@ -3,6 +3,19 @@ title: ProntoPaga Changelog
 deprecated: false
 hidden: true
 metadata:
+  title: ProntoPaga API Changelog
+  description: >-
+    Stay up to date with the latest changes to the ProntoPaga API. Includes
+    versioning details, new features, improvements, security updates, and
+    breaking changes.
+  image: >-
+    https://files.readme.io/2009b7af8b3dc1affa6fc7ff1fca6585aadf1fb48ea6cb32856aacd50093a77c-Prontopaga_Logotipo.JPG
+  keywords:
+    - ProntoPaga Changelog
+    - ProntoPaga Histórico
+    - Versiones de ProntoPaga
+    - Nuevas funcionalidades ProntoPaga
+    - Cambios ProntoPaga
   robots: index
 ---
 Aquí encontrarás el control de cambios de la API de Prontopaga, en donde podrás conocer las nuevas funcionalidades, mejoras o correcciones de errores.
