@@ -26,7 +26,8 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
-<br />
+* Acceso de tipo administrador a la tienda de WooCommerce en donde instalarás el plugin.
+* <br />
 
 <br />
 
