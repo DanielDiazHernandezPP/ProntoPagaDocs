@@ -146,10 +146,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 </Tabs>
 
-```html
-```
-
-```html
+<HTMLBlock>{`
 <!DOCTYPE html>
 <html>
 <body>
@@ -160,4 +157,4 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 </body>
 </html>
-```
+`}</HTMLBlock>
