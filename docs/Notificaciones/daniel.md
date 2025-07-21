@@ -61,6 +61,15 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
-\<p>\<a href="[https://www.readme.com](https://www.readme.com)">\
-\<img src="[https://www.google.com/images/branding/googlelogo/2x/googlelogo\_color\_272x92dp.png](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)">
-\</a>\</p>
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.readme.com">
+<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
