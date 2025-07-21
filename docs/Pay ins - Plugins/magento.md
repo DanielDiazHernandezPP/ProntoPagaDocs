@@ -18,7 +18,7 @@ metadata:
 next:
   description: ''
 ---
-En ProntoPaga desarrollamos este **plugin de pagos para integrarse específicamente con Adobe Commerce (antes Magento)**, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto para personalizar, administrar y optimizar una tienda de comercio electrónico.
+En ProntoPaga desarrollamos este **plugin de pagos para integrarse específicamente con Adobe Commerce (antes Magento)**, permitiendote aceptar pagos de forma segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto para personalizar, administrar y optimizar una tienda de comercio electrónico.
 
 Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para Adobe Commerce.
 
@@ -31,19 +31,17 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 ## Instalación
 
-Para instalar el plugin de pagos ProntoPaga en VTEX, sigue estas instrucciones:
-
-<br />
+Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instrucciones:
 
 ## Verificación de la instalación y configuración
 
-Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de VTEX y termina la configuración, siguiendo estos pasos:
+Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de Adobe Commerce y termina la configuración, siguiendo estos pasos:
 
 <br />
 
 ## Prueba tu integración
 
-Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, realiza una prueba de pago siguiendo estos pasos:
+Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
 
 <br />
 
