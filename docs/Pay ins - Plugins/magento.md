@@ -38,8 +38,6 @@ Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instr
 
 Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de Adobe Commerce y termina la configuración, siguiendo estos pasos:
 
-<br />
-
 ## Prueba tu integración
 
 Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
@@ -49,13 +47,15 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 3. Completa los campos con los datos de prueba de tu tarjeta.
 4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
+<br />
+
 <Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
 
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
-* Validar que la versión que se está inatalando sea la correcta, de lo contrario verás un mensaje de error.
+* Validar que la versión que se está inatalando sea la correcta, de lo contrario aparecerá un mensaje de error.
 
 <br />
 
