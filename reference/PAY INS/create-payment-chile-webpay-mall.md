@@ -1,6 +1,5 @@
 ---
 title: Crear un nuevo pago - Chile Webpay Mall
-excerpt: ''
 api:
   file: prontopaga-api.json
   operationId: create-payment-chile-webpay-mall
@@ -25,9 +24,22 @@ metadata:
 next:
   description: ''
 ---
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-f4af4947-106e-4346-916a-e54c2d266f7a?action=share&creator=45976681&ctx=documentation" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
 > 📘 Datos del cliente
 >
-> Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
+> Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente
 
 La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
 
