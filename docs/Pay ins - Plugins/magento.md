@@ -55,6 +55,8 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido.
 
+<br />
+
 ## Recursos adicionales
 
 Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
