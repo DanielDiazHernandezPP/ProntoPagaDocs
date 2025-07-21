@@ -18,7 +18,7 @@ metadata:
 next:
   description: ''
 ---
-En ProntoPaga desarrollamos este **plugin de pagos para integrarse específicamente con Adobe Commerce (antes Magento)**, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto que te permite crear, personalizar, administrar y optimizar una tienda de comercio electrónico.
+En ProntoPaga desarrollamos este **plugin de pagos para integrarse específicamente con Adobe Commerce (antes Magento)**, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto para personalizar, administrar y optimizar una tienda de comercio electrónico.
 
 Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para Adobe Commerce.
 
