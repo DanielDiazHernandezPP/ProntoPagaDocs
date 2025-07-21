@@ -62,7 +62,7 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 <HTMLBlock>{`
-<p><a href="https://www.readme.com">
+<a href="https://www.readme.com">
   <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg>
 
 </a>
