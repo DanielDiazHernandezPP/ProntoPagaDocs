@@ -145,3 +145,18 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     * ⚠️ El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
   </Tab>
 </Tabs>
+
+<br />
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://prontopaga-api.postman.co/workspace/My-Workspace~068d4d0b-905b-44ad-851c-9b73e84c3e46/request/43701435-e1ffb35d-4335-41c8-8d54-2af3a75b10a2?action=share&source=copy-link&creator=43701435" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+```
