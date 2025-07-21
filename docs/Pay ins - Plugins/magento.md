@@ -63,3 +63,9 @@ En caso de requerir ayuda con un pedido específico, por favor comparte con noso
 ## Recursos adicionales
 
 Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
+
+<br />
+
+## Desinstalación
+
+En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
