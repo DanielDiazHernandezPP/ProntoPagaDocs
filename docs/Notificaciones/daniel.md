@@ -62,8 +62,14 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 <HTMLBlock>{`
-<a href="https://www.readme.com">
-  <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg>
+<!DOCTYPE html>
+<html>
+<body>
 
-</a>
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-f4af4947-106e-4346-916a-e54c2d266f7a?action=share&creator=45976681&ctx=documentation" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
 `}</HTMLBlock>
