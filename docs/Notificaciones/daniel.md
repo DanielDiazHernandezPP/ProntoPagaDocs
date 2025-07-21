@@ -57,4 +57,16 @@ Consulta en [este enlace](www.la.com)
 | a  |    |    |
 |    |    |    |
 
-<Image align="center" alt="[Run in Postman](https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-924fdaa9-39de-4540-81ee-0a9bd841c496?action=share&creator=45976681&ctx=documentation)" border={false} src="https://files.readme.io/ae8b801aadd9341937e32094afe2cb1eb9ff9be8e7a9c459c9b1a10f7194124c-run-in-postman-button-icon.jpg" width="111px" />
+<Image align="center" alt="[Run in Postman](https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-924fdaa9-39de-4540-81ee-0a9bd841c496?action=share&creator=45976681&ctx=documentation)" width="111px" src="https://files.readme.io/ae8b801aadd9341937e32094afe2cb1eb9ff9be8e7a9c459c9b1a10f7194124c-run-in-postman-button-icon.jpg" />
+
+\<!DOCTYPE html>
+
+\<html>
+\<body>
+
+\<p>\<a href="https\://www\.readme.com">
+\<img src="https\://www\.google.com/images/branding/googlelogo/2x/googlelogo\_color\_272x92dp.png">
+\</a>\</p>
+
+\</body>
+\</html>
