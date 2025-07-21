@@ -26,8 +26,9 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
-* Acceso de tipo administrador a la tienda de WooCommerce en donde instalarás el plugin.
-* Descargar previamente el archivo .zip del plugin.
+* Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
+* Tener la versión de Magento Commerce Cloud 2.4 hasta 2.4.3
+* Descargar previamente el archivo .zip del plugin
 
 ## Instalación
 
@@ -43,11 +44,18 @@ Una vez instalado el plugin desde la terminal, verifica la instalación en el Ad
 
 Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
 
-<br />
+1. Agrega un producto al carrito.
+2. Una vez en la página del carrito, selecciona la forma de pago y haz clic en **haz clic en Place Order**.
+3. Completa los campos con los datos de prueba de tu tarjeta.
+4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
+
+<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
 
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
+
+* Validar que la versión que se está inatalando sea la correcta, de lo contrario verás un mensaje de error.
 
 <br />
 
