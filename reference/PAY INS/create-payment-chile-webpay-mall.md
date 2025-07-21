@@ -24,7 +24,7 @@ metadata:
 next:
   description: ''
 ---
-Puedes probar este endpoint directamente en Postman haciendo clic en el siguiente botón:
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
