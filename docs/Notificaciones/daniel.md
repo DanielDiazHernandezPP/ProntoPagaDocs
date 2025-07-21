@@ -62,15 +62,8 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 <HTMLBlock>{`
-<!DOCTYPE html>
-<html>
-<body>
-
 <p><a href="https://www.readme.com">
   <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg width:"111" height:"100">
 
-</a></p>
-
-</body>
-</html>
+</a>
 `}</HTMLBlock>
