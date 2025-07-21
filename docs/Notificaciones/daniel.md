@@ -67,7 +67,7 @@ Consulta en [este enlace](www.la.com)
 <body>
 
 <p><a href="https://www.readme.com">
-<img src="https://prontopagalatam-my.sharepoint.com/:i:/g/personal/daniel_diaz_prontopaga_com/EYkktNzDnipLgJwnhnB_xs4B0OwbnVOL1qHye7VgxTjwcw?e=9njXpa">
+<img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg">
 </a></p>
 
 </body>
