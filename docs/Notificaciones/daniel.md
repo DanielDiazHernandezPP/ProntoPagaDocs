@@ -63,7 +63,7 @@ Consulta en [este enlace](www.la.com)
 
 <HTMLBlock>{`
 <p><a href="https://www.readme.com">
-  <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg width:"111" height:"100">
+  <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg>
 
 </a>
 `}</HTMLBlock>
