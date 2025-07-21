@@ -146,7 +146,8 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 </Tabs>
 
-<br />
+```html
+```
 
 ```html
 <!DOCTYPE html>
