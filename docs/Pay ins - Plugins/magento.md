@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce (Magento)
+title: Magento (Adobe Commerce)
 excerpt: ''
 deprecated: false
 hidden: true
