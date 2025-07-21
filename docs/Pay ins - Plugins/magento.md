@@ -18,11 +18,11 @@ metadata:
 next:
   description: ''
 ---
-Descripción
+En ProntoPaga desarrollamos este plugin de pagos específicamente para integrarse con WooCommerce
 
-<br />
+en la plataforma WordPress, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente.
 
-<br />
+Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para WooCommerce.
 
 ## Requisitos
 
