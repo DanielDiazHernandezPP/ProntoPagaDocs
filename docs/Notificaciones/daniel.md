@@ -67,8 +67,7 @@ Consulta en [este enlace](www.la.com)
 <body>
 
 <p><a href="https://www.readme.com">
-  <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg">
-<style="width:111px;height:auto;">
+  <img src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg><style="width:111px;height:auto>
 
 </a></p>
 
