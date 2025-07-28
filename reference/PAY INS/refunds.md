@@ -22,17 +22,36 @@ metadata:
 next:
   description: ''
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-d2d5b910-f670-4750-9292-4bbad03fc7b4?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
+
 > 🚧 Importante
 >
-> Solo los pagos con estado exitoso pueden ser rembolsados.
+> Solo los pagos con estado exitoso pueden ser reembolsados.
 
 Endpoint para realizar la devolución de un pago. Actualmente, este servicio está operativo solamente para los siguientes métodos de pago:
 
 * Tarjeta Perú
-* QR 
+* QR
 * Botón Yape
 * Servicios de Yape On File (One Click Payment y Recurrencia)
 
 > ❗️ Número de documento
 >
 > Para que la devolución sea exitosa, en el campo `clientDocument` debe enviarse el mismo número de documento que el cliente utilizó para realizar la afiliación.
+
+***
