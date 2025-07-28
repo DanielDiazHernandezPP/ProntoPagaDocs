@@ -39,6 +39,8 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 </html>
 `}</HTMLBlock>
 
+***
+
 Consulta este endpoint para conocer los métodos de pago asociados a tu comercio. Esos serán los métodos de pago con los cuales podrás hacer pruebas en el endpoint de [Crear un nuevo pago](https://docs.prontopaga.com/reference/create-payment).
 
 ***
