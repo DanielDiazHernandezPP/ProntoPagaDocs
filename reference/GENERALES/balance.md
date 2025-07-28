@@ -47,3 +47,5 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 Con este endpoint obtendremos el balance disponible de todos nuestros comercios habilitados en nuestra cuenta.
 
 Muestra el balance total de todos los comercios en Neto, Diferido y Disponible. Con su respectiva moneda.
+
+***
