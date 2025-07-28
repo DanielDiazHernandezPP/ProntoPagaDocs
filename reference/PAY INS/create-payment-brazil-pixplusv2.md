@@ -60,6 +60,10 @@ La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y
 >
 > Una vez que el cliente selecciona el banco, deben enviar el id de la institución y el uid del pago en el endpoint de [Selección de institución de pago Brasil Pix+ v2](https://docs.prontopaga.com/reference/institution-brazil-pixplus-v2).
 
+***
+
 ## Logos de los métodos de pago
 
 Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
+
+***
