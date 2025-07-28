@@ -44,3 +44,5 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 ***
 
 Con este endpoint podrás visualizar las transacciones del día anterior. Para mantener un flujo claro de las transacciones pasadas.
+
+***
