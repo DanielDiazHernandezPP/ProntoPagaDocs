@@ -22,6 +22,21 @@ metadata:
     - crear un nuevo pago Prontopaga
   robots: index
 ---
+Prueba la colección de ProntoPaga de Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/folder/34607190-0f9a4a7e-d5c2-4b87-b441-5eab585fee12?action=share&source=copy-link&creator=45976681&ctx=documentation" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
 Endpoint para crear un nuevo pago en Chile, Brasil, Ecuador y Perú, con distintos métodos. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
 
 > 📘 Datos del cliente
