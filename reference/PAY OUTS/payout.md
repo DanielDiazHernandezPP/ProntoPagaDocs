@@ -63,12 +63,16 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 | S              | Savings     |
 | V              | Demand      |
 
+***
+
 ### Ecuador
 
 | Tipo de cuenta | Descripción |
 | :------------- | :---------- |
 | AHO            | Ahorros     |
 | CTE            | Corriente   |
+
+***
 
 ### Perú
 
@@ -80,3 +84,5 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 > 🚧 Código bancario
 >
 > En el parámetro `bankCode`debe enviarse el código del banco al cual se enviará el pay out. Conoce la **lista completa de códigos bancarios** en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer).
+
+***
