@@ -24,6 +24,23 @@ metadata:
     - endpoint Yape
   robots: index
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-b0667c18-1fc8-44a1-8afe-c05d24bd112f?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
+
 Endpoint para procesar pagos con Botón Yape vía API (sin iFrame). Con este servicio, ProntoPaga no generará el front-end, por lo que tu comercio tendrá el manejo total de la apariencia del checkout durante un pago con Yape en Perú.
 
 Para usar este servicio, necesitarás crear el pago usando el endpoint de [Crear un nuevo pago](https://docs.prontopaga.com/reference/create-payment), tomar el `uid` recibido en la respuesta y colocarlo en el path parameter de este endpoint.
