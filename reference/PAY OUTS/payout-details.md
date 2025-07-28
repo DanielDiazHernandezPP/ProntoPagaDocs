@@ -23,7 +23,9 @@ metadata:
 next:
   description: ''
 ---
-Endpoint para obtener los detalles de un retiro. Se debe enviar el identificador `uid` en la ruta. Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+Endpoint para obtener los detalles de un retiro. Se debe enviar el identificador `uid` en la ruta.
+
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
