@@ -48,6 +48,8 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 </html>
 `}</HTMLBlock>
 
+***
+
 <br />
 
 > 📘 Datos del cliente
