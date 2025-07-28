@@ -24,7 +24,22 @@ metadata:
 next:
   description: ''
 ---
-Para ver una lista de los bancos disponibles por país, haz una solicitud a este endpoint.
+Para ver una lista de los bancos disponibles por país, haz una solicitud a este endpoint o haz clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-7773944d-8c4a-434f-95d8-ee582f401e96?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
 
 ## Países
 
