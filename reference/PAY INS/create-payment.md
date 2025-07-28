@@ -22,7 +22,7 @@ metadata:
     - crear un nuevo pago Prontopaga
   robots: index
 ---
-Prueba tu endpoint en la colección de ProntoPaga de Postman haciendo clic en el siguiente botón:
+Prueba este endpoint en la colección de ProntoPaga de Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
