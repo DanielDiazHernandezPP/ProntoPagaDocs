@@ -86,3 +86,5 @@ Estas son las wallets disponibles en Perú para hacer payouts con ProntoPaga.
 | Yape                            | yape         |
 | Plin                            | plin         |
 | Bim                             | bim          |
+
+***
