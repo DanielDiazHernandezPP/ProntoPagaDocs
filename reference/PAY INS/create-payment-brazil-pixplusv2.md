@@ -33,6 +33,23 @@ next:
       slug: institution-brazil-pixplus-v2
       title: Selección de institución de pago Brasil Pix+ v2
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-f38af423-8277-4234-a3ad-5f5ed69b252d?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+<br />
+
 > 📘 Datos del cliente
 >
 > Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
