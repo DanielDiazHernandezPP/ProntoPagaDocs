@@ -39,13 +39,11 @@ Prueba este endpoint en la colección de ProntoPaga de Postman haciendo clic en 
 
 Endpoint para crear un nuevo pago en Chile, Brasil, Ecuador y Perú, con distintos métodos. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
 
-***
-
-<br />
-
 > 📘 Datos del cliente
 >
 > Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
+
+***
 
 ### Métodos para tu comercio
 
@@ -64,3 +62,5 @@ Para hacer una solicitud a un banco específico, sigue estos pasos:
 ### Logos de los métodos de pago
 
 Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
+
+***
