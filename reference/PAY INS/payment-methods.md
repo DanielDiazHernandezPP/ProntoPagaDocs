@@ -24,8 +24,6 @@ metadata:
 next:
   description: ''
 ---
-Consulta este endpoint para conocer los métodos de pago asociados a tu comercio. Esos serán los métodos de pago con los cuales podrás hacer pruebas en el endpoint de [Crear un nuevo pago](https://docs.prontopaga.com/reference/create-payment).
-
 Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
@@ -40,3 +38,5 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 </body>
 </html>
 `}</HTMLBlock>
+
+Consulta este endpoint para conocer los métodos de pago asociados a tu comercio. Esos serán los métodos de pago con los cuales podrás hacer pruebas en el endpoint de [Crear un nuevo pago](https://docs.prontopaga.com/reference/create-payment).
