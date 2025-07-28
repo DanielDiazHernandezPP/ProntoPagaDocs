@@ -49,6 +49,8 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 >
 > Una vez que el usuario haya completado el proceso de retiro, ProntoPaga devolverá los datos a la URL que hayas especificado en la `confirmationURL`.
 
+***
+
 ## Tipos de cuentas
 
 Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
