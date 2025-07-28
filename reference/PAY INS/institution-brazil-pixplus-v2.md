@@ -41,6 +41,4 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 </html>
 `}</HTMLBlock>
 
-<br />
-
 Una vez que el cliente hace un request para crear un nuevo pago con Brasil Pix+ v2 y selecciona el banco, deben enviar el id de la institución y el uid del pago con este endpoint.
