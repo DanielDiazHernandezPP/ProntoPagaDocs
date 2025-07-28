@@ -26,4 +26,21 @@ metadata:
 next:
   description: ''
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-d496f956-ef54-4085-9cf2-5da2641e3a1a?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+<br />
+
 Una vez que el cliente hace un request para crear un nuevo pago con Brasil Pix+ v2 y selecciona el banco, deben enviar el id de la institución y el uid del pago con este endpoint.
