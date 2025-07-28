@@ -26,4 +26,21 @@ metadata:
 next:
   description: ''
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-0b5d0624-2cad-4cee-9d41-2fe259b81d6e?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
+
 Endpoint para buscar y obtener los detalles de un pago por medio del identificador único del pago (UID). Se debe enviar el valor `uid` en la ruta.
