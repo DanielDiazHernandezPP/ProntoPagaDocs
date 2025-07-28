@@ -24,7 +24,7 @@ metadata:
 next:
   description: ''
 ---
-Para ver una lista de los bancos disponibles por país, haz una solicitud a este endpoint o haz clic en el siguiente botón:
+Para ver una lista de los bancos disponibles por país, haz una solicitud a este endpoint o da clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
