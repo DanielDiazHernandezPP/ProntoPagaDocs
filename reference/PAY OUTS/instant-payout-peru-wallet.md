@@ -50,6 +50,8 @@ Con este endpoint podrás hacer un retiro instantáneo desde el comercio a una w
 >
 > Para conocer la lista de wallets disponibles para el número de teléfono celular del beneficiario, consulta primero [este endpoint](https://docs.prontopaga.com/reference/wallets-list).
 
+***
+
 ## Lista completa de wallets
 
 Estas son las wallets disponibles en Perú para hacer payouts con ProntoPaga.
