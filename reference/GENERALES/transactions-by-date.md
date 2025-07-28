@@ -53,3 +53,5 @@ ProntoPaga te permite hacer consultas de tus transacciones a través de este end
 > 📘 IVA y comisión
 >
 > Los pagos que tengan un estado diferente a `success` no traerán el detalle del IVA ni de las comisiones en la respuesta de este endpoint.
+
+***
