@@ -29,7 +29,7 @@ Prueba este endpoint en la colección de ProntoPaga de Postman haciendo clic en 
 <html>
 <body>
 
-<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/folder/34607190-0f9a4a7e-d5c2-4b87-b441-5eab585fee12?action=share&source=copy-link&creator=45976681&ctx=documentation" target="_blank">
+<p><a href="https://www.postman.com/prontopaga-api/prontopaga-docs/collection/24iz2pb/prontopaga-api?action=share&source=copy-link&creator=45976681" target="_blank">
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
 </a></p>
 
