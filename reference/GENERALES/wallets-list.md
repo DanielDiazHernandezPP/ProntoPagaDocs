@@ -40,10 +40,12 @@ Endpoint para obtener las wallets disponibles. Prueba este endpoint directamente
 </html>
 `}</HTMLBlock>
 
-<br />
+***
 
 > 🚧 Número telefónico
 >
 > El envío del `{teléfono}` en la URL es opcional. Si se manda, recibirás como respuesta las wallets asociadas a ese número telefónico. Si no se manda, recibirás una lista de todas las wallets disponibles.
+
+<br />
 
 ***
