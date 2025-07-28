@@ -61,3 +61,5 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 | 2              | Salario      |
 | 3              | Poupança     |
 | 4              | Transacional |
+
+***
