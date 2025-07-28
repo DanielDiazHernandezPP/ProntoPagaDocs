@@ -50,8 +50,6 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-<br />
-
 > 📘 Datos del cliente
 >
 > Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
