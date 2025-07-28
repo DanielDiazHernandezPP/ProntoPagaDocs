@@ -37,6 +37,8 @@ Prueba este endpoint en la colección de ProntoPaga de Postman haciendo clic en 
 </html>
 `}</HTMLBlock>
 
+***
+
 Endpoint para crear un nuevo pago en Chile, Brasil, Ecuador y Perú, con distintos métodos. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
 
 > 📘 Datos del cliente
