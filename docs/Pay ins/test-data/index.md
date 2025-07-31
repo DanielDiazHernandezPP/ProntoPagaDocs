@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Testing at Prontopaga
+  title: Datos de prueba | ProntoPaga Docs
   description: >-
     ProntoPaga has test card lists to simulate scenarios and verify your
     integration with us.
