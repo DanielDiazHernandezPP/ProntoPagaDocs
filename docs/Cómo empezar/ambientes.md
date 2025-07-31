@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Environments
+  title: Environments | ProntoPaga Docs
   description: >-
     The ProntoPaga API has two environments: sandbox and production; the sandbox
     uses simulated data and has a certain URL, while the production environment
