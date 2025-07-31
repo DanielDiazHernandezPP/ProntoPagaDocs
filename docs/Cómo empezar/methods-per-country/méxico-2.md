@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: Conoce la cobertura en México | ProntoPaga Docs
+  title: Cobertura en México | ProntoPaga Docs
   description: >-
     Prontopaga offers a wide variety of methods for merchants in México,
     including pay in and pay out options.
