@@ -1,10 +1,10 @@
 ---
-title: Brasil
+title: Métodos en Brasil
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Brasil | ProntoPaga Docs
+  title: Métodos en Brasil | ProntoPaga Docs
   description: >-
     Prontopaga offers a wide variety of methods for Brazilian merchants,
     including pay in and pay out options.
