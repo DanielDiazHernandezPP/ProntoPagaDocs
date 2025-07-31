@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Install and Configure the ProntoPaga Payment Plugin for PrestaShop
+  title: Instala y configura el plugin de Prestashop | ProntoPaga
   description: >-
     Learn how to install, configure, and test the ProntoPaga payment plugin for
     PrestaShop. This guide walks you through setup requirements, plugin
