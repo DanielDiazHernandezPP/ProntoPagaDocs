@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create Bank Transfer Payments in Peru via ProntoPaga API '
+  title: Recibe pagos con transferencia en Perú | ProntoPaga Docs
   description: >-
     Learn how to create secure bank transfer payments in Peru using the
     Prontopaga API. Includes payment flow, required parameters, webhooks, test
