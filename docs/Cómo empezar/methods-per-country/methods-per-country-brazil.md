@@ -1,5 +1,5 @@
 ---
-title: Métodos en Brasil
+title: Cobertura en Brasil
 excerpt: ''
 deprecated: false
 hidden: false
