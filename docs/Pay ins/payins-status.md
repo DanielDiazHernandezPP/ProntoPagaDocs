@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Check the status of pay ins
+  title: Estados de los pay ins | ProntoPaga Docs
   description: >-
     The document describes the possible statuses of pay ins in ProntoPaga, which
     include: new, created, successful, cancelled, rejected, pending and expired.
