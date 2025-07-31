@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Estados de los payouts | ProntoPaga Docs
+  title: Conoce los estados de los payouts | ProntoPaga Docs
   description: >-
     The statuses of the payouts in Prontopaga are: “new” (request received),
     “process” (in process), “success” (approved), and “canceled” (rejected),
