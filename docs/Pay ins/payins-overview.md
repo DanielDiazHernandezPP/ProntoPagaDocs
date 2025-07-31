@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Cómo funcionan | ProntoPaga Docs
+  title: Cómo funcionan los payins | ProntoPaga Docs
   description: >-
     A “pay in” is a transaction to deposit funds into a financial account for
     the purchase or payment of a product or service. ProntoPaga offers several
