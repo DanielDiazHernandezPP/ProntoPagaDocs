@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Countries, currencies, and accounts
+  title: Países, monedas y cuentas | ProntoPaga Docs
   description: >-
     It details the country and currency codes for Brazil, Chile, Ecuador and
     Peru, and describes the types of bank accounts available in each country,
