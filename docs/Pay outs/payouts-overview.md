@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Payouts Guide in Prontopaga
+  title: Cómo funcionan los payouts | ProntoPaga Docs
   description: >-
     A payout is a payment of money to individuals or entities, and ProntoPaga
     merchants use it to pay suppliers, transfer profits to sub-merchants, or
