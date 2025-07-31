@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'How to Create a Card Payment in Peru via ProntoPaga API '
+  title: Recibe pagos con tarjeta en Perú | ProntoPaga Docs
   description: >-
     Create card payments in Peru using Prontopaga’s API with a bearer token and
     secret signature. Enable features such as installments, card reminders, and
