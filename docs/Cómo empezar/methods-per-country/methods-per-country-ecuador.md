@@ -1,10 +1,10 @@
 ---
-title: Ecuador
+title: Cobertura en Ecuador
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Ecuador
+  title: Cobertura en Ecuador | ProntoPaga Docs
   description: >-
     Prontopaga offers a wide variety of methods for merchants in Ecuador,
     including pay in and pay out options.
