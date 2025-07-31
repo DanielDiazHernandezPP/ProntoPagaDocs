@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: How to sign your transactions?
+  title: Cómo firmar las transacciones | ProntoPaga Docs
   description: >-
     To sign your transactions, sort the parameters alphabetically, concatenate
     them into a string and then sign that string using HMAC with SHA-256 and a
