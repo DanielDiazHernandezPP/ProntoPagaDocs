@@ -26,7 +26,7 @@ next:
 La API de ProntoPaga cuenta con dos enviroments:
 
 * El enviroment de pruebas (sandbox)
-* El enviroment  de producción
+* El enviroment de producción
 
 ## Pruebas (sandbox)
 
