@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: Test data for cards in Argentina
+  title: Datos de prueba Argentina | ProntoPaga Docs
   description: >-
     Simulate payments in Argentina using test cards with the Prontopaga API.
     Ensure your integration works with local methods before going live.
