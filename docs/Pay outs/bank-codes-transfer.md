@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Bank codes for payouts with transfer to Prontopaga '
+  title: Códigos bancarios para payouts con transferencia | ProntoPaga Docs
   description: >-
     To create a new bank transfer payout in Chile, Ecuador, or Peru, you must
     use the “bankCode” parameter in this endpoint. This guide provides the full
