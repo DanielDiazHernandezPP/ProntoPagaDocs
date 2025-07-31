@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Check types of rejections in Prontopaga Payouts
+  title: Tipos de rechazos | ProntoPaga Docs
   description: >-
     The document describes common types of payout rejections in Brazil, Chile,
     Ecuador, and Peru, including customer blocks, transaction limits, and
