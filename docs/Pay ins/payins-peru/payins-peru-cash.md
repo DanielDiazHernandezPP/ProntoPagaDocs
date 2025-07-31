@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create cash payments in Peru '
+  title: Recibe pagos con efectivo en Perú | ProntoPaga Docs
   description: >-
     Learn how to create cash payments in Peru using the Prontopaga API. Includes
     payment flow, API request, test data, and webhook confirmation process.   
