@@ -1,5 +1,5 @@
 ---
-title: Conoce los estados de los pay outs
+title: Conoce los estados de los PayOuts
 excerpt: ''
 deprecated: false
 hidden: false
