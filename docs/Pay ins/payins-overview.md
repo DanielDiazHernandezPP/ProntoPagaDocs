@@ -30,7 +30,7 @@ metadata:
 next:
   description: ''
 ---
-Un *pay in* se refiere a una transacción cuya finalidad es ingresar fondos en una cuenta financiera por concepto de la compra o pago de un producto o servicio. Para realizar este tipo de transacción con éxito, ProntoPaga cuenta con diferentes canales, métodos y tipos de cuentas financieras.
+Un *PayIn* se refiere a una transacción cuya finalidad es ingresar fondos en una cuenta financiera por concepto de la compra o pago de un producto o servicio. Para realizar este tipo de transacción con éxito, ProntoPaga cuenta con diferentes canales, métodos y tipos de cuentas financieras.
 
 > 📘 Métodos y soluciones
 >
