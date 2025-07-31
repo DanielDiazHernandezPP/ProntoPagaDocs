@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Test data for Peru
+  title: Datos de prueba Perú | ProntoPaga Docs
   description: >-
     The document provides test card numbers for successful and denied payment
     scenarios using various card types (Visa, MasterCard, American Express,
