@@ -1,5 +1,5 @@
 ---
-title: Conoce la cobertura en México
+title: Cobertura en México
 excerpt: ''
 deprecated: false
 hidden: true
