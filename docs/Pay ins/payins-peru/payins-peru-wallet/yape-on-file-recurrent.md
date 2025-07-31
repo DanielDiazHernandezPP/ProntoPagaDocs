@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Yape On File: Recurring Payments'
+  title: 'Yape On File: Recurring'
   description: >-
     Recurring Payments allow you to automatically schedule and collect recurring
     payments from customers who authorize them once through the Yape app. After
