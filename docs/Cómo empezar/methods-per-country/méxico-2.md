@@ -21,6 +21,6 @@ metadata:
 next:
   description: ''
 ---
-A continuación, podrás ver listados los métodos con los que contamos en México, tanto para PayIns como para PayOuts
+A continuación, podrás ver listados los métodos con los que contamos en México, tanto para PayIns como para PayOuts.
 
 <Image align="center" src="https://files.readme.io/3e934a4a4be23aba0f43b82fb0d7119ecf0a7b698c7a41f491539d9e3bbd809c-PP_Mexico_en.jpg" />
