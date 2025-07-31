@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Instala y configura el plugin de WooCommerce | ProntoPaga
+  title: Instala y configura el plugin de WooCommerce | ProntoPaga Docs
   description: >-
     Learn how to install, configure, and test the ProntoPaga payment plugin for
     WooCommerce. This guide walks you through setup requirements, plugin
