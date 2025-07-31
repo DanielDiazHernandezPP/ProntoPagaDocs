@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Perú
+  title: Conoce la cobertura en Perú | ProntoPaga Docs
   description: >-
     Prontopaga offers a wide variety of methods for merchants in Perú, including
     pay in and pay out options.
@@ -22,6 +22,6 @@ metadata:
 next:
   description: ''
 ---
-Los métodos con los que contamos en Perú, tanto para pay ins como para pay outs los podrás ver listados a continuación.
+A continuación, podrás ver listados los métodos con los que contamos en Perú, tanto para PayIns como para PayOuts.
 
 <Image align="center" src="https://files.readme.io/ea981de32bd248f5a9d0ed51afbc4a8f946974dfd639065b1f1567743a2c2860-Coverage_in_Peru_2.png" />
