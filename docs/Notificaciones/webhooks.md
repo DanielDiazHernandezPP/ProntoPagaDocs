@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Receive notifications about your transactions
+  title: Webhooks | ProntoPaga Docs
   description: >-
     Set up a webhook to receive notifications about the status of your
     transactions. Add the URL of the endpoint in the `confirmation URL`
