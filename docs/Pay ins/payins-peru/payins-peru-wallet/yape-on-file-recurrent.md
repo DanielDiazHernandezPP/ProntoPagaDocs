@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Yape On File: Recurring'
+  title: 'Yape On File: Recurrencia | ProntoPaga Docs'
   description: >-
     Recurring Payments allow you to automatically schedule and collect recurring
     payments from customers who authorize them once through the Yape app. After
