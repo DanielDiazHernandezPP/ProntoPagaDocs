@@ -34,7 +34,7 @@ Un *PayIn* se refiere a una transacción cuya finalidad es ingresar fondos en un
 
 > 📘 Métodos y soluciones
 >
-> Conoce todos los métodos y soluciones disponibles por país <Anchor label="aquí" target="_blank" href="https://docs.prontopaga.com/update/docs/methods-per-country#/">aquí</Anchor>.
+> Conoce todos los métodos y soluciones disponibles por país <Anchor label="aquí" target="_blank" href="https://docs.prontopaga.com/docs/methods-per-country-brazil#/">aquí</Anchor>.
 
 ## Demo
 
