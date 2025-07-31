@@ -1,5 +1,5 @@
 ---
-title: Conoce la cobertura en Chile
+title: Cobertura en Chile
 excerpt: ''
 deprecated: false
 hidden: false
