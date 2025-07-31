@@ -1,5 +1,5 @@
 ---
-title: Chile
+title: Métodos en Chile
 excerpt: ''
 deprecated: false
 hidden: false
