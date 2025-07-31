@@ -1,5 +1,5 @@
 ---
-title: Tarjeta
+title: Crea pagos con tarjeta
 excerpt: ''
 deprecated: false
 hidden: true
