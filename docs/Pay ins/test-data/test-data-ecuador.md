@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Test data for cards in Ecuador
+  title: Datos de prueba Ecuador | ProntoPaga Docs
   description: >-
     This page provides test card details for making card payments with Payphone
     in Ecuador, specifying that using the provided VISA and AMEX card numbers
