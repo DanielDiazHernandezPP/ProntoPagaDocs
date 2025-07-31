@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Yape Wallet Payment Methods with ProntoPaga
+  title: Recibe pagos con Wallet en Perú | ProntoPaga Docs
   description: >-
     ProntoPaga offers multiple wallet-based payment options for your business
     using Yape, including Yape Button, Yape One Shot, Yape On File, and One
