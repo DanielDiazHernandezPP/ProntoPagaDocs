@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: 'Create card payments in Argentina '
+  title: Crea pagos con tarjeta | ProntoPaga Docs
   description: >-
     Learn how to create secure card payments in Argentina using the Prontopaga
     API. Includes full process flow, test data, error codes, webhook examples,
