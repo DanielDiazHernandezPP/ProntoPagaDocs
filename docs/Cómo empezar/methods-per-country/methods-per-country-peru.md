@@ -1,5 +1,5 @@
 ---
-title: Conoce la cobertura en Perú
+title: Cobertura en Perú
 excerpt: ''
 deprecated: false
 hidden: false
