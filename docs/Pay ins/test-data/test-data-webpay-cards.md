@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Test data for cards in Chile  '
+  title: Datos de prueba Chile | ProntoPaga Docs
   description: >-
     This document provides a list of test cards for the Webpay service in Chile,
     indicating the card type, details and whether transactions are approved or
