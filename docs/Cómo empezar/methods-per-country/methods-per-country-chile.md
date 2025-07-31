@@ -1,10 +1,10 @@
 ---
-title: Métodos en Chile
+title: Cobertura en Chile
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Métodos en Chile | ProntoPaga Docs
+  title: Cobertura en Chile | ProntoPaga Docs
   description: >-
     Prontopaga offers a wide variety of methods for merchants in Chile,
     including pay in and pay out options.
