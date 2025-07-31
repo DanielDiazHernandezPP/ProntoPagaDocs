@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo funcionan?
+title: ¿Cómo funcionan los Pay Ins?
 excerpt: ''
 deprecated: false
 hidden: false
