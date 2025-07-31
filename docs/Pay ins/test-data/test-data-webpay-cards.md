@@ -22,6 +22,10 @@ metadata:
 next:
   description: ''
 ---
+> 🚧 Webhook
+>
+> Para recibir el webhook de la transacción durante las pruebas, contacta a soporte técnico por medio de correo electrónico y proporciona el **uid** y **referencia** de la transacción.
+
 ## Tarjetas
 
 Tarjetas para realizar pagos en modo prueba con el servicio de Webpay en Chile.
