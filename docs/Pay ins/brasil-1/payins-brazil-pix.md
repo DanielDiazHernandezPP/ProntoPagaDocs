@@ -1,5 +1,5 @@
 ---
-title: Crea pagos con PIX
+title: PIX
 excerpt: ''
 deprecated: false
 hidden: false
