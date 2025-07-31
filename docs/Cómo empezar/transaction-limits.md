@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: 'Límites de transacciones '
+  title: Límites de transacciones | ProntoPaga Docs
   description: >-
     This page outlines the transactional limits for pay ins and pay outs in
     Chile, Ecuador, and Peru, detailing the specific limits for different
