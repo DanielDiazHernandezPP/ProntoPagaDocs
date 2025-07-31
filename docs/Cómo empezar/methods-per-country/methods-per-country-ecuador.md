@@ -1,5 +1,5 @@
 ---
-title: Cobertura en Ecuador
+title: Conoce la cobertura en Ecuador
 excerpt: ''
 deprecated: false
 hidden: false
