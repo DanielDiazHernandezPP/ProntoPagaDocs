@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Create QR Payments in Peru
+  title: Recibe pagos con QR en Perú | ProntoPaga Docs
   description: >-
     Learn how to create QR payments in Peru using the Prontopaga API. This guide
     covers the payment flow, API requests, test data, and webhook confirmation
