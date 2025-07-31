@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Chile
+  title: Métodos en Chile | ProntoPaga Docs
   description: >-
     Prontopaga offers a wide variety of methods for merchants in Chile,
     including pay in and pay out options.
