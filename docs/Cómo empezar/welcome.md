@@ -18,11 +18,6 @@ metadata:
     - prontopaga
     - métodos de pago
   robots: index
-next:
-  pages:
-    - slug: first-steps
-      title: Primeros Pasos
-      type: basic
 ---
 En **ProntoPaga**, somos líderes en el procesamiento de pagos en Latinoamérica, distinguiéndonos por la eficiencia y rapidez en las transacciones. Nuestra plataforma ofrece una amplia gama de métodos de pago y retiro, incluyendo: tarjetas de crédito, tarjetas de débito, tarjetas prepago, efectivo, transferencias bancarias, QR y wallets.**Todo con una sola integración.**
 
