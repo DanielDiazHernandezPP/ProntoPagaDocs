@@ -54,6 +54,8 @@ Puedes usar estas credenciales momentáneamente para pruebas en dos sitios:
 
 ***
 
+<br />
+
 ## 2. ¿Cómo hacer una solicitud?
 
 Una vez que tengas tus credenciales, podrás hacer tu primera solicitud en nuestra API.
@@ -78,6 +80,8 @@ Sigue estos pasos para hacer tu primera solicitud en nuestra Referencia API onli
 Para hacer tu primera solicitud en nuestra Colección de Postman, sigue los pasos indicados en [esta página](https://docs.prontopaga.com/reference/postman). Ahí encontrarás instrucciones específicas para usar las credenciales genéricas de prueba, así como instrucciones para usar tus propias credenciales de prueba.
 
 ***
+
+<br />
 
 ## 3. Conceptos clave
 
@@ -115,6 +119,8 @@ Anteriormente hablamos de pagos y retiros. Pero los términos de pay ins y pay o
 * **Pay out**: Se refiere al proceso de transferir dinero desde tu plataforma o negocio a tus clientes o proveedores. Un ejemplo de esto es el pago a un vendedor en un marketplace. Otro ejemplo sería el retiro de fondos por parte de un cliente.
 
 ***
+
+<br />
 
 ## 4. Siguientes Pasos
 
