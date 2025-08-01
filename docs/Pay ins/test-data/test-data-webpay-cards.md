@@ -26,6 +26,10 @@ next:
 >
 > El webhook de la transacción se enviará automáticamente en el ambiente *Sandbox* únicamente si se utilizan los datos de prueba especificados en nuestra documentación. Para los demás métodos de pago, será necesario contactar con el soporte técnico por correo electrónico, proporcionando el **uid** y la **referencia** de la transacción, para que podamos cambiar el estado a `success` y, de este modo, se reciba el webhook correspondiente.
 
+***
+
+<br />
+
 ## Tarjetas
 
 Tarjetas para realizar pagos en modo prueba con el servicio de Webpay en Chile.
@@ -46,6 +50,8 @@ Además, puedes usar los siguientes datos para tus pruebas con Webpay:
 | RUT / RUT Usuario | Clave / Clave de transferencia |
 | :---------------- | :----------------------------- |
 | 11.111.111-1      | 123                            |
+
+<br />
 
 ## Paga con tu banco
 
