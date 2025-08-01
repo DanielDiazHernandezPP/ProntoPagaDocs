@@ -25,9 +25,15 @@ next:
 ---
 Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, diseñados para integrarse de forma rápida y segura con las plataformas de comercio electrónico más populares. Facilita las transacciones de tus clientes y mejora la eficiencia de tu tienda online con nuestras soluciones confiables y optimizadas para cada plataforma.
 
+***
+
+<br />
+
 ## 🔌 Nuestros plugins
 
 Los plugins que ya están listos para ser integrados hoy en tu comercio son:
+
+<br />
 
 ### 🧩 PrestaShop
 
@@ -35,11 +41,15 @@ Consulta su Guía de instalación y configuración en [este enlace](https://docs
 
 <Image align="center" width="320px" src="https://files.readme.io/25c17c8c2e125e5eb175bb2335ac99e344dc97345dfc2b4512eca067eff7ca19-logo_prestashop.png" />
 
+<br />
+
 ### 🧩 VTEX
 
 Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/vtex).
 
 <Image align="center" width="300px" src="https://files.readme.io/7b22a59702d3dfd2e5aeacf37c8417ae48fe0eb876aa9d36f90cf3c9aea0e7fa-VTEX_Logo.svg.png" />
+
+<br />
 
 ### 🧩 WooCommerce
 
