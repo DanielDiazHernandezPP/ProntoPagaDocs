@@ -28,6 +28,10 @@ next:
 ---
 Crear un pago con **Botón Yape: One Shot** en Perú consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. Esta solicitud podrá realizarse tanto para versión web, como para versión mobile. Además, el flujo de pago del cliente también varía ligeramente, dependiendo del dispositivo que esté usando.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Yape", tener una cuenta creada y aprobar la compra desde su aplicación.
@@ -46,6 +50,10 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 4. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Versiones
 
 Es posible integrar el servicio **Botón Yape: One Shot** de dos maneras:
@@ -60,6 +68,8 @@ A continuación, verás las instrucciones para la versión web. Más abajo, dent
 ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincida con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros, y maximizando la seguridad de tus transacciones.
 
 Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración. Toma en cuenta las diferencias que existen en la experiencia del cliente para cada caso. Esas diferencias están descritas en la sección de **¿Cómo funciona?** de este artículo, en la parte superior.
+
+<br />
 
 ### Motivos de rechazo de validación pago terceros
 
@@ -78,6 +88,8 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
 
+<br />
+
 ### Crea un nuevo pago
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_oneshot_payment` como método de pago en el body de la solicitud. Además, deberás especificar en el parámetro `origin` que se trata de un pago de tipo `web`.
@@ -85,6 +97,8 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
+
+<br />
 
 ### Body de la solicitud
 
@@ -112,6 +126,8 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
+<br />
+
 #### Confirmación de un pago
 
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -123,6 +139,8 @@ Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una vent
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
+
+<br />
 
 ### Devolución de un pago
 
@@ -144,6 +162,8 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
 
+<br />
+
 ### Crea un nuevo pago
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_oneshot_payment` como método de pago en el body de la solicitud. Además, deberás especificar en el parámetro `origin` que se trata de un pago de tipo `mobile`.
@@ -151,6 +171,8 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
+
+<br />
 
 ### Body de la solicitud
 
@@ -178,6 +200,8 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
+<br />
+
 #### Confirmación de un pago
 
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -189,6 +213,8 @@ Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una vent
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
+
+<br />
 
 ### Devolución de un pago
 
@@ -204,11 +230,19 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. Conócelos aquí:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
+
+***
+
+<br />
 
 ## Certifica tu integración
 
