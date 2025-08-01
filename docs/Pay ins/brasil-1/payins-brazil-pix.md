@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Crea pagos con PIX | ProntoPaga Docs
+  title: Acepta pagos con PIX | ProntoPaga Docs
   description: >-
     Learn how to receive payments in Brazil using PIX with the Prontopaga API.
     This guide explains the payin flow, required parameters, webhook
