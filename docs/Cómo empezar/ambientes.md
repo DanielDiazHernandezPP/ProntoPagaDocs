@@ -28,6 +28,10 @@ La API de ProntoPaga cuenta con dos enviroments:
 * El enviroment de pruebas (sandbox)
 * El enviroment de producción
 
+***
+
+<br />
+
 ## Pruebas (sandbox)
 
 Como primer paso, nosotros crearemos y te proporcionaremos tu Bearer Token y secretKey en el enviroment de pruebas, para que puedas hacer tu integración y realizar las pruebas que desees en sandbox. Realizar pruebas en este enviroment no afectará los datos reales de tu comercio, ya que se utilizan datos simulados.
@@ -44,6 +48,10 @@ Las IP del enviroment de sandbox son:
 54.236.195.158
 44.195.64.16
 ```
+
+***
+
+<br />
 
 ## Producción
 
