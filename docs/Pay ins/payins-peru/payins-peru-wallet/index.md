@@ -36,6 +36,8 @@ En Perú, contamos con distintas modalidades de pago por medio de la wallet Yape
 * [Botón Yape v1](https://docs.prontopaga.com/docs/bot%C3%B3n-yape). Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
 * [Botón Yape: One Shot](https://docs.prontopaga.com/docs/yape-one-shot). Integra pagos únicos con Botón Yape, versión web y mobile.
 
+<br />
+
 ## Pagos de tipo afiliación
 
 * [Yape On File: One Click Payments](https://docs.prontopaga.com/docs/yape-on-file-ocp). Realiza afiliaciones para que tus clientes puedan realizar pagos posteriores en un solo clic.
