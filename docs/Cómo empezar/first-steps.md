@@ -26,8 +26,6 @@ next:
 ---
 En esta página podrás familiarizarte con conceptos clave para el procesamiento de transacciones, además de conocer cómo realizar tu primera solicitud en nuestra API.
 
-<br />
-
 ## 1. Obtén tus credenciales
 
 Antes de iniciar con la integración, deberás contar con tus credenciales, las cuales son:
