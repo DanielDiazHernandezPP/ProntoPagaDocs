@@ -1,5 +1,5 @@
 ---
-title: Tarjeta
+title: Recibe pagos con tarjeta
 excerpt: ''
 deprecated: false
 hidden: false
