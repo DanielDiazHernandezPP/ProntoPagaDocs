@@ -42,7 +42,7 @@ next:
 
 ///
 
-<br />
+<h2>HOLA</h2>
 
 > 📘 ASAA
 >
@@ -65,7 +65,7 @@ next:
 ## Menú desplegable
 
 <details>
-  <summary>📌 Requisitos para la certificación</summary>
+  <summary>##📌 Requisitos para la certificación</summary>
 
   <p>ID del cliente:</p>
 
