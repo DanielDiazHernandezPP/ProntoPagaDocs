@@ -26,9 +26,9 @@ metadata:
 next:
   description: ''
 ---
-> 🚧 Webhook
+> 🚧 Webhook de la transacción
 >
-> Para recibir el webhook de la transacción durante las pruebas, contacta a soporte técnico por medio de correo electrónico y proporciona el **uid** y **referencia** de la transacción.
+> El webhook de la transacción se enviará automáticamente en el ambiente *Sandbox* únicamente si se utilizan los datos de prueba especificados en nuestra documentación. Para los demás métodos de pago, será necesario contactar con el soporte técnico por correo electrónico, proporcionando el **uid** y la **referencia** de la transacción, para que podamos cambiar el estado a `success` y, de este modo, se reciba el webhook correspondiente.
 
 ## Tarjetas
 
