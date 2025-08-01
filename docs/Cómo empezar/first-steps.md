@@ -23,6 +23,8 @@ next:
 ---
 En esta página podrás familiarizarte con conceptos clave para el procesamiento de transacciones, además de conocer cómo realizar tu primera solicitud en nuestra API.
 
+***
+
 ## 1. Obtén tus credenciales
 
 Antes de iniciar con la integración, deberás contar con tus credenciales, las cuales son:
@@ -36,6 +38,8 @@ Tanto el Bearer Token como el secretKey serán proporcionados a tu comercio por 
 >
 > Obtener tus credenciales es esencial, ya que cualquier solicitud que no incluya Bearer Token o secretKey devolverá un error, al no estar autenticada.
 
+<br />
+
 ### 1.1. Credenciales de prueba
 
 Si aún no cuentas con tus credenciales para el enviroment de sandbox y deseas comenzar a probar nuestra API, ponemos a tu disposición las siguientes credenciales:
@@ -48,9 +52,13 @@ Puedes usar estas credenciales momentáneamente para pruebas en dos sitios:
 * **Referencia API online.** En la caja superior derecha podrás ingresar el Bearer Token, así como utilizar los ejemplos de bodys precargados, en donde deberás añadir la [firma](https://docs.prontopaga.com/docs/sign-transactions). Conoce todas las zonas de nuestra Referencia API online en [esta página](https://docs.prontopaga.com/reference/quick-guide-doc#api-reference).
 * **Colección de Postman.** Contamos con una colección de Postman con ejemplos y con un script para automatizar la creación de la firma. Conoce más sobre la colección en [esta página](https://docs.prontopaga.com/reference/postman).
 
+***
+
 ## 2. ¿Cómo hacer una solicitud?
 
 Una vez que tengas tus credenciales, podrás hacer tu primera solicitud en nuestra API.
+
+<br />
 
 ### 2.1. Hacer una solicitud en la Referencia API online
 
@@ -63,13 +71,19 @@ Sigue estos pasos para hacer tu primera solicitud en nuestra Referencia API onli
 5. Si el body request requiere el parámetro `sign`, usa tu secretKey y sigue [estas instrucciones](https://docs.prontopaga.com/docs/sign-transactions) para construir la firma de tu transacción.
 6. Haz clic en el botón **Try it!** para enviar la solicitud. Verás la respuesta justo debajo.
 
+<br />
+
 ### 2.2. Hacer una solicitud en la Colección de Postman
 
 Para hacer tu primera solicitud en nuestra Colección de Postman, sigue los pasos indicados en [esta página](https://docs.prontopaga.com/reference/postman). Ahí encontrarás instrucciones específicas para usar las credenciales genéricas de prueba, así como instrucciones para usar tus propias credenciales de prueba.
 
+***
+
 ## 3. Conceptos clave
 
 Estos son algunos conceptos del mundo de los pagos que podrían serte de utilidad durante tu integración con ProntoPaga.
+
+<br />
 
 ### 3.1. ¿Qué es un método de pago?
 
@@ -81,6 +95,8 @@ Un método de pago es una forma específica en la que un cliente puede realizar 
 * **QR**: Este método permite escanear un código QR para realizar un pago de manera rápida, a través de distintos servicios.
 * **Efectivo**: Algunas regiones permiten pagos en efectivo a través de intermediarios como tiendas de conveniencia.
 
+<br />
+
 ### 3.2. ¿Qué es un método de retiro?
 
 Un método de retiro es una forma específica en la que un cliente puede elegir hacer un retiro. Por ejemplo, cuando un cliente hace una apuesta en un sitio online, gana dinero, y desea retirar parte de sus ganancias. Estos métodos varían según el país y la preferencia del usuario. Aquí tienes una breve descripción de los tipos más comunes:
@@ -89,12 +105,16 @@ Un método de retiro es una forma específica en la que un cliente puede elegir 
 * **Wallets (billeteras digitales):** Son servicios como PayPal o GooglePay, en los cuales se puede recibir dinero de forma segura.
 * **Efectivo**: Algunas regiones permiten retiros en efectivo a través de intermediarios como tiendas de conveniencia.
 
+<br />
+
 ### 3.3. Pay ins y Pay outs
 
 Anteriormente hablamos de pagos y retiros. Pero los términos de pay ins y pay outs también suelen ser muy utilizados en el mundo de los pagos:
 
 * **Pay in**: Es el proceso mediante el cual un cliente envía dinero a tu plataforma o negocio. Un ejemplo común, sería el pago que hace un cliente al comprar un producto o servicio en línea.
 * **Pay out**: Se refiere al proceso de transferir dinero desde tu plataforma o negocio a tus clientes o proveedores. Un ejemplo de esto es el pago a un vendedor en un marketplace. Otro ejemplo sería el retiro de fondos por parte de un cliente.
+
+***
 
 ## 4. Siguientes Pasos
 
