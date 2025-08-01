@@ -36,6 +36,10 @@ Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están e
 | Ecuador   | EC                                   | USD                         |
 | Perú      | PE                                   | PEN / USD                   |
 
+***
+
+<br />
+
 ## Tipos de cuentas
 
 El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos (a excepción de Ecuador), como se describe a continuación.
@@ -49,6 +53,8 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 | 3              | Ahorro        |
 | 4              | Transaccional |
 
+<br />
+
 ### Chile
 
 | Tipo de cuenta | Descripción        |
@@ -56,6 +62,8 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 | C              | Cuenta corriente   |
 | S              | Cuenta de ahorros  |
 | V              | Cuenta Rut / Vista |
+
+<br />
 
 ### Ecuador
 
@@ -70,6 +78,8 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 | :------------- | :---------- |
 | C              | Cliente     |
 | B              | Comercio    |
+
+<br />
 
 ### Perú
 
