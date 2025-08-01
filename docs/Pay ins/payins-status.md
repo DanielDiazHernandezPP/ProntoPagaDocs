@@ -1,5 +1,5 @@
 ---
-title: Conoce los estados de los pay ins
+title: Conoce los estados de los PayIns
 excerpt: ''
 deprecated: false
 hidden: false
@@ -22,7 +22,7 @@ metadata:
 next:
   description: ''
 ---
-Estos son los posibles estados que pueden tener los pay ins.
+Estos son los posibles estados que pueden tener los PayIns.
 
 | Estado   | Descripción                                                                                                                                                     |
 | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
