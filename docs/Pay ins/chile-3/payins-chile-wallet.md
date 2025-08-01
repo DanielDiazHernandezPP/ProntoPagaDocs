@@ -30,6 +30,10 @@ Crear un pago a través de una wallet en Chile consiste en capturar los datos ne
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 MACH y Mercado Pago son billeteras digitales utilizadas en Chile que permiten realizar pagos en línea a través de sus aplicaciones. Para completar una transacción utilizando estos métodos de pago, el cliente debe seleccionar la opción "Paga con QR/Wallet - MACH" o "Paga con QR/Wallet - MercadoPago", tener una cuenta creada con saldo disponible o un medio de pago vinculado, y aprobar el pago desde la aplicación.
@@ -44,6 +48,10 @@ El proceso de pago con wallet en Chile consta de cinco etapas principales:
 4. **Captura.** El cliente sigue los pasos en su aplicación de wallet y realiza el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** El cliente es redirigido a tu sitio y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
@@ -57,6 +65,8 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
+
+<br />
 
 ### Body de la solicitud
 
@@ -80,13 +90,19 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
+<br />
+
 ### Pago en la wallet
 
 El cliente podrá continuar el proceso siguiendo las instrucciones en pantalla. Deberá abrir la aplicación de su wallet para continuar con el pago.
+
+<br />
 
 ### Confirmación de un pago
 
@@ -96,11 +112,19 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
+
+***
+
+<br />
 
 ## Certifica tu integración
 
