@@ -1,5 +1,5 @@
 ---
-title: PIX
+title: Acepta pagos con PIX
 excerpt: ''
 deprecated: false
 hidden: false
