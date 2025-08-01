@@ -27,11 +27,17 @@ next:
 ---
 Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo en Ecuador, con lo cual podrán ir a un punto físico de recaudo a solicitar el retiro. Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks), nosotros te notificaremos sobre el estado del retiro.
 
+***
+
+<br />
+
 ## Red Activa / Western Union
 
 ### Ubicaciones
 
 🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de [esta página](https://redactiva.com/agencias/) ⬅️
+
+<br />
 
 #### Especificaciones
 
@@ -39,11 +45,17 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 | :-------------------------------- | :------------ | :------------ | :------------------- |
 | Puntos Red Activa / Western Union | 5 USD         | 300 USD       | No expira            |
 
+***
+
+<br />
+
 ## Ponle más
 
 ### Ubicaciones
 
 🌎 Conoce los puntos PonleMas **cercanos a ti** en el mapa disponible en [esta página](https://promociones.ponlemas.com/wsUbicacionPDV/Home/ComerciosCercanos/) ⬅️
+
+<br />
 
 #### Especificaciones
 
@@ -51,11 +63,17 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 | :--------------- | :------------ | :------------ | :------------------- |
 | Puntos Ponle más | 1 USD         | 50 USD        | No expira            |
 
+***
+
+<br />
+
 ## Bemovil
 
 ### Ubicaciones
 
 🌎 Pregunta en tu tienda más cercana si procesan recargas con Bemovil.
+
+<br />
 
 #### Especificaciones
 
