@@ -24,6 +24,8 @@ next:
 ---
 Los tipos de rechazos posibles para pay ins varían dependiendo del país y del método de pago utilizado. A continuación, se describen los más comunes.
 
+<br />
+
 ## Brasil
 
 Estos son los tipos de pagos rechazados en Brasil.
@@ -39,6 +41,8 @@ El cliente se bloquea en lista negra.
     "message": "The client is blocked"
 },
 ```
+
+<br />
 
 ### Opción 2 - Limite de comercio
 
@@ -56,6 +60,8 @@ El cliente ha superado los límites establecidos para la transacción o comercio
 },
 ```
 
+<br />
+
 ### Opción 3
 
 Error al crear el pago en el servicio Pix.
@@ -67,6 +73,8 @@ Error al crear el pago en el servicio Pix.
     "message": "Error while creating the payment in the Pix service. Please try again"
 },
 ```
+
+<br />
 
 ### Opción 4
 
@@ -80,6 +88,8 @@ Error al generar el código QR Pix.
 },
 ```
 
+<br />
+
 ### Opción 5
 
 Error al generar el Token de Acceso Pix.
@@ -91,6 +101,8 @@ Error al generar el Token de Acceso Pix.
     "message": "Error generating Pix AccessToken"
 },
 ```
+
+***
 
 <br />
 
@@ -110,6 +122,8 @@ El cliente se bloquea en lista negra.
 },
 ```
 
+<br />
+
 ### Opción 2 - Limite de comercio
 
 El cliente ha superado los límites establecidos para la transacción o comercio.
@@ -125,6 +139,8 @@ El cliente ha superado los límites establecidos para la transacción o comercio
                 Maximum deposit per transaction 6,000,000.00 CLP"
 },
 ```
+
+***
 
 <br />
 
@@ -144,6 +160,8 @@ El cliente se bloquea en lista negra.
 },
 ```
 
+<br />
+
 ### Opción 2 - Limite de comercio
 
 El cliente ha superado los límites establecidos para la transacción o comercio.
@@ -160,6 +178,8 @@ El cliente ha superado los límites establecidos para la transacción o comercio
 },
 ```
 
+<br />
+
 ### Opción 3 - Pago pendiente
 
 El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.
@@ -171,6 +191,8 @@ El cliente tiene una transacción de pago pendiente para ese mismo número de te
     "message": "There is already a pending payment for that phone number."
 },
 ```
+
+<br />
 
 ### Opción 4 - Pago fallido
 
@@ -184,6 +206,8 @@ El cliente tiene una transacción de pago pendiente.
 },
 ```
 
+***
+
 <br />
 
 ## Perú
@@ -192,7 +216,7 @@ Estos son los tipos de pagos rechazados en Perú.
 
 ### Yape - Primarios
 
-Estos son los posibles **motivos de rechazo primarios** para pagos con Yape. 
+Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 
 > ❗️ Integración sin iFrame
 >
@@ -203,6 +227,8 @@ Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 > * Límite diario excedido (> 500.00).
 > * Cuenta bloqueada por OTP.
 > * 3er intento de OTP incorrecto.
+
+<br />
 
 | Action\_code | Mensaje del rechazo                                                           |
 | :----------- | :---------------------------------------------------------------------------- |
@@ -217,9 +243,13 @@ Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 | 414          | Tu cuenta fue bloqueada. Vuelve a intentar en 24 horas                        |
 | 418          | Ingresaste 3 códigos de aprobación incorrectos. Vuelve a intentar en 24 horas |
 
+<br />
+
 > 👍 Datos de prueba
 >
 > Puedes hacer pruebas de los escenarios de rechazo anteriores con los datos listados en [esta página](https://docs.prontopaga.com/docs/test-data-cards-peru#bot%C3%B3n-yape).
+
+<br />
 
 ### Yape - Secundarios
 
@@ -228,6 +258,8 @@ A continuación se listan los posibles **rechazos secundarios** al realizar un p
 > ❗️ errorMessage
 >
 > Tanto el action\_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
+
+<br />
 
 | Action\_code | Mensaje del rechazo                                |
 | :----------- | :------------------------------------------------- |
@@ -245,6 +277,8 @@ A continuación se listan los posibles **rechazos secundarios** al realizar un p
 | 511          | Operacion denegada. Problemas de comunicacion      |
 | 599          | Operacion denegada. Problemas de comunicacion      |
 
+<br />
+
 ### Tarjeta - Autorizador
 
 Códigos de acción en la respuesta del **autorizador** (al hacer pagos con tarjeta en Perú):
@@ -252,6 +286,8 @@ Códigos de acción en la respuesta del **autorizador** (al hacer pagos con tarj
 > ❗️ errorMessage
 >
 > Tanto el action\_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
+
+<br />
 
 | Action\_code | Mensaje del rechazo                      |
 | :----------- | :--------------------------------------- |
