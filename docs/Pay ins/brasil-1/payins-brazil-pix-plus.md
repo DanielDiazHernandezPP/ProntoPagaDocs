@@ -29,6 +29,10 @@ Crear un pago en Brasil con PIX+ consiste en capturar los datos necesarios del c
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 PIX+ (Open Finance) es un servicio de pagos instantáneos que permite a los usuarios realizar transacciones directamente desde sus cuentas bancarias a través del sistema PIX, sin necesidad de copiar y pegar códigos QR. El sistema funciona mediante una conexión segura entre diferentes instituciones financieras. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria y haber registrado una clave PIX en esa cuenta. Al momento de pagar, debe seleccionar su banco y autorizar la transacción desde la plataforma online de su entidad financiera.
@@ -44,6 +48,10 @@ El proceso de pago con PIX+ (Open Finance) consta de seis etapas principales:
 5. **Captura.** El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
 6. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ### Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
@@ -57,6 +65,8 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
+
+<br />
 
 #### Body de la solicitud
 
@@ -80,9 +90,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 #### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+
+<br />
 
 #### Confirmación de un pago
 
@@ -92,9 +106,17 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ### Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
+
+***
+
+<br />
 
 ### Antes de finalizar tu integración
 
@@ -104,9 +126,17 @@ Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu in
 * Enviar todos los datos requeridos en el body request del [endpoint de creación de pago](https://docs.prontopaga.com/reference/create-payment).
 * Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/ana_escalante_prontopaga_com/EvoLzSVLQBtBtvUlXKCUPtkByzlMhjY7LLux9Dc6Dvmlzw?e=fMKXW0).
 
+***
+
+<br />
+
 ## PIX+ v2
 
 Crear un pago en Brasil con PIX+ v2 consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura. Además, implica seleccionar y enviar la institución bancaria de pago del cliente.
+
+***
+
+<br />
 
 ### 1. Crea un nuevo pago
 
@@ -117,6 +147,8 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
+
+<br />
 
 #### Body de la solicitud
 
@@ -140,17 +172,27 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 #### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás una lista de instituciones bancarias, así como un identificador de pago del sistema.
+
+***
+
+<br />
 
 ### 2. Seleccionar institución
 
 Una vez que el cliente selecciona el banco, deben enviar el id de la institución y el UID del pago en el endpoint de [Selección de institución de pago Brasil Pix+ v2](https://docs.prontopaga.com/reference/institution-brazil-pixplus-v2).
 
+<br />
+
 #### Respuesta
 
 Como respuesta, recibirá una URL de pago en la institución bancaria, así como un identificador de pago en el sistema.
+
+<br />
 
 #### Confirmación de un pago
 
@@ -160,15 +202,25 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 #### Requisitos de certificación
 
