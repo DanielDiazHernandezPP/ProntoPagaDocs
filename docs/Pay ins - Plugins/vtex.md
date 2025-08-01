@@ -25,6 +25,10 @@ VTEX es una plataforma de comercio digital que permite a empresas crear y gestio
 
 Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga en la plataforma de VTEX.
 
+***
+
+<br />
+
 ## Requisitos
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
@@ -34,6 +38,10 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 * Ser VTEX Partner con acceso al VTEX Admin.
 * Tener configurado el entorno con Node.js y Yarn (opcional, pero recomendado).
 * Tener instalado Git.
+
+***
+
+<br />
 
 ## Instalación
 
@@ -73,6 +81,10 @@ Para instalar el plugin de pagos ProntoPaga en VTEX, sigue estas instrucciones:
 
 <Image align="center" width="400px" src="https://files.readme.io/f285ea53557966437a16198152986d56e63a7e05cba6608b758eee49efa7419e-6_vtex.png" />
 
+***
+
+<br />
+
 ## Verificación de la instalación y configuración
 
 Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de VTEX y termina la configuración, siguiendo estos pasos:
@@ -82,6 +94,10 @@ Una vez instalado el plugin desde la terminal, verifica la instalación en el Ad
 3. Revisa que esté activo, y añade tus credenciales API en esta sección:
    1. Token de autenticación (Bearer Token)
    2. Secret Key
+
+***
+
+<br />
 
 ## Prueba tu integración
 
@@ -108,6 +124,10 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, rea
 
 6. Verifica que la redirección, validación y respuesta del pago funcionen adecuadamente
 
+***
+
+<br />
+
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
@@ -118,9 +138,15 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 | Error de redirección al pagar             | Revisa las credenciales API configuradas                            |
 | No aparece ProntoPaga como opción de pago | Asegúrate de que el plugin esté activo y configurado                |
 
+<br />
+
 ### Ayuda con un pedido
 
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido.
+
+***
+
+<br />
 
 ## Recursos adicionales
 
