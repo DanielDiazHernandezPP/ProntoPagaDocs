@@ -70,3 +70,5 @@ Antes de finalizar tu integración, recuerda agregar los logotipos de los difere
 > 🚧 Número de caracteres
 >
 > Ten en cuenta que, al obtener una transacción exitosa, el campo `reference` puede contener hasta 20 caracteres.
+
+***
