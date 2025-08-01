@@ -27,6 +27,10 @@ Crear un pago en Brasil con PIX consiste en capturar los datos necesarios del cl
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como, transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
@@ -40,6 +44,10 @@ El proceso de pago con PIX consta de cinco etapas principales:
 3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla.
 4. **Captura.** El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+
+***
+
+<br />
 
 ## Crea un nuevo pago
 
@@ -55,9 +63,13 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
+<br />
+
 ### iFrame y QR
 
 El valor del campo `isIframePay` deberá ser enviado como  `true` para este método de pago. De este modo, como respuesta se proporcionará un iFrame y un código QR para que se integre dentro de la página del comercio.
+
+<br />
 
 ### Tipo de pago
 
@@ -68,6 +80,8 @@ El campo  `typePixPayment` es requerido para este método de pago. Este campo se
 | 1     | Pago inmediato                                                        |
 | 2     | Pago con fecha de vencimiento (temporalmente deshabilitado)           |
 | 3     | Pago por lotes con fecha de vencimiento (temporalmente deshabilitado) |
+
+<br />
 
 ### Body de la solicitud
 
@@ -93,9 +107,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace de iFrame para incrustar en tu comercio, así como un código PIX que se puede convertir en QR, y un identificador de pago del sistema.
+
+<br />
 
 ### Confirmación de un pago
 
@@ -105,15 +123,25 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
