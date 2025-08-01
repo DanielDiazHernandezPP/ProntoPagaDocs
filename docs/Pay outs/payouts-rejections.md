@@ -30,6 +30,10 @@ A continuación se describen todos los posibles tipos de rechazos para pay outs.
 >
 > Los tipos de rechazos están ordenados por país, y el número que se indica al inicio de cada error, es el que se recibe como `errorCode`. Para encontrar el error que buscas, puedes guiarte con la Tabla de Contenidos que aparece a la derecha del artículo.
 
+***
+
+<br />
+
 ## Generales (todos los países)
 
 ### 1 - Cliente bloqueado
@@ -45,6 +49,8 @@ El cliente está bloqueado en lista negra.
 },
 ```
 
+<br />
+
 ### 2 - Límite excedido
 
 El cliente ha superado los límites configurados para el comercio (se detallan las cifras en el mensaje).
@@ -57,6 +63,8 @@ El cliente ha superado los límites configurados para el comercio (se detallan l
     "errorCode": "2"
 },
 ```
+
+<br />
 
 ### 3 - Balance excedido para cierta moneda
 
@@ -71,9 +79,11 @@ No hay balance disponible para la moneda seleccionada.
 },
 ```
 
+<br />
+
 ### 4 - La cuenta no existe
 
-La cuenta bancaria ingresada no existe. 
+La cuenta bancaria ingresada no existe.
 
 ```json
 {
@@ -83,6 +93,8 @@ La cuenta bancaria ingresada no existe.
     "errorCode": "4"
 },
 ```
+
+<br />
 
 ### 21 - Moneda inválida
 
@@ -97,6 +109,8 @@ El código de moneda que se ha enviado no es correcto.
 },
 ```
 
+<br />
+
 ### 22 - Cuenta inválida
 
 La cuenta no es válida. Posiblemente ha sido bloqueada o cerrada con anterioridad.
@@ -109,6 +123,8 @@ La cuenta no es válida. Posiblemente ha sido bloqueada o cerrada con anteriorid
     "errorCode": "22"
 },
 ```
+
+<br />
 
 ### 23 - Información inválida
 
@@ -123,6 +139,8 @@ La información enviada no pudo ser verificada, es inválida. O bien, hay campos
 },
 ```
 
+<br />
+
 ### 24 - Numero de cuenta inválido
 
 Se realizó una validación y el número de cuenta ingresado para hacer el payout, no corresponde a los datos del usuario. Es un retiro a terceros, no válido.
@@ -136,6 +154,8 @@ Se realizó una validación y el número de cuenta ingresado para hacer el payou
 },
 ```
 
+<br />
+
 ### 25 - ID inválido
 
 El número de ID ingresado es inválido.
@@ -148,6 +168,10 @@ El número de ID ingresado es inválido.
     "errorCode": "25"
 },
 ```
+
+***
+
+<br />
 
 ## Chile
 
@@ -164,6 +188,8 @@ El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pa
 },
 ```
 
+<br />
+
 ### 6 - Banco no corresponde
 
 El banco que se seleccionó no corresponde con los datos enviados.
@@ -176,6 +202,8 @@ El banco que se seleccionó no corresponde con los datos enviados.
     "errorCode": "6"
 },
 ```
+
+<br />
 
 ### 7 - Restricción de abono
 
@@ -190,6 +218,8 @@ La cuenta tiene una restricción de abono (crédito).
 },
 ```
 
+<br />
+
 ### 8 - Banco en mantenimiento
 
 El banco al que será enviado el pay out se encuentra en pausa de actividades por mantenimiento.
@@ -202,6 +232,8 @@ El banco al que será enviado el pay out se encuentra en pausa de actividades po
     "errorCode": "8"
 },
 ```
+
+<br />
 
 ### 9 - RUT incorrecto
 
@@ -216,6 +248,8 @@ El RUT enviado es incorrecto.
 },
 ```
 
+<br />
+
 ### 10 - RUT con dígito verificador
 
 La cuenta de RUT tiene dígito verificador.
@@ -228,6 +262,10 @@ La cuenta de RUT tiene dígito verificador.
     "errorCode": "10"
 },
 ```
+
+***
+
+<br />
 
 ## Perú
 
@@ -244,6 +282,8 @@ El servicio de pay outs instantáneos no está disponible por el momento, por lo
 },
 ```
 
+<br />
+
 ### 12 - Banco no disponible (en InstantPayouts)
 
 En una solicitud de pay outs instantáneo, el banco de destino no está disponible.
@@ -256,6 +296,8 @@ En una solicitud de pay outs instantáneo, el banco de destino no está disponib
     "errorCode": "12"
 },
 ```
+
+<br />
 
 ### 13 - Error interno (en InstantPayouts)
 
@@ -270,9 +312,11 @@ Ocurrió un error interno inesperado. Por favor reintente nuevamente.
 },
 ```
 
+<br />
+
 ### 20 - Wallet no encontrada
 
-El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el pay out. 
+El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el pay out.
 
 ```json
 {
@@ -282,6 +326,10 @@ El número de teléfono enviado no está asociado con la wallet que se seleccion
     "errorCode": "20"
 },
 ```
+
+***
+
+<br />
 
 ## Brasil
 
@@ -298,6 +346,8 @@ Ocurrió un error de validación. Por favor verifique la llave PIX e intente nue
 },
 ```
 
+<br />
+
 ### 15 - Declinación del servidor
 
 La solicitud fue declinada por el servidor.
@@ -311,9 +361,11 @@ La solicitud fue declinada por el servidor.
 },
 ```
 
+<br />
+
 ### 19 - CPF no coincide con los datos
 
-El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el pay out. No es posible hacer pay outs a terceros. 
+El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el pay out. No es posible hacer pay outs a terceros.
 
 ```json
 {
@@ -323,6 +375,10 @@ El CPF enviado no coincide con los datos de la persona a quien se quiere enviar 
     "errorCode": "19"
 },
 ```
+
+***
+
+<br />
 
 ## Ecuador
 
@@ -339,6 +395,8 @@ El número telefónico enviado no es válido para el servicio de Payphone (no es
 },
 ```
 
+<br />
+
 ### 17 - Error interno por validaciones
 
 Ocurrió un error interno debido a una falla durante el proceso de validación.
@@ -352,9 +410,11 @@ Ocurrió un error interno debido a una falla durante el proceso de validación.
 },
 ```
 
+<br />
+
 ### 18 - Problema con detalles de la cuenta bancaria
 
-Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente. 
+Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.
 
 ```json
 {
