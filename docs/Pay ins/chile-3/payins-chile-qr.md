@@ -24,6 +24,10 @@ Crear un pago por QR en Chile consiste en capturar los datos necesarios del clie
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 MACH y Mercado Pago son billeteras digitales utilizadas en Chile que permiten realizar pagos en línea a través de sus aplicaciones. Para completar una transacción utilizando estos métodos de pago, el cliente debe seleccionar la opción "Paga con QR/Wallet - MACH" o "Paga con QR/Wallet - MercadoPago", tener una cuenta creada con saldo disponible o un medio de pago vinculado, y aprobar el pago desde la aplicación.
@@ -36,6 +40,10 @@ El proceso de pago con QR en Chile consta de cuatro etapas principales:
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
 3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+
+***
+
+<br />
 
 ## Crea un nuevo pago
 
@@ -50,6 +58,8 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
+
+<br />
 
 ### Body de la solicitud
 
@@ -73,9 +83,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+
+<br />
 
 ### Confirmación de un pago
 
@@ -85,15 +99,25 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
