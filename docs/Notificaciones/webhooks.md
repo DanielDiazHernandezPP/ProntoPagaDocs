@@ -25,6 +25,10 @@ next:
 ---
 **Configurar un webhook para tus transacciones** te ayudará a conocer el estado de tus pay ins y pay outs. Estos callbacks te notificarán cuando ocurra un cambio de estado en cierta transacción.
 
+***
+
+<br />
+
 ## Configura un webhook
 
 Para iniciar la configuración de tu webhook, sigue estos pasos:
@@ -32,6 +36,10 @@ Para iniciar la configuración de tu webhook, sigue estos pasos:
 1. Crea un endpoint para recibirlo, es decir, crea una nueva ruta con la URL deseada.
 2. Ajusta la llamada HTTP de tu endpoint a POST.
 3. Agrega el body en formato JSON.
+
+***
+
+<br />
 
 ## Agrega la URL a tus transacciones
 
@@ -61,6 +69,10 @@ Ejemplo:
 >
 > Conoce los posibles estados de los pay ins en [este enlace](https://docs.prontopaga.com/docs/payins-status). Los estados de los pay outs, los puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/payouts-status).
 
+***
+
+<br />
+
 ## Estructura del webhook
 
 Estos son los posibles parámetros que se pueden entregar en el cuerpo del webhook:
@@ -89,9 +101,15 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 | endNotificationTime   | string |
 | totalRequestTime      | string |
 
+***
+
+<br />
+
 ## Ejemplos
 
 Estos son algunos ejemplos de webhooks que podrías recibir.
+
+<br />
 
 ### Webhook de pay in exitoso - Perú Tarjeta
 
@@ -114,6 +132,8 @@ Estos son algunos ejemplos de webhooks que podrías recibir.
   "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
 } 
 ```
+
+<br />
 
 ### Webhook de pay out exitoso - Perú Cuenta Interbancaria
 
