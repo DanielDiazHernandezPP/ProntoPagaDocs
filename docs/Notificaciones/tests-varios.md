@@ -65,7 +65,7 @@ next:
 ## Menú desplegable
 
 <details>
-  <summary>##📌 Requisitos para la certificación</summary>
+  <summary><h2>📌 Requisitos para la certificación</h2></summary>
 
   <p>ID del cliente:</p>
 
