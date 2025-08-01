@@ -29,6 +29,10 @@ Crear un pago en efectivo en Ecuador consiste en capturar los datos necesarios d
 
 Conoce los puntos físicos de pago disponibles en [este artículo](https://docs.prontopaga.com/docs/physical-points-payins).
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Red Activa / Western Union, BeMovil y PonleMás son redes y plataformas que operan en Ecuador y permiten realizar pagos en efectivo para servicios, recargas y otras transacciones. Para completar una transacción con cualquiera de estos métodos, el usuario debe seleccionar la opción correspondiente:
@@ -50,6 +54,10 @@ El proceso de pago con efectivo en Ecuador consta de seis etapas principales:
 5. **Validación de datos.** ProntoPaga valida la infomación del pago.
 6. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
@@ -63,6 +71,8 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
+
+<br />
 
 ### Body de la solicitud
 
@@ -86,9 +96,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace con la hoja de pago, así como un identificador de pago del sistema.
+
+<br />
 
 ### Hoja de pago
 
@@ -99,6 +113,8 @@ El cliente verá en pantalla y recibirá en su correo electrónico la hoja de pa
 * Instituciones en las que puede hacer el pago
 * Instrucciones para hacer el pago
 
+<br />
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya realizado el pago en efectivo, ProntoPaga le notificará el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -107,15 +123,25 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
