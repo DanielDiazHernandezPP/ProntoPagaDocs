@@ -34,9 +34,15 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ***
 
+<br />
+
 # QR con interfaz estándar (flujo completo)
 
 Para quienes buscan una integración práctica y eficiente, contamos con una interfaz completamente lista para usar, que genera y muestra automáticamente el código QR al usuario final. Esta solución ofrece una experiencia visual atractiva, además de permitir hacer el monitoreo en tiempo real del estado del pago, facilitando así una implementación rápida sin comprometer la calidad ni la experiencia del usuario.
+
+***
+
+<br />
 
 ## ¿Cómo funciona?
 
@@ -50,6 +56,10 @@ El proceso de pago con QR en Perú consta de cuatro etapas principales:
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
 3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+
+***
+
+<br />
 
 ## Crea un nuevo pago (flujo completo)
 
@@ -65,9 +75,13 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
+<br />
+
 ### Personalización del formulario
 
 Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
+
+<br />
 
 ### Body de la solicitud
 
@@ -92,9 +106,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+
+<br />
 
 ### Confirmación de un pago
 
@@ -104,6 +122,8 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+<br />
+
 ### Cancelar un pago con QR
 
 Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
@@ -112,6 +132,8 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 
 ***
 
+<br />
+
 # QR embebido (solo datos QR)
 
 Si únicamente requieres el código QR en formato base64, esta opción es perfecta para ti. Está pensada especialmente para quienes ya cuentan con una interfaz personalizada o un flujo de usuario propio, y solo necesitan incorporar la imagen del QR en el lugar que más les convenga. Es una solución ideal si ya tienes resuelto el front-end y buscas simplemente insertar el QR sin complicaciones adicionales.
@@ -119,6 +141,10 @@ Si únicamente requieres el código QR en formato base64, esta opción es perfec
 > 🚧 Monto no precargado
 >
 > Esta modalidad no carga automáticamente el monto en la wallet, por lo tanto, el cliente debe ingresarlo de manera manual.
+
+***
+
+<br />
 
 ## Crea un nuevo pago (solo datos QR)
 
@@ -134,9 +160,13 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
+<br />
+
 ### Solicitar el QR
 
 Para recibir el código QR en la respuesta, deberás usar el parámetro de personalización `"theme"` y mandar el parámetro `"type": "qr"`, tal como se muestra en el ejemplo del body de la solicitud.
+
+<br />
 
 ### Body de la solicitud
 
@@ -160,6 +190,8 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "sign": "Signature of the parameters"
 }
 ```
+
+<br />
 
 ### Respuesta
 
@@ -186,6 +218,8 @@ Como respuesta a una solicitud de pago exitosa recibirás el enlace para procesa
 }
 ```
 
+<br />
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -194,11 +228,15 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+<br />
+
 ### Cancelar un pago con QR
 
 Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
 
 Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
+
+<br />
 
 ### Listado de wallets
 
@@ -234,9 +272,17 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+***
+
+<br />
 
 ## Requisitos de certificación
 
