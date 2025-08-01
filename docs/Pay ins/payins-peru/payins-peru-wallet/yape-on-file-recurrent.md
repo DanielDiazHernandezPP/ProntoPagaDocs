@@ -33,6 +33,10 @@ next:
 ---
 Crear pagos recurrentes con Yape On File consiste en hacer una solicitud de afiliación a través de nuestra API. Esta solicitud podrá realizarse tanto para versión web, como para versión mobile. Una vez realizada con éxito la afiliación, podrás llamar a nuestro endpoint de pagos para realizar los cargos a su cuenta de Yape, según lo requieras.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar a Yape como método de pago, tener una cuenta creada y aprobar la suscripción desde su aplicación.
@@ -50,6 +54,10 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de cuatro e
 3. **Recurrencia.** Ahora podrás llamar a nuestro endpoint de cobro de pago para realizar los cargos a su cuenta de Yape, cada vez que lo requieras (según los detalles especificados por el cliente y por tu comercio, sobre su plan de suscripción).
 4. **Confirmación de pago recurrente** Tu cliente recibirá notificaciones push en su wallet cada vez que se realice un pago recurrente. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Versiones
 
 Es posible integrar el servicio **Yape On File: Recurrencia** de dos maneras:
@@ -59,11 +67,17 @@ Es posible integrar el servicio **Yape On File: Recurrencia** de dos maneras:
 
 A continuación, verás las instrucciones para la versión web. Más abajo, dentro de esta misma página, verás los pasos para la versión mobile. Para una navegación más rápida, te sugerimos usar el índice de la derecha.
 
+***
+
+<br />
+
 ## Validación pago terceros
 
 ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincida con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros, y maximizando la seguridad de tus transacciones.
 
 Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración. Toma en cuenta las diferencias que existen en la experiencia del cliente para cada caso. Esas diferencias están descritas en la sección de **¿Cómo funciona?** de este artículo, en la parte superior.
+
+<br />
 
 ### Motivos de rechazo de validación pago terceros
 
@@ -78,9 +92,13 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
 
 ***
 
+<br />
+
 ## Integra la versión web
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para comenzar el proceso de suscripción, mientras que tu back-end estará integrado con nuestra API, procesando la afiliación y los pagos.
+
+<br />
 
 ### Crea una afiliación de tipo Recurrencia
 
@@ -104,6 +122,8 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
+<br />
+
 ### Haz un pago recurrente
 
 Una vez que tu cliente esté afiliado correctamente, tu comercio podrá realizar los pagos según lo requiera. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `walletUID`.
@@ -111,6 +131,8 @@ Una vez que tu cliente esté afiliado correctamente, tu comercio podrá realizar
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, monto, entre otros.
 
 <NotaFirma />
+
+<br />
 
 #### Body de la solicitud
 
@@ -137,6 +159,8 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
+<br />
+
 #### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una notificación push con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -148,6 +172,8 @@ Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una no
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
+
+<br />
 
 ### Motivos de rechazo de un pago
 
@@ -166,6 +192,8 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 | Error por cuenta bancaria cerrada                                  | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor                           | Yape notifica sobre la transacción denegada por email |
 
+<br />
+
 ### Devolución de un pago de una Recurrencia
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -180,6 +208,8 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+<br />
+
 ### Motivos de rechazo de una devolución
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
@@ -193,13 +223,19 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 | Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
 
+<br />
+
 ### Lista de afiliaciones
 
 Puedes obtener una lista con las afiliaciones de tipo Recurrencia activas de cierto cliente, haciendo una consulta con su número de documento. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliations-list) para ello.
 
+<br />
+
 ### Detalle de una afiliación
 
 Consulta el detalle del estado de una afiliación de tipo Recurrencia, usando el identificador único (UID) de la afiliación de la wallet del cliente. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliation-details) para conocer el detalle.
+
+<br />
 
 ### Cancelar una afiliación de tipo Recurrencia
 
@@ -208,6 +244,8 @@ Para cancelar la afiliación de un cliente, y que éste ya no reciba más cargos
 Para ello, deberás enviar el identificador único (UID) de la afiliación de la wallet del cliente en el path. Una vez finalizado el proceso de cancelación de forma exitosa, el cliente recibirá una notificación push de Yape, confirmando el proceso.
 
 ***
+
+<br />
 
 ## Integra la versión mobile
 
@@ -234,6 +272,8 @@ Si la recurrencia se realizó con éxito, se mostrará el resultado de la transa
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
+<br />
+
 ### Haz un pago recurrente
 
 Una vez que tu cliente esté afiliado correctamente, tu comercio podrá realizar los pagos según lo requiera. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `walletUID`.
@@ -241,6 +281,8 @@ Una vez que tu cliente esté afiliado correctamente, tu comercio podrá realizar
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, monto, entre otros.
 
 <NotaFirma />
+
+<br />
 
 #### Body de la solicitud
 
@@ -267,6 +309,8 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
+<br />
+
 #### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una notificación push con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -278,6 +322,8 @@ Una vez que se haya completado el pago, ProntoPaga le enviará al cliente una no
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
+
+<br />
 
 ### Motivos de rechazo de un pago
 
@@ -296,6 +342,8 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 | Error por cuenta bancaria cerrada                                  | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor                           | Yape notifica sobre la transacción denegada por email |
 
+<br />
+
 ### Devolución de un pago de una Recurrencia
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -310,6 +358,8 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+<br />
+
 ### Motivos de rechazo de una devolución
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
@@ -323,13 +373,19 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 | Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
 
+<br />
+
 ### Lista de afiliaciones
 
 Puedes obtener una lista con las afiliaciones de tipo Recurrencia activas de cierto cliente, haciendo una consulta con su número de documento. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliations-list) para ello.
 
+<br />
+
 ### Detalle de una afiliación
 
 Consulta el detalle del estado de una afiliación de tipo Recurrencia, usando el identificador único (UID) de la afiliación de la wallet del cliente. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliation-details) para conocer el detalle.
+
+<br />
 
 ### Cancelar una afiliación de tipo Recurrencia
 
@@ -337,15 +393,25 @@ Para cancelar la afiliación de un cliente, y que éste ya no reciba más cargos
 
 Para ello, deberás enviar el identificador único (UID) de la afiliación de la wallet del cliente en el path. Una vez finalizado el proceso de cancelación de forma exitosa, el cliente recibirá una notificación push de Yape, confirmando el proceso.
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. Conócelos aquí:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
