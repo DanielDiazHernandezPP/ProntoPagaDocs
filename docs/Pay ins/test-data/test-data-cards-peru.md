@@ -30,11 +30,19 @@ next:
 >
 > El webhook de la transacción se enviará automáticamente en el ambiente *Sandbox* únicamente si se utilizan los datos de prueba especificados en nuestra documentación. Para los demás métodos de pago, será necesario contactar con el soporte técnico por correo electrónico, proporcionando el **uid** y la **referencia** de la transacción, para que podamos cambiar el estado a `success` y, de este modo, se reciba el webhook correspondiente.
 
+***
+
+<br />
+
 ## Tarjetas
 
 Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en Perú.
 
+<br />
+
 ### Casos Exitosos
+
+<br />
 
 #### Visa
 
@@ -45,6 +53,8 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Venta exitosa – foránea          | 4485412049751046 | 03/2028   | 111 | 000              |
 | Venta exitosa – afiliación a REC | 4474104525811674 | 03/2028   | 111 | 000              |
 
+<br />
+
 #### Master Card
 
 | Escenario                        | Número           | Mes / año | CVV | Código de acción |
@@ -53,7 +63,11 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Venta exitosa – sin cuotas       | 5455460920094260 | 03/2028   | 111 | 000              |
 | Venta exitosa – afiliación a REC | 5443599980000447 | 03/2028   | 111 | 000              |
 
+<br />
+
 ### Casos denegados
+
+<br />
 
 #### Visa
 
@@ -75,6 +89,8 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Contactar emisor                         | 4539676788512233 | 03/2028   | 111 | 191              |
 | Afiliación a REC no exitosa              | 4474103791846547 | 03/2028   | 111 | 0                |
 
+<br />
+
 #### Master card
 
 | Escenario                                | Número           | Mes / año | CVV | Código de acción |
@@ -94,6 +110,10 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Comercio no válido                       | 5111886224425808 | 04/2023   | 111 | 754              |
 | Contactar emisor                         | 5100538637530152 | 04/2023   | 111 | 191              |
 
+***
+
+<br />
+
 ## Paga con tu banco
 
 Datos para pruebas en el servicio Paga con tu banco de Perú.
@@ -101,6 +121,10 @@ Datos para pruebas en el servicio Paga con tu banco de Perú.
 | Banco     | DNI      | Clave | Número de tarjeta | Clave digital | Token  |
 | :-------- | :------- | :---- | :---------------- | :------------ | :----- |
 | Banco BCP | 11111111 | 1234  | 1111222233334444  | 123456        | 123456 |
+
+***
+
+<br />
 
 ## Botón Yape
 
