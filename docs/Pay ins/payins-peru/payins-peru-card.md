@@ -29,6 +29,10 @@ Crear un pago con tarjeta en Perú consiste en capturar los datos necesarios del
 
 Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (*challenges*) correspondientes para validar o rechazar transacciones.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Pagos con Tarjeta es un servicio que permite aceptar pagos con tarjetas de crédito y débito Visa, Mastercard, American Express, Diners Club y UnionPay en Perú. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Tarjeta" e ingresar los datos de su tarjeta, incluyendo número, fecha de expiración y código CVV.
@@ -43,15 +47,23 @@ El proceso de pago con tarjeta en Perú consta de cinco etapas principales:
 4. **Autorización y Captura.** Se verifica que existan los fondos suficientes, y se mueven desde el banco del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** El cliente ve en pantalla el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Especificaciones
 
 El pago con tarjeta en Perú cuenta con características extras. Algunas de ellas las puedes activar o desactivar en la Consola, según lo requieras. A continuación se detallan.
+
+<br />
 
 ### Pago en cuotas
 
 El sistema detectará automáticamente si se está realizando un pago con tarjeta de crédito o débito, en caso de ser tarjeta de crédito, la opción de cuotas se mostrará en automático en el formulario. El número de cuotas son definidas por el emisor de la tarjeta, así como por el banco del usuario.
 
 <Image align="center" src="https://files.readme.io/deee08d0ef65a7124c0f6208436b93e0c3035b039ea3c069b930786377102a0f-cuotas.png" />
+
+<br />
 
 ### Recordar tarjeta
 
@@ -63,11 +75,17 @@ Si el cliente desea recordar su tarjeta para futuras compras, contamos con un ca
 >
 > Si el cliente guarda una tarjeta después de un pago en soles, esa tarjeta guardada solo se podrá utilizar para pagos futuros en soles. Si desea usarla en dólares, deberá guardarla nuevamente en dólares.
 
+<br />
+
 ### Pago con tarjetas foráneas
 
 Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectará en automático cuando se trata de una tarjeta de este tipo, con lo cual, el cliente verá dos campos extras en su formulario de pagos (ciudad y país de la tarjeta):
 
 <Image align="center" src="https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png" />
+
+***
+
+<br />
 
 ## Crea un nuevo pago
 
@@ -106,9 +124,13 @@ A continuación puedes ver un ejemplo de request:
 
 Puedes ajustar la apariencia de tu formulario con el parámetro opcional `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+
+<br />
 
 #### Ejemplo de respuesta para pago exitoso:
 
@@ -120,6 +142,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+<br />
+
 #### Ejemplo de respuesta de pago rechazado:
 
 ```json
@@ -129,6 +153,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
    "reference": "Reason for rejection" 
 }
 ```
+
+<br />
 
 ### Confirmación de un pago
 
@@ -160,6 +186,8 @@ Ejemplo de **webhook para un pago exitoso**:
 } 
 ```
 
+<br />
+
 ### Detalles de un pago
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
@@ -182,6 +210,8 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   "sign": [string] // Signature of the parameters
 }
 ```
+
+<br />
 
 ### Motivos de rechazo
 
@@ -399,11 +429,19 @@ A continuación se muestran varios posibles casos de rechazo junto con su códig
   </tbody>
 </Table>
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
+
+***
+
+<br />
 
 ## Certifica tu integración
 
