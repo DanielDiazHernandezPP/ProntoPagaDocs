@@ -42,8 +42,6 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 
 ### Casos Exitosos
 
-<br />
-
 #### Visa
 
 | Escenario                        | Número           | Mes / año | CVV | Código de acción |
@@ -66,8 +64,6 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 <br />
 
 ### Casos denegados
-
-<br />
 
 #### Visa
 
