@@ -31,12 +31,16 @@ En esta página están listados todos los métodos de pago por país, así como 
 >
 > Recuerda que para conocer los métodos asociados a tu comercio, primero deberás consulta el endpoint de [Métodos de pago](https://docs.prontopaga.com/reference/payment-methods). Solo podrás hacer pruebas con los métodos de pago asociados a tu comercio.
 
+<br />
+
 ## Brasil
 
 | Solución                 | Método de pago | Marca |
 | :----------------------- | :------------- | :---- |
 | QR/Wallet                | pix\_payment   | Pix   |
 | QR/Wallet (Open-Finance) | belvo\_payment | Pix+  |
+
+<br />
 
 ## Chile
 
@@ -46,6 +50,8 @@ En esta página están listados todos los métodos de pago por país, así como 
 | Transferencia | PagaConTuBanco         | Paga con tu Banco |
 | QR/Wallet     | mercadopagoqr\_payment | Mercado Pago      |
 | QR/Wallet     | mach\_payment          | MACH              |
+
+<br />
 
 ## Ecuador
 
@@ -57,6 +63,8 @@ En esta página están listados todos los métodos de pago por país, así como 
 | Efectivo      | broadnet\_payment  | Ponle más                  |
 | Efectivo      | bemovil\_payment   | Bemovil                    |
 | Efectivo      | redactiva\_payment | Red Activa / Western Union |
+
+<br />
 
 ## Perú
 
