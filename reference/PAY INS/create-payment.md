@@ -66,3 +66,7 @@ Para hacer una solicitud a un banco específico, sigue estos pasos:
 Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr)
 
 ***
+
+> 🚧 Número de caracteres
+>
+> Ten en cuenta que, al obtener una transacción exitosa, el campo `reference` puede contener hasta 20 caracteres.
