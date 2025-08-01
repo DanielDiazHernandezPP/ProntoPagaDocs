@@ -34,8 +34,12 @@ Un pay out es una suma de dinero que se le paga a un individuo o entidad. En est
 >
 > Conoce todos los métodos y soluciones disponibles por país [aquí](https://docs.prontopaga.com/docs/methods-per-country-brazil).
 
+***
+
+<br />
+
 ## Demo
 
 Puedes probar algunos de los métodos disponibles y hacer un ejemplo de cómo se vería el proceso final en el siguiente demo:
 
-<Embed url="https://demo.insospa.com/transactions/withdrawal" title="iframe" provider="demo.insospa.com" href="https://demo.insospa.com/transactions/withdrawal" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" />
+<Embed url="https://demo.insospa.com/transactions/withdrawal" href="https://demo.insospa.com/transactions/withdrawal" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" />
