@@ -27,6 +27,10 @@ next:
 ---
 Hacer un retiro en Ecuador por medio de transferencia bancaria consiste en capturar los datos necesarios de la persona que recibirá el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Transferencia es una forma de retirar fondos en Ecuador mediante transferencias bancarias. Para completar una transacción utilizando este método de retiro, el cliente debe seleccionar la opción "Transferencia Bancaria", ingresar su número de cuenta bancaria, seleccionar el banco, el tipo de cuenta, y confirmar la operación.
@@ -40,9 +44,17 @@ El proceso de payout con transferencia en Ecuador consta de cuatro etapas princi
 3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia al banco y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Lista de bancos
 
 La lista de códigos bancarios para pay outs de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
+
+***
+
+<br />
 
 ## Crea un nuevo retiro
 
@@ -53,6 +65,8 @@ Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar 
 Además, debes incluir los datos necesarios del cliente al que le mandarás el dinero, como: nombre, apellido, correo electrónico, teléfono, ID, cuenta, entre otros.
 
 <NotaWebhooks />
+
+<br />
 
 ### Body de la solicitud
 
@@ -78,9 +92,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema, el estado del retiro y datos adicionales de la transacción.
+
+<br />
 
 ### Confirmación de un retiro
 
@@ -90,13 +108,23 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
