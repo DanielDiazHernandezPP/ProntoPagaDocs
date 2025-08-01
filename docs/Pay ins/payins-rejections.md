@@ -228,8 +228,6 @@ Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 > * Cuenta bloqueada por OTP.
 > * 3er intento de OTP incorrecto.
 
-<br />
-
 | Action\_code | Mensaje del rechazo                                                           |
 | :----------- | :---------------------------------------------------------------------------- |
 | 101          | Tarjeta vencida                                                               |
@@ -242,8 +240,6 @@ Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 | 413          | Excediste el límite diario de pagos con Yape                                  |
 | 414          | Tu cuenta fue bloqueada. Vuelve a intentar en 24 horas                        |
 | 418          | Ingresaste 3 códigos de aprobación incorrectos. Vuelve a intentar en 24 horas |
-
-<br />
 
 > 👍 Datos de prueba
 >
@@ -258,8 +254,6 @@ A continuación se listan los posibles **rechazos secundarios** al realizar un p
 > ❗️ errorMessage
 >
 > Tanto el action\_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
-
-<br />
 
 | Action\_code | Mensaje del rechazo                                |
 | :----------- | :------------------------------------------------- |
@@ -286,8 +280,6 @@ Códigos de acción en la respuesta del **autorizador** (al hacer pagos con tarj
 > ❗️ errorMessage
 >
 > Tanto el action\_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
-
-<br />
 
 | Action\_code | Mensaje del rechazo                      |
 | :----------- | :--------------------------------------- |
