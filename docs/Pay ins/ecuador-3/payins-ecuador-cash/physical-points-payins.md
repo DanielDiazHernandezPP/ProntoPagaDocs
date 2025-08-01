@@ -27,6 +27,8 @@ next:
 ---
 Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador, con lo cual podrán ir a un punto físico de recaudo a hacer el pago. Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks), nosotros te notificaremos sobre el estado del pago.
 
+<br />
+
 ## Red Activa / Western Union
 
 ### Ubicaciones
@@ -39,6 +41,8 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 | :-------------------------------- | :------------ | :------------ | :------------------- |
 | Puntos Red Activa / Western Union | 1 USD         | 300 USD       | 4 horas              |
 
+<br />
+
 ## Ponle más
 
 ### Ubicaciones
@@ -50,6 +54,8 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 | Nombre           | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :--------------- | :------------ | :------------ | :------------------- |
 | Puntos Ponle más | 1 USD         | 50 USD        | 4 horas              |
+
+<br />
 
 ## Bemovil
 
