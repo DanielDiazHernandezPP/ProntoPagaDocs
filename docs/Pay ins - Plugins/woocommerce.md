@@ -28,12 +28,20 @@ En ProntoPaga desarrollamos este plugin de pagos específicamente para integrars
 
 Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para WooCommerce.
 
+***
+
+<br />
+
 ## Requisitos
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de WooCommerce en donde instalarás el plugin.
 * Descargar previamente el archivo .zip del plugin, [disponible aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/ana_escalante_prontopaga_com/Ef-ZtsauA5lIkDChCnRxrjoBn_kNMDcw7-sXk_6-3YMeEg?e=X5gLiX).
+
+***
+
+<br />
 
 ## Instalación
 
@@ -47,6 +55,10 @@ Para instalar el plugin de pagos ProntoPaga en WooCommerce, sigue estas instrucc
 3. Cuando se haya cargado el archivo, haz clic en **Instalar ahora**
 4. Al finalizar la instalación, haz clic en el botón azul de **Activar plugin**
 5. Si el proceso fue exitoso, ahora verás el módulo de **ProntoPaga** en el menú lateral de WooCommerce
+
+***
+
+<br />
 
 ## Configuración
 
@@ -73,6 +85,8 @@ Para configurarlo y elegir los métodos de pago, sigue estos pasos:
 
 6. Haz clic en el botón inferior de **Guardar Configuración**
 
+<br />
+
 ### Personalización de textos
 
 Nuestro plugin cuenta con la opción de personalizar el título del método de pago y agregar una descripción. Esta información se mostrará en el carrito de compras del cliente.
@@ -92,6 +106,8 @@ Este es un ejemplo de cómo se verían el título y la descripción durante el *
 
 <Image align="center" width="320px" src="https://files.readme.io/950e4513979756c17e0fe8c895c6a0fde66085682edd9a5a46c7a0c9a47c53d1-Captura_de_pantalla_2025-05-04_a_las_11.15.48_p.m..png" />
 
+<br />
+
 ### Ajustes adicionales
 
 Dependiendo de lo que requiera tu comercio, podrás configurar el estado final de las transacciones como "Procesando" o "Completada". Para hacerlo, sigue estos pasos:
@@ -106,6 +122,10 @@ Dependiendo de lo que requiera tu comercio, podrás configurar el estado final d
 > 📘 Estado de las transacciones
 >
 > El estado final que selecciones en esta sección será el estado que aparecerá en el listado de **WooCommerce > Pedidos**.
+
+***
+
+<br />
 
 ## Prueba tu integración
 
@@ -135,6 +155,10 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de WooCommer
 
 6. Verifica que la redirección, validación y respuesta del pago funcionen adecuadamente
 
+***
+
+<br />
+
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
@@ -145,9 +169,15 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 | Error de redirección al pagar                         | Revisa las credenciales API configuradas                                          |
 | No aparece ProntoPaga como opción de pago             | Asegúrate de que el plugin esté activo y configurado según esta guía              |
 
+<br />
+
 ### Ayuda con un pedido
 
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido. Este lo podrás encontrar en **WooCommerce > Pedidos**, entrando al pedido indicado, en **Notas del pedido**, al lado izquierdo.
+
+***
+
+<br />
 
 ## Desinstalación
 
