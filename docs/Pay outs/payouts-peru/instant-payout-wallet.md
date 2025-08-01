@@ -31,6 +31,10 @@ ProntoPaga te permite hacer retiros instantáneos en Perú. Para ello, cuentas c
 
 A continuación, puedes encontrar información detallada de cómo hacer retiros instantáneos desde el comercio a una wallet específica.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Wallet (retiros instantáneos) es un método digital utilizado en Perú que permite retirar fondos desde una aplicación de billetera digital en el celular. Para utilizar este método, el cliente debe seleccionar la opción "Billetera digital", tener una cuenta activa en una billetera compatible, ingresar su número de teléfono, seleccionar la billetera y confirmar la operación. Para conocer el listado de billeteras disponibles, puedes consultarlo [aquí](https://docs.prontopaga.com/docs/instant-payout-wallet#wallets-disponibles).
@@ -43,6 +47,10 @@ El proceso de payout con wallet en Perú consta de cuatro etapas principales:
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como su número de teléfono y wallet) y confirma la transacción.
 3. **Validación y Captura.** ProntoPaga valida la información del retiro, hace la solicitud de transferencia a la wallet y mueve el dinero desde la cuenta del comercio hacia la cuenta del cliente.
 4. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+
+***
+
+<br />
 
 ## Wallets disponibles
 
@@ -79,9 +87,15 @@ Este es la lista completa de las wallets disponibles para hacer pay outs con Pro
 | Plin                            | plin         |
 | Bim                             | bim          |
 
+***
+
+<br />
+
 ## Consulta de wallets por número telefónico (Opcional)
 
 Si deseas conocer las wallets asociadas al número telefónico celular del beneficiario, primero deberás consultar el endpoint de [Lista de wallets](https://docs.prontopaga.com/reference/wallets-list) y agregar el teléfono en la URL de la petición.
+
+<br />
 
 ### Respuesta
 
@@ -99,6 +113,10 @@ Si la transacción es exitosa, recibirás una respuesta similar a la siguiente:
        "6": "oh”, 
  } 
 ```
+
+***
+
+<br />
 
 ## Solicitud de retiro instantáneo vía wallet
 
@@ -125,6 +143,8 @@ Después de seleccionar una wallet del listado obtenido en el [endpoint anterior
 
 <NotaWebhooks />
 
+<br />
+
 ### Posibles respuestas
 
 Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema, el estado del retiro y datos adicionales de la transacción.
@@ -148,6 +168,8 @@ Si la transacción es rechazada, recibirás la siguiente respuesta:
     "beneficiaryPhone":  "(string) beneficiaryPhone, cannot be null."
  }
 ```
+
+<br />
 
 ### Motivos de rechazo
 
@@ -203,6 +225,8 @@ A continuación se muestran varios posibles casos de rechazo de un retiro, junto
 | 9948   | Servicio IPS suspendido                                     |
 | 9964   | Identificador de entidad invalido                           |
 
+<br />
+
 ### Confirmación de un retiro
 
 Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
@@ -210,6 +234,8 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+
+<br />
 
 ### Webhook
 
@@ -228,13 +254,23 @@ Al finalizar una transacción exitosa, recibirás un webhook similar al ejemplo 
 }         
 ```
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
