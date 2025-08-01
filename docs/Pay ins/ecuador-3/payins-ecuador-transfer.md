@@ -25,6 +25,10 @@ Crear un pago en Ecuador por medio de transferencia bancaria consiste en captura
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 Paga con Tu Banco (Transferencia) es un método de pago utilizado en Ecuador que permite realizar transferencias electrónicas de fondos entre cuentas bancarias. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Tu Banco", elegir la cuenta desde la cual desea realizar la transferencia y aprobar la transacción desde la plataforma de su entidad bancaria.
@@ -40,6 +44,10 @@ El proceso de pago con transferencia en Ecuador consta de cuatro etapas principa
 3. **Redirección.** El cliente es redirigido al portal de su banco, en donde deberá iniciar sesión y seguir las instrucciones en pantalla para hacer la transferencia. El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente es redirigido a tu sitio y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
+***
+
+<br />
+
 ## Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
@@ -51,6 +59,8 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaWebhooks />
+
+<br />
 
 ### Body de la solicitud
 
@@ -74,13 +84,19 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
+<br />
+
 ### Pago en el banco
 
 El cliente podrá continuar el proceso siguiendo las instrucciones en pantalla. Se redireccionará al cliente al sitio web de la institución bancaria que haya seleccionado para pagar, en donde podrá iniciar sesión y hacer la transferencia.
+
+<br />
 
 ### Confirmación de un pago
 
@@ -90,15 +106,25 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
+***
+
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
