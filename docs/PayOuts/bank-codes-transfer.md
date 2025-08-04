@@ -1,5 +1,5 @@
 ---
-title: Códigos bancarios para pay outs con transferencia
+title: Códigos bancarios para PayOuts con transferencia
 excerpt: ''
 deprecated: false
 hidden: false
