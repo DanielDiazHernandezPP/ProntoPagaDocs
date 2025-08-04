@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Acepta pagos con wallet | ProntoPaga Docs
+  title: Acepta pagos con Wallet | ProntoPaga Docs
   description: >-
     Learn how to create wallet payments in Chile using the Prontopaga API with
     MACH and Mercado Pago. Includes payment flow, API request, test data, and
