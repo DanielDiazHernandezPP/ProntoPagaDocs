@@ -35,7 +35,7 @@ Hacer un retiro en Chile por medio de transferencia bancaria consiste en captura
 
 Transferencia es una forma de retirar fondos en Chile mediante transferencias bancarias, utilizando la banca en línea o plataformas electrónicas. Para completar una transacción utilizando este método de retiro, el cliente debe seleccionar la opción "Solicitar Retiro", ingresar su número de cuenta bancaria, seleccionar el banco, el tipo de cuenta, y confirmar la operación.
 
-El proceso de payout con transferencia en Chile consta de cuatro etapas principales:
+El proceso de PayOut con transferencia en Chile consta de cuatro etapas principales:
 
 <Image align="center" src="https://files.readme.io/13560fca486b2b1ac4120d7c4ba0c60c7efa2c93c9b080de22fe45e0a1327042-Chile-01.jpg" />
 
@@ -50,7 +50,7 @@ El proceso de payout con transferencia en Chile consta de cuatro etapas principa
 
 ## Lista de bancos
 
-La lista de códigos bancarios para pay outs de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
+La lista de códigos bancarios para PayOuts de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
 
 ***
 
@@ -105,7 +105,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 ***
 
