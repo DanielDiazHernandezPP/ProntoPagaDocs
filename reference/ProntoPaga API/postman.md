@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Use the ProntoPaga API collection in Postman
+  title: Colección de Postman | ProntoPaga Docs
   description: >-
     Access and test all ProntoPaga API endpoints easily using our Postman
     collection. This guide explains how to authenticate requests with generic or
