@@ -1,10 +1,10 @@
 ---
-title: Wallet
+title: Acepta pagos con Wallet
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create wallet payments in Ecuador '
+  title: Acepta pagos con Wallet | ProntoPaga Docs
   description: >-
     Learn how to create wallet payments in Ecuador using the Prontopaga API.
     Includes payment flow, API request, test data, and webhook confirmation
