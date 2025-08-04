@@ -1,5 +1,5 @@
 ---
-title: 'Crea pagos con Botón Yape: One Shot'
+title: 'Botón Yape: One Shot'
 excerpt: ''
 deprecated: false
 hidden: false
