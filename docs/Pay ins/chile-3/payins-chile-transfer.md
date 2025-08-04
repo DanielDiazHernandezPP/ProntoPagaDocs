@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Recibe pagos con transferencia (Paga con Tu Banco) | ProntoPaga Docs
+  title: Transferencia (Paga con Tu Banco) | ProntoPaga Docs
   description: >-
     Learn how to create secure bank transfer payments in Chile using the
     Prontopaga API. Includes payment flow, required parameters, webhooks, test
