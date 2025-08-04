@@ -3,7 +3,7 @@ title: Changelog
 deprecated: false
 hidden: false
 metadata:
-  title: ProntoPaga API Changelog
+  title: Changelog | ProntoPaga Docs
   description: >-
     Stay up to date with the latest changes to the ProntoPaga API. Includes
     versioning details, new features, improvements, security updates, and
