@@ -1,10 +1,10 @@
 ---
-title: Transferencia (retiros instantáneos)
+title: Retiros por Transferencia (retiros instantáneos)
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Make an instant bank transfer payout (CCI) in Peru with ProntoPaga '
+  title: Retiros por Transferencia (retiros instantáneos) | ProntoPaga Docs
   description: >-
     To make an instant payout in Peru through ProntoPaga, capture the
     beneficiary's data and send a request to the API with a bearer token and
