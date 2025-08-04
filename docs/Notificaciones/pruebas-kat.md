@@ -5,6 +5,16 @@ hidden: true
 metadata:
   robots: index
 ---
+<Accordion title="My Accordion Title" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+</Accordion>
+
+<br />
+
+<br />
+
 # Opción 1
 
 Se utiliza el mismo texto tanto para payins y payouts, ambos son casi iguales, solo se diferencian por lo siguiente:
