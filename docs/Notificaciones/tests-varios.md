@@ -65,7 +65,7 @@ next:
 ## Menú desplegable
 
 <details>
-  <summary><h2>Requisitos</h2></summary>
+  <h2><summary>Requisitos</summary></h2>
 
   <p>ID del cliente:</p>
 
