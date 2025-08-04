@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Payout details (UID)
+  title: Detalles de un retiro | ProntoPaga Docs
   description: >-
     Endpoint to obtain the details of a payout. The uid identifier must be sent
     in the path.
