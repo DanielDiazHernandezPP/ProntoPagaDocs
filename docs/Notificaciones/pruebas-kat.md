@@ -41,31 +41,25 @@ metadata:
   </div>
 </Accordion>
 
-```html
+<HTMLBlock>{`
 import React, { useState } from 'react';
-
 const AccordionWithImageClick = () => {
   const [showText, setShowText] = useState(false);
-
   const handleImageClick = () => {
     setShowText(!showText); // Cambia el estado (muestra/oculta el texto)
   };
-
   return (
     <Accordion title="Argentina" icon="fa-info-circle">
       Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
       ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
       occaecat cupidatat non proident!
-
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <img
-          src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+        <img          src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
           alt="Argentina Coverage"
           style={{ width: '100%', maxWidth: '500px', height: 'auto', cursor: 'pointer' }}
           onClick={handleImageClick} // Llama a la función al hacer clic
         />
       </div>
-
       {showText && (
         <div style={{ marginTop: '20px', textAlign: 'center' }}>
           <p>¡Haz clic en la imagen para mostrar u ocultar este texto!</p>
@@ -74,10 +68,8 @@ const AccordionWithImageClick = () => {
     </Accordion>
   );
 };
-
 export default AccordionWithImageClick;
-
-```
+`}</HTMLBlock>
 
 <br />
 
