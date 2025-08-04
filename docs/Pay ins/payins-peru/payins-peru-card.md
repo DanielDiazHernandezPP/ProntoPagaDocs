@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Acepta pagos con tarjeta en Perú | ProntoPaga Docs
+  title: Acepta pagos con tarjeta | ProntoPaga Docs
   description: >-
     Create card payments in Peru using Prontopaga’s API with a bearer token and
     secret signature. Enable features such as installments, card reminders, and
