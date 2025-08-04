@@ -8,7 +8,7 @@ hidden: false
 link:
   new_tab: false
 metadata:
-  title: 'Check transaction by date '
+  title: Consultar transacciones por fecha | ProntoPaga Docs
   description: >-
     ProntoPaga allows you to make requests of your transactions through this
     endpoint, in which you can select: Time period (start date and end date),
