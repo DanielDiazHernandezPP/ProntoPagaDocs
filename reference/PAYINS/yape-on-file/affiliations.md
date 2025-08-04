@@ -8,7 +8,7 @@ hidden: false
 link:
   new_tab: false
 metadata:
-  title: Affiliations - One Click Payment and Recurrence
+  title: Afiliaciones - One Click Payment y Recurrencia | ProntoPaga Docs
   description: >-
     This endpoint is used in Peru to create a customer wallet affiliation with
     your business.
