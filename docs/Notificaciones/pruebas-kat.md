@@ -41,7 +41,7 @@ metadata:
   </div>
 </Accordion>
 
-<HTMLBlock>{`
+```html
 import React, { useState } from 'react';
 
 const AccordionWithImageClick = () => {
@@ -76,7 +76,8 @@ const AccordionWithImageClick = () => {
 };
 
 export default AccordionWithImageClick;
-`}</HTMLBlock>
+
+```
 
 <br />
 
