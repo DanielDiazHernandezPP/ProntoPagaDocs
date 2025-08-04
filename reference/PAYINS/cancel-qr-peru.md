@@ -6,7 +6,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Cancel a QR code payment - Peru
+  title: Cancelar un pago con QR - Perú | ProntoPaga Docs
   description: >-
     This page describes an endpoint that allows to cancel a QR payment in Peru
     if it was not made immediately, preventing a customer from using the QR
