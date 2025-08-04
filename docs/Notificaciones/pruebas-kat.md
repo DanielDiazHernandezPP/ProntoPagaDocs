@@ -35,6 +35,34 @@ metadata:
 
 <br />
 
+<Accordion title="Argentina" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+
+  <div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Argentina Coverage" style={{ width: '100%', maxWidth: '500px', height: 'auto', cursor: 'pointer' }} />
+    </a>
+  </div>
+</Accordion>
+
+<br />
+
+<br />
+
+<Accordion title="Argentina" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+
+  <div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Argentina Coverage" style={{ width: '100%', maxWidth: '800px', height: 'auto' }} />
+  </div>
+</Accordion>
+
+<br />
+
 # Opción 1
 
 Se utiliza el mismo texto tanto para payins y payouts, ambos son casi iguales, solo se diferencian por lo siguiente:
