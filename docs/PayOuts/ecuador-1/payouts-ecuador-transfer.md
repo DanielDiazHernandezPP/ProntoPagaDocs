@@ -35,7 +35,7 @@ Hacer un retiro en Ecuador por medio de transferencia bancaria consiste en captu
 
 Transferencia es una forma de retirar fondos en Ecuador mediante transferencias bancarias. Para completar una transacción utilizando este método de retiro, el cliente debe seleccionar la opción "Transferencia Bancaria", ingresar su número de cuenta bancaria, seleccionar el banco, el tipo de cuenta, y confirmar la operación.
 
-El proceso de payout con transferencia en Ecuador consta de cuatro etapas principales:
+El proceso de Payout con transferencia en Ecuador consta de cuatro etapas principales:
 
 <Image align="center" src="https://files.readme.io/e179fa877d2c9653fa04ffd4e76a1a6ddefcc1b2e1ea46d41c1a57dd31d3d8f3-Ecuador-02.jpg" />
 
@@ -50,7 +50,7 @@ El proceso de payout con transferencia en Ecuador consta de cuatro etapas princi
 
 ## Lista de bancos
 
-La lista de códigos bancarios para pay outs de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
+La lista de códigos bancarios para PayOuts de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
 
 ***
 
@@ -106,7 +106,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 ***
 
