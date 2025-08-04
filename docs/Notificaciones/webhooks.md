@@ -27,8 +27,6 @@ next:
 
 ***
 
-<br />
-
 ## Configura un webhook
 
 Para iniciar la configuración de tu webhook, sigue estos pasos:
@@ -38,8 +36,6 @@ Para iniciar la configuración de tu webhook, sigue estos pasos:
 3. Agrega el body en formato JSON.
 
 ***
-
-<br />
 
 ## Agrega la URL a tus transacciones
 
@@ -71,8 +67,6 @@ Ejemplo:
 
 ***
 
-<br />
-
 ## Estructura del webhook
 
 Estos son los posibles parámetros que se pueden entregar en el cuerpo del webhook:
@@ -103,13 +97,9 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 
 ***
 
-<br />
-
 ## Ejemplos
 
 Estos son algunos ejemplos de webhooks que podrías recibir.
-
-<br />
 
 ### Webhook de pay in exitoso - Perú Tarjeta
 
@@ -132,8 +122,6 @@ Estos son algunos ejemplos de webhooks que podrías recibir.
   "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
 } 
 ```
-
-<br />
 
 ### Webhook de pay out exitoso - Perú Cuenta Interbancaria
 
