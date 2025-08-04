@@ -43,7 +43,7 @@ Red Activa / Western Union, BeMovil y PonleMás son redes y plataformas que oper
 
 Luego, debe acudir al punto de atención más cercano con su código de retiro y una identificación válida (cédula nacional, cédula de extranjería o pasaporte). Para conocer el listado de los puntos físicos de retiro, puedes consultarlo [aquí](https://docs.prontopaga.com/docs/physical-points-payouts).
 
-El proceso de payout con efectivo en Ecuador consta de seis etapas principales:
+El proceso de PayOut con efectivo en Ecuador consta de seis etapas principales:
 
 <Image align="center" src="https://files.readme.io/8e05caca6fb699284abb15ec89188e5b6774f796319ab08cf642d6236b711c4c-Ecuador-01.jpg" />
 
@@ -112,7 +112,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 <br />
 
@@ -174,7 +174,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 <br />
 
@@ -236,7 +236,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 <br />
 
