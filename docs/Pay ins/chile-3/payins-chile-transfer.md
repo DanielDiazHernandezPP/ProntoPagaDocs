@@ -1,5 +1,5 @@
 ---
-title: Recibe pagos con transferencia (Paga con Tu Banco)
+title: Pagos con transferencia (Paga con Tu Banco)
 excerpt: ''
 deprecated: false
 hidden: false
