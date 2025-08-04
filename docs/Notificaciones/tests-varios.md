@@ -74,3 +74,18 @@ next:
     <li>RUT</li>
   </ul>
 </details>
+
+<br />
+
+<h2>Requisitos</h2>
+
+<details>
+  <summary>Ver más</summary>
+
+  <p>ID del cliente:</p>
+
+  <ul>
+    <li>DNI</li>
+    <li>RUT</li>
+  </ul>
+</details>
