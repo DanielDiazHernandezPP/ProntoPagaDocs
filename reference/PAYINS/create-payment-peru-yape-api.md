@@ -6,7 +6,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Process a payment - Peru Yape Button
+  title: Procesa un pago - Perú Botón Yape (sin iFrame) | ProntoPaga Docs
   description: >-
     API endpoint for integrating Yape payment button without using an iFrame,
     allowing merchants in Peru to fully control the checkout appearance. It
