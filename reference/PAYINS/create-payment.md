@@ -6,7 +6,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create a new payment '
+  title: Crear un nuevo pago - Chile, Brasil, Ecuador y Perú | ProntoPaga Docs
   description: >-
     Endpoint to create a new payment with ProntoPaga in Brasil, Chile, Ecuador
     and Perú.
