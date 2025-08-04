@@ -1,10 +1,10 @@
 ---
-title: Efectivo
+title: Retiros en Efectivo
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Making cash payouts in Ecuador
+  title: Retiros en Efectivo | ProntoPaga Docs
   description: >-
     The document describes how to make payouts in Ecuador through Payphone,
     Bemovil, and Ponle más using the ProntoPaga API, including capturing
