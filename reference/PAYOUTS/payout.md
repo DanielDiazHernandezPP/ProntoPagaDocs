@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Create a new payout in Chile, Ecuador, and Peru
+  title: Crear un nuevo retiro - Chile, Ecuador y Perú | ProntoPaga Docs
   description: >-
     This endpoint is used to create a new payout using the ProntoPaga API. This
     guide covers required parameters, supported account types by country, the
