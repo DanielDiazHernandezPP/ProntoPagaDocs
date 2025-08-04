@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Create a new payout in Brazil with Pix
+  title: Crear un nuevo retiro - Brasil PIX | ProntoPaga Docs
   description: >-
     This endpoint is used to create a new payout using the ProntoPaga API. This
     guide covers required parameters, the use of bank code, and webhook
