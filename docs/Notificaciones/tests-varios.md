@@ -89,37 +89,3 @@ next:
     <li>RUT</li>
   </ul>
 </details>
-
-<br />
-
-\<details open>
-&#x20; \<summary class="custom-summary">
-&#x20;   \<h2>ID del cliente\</h2>
-&#x20; \</summary>
-&#x20; \<ul>
-&#x20;   \<li>DNI\</li>
-&#x20;   \<li>RUT\</li>
-&#x20; \</ul>
-\</details>
-
-\<style>
-&#x20; summary \{
-&#x20;   cursor: pointer;
-&#x20;   list-style: none;
-&#x20; }
-
-&#x20; .custom-summary h2 \{
-&#x20;   margin: 0; /\* Eliminar margen predeterminado del h2 \*/
-&#x20;   font-size: 1.2em; /\* Puedes ajustar el tamaño \*/
-&#x20;   color: #333; /\* Ajusta el color \*/
-&#x20;   font-weight: normal; /\* Opcional: Cambia el peso de la fuente&#x20;
-
-\*/\
-}
-
-<br />
-
-&#x20; details\[open] summary \{ &#x20;
-&#x20;   font-weight: bold; /\* Resaltar el texto cuando está abierto \*/
-&#x20; }
-\</style>
