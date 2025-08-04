@@ -5,17 +5,15 @@ hidden: true
 metadata:
   robots: index
 ---
+## Pruebas para página de cobertura
+
 <Accordion title="Argentina" icon="fa-info-circle">
   A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
 </Accordion>
 
-<br />
-
 <Accordion title="🇦🇷 Argentina">
   A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
 </Accordion>
-
-<br />
 
 <Accordion title="🇦🇷 Argentina">
   A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
@@ -24,10 +22,6 @@ metadata:
     <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Argentina Coverage" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
   </div>
 </Accordion>
-
-<br />
-
-<br />
 
 <Accordion title="Argentina" icon="fa-info-circle">
   A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
@@ -38,10 +32,6 @@ metadata:
     </a>
   </div>
 </Accordion>
-
-<br />
-
-<br />
 
 <Accordion title="Argentina" icon="fa-info-circle">
   A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
