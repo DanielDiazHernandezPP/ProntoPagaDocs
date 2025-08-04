@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Create a new payout in Ecuador with Red Activa/Western Union
+  title: Crear un nuevo retiro - Ecuador Red Activa/Western Union | ProntoPaga Docs
   description: >-
     This endpoint is used to create a new payout in Ecuador through Red
     Activa/Western Union using the ProntoPaga API. This guide covers required
