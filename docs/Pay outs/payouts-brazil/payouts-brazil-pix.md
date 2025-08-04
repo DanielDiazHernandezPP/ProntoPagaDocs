@@ -1,10 +1,10 @@
 ---
-title: QR/Wallet PIX
+title: Retiros con QR/Wallet PIX
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Create a payout with Pix in Brazil
+  title: Retiros con QR/Wallet PIX | ProntoPaga Docs
   description: >-
     To make a payout in Brazil using PIX, capture the recipient's data and send
     a request through the API. This guide explains the payout flow, required
