@@ -24,7 +24,7 @@ metadata:
 next:
   description: ''
 ---
-Un pay out es una suma de dinero que se le paga a un individuo o entidad. En este sentido, los comercios que se integran con ProntoPaga suelen hacer pay outs para, por ejemplo:
+Un PayOut es una suma de dinero que se le paga a un individuo o entidad. En este sentido, los comercios que se integran con ProntoPaga suelen hacer PayOuts para, por ejemplo:
 
 * Hacer un pago a sus proveedores por productos o servicios.
 * Transferir a sus sub-comercios las ganancias de los productos o servicios que vendieron en determinado tiempo.
