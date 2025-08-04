@@ -80,8 +80,6 @@ next:
 <br />
 
 <h2>
-  Requisitos
-
   <details open>
     <p>ID del cliente:</p>
 
