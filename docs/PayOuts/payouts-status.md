@@ -1,5 +1,5 @@
 ---
-title: Conoce los estados de los pay outs
+title: Conoce los estados de los PayOuts
 excerpt: ''
 deprecated: false
 hidden: false
@@ -22,7 +22,7 @@ metadata:
 next:
   description: ''
 ---
-Estos son los posibles estados que pueden tener los pay outs.
+Estos son los posibles estados que pueden tener los PayOuts.
 
 | Estado   | Descripción                                                                                                              |
 | :------- | :----------------------------------------------------------------------------------------------------------------------- |
