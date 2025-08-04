@@ -23,7 +23,7 @@ metadata:
 next:
   description: ''
 ---
-**Configurar un webhook para tus transacciones** te ayudará a conocer el estado de tus pay ins y pay outs. Estos callbacks te notificarán cuando ocurra un cambio de estado en cierta transacción.
+**Configurar un webhook para tus transacciones** te ayudará a conocer el estado de tus PayIns y PayOuts. Estos callbacks te notificarán cuando ocurra un cambio de estado en cierta transacción.
 
 ***
 
@@ -39,7 +39,7 @@ Para iniciar la configuración de tu webhook, sigue estos pasos:
 
 ## Agrega la URL a tus transacciones
 
-Para vincular tu webhook con la transacción deseada, **agrega la URL del endpoint que creaste en el parámetro indicado del body de la transacción**, que sería`urlConfirmation` en el caso de pay ins, o `confirmationURL` en pay outs.
+Para vincular tu webhook con la transacción deseada, **agrega la URL del endpoint que creaste en el parámetro indicado del body de la transacción**, que sería`urlConfirmation` en el caso de PayIns, o `confirmationURL` en PayOuts.
 
 Ejemplo:
 
@@ -63,7 +63,7 @@ Ejemplo:
 
 > 📘 Estados de las transacciones
 >
-> Conoce los posibles estados de los pay ins en [este enlace](https://docs.prontopaga.com/docs/payins-status). Los estados de los pay outs, los puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/payouts-status).
+> Conoce los posibles estados de los PayIns en [este enlace](https://docs.prontopaga.com/docs/payins-status). Los estados de los PayOuts, los puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/payouts-status).
 
 ***
 
@@ -101,7 +101,7 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 
 Estos son algunos ejemplos de webhooks que podrías recibir.
 
-### Webhook de pay in exitoso - Perú Tarjeta
+### Webhook de PayIn exitoso - Perú Tarjeta
 
 ```json
 { 
@@ -123,7 +123,7 @@ Estos son algunos ejemplos de webhooks que podrías recibir.
 } 
 ```
 
-### Webhook de pay out exitoso - Perú Cuenta Interbancaria
+### Webhook de PayOut exitoso - Perú Cuenta Interbancaria
 
 ```json
 {      
