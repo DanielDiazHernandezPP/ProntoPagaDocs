@@ -1,10 +1,10 @@
 ---
-title: Wallet
+title: Recibe pagos con Wallet
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Recibe pagos con Wallet en Perú | ProntoPaga Docs
+  title: Recibe pagos con Wallet | ProntoPaga Docs
   description: >-
     ProntoPaga offers multiple wallet-based payment options for your business
     using Yape, including Yape Button, Yape One Shot, Yape On File, and One
