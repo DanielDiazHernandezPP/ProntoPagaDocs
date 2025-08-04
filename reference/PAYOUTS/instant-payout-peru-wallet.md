@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create a payout to a wallet Peru '
+  title: Crear un nuevo retiro a wallet - Perú | ProntoPaga Docs
   description: >-
     Use this endpoint to make an instant payout from your business to a wallet
     in Peru. This guide explains the required parameters, how to use the
