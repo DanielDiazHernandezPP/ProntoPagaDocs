@@ -1,10 +1,10 @@
 ---
-title: Crea pagos con Botón Yape v1
+title: Botón Yape v1
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Crea pagos con Botón Yape v1 | ProntoPaga Docs
+  title: Botón Yape v1 | ProntoPaga Docs
   description: >-
     Integrate secure wallet payments in Peru using ProntoPaga’s API and the Yape
     app. Capture customer data, authenticate with bearer token and secretKey,
