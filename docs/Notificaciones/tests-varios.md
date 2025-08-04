@@ -64,13 +64,13 @@ next:
 
 ## Menú desplegable
 
-<details>
-  <h2><summary>Requisitos</summary></h2>
+\<h2>\<details>\</h2>
+&#x20; \<summary>Requisitos\</summary>
 
-  <p>ID del cliente:</p>
+&#x20; \<p>ID del cliente:\</p>
 
-  <ul>
-    <li>DNI</li>
-    <li>RUT</li>
-  </ul>
-</details>
+&#x20; \<ul>
+&#x20;   \<li>DNI\</li>
+&#x20;   \<li>RUT\</li>
+&#x20; \</ul>
+\</details>
