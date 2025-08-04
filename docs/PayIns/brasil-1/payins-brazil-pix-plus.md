@@ -48,8 +48,6 @@ El proceso de pago con PIX+ (Open Finance) consta de seis etapas principales:
 5. **Captura.** El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
 6. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
-***
-
 <br />
 
 ### Crea un nuevo pago
@@ -133,8 +131,6 @@ Estos son algunos puntos importantes a tomar en cuenta, antes de finalizar tu in
 ## PIX+ v2
 
 Crear un pago en Brasil con PIX+ v2 consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura. Además, implica seleccionar y enviar la institución bancaria de pago del cliente.
-
-***
 
 <br />
 
