@@ -1,10 +1,10 @@
 ---
-title: Tarjeta (Payphone)
+title: Acepta pagos con Tarjeta (Payphone)
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Integrate card payments in Ecuador with Payphone
+  title: Acepta pagos con Tarjeta (Payphone) | ProntoPaga Docs
   description: >-
     Guide to create a secure card payment in Ecuador using Payphone, involving
     data capture, API requests with authentication, and transaction
