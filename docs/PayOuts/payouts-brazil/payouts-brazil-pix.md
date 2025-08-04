@@ -35,7 +35,7 @@ Hacer un retiro en Brasil por medio de PIX consiste en capturar los datos necesa
 
 PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como, transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de retiro, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil y registrarse en el sistema PIX.
 
-El proceso de payout con QR/Wallet PIX consta de cinco etapas principales:
+El proceso de PayOut con QR/Wallet PIX consta de cinco etapas principales:
 
 <Image align="center" src="https://files.readme.io/8ca29e682667c63a0323926a1ed2216aaec0c665ead429c0f8e043d59b45e92b-Pipx-01.jpg" />
 
@@ -102,7 +102,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 ***
 
