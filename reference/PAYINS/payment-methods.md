@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Payment methods ProntoPaga
+  title: Métodos de pago | ProntoPaga Docs
   description: >-
     Endpoint to know the payment methods associated with your company in
     ProntoPaga.
