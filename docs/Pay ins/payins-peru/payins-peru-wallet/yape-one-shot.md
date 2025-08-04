@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'Crea pagos con Botón Yape: One Shot | ProntoPaga Docs'
+  title: 'Botón Yape: One Shot | ProntoPaga Docs'
   description: >-
     Yape One Shot is a new Yape feature that enables fast, one-time payments
     without the need to enter banking details, making online purchases
