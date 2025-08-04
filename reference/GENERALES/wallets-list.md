@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: List of wallets Peru
+  title: Lista de wallets - Perú | ProntoPaga Docs
   description: >-
     Endpoint to obtain the available wallets. You can get the total list or the
     wallets associated to a certain phone number.
