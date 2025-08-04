@@ -42,33 +42,80 @@ metadata:
 </Accordion>
 
 <HTMLBlock>{`
-import React, { useState } from 'react';
-const AccordionWithImageClick = () => {
-  const [showText, setShowText] = useState(false);
-  const handleImageClick = () => {
-    setShowText(!showText); // Cambia el estado (muestra/oculta el texto)
-  };
-  return (
-    <Accordion title="Argentina" icon="fa-info-circle">
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-      occaecat cupidatat non proident!
-      <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <img          src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acordeón con Imagen Clickeable</title>
+  <style>
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      cursor: pointer;
+      transition: border 0.3s ease;
+    }
+
+    .image-container img.clicked {
+      border: 5px solid #007bff; /* Cambia el borde al hacer clic */
+    }
+
+    .hidden-text {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .hidden-text.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h2>Argentina</h2>
+    <div class="accordion-content">
+      Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint occaecat cupidatat non proident!
+
+      <div class="image-container">
+        <img 
+          src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
           alt="Argentina Coverage"
-          style={{ width: '100%', maxWidth: '500px', height: 'auto', cursor: 'pointer' }}
-          onClick={handleImageClick} // Llama a la función al hacer clic
+          onclick="toggleImageClick()"
         />
       </div>
-      {showText && (
-        <div style={{ marginTop: '20px', textAlign: 'center' }}>
-          <p>¡Haz clic en la imagen para mostrar u ocultar este texto!</p>
-        </div>
-      )}
-    </Accordion>
-  );
-};
-export default AccordionWithImageClick;
+
+      <div id="additionalText" class="hidden-text">
+        <p>¡Haz clic en la imagen para mostrar u ocultar este texto adicional!</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let clicked = false;
+
+    function toggleImageClick() {
+      const img = document.querySelector('.image-container img');
+      const text = document.getElementById('additionalText');
+
+      // Cambiar el estado de la imagen (añadir/quitar la clase "clicked")
+      clicked = !clicked;
+      img.classList.toggle('clicked', clicked);
+
+      // Mostrar u ocultar el texto
+      text.classList.toggle('show', clicked);
+    }
+  </script>
+
+</body>
+</html>
 `}</HTMLBlock>
 
 <br />
