@@ -22,7 +22,7 @@ metadata:
 next:
   description: ''
 ---
-Los tipos de rechazos posibles para pay ins varían dependiendo del país y del método de pago utilizado. A continuación, se describen los más comunes.
+Los tipos de rechazos posibles para PayIns varían dependiendo del país y del método de pago utilizado. A continuación, se describen los más comunes.
 
 <br />
 
