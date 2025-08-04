@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Payment details (order)
+  title: Detalles de un pago (order) | ProntoPaga Docs
   description: >-
     Endpoint to obtain details of a payment using the payment identifier, where
     the order field must be included in the path.
