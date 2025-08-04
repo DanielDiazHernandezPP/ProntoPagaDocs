@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Details of affiliation
+  title: Detalles de una afiliación | ProntoPaga Docs
   description: >-
     This endpoint is used in Peru to get details of your business's
     affiliations. 
