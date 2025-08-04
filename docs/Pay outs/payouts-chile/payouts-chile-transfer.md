@@ -1,10 +1,10 @@
 ---
-title: Transferencia
+title: Retiros por Transferencia
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Make a payout via bank transfer in Chile
+  title: Retiros por Transferencia | ProntoPaga Docs
   description: >-
     To make a payout in Chile via bank transfer, capture the recipient's
     information and send a request via the API. This guide explains the
