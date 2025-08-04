@@ -32,7 +32,7 @@ Hacer un retiro a una wallet en Ecuador consiste en capturar los datos necesario
 
 Payphone es una billetera digital ecuatoriana que permite recibir pagos, administrar dinero y realizar transacciones desde el celular. Para completar una transacción utilizando este método de retiro, el cliente debe seleccionar la opción "Retiro con Payphone", ingresar su número de teléfono registrado con la cuenta y confirmar la operación.
 
-El proceso de payout con Wallet Payphone consta de cuatro etapas principales:
+El proceso de PayOut con Wallet Payphone consta de cuatro etapas principales:
 
 <Image align="center" src="https://files.readme.io/48d4a30ebbdf1146be448659c39934c68d582a110dbe367a3eef6d9f51cbb84b-Ecuador-03.jpg" />
 
@@ -92,7 +92,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 ***
 
