@@ -1,10 +1,10 @@
 ---
-title: Transferencia (Paga con Tu Banco)
+title: Recibe pagos con transferencia (Paga con Tu Banco)
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Create Bank Transfer Payments in Chile
+  title: Recibe pagos con transferencia (Paga con Tu Banco) | ProntoPaga Docs
   description: >-
     Learn how to create secure bank transfer payments in Chile using the
     Prontopaga API. Includes payment flow, required parameters, webhooks, test
