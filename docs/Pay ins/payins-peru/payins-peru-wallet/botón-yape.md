@@ -1,5 +1,5 @@
 ---
-title: Botón Yape v1
+title: Crea pagos con Botón Yape v1
 excerpt: ''
 deprecated: false
 hidden: false
