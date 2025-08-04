@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Payment details (UID)
+  title: Detalles de un pago (UID) | ProntoPaga Docs
   description: >-
     Endpoint to obtain the details of a payment. The uid identifier must be sent
     in the path.
