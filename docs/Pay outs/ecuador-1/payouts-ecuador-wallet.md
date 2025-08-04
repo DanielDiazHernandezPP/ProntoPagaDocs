@@ -1,10 +1,10 @@
 ---
-title: Wallet Payphone
+title: Retiros con Wallet Payphone
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Make a wallet payout in Ecuador
+  title: Retiros con Wallet Payphone | ProntoPaga Docs
   description: >-
     Learn how to create a payout to a digital wallet in Ecuador using the
     Prontopaga API. This guide covers recipient data capture, authentication
