@@ -39,7 +39,7 @@ A continuación, puedes encontrar información detallada de cómo hacer retiros 
 
 Wallet (retiros instantáneos) es un método digital utilizado en Perú que permite retirar fondos desde una aplicación de billetera digital en el celular. Para utilizar este método, el cliente debe seleccionar la opción "Billetera digital", tener una cuenta activa en una billetera compatible, ingresar su número de teléfono, seleccionar la billetera y confirmar la operación. Para conocer el listado de billeteras disponibles, puedes consultarlo [aquí](https://docs.prontopaga.com/docs/instant-payout-wallet#wallets-disponibles).
 
-El proceso de payout con wallet en Perú consta de cuatro etapas principales:
+El proceso de PayOut con wallet en Perú consta de cuatro etapas principales:
 
 <Image align="center" src="https://files.readme.io/150951e1035b2d433aa2f6ee32afcbffa29cb598f966cb725da2ece36d368bfe-Peru-02.jpg" />
 
@@ -54,7 +54,7 @@ El proceso de payout con wallet en Perú consta de cuatro etapas principales:
 
 ## Wallets disponibles
 
-Este es la lista completa de las wallets disponibles para hacer pay outs con ProntoPaga en Perú:
+Este es la lista completa de las wallets disponibles para hacer PayOuts con ProntoPaga en Perú:
 
 | Marca                           | Valor        |
 | :------------------------------ | :----------- |
@@ -233,7 +233,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 <br />
 
