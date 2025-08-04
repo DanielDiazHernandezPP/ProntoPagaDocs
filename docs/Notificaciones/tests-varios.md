@@ -79,12 +79,13 @@ next:
 
 <br />
 
-\<h2>
-&#x20; \<details open>
-&#x20;   \<p>ID del cliente:\</p>
-\</h2>
-&#x20;   \<ul>
-&#x20;     \<li>DNI\</li>
-&#x20;     \<li>RUT\</li>
-&#x20;   \</ul>
-&#x20; \</details>
+<br />
+
+<details open>
+  <summary><h2>ID del cliente</h2></summary>
+
+  <ul>
+    <li>DNI</li>
+    <li>RUT</li>
+  </ul>
+</details>
