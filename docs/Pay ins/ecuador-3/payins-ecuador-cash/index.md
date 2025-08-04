@@ -1,10 +1,10 @@
 ---
-title: Efectivo
+title: Acepta pagos en efectivo
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Process cash payments in Ecuador
+  title: Acepta pagos en efectivo | ProntoPaga Docs
   description: >-
     Learn how to accept or process cash payments in Ecuador using the Prontopaga
     API. This guide includes payment flow, API request format, test data, and
