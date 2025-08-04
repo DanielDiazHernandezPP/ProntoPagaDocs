@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: 'Refund a payment '
+  title: Devolución de un pago | ProntoPaga Docs
   description: Endpoint to refund payments with ProntoPaga.
   image: >-
     https://files.readme.io/8ad86258e65f9cb3b9ff72521a49dab4c1babd0254a641d9151edfe49108e884-Prontopaga_logotipo.png
