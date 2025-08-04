@@ -1,10 +1,10 @@
 ---
-title: Puntos físicos de retiro
+title: Conoce los puntos físicos de retiro
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Cash payouts at physical locations in Ecuador
+  title: Conoce los puntos físicos de retiro | ProntoPaga Docs
   description: >-
     Customers in Ecuador can payout cash at physical locations of Red
     Activa/Western Union, Ponle más, and Bemovil, with specific limits and
