@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create a new payment Brazil '
+  title: Crear un nuevo pago - Brasil Pix+ v2 | ProntoPaga Docs
   description: >-
     Endpoint to create a new payment in Brazil PIX + (Open Finance) with
     ProntoPaga.
