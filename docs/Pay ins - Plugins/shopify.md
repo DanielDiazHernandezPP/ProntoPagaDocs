@@ -1,10 +1,10 @@
 ---
-title: Shopify
+title: Instala y configura el plugin de Shopify
 excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
+  title: Instala y configura el plugin de Shopify | ProntoPaga Docs
   description: ''
   keywords:
     - shopify plugin
