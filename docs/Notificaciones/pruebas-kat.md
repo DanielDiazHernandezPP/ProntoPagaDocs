@@ -13,10 +13,22 @@ metadata:
 
 <br />
 
-<Accordion title="Argentina" icon={<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Argentina Flag" width="20" height="12" />}>
+<Accordion title="🇦🇷 Argentina">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
+</Accordion>
+
+<br />
+
+<Accordion title="🇦🇷 Argentina">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+
+  <div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Argentina Coverage" style={{ width: '100%', maxWidth: '500px', height: 'auto' }} />
+  </div>
 </Accordion>
 
 <br />
