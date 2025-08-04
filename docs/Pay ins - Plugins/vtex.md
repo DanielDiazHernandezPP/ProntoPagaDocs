@@ -1,5 +1,5 @@
 ---
-title: VTEX
+title: Instala y configura el plugin de VTEX
 excerpt: ''
 deprecated: false
 hidden: false
