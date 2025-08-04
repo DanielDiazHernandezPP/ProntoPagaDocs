@@ -1,5 +1,5 @@
 ---
-title: Acepta pagos en efectivo
+title: Recibe pagos en efectivo
 excerpt: ''
 deprecated: false
 hidden: false
