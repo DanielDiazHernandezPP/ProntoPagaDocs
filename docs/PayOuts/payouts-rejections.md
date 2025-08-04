@@ -24,7 +24,7 @@ metadata:
 next:
   description: ''
 ---
-A continuación se describen todos los posibles tipos de rechazos para pay outs. El número corresponde al número que se devuelve en el campo `errorCode` del rechazo.
+A continuación se describen todos los posibles tipos de rechazos para PayOuts. El número corresponde al número que se devuelve en el campo `errorCode` del rechazo.
 
 > 👍 Números de error
 >
@@ -143,7 +143,7 @@ La información enviada no pudo ser verificada, es inválida. O bien, hay campos
 
 ### 24 - Numero de cuenta inválido
 
-Se realizó una validación y el número de cuenta ingresado para hacer el payout, no corresponde a los datos del usuario. Es un retiro a terceros, no válido.
+Se realizó una validación y el número de cuenta ingresado para hacer el PayOut, no corresponde a los datos del usuario. Es un retiro a terceros, no válido.
 
 ```json
 {
@@ -222,7 +222,7 @@ La cuenta tiene una restricción de abono (crédito).
 
 ### 8 - Banco en mantenimiento
 
-El banco al que será enviado el pay out se encuentra en pausa de actividades por mantenimiento.
+El banco al que será enviado el PayOut se encuentra en pausa de actividades por mantenimiento.
 
 ```json
 {
@@ -271,7 +271,7 @@ La cuenta de RUT tiene dígito verificador.
 
 ### 11 - InstantPayouts no disponibles
 
-El servicio de pay outs instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente.
+El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente.
 
 ```json
 {
@@ -286,7 +286,7 @@ El servicio de pay outs instantáneos no está disponible por el momento, por lo
 
 ### 12 - Banco no disponible (en InstantPayouts)
 
-En una solicitud de pay outs instantáneo, el banco de destino no está disponible.
+En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.
 
 ```json
 {
@@ -316,7 +316,7 @@ Ocurrió un error interno inesperado. Por favor reintente nuevamente.
 
 ### 20 - Wallet no encontrada
 
-El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el pay out.
+El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.
 
 ```json
 {
@@ -365,7 +365,7 @@ La solicitud fue declinada por el servidor.
 
 ### 19 - CPF no coincide con los datos
 
-El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el pay out. No es posible hacer pay outs a terceros.
+El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros.
 
 ```json
 {
