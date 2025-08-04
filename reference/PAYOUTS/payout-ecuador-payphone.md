@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: 'Create a new payout in Ecuador with Payphone '
+  title: Crear un nuevo retiro - Ecuador Payphone | ProntoPaga Docs
   description: >-
     This endpoint is used to create a new payout in Ecuador through Payphone
     using the ProntoPaga API. This guide covers required parameters, the use of
