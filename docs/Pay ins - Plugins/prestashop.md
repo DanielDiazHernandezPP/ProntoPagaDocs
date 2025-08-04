@@ -1,5 +1,5 @@
 ---
-title: PrestaShop
+title: Instala y configura el plugin de Prestashop
 excerpt: ''
 deprecated: false
 hidden: false
