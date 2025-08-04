@@ -1,5 +1,5 @@
 ---
-title: Acepta pagos con Wallet
+title: Acepta pagos con wallet
 excerpt: ''
 deprecated: false
 hidden: false
