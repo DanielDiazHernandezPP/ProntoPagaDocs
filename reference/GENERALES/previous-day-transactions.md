@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Transactions from the previous day
+  title: Transacciones día anterior | ProntoPaga Docs
   description: >-
     With this endpoint you will be able to visualize the previous day's
     transactions, to keep a clear flow of past transactions.
