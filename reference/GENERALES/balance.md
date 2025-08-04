@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: ProntoPaga Available Balance
+  title: Balance | ProntoPaga Docs
   description: >-
     Endpoint to obtain the available balance of the merchants enabled in our
     account. It shows the total balance of all the merchants in Net, Deferred
