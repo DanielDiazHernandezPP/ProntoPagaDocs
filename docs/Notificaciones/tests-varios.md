@@ -77,15 +77,17 @@ next:
 
 <br />
 
-<h2>Requisitos</h2>
+<br />
 
-<details>
-  <summary>Ver más</summary>
+<h2>
+  Requisitos
 
-  <p>ID del cliente:</p>
+  <details open>
+    <p>ID del cliente:</p>
 
-  <ul>
-    <li>DNI</li>
-    <li>RUT</li>
-  </ul>
-</details>
+    <ul>
+      <li>DNI</li>
+      <li>RUT</li>
+    </ul>
+  </details>
+</h2>
