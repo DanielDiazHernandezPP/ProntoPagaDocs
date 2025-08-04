@@ -107,12 +107,12 @@ Un método de retiro es una forma específica en la que un cliente puede elegir 
 
 <br />
 
-### 3.3. Pay ins y Pay outs
+### 3.3. PayIns y PayOuts
 
-Anteriormente hablamos de pagos y retiros. Pero los términos de pay ins y pay outs también suelen ser muy utilizados en el mundo de los pagos:
+Anteriormente hablamos de pagos y retiros. Pero los términos de PayIns y PayOuts también suelen ser muy utilizados en el mundo de los pagos:
 
-* **Pay in**: Es el proceso mediante el cual un cliente envía dinero a tu plataforma o negocio. Un ejemplo común, sería el pago que hace un cliente al comprar un producto o servicio en línea.
-* **Pay out**: Se refiere al proceso de transferir dinero desde tu plataforma o negocio a tus clientes o proveedores. Un ejemplo de esto es el pago a un vendedor en un marketplace. Otro ejemplo sería el retiro de fondos por parte de un cliente.
+* **PayIn**: Es el proceso mediante el cual un cliente envía dinero a tu plataforma o negocio. Un ejemplo común, sería el pago que hace un cliente al comprar un producto o servicio en línea.
+* **PayOut**: Se refiere al proceso de transferir dinero desde tu plataforma o negocio a tus clientes o proveedores. Un ejemplo de esto es el pago a un vendedor en un marketplace. Otro ejemplo sería el retiro de fondos por parte de un cliente.
 
 ***
 
