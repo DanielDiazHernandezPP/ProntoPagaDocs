@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: 'How to use our documentation? '
+  title: Cómo usar nuestra documentación | ProntoPaga Docs
   description: >-
     The ProntoPaga Quick Guide describes the structure of its technical
     documentation, which includes tabs for Integration Guides, Recipes, API
