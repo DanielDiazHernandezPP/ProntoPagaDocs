@@ -42,7 +42,7 @@ A continuación, puedes encontrar información detallada de cómo hacer retiros 
 
 Transferencia (Retiros Instantáneos) es una forma de retirar fondos en Perú mediante transferencias entre cuentas bancarias e interbancarias. Para completar una transacción con este método, el cliente debe seleccionar la opción "Transferencia bancaria", ingresar su número de cuenta bancaria, CCI, el tipo de cuenta, seleccionar el banco, y confirmar la operación.
 
-El proceso de payout con transferencia (retiros instantáneos) en Perú consta de cuatro etapas principales:
+El proceso de PayOut con transferencia (retiros instantáneos) en Perú consta de cuatro etapas principales:
 
 <Image align="center" src="https://files.readme.io/149a54f4d90599dd421fbd4e89786257bb12ae426173ca0bf8852615248dfa92-Peru-01.jpg" />
 
@@ -57,7 +57,7 @@ El proceso de payout con transferencia (retiros instantáneos) en Perú consta d
 
 ## Lista de bancos
 
-La lista de códigos bancarios para pay outs de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
+La lista de códigos bancarios para PayOuts de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
 
 ***
 
@@ -184,7 +184,7 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los pay outs](https://docs.prontopaga.com/docs/payouts-status).
+Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
 <br />
 
