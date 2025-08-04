@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Cancel an affiliation via API
+  title: Cancelar una afiliación | ProntoPaga Docs
   description: >-
     This endpoint is used to cancel a Yape customer affiliation using the
     ProntoPaga API. This process disables automatic charges to the customer’s
