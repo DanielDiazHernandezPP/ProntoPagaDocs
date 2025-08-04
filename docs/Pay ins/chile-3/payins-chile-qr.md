@@ -1,10 +1,10 @@
 ---
-title: QR
+title: Recibe pagos con QR
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Create payments in Chile with QR
+  title: Recibe pagos con QR | ProntoPaga Docs
   description: >-
     Learn how to create QR payments in Chile using the Prontopaga API. Includes
     payment flow, API request, test data, and webhook confirmation process.
