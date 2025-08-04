@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Integrate bank transfers in Ecuador
+  title: Transferencia (Paga con Tu Banco) | ProntoPaga Docs
   description: >-
     Learn how to create secure bank transfer payments in Ecuador using the
     Prontopaga API. Includes payment flow, required parameters, webhooks, test
