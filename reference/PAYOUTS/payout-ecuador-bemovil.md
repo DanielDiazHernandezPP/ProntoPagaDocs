@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Create a new payout in Ecuador with Bemovil
+  title: Crear un nuevo retiro - Ecuador Bemovil | ProntoPaga Docs
   description: >-
     This endpoint is used to create a new payout in Ecuador through Bemovil
     using the ProntoPaga API. This guide covers required parameters, the use of
