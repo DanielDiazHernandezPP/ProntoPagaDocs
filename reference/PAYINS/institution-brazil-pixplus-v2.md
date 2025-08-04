@@ -7,7 +7,7 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Payment institution selection Brazil Pix+ v2
+  title: Selección de institución de pago Brasil Pix+ v2 | ProntoPaga Docs
   description: >-
     Once the customer makes a request to create a new payment with Brasil Pix+
     and selects the bank, they must send the ID of the institution and the UID
