@@ -1,6 +1,6 @@
 ---
-title: exam
-excerpt: ''
+title: Cobertura por país
+excerpt: Conoce la cobertura por país donde ProntoPaga tiene presencia.
 deprecated: false
 hidden: true
 metadata:
@@ -10,16 +10,52 @@ metadata:
 next:
   description: ''
 ---
-<Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+En este artículo, podrás revisar la cobertura que tenemos actualmente en los diversos países en los que operamos.
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  </Tab>
+Puedes encontrar la cobertura en:
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+* 🇧🇷 [Brasil](https://docs.prontopaga.com/docs/exam#-brasil)
+* 🇨🇱 Chile
+* 🇪🇨 Ecuador
+* 🇵🇪 Perú
+
+***
+
+## 🇧🇷 Brasil
+
+<details style={{ border: 'none' }}>
+  <summary
+    style={{
+      cursor: 'pointer',
+      padding: '10px 0',
+      background: 'none',
+      border: 'none',
+      outline: 'none',
+      fontSize: '20px',
+      listStyle: 'none'
+    }}
+  >
+    Conoce la cobertura en Brasil
+  </summary>
+
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+
+  <div style={{ textAlign: 'center' }}>
+    <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
+      <img
+        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+        alt="Brasil Coverage"
+        style={{
+          width: '80%',
+          maxWidth: '1000px',
+          height: 'auto',
+          transition: 'all 0.3s ease'
+        }}
+        onMouseOver={(e) => (e.target.style.width = '100%')}
+        onMouseOut={(e) => (e.target.style.width = '80%')}
+      />
+    </a>
+  </div>
+</details>
+
+***
