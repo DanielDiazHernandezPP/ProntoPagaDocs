@@ -74,3 +74,28 @@ Consulta en [este enlace](www.la.com)
 </body>
 </html>
 `}</HTMLBlock>
+
+<br />
+
+<table>
+  <tr>
+    <th>Producto</th>
+    <th>Imagen</th>
+  </tr>
+
+  <tr>
+    <td>Zapatos</td>
+
+    <td>
+      <img src="https://via.placeholder.com/100" alt="Zapatos" />
+    </td>
+  </tr>
+
+  <tr>
+    <td>Camiseta</td>
+
+    <td>
+      <img src="https://via.placeholder.com/100" alt="Camiseta" />
+    </td>
+  </tr>
+</table>
