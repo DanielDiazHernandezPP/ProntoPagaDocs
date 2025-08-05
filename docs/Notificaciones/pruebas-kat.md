@@ -81,6 +81,8 @@ metadata:
       h
 `}</HTMLBlock>
 
+prueba 2
+
 <HTMLBlock>{`
 <Shelf classname="platform_shelf">
   <YunoCard title="Web" href="/docs/full-checkout-sdk" />
@@ -93,7 +95,7 @@ metadata:
 </Shelf>
 `}</HTMLBlock>
 
-<br />
+prueba 3
 
 <HTMLBlock>{`
 <!DOCTYPE html>
