@@ -149,7 +149,7 @@ Puedes encontrar la cobertura en:
 
 ## 🇧🇷 Brasil
 
-<Accordion title="🇧🇷 Brasil">
+<Accordion title="Conoce la cobertura en Brasil">
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
   <div style={{ textAlign: 'center' }}>
