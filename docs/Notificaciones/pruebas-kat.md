@@ -298,7 +298,7 @@ prueba 2
 
 <br />
 
-<h3>🇧🇷 Brasil</h3>
+<h1>🇧🇷 Brasil</h1>
 
 <details style={{ border: 'none' }}>
   <summary
@@ -312,7 +312,7 @@ prueba 2
       listStyle: 'none'
     }}
   >
-    Expandir para más detalles
+    Haz clic para conocer la cobertura en Brasil
   </summary>
 
   <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
