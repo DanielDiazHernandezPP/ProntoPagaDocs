@@ -53,6 +53,55 @@ metadata:
   </div>
 </Accordion>
 
+<HTMLBlock>{`
+import React, { useState } from "react";
+
+function Accordion() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleAccordion = () => setIsOpen(!isOpen);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  return (
+    <div>
+      <div onClick={toggleAccordion} style={{ backgroundColor: "#FC2B5F", color: "white", padding: "10px 20px", cursor: "pointer", fontSize: "1.5rem", fontWeight: "bold", borderRadius: "5px" }}>
+        🇧🇷 Brasil
+      </div>
+      {isOpen && (
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
+          <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+          <img
+            src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+            alt="Brasil Coverage"
+            style={{ width: '100%', maxWidth: '800px', height: 'auto', cursor: "pointer" }}
+            onClick={openModal}
+          />
+        </div>
+      )}
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, backgroundColor: "rgba(0, 0, 0, 0.5)", display: "flex", justifyContent: "center", alignItems: "center", zIndex: 999 }}>
+          <div style={{ backgroundColor: "white", padding: "20px" }}>
+            <img
+              src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+              alt="Brasil Coverage Expanded"
+              style={{ width: '100%', maxWidth: '800px', height: 'auto' }}
+            />
+            <br />
+            <button onClick={closeModal} style={{ marginTop: "10px", padding: "10px", backgroundColor: "#FC2B5F", color: "white", border: "none", cursor: "pointer", borderRadius: "5px" }}>Cerrar</button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default Accordion;
+`}</HTMLBlock>
+
 <br />
 
 prueba 2
