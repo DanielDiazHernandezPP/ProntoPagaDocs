@@ -45,10 +45,9 @@ prueba 2
 
 prueba 3
 
-# prueba 2
+# prueba
 
 <HTMLBlock>{`
-<HTMLBlock>{\`
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -86,7 +85,6 @@ prueba 3
       top: 0;
       width: 100%;
       h
-\`}</HTMLBlock>
 `}</HTMLBlock>
 
 <br />
