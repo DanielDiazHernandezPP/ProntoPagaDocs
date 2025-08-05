@@ -91,7 +91,7 @@ next:
 
   <!-- Acordeón de Brasil -->
   <details>
-    <summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px;">🇧🇷 Brasil</summary>
+    <summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px;"><h2>🇧🇷 Brasil</h2></summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
 
     <!-- Imagen clickeable -->
