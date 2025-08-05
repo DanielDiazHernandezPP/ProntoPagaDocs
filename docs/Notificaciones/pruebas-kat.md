@@ -257,7 +257,7 @@ prueba 2
 </details>
 `}</HTMLBlock>
 
-<br />
+2
 
 <details style={{ border: 'none' }}>
   <summary
