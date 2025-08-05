@@ -81,6 +81,18 @@ metadata:
       h
 `}</HTMLBlock>
 
+<HTMLBlock>{`
+<Shelf classname="platform_shelf">
+  <YunoCard title="Web" href="/docs/full-checkout-sdk" />
+
+  <YunoCard title="iOS" href="/docs/full-checkout-ios" />
+
+  <YunoCard title="Android" href="/docs/full-checkout-android" />
+
+  <YunoCard title="Flutter" href="/docs/full-sdk-flutter" />
+</Shelf>
+`}</HTMLBlock>
+
 <br />
 
 <HTMLBlock>{`
