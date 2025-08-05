@@ -91,31 +91,32 @@ division
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acordeón con Imagen Expandible</title>
   <style>
-    /* Estilo para mantener el título en una sola línea */
-    .accordion-title {
-      display: inline-block;
-      font-size: 1.5rem;
-      font-weight: bold;
-      padding: 8px 12px;
-      background-color: #FC2B5F; /* Fondo rosado */
-      color: white; /* Color de texto blanco */
-      border-radius: 5px;
-      margin: 0;
-    }
-
+    /* Estilo para que el fondo sea un solo bloque */
     summary {
       cursor: pointer;
-      padding: 10px;
       display: flex;
       align-items: center;
-      background-color: #007bff;
-      color: white;
+      background-color: #FC2B5F; /* Fondo rosado */
+      color: white; /* Color del texto blanco */
+      padding: 10px 20px; /* Ajusta el tamaño del recuadro */
       border-radius: 5px;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
 
-    /* Asegurarse de que el acordeón no cambie de tamaño */
+    /* El acordeón y contenido */
     details {
       margin-bottom: 10px;
+    }
+
+    /* Imagen */
+    img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      cursor: pointer;
+      display: block;
+      margin: 20px auto;
     }
   </style>
 </head>
@@ -124,17 +125,16 @@ division
   <!-- Acordeón de Brasil -->
   <details>
     <summary>
-      <!-- Título en h2 con fondo en color #FC2B5F -->
-      <h2 class="accordion-title" style="margin: 0;">🇧🇷 Brasil</h2>
+      <!-- El emoji + el texto "Brasil" están dentro del mismo fondo rosado -->
+      🇧🇷 Brasil
     </summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
 
     <!-- Imagen clickeable con alt="Brasil Coverage" -->
-    <div style="text-align: center; margin-top: 20px;">
+    <div style="text-align: center;">
       <img 
         src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
-        alt="Brasil Coverage" 
-        style="width: 100%; max-width: 800px; height: auto; cursor: pointer;" />
+        alt="Brasil Coverage" />
     </div>
   </details>
 
