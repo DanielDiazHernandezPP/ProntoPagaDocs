@@ -240,7 +240,7 @@ prueba 2
 <HTMLBlock>{`
 <details style="border: none;">
   <summary style="cursor: pointer; padding: 10px 0; background: none; border: none; outline: none; font-size: 20px; list-style: none;">
-    <h2>🇧🇷 Brasil</h2>
+    <h1>🇧🇷 Brasil</h1>
   </summary>
 
   <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
