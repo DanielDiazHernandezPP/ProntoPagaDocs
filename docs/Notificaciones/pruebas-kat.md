@@ -173,24 +173,27 @@ prueba 2
       h
 `}</HTMLBlock>
 
-\<details>
-&#x20; \<summary>🇧🇷 Brasil\</summary>
-&#x20; \<p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.\</p>
+<HTMLBlock>{`
+<details>
+  <summary>🇧🇷 Brasil</summary>
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
 
-&#x20; \<!-- Imagen que se expande al abrir el acordeón -->
-&#x20; \<div style="text-align: center;">
-&#x20;   \<a href="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png" target="\_blank">
-&#x20;     \<img&#x20;
-&#x20;       src="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png"&#x20;
-&#x20;       alt="Brasil Coverage"&#x20;
-&#x20;       style="width: 80%; max-width: 800px; height: auto; transition: all 0.3s ease;"&#x20;
-&#x20;       onmouseover="this.style.width='90%'"&#x20;
-&#x20;       onmouseout="this.style.width='80%'"
-&#x20;     />
-&#x20;   \</a>
-&#x20; \</div>
-\</details>
+  <!-- Imagen que se expande al abrir el acordeón -->
+  <div style="text-align: center;">
+    <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
+      <img 
+        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
+        alt="Brasil Coverage" 
+        style="width: 80%; max-width: 800px; height: auto; transition: all 0.3s ease;" 
+        onmouseover="this.style.width='90%'" 
+        onmouseout="this.style.width='80%'"
+      />
+    </a>
+  </div>
+</details>
+`}</HTMLBlock>
 
+<br />
 
 prueba 3
 
