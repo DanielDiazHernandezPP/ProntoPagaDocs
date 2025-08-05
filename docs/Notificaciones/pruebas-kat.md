@@ -177,6 +177,108 @@ metadata:
 </html>
 `}</HTMLBlock>
 
+# prueba 2
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acordeón con Imagen Clickeable</title>
+  <style>
+    /* Estilos del acordeón */
+    .accordion {
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+
+    .accordion-title {
+      padding: 15px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      border: none;
+      text-align: left;
+      width: 100%;
+    }
+
+    .accordion-content {
+      padding: 20px;
+      background-color: white;
+      display: none; /* Ocultamos el contenido por defecto */
+    }
+
+    .accordion-content img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    /* Modal (pantalla emergente para la imagen) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: auto;
+      padding-top: 60px;
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 900px;
+    }
+
+    /* Mostrar el modal cuando se hace clic en la imagen */
+    .modal img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Estilos para el botón de cierre (X) */
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Mostrar acordeón */
+    .accordion:checked + .accordion-content {
+      display: block;
+    }
+
+    /* Agregar transform cuando la imagen es clickeada */
+    .accordion-content img:active {
+      transform: scale(1.1);
+    }
+
+    /* Mostrar el modal si la imagen está clickeada */
+    #show-modal:checked + .modal {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Acordeón de Brasil -->
+  <input type="checkbox" id="accordion-brazil" class="accordion">
+  <label for="accordion-brazil" class="accordion-title">
+`}</HTMLBlock>
+
 <br />
 
 # Opción 1
