@@ -55,6 +55,21 @@ metadata:
 
 <br />
 
+\<details>
+&#x20; \<summary style="background-color: #FC2B5F; color: white; padding: 10px 20px; font-size: 1.5rem; font-weight: bold; border-radius: 5px; cursor: pointer;">
+&#x20;   🇧🇷 Brasil
+&#x20; \</summary>
+&#x20; \<p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.\</p>
+
+&#x20; \<div style="text-align: center; margin-top: 20px;">
+&#x20;   \<!-- Enlace clickeable a la imagen en su tamaño completo -->
+&#x20;   \<a href="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png" target="\_blank">
+&#x20;     \<img src="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png" alt="Argentina Coverage" style="width: 100%; max-width: 800px; height: auto;" />
+&#x20;   \</a>
+&#x20; \</div>
+\</details>
+
+
 prueba 2
 
 <br />
