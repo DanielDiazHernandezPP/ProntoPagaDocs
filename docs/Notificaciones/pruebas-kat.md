@@ -131,83 +131,6 @@ prueba 2
 </details>
 `}</HTMLBlock>
 
-<HTMLBlock>{`
-<!-- Acordeón -->
-<div class="accordion">
-  <div class="accordion-item">
-    <div class="accordion-header" onclick="toggleAccordion(this)">
-      <strong>🇧🇷 Brasil</strong>
-    </div>
-    <div class="accordion-body">
-      <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
-
-      <!-- Imagen que se expande al pasar el mouse -->
-      <div style="text-align: center;">
-        <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
-          <img 
-            src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
-            alt="Brasil Coverage" 
-            style="width: 80%; max-width: 800px; height: auto; transition: all 0.3s ease;" 
-            onmouseover="this.style.width='90%'" 
-            onmouseout="this.style.width='80%'"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Estilos CSS para el acordeón -->
-<style>
-  .accordion {
-    width: 100%;
-  }
-
-  .accordion-item {
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  .accordion-header {
-    background-color: #f5f5f5;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  .accordion-body {
-    display: none;
-    padding: 15px;
-    background-color: #f9f9f9;
-  }
-
-  .accordion-header:hover {
-    background-color: #e6e6e6;
-  }
-</style>
-
-<!-- Script JavaScript para manejar la expansión del acordeón -->
-<script>
-  function toggleAccordion(header) {
-    const body = header.nextElementSibling;
-    const allBodies = document.querySelectorAll('.accordion-body');
-    
-    // Cierra todos los acordeones antes de abrir el seleccionado
-    allBodies.forEach(body => {
-      if (body !== header.nextElementSibling) {
-        body.style.display = 'none';
-      }
-    });
-    
-    // Alterna la visibilidad del acordeón actual
-    body.style.display = (body.style.display === 'block') ? 'none' : 'block';
-  }
-</script>
-`}</HTMLBlock>
-
 <br />
 
 <HTMLBlock>{`
@@ -255,7 +178,7 @@ prueba 2
 <details>
   <summary><h2>🇧🇷 Brasil</h2></summary>
   
-  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
 
   <div style="text-align: center;">
     <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
@@ -263,7 +186,7 @@ prueba 2
         src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
         alt="Brasil Coverage" 
         style="width: 80%; max-width: 800px; height: auto; transition: all 0.3s ease;" 
-        onmouseover="this.style.width='90%'" 
+        onmouseover="this.style.width='110%'" 
         onmouseout="this.style.width='80%'"
       />
     </a>
