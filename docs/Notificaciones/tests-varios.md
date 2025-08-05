@@ -94,9 +94,10 @@ next:
       font-weight: bold;
       padding-right: 10px;
       background-color: #FC2B5F; /* Color de fondo ajustado aquí */
-      color: white; /* Cambiar el color del texto a blanco para que se vea bien sobre el fondo */
-      padding: 5px 10px; /* Ajuste del espaciado alrededor del texto */
+      color: white; /* Color del texto ajustado a blanco */
+      padding: 8px 12px; /* Ajuste del espaciado alrededor del texto */
       border-radius: 5px; /* Bordes redondeados opcionales */
+      line-height: 1; /* Para asegurar que el texto no se expanda verticalmente */
     }
   </style>
 </head>
@@ -105,7 +106,7 @@ next:
   <!-- Acordeón de Brasil -->
   <details>
     <summary style="cursor: pointer; padding: 10px; display: flex; align-items: center;">
-      <!-- Título en h2 con fondo en color #FC2B5F -->
+      <!-- Título en h2 con fondo en color #FC2B5F y texto blanco -->
       <h2 class="accordion-title" style="margin: 0;">🇧🇷 Brasil</h2>
     </summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
