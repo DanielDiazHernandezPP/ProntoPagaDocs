@@ -49,6 +49,14 @@ metadata:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acordeón con Imagen Clickeable</title>
   <style>
+    /* Estilos generales */
+    .accordion-content {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+
+    /* Imagen dentro del acordeón */
     .image-container {
       text-align: center;
       margin-top: 20px;
@@ -62,63 +70,54 @@ metadata:
       transition: border 0.3s ease;
     }
 
-    .image-container img.clicked {
-      border: 5px solid #007bff; /* Cambia el borde al hacer clic */
-    }
-
-    .hidden-text {
+    /* Esconde el contenido por defecto */
+    .additional-content {
       display: none;
       text-align: center;
       margin-top: 20px;
     }
 
-    .hidden-text.show {
+    /* Mostrar contenido adicional cuando la casilla está activada */
+    #show-content:checked + .additional-content {
       display: block;
     }
+
+    /* Cambiar borde cuando se hace clic en la imagen */
+    #show-content:checked + .additional-content + .image-container img {
+      border: 5px solid #007bff;
+    }
+
   </style>
 </head>
 <body>
 
-  <div>
+  <div class="accordion-content">
     <h2>Argentina</h2>
-    <div class="accordion-content">
-      Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint occaecat cupidatat non proident!
+    Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+    occaecat cupidatat non proident!
 
-      <div class="image-container">
+    <!-- Input tipo checkbox para simular un clic -->
+    <input type="checkbox" id="show-content" style="display: none;">
+
+    <div class="image-container">
+      <label for="show-content">
         <img 
           src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
           alt="Argentina Coverage"
-          onclick="toggleImageClick()"
         />
-      </div>
+      </label>
+    </div>
 
-      <div id="additionalText" class="hidden-text">
-        <p>¡Haz clic en la imagen para mostrar u ocultar este texto adicional!</p>
-      </div>
+    <!-- Contenido adicional que se muestra cuando se hace clic en la imagen -->
+    <div class="additional-content">
+      <p>¡Haz clic en la imagen para mostrar u ocultar este texto adicional!</p>
     </div>
   </div>
-
-  <script>
-    let clicked = false;
-
-    function toggleImageClick() {
-      const img = document.querySelector('.image-container img');
-      const text = document.getElementById('additionalText');
-
-      // Cambiar el estado de la imagen (añadir/quitar la clase "clicked")
-      clicked = !clicked;
-      img.classList.toggle('clicked', clicked);
-
-      // Mostrar u ocultar el texto
-      text.classList.toggle('show', clicked);
-    }
-  </script>
 
 </body>
 </html>
 `}</HTMLBlock>
-
-<br />
 
 <br />
 
