@@ -87,7 +87,7 @@ Consulta en [este enlace](www.la.com)
     <td>Zapatos</td>
 
     <td>
-      <img src="https://prontopagalatam-my.sharepoint.com/:i:/g/personal/daniel_diaz_prontopaga_com/ES4qabr1f7JOjKERhtgScQABhUa60fyFeYT0qm4KK5A8UA?e=o1EodM" alt="Zapatos" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/BBVA_logo_2025.svg" alt="Zapatos" />
     </td>
   </tr>
 
