@@ -121,7 +121,7 @@ Puedes encontrar la cobertura en:
       alignItems: 'center'
     }}
   >
-    <span style={{ fontSize: '24px', marginRight: '10px' }}>🖱️</span> {/* Ícono de clic */}
+    <span style={{ fontSize: '24px', marginRight: '10px' }}>🔽</span> {/* Ícono expandir */}
     Conoce la cobertura en Brasil
   </summary>
 
