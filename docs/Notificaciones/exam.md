@@ -37,7 +37,7 @@ Puedes encontrar la cobertura en:
       alignItems: 'center'
     }}
   >
-    <span style={{ fontSize: '24px', marginRight: '10px' }}>↓</span> {/* Flecha hacia abajo */}
+    <span style={{ fontSize: '20px', marginRight: '10px' }}>↓</span>
     Conoce la cobertura en Brasil
   </summary>
 
