@@ -26,7 +26,7 @@ Puedes encontrar la cobertura en:
           width: '80%',
           maxWidth: '1000px',
           height: 'auto',
-          transition: 'all 0.3s ease'
+          transition: 'all 0.4s ease'
         }}
         onMouseOver={(e) => (e.target.style.width = '100%')}
         onMouseOut={(e) => (e.target.style.width = '80%')}
