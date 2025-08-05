@@ -75,6 +75,24 @@ metadata:
 
 prueba 2
 
+<HTMLBlock>{`
+<details>
+  <summary>🇧🇷 Brasil</summary>
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+
+  <!-- Imagen que se expande al abrir el acordeón -->
+  <div style="text-align: center;">
+    <img 
+      src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
+      alt="Argentina Coverage"
+      style="width: 80%; max-width: 600px; height: auto; transition: all 0.3s ease;" 
+      onmouseover="this.style.width='90%'" 
+      onmouseout="this.style.width='80%'"
+    />
+  </div>
+</details>
+`}</HTMLBlock>
+
 <br />
 
 <HTMLBlock>{`
