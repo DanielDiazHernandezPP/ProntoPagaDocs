@@ -38,7 +38,7 @@ next:
   | Venta exitosa – sin cuotas | 4474118355632240 | 03/2028   | 000 | 3      |
 </div>
 
-<br />
+## Menú desplegable
 
 <details>
   <summary><h2>Requisitos</h2></summary>
