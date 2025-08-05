@@ -369,9 +369,9 @@ prueba 2
       <img 
         src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
         alt="Brasil Coverage" 
-        style="width: 100%; max-width: 900px; height: auto; transition: all 0.3s ease;" 
-        onmouseover="this.style.width='105%'" 
-        onmouseout="this.style.width='100%'"
+        style="width: 95%; max-width: 1000px; height: auto; transition: all 0.3s ease;" 
+        onmouseover="this.style.width='100%'" 
+        onmouseout="this.style.width='95%'"
       />
     </a>
   </div>
