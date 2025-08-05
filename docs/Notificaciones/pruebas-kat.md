@@ -47,7 +47,7 @@ metadata:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acordeón con Imagen Clickeable</title>
+  <title>Imagen Clickeable con HTML y CSS</title>
   <style>
     /* Estilos generales */
     .accordion-content {
@@ -56,37 +56,45 @@ metadata:
       border-radius: 5px;
     }
 
-    /* Imagen dentro del acordeón */
+    /* Contenedor de la imagen */
     .image-container {
       text-align: center;
       margin-top: 20px;
     }
 
-    .image-container img {
+    .image-container a {
+      display: inline-block;
       width: 100%;
       max-width: 500px;
       height: auto;
-      cursor: pointer;
-      transition: border 0.3s ease;
+      text-decoration: none;
     }
 
-    /* Esconde el contenido por defecto */
+    .image-container img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    /* Efecto cuando se pasa el ratón (hover) sobre la imagen */
+    .image-container a:hover img {
+      transform: scale(1.05); /* Aumenta ligeramente la imagen */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Agrega sombra */
+    }
+
+    /* Estilos para el texto adicional */
     .additional-content {
       display: none;
       text-align: center;
       margin-top: 20px;
     }
 
-    /* Mostrar contenido adicional cuando la casilla está activada */
-    #show-content:checked + .additional-content {
+    /* Estilo para el texto cuando se hace clic (simulado por anidar en enlace) */
+    .image-container a:focus + .additional-content,
+    .image-container a:hover + .additional-content {
       display: block;
     }
-
-    /* Cambiar borde cuando se hace clic en la imagen */
-    #show-content:checked + .additional-content + .image-container img {
-      border: 5px solid #007bff;
-    }
-
   </style>
 </head>
 <body>
@@ -97,19 +105,17 @@ metadata:
     ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
     occaecat cupidatat non proident!
 
-    <!-- Input tipo checkbox para simular un clic -->
-    <input type="checkbox" id="show-content" style="display: none;">
-
+    <!-- Imagen clickeable, usando enlace -->
     <div class="image-container">
-      <label for="show-content">
+      <a href="#">
         <img 
           src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
           alt="Argentina Coverage"
         />
-      </label>
+      </a>
     </div>
 
-    <!-- Contenido adicional que se muestra cuando se hace clic en la imagen -->
+    <!-- Contenido adicional que se muestra al hacer clic o pasar el ratón -->
     <div class="additional-content">
       <p>¡Haz clic en la imagen para mostrar u ocultar este texto adicional!</p>
     </div>
