@@ -312,7 +312,7 @@ prueba 2
       listStyle: 'none'
     }}
   >
-    Haz clic para conocer la cobertura en Brasil
+    Conoce la cobertura en Brasil
   </summary>
 
   <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
