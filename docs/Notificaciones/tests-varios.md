@@ -93,7 +93,10 @@ next:
       font-size: 1.5rem;
       font-weight: bold;
       padding-right: 10px;
-      color: #FC2B5F; /* Color ajustado aquí */
+      background-color: #FC2B5F; /* Color de fondo ajustado aquí */
+      color: white; /* Cambiar el color del texto a blanco para que se vea bien sobre el fondo */
+      padding: 5px 10px; /* Ajuste del espaciado alrededor del texto */
+      border-radius: 5px; /* Bordes redondeados opcionales */
     }
   </style>
 </head>
@@ -101,13 +104,13 @@ next:
 
   <!-- Acordeón de Brasil -->
   <details>
-    <summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px; display: flex; align-items: center;">
-      <!-- Título en h2 en línea con el color ajustado -->
+    <summary style="cursor: pointer; padding: 10px; display: flex; align-items: center;">
+      <!-- Título en h2 con fondo en color #FC2B5F -->
       <h2 class="accordion-title" style="margin: 0;">🇧🇷 Brasil</h2>
     </summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
 
-    <!-- Imagen clickeable -->
+    <!-- Imagen clickeable con alt="Brasil Coverage" -->
     <div style="text-align: center; margin-top: 20px;">
       <img 
         src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
