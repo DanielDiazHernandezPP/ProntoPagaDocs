@@ -87,7 +87,7 @@ Consulta en [este enlace](www.la.com)
     <td>Zapatos</td>
 
     <td>
-      <img src="https://via.placeholder.com/100" alt="Zapatos" />
+      <img src="https://prontopagalatam-my.sharepoint.com/:i:/g/personal/daniel_diaz_prontopaga_com/ES4qabr1f7JOjKERhtgScQABhUa60fyFeYT0qm4KK5A8UA?e=o1EodM" alt="Zapatos" />
     </td>
   </tr>
 
