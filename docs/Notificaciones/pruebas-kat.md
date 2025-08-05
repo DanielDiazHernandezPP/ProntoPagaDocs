@@ -155,9 +155,7 @@ metadata:
 
   <div class="accordion-content">
     <h2>Argentina</h2>
-    Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-    ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-    occaecat cupidatat non proident!
+    payins y payouts
 
     <!-- Imagen clickeable, usando enlace -->
     <div class="image-container">
