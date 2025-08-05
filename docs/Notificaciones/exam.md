@@ -24,8 +24,6 @@ Puedes encontrar la cobertura en:
 ## 🇧🇷 Brasil
 
 <HTMLBlock>{`
-import { FaArrowRight } from 'react-icons/fa';
-
 <details style={{ border: 'none' }}>
   <summary
     style={{
