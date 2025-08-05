@@ -93,6 +93,7 @@ next:
       font-size: 1.5rem;
       font-weight: bold;
       padding-right: 10px;
+      color: #FC2B5F; /* Color ajustado aquí */
     }
   </style>
 </head>
@@ -101,7 +102,7 @@ next:
   <!-- Acordeón de Brasil -->
   <details>
     <summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px; display: flex; align-items: center;">
-      <!-- Título en h2 en línea -->
+      <!-- Título en h2 en línea con el color ajustado -->
       <h2 class="accordion-title" style="margin: 0;">🇧🇷 Brasil</h2>
     </summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
@@ -110,7 +111,7 @@ next:
     <div style="text-align: center; margin-top: 20px;">
       <img 
         src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
-        alt="Argentina Coverage" 
+        alt="Brasil Coverage" 
         style="width: 100%; max-width: 800px; height: auto; cursor: pointer;" />
     </div>
   </details>
