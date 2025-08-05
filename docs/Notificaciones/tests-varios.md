@@ -85,7 +85,7 @@ next:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acordeón con Imagen Clickeable</title>
+  <title>Acordeón con Imagen Expandible</title>
 </head>
 <body>
 
@@ -97,41 +97,5 @@ next:
     <!-- Imagen clickeable -->
     <div style="text-align: center; margin-top: 20px;">
       <img 
-        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
-        alt="Argentina Coverage" 
-        style="width: 100%; max-width: 800px; height: auto; cursor: pointer; transition: transform 0.3s;" 
-        onclick="this.style.transform='scale(1.5)';" />
-    </div>
-  </details>
-
-</body>
-</html>
+        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272
 `}</HTMLBlock>
-
-<br />
-
-\<html lang="es">
-\<head>
-&#x20; \<meta charset="UTF-8">
-&#x20; \<meta name="viewport" content="width=device-width, initial-scale=1.0">
-&#x20; \<title>Acordeón con Imagen Clickeable\</title>
-\</head>
-\<body>
-
-&#x20; \<!-- Acordeón de Brasil -->
-&#x20; \<details>
-&#x20;   \<summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px;">🇧🇷 Brasil\</summary>
-&#x20;   \<p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.\</p>
-
-&#x20;   \<!-- Imagen clickeable -->
-&#x20;   \<div style="text-align: center; margin-top: 20px;">
-&#x20;     \<img&#x20;
-&#x20;       src="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png"&#x20;
-&#x20;       alt="Argentina Coverage"&#x20;
-&#x20;       style="width: 100%; max-width: 800px; height: auto; cursor: pointer; transition: transform 0.3s;"&#x20;
-&#x20;       onclick="this.style.transform='scale(1.5)';" />
-&#x20;   \</div>
-&#x20; \</details>
-
-\</body>
-\</html>
