@@ -19,7 +19,7 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 | Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
 | :----- | :--------------- | :-------------------- | :------------------- |
-| BBVA   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 |                      |
+| BBVA   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
