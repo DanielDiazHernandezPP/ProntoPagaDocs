@@ -356,6 +356,28 @@ prueba 2
 </details>
 `}</HTMLBlock>
 
+<HTMLBlock>{`
+<details style="border: none;">
+  <summary style="cursor: pointer; padding: 10px 0; background: none; border: none; outline: none; font-size: 20px; list-style: none;">
+    <h2>🇧🇷 Brasil</h2>
+  </summary>
+
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+
+  <div style="text-align: center;">
+    <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
+      <img 
+        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
+        alt="Brasil Coverage" 
+        style="width: 90%; max-width: 800px; height: auto; transition: all 0.3s ease;" 
+        onmouseover="this.style.width='95%'" 
+        onmouseout="this.style.width='90%'"
+      />
+    </a>
+  </div>
+</details>
+`}</HTMLBlock>
+
 <br />
 
 prueba 3
