@@ -23,7 +23,8 @@ Puedes encontrar la cobertura en:
 
 ## 🇧🇷 Brasil
 
-<HTMLBlock>{`
+<br />
+
 <details style={{ border: 'none' }}>
   <summary
     style={{
@@ -39,7 +40,7 @@ Puedes encontrar la cobertura en:
     }}
   >
     Conoce la cobertura en Brasil
-    <FaArrowRight style={{ marginLeft: '10px', fontSize: '18px' }} />
+    <span style={{ marginLeft: '10px', fontSize: '18px' }}>→</span> {/* Flecha */}
   </summary>
 
   <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
@@ -61,4 +62,3 @@ Puedes encontrar la cobertura en:
     </a>
   </div>
 </details>
-`}</HTMLBlock>
