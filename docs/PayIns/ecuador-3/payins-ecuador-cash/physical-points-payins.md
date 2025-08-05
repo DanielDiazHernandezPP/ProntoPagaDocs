@@ -39,7 +39,7 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 | Nombre                            | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :-------------------------------- | :------------ | :------------ | :------------------- |
-| Puntos Red Activa / Western Union | 1 USD         | 300 USD       | 4 horas              |
+| Puntos Red Activa / Western Union | 1 USD         | 300 USD       | 24 horas             |
 
 <br />
 
@@ -53,7 +53,7 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 | Nombre           | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :--------------- | :------------ | :------------ | :------------------- |
-| Puntos Ponle más | 1 USD         | 50 USD        | 4 horas              |
+| Puntos Ponle más | 1 USD         | 50 USD        | 24 horas             |
 
 <br />
 
@@ -67,4 +67,4 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 | Nombre              | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :------------------ | :------------ | :------------ | :------------------- |
-| Tiendas con Bemovil | 1 USD         | 50 USD        | 4 horas              |
+| Tiendas con Bemovil | 1 USD         | 50 USD        | 24 horas             |
