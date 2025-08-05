@@ -31,13 +31,13 @@ Puedes encontrar la cobertura en:
       background: 'none',
       border: 'none',
       outline: 'none',
-      fontSize: '20px',
+      fontSize: '18px',
       listStyle: 'none',
       display: 'flex',
       alignItems: 'center'
     }}
   >
-    <span style={{ fontSize: '20px', marginRight: '10px' }}>↓</span>
+    <span style={{ fontSize: '18px', marginRight: '10px' }}>↓</span>
     Conoce la cobertura en Brasil
   </summary>
 
