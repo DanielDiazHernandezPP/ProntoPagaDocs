@@ -197,10 +197,8 @@ Puedes encontrar la cobertura en:
 
 <br />
 
-<Accordion title="🇧🇷 Brasil">
-  <div style={{ fontSize: '18px', fontWeight: 'bold', lineHeight: '1.5' }}>
-    A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
-  </div>
+<Accordion title={<span style={{ fontSize: '24px', fontWeight: 'bold' }}>🇧🇷 Brasil</span>}>
+  A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
   <div style={{ textAlign: 'center' }}>
     <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
@@ -219,6 +217,8 @@ Puedes encontrar la cobertura en:
     </a>
   </div>
 </Accordion>
+
+<br />
 
 <br />
 
