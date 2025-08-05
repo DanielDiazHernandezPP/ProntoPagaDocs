@@ -40,6 +40,19 @@ next:
 
 <br />
 
+<details>
+  <summary><h2>Requisitos</h2></summary>
+
+  <p>ID del cliente:</p>
+
+  <ul>
+    <li>DNI</li>
+    <li>RUT</li>
+  </ul>
+</details>
+
+<br />
+
 ///
 
 <h2>HOLA</h2>
@@ -59,29 +72,6 @@ next:
 > 📘 ASAA
 >
 > CAsa
-
-<br />
-
-## Menú desplegable
-
-<br />
-
-<details>
-  <summary><h2>Requisitos</h2></summary>
-
-  <p>ID del cliente:</p>
-
-  <ul>
-    <li>DNI</li>
-    <li>RUT</li>
-  </ul>
-</details>
-
-<br />
-
-<br />
-
-***
 
 <br />
 
