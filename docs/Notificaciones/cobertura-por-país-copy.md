@@ -1,5 +1,5 @@
 ---
-title: Cobertura por país (COPY)
+title: Pruebas Cobertura por país (COPY)
 excerpt: Conoce la cobertura por país donde ProntoPaga opera.
 deprecated: false
 hidden: true
