@@ -115,13 +115,13 @@ Puedes encontrar la cobertura en:
       background: 'none',
       border: 'none',
       outline: 'none',
-      fontSize: '24px',
+      fontSize: '20px',
       listStyle: 'none',
       display: 'flex',
       alignItems: 'center'
     }}
   >
-    <span style={{ fontSize: '24px', marginRight: '10px' }}>🔽</span> {/* Ícono expandir */}
+    <span style={{ fontSize: '20px', marginRight: '10px' }}>🔽</span> {/* Ícono expandir */}
     Conoce la cobertura en Brasil
   </summary>
 
