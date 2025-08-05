@@ -125,6 +125,46 @@ metadata:
 </html>
 `}</HTMLBlock>
 
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagen Clickeable y Ampliable</title>
+  <style>
+    /* Estilos generales */
+    .accordion-content {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+
+    /* Contenedor de la imagen */
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    /* Estilo para el modal de imagen ampliada */
+    .modal {
+      display: none; /* Ocultamos el modal por defecto */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      h
+`}</HTMLBlock>
+
 <br />
 
 # Opción 1
