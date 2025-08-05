@@ -86,12 +86,24 @@ next:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acordeón con Imagen Expandible</title>
+  <style>
+    /* Estilo para mantener el título en una sola línea */
+    .accordion-title {
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-right: 10px;
+    }
+  </style>
 </head>
 <body>
 
   <!-- Acordeón de Brasil -->
   <details>
-    <summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px;"><h2>🇧🇷 Brasil</h2></summary>
+    <summary style="cursor: pointer; background-color: #007bff; color: white; padding: 10px; display: flex; align-items: center;">
+      <!-- Título en h2 en línea -->
+      <h2 class="accordion-title" style="margin: 0;">🇧🇷 Brasil</h2>
+    </summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
 
     <!-- Imagen clickeable -->
