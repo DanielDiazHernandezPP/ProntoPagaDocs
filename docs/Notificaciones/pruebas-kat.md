@@ -271,7 +271,7 @@ prueba 2
       listStyle: 'none'
     }}
   >
-    <h3>🇧🇷 Brasil</h3>
+    <h1>🇧🇷 Brasil</h1>
   </summary>
 
   <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
