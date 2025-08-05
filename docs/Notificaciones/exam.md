@@ -38,7 +38,7 @@ Puedes encontrar la cobertura en:
     Conoce la cobertura en Brasil
   </summary>
 
-  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
 
   <div style={{ textAlign: 'center' }}>
     <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
