@@ -31,7 +31,7 @@ Puedes encontrar la cobertura en:
       background: 'none',
       border: 'none',
       outline: 'none',
-      fontSize: '24px', // Aumenté el tamaño de la fuente
+      fontSize: '20px',
       listStyle: 'none',
       display: 'flex',
       alignItems: 'center'
