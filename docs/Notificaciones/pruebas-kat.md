@@ -378,6 +378,45 @@ prueba 2
 </details>
 `}</HTMLBlock>
 
+<HTMLBlock>{`
+<details style="border: none;">
+  <summary style="cursor: pointer; padding: 10px 0; background: none; border: none; outline: none; font-size: 20px; list-style: none;">
+    <h2>🇧🇷 Brasil</h2>
+  </summary>
+
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+
+  <div style="text-align: center;">
+    <a href="#" onclick="openModal(); return false;">
+      <img 
+        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
+        alt="Brasil Coverage" 
+        style="width: 95%; max-width: 1000px; height: auto; transition: all 0.3s ease;" 
+        onmouseover="this.style.width='100%'" 
+        onmouseout="this.style.width='95%'"
+      />
+    </a>
+  </div>
+
+  <div id="imageModal" style="display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); z-index: 999;">
+    <span onclick="closeModal()" style="position: absolute; top: 20px; right: 40px; font-size: 30px; color: white; cursor: pointer;">&times;</span>
+    <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
+      alt="Brasil Coverage" 
+      style="display: block; margin: auto; max-width: 90%; max-height: 90vh;" />
+  </div>
+
+  <script>
+    function openModal() {
+      document.getElementById("imageModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+  </script>
+</details>
+`}</HTMLBlock>
+
 <br />
 
 prueba 3
