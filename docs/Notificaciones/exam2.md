@@ -37,7 +37,7 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
   <div style={{ textAlign: 'center' }}>
     <img
       src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png"
-      alt="Chile Coverage"
+      alt="Chilean Coverage"
       style={{
         width: '80%',
         maxWidth: '1000px',
@@ -56,7 +56,7 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
   <div style={{ textAlign: 'center' }}>
     <img
       src="https://files.readme.io/f726f22a13bc8511c8ab07d77032139ccc8212ac4b0b10640a9cceccedd7d30d-Coverage_in_Ecuador.png"
-      alt="Chile Coverage"
+      alt="Ecuadorian Coverage"
       style={{
         width: '80%',
         maxWidth: '1000px',
