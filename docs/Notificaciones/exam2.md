@@ -68,3 +68,22 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
     />
   </div>
 </Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇵🇪 Perú</span>}>
+  A continuación, podrás ver listados los métodos con los que contamos en Perú, tanto para PayIns como para PayOuts.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="https://files.readme.io/1b3ae4e6a2dbb194b9aac5a2e521d21609d420c2adb8388ad28e274f116a786d-Coverage_in_Peru.png"
+      alt="Peruvian Coverage"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
