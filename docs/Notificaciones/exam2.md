@@ -45,7 +45,7 @@ Puedes encontrar la cobertura en:
     <img 
       src="https://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag_of_Chile.svg.png" 
       alt="Chile Flag" 
-      style={{ width: '1px', height: '1px', marginRight: '1px' }} 
+      style={{ width: '0.2px', height: '1px', marginRight: '1px' }} 
     />
     Chile
   </span>
@@ -53,7 +53,7 @@ Puedes encontrar la cobertura en:
 >
   A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
 
-  <div style={{ textAlign: 'center', display: "flex" }}>
+  <div style={{ textAlign: 'center' }}>
     <img
       src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png"
       alt="Chile Coverage"
