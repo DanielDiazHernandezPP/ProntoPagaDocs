@@ -13,16 +13,16 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Cards columns={3}>
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
-    <img src="https://files.readme.io/13d79cb7fb4fb6c27c991eb88f0f264ccc65fb2b2e8d9fcda843ca18a0d21765-WOOCOMMERCE.png" alt="Woocommerce" style={{ width: '40px', height: '20px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/c48e4837a11586eda43c828678b9ff33375a59ba5ba65606c789ffe4246abe00-Prestashop.png" alt="PrestaShop" style={{ width: '80px', height: '30px', marginBottom: '0px' }} />
 
-    <h2>Botón Yape v1</h2>
-    Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
+    <h3>PrestaShop</h3>
+    Consulta su Guía de instalación y configuración aquí.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
     <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '80px', height: '30px', marginBottom: '0px' }} />
 
-    <h3>Botón Yape v1</h3>
+    <h3>VTEX</h3>
     Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
   </Card>
 
