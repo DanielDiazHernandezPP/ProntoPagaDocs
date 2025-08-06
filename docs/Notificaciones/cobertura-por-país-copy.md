@@ -249,3 +249,9 @@ Puedes encontrar la cobertura en:
 ***
 
 <Image align="center" alt="Coverage in Chile" src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png" />
+
+## Banderas
+
+<Image align="center" src="https://files.readme.io/a95a518486d48bca158dc7b15e7fbd81a6baa181851968e0b07db3d5c9c4a83a-Flag_of_Brazil.svg.png" />
+
+<Image align="center" src="https://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag_of_Chile.svg.png" />
