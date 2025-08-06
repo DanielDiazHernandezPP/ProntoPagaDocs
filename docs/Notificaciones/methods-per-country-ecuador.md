@@ -1,8 +1,8 @@
 ---
 title: Cobertura en Ecuador
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Cobertura en Ecuador | ProntoPaga Docs
   description: >-
