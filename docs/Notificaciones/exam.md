@@ -319,3 +319,109 @@ Puedes encontrar la cobertura en:
     </a>
   </div>
 </Accordion>
+
+<br />
+
+<br />
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acordeón con Modal</title>
+  <style>
+    details {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    summary {
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      max-width: 80%;
+      max-height: 80%;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+    .modal img {
+      width: 100%;
+      height: auto;
+    }
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 30px;
+      color: #aaa;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<details>
+  <summary>🇧🇷 Brasil</summary>
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
+  <div style="text-align: center;">
+    <img
+      src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+      alt="Brasil Coverage"
+      style="width: 80%; max-width: 1000px; height: auto; cursor: pointer;"
+      id="openModalBtn"
+    />
+  </div>
+</details>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <img
+      src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+      alt="Brasil Coverage"
+    />
+    <span class="close-btn" id="closeModalBtn">&times;</span>
+  </div>
+</div>
+
+<script>
+  const openModalBtn = document.getElementById("openModalBtn");
+  const modal = document.getElementById("myModal");
+  const closeModalBtn = document.getElementById("closeModalBtn");
+
+  openModalBtn.onclick = function() {
+    modal.style.display = "flex";
+  };
+
+  closeModalBtn.onclick = function() {
+    modal.style.display = "none";
+  };
+
+  window.onclick = function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  };
+</script>
+
+</body>
+</html>
+`}</HTMLBlock>
