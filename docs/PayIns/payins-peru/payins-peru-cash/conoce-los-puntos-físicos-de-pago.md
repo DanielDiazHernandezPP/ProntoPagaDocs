@@ -11,6 +11,12 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ## BBVA
 
+<Image align="left" width="150px" src="https://files.readme.io/fe1f01c9b60d8b602ac541f95655c32c72a7209e945158efa492d5e4882f8d10-BBVA-Emblem.png" />
+
+<br />
+
+<br />
+
 ### Ubicaciones
 
 🌎 Conoce todas las ubicaciones así como los puntos más cercanos según tu dirección en el mapa de esta [página ](https://www.bbva.pe/personas/oficinas.html)⬅️
