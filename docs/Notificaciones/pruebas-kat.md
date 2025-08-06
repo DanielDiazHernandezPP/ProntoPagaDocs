@@ -13,7 +13,7 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Cards columns={3}>
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
-    <img src="https://files.readme.io/c48e4837a11586eda43c828678b9ff33375a59ba5ba65606c789ffe4246abe00-Prestashop.png" alt="PrestaShop" style={{ width: '90px', height: '50px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/c48e4837a11586eda43c828678b9ff33375a59ba5ba65606c789ffe4246abe00-Prestashop.png" alt="PrestaShop" style={{ width: '90px', height: '40px', marginBottom: '0px' }} />
 
     <h3>PrestaShop</h3>
     Consulta su Guía de instalación y configuración aquí.
