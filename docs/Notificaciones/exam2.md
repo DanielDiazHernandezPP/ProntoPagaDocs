@@ -14,7 +14,9 @@ En este artículo, podrás revisar la cobertura que tenemos actualmente en los d
 
 Puedes encontrar la cobertura en:
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Brasil</span>}>
+## Brasil
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>Conoce la cobertura en Brasil</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
   <div style={{ textAlign: 'center' }}>
