@@ -51,8 +51,6 @@ A continuación, encontrarás las modalidades de pago disponibles para procesar 
   </Card>
 </Cards>
 
-<br />
-
 ## Pagos de tipo afiliación
 
 A continuación, encontrarás las modalidades de pago disponibles para procesar pagos de tipo afiliación, junto con su guía de integración.
