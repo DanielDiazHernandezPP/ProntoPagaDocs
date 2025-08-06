@@ -47,7 +47,7 @@ Puedes encontrar la cobertura en:
       alt="Chile Flag" 
       style={{ width: '16px', height: 'auto', marginRight: '8px' }} 
     />
-    Chile
+    🇨🇱 Chile
   </span>
 }
 >
