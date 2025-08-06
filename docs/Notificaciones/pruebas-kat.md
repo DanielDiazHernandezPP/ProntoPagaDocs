@@ -34,9 +34,7 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 </Cards>
 
-<Image align="center" src="https://files.readme.io/13d79cb7fb4fb6c27c991eb88f0f264ccc65fb2b2e8d9fcda843ca18a0d21765-WOOCOMMERCE.png" />
-
-<br />
+<Image align="center" src="https://files.readme.io/57d885272860137bab59027756f4d031a8b0179f2ce91142ba94b7f2753e075e-pngwing.com.png" />
 
 <Image align="center" src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" />
 
