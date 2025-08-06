@@ -44,6 +44,10 @@ metadata:
 
 <br />
 
+<br />
+
+<br />
+
 ## Pruebas QR
 
 ## QR con interfaz estándar (flujo completo)
