@@ -103,7 +103,7 @@ Puedes encontrar la cobertura en:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accordion con Enlace a Imagen</title>
+    <title>Accordion con Nueva Ventana</title>
     <style>
         .accordion {
             background-color: #f1f1f1;
@@ -118,16 +118,16 @@ Puedes encontrar la cobertura en:
             margin: 5px 0;
         }
 
-        .accordion:hover {
-            background-color: #ddd;
-        }
-
         .panel {
             padding: 0 18px;
             display: none;
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             margin-top: 10px;
+        }
+
+        .panel input:checked ~ .panel-content {
+            display: block;
         }
 
         .image-container {
@@ -137,38 +137,36 @@ Puedes encontrar la cobertura en:
         img {
             width: 80%;
             max-width: 1000px;
-            transition: all 0.4s ease;
             cursor: pointer;
+            transition: all 0.4s ease;
         }
 
         img:hover {
             width: 100%;
         }
+
+        input[type="checkbox"] {
+            display: none;
+        }
     </style>
 </head>
 <body>
 
-    <button class="accordion">🇧🇷 Brasil</button>
-    <div class="panel">
-        <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
+    <label class="accordion">
+        🇧🇷 Brasil
+        <input type="checkbox" class="accordion-toggle">
+        <div class="panel">
+            <div class="panel-content">
+                <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
 
-        <div class="image-container">
-            <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
-                <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage" />
-            </a>
+                <div class="image-container">
+                    <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
+                        <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage">
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        for (var i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                panel.style.display = panel.style.display === "block" ? "none" : "block";
-            });
-        }
-    </script>
+    </label>
 
 </body>
 </html>
