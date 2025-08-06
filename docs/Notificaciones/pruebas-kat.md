@@ -365,12 +365,16 @@ prueba 3
 # prueba para página de wallet en Perú
 
 <Cards columns={2}>
-  <Card title="Botón Yape v1" href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" icon="fhttps://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
+  <Card title="Botón Yape v1" href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
+    <img src="https://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape v1" style={{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+    Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
   </Card>
 
-  <Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  <Card title="Botón Yape: One Shot" href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
+    <img src="https://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape: One Shot" style={{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+    Integra pagos únicos con Botón Yape, versión web y mobile.
   </Card>
 </Cards>
 
