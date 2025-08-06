@@ -7,7 +7,9 @@ metadata:
 ---
 ## Plugins
 
-<br />
+## 🔌 Nuestros plugins
+
+Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Cards columns={3}>
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
