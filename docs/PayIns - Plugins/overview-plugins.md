@@ -27,8 +27,6 @@ Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, dise
 
 ***
 
-<br />
-
 ## 🔌 Nuestros plugins
 
 Los plugins que ya están listos para ser integrados hoy en tu comercio son:
