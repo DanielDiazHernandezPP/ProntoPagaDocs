@@ -171,3 +171,77 @@ Puedes encontrar la cobertura en:
 </body>
 </html>
 `}</HTMLBlock>
+
+\<!DOCTYPE html>
+
+\<html lang="es">
+\<head>
+&#x20;   \<meta charset="UTF-8">
+&#x20;   \<meta name="viewport" content="width=device-width, initial-scale=1.0">
+&#x20;   \<title>Accordion con Nueva Ventana\</title>
+&#x20;   \<style>
+&#x20;       .accordion \{
+&#x20;           background-color: #f1f1f1;
+&#x20;           padding: 10px;
+&#x20;           font-size: 18px;
+&#x20;           cursor: pointer;
+&#x20;           border: none;
+&#x20;           text-align: left;
+&#x20;           outline: none;
+&#x20;           width: 100%;
+&#x20;           border-radius: 5px;
+&#x20;           margin: 5px 0;
+&#x20;       }
+
+&#x20;       .panel \{
+&#x20;           padding: 0 18px;
+&#x20;           display: none;
+&#x20;           background-color: #f9f9f9;
+&#x20;           border: 1px solid #ddd;
+&#x20;           margin-top: 10px;
+&#x20;       }
+
+&#x20;       .panel input:checked \~ .panel-content \{
+&#x20;           display: block;
+&#x20;       }
+
+&#x20;       .image-container \{
+&#x20;           text-align: center;
+&#x20;       }
+
+&#x20;       img \{
+&#x20;           width: 80%;
+&#x20;           max-width: 1000px;
+&#x20;           cursor: pointer;
+&#x20;           transition: all 0.4s ease;
+&#x20;       }
+
+&#x20;       img:hover \{
+&#x20;           width: 100%;
+&#x20;       }
+
+&#x20;       input\[type="checkbox"] \{
+&#x20;           display: none;
+&#x20;       }
+&#x20;   \</style>
+\</head>
+\<body>
+
+&#x20;   \<label class="accordion">
+&#x20;       🇧🇷 Brasil
+&#x20;       \<input type="checkbox" class="accordion-toggle">
+&#x20;       \<div class="panel">
+&#x20;           \<div class="panel-content">
+&#x20;               \<p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.\</p>
+
+&#x20;               \<div class="image-container">
+&#x20;                   \<a href="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png" target="\_blank">
+&#x20;                       \<img src="https\://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage\_in\_Brazil\_2.png" alt="Brasil Coverage">
+&#x20;                   \</a>
+&#x20;               \</div>
+&#x20;           \</div>
+&#x20;       \</div>
+&#x20;   \</label>
+
+\</body>
+\</html>
