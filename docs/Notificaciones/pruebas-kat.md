@@ -7,6 +7,24 @@ metadata:
 ---
 ## Plugins
 
+<Cards columns={2}>
+  <Card href="https://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="_blank">
+    <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Yape On File: One Click Payments" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>Yape On File: One Click Payments</h3>
+    Realiza afiliaciones para que tus clientes puedan realizar pagos posteriores en un solo clic.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/yape-on-file-recurrent#/" target="_blank">
+    <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Yape On File: Recurrencia" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>Yape On File: Recurrencia</h3>
+    Configura pagos recurrentes para los planes de suscripción que ofrece tu comercio.
+  </Card>
+</Cards>
+
+<br />
+
 <HTMLBlock>{`
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="width: 100%; max-width: 600px; margin-bottom: 20px;">
