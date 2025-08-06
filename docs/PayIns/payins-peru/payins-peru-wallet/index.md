@@ -51,7 +51,7 @@ A continuación, encontrarás las modalidades de pago disponibles para procesar 
   </Card>
 </Cards>
 
-<br />
+***
 
 ## Pagos de tipo afiliación
 
