@@ -145,9 +145,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                              | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------------------------------------------------------------------------------------------------------------ | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/6d6b68cd1b3dd46b0ed2b3c62d718e88f12cdd414f697bcde8947bf52a9ef4a6-Western-Union-Log.jpg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre                    | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :------------------------ | :--------------- | :-------------------- | :------------------- |
+| Red Activa / WesternUnion | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -161,9 +161,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :--------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/75e26de59fefb3b8916f41e3dd150e6617677c952fed7c2955c9efb26b52826c-banbif-1.svg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----- | :--------------- | :-------------------- | :------------------- |
+| BanBif | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -177,9 +177,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                                                              | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/75b4541b81407c61570a33ec782a1992a057a43c0cbe6e18cbd97636f91fc89c-Captura_de_pantalla_2025-08-05_a_las_4.28.30_p.m..png) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre                   | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----------------------- | :--------------- | :-------------------- | :------------------- |
+| Agente Multibanco KasNet | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -193,9 +193,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :--------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/5880d6cd66a8021da157312725ac501bf8ba49fb7370f94c48c2fea9f385f301-images_1.png) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :--------- | :--------------- | :-------------------- | :------------------- |
+| Ya Ganaste | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -209,6 +209,6 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                                                     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----------------------------------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/82062687225b0ccce31589b6e087f20908ba625f093eb677da36bb14037dca02-14f7a436366319.Y3JvcCw4NzYsNjg2LDE4OCww.jpeg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre             | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----------------- | :--------------- | :-------------------- | :------------------- |
+| Agente Red Digital | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
