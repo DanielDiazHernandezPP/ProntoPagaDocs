@@ -50,6 +50,25 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
   </div>
 </Accordion>
 
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇪🇨 Ecuador</span>}>
+  A continuación, podrás ver listados los métodos con los que contamos en Ecuador, tanto para PayIns como para PayOuts.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="https://files.readme.io/f726f22a13bc8511c8ab07d77032139ccc8212ac4b0b10640a9cceccedd7d30d-Coverage_in_Ecuador.png"
+      alt="Chile Coverage"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
 <br />
 
 ***
