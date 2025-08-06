@@ -323,6 +323,10 @@ Puedes encontrar la cobertura en:
 
 <Image align="center" alt="Coverage in Chile" src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png" />
 
+<Image align="center" src="https://files.readme.io/f726f22a13bc8511c8ab07d77032139ccc8212ac4b0b10640a9cceccedd7d30d-Coverage_in_Ecuador.png" />
+
+<Image align="center" src="https://files.readme.io/1b3ae4e6a2dbb194b9aac5a2e521d21609d420c2adb8388ad28e274f116a786d-Coverage_in_Peru.png" />
+
 ## Banderas
 
 <Image align="center" width="10px" src="https://files.readme.io/a95a518486d48bca158dc7b15e7fbd81a6baa181851968e0b07db3d5c9c4a83a-Flag_of_Brazil.svg.png" />
