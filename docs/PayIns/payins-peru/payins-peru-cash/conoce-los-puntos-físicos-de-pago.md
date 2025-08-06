@@ -3,6 +3,20 @@ title: Conoce los puntos físicos de pago
 deprecated: false
 hidden: false
 metadata:
+  title: Conoce los puntos físicos de pago | ProntoPaga Docs
+  description: >-
+    Customers in Ecuador can pay in cash at physical points of Red
+    Activa/Western Union, Ponle más, and Bemovil, with specific limits and
+    expiration times, and the merchant will receive notifications of payment
+    status via webhook.
+  image: >-
+    https://files.readme.io/c11524f16581cbf603aaeac7f205d2d0474fce0112adea42b42239509412168b-Prontopaga_Logotipo.JPG
+  keywords:
+    - physical points
+    - pagos en cash Perú
+    - pay in cash Prontopaga
+    - puntos de pago Perú
+    - pagar en efectivo Prontopaga Perú
   robots: index
 ---
 Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, con lo cual podrán ir a un punto físico de recaudo de las siguientes instituciones a realizar el pago:
