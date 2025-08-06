@@ -17,9 +17,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                        | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------------------------------------------------------------------------------------------------------ | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/d2ff200fbfc0f0d6f6d595c87f49f32709bb238e814512749c9e12d8e143153c-BBVA-Emblem.png) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----- | :--------------- | :-------------------- | :------------------- |
+| BBVA   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -33,9 +33,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                                    | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------------------------------------------------------------------------------------------------------------------ | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/95da2c36f438506f43ee87b10c2ad65e5e10e006bda461c8588150cfa94dca78-banco-de-credito-bcp-82.jpg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----- | :--------------- | :-------------------- | :------------------- |
+| BCP    | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -49,9 +49,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                                        | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :---------------------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/8fc6d186c6291835037f84d1139809220cdb6e7caf664aff002d7767806d0e83-Icono_de_la_aplicacion_Yape.png) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----- | :--------------- | :-------------------- | :------------------- |
+| Yape   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -65,9 +65,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                                     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/3a584bfac04c51924183d15c1358e42b19e36c4f8f67d028e9619bed34f99e56-logo-scotiabank-brandbox.svg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre      | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :---------- | :--------------- | :-------------------- | :------------------- |
+| Scotianbank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -81,9 +81,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                          | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :-------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/049c18b623b6b8fe31c84c0179836e72b9f966bbb3cff16b99eb213af69fa612-caja_arequipa.jpg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre        | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :------------ | :--------------- | :-------------------- | :------------------- |
+| Caja Arequipa | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -97,9 +97,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                           | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :--------------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/84fbb04dceecab39255665370c5d714fb3e31b8076e557f74f06edff1de5d097-Interbank_Logo.jpg) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre    | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :-------- | :--------------- | :-------------------- | :------------------- |
+| Interbank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -113,9 +113,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                 | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/65972230c1e872de4871b6c5d0a61002f73ddce16ee5c518c5ce8a19c54bd4d9-logo.png) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----- | :--------------- | :-------------------- | :------------------- |
+| Niubiz | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
@@ -129,9 +129,9 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 ### Especificaciones
 
-| Nombre                                                                                                   | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------------------------------------------------------------------------------------------------- | :--------------- | :-------------------- | :------------------- |
-| ![](https://files.readme.io/ffd800983e4b623616ca205d058d21fb0bc4f67d865a54f0cddec5a6539e9d6b-images.png) | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----- | :--------------- | :-------------------- | :------------------- |
+| Tambo  | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
