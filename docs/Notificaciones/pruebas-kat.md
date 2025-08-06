@@ -7,6 +7,8 @@ metadata:
 ---
 ## Pruebas QR
 
+## QR con interfaz estándar (flujo completo)
+
 <HTMLBlock>{`
 <!DOCTYPE html>
 <html lang="es">
