@@ -1,8 +1,8 @@
 ---
 title: Cobertura en Perú
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Cobertura en Perú | ProntoPaga Docs
   description: >-
