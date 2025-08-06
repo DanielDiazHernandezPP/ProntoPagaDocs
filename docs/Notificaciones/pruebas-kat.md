@@ -7,38 +7,7 @@ metadata:
 ---
 ## Plugins
 
-\<Cards columns=\{2}>
-&#x20; \<Card title="Botón Yape v1" href="https\://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="\_blank">
-&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Botón Yape v1" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
-
-&#x20;   Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
-&#x20; \</Card>
-
-&#x20; \<Card title="Botón Yape: One Shot" href="https\://docs.prontopaga.com/docs/yape-one-shot#/" target="\_blank">
-&#x20;   \<img src="https\://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape: One Shot" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
-
-&#x20;   Integra pagos únicos con Botón Yape, versión web y mobile.
-&#x20; \</Card>
-\</Cards>
-
-\<Cards columns=\{1}>
-&#x20; \<Card title="Botón Yape v1" href="https\://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="\_blank">
-&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Botón Yape v1" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
-
-&#x20;   Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
-&#x20; \</Card>
-\</Cards>
-\<div style="display: flex; flex-direction: column; align-items: center;">
-&#x20; \<div style="width: 100%; max-width: 600px; margin-bottom: 20px;">
-&#x20;   \<a href="https\://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="\_blank" style="text-decoration: none; display: flex; align-items: center; background: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-&#x20;     \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Botón Yape v1" style="width: 40px; height: 40px; margin-right: 10px;" />
-&#x20;     \<div>
-&#x20;       \<h3 style="margin: 0; font-size: 18px;">Botón Yape v1\</h3>
-&#x20;       \<p style="margin: 5px 0 0; font-size: 14px;">Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.\</p>
-&#x20;     \</div>
-&#x20;   \</a>
-&#x20; \</div>
-
+<br />
 
 ## Pruebas QR
 
