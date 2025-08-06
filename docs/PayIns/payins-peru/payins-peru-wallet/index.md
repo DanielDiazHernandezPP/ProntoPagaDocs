@@ -53,7 +53,7 @@ A continuación, encontrarás las modalidades de pago disponibles para procesar 
 
 ## Pagos de tipo afiliación
 
-A continuación, encontrarás las modalidades de pago disponibles para procesar pagos de tipo afiliación, junto con su guía de integración.
+A continuación, podrás encontrar las modalidades de pago disponibles para procesar pagos de tipo afiliación, junto con su guía de integración.
 
 <Cards columns={2}>
   <Card href="https://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="_blank">
