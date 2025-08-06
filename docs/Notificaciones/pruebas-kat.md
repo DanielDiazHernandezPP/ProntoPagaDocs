@@ -21,7 +21,7 @@ metadata:
   </Card>
 </Cards>
 
-<Cards columns={2}>
+<div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: '20px' }}>
   <Card title="Botón Yape v1" href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
     <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Botón Yape v1" style={{ width: '40px', height: '40px', marginRight: '10px' }} />
 
@@ -33,7 +33,15 @@ metadata:
 
     Integra pagos únicos con Botón Yape, versión web y mobile.
   </Card>
-</Cards>
+
+  <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+    <Card title="Nueva Tarjeta" href="https://docs.prontopaga.com/docs/yape-one-shot#/" target="_blank">
+      <img src="https://placekitten.com/40/40" alt="Nueva Tarjeta" style={{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+      Descripción de la nueva tarjeta centrada en la parte inferior.
+    </Card>
+  </div>
+</div>
 
 ## Pruebas QR
 
