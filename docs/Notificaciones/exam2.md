@@ -49,7 +49,7 @@ Puedes encontrar la cobertura en:
         alt="Chile Flag" 
         style={{ width: '10px', height: 'auto', marginRight: '4px' }}
       />
-      Chile
+       Chile
     </span>
   }
 >
