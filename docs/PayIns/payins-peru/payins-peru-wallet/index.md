@@ -49,6 +49,8 @@ En Perú, contamos con distintas modalidades de pago por medio de la wallet Yape
   </Card>
 </Cards>
 
+***
+
 ## Pagos de tipo afiliación
 
 <Cards columns={2}>
