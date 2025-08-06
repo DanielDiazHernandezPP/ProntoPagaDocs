@@ -24,7 +24,7 @@ metadata:
 </Cards>
 
 <HTMLBlock>{`
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+<div style="display: flex; justify-content: center; align-items: center;">
   <Cards columns={1}>
     <Card href="https://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="_blank">
       <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Yape On File: One Click Payments" style="width: 40px; height: 40px; margin-bottom: 0px;" />
@@ -34,6 +34,8 @@ metadata:
   </Cards>
 </div>
 `}</HTMLBlock>
+
+<br />
 
 <br />
 
