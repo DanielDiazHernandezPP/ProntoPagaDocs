@@ -47,7 +47,7 @@ Puedes encontrar la cobertura en:
     <img 
       src="https://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag_of_Chile.svg.png" 
       alt="Chile Flag" 
-      style={{ width: '16px', height: 'auto', marginRight: '8px' }} 
+      style={{ width: '10px', height: 'auto', marginRight: '8px' }} 
     />
     🇨🇱 Chile
   </span>
