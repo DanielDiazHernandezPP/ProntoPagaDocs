@@ -46,11 +46,11 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <br />
 
-<br />
+<Image align="center" src="https://files.readme.io/0a3c6ce890a44d81d6d832d26dffa484af540dd475751964867802967698b7ee-62e3cccfd889babae63d7512_1.png" />
 
-<br />
+<Image align="center" src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" />
 
-<br />
+<Image align="center" src="https://files.readme.io/8d699661f5c1917560db8fb08ec0d4aa366ab62ed9f8482d6902d34315265307-Logo_rebel_1.png" />
 
 <br />
 
