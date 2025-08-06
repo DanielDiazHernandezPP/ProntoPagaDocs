@@ -382,6 +382,7 @@ Puedes encontrar la cobertura en:
 <details>
   <summary>🇧🇷 Brasil</summary>
   <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
+
   <div style="text-align: center;">
     <img
       src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
@@ -392,6 +393,7 @@ Puedes encontrar la cobertura en:
   </div>
 </details>
 
+<!-- Modal -->
 <div id="myModal" class="modal">
   <div class="modal-content">
     <img
