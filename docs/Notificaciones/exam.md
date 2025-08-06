@@ -35,8 +35,6 @@ Puedes encontrar la cobertura en:
   </div>
 </Accordion>
 
-<br />
-
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Brasil</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
