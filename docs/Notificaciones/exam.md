@@ -55,6 +55,7 @@ Puedes encontrar la cobertura en:
             border-radius: 5px;
             margin: 5px 0;
         }
+
         .accordion:hover {
             background-color: #ddd;
         }
@@ -82,6 +83,15 @@ Puedes encontrar la cobertura en:
             width: 100%;
         }
 
+        /* Modal */
+        #modal {
+            display: none;
+        }
+
+        #modal:checked + #myModal {
+            display: block;
+        }
+
         #myModal {
             display: none;
             position: fixed;
@@ -105,16 +115,15 @@ Puedes encontrar la cobertura en:
 
         .close {
             color: #aaa;
-            float: right;
             font-size: 28px;
             font-weight: bold;
+            cursor: pointer;
+            float: right;
         }
 
         .close:hover,
         .close:focus {
             color: black;
-            text-decoration: none;
-            cursor: pointer;
         }
     </style>
 </head>
@@ -125,47 +134,20 @@ Puedes encontrar la cobertura en:
         <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
 
         <div class="image-container">
-            <img id="imageToOpen" src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage" />
+            <label for="modal" style="cursor: pointer;">
+                <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage" />
+            </label>
         </div>
     </div>
 
+    <!-- Checkbox control para el modal -->
+    <input type="checkbox" id="modal" style="display: none;">
     <div id="myModal">
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <label for="modal" class="close">&times;</label>
             <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage" style="width: 100%; height: auto;">
         </div>
     </div>
-
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        for (var i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                panel.style.display = panel.style.display === "block" ? "none" : "block";
-            });
-        }
-
-        var modal = document.getElementById("myModal");
-        var img = document.getElementById("imageToOpen");
-        var modalImg = modal.getElementsByTagName("img")[0];
-        var span = document.getElementsByClassName("close")[0];
-
-        img.onclick = function() {
-            modal.style.display = "block";
-            modalImg.src = this.src;
-        }
-
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function(event) {
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
 
 </body>
 </html>
