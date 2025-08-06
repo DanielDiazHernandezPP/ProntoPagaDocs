@@ -44,7 +44,7 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Image align="center" width="100px" src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" />
 
-<br />
+<Image align="center" src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" />
 
 <Image align="center" src="https://files.readme.io/0a3c6ce890a44d81d6d832d26dffa484af540dd475751964867802967698b7ee-62e3cccfd889babae63d7512_1.png" />
 
