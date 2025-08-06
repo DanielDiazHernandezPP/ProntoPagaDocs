@@ -365,20 +365,12 @@ prueba 3
 # prueba para página de wallet en Perú
 
 <Cards columns={4}>
-  <Card title="Botón Yape v1" href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" icon="🇵🇪" target="_blank">
+  <Card title="Botón Yape v1" href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" icon="fa-chisel fa-regular fa-money-bill-wave🇪" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
   <Card title="Second Card" icon="fa-user">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
-
-  <Card title="Third Card" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Card>
-
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
   </Card>
 </Cards>
 
