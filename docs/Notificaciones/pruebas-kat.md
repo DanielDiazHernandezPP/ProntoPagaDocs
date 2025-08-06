@@ -7,48 +7,34 @@ metadata:
 ---
 ## Plugins
 
-\<Cards columns=\{2}>
-&#x20; \<Card href="https\://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="\_blank">
-&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Yape On File: One Click Payments" style=\{\{ width: '40px', height: '40px', marginBottom: '0px' }} />
+<br />
 
-&#x20;   \<h3>Yape On File: One Click Payments\</h3>
-&#x20;   Realiza afiliaciones para que tus clientes puedan realizar pagos posteriores en un solo clic.
-&#x20; \</Card>
+<Cards columns={3}>
+  <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
+    <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Botón Yape v1" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
 
-&#x20; \<Card href="https\://docs.prontopaga.com/docs/yape-on-file-recurrent#/" target="\_blank">
-&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Yape On File: Recurrencia" style=\{\{ width: '40px', height: '40px', marginBottom: '0px' }} />
+    <h3>Botón Yape v1</h3>
+    Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
+  </Card>
 
-&#x20;   \<h3>Yape On File: Recurrencia\</h3>
-&#x20;   Configura pagos recurrentes para los planes de suscripción que ofrece tu comercio.
-&#x20; \</Card>
-\</Cards>
+  <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
+    <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Botón Yape v1" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
 
-\<Cards columns=\{1}>
-&#x20; \<Card href="https\://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="\_blank">
-&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Yape On File: One Click Payments" style=\{\{ width: '40px', height: '40px', margin-bottom: '0px' }} />
+    <h3>Botón Yape v1</h3>
+    Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
+  </Card>
 
-&#x20;   \<h3>Yape On File: One Click Payments\</h3>
-&#x20;   Realiza afiliaciones para que tus clientes puedan realizar pagos posteriores en un solo clic.
-&#x20; \</Card>
-\</Cards>
+  <Card href="https://docs.prontopaga.com/docs/yape-one-shot#/" target="_blank">
+    <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Botón Yape: One Shot" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
 
-<HTMLBlock>{`
-<Cards columns={1}>
-  <Card href="https://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="_blank">
-    <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Yape On File: One Click Payments" style={{ width: '40px', height: '40px', margin-bottom: '0px' }} />
-
-    <h3>Yape On File: One Click Payments</h3>
-    Realiza afiliaciones para que tus clientes puedan realizar pagos posteriores en un solo clic.
+    <h3>Botón Yape: One Shot</h3>
+    Integra pagos únicos con Botón Yape, versión web y mobile.
   </Card>
 </Cards>
-`}</HTMLBlock>
 
 <br />
 
 <br />
-
-```
-```
 
 <br />
 
