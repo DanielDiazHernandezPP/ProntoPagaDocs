@@ -247,3 +247,5 @@ Puedes encontrar la cobertura en:
 </Accordion>
 
 ***
+
+<Image align="center" alt="Coverage in Chile" src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png" />
