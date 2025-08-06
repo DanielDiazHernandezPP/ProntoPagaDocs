@@ -3,7 +3,7 @@ title: Conoce los puntos físicos de pago
 deprecated: false
 hidden: false
 metadata:
-  title: Conoce los puntos físicos de pago | ProntoPaga Docs
+  title: Conoce los puntos físicos de pago en Perú | ProntoPaga Docs
   description: >-
     Customers in Peru can pay in cash at physical points of BBVA, BCP, Yape,
     Scotiabank, Caja Arequipa, Interbank, Niubiz, Tambo, Western Union, BanBif,
