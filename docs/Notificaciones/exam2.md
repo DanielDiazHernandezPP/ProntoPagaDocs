@@ -1,6 +1,6 @@
 ---
 title: Cobertura por país
-excerpt: Conoce la cobertura por país donde ProntoPaga opera.
+excerpt: Conoce la cobertura en los países donde ProntoPaga opera.
 deprecated: false
 hidden: true
 metadata:
