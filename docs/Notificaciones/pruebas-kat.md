@@ -13,21 +13,21 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Cards columns={3}>
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
-    <img src="https://files.readme.io/78df363cf2ad4475247110eeb90f01bb65d460ba35e64bb1fa3522786854e1c0-prestashop_2.png" alt="PrestaShop" style={{ width: '90px', height: '40px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/78df363cf2ad4475247110eeb90f01bb65d460ba35e64bb1fa3522786854e1c0-prestashop_2.png" alt="PrestaShop" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
     <h3>PrestaShop</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
-    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '90px', height: '40px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
     <h3>VTEX</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/yape-one-shot#/" target="_blank">
-    <img src="https://files.readme.io/57d885272860137bab59027756f4d031a8b0179f2ce91142ba94b7f2753e075e-pngwing.com.png" alt="Botón Yape: One Shot" style={{ width: '90px', height: '40px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/57d885272860137bab59027756f4d031a8b0179f2ce91142ba94b7f2753e075e-pngwing.com.png" alt="Botón Yape: One Shot" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
     <h3>WooCommerce</h3>
     Consulta su Guía de instalación y configuración aquí.
