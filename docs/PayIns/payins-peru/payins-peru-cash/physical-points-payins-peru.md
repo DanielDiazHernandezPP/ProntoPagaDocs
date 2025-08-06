@@ -5,13 +5,27 @@ hidden: false
 metadata:
   title: Conoce los puntos físicos de pago | ProntoPaga Docs
   description: >-
-    Customers in Ecuador can pay in cash at physical points of Red
-    Activa/Western Union, Ponle más, and Bemovil, with specific limits and
-    expiration times, and the merchant will receive notifications of payment
-    status via webhook.
+    Customers in Peru can pay in cash at physical points of BBVA, BCP, Yape,
+    Scotiabank, Caja Arequipa, Interbank, Niubiz, Tambo, Western Union, BanBif,
+    KasNet, Ya Ganaste, and Red Digital with specific limits and expiration
+    times, and the merchant will receive notifications of payment status via
+    webhook.
   image: >-
     https://files.readme.io/c11524f16581cbf603aaeac7f205d2d0474fce0112adea42b42239509412168b-Prontopaga_Logotipo.JPG
   keywords:
+    - BBVA Perú
+    - BCP Perú
+    - Yape Perú
+    - Scotiabank Perú
+    - Caja Arequipa Perú
+    - Interbank Perú
+    - Niubiz Perú
+    - Tambo Perú
+    - Western Union Perú
+    - BanBif Perú
+    - KasNet Perú
+    - Ya Ganaste Perú
+    - Red Digital Perú
     - physical points
     - pagos en cash Perú
     - pay in cash Prontopaga
