@@ -1,8 +1,8 @@
 ---
 title: Cobertura en Brasil
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Cobertura en Brasil | ProntoPaga Docs
   description: >-
