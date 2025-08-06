@@ -27,7 +27,7 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/yape-one-shot#/" target="_blank">
-    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="Botón Yape: One Shot" style={{ width: '120px', height: '40px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="Botón Yape: One Shot" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>WooCommerce</h3>
     Consulta su Guía de instalación y configuración aquí.
