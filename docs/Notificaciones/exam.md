@@ -41,7 +41,7 @@ Puedes encontrar la cobertura en:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accordion con Modal</title>
+    <title>Accordion con Enlace</title>
     <style>
         .accordion {
             background-color: #f1f1f1;
@@ -55,7 +55,6 @@ Puedes encontrar la cobertura en:
             border-radius: 5px;
             margin: 5px 0;
         }
-
         .accordion:hover {
             background-color: #ddd;
         }
@@ -75,55 +74,7 @@ Puedes encontrar la cobertura en:
         img {
             width: 80%;
             max-width: 1000px;
-            transition: all 0.4s ease;
             cursor: pointer;
-        }
-
-        img:hover {
-            width: 100%;
-        }
-
-        /* Modal */
-        #modal {
-            display: none;
-        }
-
-        #modal:checked + #myModal {
-            display: block;
-        }
-
-        #myModal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        .modal-content {
-            margin: 15% auto;
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 1000px;
-        }
-
-        .close {
-            color: #aaa;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            float: right;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
         }
     </style>
 </head>
@@ -134,18 +85,9 @@ Puedes encontrar la cobertura en:
         <p>A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.</p>
 
         <div class="image-container">
-            <label for="modal" style="cursor: pointer;">
-                <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage" />
-            </label>
-        </div>
-    </div>
-
-    <!-- Checkbox control para el modal -->
-    <input type="checkbox" id="modal" style="display: none;">
-    <div id="myModal">
-        <div class="modal-content">
-            <label for="modal" class="close">&times;</label>
-            <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage" style="width: 100%; height: auto;">
+            <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
+                <img src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" alt="Brasil Coverage">
+            </a>
         </div>
     </div>
 
