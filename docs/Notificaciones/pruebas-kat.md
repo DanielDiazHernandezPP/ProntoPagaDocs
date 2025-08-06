@@ -23,20 +23,21 @@ metadata:
   </Card>
 </Cards>
 
-<br />
-
 <HTMLBlock>{`
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <div style="width: 100%; max-width: 600px; margin-bottom: 20px;">
-    <a href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank" style="text-decoration: none; display: flex; align-items: center; background: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-      <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Botón Yape v1" style="width: 40px; height: 40px; margin-right: 10px;" />
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; width: 100%; max-width: 600px; margin: 0 auto;">
+  <div>
+    <a href="https://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="_blank" style="text-decoration: none; display: flex; align-items: center; background: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Yape On File: One Click Payments" style="width: 40px; height: 40px; margin-bottom: 0px;"/>
       <div>
-        <h3 style="margin: 0; font-size: 18px;">Botón Yape v1</h3>
-        <p style="margin: 5px 0 0; font-size: 14px;">Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.</p>
+        <h3 style="margin: 0; font-size: 18px;">Yape On File: One Click Payments</h3>
+        <p style="margin: 5px 0 0; font-size: 14px;">Realiza afiliaciones para que tus clientes puedan realizar pagos posteriores en un solo clic.</p>
       </div>
     </a>
   </div>
+</div>
 `}</HTMLBlock>
+
+<br />
 
 <br />
 
