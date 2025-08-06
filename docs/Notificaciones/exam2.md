@@ -43,15 +43,15 @@ Puedes encontrar la cobertura en:
 
 <Accordion
   title={
-  <span style={{ fontSize: '20px', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
-    <img 
-      src="https://files.readme.io/cd6a472804bb188b1132d591ff48b2b9d65dabcdd44345618867a2786848395c-Flag_of_Chile.svg_1.png" 
-      alt="Chile Flag" 
-      style={{ width: '10px', height: 'auto', marginRight: '8px' }} 
-    />
-     Chile
-  </span>
-}
+    <span style={{ fontSize: '20px', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center' }}>
+      <img 
+        src="https://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag_of_Chile.svg.png" 
+        alt="Chile Flag" 
+        style={{ width: '10px', height: 'auto', marginRight: '8px' }} 
+      />
+      Chile
+    </span>
+  }
 >
   A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
 
