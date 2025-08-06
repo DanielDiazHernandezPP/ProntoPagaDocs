@@ -39,6 +39,8 @@ Puedes encontrar la cobertura en:
 
 <br />
 
+<br />
+
 <Accordion
   title={
   <span style={{ fontSize: '20px', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
