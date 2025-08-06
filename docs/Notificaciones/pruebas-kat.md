@@ -7,10 +7,6 @@ metadata:
 ---
 ## Pruebas para página de cobertura
 
-<Accordion title="Argentina" icon="fa-info-circle">
-  A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
-</Accordion>
-
 <HTMLBlock>{`
 <details>
   <summary>🇧🇷 Brasil</summary>
