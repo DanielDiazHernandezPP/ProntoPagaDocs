@@ -13,7 +13,7 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Cards columns={3}>
   <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
-    <img src="https://files.readme.io/13d79cb7fb4fb6c27c991eb88f0f264ccc65fb2b2e8d9fcda843ca18a0d21765-WOOCOMMERCE.png" alt="Woocommerce" style={{ width: '80px', height: '40px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/13d79cb7fb4fb6c27c991eb88f0f264ccc65fb2b2e8d9fcda843ca18a0d21765-WOOCOMMERCE.png" alt="Woocommerce" style={{ width: '80px', height: '20px', marginBottom: '0px' }} />
 
     <h3>Botón Yape v1</h3>
     Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
