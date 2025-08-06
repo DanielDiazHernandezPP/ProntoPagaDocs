@@ -24,13 +24,7 @@ metadata:
 </details>
 `}</HTMLBlock>
 
-<br />
-
 <Accordion title="🇦🇷 Argentina">
-  A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
-</Accordion>
-
-<Accordion title="🇦🇷Argentina">
   A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
 
   <div style={{ textAlign: 'center', marginTop: '20px' }}>
