@@ -7,9 +7,7 @@ metadata:
 ---
 Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, con lo cual podrán ir a un punto físico de recaudo a hacer el pago. Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , nosotros te notificaremos sobre el estado del pago.
 
-<br />
-
-<Image align="center" width="650px" src="https://files.readme.io/3ac1441fcab67687abbb4085cc4ad6e4899adb4464ba08658dc02aefa4147443-Captura_de_pantalla_2025-08-05_a_las_8.14.58_p.m..png" />
+<Image align="center" border={false} src="https://files.readme.io/3ac1441fcab67687abbb4085cc4ad6e4899adb4464ba08658dc02aefa4147443-Captura_de_pantalla_2025-08-05_a_las_8.14.58_p.m..png" width="650px" />
 
 ***
 
