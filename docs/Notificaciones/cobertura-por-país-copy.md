@@ -246,6 +246,40 @@ Puedes encontrar la cobertura en:
   </div>
 </Accordion>
 
+<br />
+
+<Accordion
+  title={
+    <span style={{ fontSize: '20px', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center' }}>
+      <img 
+        src="https://files.readme.io/46fe69bee4d0a32b89eabf64a238c05e9488aa0777437a0a2d7cc3882db89175-Flag_of_Chile.png" 
+        alt="Chile Flag" 
+        style={{ width: '10px', height: 'auto', marginLeft: '0', marginRight: '2px' }}  // Reducido el margen derecho
+      />
+      Chile
+    </span>
+  }
+>
+  A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png"
+      alt="Chile Coverage"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '80%')}
+    />
+  </div>
+</Accordion>
+
+<br />
+
 ***
 
 <Image align="center" alt="Coverage in Chile" src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png" />
