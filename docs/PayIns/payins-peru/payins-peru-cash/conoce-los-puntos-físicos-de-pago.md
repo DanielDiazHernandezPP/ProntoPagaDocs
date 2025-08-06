@@ -9,17 +9,13 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, c
 
 <br />
 
+<Image align="center" width="650px" src="https://files.readme.io/3ac1441fcab67687abbb4085cc4ad6e4899adb4464ba08658dc02aefa4147443-Captura_de_pantalla_2025-08-05_a_las_8.14.58_p.m..png" />
+
+***
+
+<br />
+
 ## BBVA
-
-<Image align="left" width="150px" src="https://files.readme.io/fe1f01c9b60d8b602ac541f95655c32c72a7209e945158efa492d5e4882f8d10-BBVA-Emblem.png" />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
 
 ### Ubicaciones
 
