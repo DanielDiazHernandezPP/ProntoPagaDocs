@@ -39,30 +39,32 @@ Puedes encontrar la cobertura en:
 
 <br />
 
-\<Accordion title=\{
-&#x20; \<span style=\{\{ fontSize: '20px', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
-&#x20;   \<img&#x20;
-&#x20;     src="https\://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag\_of\_Chile.svg.png"&#x20;
-&#x20;     alt="Chile Flag"&#x20;
-&#x20;     style=\{\{ width: '16px', height: 'auto', marginRight: '8px' }}&#x20;
-&#x20;   />
-&#x20;   Chile
-&#x20; \</span>
-}>
-&#x20; A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
+<Accordion
+  title={
+  <span style={{ fontSize: '20px', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
+    <img 
+      src="https://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag_of_Chile.svg.png" 
+      alt="Chile Flag" 
+      style={{ width: '16px', height: 'auto', marginRight: '8px' }} 
+    />
+    Chile
+  </span>
+}
+>
+  A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
 
-&#x20; \<div style=\{\{ textAlign: 'center' }}>
-&#x20;   \<img
-&#x20;     src="https\://path\_to\_your\_image.png"  // Reemplaza esto con la URL correcta de la imagen
-&#x20;     alt="Chile Coverage"
-&#x20;     style=\{\{
-&#x20;       width: '80%',
-&#x20;       maxWidth: '1000px',
-&#x20;       height: 'auto',
-&#x20;       transition: 'all 0.4s ease'
-&#x20;     }}
-&#x20;     onMouseOver=\{(e) => (e.target.style.width = '100%')}
-&#x20;     onMouseOut=\{(e) => (e.target.style.width = '80%')}
-&#x20;   />
-&#x20; \</div>
-\</Accordion>
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png"
+      alt="Chile Coverage"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '80%')}
+    />
+  </div>
+</Accordion>
