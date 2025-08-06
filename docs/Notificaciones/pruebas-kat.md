@@ -383,7 +383,7 @@ prueba 3
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/yape-one-shot#/" target="_blank">
-    <img src="https://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape: One Shot" style={{ width: '40px', height: '40px', marginBottom: '10px' }} />
+    <img src="https://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape: One Shot" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
 
     <h3>Botón Yape: One Shot</h3>
     Integra pagos únicos con Botón Yape, versión web y mobile.
