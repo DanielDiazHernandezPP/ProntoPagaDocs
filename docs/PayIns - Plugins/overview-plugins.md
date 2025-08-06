@@ -1,5 +1,5 @@
 ---
-title: Introducción
+title: Conoce nuestros plugins
 excerpt: ''
 deprecated: false
 hidden: false
