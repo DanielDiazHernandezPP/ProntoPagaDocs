@@ -34,15 +34,15 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 </Cards>
 
-<br />
+<Image align="center" src="https://files.readme.io/13d79cb7fb4fb6c27c991eb88f0f264ccc65fb2b2e8d9fcda843ca18a0d21765-WOOCOMMERCE.png" />
 
 <br />
 
-<br />
+<Image align="center" src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" />
 
 <br />
 
-<br />
+<Image align="center" src="https://files.readme.io/c48e4837a11586eda43c828678b9ff33375a59ba5ba65606c789ffe4246abe00-Prestashop.png" />
 
 <br />
 
