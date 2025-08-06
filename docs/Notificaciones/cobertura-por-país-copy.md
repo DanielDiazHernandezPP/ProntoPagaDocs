@@ -255,3 +255,5 @@ Puedes encontrar la cobertura en:
 <Image align="center" width="10px" src="https://files.readme.io/a95a518486d48bca158dc7b15e7fbd81a6baa181851968e0b07db3d5c9c4a83a-Flag_of_Brazil.svg.png" />
 
 <Image align="center" width="10px" src="https://files.readme.io/e22d9e09af81f6fe2a2f1b8348970be04e559550ff346e5d4a4fc2ac7260d0d6-Flag_of_Chile.svg.png" />
+
+<Image align="center" src="https://files.readme.io/cd6a472804bb188b1132d591ff48b2b9d65dabcdd44345618867a2786848395c-Flag_of_Chile.svg_1.png" />
