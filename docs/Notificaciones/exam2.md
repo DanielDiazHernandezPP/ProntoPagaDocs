@@ -16,16 +16,6 @@ Puedes encontrar la cobertura en:
 
 <br />
 
-<br />
-
-<h2 style={{ display: 'flex', alignItems: 'left' }}>
-  <img src="https://files.readme.io/46fe69bee4d0a32b89eabf64a238c05e9488aa0777437a0a2d7cc3882db89175-Flag_of_Chile.png" alt="Icon" style={{ width: '20px', height: 'auto' }} />
-
-  Brasil
-</h2>
-
-<br />
-
 <Accordion title={<span style={{ fontSize: '18px' }}>Conoce la cobertura en Brasil</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
