@@ -5,6 +5,35 @@ hidden: true
 metadata:
   robots: index
 ---
+## Plugins
+
+\<Cards columns=\{2}>
+&#x20; \<Card title="Botón Yape v1" href="https\://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="\_blank">
+&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Botón Yape v1" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+&#x20;   Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
+&#x20; \</Card>
+
+&#x20; \<Card title="Botón Yape: One Shot" href="https\://docs.prontopaga.com/docs/yape-one-shot#/" target="\_blank">
+&#x20;   \<img src="https\://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape: One Shot" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+&#x20;   Integra pagos únicos con Botón Yape, versión web y mobile.
+&#x20; \</Card>
+\</Cards
+\<Cards columns=\{2}>
+&#x20; \<Card title="Botón Yape v1" href="https\://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="\_blank">
+&#x20;   \<img src="https\://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png\_seeklogo-399697.png" alt="Botón Yape v1" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+&#x20;   Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame.
+&#x20; \</Card>
+
+&#x20; \<Card title="Botón Yape: One Shot" href="https\://docs.prontopaga.com/docs/yape-one-shot#/" target="\_blank">
+&#x20;   \<img src="https\://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" alt="Botón Yape: One Shot" style=\{\{ width: '40px', height: '40px', marginRight: '10px' }} />
+
+&#x20;   Integra pagos únicos con Botón Yape, versión web y mobile.
+&#x20; \</Card>
+\</Cards
+
 ## Pruebas QR
 
 ## QR con interfaz estándar (flujo completo)
