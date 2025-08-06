@@ -31,26 +31,25 @@ Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, dise
 
 Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
-<br />
+<Cards columns={3}>
+  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
+    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
-### 🧩 PrestaShop
+    <h3>PrestaShop</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
 
-Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/prestashop).
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
-<Image align="center" width="320px" src="https://files.readme.io/25c17c8c2e125e5eb175bb2335ac99e344dc97345dfc2b4512eca067eff7ca19-logo_prestashop.png" />
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
 
-<br />
+  <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
+    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
-### 🧩 VTEX
-
-Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/vtex).
-
-<Image align="center" width="300px" src="https://files.readme.io/7b22a59702d3dfd2e5aeacf37c8417ae48fe0eb876aa9d36f90cf3c9aea0e7fa-VTEX_Logo.svg.png" />
-
-<br />
-
-### 🧩 WooCommerce
-
-Consulta su Guía de instalación y configuración en [este enlace](https://docs.prontopaga.com/docs/woocommerce).
-
-<Image align="center" src="https://files.readme.io/97529e03f740ca262b79a67d48576abbc50993c1aca690acd6d9cfd405234f42-woocommerce_logo.png" />
+    <h3>WooCommerce</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+</Cards>
