@@ -62,7 +62,6 @@ Puedes encontrar la cobertura en:
         .panel {
             padding: 0 18px;
             display: none;
-            overflow: hidden;
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             margin-top: 10px;
