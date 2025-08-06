@@ -1,8 +1,8 @@
 ---
 title: Cobertura en Chile
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Cobertura en Chile | ProntoPaga Docs
   description: >-
