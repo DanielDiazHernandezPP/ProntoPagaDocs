@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Conoce los puntos físicos de pago | ProntoPaga Docs
+  title: Conoce los puntos físicos de pago en Ecuador | ProntoPaga Docs
   description: >-
     Customers in Ecuador can pay in cash at physical points of Red
     Activa/Western Union, Ponle más, and Bemovil, with specific limits and
