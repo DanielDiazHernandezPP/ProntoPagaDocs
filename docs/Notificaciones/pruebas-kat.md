@@ -5,6 +5,124 @@ hidden: true
 metadata:
   robots: index
 ---
+## Pruebas QR
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pago QR - Interfaz Estándar</title>
+  <style>
+    .tabs {
+      display: flex;
+      cursor: pointer;
+    }
+    .tabs div {
+      padding: 10px 20px;
+      background-color: #f1f1f1;
+      margin-right: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px 4px 0 0;
+    }
+    .tabs div:hover {
+      background-color: #ddd;
+    }
+    .tabs .active {
+      background-color: #008CBA;
+      color: white;
+      border-bottom: none;
+    }
+    .tab-content {
+      display: none;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-radius: 0 0 4px 4px;
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>QR con Interfaz Estándar - Flujo Completo</h1>
+
+  <div class="tabs">
+    <div class="tab" id="tab1">¿Cómo funciona?</div>
+    <div class="tab" id="tab2">Crea un nuevo pago</div>
+    <div class="tab" id="tab3">Firma de la transacción</div>
+    <div class="tab" id="tab4">Confirmación de un pago</div>
+    <div class="tab" id="tab5">Cancelar un pago con QR</div>
+  </div>
+
+  <div id="content1" class="tab-content">
+    <h2>¿Cómo funciona?</h2>
+    <p>Los pagos con QR son una forma de pago digital utilizada en Perú...</p>
+    <ul>
+      <li><strong>Selección de método:</strong> El cliente elige pagar con QR...</li>
+      <li><strong>Generación del QR:</strong> ProntoPaga le entrega un QR único...</li>
+      <li><strong>Pago en aplicación:</strong> El cliente escanea el código QR...</li>
+      <li><strong>Confirmación:</strong> El cliente recibe una confirmación...</li>
+    </ul>
+  </div>
+
+  <div id="content2" class="tab-content">
+    <h2>Crea un nuevo pago</h2>
+    <p>Tu front-end será el encargado de recopilar los datos necesarios...</p>
+    <pre>
+      JSON
+      {
+        "currency": "PEN",
+        "country": "PE",
+        "amount": "100.90",
+        "clientName": "John Doe",
+        ...
+      }
+    </pre>
+  </div>
+
+  <div id="content3" class="tab-content">
+    <h2>Firma de la transacción</h2>
+    <p>Para firmar los parámetros de la transacción, usa tu secretKey...</p>
+  </div>
+
+  <div id="content4" class="tab-content">
+    <h2>Confirmación de un pago</h2>
+    <p>Una vez completado el pago, recibirás los datos de la transacción...</p>
+  </div>
+
+  <div id="content5" class="tab-content">
+    <h2>Cancelar un pago con QR</h2>
+    <p>Si un cliente generó un QR pero no realizó el pago...</p>
+  </div>
+
+  <script>
+    document.querySelectorAll('.tab').forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        // Remover la clase 'active' de todas las pestañas
+        document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+        // Agregar la clase 'active' a la pestaña seleccionada
+        tab.classList.add('active');
+        
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        // Mostrar el contenido correspondiente a la pestaña seleccionada
+        document.getElementById('content' + (index + 1)).classList.add('active');
+      });
+    });
+
+    document.querySelector('.tab').classList.add('active');
+    document.getElementById('content1').classList.add('active');
+  </script>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+<br />
+
 ## Pruebas para página de cobertura
 
 <HTMLBlock>{`
