@@ -68,7 +68,3 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
     />
   </div>
 </Accordion>
-
-<br />
-
-***
