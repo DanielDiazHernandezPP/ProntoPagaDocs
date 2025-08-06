@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Introducción de plugins | ProntoPaga Docs
+  title: Conoce nuestros plugins | ProntoPaga Docs
   description: >-
     ProntoPaga is developing payment plugins for e-commerce platforms, and has
     already available installation and configuration guides for their
