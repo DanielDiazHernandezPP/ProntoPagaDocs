@@ -45,7 +45,7 @@ Puedes encontrar la cobertura en:
   title={
     <span style={{ fontSize: '20px', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center' }}>
       <img 
-        src="https://files.readme.io/cd6a472804bb188b1132d591ff48b2b9d65dabcdd44345618867a2786848395c-Flag_of_Chile.svg_1.png" 
+        src="https://files.readme.io/46fe69bee4d0a32b89eabf64a238c05e9488aa0777437a0a2d7cc3882db89175-Flag_of_Chile.png" 
         alt="Chile Flag" 
         style={{ width: '10px', height: 'auto', marginRight: '8px' }} 
       />
