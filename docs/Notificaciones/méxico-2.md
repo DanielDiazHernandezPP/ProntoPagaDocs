@@ -1,7 +1,7 @@
 ---
 title: Cobertura en México
 excerpt: ''
-deprecated: false
+deprecated: true
 hidden: true
 metadata:
   title: Cobertura en México | ProntoPaga Docs
