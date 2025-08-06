@@ -171,7 +171,7 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 <br />
 
-## Red Activa / WesternUnion
+## WesternUnion
 
 ### Ubicaciones
 
@@ -179,9 +179,9 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre                    | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------------------ | :--------------- | :-------------------- | :------------------- |
-| Red Activa / WesternUnion | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre       | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :----------- | :--------------- | :-------------------- | :------------------- |
+| WesternUnion | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
 
