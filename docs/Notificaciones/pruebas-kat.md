@@ -19,14 +19,14 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 
-  <Card href="https://docs.prontopaga.com/docs/bot%C3%B3n-yape#/" target="_blank">
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
     <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
     <h3>VTEX</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 
-  <Card href="https://docs.prontopaga.com/docs/yape-one-shot#/" target="_blank">
+  <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
     <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="Botón Yape: One Shot" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>WooCommerce</h3>
