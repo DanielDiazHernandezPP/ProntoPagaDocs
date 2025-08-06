@@ -97,7 +97,6 @@ next:
 </head>
 <body>
 
-  <!-- Acordeón de Brasil -->
   <details>
     <summary style="background-color: #FC2B5F; color: white; padding: 10px 20px; font-size: 1.5rem; font-weight: bold; border-radius: 5px; cursor: pointer;">
       <!-- El emoji + texto "Brasil" dentro del mismo fondo rosado -->
@@ -105,7 +104,6 @@ next:
     </summary>
     <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
 
-    <!-- Imagen con alt="Brasil Coverage" -->
     <div style="text-align: center; margin-top: 20px;">
       <img 
         src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
