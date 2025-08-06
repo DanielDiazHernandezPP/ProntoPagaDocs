@@ -53,6 +53,8 @@ A continuación, encontrarás las modalidades de pago disponibles para procesar 
 
 ## Pagos de tipo afiliación
 
+A continuación, encontrarás las modalidades de pago disponibles para procesar pagos de tipo afiliación, junto con su guía de integración.
+
 <Cards columns={2}>
   <Card href="https://docs.prontopaga.com/docs/yape-on-file-ocp#/" target="_blank">
     <img src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" alt="Yape On File: One Click Payments" style={{ width: '40px', height: '40px', marginBottom: '0px' }} />
