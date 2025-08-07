@@ -1,5 +1,5 @@
 ---
-title: Retiros por Transferencia (retiros instantáneos)
+title: Retiros instantáneos por Transferencia
 excerpt: ''
 deprecated: false
 hidden: false
