@@ -47,8 +47,6 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
-
     <h3>VTEX</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
