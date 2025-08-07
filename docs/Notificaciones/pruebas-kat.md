@@ -34,6 +34,19 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 </Cards>
 
+<br />
+
+<Cards columns={1}>
+  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
+    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>PrestaShop</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+</Cards>
+
+<br />
+
 <Image align="center" width="100px" src="https://files.readme.io/3a3e686276c9c7fab0dc0141e3d54acb3ac6df6da8927c9d542647122dc0d5f0-62e3cccfd889babae63d7512.png" />
 
 <Image align="center" width="100px" src="https://files.readme.io/78df363cf2ad4475247110eeb90f01bb65d460ba35e64bb1fa3522786854e1c0-prestashop_2.png" />
