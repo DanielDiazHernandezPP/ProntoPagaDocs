@@ -39,10 +39,33 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 <br />
 
 <Cards columns={7}>
-  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
-    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
 
-    <h3>PrestaShop</h3>
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <h3>VTEX</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 
