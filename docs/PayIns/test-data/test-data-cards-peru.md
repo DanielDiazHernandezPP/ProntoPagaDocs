@@ -32,13 +32,9 @@ next:
 
 ***
 
-<br />
-
 ## Tarjetas
 
 Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en Perú.
-
-<br />
 
 ### Casos Exitosos
 
@@ -51,17 +47,13 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Venta exitosa – foránea          | 4485412049751046 | 03/2028   | 111 | 000              |
 | Venta exitosa – afiliación a REC | 4474104525811674 | 03/2028   | 111 | 000              |
 
-<br />
-
-#### Master Card
+#### MasterCard
 
 | Escenario                        | Número           | Mes / año | CVV | Código de acción |
 | :------------------------------- | :--------------- | :-------- | :-- | :--------------- |
 | Venta exitosa – con cuotas       | 5160030000000317 | 03/2028   | 111 | 000              |
 | Venta exitosa – sin cuotas       | 5455460920094260 | 03/2028   | 111 | 000              |
 | Venta exitosa – afiliación a REC | 5443599980000447 | 03/2028   | 111 | 000              |
-
-<br />
 
 ### Casos denegados
 
@@ -85,9 +77,7 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 | Contactar emisor                         | 4539676788512233 | 03/2028   | 111 | 191              |
 | Afiliación a REC no exitosa              | 4474103791846547 | 03/2028   | 111 | 0                |
 
-<br />
-
-#### Master card
+#### MasterCard
 
 | Escenario                                | Número           | Mes / año | CVV | Código de acción |
 | :--------------------------------------- | :--------------- | :-------- | :-- | :--------------- |
@@ -108,8 +98,6 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
 
 ***
 
-<br />
-
 ## Paga con tu banco
 
 Datos para pruebas en el servicio Paga con tu banco de Perú.
@@ -119,8 +107,6 @@ Datos para pruebas en el servicio Paga con tu banco de Perú.
 | Banco BCP | 11111111 | 1234  | 1111222233334444  | 123456        | 123456 |
 
 ***
-
-<br />
 
 ## Botón Yape
 
