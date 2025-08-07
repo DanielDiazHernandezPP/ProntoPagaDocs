@@ -49,3 +49,9 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 > Una vez que el usuario haya completado el proceso de retiro, ProntoPaga devolverá los datos a la URL que hayas especificado en la `confirmationURL`.
 
 ***
+
+> 🚧 Número de caracteres
+>
+> Ten en cuenta que, al obtener una transacción exitosa, el campo `reference` puede contener hasta 20 caracteres.
+
+***
