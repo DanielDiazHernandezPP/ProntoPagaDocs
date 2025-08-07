@@ -86,3 +86,7 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 > En el parámetro `bankCode`debe enviarse el código del banco al cual se enviará el PayOut. Conoce la **lista completa de códigos bancarios** en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer).
 
 ***
+
+> 📘 Número de caracteres
+>
+> Ten en cuenta que, al obtener una transacción exitosa, el campo `reference` puede contener hasta 20 caracteres.
