@@ -90,3 +90,5 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 > 🚧 Número de caracteres
 >
 > Ten en cuenta que, al obtener una transacción exitosa, el campo `reference` puede contener hasta 20 caracteres.
+
+***
