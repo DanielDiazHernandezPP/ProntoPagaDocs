@@ -40,31 +40,31 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <Cards columns={7}>
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <h3>VTEX</h3>
+    VTEX
   </Card>
 </Cards>
 
