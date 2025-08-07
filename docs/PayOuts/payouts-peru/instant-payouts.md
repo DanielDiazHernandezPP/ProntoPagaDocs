@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Retiros por Transferencia (retiros instantáneos) | ProntoPaga Docs
+  title: Retiros instantáneos por Transferencia | ProntoPaga Docs
   description: >-
     To make an instant payout in Peru through ProntoPaga, capture the
     beneficiary's data and send a request to the API with a bearer token and
