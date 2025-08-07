@@ -63,3 +63,7 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 | 4              | Transacional |
 
 ***
+
+<NmeroDeCaracteres />
+
+***
