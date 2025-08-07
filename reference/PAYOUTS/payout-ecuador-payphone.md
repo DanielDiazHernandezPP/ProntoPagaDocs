@@ -60,6 +60,6 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 
 > 📘 Estados
 >
-> Payphone solo utiliza el estado "success" y "canceled" ya que son pagos instantáneos.
+> Payphone solo utiliza el estado **success** y **canceled** ya que son pagos instantáneos.
 
 ***
