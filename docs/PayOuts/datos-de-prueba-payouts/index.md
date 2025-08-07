@@ -1,5 +1,5 @@
 ---
-title: Datos de prueba (PayOuts)
+title: Datos de prueba (payouts)
 excerpt: Conoce los datos para realizar pruebas de payouts.
 deprecated: false
 hidden: true
