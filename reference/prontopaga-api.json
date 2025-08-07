@@ -3309,7 +3309,12 @@
               "application/json": {
                 "examples": {
                   "Peru InstantPayout": {
-                    "value": "{\n    \"uid\": \"Payout identifier in the system\",\n    \"status\": \"new\",\n    \"data\": \"1234\",\n    \"reference\": 3456789012\n}"
+                    "value": {
+                      "uid": "01K23CBXF8FGDQZ9FYGE6JVZD6",
+                      "status": "new",
+                      "data": "8770009",
+                      "reference": 15236987654312300000
+                    }
                   },
                   "Chile Transfer": {
                     "summary": "Chile Transfer",
