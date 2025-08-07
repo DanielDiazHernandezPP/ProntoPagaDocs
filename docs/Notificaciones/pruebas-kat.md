@@ -36,6 +36,26 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <br />
 
+<br />
+
+<Cards columns={2}>
+  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
+    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>PrestaShop</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+</Cards>
+
+<br />
+
 <Cards columns={1}>
   <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
     <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
