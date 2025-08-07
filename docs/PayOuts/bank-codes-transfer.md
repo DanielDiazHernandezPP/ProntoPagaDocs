@@ -28,8 +28,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
 
 ***
 
-<br />
-
 ## Brasil
 
 ```json
@@ -42,8 +40,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
 ```
 
 ***
-
-<br />
 
 ## Chile
 
@@ -161,8 +157,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
 ```
 
 ***
-
-<br />
 
 ## Ecuador
 
@@ -420,8 +414,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
 ```
 
 ***
-
-<br />
 
 ## Perú
 
