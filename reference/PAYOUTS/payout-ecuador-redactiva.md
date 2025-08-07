@@ -48,3 +48,9 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 > 📘 Webhook
 >
 > Una vez que el usuario haya completado el proceso de retiro, ProntoPaga devolverá los datos a la URL que hayas especificado en la `confirmationURL`.
+
+***
+
+<NmeroDeCaracteres />
+
+***
