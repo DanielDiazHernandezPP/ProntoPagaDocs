@@ -3314,9 +3314,10 @@
                   "Chile Transfer": {
                     "summary": "Chile Transfer",
                     "value": {
-                      "uid": "16222883082839",
+                      "uid": "01K23C46KPG8XV401JT965045W",
                       "status": "new",
-                      "data": "12111"
+                      "data": "134040056",
+                      "reference": 15230173276500170000
                     }
                   },
                   "Ecuador Transfer": {
