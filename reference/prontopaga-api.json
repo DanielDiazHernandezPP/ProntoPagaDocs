@@ -3322,9 +3322,10 @@
                   },
                   "Ecuador Transfer": {
                     "value": {
-                      "uid": "16222883082839",
+                      "uid": "01K23C9C3FSA5XZJADZ6T971X8",
                       "status": "new",
-                      "data": "12111"
+                      "data": "331000",
+                      "reference": 15235009876432234000
                     },
                     "summary": "Ecuador Transfer"
                   }
