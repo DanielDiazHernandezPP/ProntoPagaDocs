@@ -36,8 +36,6 @@ A continuación, puedes encontrar información detallada de cómo hacer retiros 
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Transferencia (Retiros Instantáneos) es una forma de retirar fondos en Perú mediante transferencias entre cuentas bancarias e interbancarias. Para completar una transacción con este método, el cliente debe seleccionar la opción "Transferencia bancaria", ingresar su número de cuenta bancaria, CCI, el tipo de cuenta, seleccionar el banco, y confirmar la operación.
@@ -53,15 +51,11 @@ El proceso de PayOut con transferencia (retiros instantáneos) en Perú consta d
 
 ***
 
-<br />
-
 ## Lista de bancos
 
 La lista de códigos bancarios para PayOuts de tipo transferencia la puedes encontrar en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer), dividida por países. El código bancario debe enviarse en el campo `bankCode` del endpoint de creación de un retiro.
 
 ***
-
-<br />
 
 ## Crear un nuevo retiro
 
@@ -95,8 +89,6 @@ Consulta el endpoint de [Crear un nuevo retiro](https://docs.prontopaga.com/refe
 
 <NotaWebhooks />
 
-<br />
-
 ### Posibles respuestas
 
 Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema, el estado del retiro y datos adicionales de la transacción.
@@ -119,8 +111,6 @@ Si la transacción es rechazada, recibirás esta respuesta similar a esta:
   "accountInterbank": "string accountInterbank, cannot be null"
 }
 ```
-
-<br />
 
 ### Motivos de rechazo
 
@@ -176,8 +166,6 @@ A continuación se muestran varios posibles casos de rechazo de un retiro, junto
 | 9948   | Servicio IPS suspendido                                     |
 | 9964   | Identificador de entidad invalido                           |
 
-<br />
-
 ### Confirmación de un retiro
 
 Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
@@ -185,8 +173,6 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
-
-<br />
 
 ### Webhook
 
@@ -208,21 +194,15 @@ Al finalizar una transacción exitosa, recibirás un webhook similar al ejemplo 
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
 
 ***
 
-<br />
-
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
-
-<br />
 
 ### Requisitos de certificación
 
