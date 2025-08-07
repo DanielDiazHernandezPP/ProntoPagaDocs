@@ -1,5 +1,5 @@
 ---
-title: Retiros con Wallet (retiros instantáneos)
+title: Retiros instantáneos con Wallet
 excerpt: ''
 deprecated: false
 hidden: false
