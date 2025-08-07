@@ -55,10 +55,6 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 
 Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
 
-> 🚧 Código bancario
->
-> En el parámetro `bankCode`debe enviarse el código del banco al cual se enviará el PayOut. Conoce la **lista completa de códigos bancarios** en [este artículo](https://docs.prontopaga.com/docs/bank-codes-transfer).
-
 ### Chile
 
 | Tipo de cuenta | Descripción |
@@ -84,6 +80,12 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 | :------------- | :---------- |
 | A              | Ahorros     |
 | C              | Corriente   |
+
+***
+
+## Código bancario
+
+En el parámetro `bankCode` debe enviarse el código del banco al cual se enviará el PayOut. Conoce la **lista completa de códigos bancarios** en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/bank-codes-transfer#/">este artículo</Anchor>.
 
 ***
 
