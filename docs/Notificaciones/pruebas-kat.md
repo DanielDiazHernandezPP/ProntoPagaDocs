@@ -36,7 +36,7 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
 <br />
 
-<br />
+## Listado de wallets
 
 <Cards columns={7}>
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
