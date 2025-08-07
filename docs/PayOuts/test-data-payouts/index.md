@@ -9,4 +9,4 @@ metadata:
 ---
 Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos, podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
-* Datos de prueba para Perú.
+* [Datos de prueba para Perú](https://docs.prontopaga.com/docs/test-data-peru-payouts#/).
