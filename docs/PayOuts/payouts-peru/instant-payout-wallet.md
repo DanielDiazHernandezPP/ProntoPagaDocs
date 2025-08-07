@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Retiros con Wallet (retiros instantáneos) | ProntoPaga Docs
+  title: Retiros instantáneos con Wallet | ProntoPaga Docs
   description: >-
     To make instant payouts to a wallet in Peru with ProntoPaga, you must
     capture the beneficiary's data and make a request through the API with a
