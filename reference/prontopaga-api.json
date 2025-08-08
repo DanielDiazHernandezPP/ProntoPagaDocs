@@ -4232,7 +4232,13 @@
               "application/json": {
                 "examples": {
                   "Result": {
-                    "value": "{\n    \"uid\": \"1JTTS9HV3FM20E5PASQQH062\",\n    \"reference\": \"17828338028892\",\n    \"data\": \"1-218711-ASL\",\n    \"status\": \"new\"\n}"
+                    "summary": "Result",
+                    "value": {
+                      "uid": "1JTTS9HV3FM20E5PASQQH062",
+                      "reference": "17828338028892379652",
+                      "data": "1-218711-ASL",
+                      "status": "new"
+                    }
                   }
                 },
                 "schema": {
