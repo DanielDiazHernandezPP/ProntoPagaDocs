@@ -1,5 +1,5 @@
 ---
-title: Datos de prueba Perú (payouts)
+title: Datos de prueba Perú (PayOuts)
 excerpt: >-
   Conoce los datos de prueba para retiros hacia wallets o por transferencia en
   Perú.
