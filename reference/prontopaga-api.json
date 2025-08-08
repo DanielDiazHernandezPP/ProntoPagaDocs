@@ -3704,8 +3704,15 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "Result": {
-                    "value": "{\n    \"uid\": \"01J4PG5MET5CV6BCAAA8HRFC00\",\n    \"status\": \"success\",\n    \"message\": \"WALLET | LUQEA\",\n    \"data\": \"1234\",\n    \"reference\": 8290123,\n    \"success\": 1\n}"
+                  "Result 1": {
+                    "summary": "Result 1",
+                    "value": {
+                      "uid": "01K254EM2MKWJSSP1WD41BV03Y",
+                      "status": "new",
+                      "data": "440106",
+                      "reference": 15262158908765430000,
+                      "luqea": true
+                    }
                   }
                 },
                 "schema": {
