@@ -3754,8 +3754,9 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "Result": {
-                    "value": "{\n    \"uid\": \"01J4PG5MET5CV6BAAAA8HRF000\",\n    \"status\": \"canceled\",\n    \"message\": \"Error interno, validaciones fallidas\",\n    \"data\": \"1234\",\n    \"reference\": 829000,\n    \"success\": 0\n}"
+                  "Unathorized": {
+                    "value": "{\n    \"uid\": \"01J4PG5MET5CV6BAAAA8HRF000\",\n    \"status\": \"canceled\",\n    \"message\": \"Error interno, validaciones fallidas\",\n    \"data\": \"1234\",\n    \"reference\": 829000,\n    \"success\": 0\n}",
+                    "summary": "Unathorized"
                   }
                 },
                 "schema": {
