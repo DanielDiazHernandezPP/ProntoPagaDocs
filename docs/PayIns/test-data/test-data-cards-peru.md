@@ -1,5 +1,5 @@
 ---
-title: Datos de prueba Perú (payins)
+title: Datos de prueba Perú (PayIns)
 excerpt: ''
 deprecated: false
 hidden: false
