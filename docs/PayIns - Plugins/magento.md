@@ -28,7 +28,7 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
 * Contar con una versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
-* Descargar previamente el archivo .zip del plugin
+* [Descargar previamente el archivo .zip del plugin](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp)
 
 ## Instalación
 
