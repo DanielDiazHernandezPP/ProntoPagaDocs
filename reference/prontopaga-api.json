@@ -4061,7 +4061,14 @@
               "application/json": {
                 "examples": {
                   "Result": {
-                    "value": "{\n    \"uid\": \"1JTTS9HV3FM20E5PASQQH062\",\n    \"reference\": \"17828338028892\",\n    \"data\": \"1-218711-ASL\",\n    \"status\": \"new\"\n}"
+                    "summary": "Result",
+                    "value": {
+                      "uid": "01K254Q9WN353D66H664WR81HB",
+                      "reference": "17546668708457003286",
+                      "data": "231114",
+                      "status": "new",
+                      "security_code": "80974049"
+                    }
                   }
                 },
                 "schema": {
