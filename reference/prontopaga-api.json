@@ -3917,10 +3917,13 @@
               "application/json": {
                 "examples": {
                   "Result": {
+                    "summary": "Result",
                     "value": {
-                      "uid": "16222883082839",
+                      "uid": "01K2551GZ49Z7XSPH17QN167AA",
                       "status": "new",
-                      "data": "12111"
+                      "data": "909103118",
+                      "reference": 15264002958731198000,
+                      "payphone": true
                     }
                   }
                 }
