@@ -28,7 +28,7 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
 * Contar con una versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
-* Descargar previamente el [archivo .zip del plugin](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBtL3EgaIwvYMOg0Z7aJEKSg?e=OGYpku)
+* Descargar previamente el archivo .zip del plugin
 
 ## Instalación
 
@@ -38,14 +38,16 @@ Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instr
 
 Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de Adobe Commerce y termina la configuración, siguiendo estos pasos:
 
-<br />
-
 ## Prueba tu integración
 
 Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
 
-1. Agrega un producto al carrito.
-2. Una vez en la página del carrito, selecciona la forma de pago y haz clic en **Place Order**.
+1. Agrega un producto al carrito, para ello selecciona Add to Cart.
+
+<Image align="center" width="500px" src="https://files.readme.io/75754c87e33d4c0d3d2a1ee9f1c8791c28be3eed4962111ad111db9753433dbe-image.png" />
+
+1. Una vez en la página del carrito, selecciona la forma de pago y haz clic en **Place Order**.
+2. <br />
 3. Completa los campos con los datos de prueba de tu tarjeta.
 4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
@@ -71,6 +73,7 @@ Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
 * [Documentación oficial de Adobe Commerce](https://developer.adobe.com/commerce/docs/)
 * [Repositorio de ProntoPaga](https://ci.prontopaga.com/users/sign_in)
+* <br />
 * Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
 
 ## Desinstalación
