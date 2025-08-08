@@ -1,5 +1,5 @@
 ---
-title: Datos de prueba (payins)
+title: Datos de prueba (PayIns)
 excerpt: ''
 deprecated: false
 hidden: false
