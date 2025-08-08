@@ -3704,8 +3704,8 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "Result 1": {
-                    "summary": "Result 1",
+                  "Result": {
+                    "summary": "Result",
                     "value": {
                       "uid": "01K254EM2MKWJSSP1WD41BV03Y",
                       "status": "new",
