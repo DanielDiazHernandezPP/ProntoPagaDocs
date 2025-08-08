@@ -28,7 +28,7 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
 * Contar con una versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
-* Descargar previamente el archivo .zip del plugin
+* Descargar previamente el [archivo .zip del plugin](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBtL3EgaIwvYMOg0Z7aJEKSg?e=OGYpku)
 
 ## Instalación
 
@@ -71,7 +71,6 @@ Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
 * [Documentación oficial de Adobe Commerce](https://developer.adobe.com/commerce/docs/)
 * [Repositorio de ProntoPaga](https://ci.prontopaga.com/users/sign_in)
-* <br />
 * Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
 
 ## Desinstalación
