@@ -1,5 +1,5 @@
 ---
-title: Magento (Adobe Commerce)
+title: Adobe Commerce (Magento)
 excerpt: ''
 deprecated: false
 hidden: true
@@ -69,7 +69,10 @@ En caso de requerir ayuda con un pedido específico, por favor comparte con noso
 
 Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
-<br />
+* [Documentación oficial de Adobe Commerce](https://developer.adobe.com/commerce/docs/)
+* [Repositorio de ProntoPaga](https://ci.prontopaga.com/users/sign_in)
+* <br />
+* Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
 
 ## Desinstalación
 
