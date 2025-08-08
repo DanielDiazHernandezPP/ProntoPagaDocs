@@ -47,11 +47,12 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 <Image align="center" width="500px" src="https://files.readme.io/75754c87e33d4c0d3d2a1ee9f1c8791c28be3eed4962111ad111db9753433dbe-image.png" />
 
 1. Una vez en la página del carrito, selecciona la forma de pago y haz clic en **Place Order**.
-2. <br />
-3. Completa los campos con los datos de prueba de tu tarjeta.
-4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
 <Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
+
+Completa los campos con los datos de prueba de tu tarjeta.
+
+1. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
 ## Solución de problemas comunes
 
