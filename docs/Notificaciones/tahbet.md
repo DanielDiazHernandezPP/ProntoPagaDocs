@@ -22,7 +22,7 @@ metadata:
 <br />
 
 <HTMLBlock>{`
-<table style="border-collapse: collapse; width: 100%; text-align: center; font-family: Arial, sans-serif;">
+<table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #f14b61; color: white;">
       <th style="padding: 12px;">Banco</th>
