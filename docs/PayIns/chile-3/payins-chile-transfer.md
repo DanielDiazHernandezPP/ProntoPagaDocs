@@ -62,7 +62,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
   <div style={{ textAlign: 'center' }}>
     <img
       src="https://files.readme.io/4308415808ac8e4368a1b60f31ee1ea14c3a108309228f12a74ba04c1f2fa097-image.png"
-      alt="Brasil Coverage"
+      alt="Banco de Chile Coverage"
       style={{
         width: '80%',
         maxWidth: '1000px',
