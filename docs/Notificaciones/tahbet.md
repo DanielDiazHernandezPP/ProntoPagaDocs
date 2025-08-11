@@ -11,9 +11,9 @@ export default function TransactionalLimitsTable() {
       <thead>
         <tr style={{ backgroundColor: '#f04f5b', color: 'white' }}>
           <th style={{ padding: '12px' }}>Banco</th>
-          <th style={{ padding: '12px' }}>First Transaction</th>
-          <th style={{ padding: '12px' }}>Waiting time ⏳</th>
-          <th style={{ padding: '12px' }}>Ongoing Transaction</th>
+          <th style={{ padding: '12px' }}>Primera transacción</th>
+          <th style={{ padding: '12px' }}>Tiempo de espera ⏳</th>
+          <th style={{ padding: '12px' }}>Transacción en curso</th>
         </tr>
       </thead>
       <tbody>
