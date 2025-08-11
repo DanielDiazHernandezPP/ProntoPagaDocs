@@ -15,6 +15,28 @@ next:
 ---
 hola Ana
 
+<HTMLBlock>{`
+<div class="pp-code">
+<code><span class="pp-punct">{</span>
+  <span class="pp-key">"currency"</span><span class="pp-punct">:</span> <span class="pp-val">"BRL"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"country"</span><span class="pp-punct">:</span> <span class="pp-val">"BR"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"amount"</span><span class="pp-punct">:</span> <span class="pp-val">1000</span><span class="pp-punct">,</span>
+  <span class="pp-key">"clientName"</span><span class="pp-punct">:</span> <span class="pp-val">"John Doe"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"clientEmail"</span><span class="pp-punct">:</span> <span class="pp-val">"johndoe@example.com"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"clientPhone"</span><span class="pp-punct">:</span> <span class="pp-val">"999999999"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"clientDocument"</span><span class="pp-punct">:</span> <span class="pp-val">"12345678912"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"paymentMethod"</span><span class="pp-punct">:</span> <span class="pp-val">"pix_payment"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"urlConfirmation"</span><span class="pp-punct">:</span> <span class="pp-val">"Webhook"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"urlFinal"</span><span class="pp-punct">:</span> <span class="pp-val">"example.com/successful"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"urlRejected"</span><span class="pp-punct">:</span> <span class="pp-val">"example.com/declined"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"order"</span><span class="pp-punct">:</span> <span class="pp-val">"1234"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"sing"</span><span class="pp-punct">:</span> <span class="pp-val">"Signature of the parameters"</span><span class="pp-punct">,</span>
+  <span class="pp-key">"typePixPayment"</span><span class="pp-punct">:</span> <span class="pp-val">1</span><span class="pp-punct">,</span>
+  <span class="pp-key">"isIframePay"</span><span class="pp-punct">:</span> <span class="pp-val">"true"</span>
+<span class="pp-punct">}</span></code>
+</div>
+`}</HTMLBlock>
+
 <br />
 
 ## Cómo hacer un pago
