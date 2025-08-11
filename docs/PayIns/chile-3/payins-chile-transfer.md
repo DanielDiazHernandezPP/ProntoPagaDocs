@@ -58,6 +58,141 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
 <br />
 
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
+  Información sobre los métodos disponibles para Banco de Chile.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_DE_CHILE"
+      alt="Cobertura Banco de Chile"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
+  Información sobre los métodos disponibles para Banco Itaú.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_ITAU"
+      alt="Cobertura Banco Itaú"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Bci</span>}>
+  Información sobre los métodos disponibles para Banco Bci.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_BCI"
+      alt="Cobertura Banco Bci"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Estado</span>}>
+  Información sobre los métodos disponibles para Banco Estado.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_ESTADO"
+      alt="Cobertura Banco Estado"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Santander</span>}>
+  Información sobre los métodos disponibles para Banco Santander.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_SANTANDER"
+      alt="Cobertura Banco Santander"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Falabella</span>}>
+  Información sobre los métodos disponibles para Banco Falabella.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_FALABELLA"
+      alt="Cobertura Banco Falabella"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
+  Información sobre los métodos disponibles para Banco Security.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_SECURITY"
+      alt="Cobertura Banco Security"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
+<br />
+
 ## Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
