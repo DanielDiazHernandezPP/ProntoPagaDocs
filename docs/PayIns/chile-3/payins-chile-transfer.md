@@ -189,8 +189,6 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
   </div>
 </Accordion>
 
-<br />
-
 ### Tabla de límites transaccionales
 
 Esta tabla muestra el **resumen de los datos clave** y permite comparar valores de manera rápida y visual.
@@ -254,9 +252,17 @@ Preguntar a ChatGPT
 </table>
 `}</HTMLBlock>
 
-***
+### Plazos para usuarios nuevos
 
-<br />
+<Callout icon="❗️">
+  **Considera que**
+
+  Para los nuevos usuarios, el tiempo de espera para la segunda transacción **oscila entre 12 y 48 horas**.
+</Callout>
+
+Para garantizar una experiencia de pago perfecta, te recomendamos realizar un **seguimiento de este plazo y de la actividad del cliente**. Si un usuario necesita hacer un depósito antes de que finalice el período de espera, se puede usar un proveedor alternativo temporalmente, para evitar transacciones rechazadas.
+
+Una vez finalizado el período de espera, recomendamos **enrutar todas las transacciones a través de ProntoPaga**. Cuando el usuario ya ha registrado la cuenta, el proceso de pago se vuelve más rápido.
 
 ## Crea un nuevo pago
 
