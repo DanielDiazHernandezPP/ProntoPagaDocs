@@ -18,8 +18,8 @@ metadata:
         height: 'auto',
         transition: 'all 0.4s ease'
       }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
+      onMouseOver={(e) => (e.target.style.width = '80%')}
+      onMouseOut={(e) => (e.target.style.width = '30%')}
     />
   </div>
 </Accordion>
