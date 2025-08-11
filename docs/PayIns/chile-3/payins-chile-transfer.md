@@ -56,14 +56,18 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
+![](https://files.readme.io/1edc9efc5bdd57943367d927f64b58ada384c3044d74aa4dc7324df6b68bfedc-image.png)
+
+<br />
+
 <br />
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
-  Información sobre los métodos disponibles para Banco de Chile.
+  Información sobre límites transaccionales para Banco de Chile.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_DE_CHILE"
+      src="https://files.readme.io/60b96951d5aa12c39b5125a3af0dfaeb04ff1bd40f732b442ca5829979c1e9e8-image.png"
       alt="Cobertura Banco de Chile"
       style={{
         width: '80%',
@@ -82,7 +86,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_ITAU"
+      src="https://files.readme.io/1edc9efc5bdd57943367d927f64b58ada384c3044d74aa4dc7324df6b68bfedc-image.png"
       alt="Cobertura Banco Itaú"
       style={{
         width: '80%',
