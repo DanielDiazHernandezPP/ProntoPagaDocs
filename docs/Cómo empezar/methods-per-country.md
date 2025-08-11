@@ -25,7 +25,7 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
+      src=""
       alt="Brasil Coverage"
       style={{
         width: '80%',
