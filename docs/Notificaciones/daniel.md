@@ -31,7 +31,7 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
-```json Ejemplo de body
+```html Ejemplo de body
 <div class="pp-code">
 <code><span class="pp-punct">{</span>
   <span class="pp-key">"currency"</span><span class="pp-punct">:</span> <span class="pp-val">"BRL"</span><span class="pp-punct">,</span>
