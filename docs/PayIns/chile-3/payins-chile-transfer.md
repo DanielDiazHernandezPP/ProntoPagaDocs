@@ -58,12 +58,6 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
 <br />
 
-![](https://files.readme.io/7081e9375e797442b64c3bcf37df382d073da3509c993870501faed084241df1-187CEA09-A566-4E42-AC87-EA11749CCBA5_copia.png)
-
-<br />
-
-<br />
-
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
   Información sobre límites transaccionales para Banco de Chile.
 
