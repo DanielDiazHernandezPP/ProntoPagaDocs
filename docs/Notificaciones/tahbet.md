@@ -103,7 +103,7 @@ export default function TransactionalLimitsTable() {
 
 <br />
 
-```jsx
+```html
 export default function TransactionalLimitsTable() {
   return (
     <table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'left', fontFamily: 'Arial, sans-serif' }}>
