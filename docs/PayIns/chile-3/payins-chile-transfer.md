@@ -195,61 +195,30 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
 <br />
 
-\<table style="border-collapse: collapse; width: 100%; text-align: center; font-family: Arial, sans-serif;">
-&#x20; \<thead>
-&#x20;   \<tr style="background-color: #f14b61; color: white;">
-&#x20;     \<th style="padding: 12px;">Banco\</th>
-&#x20;     \<th style="padding: 12px;">Primera transacción\</th>
-&#x20;     \<th style="padding: 12px;">Tiempo de espera ⏳\</th>
-&#x20;     \<th style="padding: 12px;">Transacción en curso\</th>
-&#x20;   \</tr>
-&#x20; \</thead>
-&#x20; \<tbody>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Banco\_de\_Chile\_logo.svg/200px-Banco\_de\_Chile\_logo.svg.png" alt="Banco de Chile" height="30"> Banco de Chile\</td>
-&#x20;     \<td>$350.000\</td>
-&#x20;     \<td>12 horas\</td>
-&#x20;     \<td>$2.000.000 / $5.000.000\</td>
-&#x20;   \</tr>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Banco\_Itau\_logo.svg/200px-Banco\_Itau\_logo.svg.png" alt="Banco Itaú" height="30"> Banco Itaú\</td>
-&#x20;     \<td>$200.000 / $300.000\</td>
-&#x20;     \<td>24 horas\</td>
-&#x20;     \<td>$5.000.000\</td>
-&#x20;   \</tr>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Logo\_Banco\_BCI.svg/200px-Logo\_Banco\_BCI.svg.png" alt="Banco BCI" height="30"> Banco BCI\</td>
-&#x20;     \<td>$250.000 / $600.000\</td>
-&#x20;     \<td>24 horas\</td>
-&#x20;     \<td>$5.000.000 / $7.000.000\</td>
-&#x20;   \</tr>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo\_BancoEstado.svg/200px-Logo\_BancoEstado.svg.png" alt="Banco Estado" height="30"> Banco Estado\</td>
-&#x20;     \<td>$100.000 / $250.000\</td>
-&#x20;     \<td>24 horas\</td>
-&#x20;     \<td>$1.000.000 / $5.000.000\</td>
-&#x20;   \</tr>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Banco\_Santander\_Logotipo.svg/200px-Banco\_Santander\_Logotipo.svg.png" alt="Banco Santander" height="30"> Banco Santander\</td>
-&#x20;     \<td>$250.000\</td>
-&#x20;     \<td>24 horas\</td>
-&#x20;     \<td>$5.000.000\</td>
-&#x20;   \</tr>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banco\_Falabella\_logo.svg/200px-Banco\_Falabella\_logo.svg.png" alt="Banco Falabella" height="30"> Banco Falabella\</td>
-&#x20;     \<td>$200.000\</td>
-&#x20;     \<td>24 horas\</td>
-&#x20;     \<td>$7.000.000\</td>
-&#x20;   \</tr>
-&#x20;   \<tr>
-&#x20;     \<td style="padding: 12px;">\<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Logo\_BancoSecurity.svg/200px-Logo\_BancoSecurity.svg.png" alt="Banco Security" height="30"> Banco Security\</td>
-&#x20;     \<td>$350.000\</td>
-&#x20;     \<td>48 horas\</td>
-&#x20;     \<td>$2.000.000 / $5.000.000\</td>
-&#x20;   \</tr>
-&#x20; \</tbody>
-\</table>
+<br />
 
+export default function TransactionTable() {
+  return (
+    <table border="1" cellPadding="8" style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'left' }}>
+      <thead>
+        <tr>
+          <th>First Transaction</th>
+          <th>Waiting time</th>
+          <th>Ongoing Transaction</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>✅</td>
+          <td>Y</td>
+          <td>⌛</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+}
+
+<br />
 
 <br />
 
