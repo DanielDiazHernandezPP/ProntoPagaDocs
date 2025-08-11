@@ -120,7 +120,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_ESTADO"
+      src="https://files.readme.io/cedaf4840f4f3e5773295fe4787d814346cf244539b966af8469483c4f5ffb81-Banco_Estado.png"
       alt="Cobertura Banco Estado"
       style={{
         width: '80%',
