@@ -48,11 +48,11 @@ El proceso de pago con transferencia en Chile consta de cuatro etapas principale
 
 ***
 
-## Límites transaccionales
+## Límites transaccionales para transferencias
 
-Cada banco establece sus propios límites transaccionales, que dependen de factores como el método de autenticación y si la cuenta se ha registrado previamente.
+Cada banco **establece sus propios límites transaccionales**, que dependen de factores como el método de autenticación y si la cuenta se ha registrado previamente.
 
-Es importante conocer las políticas de cada banco sobre los montos de las transacciones, incluido el pago inicial, el periodo de espera antes de la segunda transacción y los límites de transacciones futuras. Estos límites pueden variar dependiendo del tipo de cuenta o del sistema de autenticación utilizado por el banco.
+Es importante **conocer las políticas de cada banco sobre los montos de las transacciones**, incluido el pago inicial, el periodo de espera antes de la segunda transacción y los límites de transacciones futuras. Estos límites pueden variar dependiendo del tipo de cuenta o del sistema de autenticación utilizado por el banco.
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
