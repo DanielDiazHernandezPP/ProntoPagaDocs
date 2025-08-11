@@ -189,8 +189,6 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
   </div>
 </Accordion>
 
-<br />
-
 ***
 
 <br />
@@ -274,18 +272,6 @@ export default function TransactionalLimitsTable() {
     </table>
   );
 }
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
 
 <br />
 
