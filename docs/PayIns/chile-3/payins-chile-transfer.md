@@ -61,10 +61,10 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/7081e9375e797442b64c3bcf37df382d073da3509c993870501faed084241df1-187CEA09-A566-4E42-AC87-EA11749CCBA5_copia.png"
+      src="https://files.readme.io/60b96951d5aa12c39b5125a3af0dfaeb04ff1bd40f732b442ca5829979c1e9e8-image.png"
       alt="Cobertura Banco de Chile"
       style={{
-        width: '79%',
+        width: '80%',
         maxWidth: '1000px',
         height: 'auto',
         transition: 'all 0.4s ease'
@@ -80,7 +80,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/e79992427d75e596e3bfbf1f7ae36d3c512372fb4616796defc49e3362e525ae-Itau_1.png"
+      src="https://files.readme.io/1edc9efc5bdd57943367d927f64b58ada384c3044d74aa4dc7324df6b68bfedc-image.png"
       alt="Cobertura Banco Itaú"
       style={{
         width: '80%',
@@ -95,11 +95,11 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Bci</span>}>
-  Información sobre los límites transaccionales para Banco Bci.
+  Información sobre los métodos disponibles para Banco Bci.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/3d536e070ecf2b8913d328ad4cf19d9e7905e141fff21e25e1978002212e64bf-BCI.png"
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_BCI"
       alt="Cobertura Banco Bci"
       style={{
         width: '80%',
@@ -114,11 +114,11 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Estado</span>}>
-  Información sobre los límites transaccionales para Banco Estado.
+  Información sobre los métodos disponibles para Banco Estado.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/cedaf4840f4f3e5773295fe4787d814346cf244539b966af8469483c4f5ffb81-Banco_Estado.png"
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_ESTADO"
       alt="Cobertura Banco Estado"
       style={{
         width: '80%',
@@ -133,11 +133,11 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Santander</span>}>
-  Información sobre los límites transaccionales para Banco Santander.
+  Información sobre los métodos disponibles para Banco Santander.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/a2ff3764f101db442dbae6cda3d877f0ffc0ee9e29970b0f1303ca4a529f86a9-Captura_de_pantalla_2025-08-11_a_las_1.50.21_p._m..png"
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_SANTANDER"
       alt="Cobertura Banco Santander"
       style={{
         width: '80%',
@@ -152,11 +152,11 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Falabella</span>}>
-  Información sobre los límites transaccionales para Banco Falabella.
+  Información sobre los métodos disponibles para Banco Falabella.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/a343a5f4734f6ebabd83bae730fcb88be4f73b638e378406c1e8aed5280e2b0d-Banco_Falabella.png"
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_FALABELLA"
       alt="Cobertura Banco Falabella"
       style={{
         width: '80%',
@@ -171,11 +171,11 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
-  Información sobre los límites transaccionales para Banco Security.
+  Información sobre los métodos disponibles para Banco Security.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/83bc8e235187695d0c1ee510a0098404cdb744db1f6950a093f09e1c6076e068-Captura_de_pantalla_2025-08-11_a_las_2.33.48_p._m..png"
+      src="URL_DE_LA_IMAGEN_DEL_BANCO_SECURITY"
       alt="Cobertura Banco Security"
       style={{
         width: '80%',
