@@ -4,7 +4,7 @@ excerpt: >-
   Conoce los datos de prueba para retiros hacia wallets o por transferencia en
   Perú.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Datos de prueba en Perú (payouts) | ProntoPaga Docs
   keywords:
