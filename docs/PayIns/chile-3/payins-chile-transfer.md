@@ -56,6 +56,10 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
+![](https://files.readme.io/e79992427d75e596e3bfbf1f7ae36d3c512372fb4616796defc49e3362e525ae-Itau_1.png)
+
+<br />
+
 <br />
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
@@ -82,7 +86,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/1edc9efc5bdd57943367d927f64b58ada384c3044d74aa4dc7324df6b68bfedc-image.png"
+      src="https://files.readme.io/e79992427d75e596e3bfbf1f7ae36d3c512372fb4616796defc49e3362e525ae-Itau_1.png"
       alt="Cobertura Banco Itaú"
       style={{
         width: '80%',
