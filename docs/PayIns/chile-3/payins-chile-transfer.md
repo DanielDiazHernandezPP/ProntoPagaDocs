@@ -56,12 +56,16 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
+![](https://files.readme.io/4308415808ac8e4368a1b60f31ee1ea14c3a108309228f12a74ba04c1f2fa097-image.png)
+
+<br />
+
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}> Banco de Chile</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/fafd99732574b28ed84b221f50c5d10a060c1b0bb5be8ecfa8e23bb040fd74e2-image.png"
+      src="https://files.readme.io/4308415808ac8e4368a1b60f31ee1ea14c3a108309228f12a74ba04c1f2fa097-image.png"
       alt="Brasil Coverage"
       style={{
         width: '80%',
