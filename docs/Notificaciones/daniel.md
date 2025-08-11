@@ -15,7 +15,7 @@ next:
 ---
 hola Ana
 
-````markdown
+````text
 ```json
 {
   "currency": "BRL",
