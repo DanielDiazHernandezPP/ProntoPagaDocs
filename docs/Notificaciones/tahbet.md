@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<Accordion title={<span style={{ fontSize: '8px', fontWeight: 'bold' }}><img src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" alt="Banco de Chile" style={{ height: '8px', verticalAlign: 'middle', marginRight: '2px' }}/>Banco de Chile</span>}>
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" alt="Banco de Chile" style={{ height: '0.8px', verticalAlign: 'middle', marginRight: '0.2px' }}/>Banco de Chile</span>}>
   Información sobre límites transaccionales para Banco de Chile.
 
   <div style={{ textAlign: 'center' }}>
