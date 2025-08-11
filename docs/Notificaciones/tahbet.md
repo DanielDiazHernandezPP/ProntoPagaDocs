@@ -19,7 +19,7 @@ export default function TransactionalLimitsTable() {
       <tbody>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fextraetf.com%2Fes%2Fstock-profile%2FUS0595201064&psig=AOvVaw2Myh1guFxazOrgSC8CDDf2&ust=1755033089334000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCKCo-fDVg48DFQAAAAAdAAAAABAE" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://prontopagalatam-my.sharepoint.com/:i:/g/personal/tahbet_reategui_prontopaga_com/EeikYnV0M5ZAkYYS6Fc0cQYBvIfHdur8heANYWmEzoYOfg?e=SLQqMh" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco de Chile
           </td>
           <td>$350.000</td>
