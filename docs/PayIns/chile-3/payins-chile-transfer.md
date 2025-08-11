@@ -46,22 +46,6 @@ El proceso de pago con transferencia en Chile consta de cuatro etapas principale
    * El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente es redirigido a tu sitio y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
-<br />
-
-![](https://files.readme.io/8392913e2e8734d10794826265e4aebc48cb75e265647d7e0ff71c76313a2714-BCI.png)
-
-<br />
-
-![](https://files.readme.io/b3e73d3a1d9bbbd4291007f8bc7987c16dc79f5d8c4596e062a86a3bcfa320d0-translated_image_2.png)
-
-![](https://files.readme.io/f5216d8ca2c0a1451817b3de3ad8adaa67765082b673507b651bfbb36dea19f6-image.png)
-
-![](https://files.readme.io/80e0099e797ce93c8e1ebdbb524461ce1abc7a9eb752a87b01b725e563b1782d-image.png)
-
-![](https://files.readme.io/b6bfd56999a2748d4171effe8c7d4bb45c69a1190cdb98804908fba9520341e1-image.png)
-
-<br />
-
 ***
 
 ## Límites transaccionales para transferencias
