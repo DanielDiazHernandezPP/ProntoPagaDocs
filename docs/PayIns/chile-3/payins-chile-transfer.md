@@ -56,6 +56,8 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
+![](https://files.readme.io/83bc8e235187695d0c1ee510a0098404cdb744db1f6950a093f09e1c6076e068-Captura_de_pantalla_2025-08-11_a_las_2.33.48_p._m..png)
+
 <br />
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
@@ -177,7 +179,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_SECURITY"
+      src="https://files.readme.io/83bc8e235187695d0c1ee510a0098404cdb744db1f6950a093f09e1c6076e068-Captura_de_pantalla_2025-08-11_a_las_2.33.48_p._m..png"
       alt="Cobertura Banco Security"
       style={{
         width: '80%',
