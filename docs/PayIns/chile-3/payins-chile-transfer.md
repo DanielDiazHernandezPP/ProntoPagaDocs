@@ -152,7 +152,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Falabella</span>}>
-  Información sobre los métodos disponibles para Banco Falabella.
+  Información sobre los límites transaccionales para Banco Falabella.
 
   <div style={{ textAlign: 'center' }}>
     <img
@@ -171,7 +171,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
-  Información sobre los métodos disponibles para Banco Security.
+  Información sobre los límites transaccionales para Banco Security.
 
   <div style={{ textAlign: 'center' }}>
     <img
