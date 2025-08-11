@@ -31,7 +31,8 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
-```html Ejemplo de body
+```json Ejemplo de body
+
 
 {
   "currency": "BRL",
