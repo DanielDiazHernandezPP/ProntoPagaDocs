@@ -57,7 +57,7 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Banco de Chile</span>}>
-  A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
+  En este banco, los límites de transacción se establecen en función del tipo de autenticación de segundo factor.
 
   <div style={{ textAlign: 'center' }}>
     <img
@@ -131,24 +131,6 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
     />
   </div>
 </Accordion>
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
 
 ## Crea un nuevo pago
 
