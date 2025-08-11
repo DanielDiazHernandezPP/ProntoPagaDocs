@@ -23,7 +23,7 @@ export default function TransactionalLimitsTable() {
             Banco de Chile
           </td>
           <td>$350.000</td>
-          <td>12 Hours</td>
+          <td>12 horas</td>
           <td>$2.000.000 / $5.000.000</td>
         </tr>
         <tr>
@@ -32,7 +32,7 @@ export default function TransactionalLimitsTable() {
             Banco Itaú
           </td>
           <td>$200.000 / $300.000</td>
-          <td>24 Hours</td>
+          <td>24 horas</td>
           <td>$5.000.000</td>
         </tr>
         <tr>
@@ -41,7 +41,7 @@ export default function TransactionalLimitsTable() {
             Banco BCI
           </td>
           <td>$250.000 / $600.000</td>
-          <td>24 Hours</td>
+          <td>24 horas</td>
           <td>$5.000.000 / $7.000.000</td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@ export default function TransactionalLimitsTable() {
             Banco Estado
           </td>
           <td>$100.000 / $250.000</td>
-          <td>24 Hours</td>
+          <td>24 horas</td>
           <td>$1.000.000 / $5.000.000</td>
         </tr>
         <tr>
@@ -59,7 +59,7 @@ export default function TransactionalLimitsTable() {
             Banco Santander
           </td>
           <td>$250.000</td>
-          <td>24 Hours</td>
+          <td>24 horas</td>
           <td>$5.000.000</td>
         </tr>
         <tr>
@@ -68,7 +68,7 @@ export default function TransactionalLimitsTable() {
             Banco Falabella
           </td>
           <td>$200.000</td>
-          <td>24 Hours</td>
+          <td>24 horas</td>
           <td>$7.000.000</td>
         </tr>
         <tr>
@@ -77,7 +77,7 @@ export default function TransactionalLimitsTable() {
             Banco Security
           </td>
           <td>$350.000</td>
-          <td>48 Hours</td>
+          <td>48 horas</td>
           <td>$2.000.000 / $5.000.000</td>
         </tr>
       </tbody>
