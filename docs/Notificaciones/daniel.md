@@ -27,6 +27,16 @@ hola Ana
 ```
 
 ````
+```json
+{
+  "currency": "BRL",
+  "country": "BR",
+  "amount": 1000,
+  "clientName": "John Doe"
+  }
+
+
+```
 
 <br />
 
