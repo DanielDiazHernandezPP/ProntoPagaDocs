@@ -56,8 +56,6 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
-![](https://files.readme.io/a2ff3764f101db442dbae6cda3d877f0ffc0ee9e29970b0f1303ca4a529f86a9-Captura_de_pantalla_2025-08-11_a_las_1.50.21_p._m..png)
-
 <br />
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
