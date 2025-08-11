@@ -15,6 +15,17 @@ next:
 ---
 hola Ana
 
+````markdown
+```json
+{
+  "currency": "BRL",
+  "country": "BR",
+  "amount": 1000,
+  "clientName": "John Doe"
+}
+```
+````
+
 <br />
 
 ## Cómo hacer un pago
