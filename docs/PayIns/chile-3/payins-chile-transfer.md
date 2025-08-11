@@ -56,24 +56,30 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}> Banco de Chile</span>}>
-  A continuación, podrás ver los límites para Banco de Chile:
+\<Accordion title=\{\<span style=\{\{ fontSize: '20px', fontWeight: 'bold' }}> Banco de Chile\</span>}>
+&#x20; A continuación, podrás ver los límites para Banco de Chile:
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/4308415808ac8e4368a1b60f31ee1ea14c3a108309228f12a74ba04c1f2fa097-image.png"
-      alt="Banco de Chile Coverage"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
+&#x20; \<div style=\{\{ textAlign: 'center' }}>
+&#x20;   \<img
+&#x20;     src="https\://files.readme.io/4308415808ac8e4368a1b60f31ee1ea14c3a108309228f12a74ba04c1f2fa097-image.png"
+&#x20;     alt="Banco de Chile Coverage"
+&#x20;     style=\{\{
+&#x20;       width: '80%',
+&#x20;       maxWidth: '1000px
+&#x20;       height: 'auto',
+&#x20;       transition: 'all 0.4s ease'
+&#x20;     }}
+&#x20;     onMouseOver=\{(e) => (e.target.style.width = '100%')}
+&#x20;     onMouseOut=\{(e) => (e.target.style.width = '90%')}
+&#x20;   />
+&#x20; \</div>
+\</Accordion>
+
+
+\<Accordion title=\{\<span style=\{\{ fontSize: '20px', fontWeight: 'bold' }}> Banco Itaú\</span>}>
+&#x20; A continuación, podrás ver los límites para Banco Itaú:
+
+<br />
 
 <br />
 
