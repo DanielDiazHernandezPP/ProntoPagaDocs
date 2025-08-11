@@ -5,138 +5,87 @@ hidden: true
 metadata:
   robots: index
 ---
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" alt="Banco de Chile" style={{ height: '0.8px', verticalAlign: 'middle', marginRight: '0.2px' }}/>Banco de Chile</span>}>
-  Información sobre límites transaccionales para Banco de Chile.
+export default function TransactionalLimitsTable() {
+  return (
+    <table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'left', fontFamily: 'Arial, sans-serif' }}>
+      <thead>
+        <tr style={{ backgroundColor: '#f04f5b', color: 'white' }}>
+          <th style={{ padding: '12px' }}>Banco</th>
+          <th style={{ padding: '12px' }}>First Transaction</th>
+          <th style={{ padding: '12px' }}>Waiting time ⏳</th>
+          <th style={{ padding: '12px' }}>Ongoing Transaction</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Banco_de_Chile_logo.svg" alt="Banco de Chile" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco de Chile
+          </td>
+          <td>$350.000</td>
+          <td>12 Hours</td>
+          <td>$2.000.000 / $5.000.000</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Logo_Ita%C3%BA.svg" alt="Banco Itaú" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco Itaú
+          </td>
+          <td>$200.000 / $300.000</td>
+          <td>24 Hours</td>
+          <td>$5.000.000</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Banco_BCI_logo.svg" alt="Banco BCI" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco BCI
+          </td>
+          <td>$250.000 / $600.000</td>
+          <td>24 Hours</td>
+          <td>$5.000.000 / $7.000.000</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/BancoEstado_logo.svg" alt="Banco Estado" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco Estado
+          </td>
+          <td>$100.000 / $250.000</td>
+          <td>24 Hours</td>
+          <td>$1.000.000 / $5.000.000</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Banco_Santander_Logotipo.svg" alt="Banco Santander" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco Santander
+          </td>
+          <td>$250.000</td>
+          <td>24 Hours</td>
+          <td>$5.000.000</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Banco_Falabella_logo.svg" alt="Banco Falabella" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco Falabella
+          </td>
+          <td>$200.000</td>
+          <td>24 Hours</td>
+          <td>$7.000.000</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '12px' }}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Banco_Security_logo.svg" alt="Banco Security" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            Banco Security
+          </td>
+          <td>$350.000</td>
+          <td>48 Hours</td>
+          <td>$2.000.000 / $5.000.000</td>
+        </tr>
+      </tbody>
+    </table>
+  );
+}
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/60b96951d5aa12c39b5125a3af0dfaeb04ff1bd40f732b442ca5829979c1e9e8-image.png"
-      alt="Cobertura Banco de Chile"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '80%')}
-      onMouseOut={(e) => (e.target.style.width = '30%')}
-    />
-  </div>
-</Accordion>
-
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="URL_ICONO_BANCO_ITAU" alt="Banco Itaú" style={{ height: '20px', verticalAlign: 'middle', marginRight: '8px' }}/>Banco Itaú</span>}>
-  Información sobre los límites transaccionales para Banco Itaú.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/1edc9efc5bdd57943367d927f64b58ada384c3044d74aa4dc7324df6b68bfedc-image.png"
-      alt="Cobertura Banco Itaú"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
-
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="URL_ICONO_BANCO_BCI" alt="Banco Bci" style={{ height: '20px', verticalAlign: 'middle', marginRight: '8px' }}/>Banco Bci</span>}>
-  Información sobre los métodos disponibles para Banco Bci.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_BCI"
-      alt="Cobertura Banco Bci"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
-
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="URL_ICONO_BANCO_ESTADO" alt="Banco Estado" style={{ height: '20px', verticalAlign: 'middle', marginRight: '8px' }}/>Banco Estado</span>}>
-  Información sobre los métodos disponibles para Banco Estado.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_ESTADO"
-      alt="Cobertura Banco Estado"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
-
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="URL_ICONO_BANCO_SANTANDER" alt="Banco Santander" style={{ height: '20px', verticalAlign: 'middle', marginRight: '8px' }}/>Banco Santander</span>}>
-  Información sobre los métodos disponibles para Banco Santander.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_SANTANDER"
-      alt="Cobertura Banco Santander"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
-
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="URL_ICONO_BANCO_FALABELLA" alt="Banco Falabella" style={{ height: '20px', verticalAlign: 'middle', marginRight: '8px' }}/>Banco Falabella</span>}>
-  Información sobre los métodos disponibles para Banco Falabella.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_FALABELLA"
-      alt="Cobertura Banco Falabella"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
-
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}><img src="URL_ICONO_BANCO_SECURITY" alt="Banco Security" style={{ height: '20px', verticalAlign: 'middle', marginRight: '8px' }}/>Banco Security</span>}>
-  Información sobre los métodos disponibles para Banco Security.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="URL_DE_LA_IMAGEN_DEL_BANCO_SECURITY"
-      alt="Cobertura Banco Security"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
+<br />
 
 <br />
 
