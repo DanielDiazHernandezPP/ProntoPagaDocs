@@ -19,7 +19,7 @@ export default function TransactionalLimitsTable() {
       <tbody>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Banco_de_Chile_logo.svg" alt="Banco de Chile" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Banco_de_Chile_logo.svg" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco de Chile
           </td>
           <td>$350.000</td>
