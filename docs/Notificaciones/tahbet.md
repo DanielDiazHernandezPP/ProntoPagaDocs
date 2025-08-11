@@ -28,7 +28,7 @@ export default function TransactionalLimitsTable() {
         </tr>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Logo_Ita%C3%BA.svg" alt="Banco Itaú" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Logo_Ita%C3%BA.svg" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco Itaú
           </td>
           <td>$200.000 / $300.000</td>
@@ -37,7 +37,7 @@ export default function TransactionalLimitsTable() {
         </tr>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Banco_BCI_logo.svg" alt="Banco BCI" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Banco_BCI_logo.svg" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco BCI
           </td>
           <td>$250.000 / $600.000</td>
@@ -46,7 +46,7 @@ export default function TransactionalLimitsTable() {
         </tr>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/BancoEstado_logo.svg" alt="Banco Estado" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/BancoEstado_logo.svg" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco Estado
           </td>
           <td>$100.000 / $250.000</td>
@@ -55,7 +55,7 @@ export default function TransactionalLimitsTable() {
         </tr>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Banco_Santander_Logotipo.svg" alt="Banco Santander" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Banco_Santander_Logotipo.svg"  width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco Santander
           </td>
           <td>$250.000</td>
@@ -64,7 +64,7 @@ export default function TransactionalLimitsTable() {
         </tr>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Banco_Falabella_logo.svg" alt="Banco Falabella" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Banco_Falabella_logo.svg" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco Falabella
           </td>
           <td>$200.000</td>
@@ -73,7 +73,7 @@ export default function TransactionalLimitsTable() {
         </tr>
         <tr>
           <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Banco_Security_logo.svg" alt="Banco Security" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Banco_Security_logo.svg" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
             Banco Security
           </td>
           <td>$350.000</td>
