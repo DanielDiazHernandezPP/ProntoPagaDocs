@@ -42,6 +42,7 @@ El proceso de pago con transferencia en Chile consta de cuatro etapas principale
 1. **Selección de método.** El cliente elige pagar con transferencia en tu sitio web o aplicación.
 2. **Selección de banco.** Se le muestra un listado de bancos al cliente, en donde podrá seleccionar el suyo.
 3. **Redirección.** El cliente es redirigido al portal de su banco, en donde deberá iniciar sesión y seguir las instrucciones en pantalla para hacer la transferencia. El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
+   * Registro de cuenta (solo la primera vez): En Chile, los bancos requieren registro previo de la cuenta receptora para acelerar futuras transacciones.
 4. **Confirmación.** El cliente es redirigido a tu sitio y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ***
