@@ -56,6 +56,8 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
+![](https://files.readme.io/3d536e070ecf2b8913d328ad4cf19d9e7905e141fff21e25e1978002212e64bf-BCI.png)
+
 <br />
 
 <br />
@@ -103,7 +105,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/3b1b64417b6bf4bbad2bd21652f9f47c5c19d5510650647380318cdaf53d7a07-image.png"
+      src="https://files.readme.io/3d536e070ecf2b8913d328ad4cf19d9e7905e141fff21e25e1978002212e64bf-BCI.png"
       alt="Cobertura Banco Bci"
       style={{
         width: '80%',
