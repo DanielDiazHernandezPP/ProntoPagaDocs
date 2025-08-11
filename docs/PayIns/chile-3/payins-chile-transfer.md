@@ -56,8 +56,6 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
-![](https://files.readme.io/e79992427d75e596e3bfbf1f7ae36d3c512372fb4616796defc49e3362e525ae-Itau_1.png)
-
 <br />
 
 <br />
