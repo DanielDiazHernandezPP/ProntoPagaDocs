@@ -193,7 +193,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
 ### Tabla de límites transaccionales
 
-Esta tabla muestra el\*\* resumen de los datos clave \*\*y permite comparar valores de manera rápida y visual.
+Esta tabla muestra el **resumen de los datos clave** y permite comparar valores de manera rápida y visual.
 
 Preguntar a ChatGPT
 
