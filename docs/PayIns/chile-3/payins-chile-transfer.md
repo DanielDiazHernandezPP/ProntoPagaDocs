@@ -191,10 +191,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 
 <br />
 
-| Banco                                                                                                                                                              | Primera transacción | Transacción en curso |   |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :------------------- | - |
-| ![](https://files.readme.io/eac2901a2edc8bec07fbc5c024ba83ca2542937d344bc22183820eb2c5ff4b46-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png)Banco de Chile |                     |                      |   |
-|                                                                                                                                                                    |                     |                      |   |
+***
 
 <br />
 
@@ -253,6 +250,16 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
 &#x20; \</tbody>
 \</table>
 
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
 
 <br />
 
