@@ -103,85 +103,59 @@ export default function TransactionalLimitsTable() {
 
 <br />
 
-```html
-export default function TransactionalLimitsTable() {
-  return (
-    <table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'left', fontFamily: 'Arial, sans-serif' }}>
-      <thead>
-        <tr style={{ backgroundColor: '#f04f5b', color: 'red' }}>
-          <th style={{ padding: '12px' }}>Banco</th>
-          <th style={{ padding: '12px' }}>First Transaction</th>
-          <th style={{ padding: '12px' }}>Waiting time ⏳</th>
-          <th style={{ padding: '12px' }}>Ongoing Transaction</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Banco_de_Chile_logo.svg" alt="Banco de Chile" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco de Chile
-          </td>
-          <td>$350.000</td>
-          <td>12 Hours</td>
-          <td>$2.000.000 / $5.000.000</td>
-        </tr>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Logo_Ita%C3%BA.svg" alt="Banco Itaú" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco Itaú
-          </td>
-          <td>$200.000 / $300.000</td>
-          <td>24 Hours</td>
-          <td>$5.000.000</td>
-        </tr>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Banco_BCI_logo.svg" alt="Banco BCI" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco BCI
-          </td>
-          <td>$250.000 / $600.000</td>
-          <td>24 Hours</td>
-          <td>$5.000.000 / $7.000.000</td>
-        </tr>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/BancoEstado_logo.svg" alt="Banco Estado" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco Estado
-          </td>
-          <td>$100.000 / $250.000</td>
-          <td>24 Hours</td>
-          <td>$1.000.000 / $5.000.000</td>
-        </tr>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Banco_Santander_Logotipo.svg" alt="Banco Santander" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco Santander
-          </td>
-          <td>$250.000</td>
-          <td>24 Hours</td>
-          <td>$5.000.000</td>
-        </tr>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Banco_Falabella_logo.svg" alt="Banco Falabella" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco Falabella
-          </td>
-          <td>$200.000</td>
-          <td>24 Hours</td>
-          <td>$7.000.000</td>
-        </tr>
-        <tr>
-          <td style={{ padding: '12px' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Banco_Security_logo.svg" alt="Banco Security" width="24" style={{ verticalAlign: 'middle', marginRight: '8px' }} />
-            Banco Security
-          </td>
-          <td>$350.000</td>
-          <td>48 Hours</td>
-          <td>$2.000.000 / $5.000.000</td>
-        </tr>
-      </tbody>
-    </table>
-  );
-}
-
-```
+<HTMLBlock>{`
+<table style="border-collapse: collapse; width: 100%; text-align: center; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #f14b61; color: white;">
+      <th style="padding: 12px;">Banco</th>
+      <th style="padding: 12px;">Primera transacción</th>
+      <th style="padding: 12px;">Tiempo de espera ⏳</th>
+      <th style="padding: 12px;">Transacción en curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Banco_de_Chile_logo.svg/200px-Banco_de_Chile_logo.svg.png" alt="Banco de Chile" height="30"> Banco de Chile</td>
+      <td>$350.000</td>
+      <td>12 horas</td>
+      <td>$2.000.000 / $5.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Banco_Itau_logo.svg/200px-Banco_Itau_logo.svg.png" alt="Banco Itaú" height="30"> Banco Itaú</td>
+      <td>$200.000 / $300.000</td>
+      <td>24 horas</td>
+      <td>$5.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Logo_Banco_BCI.svg/200px-Logo_Banco_BCI.svg.png" alt="Banco BCI" height="30"> Banco BCI</td>
+      <td>$250.000 / $600.000</td>
+      <td>24 horas</td>
+      <td>$5.000.000 / $7.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo_BancoEstado.svg/200px-Logo_BancoEstado.svg.png" alt="Banco Estado" height="30"> Banco Estado</td>
+      <td>$100.000 / $250.000</td>
+      <td>24 horas</td>
+      <td>$1.000.000 / $5.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Banco_Santander_Logotipo.svg/200px-Banco_Santander_Logotipo.svg.png" alt="Banco Santander" height="30"> Banco Santander</td>
+      <td>$250.000</td>
+      <td>24 horas</td>
+      <td>$5.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banco_Falabella_logo.svg/200px-Banco_Falabella_logo.svg.png" alt="Banco Falabella" height="30"> Banco Falabella</td>
+      <td>$200.000</td>
+      <td>24 horas</td>
+      <td>$7.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Logo_BancoSecurity.svg/200px-Logo_BancoSecurity.svg.png" alt="Banco Security" height="30"> Banco Security</td>
+      <td>$350.000</td>
+      <td>48 horas</td>
+      <td>$2.000.000 / $5.000.000</td>
+    </tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
