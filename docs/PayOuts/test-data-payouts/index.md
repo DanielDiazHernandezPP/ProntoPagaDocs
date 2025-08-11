@@ -2,7 +2,7 @@
 title: Datos de prueba (PayOuts)
 excerpt: Conoce los datos para realizar pruebas de PayOuts.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Datos de prueba (payouts) | ProntoPaga Docs
   robots: index
