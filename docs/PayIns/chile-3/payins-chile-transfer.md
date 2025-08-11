@@ -66,7 +66,7 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
       src="https://files.readme.io/60b96951d5aa12c39b5125a3af0dfaeb04ff1bd40f732b442ca5829979c1e9e8-image.png"
       alt="Cobertura Banco de Chile"
       style={{
-        width: '80%',
+        width: '70%',
         maxWidth: '1000px',
         height: 'auto',
         transition: 'all 0.4s ease'
