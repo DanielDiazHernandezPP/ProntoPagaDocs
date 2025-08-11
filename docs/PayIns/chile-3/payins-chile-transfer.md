@@ -56,81 +56,81 @@ Es importante conocer las políticas de cada banco sobre los montos de las trans
 
 A continuación mostramos los límites por banco y sus consideraciones especiales.
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Banco de Chile</span>}>
-  En este banco, los límites de transacción se establecen en función del tipo de autenticación de segundo factor.
+\<Accordion title=\{\<span style=\{\{ fontSize: '20px', fontWeight: 'bold' }}>Banco de Chile\</span>}>
+&#x20; En este banco, los límites de transacción se establecen en función del tipo de autenticación de segundo factor.
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
-      alt="Brasil Coverage"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
+&#x20; \<div style=\{\{ textAlign: 'center' }}>
+&#x20;   \<img
+&#x20;     src=dd09a353-450d-42c2-9d80-a09ce54dc24d.png
+&#x20;     alt="Brasil Coverage"
+&#x20;     style=\{\{
+&#x20;       width: '80%',
+&#x20;       maxWidth: '1000px',
+&#x20;       height: 'auto',
+&#x20;       transition: 'all 0.4s ease'
+&#x20;     }}
+&#x20;     onMouseOver=\{(e) => (e.target.style.width = '100%')}
+&#x20;     onMouseOut=\{(e) => (e.target.style.width = '90%')}
+&#x20;   />
+&#x20; \</div>
+\</Accordion>
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇨🇱 Chile</span>}>
-  A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
+\<Accordion title=\{\<span style=\{\{ fontSize: '20px', fontWeight: 'bold' }}>🇨🇱 Chile\</span>}>
+&#x20; A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage_in_Chile.png"
-      alt="Chilean Coverage"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
+&#x20; \<div style=\{\{ textAlign: 'center' }}>
+&#x20;   \<img
+&#x20;     src="https\://files.readme.io/d44a8c59af784f4496b9624b423dada1719ad7e2f83a3f382b1e99b3a240e3eb-Coverage\_in\_Chile.png"
+&#x20;     alt="Chilean Coverage"
+&#x20;     style=\{\{
+&#x20;       width: '80%',
+&#x20;       maxWidth: '1000px',
+&#x20;       height: 'auto',
+&#x20;       transition: 'all 0.4s ease'
+&#x20;     }}
+&#x20;     onMouseOver=\{(e) => (e.target.style.width = '100%')}
+&#x20;     onMouseOut=\{(e) => (e.target.style.width = '90%')}
+&#x20;   />
+&#x20; \</div>
+\</Accordion>
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇪🇨 Ecuador</span>}>
-  A continuación, podrás ver listados los métodos con los que contamos en Ecuador, tanto para PayIns como para PayOuts.
+\<Accordion title=\{\<span style=\{\{ fontSize: '20px', fontWeight: 'bold' }}>🇪🇨 Ecuador\</span>}>
+&#x20; A continuación, podrás ver listados los métodos con los que contamos en Ecuador, tanto para PayIns como para PayOuts.
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/f726f22a13bc8511c8ab07d77032139ccc8212ac4b0b10640a9cceccedd7d30d-Coverage_in_Ecuador.png"
-      alt="Ecuadorian Coverage"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
+&#x20; \<div style=\{\{ textAlign: 'center' }}>
+&#x20;   \<img
+&#x20;     src="https\://files.readme.io/f726f22a13bc8511c8ab07d77032139ccc8212ac4b0b10640a9cceccedd7d30d-Coverage\_in\_Ecuador.png"
+&#x20;     alt="Ecuadorian Coverage"
+&#x20;     style=\{\{
+&#x20;       width: '80%',
+&#x20;       maxWidth: '1000px',
+&#x20;       height: 'auto',
+&#x20;       transition: 'all 0.4s ease'
+&#x20;     }}
+&#x20;     onMouseOver=\{(e) => (e.target.style.width = '100%')}
+&#x20;     onMouseOut=\{(e) => (e.target.style.width = '90%')}
+&#x20;   />
+&#x20; \</div>
+\</Accordion>
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇵🇪 Perú</span>}>
-  A continuación, podrás ver listados los métodos con los que contamos en Perú, tanto para PayIns como para PayOuts.
+\<Accordion title=\{\<span style=\{\{ fontSize: '20px', fontWeight: 'bold' }}>🇵🇪 Perú\</span>}>
+&#x20; A continuación, podrás ver listados los métodos con los que contamos en Perú, tanto para PayIns como para PayOuts.
 
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/1b3ae4e6a2dbb194b9aac5a2e521d21609d420c2adb8388ad28e274f116a786d-Coverage_in_Peru.png"
-      alt="Peruvian Coverage"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
+&#x20; \<div style=\{\{ textAlign: 'center' }}>
+&#x20;   \<img
+&#x20;     src="https\://files.readme.io/1b3ae4e6a2dbb194b9aac5a2e521d21609d420c2adb8388ad28e274f116a786d-Coverage\_in\_Peru.png"
+&#x20;     alt="Peruvian Coverage"
+&#x20;     style=\{\{
+&#x20;       width: '80%',
+&#x20;       maxWidth: '1000px',
+&#x20;       height: 'auto',
+&#x20;       transition: 'all 0.4s ease'
+&#x20;     }}
+&#x20;     onMouseOver=\{(e) => (e.target.style.width = '100%')}
+&#x20;     onMouseOut=\{(e) => (e.target.style.width = '90%')}
+&#x20;   />
+&#x20; \</div>
+\</Accordion>
 
 ## Crea un nuevo pago
 
