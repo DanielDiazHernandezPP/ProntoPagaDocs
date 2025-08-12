@@ -111,8 +111,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
         <td style={{ textAlign: "left" }}>
           * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
-          * **DigiCard**:
-            hasta $2.000.000 diarios (CLP)
+          * **DigiCard**: hasta $2.000.000 diarios (CLP)
         </td>
 
         <td style={{ textAlign: "left" }}>
