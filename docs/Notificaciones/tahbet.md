@@ -655,3 +655,27 @@ Puedes ver una demo visual:
     <strong>Excepteur sint occaecat cupidatat non proident</strong>
   </Card>
 </Cards>
+
+<br />
+
+<br />
+
+<br />
+
+<Cards columns={4} className="cards-zoom">
+  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+    <img src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" alt="First Card Image" style={{ width: "100%" }} />
+  </Card>
+
+  <Card title="Second Card" icon="fa-user">
+    <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit</em>
+  </Card>
+
+  <Card title="Third Card" icon="fa-star">
+    <blockquote>Ut enim ad minim veniam, quis nostrud ullamco</blockquote>
+  </Card>
+
+  <Card title="Fourth Card" icon="fa-question">
+    <strong>Excepteur sint occaecat cupidatat non proident</strong>
+  </Card>
+</Cards>
