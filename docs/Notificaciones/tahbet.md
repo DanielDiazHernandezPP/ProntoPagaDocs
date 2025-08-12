@@ -45,7 +45,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   <tbody>
     <tr>
       <td>
-        En este banco, los límites transaccionales se establecen **según el tipo de autenticación de segundo factor**.
+        En este banco, los límites transaccionales se establecen**según el tipo de autenticación de segundo factor**.
       </td>
 
       <td>
