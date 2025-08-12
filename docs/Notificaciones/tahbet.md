@@ -66,7 +66,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 </Table>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
-  Información sobre límites transaccionales para Banco de Chile.
+  Información sobre límites transaccionales.
 
   <Table align={["left","left","left","left"]}>
     <thead>
@@ -112,6 +112,106 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     </tbody>
   </Table>
 </Accordion>
+
+***
+
+<br />
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco Itaú
+      </th>
+
+      <th>
+        Límite de primera transacción
+      </th>
+
+      <th>
+        Límites de transacciones en curso:
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En este banco, los limites se establecen para la transacción inicial **según el tipo de cuenta del usuario**.
+      </td>
+
+      <td>
+        * Cuenta Corriente:
+          **hasta $300.000** diarios (CLP)
+        * Cuenta Vista/Ahorro/RUT:
+          **hasta $200.000** diarios (CLP)
+      </td>
+
+      <td>
+        Hasta $**5.000.000** diarios (CLP)
+      </td>
+
+      <td>
+        24 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<Accordion Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Itaú</span>}>
+  Información sobre límites transaccionales.
+
+  <Table align={["left","left","left","left"]}>
+    <thead>
+      <tr>
+        <th style={{ textAlign: "left" }}>
+          Banco Itaú
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límite de primera transacción
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límites de transacciones en curso:
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tiempo de espera para la segunda transacción:
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style={{ textAlign: "left" }}>
+          En este banco, los limites se establecen para la transacción inicial **según el tipo de cuenta del usuario**.
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * Cuenta Corriente:
+            **hasta $300.000** diarios (CLP)
+          * Cuenta Vista/Ahorro/RUT:
+            **hasta $200.000** diarios (CLP)
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          Hasta $**5.000.000** diarios (CLP)
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          24 horas
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</Accordion>
+
+<br />
 
 <br />
 
