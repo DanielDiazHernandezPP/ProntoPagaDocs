@@ -610,3 +610,18 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     </tr>
   </tbody>
 </Table>
+
+<br />
+
+<br />
+
+# Comparativa de límites transaccionales – Bancos en Chile
+
+Aquí tienes un resumen rápido de límites y tiempos de espera.\
+Puedes ver una demo visual:
+
+<p align="center">
+  <img src="./assets/animacion.gif" alt="Demo: cómo funciona el pago con tu banco" width="700" />
+</p>
+
+> Nota: Si la animación no se reproduce, asegúrate de que `assets/animacion.gif` esté en la rama `main` del repositorio.
