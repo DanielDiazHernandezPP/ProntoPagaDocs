@@ -626,20 +626,20 @@ Puedes ver una demo visual:
 
 > Nota: Si la animación no se reproduce, asegúrate de que `assets/animacion.gif` esté en la rama `main` del repositorio.
 
-<Cards columns={4}>
-  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
-  </Card>
+\<Cards columns=\{4}>
+&#x20; \<Card title="First Card" href="https\://readme.com" icon="fa-home" target="\_blank">
+&#x20;  \<img src="https\://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png"
+&#x20; \</Card>
 
-  <Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
+&#x20; \<Card title="Second Card" icon="fa-user">
+&#x20;   \*Lorem ipsum dolor sit amet, consectetur adipiscing elit\*
+&#x20; \</Card>
 
-  <Card title="Third Card" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Card>
+&#x20; \<Card title="Third Card" icon="fa-star">
+&#x20;   \> Ut enim ad minim veniam, quis nostrud ullamco
+&#x20; \</Card>
 
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
-  </Card>
-</Cards>
+&#x20; \<Card title="Fourth Card" icon="fa-question">
+&#x20;   \*\*Excepteur sint occaecat cupidatat non proident\*\*
+&#x20; \</Card>
+\</Cards>
