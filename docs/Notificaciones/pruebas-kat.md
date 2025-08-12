@@ -106,10 +106,10 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 Here is an example that lists instructions relevant to specific platforms:
 
-\{% tabs %}\
-\{% tab title="Windows" %}
+\<tabs>
+\<tab title="Windows">
 Here are the instructions for Windows
-\{% endtab %}
+\<endtab>
 
 \{% tab title="macOS" %}\
 Here are the instructions for macOS
