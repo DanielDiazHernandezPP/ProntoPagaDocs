@@ -45,6 +45,23 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
   </ul>
 </Accordion>
 
+<HTMLBlock>{`
+<details>
+  <summary>🇧🇷 Brasil</summary>
+  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+
+  <div style="text-align: center;">
+    <img 
+      src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
+      alt="Argentina Coverage"
+      style="width: 80%; max-width: 600px; height: auto; transition: all 0.3s ease;" 
+      onmouseover="this.style.width='90%'" 
+      onmouseout="this.style.width='80%'"
+    />
+  </div>
+</details>
+`}</HTMLBlock>
+
 4. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
