@@ -341,15 +341,11 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
   <thead>
-    <tr style="height:270px;width:294px;border-radius:8px;transition:all 190ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__bg"></div></div><div style="height:270px;width:294px;border-radius:8px;transition:all 205ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__accent-bg" style="background-color:#fdd9f2"></div></div><div style="height:270px;width:294px;border-radius:8px;transition:all 220ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__example-card"><img src="//images.ctfassets.net/mmjbm94f6iyd/4ntKGjxc4WaktyknvceEZh/aa804f9286c295e39cf5001628a4132c/suscribe_una_tarjeta.png" alt="Crea un cargo recurrente"/></div></div><div style="height:270px;width:294px;border-radius:8px;transition:all 235ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__content"><h6>
-      <th style="padding: 12px;">Banco</th>
-      <th style="padding: 12px;">Primera transacción</th>
-      <th style="padding: 12px;">Tiempo de espera ⏳</th>
-      <th style="padding: 12px;">Transacción en curso</th>
+    <tr style="height:270px;width:294px;border-radius:8px;transition:all 190ms ease-out"
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr>    <tr style="height:270px;width:294px;border-radius:8px;transition:all 190ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__bg"></div></div><div style="height:270px;width:294px;border-radius:8px;transition:all 205ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__accent-bg" style="background-color:#fdd9f2"></div></div><div style="height:270px;width:294px;border-radius:8px;transition:all 220ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__example-card"><img src="//images.ctfassets.net/mmjbm94f6iyd/4ntKGjxc4WaktyknvceEZh/aa804f9286c295e39cf5001628a4132c/suscribe_una_tarjeta.png" alt="Crea un cargo recurrente"/></div></div><div style="height:270px;width:294px;border-radius:8px;transition:all 235ms ease-out" class="sc-hLBbgP goANCp parallaxHover__layer"><div class="guide-link__content"><h6>
       <td style="padding: 12px;"><img src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" alt="Banco de Chile" height="30"> Banco de Chile</td>
       <td>$350.000</td>
       <td>12 horas</td>
