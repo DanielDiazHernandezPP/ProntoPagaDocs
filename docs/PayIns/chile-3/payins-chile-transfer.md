@@ -278,14 +278,14 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
   | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
 </Accordion>
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security.</span>}>
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
   Información sobre límites transaccionales
 
   <Table align={["left","left","left","left","left"]}>
     <thead>
       <tr>
         <th style={{ textAlign: "left" }}>
-          Banco Security.
+          Banco Security
         </th>
 
         <th style={{ textAlign: "left" }}>
