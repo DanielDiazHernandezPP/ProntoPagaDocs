@@ -30,8 +30,6 @@ Para ello, en esta documentación encontrarás las guías de integración de cad
 
 ***
 
-<br />
-
 ## 🚀 ¿Cómo empezar?
 
 * **Primeros pasos**: Si es tu primera vez aquí, te recomendamos comenzar con nuestra guía de [Primeros Pasos](https://docs.prontopaga.com/docs/first-steps), en donde encontrarás lo necesario para realizar tus primeras solicitudes de prueba.
@@ -39,8 +37,6 @@ Para ello, en esta documentación encontrarás las guías de integración de cad
 * **Explora nuestra API**: Si desear ir directamente a explorar o hacer pruebas en nuestra API puedes hacerlo explorando nuestra [Referencia API online](https://docs.prontopaga.com/reference/payment-methods), o bien, en nuestra <a href="https://www.postman.com/prontopaga-api/prontopaga-docs/collection/24iz2pb/prontopaga-api?action=share&creator=34607190 " target="_blank">Colección de Postman</a>.
 
 ***
-
-<br />
 
 ## 💬 ¿Necesitas ayuda?
 
