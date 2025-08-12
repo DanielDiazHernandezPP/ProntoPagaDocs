@@ -65,278 +65,275 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </Table>
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
-  Información sobre límites transaccionales.
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Chile\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-  <Table align={["left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco de Chile
-        </th>
+&#x20; \<Table align=\{\["left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco de Chile
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límite de primera transacción
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límite de primera transacción
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límites de transacciones en curso:
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límites de transacciones en curso:
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
-      </tr>
-    </thead>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción:
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen**según el tipo de autenticación de segundo factor**.
-        </td>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style="padding: 12px;">\<img src="https\://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura\_de\_pantalla\_2025-08-11\_a\_las\_2.50.26\_p.\_m..png" alt="Banco de Chile" height="30"> Banco de Chile\</td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         CLP $350.000
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          CLP $350.000
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* \*\*DigiPass y Mi Pass\*\*: hasta $5.000.000 diarios (CLP)
+&#x20;         \* \*\*DigiCard\*\*:
+&#x20;           hasta $2.000.000 diarios (CLP)
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
-          * **DigiCard**:
-            hasta $2.000.000 diarios (CLP)
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         12 horas
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+\</Accordion>
 
-        <td style={{ textAlign: "left" }}>
-          12 horas
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
-  Información sobre límites transaccionales.
+&#x20; \<Table align=\{\["left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco Itaú
+&#x20;       \</th>
 
-  <Table align={["left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco Itaú
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límite de primera transacción
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límite de primera transacción
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límites de transacciones en curso:
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límites de transacciones en curso:
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción:
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
-      </tr>
-    </thead>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         En este banco, los limites se establecen para la transacción inicial \*\*según el tipo de cuenta del usuario\*\*.
+&#x20;       \</td>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          En este banco, los limites se establecen para la transacción inicial **según el tipo de cuenta del usuario**.
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* Cuenta Corriente:
+&#x20;           \*\*hasta $300.000\*\* diarios (CLP)
+&#x20;         \* Cuenta Vista/Ahorro/RUT:
+&#x20;           \*\*hasta $200.000\*\* diarios (CLP)
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * Cuenta Corriente:
-            **hasta $300.000** diarios (CLP)
-          * Cuenta Vista/Ahorro/RUT:
-            **hasta $200.000** diarios (CLP)
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         Hasta $\*\*5.000.000\*\* diarios (CLP)
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          Hasta $**5.000.000** diarios (CLP)
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         24 horas
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+\</Accordion>
 
-        <td style={{ textAlign: "left" }}>
-          24 horas
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco BCI\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco BCI</span>}>
-  Información sobre límites transaccionales.
+&#x20; \<Table align=\{\["left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco BCI
+&#x20;       \</th>
 
-  <Table align={["left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco BCI
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         BCI PASS: (App)
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          BCI PASS: (App)
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Multipass (dispositivo físico):
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Multipass (dispositivo físico):
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción:
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
-      </tr>
-    </thead>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         En Banco BCI, los límites dependen del
+&#x20;         sistema de autenticación.
+&#x20;       \</td>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          En Banco BCI, los límites dependen del
-          sistema de autenticación.
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* Límite de primera transacción:
+&#x20;           \*\*CLP $600.000\*\*
+&#x20;         \* Límites de transacciones en curso:
+&#x20;           hasta \*\*$7.000.000 diarios (CLP)\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * Límite de primera transacción:
-            **CLP $600.000**
-          * Límites de transacciones en curso:
-            hasta **$7.000.000 diarios (CLP)**
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* Límite de primera transacción:\\
+&#x20;           \*\*CLP $250.000\*\*
+&#x20;         \* Límites de transacciones en curso:\\
+&#x20;           hasta \*\*$5.000.000 diarios (CLP)\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * Límite de primera transacción:\
-            **CLP $250.000**
-          * Límites de transacciones en curso:\
-            hasta **$5.000.000 diarios (CLP)**
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         24 horas
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+\</Accordion>
 
-        <td style={{ textAlign: "left" }}>
-          24 horas
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Estado\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Estado</span>}>
-  Información sobre límites transaccionales.
+&#x20; \<Table align=\{\["left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco Estado
+&#x20;       \</th>
 
-  <Table align={["left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco Estado
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Cuenta RUT:
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Cuenta RUT:
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Cuenta corriente y chequera electrónica:
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Cuenta corriente y chequera electrónica:
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción:
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
-      </tr>
-    </thead>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         Los límites diarios de Banco Estado varían según el tipo de cuenta..
+&#x20;       \</td>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          Los límites diarios de Banco Estado varían según el tipo de cuenta..
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* Límite de primera transacción:
+&#x20;           \*\*CLP $100.000\*\*
+&#x20;         \* Límites de transacciones en curso:
+&#x20;           Hasta \*\*$1.000.000 diarios (CLP)\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * Límite de primera transacción:
-            **CLP $100.000**
-          * Límites de transacciones en curso:
-            Hasta **$1.000.000 diarios (CLP)**
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* Límite de primera transacción:\\
+&#x20;           \*\*CLP $250.000\*\*
+&#x20;         \* Límites de transacciones en curso:\\
+&#x20;           hasta \*\*$5.000.000 diarios (CLP)\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * Límite de primera transacción:\
-            **CLP $250.000**
-          * Límites de transacciones en curso:\
-            hasta **$5.000.000 diarios (CLP)**
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         24 horas
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+\</Accordion>
 
-        <td style={{ textAlign: "left" }}>
-          24 horas
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Santander\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Santander</span>}>
-  Información sobre límites transaccionales.
+&#x20; \| Banco Santander                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+&#x20; \| :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+&#x20; \| En este banco, los limites son generales. | \*\*CLP $250.000\*\*               | Hasta \*\*$5.000.000 diarios (CLP)\*\* | 24 horas                                      |
+\</Accordion>
 
-  | Banco Santander                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
-  | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
-  | En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$5.000.000 diarios (CLP)** | 24 horas                                      |
-</Accordion>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Falabella\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Falabella</span>}>
-  Información sobre límites transaccionales.
+&#x20; \| Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+&#x20; \| :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+&#x20; \| En este banco, los limites son generales. | \*\*CLP $200.000\*\*               | Hasta \*\*$7.000.000 diarios (CLP)\*\* | 24 horas                                      |
+\</Accordion>
 
-  | Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
-  | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
-  | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
-</Accordion>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security.\</span>}>
+&#x20; Información sobre límites transaccionales.
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security.</span>}>
-  Información sobre límites transaccionales.
+&#x20; \<Table align=\{\["left","left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco Security.
+&#x20;       \</th>
 
-  <Table align={["left","left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco Security.
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límite de primera transacción:
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límite de primera transacción:
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tarjeta de coordenadas
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Tarjeta de coordenadas
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Dispositivo de clave dinámica o SMS
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Dispositivo de clave dinámica o SMS
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción:
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
-      </tr>
-    </thead>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         En este banco, los límites \*\*dependen del sistema de autenticación\*\*.
+&#x20;       \</td>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          En este banco, los límites **dependen del sistema de autenticación**.
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \*\*CLP $350.000\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          **CLP $350.000**
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         Límites transaccionales en curso: hasta \*\*$2.000.000 diarios (CLP)\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          Límites transaccionales en curso: hasta **$2.000.000 diarios (CLP)**
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         Límites transaccionales en curso:
+&#x20;         hasta \*\*$5.000.000 diarios (CLP)\*\*
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          Límites transaccionales en curso:
-          hasta **$5.000.000 diarios (CLP)**
-        </td>
-
-        <td style={{ textAlign: "left" }}>
-          48 horas
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         48 horas
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+\</Accordion>
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
@@ -564,7 +561,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   <thead>
     <tr>
       <th>
-        Banco Security.
+        Banco Security
       </th>
 
       <th>
