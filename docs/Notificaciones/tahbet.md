@@ -67,68 +67,70 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 <br />
 
-<br />
+\<Accordion title="My Accordion Title" icon="fa-info-circle">
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!&#x20;
+&#x20;\<Table align=\{\["left","left","left","left"]}>
+&#x20; \<thead>
+&#x20;   \<tr>
+&#x20;     \<th style=\{\{ textAlign: "left" }}>
+&#x20;       Banco de Chile
+&#x20;     \</th>
 
-<br />
+&#x20;     \<th style=\{\{ textAlign: "left" }}>
+&#x20;       Límite de primera transacción
+&#x20;     \</th>
 
-<br />
+&#x20;     \<th style=\{\{ textAlign: "left" }}>
+&#x20;       Límites de transacciones en curso:
+&#x20;     \</th>
 
-\<Accordion title="Banco de Chile" icon="fa-info-circle">\
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-occaecat cupidatat non proident!
-
-\<Table align=\{\["left","left","left","left"]}>\
-\<thead>
-\<tr>
-\<th style=\{\{ textAlign: "left" }}>
-Banco de Chile
-\</th>
-
-```
-```
-```
-```
-```
-```
-
-```
-```
-```
-```
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-.tabla-limites td \{\
-padding: 8px 12px;
-vertical-align: top;
+&#x20;     \<th style=\{\{ textAlign: "left" }}>
+&#x20;       Tiempo de espera para la segunda transacción:
+&#x20;     \</th>
+&#x20;   \</tr>
+&#x20; \</thead>
+.tabla-limites thead th \{
+&#x20; color: red !important;
+&#x20; font-weight: bold;
+&#x20; background-color: #fff5f5; /\* rojo muy suave \*/
+&#x20; padding: 10px;
 }
 
+.tabla-limites td \{
+&#x20; padding: 8px 12px;
+&#x20; vertical-align: top;
+}
+
+&#x20; \<tbody>
+&#x20;   \<tr>
+&#x20;     \<td style=\{\{ textAlign: "left" }}>
+&#x20;       En este banco, los límites transaccionales se establecen\*\*según el tipo de autenticación de segundo factor\*\*.
+&#x20;     \</td>
+
+&#x20;     \<td style=\{\{ textAlign: "left" }}>
+&#x20;       CLP $350.000
+&#x20;     \</td>
+
+&#x20;     \<td style=\{\{ textAlign: "left" }}>
+&#x20;       \* \*\*DigiPass y Mi Pass\*\*: hasta $5.000.000 diarios (CLP)
+&#x20;       \* \*\*DigiCard\*\*:
+&#x20;         hasta $2.000.000 diarios (CLP)
+&#x20;     \</td>
+
+&#x20;     \<td style=\{\{ textAlign: "left" }}>
+&#x20;       12 horas
+&#x20;     \</td>
+&#x20;   \</tr>
+&#x20; \</tbody>
+\</Table>
+
 \</Accordion>
 
-\<Accordion title="My Accordion Title" icon="fa-info-circle">\
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-occaecat cupidatat non proident!
-\</Accordion>
+<br />
+
+<br />
 
 <br />
 
