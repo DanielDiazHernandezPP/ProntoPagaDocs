@@ -5,6 +5,93 @@ hidden: true
 metadata:
   robots: index
 ---
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbed Instructions</title>
+  <style>
+    /* Basic styles for the tabs */
+    .tabs {
+      display: flex;
+      cursor: pointer;
+      background-color: #ddd;
+    }
+
+    .tab {
+      padding: 10px 20px;
+      background-color: #eee;
+      margin-right: 2px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .tab:hover {
+      background-color: #ccc;
+    }
+
+    .tab.active {
+      background-color: #fff;
+      font-weight: bold;
+      border-bottom: none;
+    }
+
+    /* Content style for tab content */
+    .tab-content {
+      display: none;
+      padding: 15px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      border-top: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab(0)">Windows</div>
+  <div class="tab" onclick="showTab(1)">macOS</div>
+  <div class="tab" onclick="showTab(2)">Linux</div>
+</div>
+
+<div class="tab-content active">
+  Here are the instructions for Windows.
+</div>
+<div class="tab-content">
+  Here are the instructions for macOS.
+</div>
+<div class="tab-content">
+  Here are the instructions for Linux.
+</div>
+
+<script>
+  // Function to change active tab and content
+  function showTab(index) {
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach((tab, i) => {
+      tab.classList.remove('active'); // Remove active class from all tabs
+      contents[i].classList.remove('active'); // Hide all content
+    });
+
+    tabs[index].classList.add('active'); // Add active class to the clicked tab
+    contents[index].classList.add('active'); // Show the content for the clicked tab
+  }
+</script>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+<br />
+
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Yape", tener una cuenta creada y aprobar la compra desde su aplicación.
@@ -107,16 +194,16 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 Here is an example that lists instructions relevant to specific platforms:
 
 \{% tabs %}\
-\{% tab title="Windows" %}\
+\{% tab title="Windows" %}
 Here are the instructions for Windows
 \{% endtab %}
 
 \{% tab title="macOS" %}\
-Here are the instructions for macOS\
+Here are the instructions for macOS
 \{% endtab %}
 
 \{% tab title="Linux" %}\
-Here are the instructions for Linux\
+Here are the instructions for Linux
 \{% endtab %}
 \{% endtabs %}
 
