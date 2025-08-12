@@ -275,7 +275,13 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   | En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$5.000.000 diarios (CLP)** | 24 horas                                      |
 </Accordion>
 
-<br />
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Falabella</span>}>
+  Información sobre límites transaccionales.
+
+  | Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+  | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+  | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
+</Accordion>
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
@@ -333,6 +339,8 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </table>
 `}</HTMLBlock>
+
+<br />
 
 <br />
 
@@ -488,3 +496,9 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 | Banco Santander                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
 | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
 | En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$5.000.000 diarios (CLP)** | 24 horas                                      |
+
+<br />
+
+| Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+| :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+| En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
