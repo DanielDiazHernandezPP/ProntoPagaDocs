@@ -215,7 +215,58 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-<br />
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Estado</span>}>
+  Información sobre límites transaccionales.
+
+  <Table align={["left","left","left","left"]}>
+    <thead>
+      <tr>
+        <th style={{ textAlign: "left" }}>
+          Banco Estado
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Cuenta RUT:
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Cuenta corriente y chequera electrónica:
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tiempo de espera para la segunda transacción:
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style={{ textAlign: "left" }}>
+          En Banco BCI, los límites dependen del
+          sistema de autenticación.
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * Límite de primera transacción:
+            **CLP $100.000**
+          * Límites de transacciones en curso:
+            Hasta **$1.000.000 diarios (CLP)**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * Límite de primera transacción:\
+            **CLP $250.000**
+          * Límites de transacciones en curso:\
+            hasta **$5.000.000 diarios (CLP)**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          24 horas
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</Accordion>
 
 <br />
 
@@ -360,6 +411,57 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
           **CLP $600.000**
         * Límites de transacciones en curso:
           hasta **$7.000.000 diarios (CLP)**
+      </td>
+
+      <td>
+        * Límite de primera transacción:\
+          **CLP $250.000**
+        * Límites de transacciones en curso:\
+          hasta **$5.000.000 diarios (CLP)**
+      </td>
+
+      <td>
+        24 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco Estado
+      </th>
+
+      <th>
+        Cuenta RUT:
+      </th>
+
+      <th>
+        Cuenta corriente y chequera electrónica:
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En Banco BCI, los límites dependen del
+        sistema de autenticación.
+      </td>
+
+      <td>
+        * Límite de primera transacción:
+          **CLP $100.000**
+        * Límites de transacciones en curso:
+          Hasta **$1.000.000 diarios (CLP)**
       </td>
 
       <td>
