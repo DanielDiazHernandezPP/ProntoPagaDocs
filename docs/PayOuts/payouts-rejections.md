@@ -1,5 +1,5 @@
 ---
-title: Tipos de rechazos
+title: Tipos de rechazos (PayOuts)
 excerpt: ''
 deprecated: false
 hidden: false
