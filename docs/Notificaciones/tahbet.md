@@ -162,7 +162,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco BCI</span>}>
   Información sobre límites transaccionales.
 
   <Table align={["left","left","left","left"]}>
@@ -242,8 +242,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          En Banco BCI, los límites dependen del
-          sistema de autenticación.
+          Los límites diarios de Banco Estado varían según el tipo de cuenta..
         </td>
 
         <td style={{ textAlign: "left" }}>
@@ -268,7 +267,13 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-<br />
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Santander</span>}>
+  Información sobre límites transaccionales.
+
+  | Banco Santander                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+  | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+  | En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$5.000.000 diarios (CLP)** | 24 horas                                      |
+</Accordion>
 
 <br />
 
@@ -453,8 +458,8 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   <tbody>
     <tr>
       <td>
-        En Banco BCI, los límites dependen del
-        sistema de autenticación.
+        Los límites diarios de Banco
+        Estado varían según el tipo de cuenta.
       </td>
 
       <td>
@@ -477,3 +482,9 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     </tr>
   </tbody>
 </Table>
+
+<br />
+
+| Banco Santander                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+| :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+| En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$5.000.000 diarios (CLP)** | 24 horas                                      |
