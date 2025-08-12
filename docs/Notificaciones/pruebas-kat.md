@@ -19,35 +19,29 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 &#x20; \<Tab title="En web">
 &#x20;   \* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.
 
-&#x20;   \* \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.
-&#x20; \</Tab>
-
-&#x20; \<Tab title="En mobile">
-&#x20;   \* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* El cliente ve el botón de \*\*Abrir Yape\*\*, el cual lo redireccionará a la aprobación del pago en su aplicación.
-
-&#x20;   \* \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.
-&#x20; \</Tab>
+\<Tab title="En mobile">
+&#x20; \* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* El cliente ve el botón de \*\*Abrir Yape\*\*, el cual lo redireccionará a la aprobación del pago en su aplicación.
 \</Tabs>
 
-\<details>
-&#x20; \<summary>\<b>En web\</b>\</summary>
+\<details>\
+\<summary>\<b>En web\</b>\</summary>
 
-&#x20; \<ul>
-&#x20;   \<li>\*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.\</li>
-&#x20;   \<li>\*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.\</li>
-&#x20; \</ul>
+\<ul>\
+\<li>**Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.\</li>
+\<li>**Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.\</li>
+\</ul>
 \</details>
 
-\<Accordion title="En web">
-&#x20; \<ul>
-&#x20;   \<li>\*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.\</li>
-&#x20;   \<li>\*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.\</li>
-&#x20; \</ul>
+\<Accordion title="En web">\
+\<ul>
+\<li>**Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.\</li>
+\<li>**Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.\</li>
+\</ul>
 \</Accordion>
 
-\<details style=\{\{ border: 'none' }}>
-&#x20; \<summary
-&#x20;   style=\{\{
+\\\<details style=\\\{\\\{ border: 'none' }}> &#x20;
+&#x20; \\\<summary
+&#x20;   style=\\\{\\\{
 &#x20;     cursor: 'pointer',
 &#x20;     padding: '10px 0',
 &#x20;     background: 'none',
@@ -57,12 +51,13 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 &#x20;     listStyle: 'none'
 &#x20;   }}
 &#x20; \>
-&#x20;   \<b>🇧🇷 Brasil\</b>
-&#x20; \</summary>
+&#x20;   \\\<b>🇧🇷 Brasil\\\</b>
+&#x20; \\\</summary>
 
-&#x20; \<p>\* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.
+\<p>\* **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
 
-&#x20;   \* \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.\</p>
+```
+```
 
 \</details>
 
