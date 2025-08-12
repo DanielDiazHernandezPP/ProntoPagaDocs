@@ -44,6 +44,10 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 <br />
 
+<i aria-label="Download to Floppy" class="fa-duotone fa-solid fa-computer-classic" />
+
+<br />
+
 # Embedded form
 
 > This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form).
