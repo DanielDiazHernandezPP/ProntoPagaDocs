@@ -162,9 +162,58 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-<br />
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
+  Información sobre límites transaccionales.
 
-<br />
+  <Table align={["left","left","left","left"]}>
+    <thead>
+      <tr>
+        <th style={{ textAlign: "left" }}>
+          Banco BCI
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          BCI PASS: (App)
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Multipass (dispositivo físico):
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tiempo de espera para la segunda transacción:
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style={{ textAlign: "left" }}>
+          En Banco BCI, los límites dependen del
+          sistema de autenticación.
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * Límite de primera transacción:
+            **CLP $600.000**
+          * Límites de transacciones en curso:
+            hasta **$7.000.000 diarios (CLP)**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * Límite de primera transacción:\
+            **CLP $250.000**
+          * Límites de transacciones en curso:\
+            hasta **$5.000.000 diarios (CLP)**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          24 horas
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</Accordion>
 
 <br />
 
@@ -267,6 +316,57 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
       <td>
         Hasta $**5.000.000** diarios (CLP)
+      </td>
+
+      <td>
+        24 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco BCI
+      </th>
+
+      <th>
+        BCI PASS: (App)
+      </th>
+
+      <th>
+        Multipass (dispositivo físico):
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En Banco BCI, los límites dependen del
+        sistema de autenticación.
+      </td>
+
+      <td>
+        * Límite de primera transacción:
+          **CLP $600.000**
+        * Límites de transacciones en curso:
+          hasta **$7.000.000 diarios (CLP)**
+      </td>
+
+      <td>
+        * Límite de primera transacción:\
+          **CLP $250.000**
+        * Límites de transacciones en curso:\
+          hasta **$5.000.000 diarios (CLP)**
       </td>
 
       <td>
