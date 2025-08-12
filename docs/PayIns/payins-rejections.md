@@ -1,5 +1,5 @@
 ---
-title: Tipos de rechazos
+title: Tipos de rechazos (PayIns)
 excerpt: ''
 deprecated: false
 hidden: false
