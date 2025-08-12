@@ -16,6 +16,19 @@ metadata:
 </div>
 `}</HTMLBlock>
 
+\<div class="selectors">
+&#x20; \<a class="selector" href="/docs/vtex">
+&#x20;   \<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VTEX\_Logo.svg/305px-VTEX\_Logo.svg.png?20211207023221" style="max-height:70px" class="icon-plugin">
+&#x20; \</a>
+&#x20; \<a class="selector" href="/docs/shopify">
+&#x20;   \<img src="https\://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shopify\_logo.svg/800px-Shopify\_logo.svg.png?20200909100300" style="max-height:70px" class="icon-plugin">
+&#x20; \</a>
+&#x20;   \</div>
+
+<br />
+
+***
+
 <br />
 
 <Accordion title="My Accordion Title">
