@@ -23,18 +23,18 @@ metadata:
 next:
   description: ''
 ---
-La API de ProntoPaga cuenta con dos enviroments:
+La API de ProntoPaga cuenta con dos environment:
 
-* El enviroment de pruebas (sandbox)
-* El enviroment de producción
+* El environment de pruebas (sandbox)
+* El environment de producción
 
 ***
 
 ## Pruebas (sandbox)
 
-Como primer paso, nosotros crearemos y te proporcionaremos tu Bearer Token y secretKey en el enviroment de pruebas, para que puedas hacer tu integración y realizar las pruebas que desees en sandbox. Realizar pruebas en este enviroment no afectará los datos reales de tu comercio, ya que se utilizan datos simulados.
+Como primer paso, nosotros crearemos y te proporcionaremos tu Bearer Token y secretKey en el environment de pruebas, para que puedas hacer tu integración y realizar las pruebas que desees en sandbox. Realizar pruebas en este environment no afectará los datos reales de tu comercio, ya que se utilizan datos simulados.
 
-La URL base de este enviroment es:
+La URL base de este environment es:
 
 ```
 https://sandbox.prontopaga.com/api
@@ -42,7 +42,7 @@ https://sandbox.prontopaga.com/api
 
 <br />
 
-Las IPs del enviroment de sandbox son:
+Las IPs del environment de sandbox son:
 
 ```
 54.236.195.158
@@ -55,7 +55,7 @@ Las IPs del enviroment de sandbox son:
 
 Una vez que tu comercio esté listo para pasar a producción con los datos reales y en vivo, la administración de ProntoPaga deberá certificarte. Después de formalizar la certificación, se te proporcionarán un Bearer Token y secretKey distintos a los que usaste en sandbox.
 
-La URL base de este enviroment es:
+La URL base de este environment es:
 
 ```
 https://prontopaga.com/api
@@ -63,7 +63,7 @@ https://prontopaga.com/api
 
 <br />
 
-Las IPs del enviroment de sandbox son:
+Las IPs del environment de sandbox son:
 
 ```
 54.207.141.85
