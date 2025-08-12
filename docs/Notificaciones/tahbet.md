@@ -113,52 +113,8 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-<br />
-
-<Table align={["left","left","left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Banco Itaú
-      </th>
-
-      <th>
-        Límite de primera transacción
-      </th>
-
-      <th>
-        Límites de transacciones en curso:
-      </th>
-
-      <th>
-        Tiempo de espera para la segunda transacción:
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        En este banco, los limites se establecen para la transacción inicial **según el tipo de cuenta del usuario**.
-      </td>
-
-      <td>
-        * Cuenta Corriente:
-          **hasta $300.000** diarios (CLP)
-        * Cuenta Vista/Ahorro/RUT:
-          **hasta $200.000** diarios (CLP)
-      </td>
-
-      <td>
-        Hasta $**5.000.000** diarios (CLP)
-      </td>
-
-      <td>
-        24 horas
-      </td>
-    </tr>
-  </tbody>
-</Table>
+|    |
+| :- |
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
   Información sobre límites transaccionales.
@@ -275,3 +231,50 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </table>
 `}</HTMLBlock>
+
+<br />
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco Itaú
+      </th>
+
+      <th>
+        Límite de primera transacción
+      </th>
+
+      <th>
+        Límites de transacciones en curso:
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En este banco, los limites se establecen para la transacción inicial **según el tipo de cuenta del usuario**.
+      </td>
+
+      <td>
+        * Cuenta Corriente:
+          **hasta $300.000** diarios (CLP)
+        * Cuenta Vista/Ahorro/RUT:
+          **hasta $200.000** diarios (CLP)
+      </td>
+
+      <td>
+        Hasta $**5.000.000** diarios (CLP)
+      </td>
+
+      <td>
+        24 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
