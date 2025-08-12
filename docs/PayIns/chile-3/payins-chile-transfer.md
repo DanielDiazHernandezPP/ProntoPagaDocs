@@ -279,7 +279,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security.</span>}>
-  Información sobre límites transaccionales.
+  Información sobre límites transaccionales
 
   <Table align={["left","left","left","left","left"]}>
     <thead>
