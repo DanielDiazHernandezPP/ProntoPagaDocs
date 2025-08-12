@@ -17,9 +17,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
    1. **En web:**
 
-<Cards columns={3}>
-  <Card title="🖥️ En web" />
-
+<Cards columns={2}>
   <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
     Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
   </Card>
