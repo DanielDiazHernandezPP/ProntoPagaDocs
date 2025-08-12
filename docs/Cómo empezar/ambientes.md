@@ -63,7 +63,7 @@ https://prontopaga.com/api
 
 <br />
 
-Las IPs del environment de sandbox son:
+Las IPs del environment de producción son:
 
 ```
 54.207.141.85
