@@ -46,6 +46,10 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 <i aria-label="Download to Floppy" class="fa-duotone fa-solid fa-computer-classic" />
 
+<HTMLBlock>{`
+<i aria-label="Download to Floppy" class="fa-duotone fa-solid fa-computer-classic"></i>
+`}</HTMLBlock>
+
 <br />
 
 # Embedded form
