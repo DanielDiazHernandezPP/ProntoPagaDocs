@@ -25,16 +25,30 @@ metadata:
 
 `}</HTMLBlock>
 
+\<Accordion title="My Accordion Title" icon="fa-info-circle">\
+Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+occaecat cupidatat non proident!
+\</Accordion> title="My Accordion Title" icon="fa-info-circle">
+Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+occaecat cupidatat non proident!
+
 \<Accordion title="My Accordion Title" icon="fa-info-circle">
 &#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
 &#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
 &#x20; occaecat cupidatat non proident!
-\</Accordion> title="My Accordion Title" icon="fa-info-circle">
+\</Accordion>
+\\\<Accordion title="My Accordion Title" icon="fa-info-circle"> &#x20;
 &#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
 &#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
 &#x20; occaecat cupidatat non proident!
+\\\\\</Accordion> title="My Accordion Title" icon="fa-info-circle">
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!
+\</Accordion>
 
-<br />
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
