@@ -83,11 +83,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
     ```
   </Tab>
 
-  <Tab title="Python">
-    ```python
-    client = ReadMeAPI(api_key)
-    ```
-  </Tab>
+  <Tab title="Python" />
 
   <Tab title="Ruby">
     ```ruby
