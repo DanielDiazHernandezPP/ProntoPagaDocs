@@ -39,7 +39,7 @@ Como primer paso, nosotros crearemos y te proporcionaremos tu Bearer Token y sec
 La URL base de este enviroment es:
 
 ```
-https://sandbox.com/api/
+https://sandbox.prontopaga.com/api
 ```
 
 <br />
