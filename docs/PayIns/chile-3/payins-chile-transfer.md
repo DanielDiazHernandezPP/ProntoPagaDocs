@@ -29,8 +29,6 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Los pagos con transferencia son una forma común de realizar transacciones entre cuentas bancarias en Chile, ya sea dentro del mismo banco o entre distintos bancos, utilizando la banca en línea o plataformas electrónicas. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con tu Banco", ingresar a su cuenta bancaria con su RUT y Clave, seleccionar la cuenta desde la cual realizará la transacción, elegir el método de autorización y autenticar la operación.
@@ -254,15 +252,15 @@ Preguntar a ChatGPT
 
 ### Plazos para usuarios nuevos
 
-<Callout icon="❗️">
-  **Considera que**
+<Callout icon="❗️" theme="error">
+  **Recuerda que**
 
   Para los nuevos usuarios, el tiempo de espera para la segunda transacción **oscila entre 12 y 48 horas**.
 </Callout>
 
-Para garantizar una experiencia de pago perfecta, te recomendamos realizar un **seguimiento de este plazo y de la actividad del cliente**. Si un usuario necesita hacer un depósito antes de que finalice el período de espera, se puede usar un proveedor alternativo temporalmente, para evitar transacciones rechazadas.
+Para garantizar una buena experiencia de pago, te recomendamos realizar un **seguimiento de este plazo y de la actividad del cliente**. Si un usuario necesita hacer un depósito antes de que finalice este período, se puede usar un proveedor alternativo temporalmente y evitar transacciones rechazadas.
 
-Una vez finalizado el período de espera, recomendamos **enrutar todas las transacciones a través de ProntoPaga**. Cuando el usuario ya ha registrado la cuenta, el proceso de pago se vuelve más rápido.
+Una vez finalizado el período de espera, recomendamos **enrutar todas las transacciones a través de ProntoPaga**. Una vez que el usuario ya ha registrado su cuenta, el proceso de pago se vuelve más rápido.
 
 ## Crea un nuevo pago
 
