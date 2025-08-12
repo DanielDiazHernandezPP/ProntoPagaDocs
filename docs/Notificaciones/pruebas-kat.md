@@ -57,7 +57,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
       listStyle: 'none'
     }}
   >
-    <h1>🇧🇷 Brasil</h1>
+    <b>🇧🇷 Brasil</b>
   </summary>
 
   <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
