@@ -45,8 +45,19 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
    2. **En mobile:**
       1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
       2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
-2. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
-3. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+
+<br />
+
+# Embedded form
+
+> This is a Embedded form for when payment-ui is embedded-form. View the full page at [https://docs.stripe.com/payments/checkout/managing-limited-inventory?payment-ui=embedded-form](https://docs.stripe.com/payments/checkout/managing-limited-inventory?payment-ui=embedded-form).
+
+For some types of limited-inventory businesses, it’s necessary to prevent customers from reserving items for a long time without completing the purchase. For example, an event ticket seller wants to allow customers only a few minutes to buy their selected tickets before cancelling the sale and making those tickets available again. You can cancel a pending sale by expiring the *Checkout Session* (A Checkout Session represents your customer's session as they pay for one-time purchases or subscriptions through Checkout. After a successful payment, the Checkout Session contains a reference to the Customer, and either the successful PaymentIntent or an active Subscription).
+
+Checkout supports both manual and timed session expiration. When a Checkout Session expires, its [status property](https://docs.stripe.com/api/checkout/sessions/object.md#checkout_session_object-status) changes to `expired`.
+
+1. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
+2. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 <br />
 
