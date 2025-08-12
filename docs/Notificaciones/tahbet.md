@@ -65,7 +65,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </Table>
 
-<Accordion title="My Accordion Title" icon="🏦">
+<Accordion title="🏦 Banco de Chile" icon="🏦">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
