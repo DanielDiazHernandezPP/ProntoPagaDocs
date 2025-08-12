@@ -44,6 +44,12 @@ El proceso de pago con transferencia en Chile consta de cuatro etapas principale
    * El dinero se mueve desde el banco del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente es redirigido a tu sitio y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
+<Callout icon="📘" theme="info">
+  **Ten en cuenta que**
+
+  El proceso de autorización y la forma de autenticación son diferentes según el banco.
+</Callout>
+
 ***
 
 ## Límites transaccionales para transferencias
@@ -52,7 +58,9 @@ Cada banco **establece sus propios límites transaccionales**, que dependen de f
 
 Es importante **conocer las políticas de cada banco sobre los montos de las transacciones**, incluido el pago inicial, el periodo de espera antes de la segunda transacción y los límites de transacciones futuras. Estos límites pueden variar dependiendo del tipo de cuenta o del sistema de autenticación utilizado por el banco.
 
-A continuación mostramos los límites por banco y sus consideraciones especiales.
+&#x20;
+
+⏳ A continuación mostramos **los límites por banco** y sus consideraciones especiales.
 
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
   Información sobre límites transaccionales para Banco de Chile.
@@ -187,11 +195,11 @@ A continuación mostramos los límites por banco y sus consideraciones especiale
   </div>
 </Accordion>
 
+<br />
+
 ### Tabla de límites transaccionales
 
-Esta tabla muestra el **resumen de los datos clave** y permite comparar valores de manera rápida y visual.
-
-Preguntar a ChatGPT
+📊 Esta tabla muestra el **resumen de los datos clave** y permite comparar valores de manera rápida y visual.
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
@@ -250,6 +258,8 @@ Preguntar a ChatGPT
 </table>
 `}</HTMLBlock>
 
+<br />
+
 ### Plazos para usuarios nuevos
 
 <Callout icon="❗️" theme="error">
@@ -261,6 +271,8 @@ Preguntar a ChatGPT
 Para garantizar una buena experiencia de pago, te recomendamos realizar un **seguimiento de este plazo y de la actividad del cliente**. Si un usuario necesita hacer un depósito antes de que finalice este período, se puede usar un proveedor alternativo temporalmente y evitar transacciones rechazadas.
 
 Una vez finalizado el período de espera, recomendamos **enrutar todas las transacciones a través de ProntoPaga**. Una vez que el usuario ya ha registrado su cuenta, el proceso de pago se vuelve más rápido.
+
+<br />
 
 ## Crea un nuevo pago
 
