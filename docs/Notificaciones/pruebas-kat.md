@@ -5,6 +5,11 @@ hidden: true
 metadata:
   robots: index
 ---
+<Accordion title="My Accordion Title">
+  * **Si se tiene desactivado el servicio de validación pago de terceros**. Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
+    * **Si se tiene activado el servicio de validación pago de terceros**. Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
+</Accordion>
+
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Yape", tener una cuenta creada y aprobar la compra desde su aplicación.
@@ -106,7 +111,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 Here is an example that lists instructions relevant to specific platforms:
 
-\<tabs>
+\<tabs>\
 \<tab title="Windows">
 Here are the instructions for Windows
 \<endtab>
