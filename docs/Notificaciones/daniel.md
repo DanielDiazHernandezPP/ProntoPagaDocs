@@ -13,8 +13,6 @@ next:
       type: link
       url: https://developers.notion.com/docs/create-a-notion-integration
 ---
-hola Ana
-
 ````markdown
 
 ```json
