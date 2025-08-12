@@ -65,56 +65,56 @@ Información sobre límites transaccionales para Banco de Chile.
   </tbody>
 </Table>
 
-<Accordion title="Banco de Chile" icon="🏦">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-  Información sobre límites transaccionales para Banco de Chile.
+\<Accordion title="\&#127974";"Banco de Chile" icon="🏦">
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!
+&#x20; Información sobre límites transaccionales para Banco de Chile.
 
-  <Table align={["left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco de Chile
-        </th>
+&#x20; \<Table align=\{\["left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco de Chile
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límite de primera transacción
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límite de primera transacción
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límites de transacciones en curso:
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límites de transacciones en curso:
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
-      </tr>
-    </thead>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción:
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen**según el tipo de autenticación de segundo factor**.
-        </td>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         En este banco, los límites transaccionales se establecen\*\*según el tipo de autenticación de segundo factor\*\*.
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          CLP $350.000
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         CLP $350.000
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
-          * **DigiCard**:
-            hasta $2.000.000 diarios (CLP)
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \* \*\*DigiPass y Mi Pass\*\*: hasta $5.000.000 diarios (CLP)
+&#x20;         \* \*\*DigiCard\*\*:
+&#x20;           hasta $2.000.000 diarios (CLP)
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          12 horas
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         12 horas
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+\</Accordion>
 
 <br />
 
