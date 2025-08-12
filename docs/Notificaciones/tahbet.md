@@ -70,8 +70,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 \<Accordion title="My Accordion Title" icon="fa-info-circle">
 &#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
 &#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-&#x20; occaecat cupidatat non proident!&#x9;
-\{\`
+&#x20; occaecat cupidatat non proident!
 \<table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
 &#x20; \<thead>
 &#x20;   \<tr style="background-color: #f14b61; color: white;">
