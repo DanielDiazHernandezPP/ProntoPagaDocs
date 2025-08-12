@@ -90,11 +90,11 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
         </th>
 
         <th style={{ textAlign: "left" }}>
-          Límites de transacciones en curso:
+          Límites de transacciones en curso
         </th>
 
         <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
+          Tiempo de espera para la segunda transacción
         </th>
       </tr>
     </thead>
@@ -102,22 +102,30 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen según el tipo de **autenticación de segundo factor**
-
-          .
+          En este banco, los límites transaccionales se establecen según el tipo
+          de <strong>autenticación de segundo factor</strong>.
         </td>
 
         <td style={{ textAlign: "left" }}>
-          CLP $350.000
+          <strong>CLP $350.000</strong>
         </td>
 
         <td style={{ textAlign: "left" }}>
-          * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
-          * **DigiCard**: hasta $2.000.000 diarios (CLP)
+          <ul style={{ paddingLeft: "20px", margin: 0 }}>
+            <li>
+              <strong>DigiPass y Mi Pass</strong>: hasta{" "}
+              <strong>$5.000.000</strong> diarios (CLP)
+            </li>
+
+            <li>
+              <strong>DigiCard</strong>: hasta <strong>$2.000.000</strong> diarios
+              (CLP)
+            </li>
+          </ul>
         </td>
 
         <td style={{ textAlign: "left" }}>
-          12 horas
+          <strong>12 horas</strong>
         </td>
       </tr>
     </tbody>
