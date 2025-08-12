@@ -106,36 +106,87 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 Here is an example that lists instructions relevant to specific platforms:
 
-\{% tabs %} &#x20;
-\{% tab title="Windows" %}
+\{% tabs %}\
+\{% tab title="Windows" %}\
 Here are the instructions for Windows
 \{% endtab %}
 
-\{% tab title="macOS" %} &#x20;
-Here are the instructions for macOS
+\{% tab title="macOS" %}\
+Here are the instructions for macOS\
 \{% endtab %}
 
-\{% tab title="Linux" %} &#x20;
-Here are the instructions for Linux
+\{% tab title="Linux" %}\
+Here are the instructions for Linux\
 \{% endtab %}
 \{% endtabs %}
 
 <HTMLBlock>{`
-Here is an example that lists instructions relevant to specific platforms:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Platform Instructions</title>
+  <style>
+    .tab-container {
+      width: 100%;
+    }
 
-{% tabs %}
-{% tab title="Windows" %}
-Here are the instructions for Windows
-{% endtab %}
+    .tabs {
+      display: flex;
+      cursor: pointer;
+    }
 
-{% tab title="macOS" %}
-Here are the instructions for macOS
-{% endtab %}
+    .tab {
+      padding: 10px 20px;
+      background: #eee;
+      margin-right: 2px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
 
-{% tab title="Linux" %}
-Here are the instructions for Linux
-{% endtab %}
-{% endtabs %}
+    .tab.active {
+      background: #fff;
+      font-weight: bold;
+      border-bottom: none;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 15px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="tab-container">
+    <div class="tabs">
+      <div class="tab active" onclick="showTab(0)">Windows</div>
+      <div class="tab" onclick="showTab(1)">macOS</div>
+      <div class="tab" onclick="showTab(2)">Linux</div>
+    </div>
+    <div class="tab-content active">Here are the instructions for Windows</div>
+    <div class="tab-content">Here are the instructions for macOS</div>
+    <div class="tab-content">Here are the instructions for Linux</div>
+  </div>
+
+  <script>
+    function showTab(index) {
+      const tabs = document.querySelectorAll(".tab");
+      const contents = document.querySelectorAll(".tab-content");
+
+      tabs.forEach((tab, i) => {
+        tab.classList.toggle("active", i === index);
+        contents[i].classList.toggle("active", i === index);
+      });
+    }
+  </script>
+</body>
+</html>
 `}</HTMLBlock>
 
 <br />
