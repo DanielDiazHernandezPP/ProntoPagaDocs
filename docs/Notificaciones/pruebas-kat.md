@@ -15,70 +15,56 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** El flujo de aprobación del pago varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
 
-<Tabs>
-  <Tab title="En web">
-    * **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
+\<Tabs>
+&#x20; \<Tab title="En web">
+&#x20;   \* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.
 
-    * **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
-  </Tab>
+&#x20;   \* \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.
+&#x20; \</Tab>
 
-  <Tab title="En mobile">
-    * **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
+&#x20; \<Tab title="En mobile">
+&#x20;   \* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* El cliente ve el botón de \*\*Abrir Yape\*\*, el cual lo redireccionará a la aprobación del pago en su aplicación.
 
-    * **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
-  </Tab>
-</Tabs>
+&#x20;   \* \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.
+&#x20; \</Tab>
+\</Tabs>
 
-<details>
-  <summary><b>En web</b></summary>
+\<details>
+&#x20; \<summary>\<b>En web\</b>\</summary>
 
-  <ul>
-    <li>**Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.</li>
-    <li>**Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.</li>
-  </ul>
-</details>
+&#x20; \<ul>
+&#x20;   \<li>\*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.\</li>
+&#x20;   \<li>\*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.\</li>
+&#x20; \</ul>
+\</details>
 
-<Accordion title="En web">
-  <ul>
-    <li>**Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.</li>
-    <li>**Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.</li>
-  </ul>
-</Accordion>
+\<Accordion title="En web">
+&#x20; \<ul>
+&#x20;   \<li>\*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.\</li>
+&#x20;   \<li>\*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.\</li>
+&#x20; \</ul>
+\</Accordion>
 
-<details style={{ border: 'none' }}>
-  <summary
-    style={{
-      cursor: 'pointer',
-      padding: '10px 0',
-      background: 'none',
-      border: 'none',
-      outline: 'none',
-      fontSize: '20px',
-      listStyle: 'none'
-    }}
-  >
-    <b>🇧🇷 Brasil</b>
-  </summary>
+\<details style=\{\{ border: 'none' }}>
+&#x20; \<summary
+&#x20;   style=\{\{
+&#x20;     cursor: 'pointer',
+&#x20;     padding: '10px 0',
+&#x20;     background: 'none',
+&#x20;     border: 'none',
+&#x20;     outline: 'none',
+&#x20;     fontSize: '20px',
+&#x20;     listStyle: 'none'
+&#x20;   }}
+&#x20; \>
+&#x20;   \<b>🇧🇷 Brasil\</b>
+&#x20; \</summary>
 
-  <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
+&#x20; \<p>\* \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de \*\*Aprobar compras\*\*.
 
-  <div style={{ textAlign: 'center' }}>
-    <a href="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" target="_blank">
-      <img
-        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
-        alt="Brasil Coverage"
-        style={{
-          width: '80%',
-          maxWidth: '1000px',
-          height: 'auto',
-          transition: 'all 0.3s ease'
-        }}
-        onMouseOver={(e) => (e.target.style.width = '100%')}
-        onMouseOut={(e) => (e.target.style.width = '80%')}
-      />
-    </a>
-  </div>
-</details>
+&#x20;   \* \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar\*\*.\</p>
+
+\</details>
 
 <br />
 
