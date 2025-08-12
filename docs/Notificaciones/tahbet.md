@@ -91,10 +91,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 &#x20;   \<tbody>
 &#x20;     \<tr>
-&#x20;       \<td style=\{\{ textAlign: "left" }}>
-&#x20;         En este banco, los límites transaccionales se establecen\*\*según el tipo de autenticación de segundo factor\*\*.
-&#x20;       \</td>
-
+&#x20;       \<td style="padding: 12px;">\<img src="https\://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura\_de\_pantalla\_2025-08-11\_a\_las\_2.50.26\_p.\_m..png" alt="Banco de Chile" height="30"> Banco de Chile\</td>
 &#x20;       \<td style=\{\{ textAlign: "left" }}>
 &#x20;         CLP $350.000
 &#x20;       \</td>
@@ -215,7 +212,8 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 &#x20; \</Table>
 \</Accordion>
 
-\<Accordion title=\{\<span \<td style="padding: 12px;">\<img src="https\://files.readme.io/8df8568b17affdeba21d3ee6be41717630245b6336daa493b5eb862585435d70-bci-banco-credito-logo-png\_seeklogo-311385.png" alt="Banco BCI" height="30"> Banco BCI\</td>
+\<Accordion title=\{\<span style=\{\{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Estado\</span>}>
+&#x20; Información sobre límites transaccionales.
 
 &#x20; \<Table align=\{\["left","left","left","left"]}>
 &#x20;   \<thead>
@@ -563,7 +561,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   <thead>
     <tr>
       <th>
-        Banco Security.
+        Banco Security
       </th>
 
       <th>
