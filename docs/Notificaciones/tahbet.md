@@ -17,7 +17,7 @@ metadata:
 
 <Image align="center" width="20px" src="https://files.readme.io/88c8d0732d449f32986a24cbac1768a36ba2ba93a7a3a993f5780c05be60c374-descarga.jpeg" />
 
-<Image align="center" width="20px" src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" />
+<Image align="center" width="50px" src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" />
 
 En este banco, los límites transaccionales se establecen según el tipo de autenticación de segundo factor.
 
@@ -621,7 +621,7 @@ Aquí tienes un resumen rápido de límites y tiempos de espera.\
 Puedes ver una demo visual:
 
 <p align="center">
-  <img src="./assets/animacion.gif" alt="Demo: cómo funciona el pago con tu banco" width="700" />
+  <img src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" alt="Demo: cómo funciona el pago con tu banco" width="700" />
 </p>
 
 > Nota: Si la animación no se reproduce, asegúrate de que `assets/animacion.gif` esté en la rama `main` del repositorio.
