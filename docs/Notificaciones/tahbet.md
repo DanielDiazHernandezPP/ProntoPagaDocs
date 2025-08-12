@@ -73,7 +73,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 <br />
 
-<Accordion title="My Accordion Title" icon="fa-info-circle">
+<Accordion title="Banco de Chile" icon="fa-info-circle">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
@@ -102,7 +102,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen 
+          En este banco, los límites transaccionales se establecen
 
           **según el tipo de autenticación de segundo factor**
 
