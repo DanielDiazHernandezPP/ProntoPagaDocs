@@ -42,6 +42,8 @@ La URL base de este enviroment es:
 https://sandbox.com/api/
 ```
 
+<br />
+
 Las IP del enviroment de sandbox son:
 
 ```
