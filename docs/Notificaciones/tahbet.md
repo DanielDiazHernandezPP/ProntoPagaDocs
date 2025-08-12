@@ -113,8 +113,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-|    |
-| :- |
+<br />
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
   Información sobre límites transaccionales.
