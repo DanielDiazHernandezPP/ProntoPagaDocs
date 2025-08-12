@@ -19,6 +19,58 @@ metadata:
 
 <Image align="center" width="20px" src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" />
 
+En este banco, los límites transaccionales se establecen según el tipo de autenticación de segundo factor.
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco de Chile
+      </th>
+
+      <th>
+        Límite de primera transacción
+      </th>
+
+      <th>
+        Límites de transacciones en curso:
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En este banco, los límites transaccionales se establecen **según el tipo de autenticación de segundo factor**.
+      </td>
+
+      <td>
+        CLP $350.000
+      </td>
+
+      <td>
+        * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
+        * **DigiCard**:
+          hasta $2.000.000 diarios (CLP)
+      </td>
+
+      <td>
+        12 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
+
+<br />
+
+<br />
+
 <br />
 
 <Accordion title="My Accordion Title" icon="fa-info-circle">
@@ -26,10 +78,49 @@ metadata:
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
 
-  |    |    |    |
-  | :- | :- | :- |
-  |    |    |    |
-  |    |    |    |
+  <Table align={["left","left","left","left"]}>
+    <thead>
+      <tr>
+        <th style={{ textAlign: "left" }}>
+          Banco de Chile
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límite de primera transacción
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límites de transacciones en curso:
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tiempo de espera para la segunda transacción:
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style={{ textAlign: "left" }}>
+          En este banco, los límites transaccionales se establecen **según el tipo de autenticación de segundo factor**.
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          CLP $350.000
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
+          * **DigiCard**:
+            hasta $2.000.000 diarios (CLP)
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          12 horas
+        </td>
+      </tr>
+    </tbody>
+  </Table>
 </Accordion>
 
 <Accordion title="My Accordion Title" icon="fa-info-circle">
