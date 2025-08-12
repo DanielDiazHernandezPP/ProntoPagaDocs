@@ -40,6 +40,19 @@ hola Ana
 
 <br />
 
+```mermaid
+flowchart LR 
+ A --- B[fa:fa-spinner B] 
+ B --> C[fa:fa-check C] 
+ B --> D[fa:fa-ban D]
+```
+
+<br />
+
+/
+
+<Embed typeOfEmbed="github" url="" />
+
 ## Cómo hacer un pago
 
 <br />
