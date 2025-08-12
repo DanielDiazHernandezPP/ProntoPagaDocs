@@ -5,6 +5,19 @@ hidden: true
 metadata:
   robots: index
 ---
+<HTMLBlock>{`
+<div class="selectors">
+  <a class="selector" href="/docs/vtex">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VTEX_Logo.svg/305px-VTEX_Logo.svg.png?20211207023221" style="max-height:70px" class="icon-plugin">
+  </a>
+  <a class="selector" href="/docs/shopify">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shopify_logo.svg/800px-Shopify_logo.svg.png?20200909100300" style="max-height:70px" class="icon-plugin">
+  </a>
+</div>
+`}</HTMLBlock>
+
+<br />
+
 <Accordion title="My Accordion Title">
   * **Si se tiene desactivado el servicio de validación pago de terceros**. Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
     * **Si se tiene activado el servicio de validación pago de terceros**. Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
