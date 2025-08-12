@@ -58,8 +58,6 @@ Cada banco **establece sus propios límites transaccionales**, que dependen de f
 
 Es importante **conocer las políticas de cada banco sobre los montos de las transacciones**, incluido el pago inicial, el periodo de espera antes de la segunda transacción y los límites de transacciones futuras. Estos límites pueden variar dependiendo del tipo de cuenta o del sistema de autenticación utilizado por el banco.
 
-&#x20;
-
 ⏳ A continuación mostramos **los límites por banco** y sus consideraciones especiales.
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
@@ -337,8 +335,6 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 
 ***
 
-<br />
-
 ### Tabla de límites transaccionales
 
 📊 Esta tabla muestra el **resumen de los datos clave** y permite comparar valores de manera rápida y visual.
@@ -349,7 +345,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
     <tr style="background-color: #f14b61; color: white;">
       <th style="padding: 12px;">Banco</th>
       <th style="padding: 12px;">Primera transacción</th>
-      <th style="padding: 12px;">Tiempo de espera ⏳</th>
+      <th style="padding: 12px;">Tiempo de espera</th>
       <th style="padding: 12px;">Transacción en curso</th>
     </tr>
   </thead>
@@ -414,8 +410,6 @@ Para garantizar una buena experiencia de pago, te recomendamos realizar un **seg
 
 Una vez finalizado el período de espera, recomendamos **enrutar todas las transacciones a través de ProntoPaga**. Una vez que el usuario ya ha registrado su cuenta, el proceso de pago se vuelve más rápido.
 
-<br />
-
 ## Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
@@ -427,8 +421,6 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaWebhooks />
-
-<br />
 
 ### Body de la solicitud
 
@@ -456,19 +448,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 >
 > Para hacer una solicitud a un banco específico, primero debes consultar el endpoint de [Lista de códigos bancarios](https://docs.prontopaga.com/reference/bank-codes), tomar el valor del campo `code` y colocarlo en el parámetro `bankCode` de [este endpoint](https://docs.prontopaga.com/reference/create-payment).
 
-<br />
-
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-<br />
-
 ### Pago en el banco
 
 El cliente podrá continuar el proceso siguiendo las instrucciones en pantalla. Se redireccionará al cliente al sitio web de la institución bancaria que haya seleccionado para pagar, en donde podrá iniciar sesión y hacer la transferencia.
-
-<br />
 
 ### Confirmación de un pago
 
@@ -479,8 +465,6 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
 ***
-
-<br />
 
 ## Prueba tu integración
 
@@ -495,8 +479,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
-
-<br />
 
 ### Requisitos de certificación
 
