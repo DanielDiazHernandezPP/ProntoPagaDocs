@@ -283,6 +283,61 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
 </Accordion>
 
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security.</span>}>
+  Información sobre límites transaccionales.
+
+  <Table align={["left","left","left","left","left"]}>
+    <thead>
+      <tr>
+        <th style={{ textAlign: "left" }}>
+          Banco Security.
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límite de primera transacción:
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tarjeta de coordenadas
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Dispositivo de clave dinámica o SMS
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tiempo de espera para la segunda transacción:
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style={{ textAlign: "left" }}>
+          En este banco, los límites **dependen del sistema de autenticación**.
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          **CLP $350.000**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          Límites transaccionales en curso: hasta **$2.000.000 diarios (CLP)**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          Límites transaccionales en curso:
+          hasta **$5.000.000 diarios (CLP)**
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          48 horas
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</Accordion>
+
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
   <thead>
@@ -502,3 +557,56 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 | Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
 | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
 | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
+
+<br />
+
+<Table align={["left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco Security.
+      </th>
+
+      <th>
+        Límite de primera transacción:
+      </th>
+
+      <th>
+        Tarjeta de coordenadas
+      </th>
+
+      <th>
+        Dispositivo de clave dinámica o SMS
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En este banco, los límites **dependen del sistema de autenticación**.
+      </td>
+
+      <td>
+        **CLP $350.000**
+      </td>
+
+      <td>
+        Límites transaccionales en curso: hasta **$2.000.000 diarios (CLP)**
+      </td>
+
+      <td>
+        Límites transaccionales en curso:
+        hasta **$5.000.000 diarios (CLP)**
+      </td>
+
+      <td>
+        48 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
