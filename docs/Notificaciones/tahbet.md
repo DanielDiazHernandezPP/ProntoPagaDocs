@@ -65,10 +65,52 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </Table>
 
-<Accordion title="🏦 Banco de Chile">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
+  Información sobre límites transaccionales para Banco de Chile.
+
+  <Table align={["left","left","left","left"]}>
+    <thead>
+      <tr>
+        <th style={{ textAlign: "left" }}>
+          Banco de Chile
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límite de primera transacción
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Límites de transacciones en curso:
+        </th>
+
+        <th style={{ textAlign: "left" }}>
+          Tiempo de espera para la segunda transacción:
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style={{ textAlign: "left" }}>
+          En este banco, los límites transaccionales se establecen**según el tipo de autenticación de segundo factor**.
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          CLP $350.000
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
+          * **DigiCard**:
+            hasta $2.000.000 diarios (CLP)
+        </td>
+
+        <td style={{ textAlign: "left" }}>
+          12 horas
+        </td>
+      </tr>
+    </tbody>
+  </Table>
 </Accordion>
 
 <br />
