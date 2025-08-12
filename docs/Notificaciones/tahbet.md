@@ -113,8 +113,6 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </Table>
 </Accordion>
 
-***
-
 <br />
 
 <Table align={["left","left","left","left"]}>
@@ -162,7 +160,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </Table>
 
-<Accordion Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Itaú</span>}>
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Itaú</span>}>
   Información sobre límites transaccionales.
 
   <Table align={["left","left","left","left"]}>
@@ -210,6 +208,12 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
     </tbody>
   </Table>
 </Accordion>
+
+<br />
+
+<br />
+
+<br />
 
 <br />
 
