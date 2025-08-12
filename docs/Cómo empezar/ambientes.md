@@ -23,7 +23,7 @@ metadata:
 next:
   description: ''
 ---
-La API de ProntoPaga cuenta con dos environment:
+La API de ProntoPaga cuenta con dos environments:
 
 * El environment de pruebas (sandbox)
 * El environment de producción
