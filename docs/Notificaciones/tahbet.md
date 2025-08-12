@@ -73,70 +73,82 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 <br />
 
-<Accordion title="Banco de Chile" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
+\<Accordion title="Banco de Chile" icon="fa-info-circle">
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!
 
-  <Table align={["left","left","left","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "left" }}>
-          Banco de Chile
-        </th>
+&#x20; \<Table align=\{\["left","left","left","left"]}>
+&#x20;   \<thead>
+&#x20;     \<tr>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Banco de Chile
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límite de primera transacción
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límite de primera transacción
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Límites de transacciones en curso
-        </th>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Límites de transacciones en curso
+&#x20;       \</th>
 
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción
-        </th>
-      </tr>
-    </thead>
+&#x20;       \<th style=\{\{ textAlign: "left" }}>
+&#x20;         Tiempo de espera para la segunda transacción
+&#x20;       \</th>
+&#x20;     \</tr>
+&#x20;   \</thead>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen según el tipo
-          de <strong>autenticación de segundo factor</strong>.
-        </td>
+&#x20;   \<tbody>
+&#x20;     \<tr>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         En este banco, los límites transaccionales se establecen según el tipo
+&#x20;         de \<strong>autenticación de segundo factor\</strong>.
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          <strong>CLP $350.000</strong>
-        </td>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \<strong>CLP $350.000\</strong>
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          <ul style={{ paddingLeft: "20px", margin: 0 }}>
-            <li>
-              <strong>DigiPass y Mi Pass</strong>: hasta{" "}
-              <strong>$5.000.000</strong> diarios (CLP)
-            </li>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \<ul style=\{\{ paddingLeft: "20px", margin: 0 }}>
+&#x20;           \<li>
+&#x20;             \<strong>DigiPass y Mi Pass\</strong>: hasta\{" "}
+&#x20;             \<strong>$5.000.000\</strong> diarios (CLP)
+&#x20;           \</li>
 
-            <li>
-              <strong>DigiCard</strong>: hasta <strong>$2.000.000</strong> diarios
-              (CLP)
-            </li>
-          </ul>
-        </td>
+&#x20;           \<li>
+&#x20;             \<strong>DigiCard\</strong>: hasta \<strong>$2.000.000\</strong> diarios
+&#x20;             (CLP)
+&#x20;           \</li>
+&#x20;         \</ul>
+&#x20;       \</td>
 
-        <td style={{ textAlign: "left" }}>
-          <strong>12 horas</strong>
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-</Accordion>
+&#x20;       \<td style=\{\{ textAlign: "left" }}>
+&#x20;         \<strong>12 horas\</strong>
+&#x20;       \</td>
+&#x20;     \</tr>
+&#x20;   \</tbody>
+&#x20; \</Table>
+.tabla-limites thead th \{
+&#x20; color: red !important;
+&#x20; font-weight: bold;
+&#x20; background-color: #fff5f5; /\* rojo muy suave \*/
+&#x20; padding: 10px;
+}
 
-<Accordion title="My Accordion Title" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-</Accordion>
+.tabla-limites td \{
+&#x20; padding: 8px 12px;
+&#x20; vertical-align: top;
+}
+
+\</Accordion>
+
+\<Accordion title="My Accordion Title" icon="fa-info-circle">
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!
+\</Accordion>
 
 <br />
 
