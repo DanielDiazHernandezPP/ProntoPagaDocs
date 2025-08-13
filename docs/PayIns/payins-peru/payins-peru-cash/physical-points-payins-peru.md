@@ -41,9 +41,7 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
-## BBVA
+# BBVA
 
 ### Ubicaciones
 
@@ -56,8 +54,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 | BBVA   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
-
-<br />
 
 ## BCP
 
@@ -73,8 +69,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
 ## Yape
 
 ### Ubicaciones
@@ -89,9 +83,7 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
-## Scotianbank
+## Scotiabank
 
 ### Ubicaciones
 
@@ -99,13 +91,11 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre      | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :---------- | :--------------- | :-------------------- | :------------------- |
-| Scotianbank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :--------- | :--------------- | :-------------------- | :------------------- |
+| Scotiabank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
-
-<br />
 
 ## Caja Arequipa
 
@@ -121,8 +111,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
 ## Interbank
 
 ### Ubicaciones
@@ -136,8 +124,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 | Interbank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
-
-<br />
 
 ## Niubiz
 
@@ -153,8 +139,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
 ## Tambo
 
 ### Ubicaciones
@@ -169,9 +153,7 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
-## WesternUnion
+## Western Union
 
 ### Ubicaciones
 
@@ -179,13 +161,11 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre       | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----------- | :--------------- | :-------------------- | :------------------- |
-| WesternUnion | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+| Nombre        | Límite mínimo    | Límite máximo         | Tiempo de expiración |
+| :------------ | :--------------- | :-------------------- | :------------------- |
+| Western Union | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
-
-<br />
 
 ## BanBif
 
@@ -201,8 +181,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
 ## Agente Multibanco KasNet
 
 ### Ubicaciones
@@ -217,8 +195,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ***
 
-<br />
-
 ## Ya Ganaste
 
 ### Ubicaciones
@@ -232,8 +208,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 | Ya Ganaste | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
 
 ***
-
-<br />
 
 ## Agente Red Digital
 
