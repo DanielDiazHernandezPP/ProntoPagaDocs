@@ -538,7 +538,7 @@ metadata:
             <!-- PrestaShop -->
             <div class="card-item card-lg">
                 <div class="card-image">
-                    <img src="https://www.prestasoo.com/images/stories/prestashop.svg" alt="Prestashop Logo">
+                    <img src="https://prontopagalatam-my.sharepoint.com/:u:/g/personal/kathleen_valeriano_prontopaga_com/ESM7fkoLYJ1FoYOz57DkWncB2qJrNX5zaTJgidVp5KNiuw?e=TNMT0E" alt="Prestashop Logo">
                 </div>
                 <div class="card-content">
                     <h2 class="card-title">PrestaShop</h2>
