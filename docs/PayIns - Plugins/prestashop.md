@@ -28,8 +28,6 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 
 ***
 
-<br />
-
 ## Requisitos
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
@@ -38,8 +36,6 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 * Descargar previamente el archivo .zip del plugin, [disponible aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/ana_escalante_prontopaga_com/EbQ-WUuMFhpCqKj_ss_kz_cBUsvQG6SrmqE3PZgNJ9_DDg?e=1XIxVE).
 
 ***
-
-<br />
 
 ## Instalación
 
@@ -54,8 +50,6 @@ Para instalar el plugin de pagos ProntoPaga en PrestaShop, sigue estas instrucci
 4. Espera a que termine la instalación. Al finalizar, verás un mensaje de éxito
 
 ***
-
-<br />
 
 ## Configuración
 
@@ -83,8 +77,6 @@ Una vez instalado el plugin de ProntoPaga, podrás proceder a configurarlo. Para
 >
 > Para poder visualizar todas las monedas y métodos de pago asociados a tu comercio, recuerda que también deberán estar configuradas esas monedas en tu tienda de PrestaShop, en **Internacional > Localización > Monedas**.
 
-<br />
-
 ### Métodos de pago
 
 Una vez hayas validado tus credenciales y configurado la o las monedas que utilizarás en tu comercio, puedes proceder a elegir los métodos de pago que activarás. Para hacerlo, sigue estos pasos:
@@ -99,8 +91,6 @@ Una vez hayas validado tus credenciales y configurado la o las monedas que utili
 5. Para desactivar uno de los métodos de pago, haz clic sobre su mensaje de **Active**
 
 ***
-
-<br />
 
 ## Prueba tu integración
 
@@ -129,8 +119,6 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de PrestaSho
 
 ***
 
-<br />
-
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
@@ -141,15 +129,11 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 | Error de redirección al pagar                                     | Revisa las credenciales API configuradas                                                                                                                                                                                                 |
 | No aparece ProntoPaga como opción de pago en el *checkout*        | Asegúrate de que el plugin esté activo y configurado según esta guía                                                                                                                                                                     |
 
-<br />
-
 ### Ayuda con un pedido
 
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido. Este lo podrás encontrar en **Pedidos > Pedidos**, en la segunda columna, llamada **Referencia**.
 
 ***
-
-<br />
 
 ## Desinstalación
 
