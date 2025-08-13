@@ -768,6 +768,8 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 </Cards>
 
+<Image align="center" src="https://files.readme.io/0622c4c5eda1747285ef87390e320dcf9dd1aafa518601634ce7c7b729d91a94-prestashop.svg" />
+
 <br />
 
 <Image align="center" width="100px" src="https://files.readme.io/3a3e686276c9c7fab0dc0141e3d54acb3ac6df6da8927c9d542647122dc0d5f0-62e3cccfd889babae63d7512.png" />
