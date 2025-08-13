@@ -94,6 +94,10 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status) .
 
+> ❗️ Incompatibilidad con iFrame
+>
+> Ten en cuenta que este método de pago no es compatible con el uso de iFrame.
+
 ***
 
 ## Prueba tu integración
