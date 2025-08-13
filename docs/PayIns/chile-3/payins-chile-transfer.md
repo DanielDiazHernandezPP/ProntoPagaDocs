@@ -342,7 +342,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
   <thead>
-    <tr style="background-color: #f14b61; color: white;">
+    <tr style="background-color: #FC2B5F; color: white;">
       <th style="padding: 12px;">Banco</th>
       <th style="padding: 12px;">Primera transacción</th>
       <th style="padding: 12px;">Tiempo de espera</th>
