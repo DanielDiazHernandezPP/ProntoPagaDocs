@@ -529,44 +529,22 @@ metadata:
 ***
 
 <HTMLBlock>{`
-<!-- Plugin de Woocommerce -->
-            <div class="card-item card-sm">
+<div class="background-decoration" aria-hidden="true">
+            <img class="bg-cards fade-left" src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Union.svg" alt="" role="presentation">
+        </div>
+        <!-- Tarjetas de contenido -->
+      <div class="container py-4">
+        <div class="cards-container">
+            <!-- Primeros pasos -->
+            <div class="card-item card-lg">
                 <div class="card-image">
-                    <img src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Plugin_de_Woocommerce.svg" alt="Ilustración de WooCommerce">
+                    <img src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Primeros_pasos.svg" alt="Ilustración de primeros pasos">
                 </div>
                 <div class="card-content">
-                    <h2 class="card-title">Plugin de Woocommerce</h2>
-                    <p class="card-description">Descubre el proceso paso a paso para instalar WooCommerce de manera fácil y efectiva.</p>
+                    <h2 class="card-title">Primeros pasos</h2>
+                    <p class="card-description">Obtén tus claves de API y conoce lo necesario para realizar tu primera solicitud, así como los conceptos clave para integrarte.</p>
                     <div class="card-button">
-                        <a href="https://docs.prontopaga.com/docs/overview-plugins" class="btn-saber-mas">Saber más</a>
-                    </div>
-                </div>
-</div>
-
-<!-- Plugin de Woocommerce -->
-            <div class="card-item card-sm">
-                <div class="card-image">
-                    <img src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Plugin_de_Woocommerce.svg" alt="Ilustración de WooCommerce">
-                </div>
-                <div class="card-content">
-                    <h2 class="card-title">Plugin de Woocommerce</h2>
-                    <p class="card-description">Descubre el proceso paso a paso para instalar WooCommerce de manera fácil y efectiva.</p>
-                    <div class="card-button">
-                        <a href="https://docs.prontopaga.com/docs/overview-plugins" class="btn-saber-mas">Saber más</a>
-                    </div>
-                </div>
-</div>
-
-<!-- Plugin de Woocommerce -->
-            <div class="card-item card-sm">
-                <div class="card-image">
-                    <img src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Plugin_de_Woocommerce.svg" alt="Ilustración de WooCommerce">
-                </div>
-                <div class="card-content">
-                    <h2 class="card-title">Plugin de Woocommerce</h2>
-                    <p class="card-description">Descubre el proceso paso a paso para instalar WooCommerce de manera fácil y efectiva.</p>
-                    <div class="card-button">
-                        <a href="https://docs.prontopaga.com/docs/overview-plugins" class="btn-saber-mas">Saber más</a>
+                        <a href="https://docs.prontopaga.com/docs/first-steps" class="btn-saber-mas">Saber más</a>
                     </div>
                 </div>
             </div>
