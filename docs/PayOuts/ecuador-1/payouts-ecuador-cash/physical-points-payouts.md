@@ -29,15 +29,11 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ***
 
-<br />
-
 ## Red Activa / Western Union
 
 ### Ubicaciones
 
 🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de [esta página](https://redactiva.com/agencias/) ⬅️
-
-<br />
 
 #### Especificaciones
 
@@ -47,15 +43,11 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ***
 
-<br />
-
 ## Ponle más
 
 ### Ubicaciones
 
 🌎 Conoce los puntos PonleMas **cercanos a ti** en el mapa disponible en [esta página](https://promociones.ponlemas.com/wsUbicacionPDV/Home/ComerciosCercanos/) ⬅️
-
-<br />
 
 #### Especificaciones
 
@@ -65,15 +57,11 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ***
 
-<br />
-
 ## Bemovil
 
 ### Ubicaciones
 
 🌎 Pregunta en tu tienda más cercana si procesan recargas con Bemovil.
-
-<br />
 
 #### Especificaciones
 
