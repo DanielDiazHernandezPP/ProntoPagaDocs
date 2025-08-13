@@ -538,7 +538,7 @@ metadata:
             <!-- PrestaShop -->
             <div class="card-item card-lg">
                 <div class="card-image">
-                    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="Prestashop Logo">
+                    <img src="https://files.readme.io/237677136a29c3f87dc497f78202b9a0bbb30de9254062377c9db0957c278b13-Woo_logo_color.png" alt="Prestashop Logo">
                 </div>
                 <div class="card-content">
                     <h2 class="card-title">PrestaShop</h2>
