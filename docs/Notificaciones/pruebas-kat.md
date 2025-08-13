@@ -535,16 +535,16 @@ metadata:
         <!-- Tarjetas de contenido -->
       <div class="container py-4">
         <div class="cards-container">
-            <!-- Primeros pasos -->
+            <!-- PrestaShop -->
             <div class="card-item card-lg">
                 <div class="card-image">
-                    <img src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Primeros_pasos.svg" alt="Ilustración de primeros pasos">
+                    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="Prestashop Logo">
                 </div>
                 <div class="card-content">
-                    <h2 class="card-title">Primeros pasos</h2>
-                    <p class="card-description">Obtén tus claves de API y conoce lo necesario para realizar tu primera solicitud, así como los conceptos clave para integrarte.</p>
+                    <h2 class="card-title">PrestaShop</h2>
+                    <p class="card-description">Consulta su Guía de instalación y configuración aquí.</p>
                     <div class="card-button">
-                        <a href="https://docs.prontopaga.com/docs/first-steps" class="btn-saber-mas">Saber más</a>
+                        <a href="https://docs.prontopaga.com/docs/prestashop#/" class="btn-saber-mas">Saber más</a>
                     </div>
                 </div>
             </div>
