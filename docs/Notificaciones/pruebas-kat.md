@@ -528,6 +528,28 @@ metadata:
 
 ***
 
+<HTMLBlock>{`
+<!-- Plugin de Woocommerce -->
+            <div class="card-item card-sm">
+                <div class="card-image">
+                    <img src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Plugin_de_Woocommerce.svg" alt="Ilustración de WooCommerce">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Plugin de Woocommerce</h2>
+                    <p class="card-description">Descubre el proceso paso a paso para instalar WooCommerce de manera fácil y efectiva.</p>
+                    <div class="card-button">
+                        <a href="https://docs.prontopaga.com/docs/overview-plugins" class="btn-saber-mas">Saber más</a>
+                    </div>
+                </div>
+            </div>
+`}</HTMLBlock>
+
+<br />
+
+***
+
+<br />
+
 <br />
 
 <Accordion title="My Accordion Title">
