@@ -26,8 +26,6 @@ Hacer un retiro a una wallet en Ecuador consiste en capturar los datos necesario
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Payphone es una billetera digital ecuatoriana que permite recibir pagos, administrar dinero y realizar transacciones desde el celular. Para completar una transacción utilizando este método de retiro, el cliente debe seleccionar la opción "Retiro con Payphone", ingresar su número de teléfono registrado con la cuenta y confirmar la operación.
@@ -43,8 +41,6 @@ El proceso de PayOut con Wallet Payphone consta de cuatro etapas principales:
 
 ***
 
-<br />
-
 ## Crea un nuevo retiro
 
 Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar [este endpoint](https://docs.prontopaga.com/reference/payout-ecuador-payphone). La solicitud se envía con tu Bearer Token, así como con tu secretKey.
@@ -54,8 +50,6 @@ Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar 
 Además, debes incluir los datos necesarios del cliente al que le mandarás el dinero, como: nombre, apellido, correo electrónico, teléfono, ID, entre otros.
 
 <NotaWebhooks />
-
-<br />
 
 ### Body de la solicitud
 
@@ -78,13 +72,9 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
-<br />
-
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema, el estado del retiro y datos adicionales de la transacción.
-
-<br />
 
 ### Confirmación de un retiro
 
@@ -96,21 +86,15 @@ Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados 
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
 
 ***
 
-<br />
-
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
-
-<br />
 
 ### Requisitos de certificación
 
