@@ -5967,7 +5967,7 @@
                   },
                   "clientDocumentType": {
                     "type": "string",
-                    "description": "<br>⚠️Requerido para Perú. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte"
+                    "description": "<br>⚠️Requerido para <b>Perú</b>. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte <br><br> En <b>Brasil</b>, <b>Chile</b> y <b>Ecuador</b>, este tipo de documento no es requerido."
                   },
                   "clientDocument": {
                     "type": "string",
