@@ -30,8 +30,6 @@ Crear un pago por wallet en Perú consiste en capturar los datos necesarios del 
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Yape", tener una cuenta creada y aprobar la compra desde su aplicación.
@@ -48,8 +46,6 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 ***
 
-<br />
-
 ## Integración de Yape
 
 Es posible integrar el servicio de pago con Botón Yape de dos formas en ProntoPaga:
@@ -58,8 +54,6 @@ Es posible integrar el servicio de pago con Botón Yape de dos formas en ProntoP
 * Vía 100% API, sin usar nuestro iFrame (tu comercio tendrá el manejo total del front-end del checkout).
 
 ***
-
-<br />
 
 ## Crea un nuevo pago con iFrame
 
@@ -75,15 +69,11 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-<br />
-
 ### Personalización del formulario
 
 Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
 <Image align="center" width="200px" src="https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png" />
-
-<br />
 
 ### Body de la solicitud
 
@@ -112,19 +102,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-<br />
-
 ### Pago en la wallet
 
 El cliente podrá continuar el proceso siguiendo las instrucciones en pantalla. Se redireccionará al cliente al sitio web o aplicación de la wallet, en donde podrá iniciar sesión y hacer el pago.
 
-<br />
-
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
-
-<br />
 
 ### Confirmación de un pago
 
@@ -135,8 +119,6 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
 ***
-
-<br />
 
 ## Crea un nuevo pago sin iFrame
 
@@ -151,8 +133,6 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
-
-<br />
 
 ### Body de la solicitud
 
@@ -176,15 +156,11 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
-<br />
-
 ### Procesa el pago
 
 Para procesar el pago creado con el endpoint anterior (sin usar nuestro iFrame), deberás consultar [este endpoint](https://docs.prontopaga.com/reference/create-payment-peru-yape-api) y enviar el`uid` del pago recién creado como path paramether. Ese `uid` se recibe como respuesta en la solicitud de crear un pago.
 
 La solicitud para procesar un pago se envía con tu Bearer Token. Además, debes incluir los datos necesarios del cliente para procesar el pago, como: teléfono del cliente y código OTP.
-
-<br />
 
 ### Body de la solicitud
 
@@ -201,8 +177,6 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 >
 > Tu comercio ya tiene registrado el número de teléfono del usuario (tu cliente) al crear el pago. Por lo que en este paso, recomendamos que el campo de teléfono **no sea editable en tu front-end.** Por lo tanto, el número de teléfono que se envíe en el request de este endpoint debe ser el mismo que el usado al crear el pago.
 
-<br />
-
 ### Respuesta
 
 Como respuesta a una solicitud de procesamiento de pago exitosa recibirás el `uid`, el estatus del pago, así como el tipo de acción (en este caso, API).
@@ -212,8 +186,6 @@ En caso de ocurrir un error, nuestro sistema te enviaré el código y mensaje de
 > 🚧 Tipos de rechazo y datos de prueba
 >
 > Consulta los posibles tipos de rechazo para este método, su código y detalle en [esta página](https://docs.prontopaga.com/docs/payins-rejections#yape---primarios). Además, consulta los datos de prueba con diferentes escenarios [aquí.](https://docs.prontopaga.com/docs/test-data-cards-peru#bot%C3%B3n-yape)
-
-<br />
 
 ### Recomendaciones generales para tu front-end
 
@@ -233,8 +205,6 @@ Puedes ver un ejemplo de las anteriores recomendaciones aplicadas en esta imagen
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
@@ -243,13 +213,9 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ***
 
-<br />
-
 ## Certifica tu integración
 
 La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
-
-<br />
 
 ### Requisitos de certificación
 
@@ -259,7 +225,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   <Tab title="ID del cliente">
     * ❌ El documento de identidad del cliente no debe ser modificable en ningún punto de la transacción.
     * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
-    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de menores de edad.
   </Tab>
 
   <Tab title="Logotipos">
