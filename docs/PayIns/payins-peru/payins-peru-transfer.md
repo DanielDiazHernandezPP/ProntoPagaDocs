@@ -138,7 +138,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   <Tab title="ID del cliente">
     * ❌ El documento de identidad del cliente no debe ser modificable en ningún punto de la transacción.
     * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
-    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de menores de edad.
   </Tab>
 
   <Tab title="Logotipos">
