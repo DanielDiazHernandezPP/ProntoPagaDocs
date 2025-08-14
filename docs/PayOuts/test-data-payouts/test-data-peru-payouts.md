@@ -7,6 +7,9 @@ deprecated: false
 hidden: false
 metadata:
   title: Datos de prueba en Perú (payouts) | ProntoPaga Docs
+  description: >-
+    ProntoPaga cuenta con datos de prueba para simular retiros instantáneos en
+    Perú y que de esta manera puedas probar tu integración con nosotros.
   keywords:
     - test data
     - Peru
