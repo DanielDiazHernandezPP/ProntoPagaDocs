@@ -5957,7 +5957,7 @@
                   },
                   "clientEmail": {
                     "type": "string",
-                    "description": "Correo electrónico del cliente. <br>⚠️Requerido para comercios nuevos a partir del 1 de marzo de 2025.",
+                    "description": "Correo electrónico del cliente. <br>",
                     "default": "johndoe@example.com"
                   },
                   "clientPhone": {
