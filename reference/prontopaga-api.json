@@ -5971,7 +5971,7 @@
                   },
                   "clientDocument": {
                     "type": "string",
-                    "description": "Número del documento de identidad del cliente. <br>⚠️Requerido para comercios nuevos a partir del 1 de marzo de 2025.",
+                    "description": "Número del documento de identidad del cliente. <br>",
                     "default": "12345678912"
                   },
                   "paymentMethod": {
