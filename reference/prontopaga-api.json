@@ -3212,7 +3212,7 @@
                   },
                   "documentType": {
                     "type": "string",
-                    "description": "⚠️Requerido para <b>Perú</b>. <br> Es el tipo de documento de identidad. El código puede ser: <br><br> <b>DN:</b> DNI <br> <b>CE:</b> Carné de extranjería<br>   <b>PP:</b> Pasaporte <br>  <b>RC:</b> RUC"
+                    "description": "<br>⚠️<b>Requerido para Perú</b>. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte <br><br> En <b>Brasil</b>, <b>Chile</b> y <b>Ecuador</b>, este tipo de documento no es requerido."
                   },
                   "bankCode": {
                     "type": "string",
@@ -5967,11 +5967,11 @@
                   },
                   "clientDocumentType": {
                     "type": "string",
-                    "description": "<br>⚠️<b>Requerido para Perú</b>. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte <br><br> En <b>Brasil</b>, <b>Chile</b> y <b>Ecuador</b>, este tipo de documento no es requerido."
+                    "description": "<br>⚠️Requerido para <b>Perú</b>. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte <br><br> En <b>Brasil</b>, <b>Chile</b> y <b>Ecuador</b>, este tipo de documento no es requerido."
                   },
                   "clientDocument": {
                     "type": "string",
-                    "description": "Número del documento de identidad del cliente. <br>",
+                    "description": "Número del documento de identidad del cliente. <br>⚠️Requerido para comercios nuevos a partir del 1 de marzo de 2025.",
                     "default": "12345678912"
                   },
                   "paymentMethod": {
