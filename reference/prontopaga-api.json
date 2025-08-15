@@ -3160,7 +3160,6 @@
                   "beneficiaryPhone",
                   "accountNumber",
                   "accountType",
-                  "documentType",
                   "bankCode",
                   "data",
                   "confirmationURL",
