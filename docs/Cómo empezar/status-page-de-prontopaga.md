@@ -1,5 +1,5 @@
 ---
-title: Status page de ProntoPaga
+title: Status Page de ProntoPaga
 excerpt: >-
   Conoce el estado de los servicios de ProntoPaga, incidentes y mantenimientos
   programados
