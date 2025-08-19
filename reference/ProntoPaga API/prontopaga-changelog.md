@@ -55,6 +55,5 @@ Utilizamos la norma ISO 8601 (AAAA-MM-DD) para las fechas y el versionado numér
 | <Anchor label="1.5" target="_blank" href="https://docs.prontopaga.com/changelog/v15-2025-02-06#/">1.5</Anchor>        | 2025-02-06           | New Feature                |
 | <Anchor label="1.4" target="_blank" href="https://docs.prontopaga.com/changelog/v14-2025-01-20#/">1.4</Anchor>        | 2025-01-20           | New Feature, Removed y Fix |
 | <Anchor label="1.3" target="_blank" href="https://docs.prontopaga.com/changelog/v13-2025-01-15#/">1.3</Anchor>        | 2025-01-15           | New Feature                |
-| <Anchor label="1.2" target="_blank" href="https://docs.prontopaga.com/changelog/v12-2024-12-11#/">1.2</Anchor> (Beta) | 2024-12-09           | New Feature                |
 | <Anchor label="1.1" target="_blank" href="https://docs.prontopaga.com/changelog/v11-2024-12-02#/">1.1</Anchor>        | 2024-12-02           | Improvements               |
 | 1.0                                                                                                                   | 2024-09-01           | Primera versión pública    |
