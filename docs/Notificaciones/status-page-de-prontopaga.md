@@ -14,4 +14,4 @@ Nuestro equipo informa los eventos cada vez que nuestro sistema de monitoreo aut
 
 ## Notificaciones
 
-Para recibir
+Para recibir notificaciones, en relación a los incidentes que se creen, actualicen o se resuelvan en los servicios de ProntoPaga, puedes utilizar el botón `SUBSCRIBE TO UPDATES`
