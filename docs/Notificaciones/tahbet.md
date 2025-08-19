@@ -679,3 +679,44 @@ Puedes ver una demo visual:
     <strong>Excepteur sint occaecat cupidatat non proident</strong>
   </Card>
 </Cards>
+
+<br />
+
+```css
+h2. Service errors
+
+{panel:title=SERVICE_ERROR|borderStyle=solid|borderColor=#FF0000|titleBGColor=#FFEBE6}
+*Error genérico del servicio.*  
+Puede deberse a múltiples causas internas.
+{panel}
+
+{panel:title=NONEXISTENT_ACCOUNT|borderStyle=solid|borderColor=#FF0000|titleBGColor=#FFEBE6}
+*La cuenta consultada no existe o no está registrada.*
+{panel}
+
+{panel:title=AFC_ERROR|borderStyle=solid|borderColor=#FF0000|titleBGColor=#FFEBE6}
+*Error en la comunicación con AFC.*
+{panel}
+
+{panel:title=ERROR_SII: CARPETA_NO_DISPONIBLE|borderStyle=solid|borderColor=#FF0000|titleBGColor=#FFEBE6}
+*El servicio de SII no tiene disponible la carpeta solicitada.*
+{panel}
+
+{panel:title=ERROR_SII|borderStyle=solid|borderColor=#FF0000|titleBGColor=#FFEBE6}
+*Error general al consultar información con SII.*
+{panel}
+
+```
+
+<br />
+
+<br />
+
+h2. Service errors
+
+|| Código de error || Descripción ||\
+\| SERVICE\_ERROR | Error genérico del servicio. Puede deberse a múltiples causas internas. |
+\| NONEXISTENT\_ACCOUNT | La cuenta consultada no existe o no está registrada. |
+\| AFC\_ERROR | Error en la comunicación con AFC. |
+\| ERROR\_SII: CARPETA\_NO\_DISPONIBLE | El servicio de SII no tiene disponible la carpeta solicitada. |
+\| ERROR\_SII | Error general al consultar información con SII. |
