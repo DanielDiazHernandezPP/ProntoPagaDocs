@@ -7,6 +7,10 @@ deprecated: false
 hidden: true
 metadata:
   title: Status Page | ProntoPaga Docs
+  description: >-
+    Descubre cómo puedes consultar el estado de los servicios de ProntoPaga,
+    incidentes, mantenimientos programados, y cómo recibir notificaciones de los
+    mismos.
   keywords:
     - ProntoPaga Status
     - ProntoPaga
