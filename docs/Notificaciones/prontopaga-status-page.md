@@ -24,7 +24,7 @@ metadata:
 ---
 La página <Anchor label="ProntoPaga Status" target="_blank" href="https://estado.prontopaga.com/">ProntoPaga Status</Anchor> te permite monitorear la estabilidad de nuestros servicios en tiempo real y acceder al historial completo de incidentes.
 
-Nuestro equipo informa los eventos cada vez que nuestro sistema de monitoreo automático identifica una inestabilidad en nuestros servicios. Cualquier mantenimiento programado también se comunica en detalle en esta página.
+Nuestro equipo informa sobre los eventos cada vez que el sistema de monitoreo automático detecta una inestabilidad en los servicios. Además, cualquier mantenimiento programado se comunica detalladamente en esta página.
 
 ***
 
