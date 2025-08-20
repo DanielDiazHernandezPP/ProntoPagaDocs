@@ -35,6 +35,7 @@ Para ello, en esta documentación encontrarás las guías de integración de cad
 * **Primeros pasos**: Si es tu primera vez aquí, te recomendamos comenzar con nuestra guía de [Primeros Pasos](https://docs.prontopaga.com/docs/first-steps), en donde encontrarás lo necesario para realizar tus primeras solicitudes de prueba.
 * **Explora nuestras guías**: Ya sea que necesites saber cómo funciona un método en particular, o que quieras conocer las guías que tenemos y qué podrías integrar en tu empresa, nuestras [Guías de pagos](https://docs.prontopaga.com/docs/payins-overview) y nuestras [Guías de retiros](https://docs.prontopaga.com/docs/payouts-overview) te mostrarán los diversos escenarios.
 * **Explora nuestra API**: Si desear ir directamente a explorar o hacer pruebas en nuestra API puedes hacerlo explorando nuestra [Referencia API online](https://docs.prontopaga.com/reference/payment-methods), o bien, en nuestra <a href="https://www.postman.com/prontopaga-api/prontopaga-docs/collection/24iz2pb/prontopaga-api?action=share&creator=34607190 " target="_blank">Colección de Postman</a>.
+* **Conoce nuestro status page**: Consulta en todo momento la disponibilidad de nuestros servicios a través de nuestra <Anchor label="página de estado" target="_blank" href="https://estado.prontopaga.com/">página de estado</Anchor>. Aquí podrás ver actualizaciones en tiempo real sobre nuestros métodos de pago, retiros y otros servicios clave, así como notificaciones sobre mantenimientos o incidencias.
 
 ***
 
