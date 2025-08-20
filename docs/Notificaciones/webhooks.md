@@ -123,7 +123,7 @@ Estos son algunos ejemplos de webhooks que podrías recibir.
 } 
 ```
 
-> 📘 Campos del wehbook
+> 📘 Campos del webhook
 >
 > Los campos `method`, `method_type` y `method_detail` serán distintos, dependiendo del método de pago usado.
 
