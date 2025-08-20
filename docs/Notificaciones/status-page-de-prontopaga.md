@@ -14,4 +14,18 @@ Nuestro equipo informa los eventos cada vez que nuestro sistema de monitoreo aut
 
 ## Notificaciones
 
-Para recibir notificaciones, en relación a los incidentes que se creen, actualicen o se resuelvan en los servicios de ProntoPaga, puedes utilizar el botón `SUBSCRIBE TO UPDATES`
+Para recibir notificaciones, en relación a los incidentes que se creen, actualicen o se resuelvan en los servicios de ProntoPaga, puedes utilizar el botón a continuación:
+
+<Image align="center" width="250px" src="https://files.readme.io/1de5c5ca30749c19a970e48356a0943f876341521484db0318188372aebe3a4a-image.png" />
+
+Esta opción te permite elegir recibir las notificaciones a través de los siguientes medios:
+
+* Correo electrónico
+* Mensajes de texto
+* Slack
+* Canal de Microsoft Teams
+* Notificaciones a través de Webhooks
+* Atom Feed
+* RSS Feed
+
+## Acerca de este sitio
