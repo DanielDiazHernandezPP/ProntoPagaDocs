@@ -6,11 +6,21 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: Status Page | ProntoPaga Docs
+  keywords:
+    - ProntoPaga Status
+    - ProntoPaga
+    - Status Page
+    - API
+    - Services
+    - Payments
+    - Payins
+    - Payouts
   robots: index
 ---
 La página <Anchor label="ProntoPaga Status" target="_blank" href="https://estado.prontopaga.com/">ProntoPaga Status</Anchor> te permite monitorear la estabilidad de la plataforma en tiempo real y acceder al historial completo de incidentes.
 
-Nuestro equipo informa los eventos cada vez que nuestro sistema de monitoreo automático identifica una inestabilidad en los módulos de la plataforma. Cualquier mantenimiento programado también se comunica en detalle.
+Nuestro equipo informa los eventos cada vez que nuestro sistema de monitoreo automático identifica una inestabilidad en los módulos de la plataforma. Cualquier mantenimiento programado también se comunica en detalle en esta página.
 
 ***
 
@@ -42,7 +52,7 @@ En esta sección, podrás consultar los incidentes que se encuentren en curso y 
 
 ## Status general
 
-<br />
+En esta sección, podrás consultar el estado de los servicios de ProntoPaga.
 
 ![](https://files.readme.io/614b84502ccf89611c35ec01efffcb9b619023b1246fa1a562560b201312971f-image.png)
 
@@ -50,7 +60,7 @@ En esta sección, podrás consultar los incidentes que se encuentren en curso y 
 
 ## Mantenimientos programados
 
-<br />
+En esta sección, puedes consultar los mantenimientos programados, así como la razón detrás del mantenimeinto en los servicios de ProntoPaga.
 
 ![](https://files.readme.io/b89944d0ec418af4d26ec7160d8d543aeeb6c97ccf56a2c6b890f9d60e3f14e5-image.png)
 
@@ -58,6 +68,6 @@ En esta sección, podrás consultar los incidentes que se encuentren en curso y 
 
 ## Incidentes pasados
 
-<br />
+En esta sección, puedes consultar los incidentes pasados y su resolución en los servicios de ProntoPaga.
 
 ![](https://files.readme.io/0d36e684cd86a3c8f56ac43fc947e09575acf29aa57c44c15accd70989787a93-image.png)
