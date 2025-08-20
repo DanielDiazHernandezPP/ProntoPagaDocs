@@ -28,4 +28,26 @@ Esta opción te permite elegir recibir las notificaciones a través de los sigui
 * Atom Feed
 * RSS Feed
 
-## Acerca de este sitio
+## Incidentes en curso
+
+En esta sección, podrás consultar los incidentes que se encuentren en curso y adicionalmente, puedes suscribirte al incidente para recibir notificaciones a través de correo electrónico o mensajes de texto.
+
+![](https://files.readme.io/cafb0289215827457e1c86881813f550f90f757023b148964c39a721d9394f73-image.png)
+
+## Status general
+
+<br />
+
+![](https://files.readme.io/614b84502ccf89611c35ec01efffcb9b619023b1246fa1a562560b201312971f-image.png)
+
+## Mantenimientos programados
+
+<br />
+
+![](https://files.readme.io/b89944d0ec418af4d26ec7160d8d543aeeb6c97ccf56a2c6b890f9d60e3f14e5-image.png)
+
+## Incidentes pasados
+
+<br />
+
+![](https://files.readme.io/0d36e684cd86a3c8f56ac43fc947e09575acf29aa57c44c15accd70989787a93-image.png)
