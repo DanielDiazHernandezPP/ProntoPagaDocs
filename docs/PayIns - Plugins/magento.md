@@ -54,13 +54,15 @@ Completa los campos con los datos de prueba de tu tarjeta.
 
 1. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
+> 👍 Set de pruebas
+>
+> Te sugerimos hacer varias pruebas (exitosas y no exitosas) por cada método de pago, para confirmar el correcto funcionamiento de la pasarela.
+
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
 * Debes validar que la versión que estás instalando sea la correcta, de lo contrario te aparecerá un mensaje de error.
-
-<br />
 
 ### Ayuda con un pedido
 
