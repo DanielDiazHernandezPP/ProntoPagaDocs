@@ -1,5 +1,5 @@
 ---
-title: Instala y configura el plugin de WooCommerce
+title: Configura el plugin de WooCommerce
 excerpt: ''
 deprecated: false
 hidden: false
