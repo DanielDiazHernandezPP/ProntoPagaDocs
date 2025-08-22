@@ -29,14 +29,18 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
-Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
-Contar con una versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
-Descargar previamente el archivo .zip del plugin
-Instalación
+* Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
+* Contar con una versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
+* Descargar previamente el archivo .zip del plugin
+
+## Instalación
+
 Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instrucciones:
 
 Verificación de la instalación y configuración
 Una vez instalado el plugin desde la terminal, verifica la instalación en el Admin de Adobe Commerce y termina la configuración, siguiendo estos pasos:
+
+<br />
 
 ## Prueba tu integración
 
@@ -47,27 +51,28 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 3. Completa los campos con los datos de prueba de tu tarjeta.
 4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
-|    |    |
-| :- | :- |
-|    |    |
-|    |    |
-
 <br />
 
-### Solución de problemas comunes
+## Desinstalación
+
+En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
+
+## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
-<br />
+| Problema | Solución sugerida |
+| :------- | :---------------- |
+|          |                   |
+|          |                   |
 
 Debes validar que la versión que estás instalando sea la correcta, de lo contrario te aparecerá un mensaje de error.
 
-Ayuda con un pedido
+## Ayuda con un pedido
+
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido.
 
-<br />
-
-### Recursos adicionales
+## Recursos adicionales
 
 Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
@@ -76,7 +81,3 @@ Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 * Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
 
 <br />
-
-### Desinstalación
-
-En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
