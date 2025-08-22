@@ -4,7 +4,7 @@ excerpt: >-
   Conoce el estado de los servicios de ProntoPaga, incidentes y mantenimientos
   programados
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Status Page | ProntoPaga Docs
   description: >-
