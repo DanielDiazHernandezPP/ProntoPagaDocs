@@ -1,10 +1,10 @@
 ---
-title: Instala y configura el plugin de VTEX
+title: Configura el plugin de VTEX
 excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Instala y configura el plugin de VTEX | ProntoPaga
+  title: Configura el plugin de VTEX | ProntoPaga
   description: >-
     Learn how to install, configure, and test the ProntoPaga payment plugin for
     . VTEX. This guide walks you through setup requirements, plugin
