@@ -19,11 +19,11 @@ metadata:
 next:
   description: ''
 ---
-En ProntoPaga desarrollamos este plugin de pagos **para integrarse específicamente con Shopify**, permitiendote aceptar pagos de forma segura, rápida y eficiente. 
+En ProntoPaga desarrollamos este plugin de pagos **para integrarse específicamente con Shopify**, permitiendote aceptar pagos de forma segura, rápida y eficiente.
 
 Shopify es una plataforma de código abierto para personalizar, administrar y optimizar una tienda de comercio electrónico.
 
-Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para Shopify. 
+Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para Shopify.
 
 ## Requisitos
 
@@ -47,6 +47,11 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 3. Completa los campos con los datos de prueba de tu tarjeta.
 4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
 
+|    |    |
+| :- | :- |
+|    |    |
+|    |    |
+
 <br />
 
 ### Solución de problemas comunes
@@ -59,6 +64,8 @@ Debes validar que la versión que estás instalando sea la correcta, de lo contr
 
 Ayuda con un pedido
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido.
+
+<br />
 
 ### Recursos adicionales
 
@@ -73,7 +80,3 @@ Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 ### Desinstalación
 
 En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
-
- 
-
-<br />
