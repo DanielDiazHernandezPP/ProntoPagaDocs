@@ -62,11 +62,22 @@ Completa los campos con los datos de prueba de tu tarjeta.
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
+<br />
+
+| Problema | Solución sugerida |
+| :------- | :---------------- |
+
 * Debes validar que la versión que estás instalando sea la correcta, de lo contrario te aparecerá un mensaje de error.
 
 ### Ayuda con un pedido
 
 En caso de requerir ayuda con un pedido específico, por favor comparte con nosotros el número de referencia del pedido.
+
+<br />
+
+## Desinstalación
+
+En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
 
 <br />
 
@@ -76,9 +87,6 @@ Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
 * [Documentación oficial de Adobe Commerce](https://developer.adobe.com/commerce/docs/)
 * [Repositorio de ProntoPaga](https://ci.prontopaga.com/users/sign_in)
-* <br />
 * Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
 
-## Desinstalación
-
-En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
+##
