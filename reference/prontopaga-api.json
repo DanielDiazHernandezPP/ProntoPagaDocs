@@ -6017,7 +6017,7 @@
                     "format": "int32",
                     "description": "⚠️Requerido para Pix Brasil. <br>Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran: <ul> <li>Valor (1) Pago inmediato <li>Valor (2) Pago con fecha de vencimiento (temporalmente deshabilitado) <li>Valor (3) Pago por lotes con fecha de vencimiento (temporalmente deshabilitado)"
                   },
-                  "walletUID": {
+                  "wallet_uid": {
                     "type": "string",
                     "description": "⚠️Requerido solamente para los servicios de **Perú-Yape On File**. Es el identificador único (UID) de la afiliación de la wallet del cliente."
                   }
