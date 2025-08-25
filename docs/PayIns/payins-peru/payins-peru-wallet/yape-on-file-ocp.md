@@ -346,7 +346,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 
     <tr>
       <td>
-        Error por cuenta bancaria\
+        Error por cuenta bancaria
         cerrada
       </td>
 
@@ -475,7 +475,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "paymentMethod": "yape_cof_payment",
   "urlConfirmation": "https://www.webhook.com",
   "order": "XYZ789",
-  "walletUID": "01JXNCAK8TX6PNBBN7ZNBSAEJH",
+  "wallet_uid": "01JXNCAK8TX6PNBBN7ZNBSAEJH",
   "sign": "Signature of the parameters"
 }
 ```
@@ -680,7 +680,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 
     <tr>
       <td>
-        Error por cuenta bancaria\
+        Error por cuenta bancaria
         cerrada
       </td>
 
@@ -768,7 +768,7 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
