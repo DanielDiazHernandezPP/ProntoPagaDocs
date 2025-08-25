@@ -117,7 +117,7 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 
 ### Crea un One Click Payment
 
-Una vez que tu cliente esté afiliado correctamente, podrá realizar One Click Payments en tu comercio. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `walletUID`.
+Una vez que tu cliente esté afiliado correctamente, podrá realizar One Click Payments en tu comercio. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `wallet_uid`.
 
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, monto, entre otros.
 
