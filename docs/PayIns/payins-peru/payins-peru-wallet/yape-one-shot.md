@@ -36,6 +36,8 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
+<Image align="center" src="https://files.readme.io/efce1e62affd017683ff5f4c5d7d37aeaa0ac61be005cfb70327fc48a99f1f7d-oneShot.jpg" />
+
 1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** El flujo de aprobación del pago varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
@@ -220,7 +222,7 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
