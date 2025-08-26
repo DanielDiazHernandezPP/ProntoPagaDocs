@@ -665,8 +665,6 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   </tbody>
 </Table>
 
-<br />
-
 ### Devolución de un One Click Payment
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -681,8 +679,6 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
-<br />
-
 ### Motivos de rechazo de una devolución
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
@@ -696,19 +692,13 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 | Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
 
-<br />
-
 ### Lista de afiliaciones
 
 Puedes obtener una lista con las afiliaciones activas de cierto cliente, haciendo una consulta con su número de documento. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliations-list) para ello.
 
-<br />
-
 ### Detalle de una afiliación
 
 Consulta el detalle del estado de una afiliación, usando el identificador único (UID) de la afiliación de la wallet del cliente. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliation-details) para conocer el detalle.
-
-<br />
 
 ### Cancelar una afiliación
 
@@ -718,8 +708,6 @@ Para ello, deberás enviar el identificador único (UID) de la afiliación de la
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. Conócelos aquí:
@@ -727,8 +715,6 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
 ***
-
-<br />
 
 ## Certifica tu integración
 
