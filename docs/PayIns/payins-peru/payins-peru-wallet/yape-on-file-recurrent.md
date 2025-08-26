@@ -35,13 +35,13 @@ Crear pagos recurrentes con Yape On File consiste en hacer una solicitud de afil
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar a Yape como método de pago, tener una cuenta creada y aprobar la suscripción desde su aplicación.
 
-El proceso de pago con **Yape On File: Recurrencia** en Perú consta de cuatro etapas principales:
+El proceso de pago con **Yape On File: Recurrencia** en Perú consta de las siguientes etapas:
+
+<Image align="center" src="https://files.readme.io/cbf7e2d3364a3dcfccbde9d3cdbcfb05b15e771ece8e66ba778cf4292d765bff-oneClick-recurrencia_1.jpg" />
 
 1. **Selección de método.** Durante el checkout de un pago de suscripción, el cliente selecciona a Yape como método de pago en tu sitio web o aplicación. La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
    1. **En web:**
@@ -409,7 +409,7 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 <br />
 
