@@ -34,7 +34,7 @@ Crear un pago con **Botón Yape: One Shot** en Perú consiste en capturar los da
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Yape", tener una cuenta creada y aprobar la compra desde su aplicación.
 
-El proceso de pago con wallet en Perú consta de cinco etapas principales:
+El proceso de pago con wallet en Perú consta de las siguientes etapas:
 
 <Image align="center" src="https://files.readme.io/efce1e62affd017683ff5f4c5d7d37aeaa0ac61be005cfb70327fc48a99f1f7d-oneShot.jpg" />
 
