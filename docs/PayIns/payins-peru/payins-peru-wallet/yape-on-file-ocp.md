@@ -36,7 +36,7 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con **Yape On File: One Click Payment** en Perú consta de las siguientes etapas:
 
-<Image align="center" src="https://files.readme.io/8e2afc2c9004a58afc5d2a47801542aff1fb94f76b46a81d195e9f45c8a04e1e-oneClick-oneclick.jpg" />
+<Image align="center" src="https://files.readme.io/9e669b7d42a453a5ecb3d022290857c591ebda3fb06a1d823421a87ede68fb27-oneClick-oneclick_1.jpg" />
 
 1. **Selección de afiliación.** Durante el checkout, el cliente elige la opción de "Agrega Yape como método de pago". La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
    1. **En web:**
