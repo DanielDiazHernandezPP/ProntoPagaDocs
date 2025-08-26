@@ -44,14 +44,12 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de la
       2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
    2. **En mobile**
       1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente debe hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
-      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**. Para dispositivos móviles, se debe agregar un deeplink de Yape. Este deeplink redirecciona automáticamente al usuario a la sección de "Código de aprobación" de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
+      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**. Para dispositivos móviles, se debe agregar un deeplink de Yape. Este deeplink redirecciona automáticamente al usuario a la sección de **Código de aprobación** de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
 2. **Confirmación de la afiliación.** Se hace la afiliación, la pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 3. **One Click Payment.** Ahora el cliente puede ver en el checkout la sección de "Métodos de pago guardados", con su cuenta Yape. Al elegirla, comienza el proceso de pago, y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 4. **Confirmación del One Click Payment.** La pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ***
-
-<br />
 
 ## Versiones
 
@@ -63,8 +61,6 @@ Es posible integrar el servicio **Yape On File: One Click Payment** de dos maner
 Más abajo, verás las instrucciones para la versión web. Después, dentro de esta misma página, verás los pasos para la versión mobile. Para una navegación más rápida, te sugerimos usar el índice de la derecha.
 
 ***
-
-<br />
 
 ## Validación pago terceros
 
@@ -83,13 +79,9 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
 | El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio. | `The Document Type provided by the validation service does not match the one sent by the Merchant`               |
 | El servicio de validación no está respondiendo correctamente.                                                      | `The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM` |
 
-***
-
 ## Integra la versión web
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para comenzar el proceso de afiliación, mientras que tu back-end estará integrado con nuestra API, procesando la afiliación y el pago.
-
-<br />
 
 ### Crea una afiliación
 
@@ -113,8 +105,6 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
-<br />
-
 ### Crea un One Click Payment
 
 Una vez que tu cliente esté afiliado correctamente, podrá realizar One Click Payments en tu comercio. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `wallet_uid`.
@@ -122,8 +112,6 @@ Una vez que tu cliente esté afiliado correctamente, podrá realizar One Click P
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, monto, entre otros.
 
 <NotaFirma />
-
-<br />
 
 #### Body de la solicitud
 
@@ -150,8 +138,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-<br />
-
 #### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -163,8 +149,6 @@ Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una v
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-<br />
 
 ### Motivos de rechazo de un pago
 
@@ -367,8 +351,6 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   </tbody>
 </Table>
 
-<br />
-
 ### Devolución de un One Click Payment
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -383,8 +365,6 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
-<br />
-
 ### Motivos de rechazo de una devolución
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
@@ -398,19 +378,13 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 | Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
 
-<br />
-
 ### Lista de afiliaciones
 
 Puedes obtener una lista con las afiliaciones activas de cierto cliente, haciendo una consulta con su número de documento. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliations-list) para ello.
 
-<br />
-
 ### Detalle de una afiliación
 
 Consulta el detalle del estado de una afiliación, usando el identificador único (UID) de la afiliación de la wallet del cliente. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliation-details) para conocer el detalle.
-
-<br />
 
 ### Cancelar una afiliación
 
@@ -423,8 +397,6 @@ Para ello, deberás enviar el identificador único (UID) de la afiliación de la
 ## Integra la versión mobile
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para comenzar el proceso de afiliación, mientras que tu back-end estará integrado con nuestra API, procesando la afiliación y el pago.
-
-<br />
 
 ### Crea una afiliación
 
@@ -447,17 +419,13 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
 
-<br />
-
 ### Crea un One Click Payment
 
-Una vez que tu cliente esté afiliado correctamente, podrá realizar pagos One Click en tu comercio. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `walletUID`.
+Una vez que tu cliente esté afiliado correctamente, podrá realizar pagos One Click en tu comercio. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `wallet_uid`.
 
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, monto, entre otros.
 
 <NotaFirma />
-
-<br />
 
 #### Body de la solicitud
 
@@ -484,8 +452,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-<br />
-
 #### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -497,8 +463,6 @@ Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una v
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-<br />
 
 ### Motivos de rechazo de un pago
 
