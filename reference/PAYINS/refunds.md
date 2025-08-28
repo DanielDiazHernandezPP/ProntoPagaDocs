@@ -45,10 +45,14 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 Endpoint para realizar la devolución de un pago. Actualmente, este servicio está operativo solamente para los siguientes métodos de pago:
 
-* Tarjeta Perú
-* QR
-* Botón Yape
-* Servicios de Yape On File (One Click Payment y Recurrencia)
+* [Tarjeta Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/)
+* [QR (PE)](https://docs.prontopaga.com/update/docs/payins-peru-qr#/)
+* [Botón Yape](https://docs.prontopaga.com/update/docs/bot%C3%B3n-yape#/)
+* [Botón Yape: One Shot](https://docs.prontopaga.com/update/docs/yape-one-shot#/)
+* [Servicios de Yape On File: One Click Payments ](https://docs.prontopaga.com/update/docs/yape-on-file-ocp#/)
+* [Servicios de Yape On File: Recurrencia](https://docs.prontopaga.com/update/docs/yape-on-file-recurrent#/)
+* [Payphone Wallet](https://docs.prontopaga.com/update/docs/payins-ecuador-wallet#/)
+* [Payphone Tarjeta](https://docs.prontopaga.com/update/docs/payins-ecuador-card#/)
 
 > ❗️ Número de documento
 >
