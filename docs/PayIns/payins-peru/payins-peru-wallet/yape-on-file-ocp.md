@@ -30,6 +30,8 @@ Crear un pago con esta modalidad consiste en hacer una solicitud de afiliación 
 
 ***
 
+<br />
+
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Agrega Yape como método de pago", tener una cuenta creada y aprobar la afiliación desde su aplicación.
@@ -51,6 +53,8 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de la
 
 ***
 
+<br />
+
 ## Versiones
 
 Es posible integrar el servicio **Yape On File: One Click Payment** de dos maneras:
@@ -62,11 +66,15 @@ Más abajo, verás las instrucciones para la versión web. Después, dentro de e
 
 ***
 
+<br />
+
 ## Validación pago terceros
 
 ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincida con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros, y maximizando la seguridad de tus transacciones.
 
 Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración. Toma en cuenta las diferencias que existen en la experiencia del cliente para cada caso. Esas diferencias están descritas en la sección de **¿Cómo funciona?** de este artículo, en la parte superior.
+
+<br />
 
 ### Motivos de rechazo de validación pago terceros
 
@@ -79,9 +87,15 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
 | El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio. | `The Document Type provided by the validation service does not match the one sent by the Merchant`               |
 | El servicio de validación no está respondiendo correctamente.                                                      | `The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM` |
 
+***
+
+<br />
+
 ## Integra la versión web
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para comenzar el proceso de afiliación, mientras que tu back-end estará integrado con nuestra API, procesando la afiliación y el pago.
+
+<br />
 
 ### Crea una afiliación
 
@@ -104,6 +118,10 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 > 🚧 Tiempo de expiración
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
+
+<br />
+
+<br />
 
 ### Crea un One Click Payment
 
@@ -351,6 +369,8 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   </tbody>
 </Table>
 
+<br />
+
 ### Devolución de un One Click Payment
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -365,6 +385,8 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+<br />
+
 ### Motivos de rechazo de una devolución
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
@@ -378,13 +400,19 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 | Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
 
+<br />
+
 ### Lista de afiliaciones
 
 Puedes obtener una lista con las afiliaciones activas de cierto cliente, haciendo una consulta con su número de documento. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliations-list) para ello.
 
+<br />
+
 ### Detalle de una afiliación
 
 Consulta el detalle del estado de una afiliación, usando el identificador único (UID) de la afiliación de la wallet del cliente. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliation-details) para conocer el detalle.
+
+<br />
 
 ### Cancelar una afiliación
 
@@ -394,9 +422,13 @@ Para ello, deberás enviar el identificador único (UID) de la afiliación de la
 
 ***
 
+<br />
+
 ## Integra la versión mobile
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para comenzar el proceso de afiliación, mientras que tu back-end estará integrado con nuestra API, procesando la afiliación y el pago.
+
+<br />
 
 ### Crea una afiliación
 
@@ -418,6 +450,8 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 > 🚧 Tiempo de expiración
 >
 > El cliente debe aprobar la afiliación en menos de 15 minutos. En caso de no hacerse, la afiliación expirará a los 15 minutos.
+
+<br />
 
 ### Crea un One Click Payment
 
@@ -463,6 +497,8 @@ Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una v
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
+
+<br />
 
 ### Motivos de rechazo de un pago
 
@@ -665,6 +701,8 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   </tbody>
 </Table>
 
+<br />
+
 ### Devolución de un One Click Payment
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -679,6 +717,8 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+<br />
+
 ### Motivos de rechazo de una devolución
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
@@ -692,13 +732,19 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 | Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
 | Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
 
+<br />
+
 ### Lista de afiliaciones
 
 Puedes obtener una lista con las afiliaciones activas de cierto cliente, haciendo una consulta con su número de documento. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliations-list) para ello.
 
+<br />
+
 ### Detalle de una afiliación
 
 Consulta el detalle del estado de una afiliación, usando el identificador único (UID) de la afiliación de la wallet del cliente. Utiliza [este endpoint](https://docs.prontopaga.com/reference/affiliation-details) para conocer el detalle.
+
+<br />
 
 ### Cancelar una afiliación
 
@@ -708,6 +754,8 @@ Para ello, deberás enviar el identificador único (UID) de la afiliación de la
 
 ***
 
+<br />
+
 ## Prueba tu integración
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. Conócelos aquí:
@@ -716,9 +764,13 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 
 ***
 
+<br />
+
 ## Certifica tu integración
 
 La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
