@@ -35,6 +35,8 @@ Crear pagos recurrentes con Yape On File consiste en hacer una solicitud de afil
 
 ***
 
+<br />
+
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar a Yape como método de pago, tener una cuenta creada y aprobar la suscripción desde su aplicación.
@@ -132,8 +134,6 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 
 <NotaFirma />
 
-<br />
-
 #### Body de la solicitud
 
 A continuación puedes ver un ejemplo del body que se envía en la [solicitud de pago recurrente](https://docs.prontopaga.com/reference/create-payment):
@@ -158,8 +158,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
-
-<br />
 
 #### Confirmación de un pago
 
