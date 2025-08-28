@@ -240,6 +240,8 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 ***
 
+<br />
+
 ## Prueba tu integración
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. Conócelos aquí:
