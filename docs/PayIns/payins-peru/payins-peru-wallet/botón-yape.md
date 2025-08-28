@@ -136,6 +136,8 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 ***
 
+<br />
+
 ## Crea un nuevo pago sin iFrame
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
