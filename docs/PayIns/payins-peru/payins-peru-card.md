@@ -27,9 +27,11 @@ next:
 ---
 Crear un pago con tarjeta en Perú consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (*challenges*) correspondientes para validar o rechazar transacciones.
+Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (_challenges_) correspondientes para validar o rechazar transacciones.
 
 ***
+
+<br />
 
 ## ¿Cómo funciona?
 
@@ -47,15 +49,21 @@ El proceso de pago con tarjeta en Perú consta de cinco etapas principales:
 
 ***
 
+<br />
+
 ## Especificaciones
 
 El pago con tarjeta en Perú cuenta con características extras. Algunas de ellas las puedes activar o desactivar en la Consola, según lo requieras. A continuación se detallan.
+
+<br />
 
 ### Pago en cuotas
 
 El sistema detectará automáticamente si se está realizando un pago con tarjeta de crédito o débito, en caso de ser tarjeta de crédito, la opción de cuotas se mostrará en automático en el formulario. El número de cuotas son definidas por el emisor de la tarjeta, así como por el banco del usuario.
 
 <Image align="center" src="https://files.readme.io/deee08d0ef65a7124c0f6208436b93e0c3035b039ea3c069b930786377102a0f-cuotas.png" />
+
+<br />
 
 ### Recordar tarjeta
 
@@ -67,6 +75,8 @@ Si el cliente desea recordar su tarjeta para futuras compras, contamos con un ca
 >
 > Si el cliente guarda una tarjeta después de un pago en soles, esa tarjeta guardada solo se podrá utilizar para pagos futuros en soles. Si desea usarla en dólares, deberá guardarla nuevamente en dólares.
 
+<br />
+
 ### Pago con tarjetas foráneas
 
 Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectará en automático cuando se trata de una tarjeta de este tipo, con lo cual, el cliente verá dos campos extras en su formulario de pagos (ciudad y país de la tarjeta):
@@ -74,6 +84,8 @@ Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectar�
 <Image align="center" src="https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png" />
 
 ***
+
+<br />
 
 ## Crea un nuevo pago
 
@@ -112,6 +124,8 @@ A continuación puedes ver un ejemplo de request:
 
 Puedes ajustar la apariencia de tu formulario con el parámetro opcional `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
@@ -135,6 +149,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
    "reference": "Reason for rejection" 
 }
 ```
+
+<br />
 
 ### Confirmación de un pago
 
@@ -166,6 +182,8 @@ Ejemplo de **webhook para un pago exitoso**:
 } 
 ```
 
+<br />
+
 ### Detalles de un pago
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
@@ -188,6 +206,8 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   "sign": [string] // Signature of the parameters
 }
 ```
+
+<br />
 
 ### Motivos de rechazo
 
@@ -405,7 +425,25 @@ A continuación se muestran varios posibles casos de rechazo junto con su códig
   </tbody>
 </Table>
 
+<br />
+
+### Devolución de un pago
+
+Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
+
+```json
+{
+  "reference": "1111111111",
+  "clientDocument": "12345678912",
+  "amount": "100.90",
+  "urlCallbackRefund": "https://www.webhook.com",
+  "sign": "Signature of the parameters"
+}
+```
+
 ***
+
+<br />
 
 ## Prueba tu integración
 
@@ -415,9 +453,13 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ***
 
+<br />
+
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+
+<br />
 
 ### Requisitos de certificación
 
