@@ -118,7 +118,7 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-#### Confirmación de un pago
+### Confirmación de un pago
 
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
