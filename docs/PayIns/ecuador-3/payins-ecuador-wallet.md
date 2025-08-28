@@ -108,6 +108,22 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
+<br />
+
+### Devolución de un pago
+
+Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
+
+```json
+{
+  "reference": "1111111111",
+  "clientDocument": "12345678912",
+  "amount": "100.90",
+  "urlCallbackRefund": "https://www.webhook.com",
+  "sign": "Signature of the parameters"
+}
+```
+
 ***
 
 <br />
@@ -124,7 +140,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 <br />
 
