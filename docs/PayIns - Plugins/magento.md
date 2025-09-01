@@ -18,21 +18,63 @@ metadata:
 next:
   description: ''
 ---
-En ProntoPaga desarrollamos este **plugin de pagos para integrarse específicamente con Adobe Commerce (antes Magento)**, permitiendote aceptar pagos de forma segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto para personalizar, administrar y optimizar una tienda de comercio electrónico.
+En ProntoPaga desarrollamos este **_plugin_ de pagos para integrarse específicamente con Adobe Commerce (antes Magento)**, permitiendote aceptar pagos de forma segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto para personalizar, administrar y optimizar una tienda de comercio electrónico.
 
-Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del plugin de pagos ProntoPaga para Adobe Commerce.
+Esta guía te llevará paso a paso a través del proceso de instalación, configuración y prueba del _plugin_ de pagos ProntoPaga para Adobe Commerce.
 
 ## Requisitos
 
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de Adobe Commerce en donde instalarás el plugin
-* Contar con una versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
+* Versión instalada de Magento Commerce Cloud desde la 2.4 hasta la 2.4.3.
 * [Descargar previamente el archivo .zip del plugin](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp)
+* SSL de 246 _bits_ como mínimo
+* Accesos a SFTP o terminal del servidor para ejecutar comandos
 
 ## Instalación
 
 Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instrucciones:
+
+1. Subir la carpeta app mediante FTP a la carpeta de instalación de Magento. Por
+   ejemplo: /var/www/html/app 
+2. Aplica el siguiente comando en el directorio raíz de Magento: 
+
+```
+$ composer require improntus/module-prontopaga
+$ php bin/magento module:enable Improntus_ProntoPaga --clear-static-content
+$ php bin/magento setup:upgrade
+$ php bin/magento setup:static-content:deploy
+```
+
+3. Después se restaurará la WEB sin estilos ejecutar los siguientes comandos.
+   sudo php bin/magento setup:upgrade
+   sudo php bin/magento setup:static-content:deploy -f
+   sudo php bin/magento cache:clean sudo chmod -R 777 var/
+   sudo chmod -R 777 pub/
+   sudo chmod -R 777 generated/
+   ● Una vez terminado, dirigirse al admin de tu sitio web.
+   ● Ir al menú Tiendas -> Configuración
+   ● Seleccionar Ventas -> Métodos de pago
+   ● Buscar Niubiz
+   ● Escribir el Merchant ID, Usuario y Contraseña según el entorno a utilizar:
+4. Modo Integración (Pruebas):
+   En este modo las transacciones no serán contabilizadas y no tendrán validez, se
+   aconseja no colocar tarjetas reales.
+   Nota: Colocar la opción debug: Yes
+   Modo Producción:
+   En este modo las transacciones serán reales y serán contabilizadas, por lo tanto, deberá
+   colocar tarjetas reales.
+   Nota: Colocar la opción debug: No
+
+### Descripción de los campos 
+
+<br />
+
+| Configuración | Descripción                                                                   |
+| :------------ | :---------------------------------------------------------------------------- |
+| Enable        | Habilita o deshabilita em método de pago                                      |
+| Título        | Nombre del método de pago que aparece en el pedido (Administrador de Magento) |
 
 ## Verificación de la instalación y configuración
 
