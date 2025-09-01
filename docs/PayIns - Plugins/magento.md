@@ -89,15 +89,15 @@ $ php bin/magento setup:static-content:deploy`
     <tr><td><b>Mostrar cantidad</b></td><td>Muestra el importe a pagar en el formulario.</td></tr>
     <tr><td><b>Tamaño botón</b></td><td>Tamaño del botón de pago.<br>• SMALL<br>• MEDIUM<br>• LARGE<br>• DEFAULT</td></tr>
     <tr><td><b>Política de devolución URL</b></td><td>Dirección URL de las políticas de devolución.</td></tr>
-    <tr><td><b>WebSite Ip</b></td><td>Dirección IP del servidor.</td></tr>
-    <tr><td><b>Términos y Condiciones URL</b></td><td>Dirección URL de los términos y condiciones del comercio.</td></tr>
+    <tr><td><b>_WebSite_ Ip</b></td><td>Dirección IP del servidor.</td></tr>
+    <tr><td><b>Términos y condiciones URL</b></td><td>Dirección URL de los términos y condiciones del comercio.</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
 
 <br />
 
-<br />
+_yy_
 
 | Configuración | Descripción                                                                   |
 | :------------ | :---------------------------------------------------------------------------- |
