@@ -42,4 +42,8 @@ Un PayOut es una suma de dinero que se le paga a un individuo o entidad. En este
 
 Puedes probar algunos de los métodos disponibles y hacer un ejemplo de cómo se vería el proceso final en el siguiente demo:
 
-<Embed url="https://demo.insospa.com/transactions/withdrawal" href="https://demo.insospa.com/transactions/withdrawal" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" />
+<HTMLBlock>{`
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971&node-id=11830-66973&viewport=1195%2C172%2C0.04&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11830%3A66973&embed-host=share" allowfullscreen></iframe>
+`}</HTMLBlock>
+
+<br />
