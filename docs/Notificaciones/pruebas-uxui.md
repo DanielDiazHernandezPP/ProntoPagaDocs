@@ -1,6 +1,6 @@
 ---
 title: 'Pruebas UX/UI '
-excerpt: Ambiente para probar las mejoras que implementará el equipo de UX/IU. defw
+excerpt: Ambiente para probar las mejoras que implementará el equipo de UX/IU. de
 deprecated: false
 hidden: true
 metadata:
