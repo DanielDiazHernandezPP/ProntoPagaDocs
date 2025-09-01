@@ -69,7 +69,7 @@ $ php bin/magento setup:static-content:deploy`
 
 <table>
   <thead>
-    <tr style="background-color:#f46f25; color:white; text-align:left;">
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th>Configuración</th>
       <th>Descripción</th>
     </tr>
