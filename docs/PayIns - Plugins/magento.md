@@ -37,37 +37,65 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instrucciones:
 
 1. Subir la carpeta app mediante FTP a la carpeta de instalación de Magento. Por
-   ejemplo: /var/www/html/app 
-2. Aplica el siguiente comando en el directorio raíz de Magento: 
+   ejemplo:`/var/www/html/app`
+2. Aplica el siguiente comando en el directorio raíz de Magento:
 
-```
-$ composer require improntus/module-prontopaga
+`$ composer require improntus/module-prontopaga
 $ php bin/magento module:enable Improntus_ProntoPaga --clear-static-content
 $ php bin/magento setup:upgrade
-$ php bin/magento setup:static-content:deploy
-```
+$ php bin/magento setup:static-content:deploy`
 
-3. Después se restaurará la WEB sin estilos ejecutar los siguientes comandos.
-   sudo php bin/magento setup:upgrade
-   sudo php bin/magento setup:static-content:deploy -f
-   sudo php bin/magento cache:clean sudo chmod -R 777 var/
-   sudo chmod -R 777 pub/
-   sudo chmod -R 777 generated/
-   ● Una vez terminado, dirigirse al admin de tu sitio web.
-   ● Ir al menú Tiendas -> Configuración
-   ● Seleccionar Ventas -> Métodos de pago
-   ● Buscar Niubiz
-   ● Escribir el Merchant ID, Usuario y Contraseña según el entorno a utilizar:
-4. Modo Integración (Pruebas):
-   En este modo las transacciones no serán contabilizadas y no tendrán validez, se
-   aconseja no colocar tarjetas reales.
-   Nota: Colocar la opción debug: Yes
-   Modo Producción:
-   En este modo las transacciones serán reales y serán contabilizadas, por lo tanto, deberá
-   colocar tarjetas reales.
-   Nota: Colocar la opción debug: No
+3. Una vez terminado, ve al administrador de tu sitio web y :
+   1. Dirígete al menú **Tiendas** -> Configuración
+   2. Selecciona **Ventas** -> Métodos de pago
+   3. Busca ProntoPaga y escribe el _Merchant ID_, Usuario y Contraseña según el entorno a utilizar:
+      1. **Entorno de integración (pruebas):**
+      * En este entorno las transacciones no serán contabilizadas y no tendrán validez.
+      * Te aconsejamos no ingresar tarjetas reales.
+      * Nota: Colocar la opción debug: Yes
+      1. **Entorno de producción:**
+      * En este modo las transacciones serán reales y serán contabilizadas, por lo tanto, deberá
+        colocar tarjetas reales.
+      * Nota: Colocar la opción debug: No
 
-### Descripción de los campos 
+### Descripción de los campos
+
+# Configuración del Módulo de Pago en Magento
+
+<br />
+
+<HTMLBlock>{`
+# Configuración del Módulo de Pago en Magento
+
+<table>
+  <thead>
+    <tr style="background-color:#f46f25; color:white; text-align:left;">
+      <th>Configuración</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><b>Enable</b></td><td>Habilita o deshabilita el método de pago.</td></tr>
+    <tr><td><b>Título</b></td><td>Nombre del método de pago que aparece en el pedido (Administrador Magento).</td></tr>
+    <tr><td><b>Merchant ID</b></td><td>Código de comercio en Soles creado al momento de la afiliación.</td></tr>
+    <tr><td><b>Merchant ID Dollar</b></td><td>Código de comercio en Dólares creado al momento de la afiliación.</td></tr>
+    <tr><td><b>Usuario</b></td><td>Usuario de acceso que permite invocar al API de Seguridad y crear un token de acceso.</td></tr>
+    <tr><td><b>Contraseña</b></td><td>Contraseña de acceso que permite invocar al API de Seguridad y crear un token de acceso.</td></tr>
+    <tr><td><b>Debug</b></td><td>Activa o desactiva el modo producción.<br>• YES ⇒ Desarrollo<br>• NO ⇒ Producción</td></tr>
+    <tr><td><b>Título del formulario</b></td><td>Nombre del método de pago que aparece en el checkout.</td></tr>
+    <tr><td><b>Descripción en el formulario</b></td><td>Descripción del método de pago que aparece en el checkout.</td></tr>
+    <tr><td><b>Subir logo</b></td><td>Subir imagen del logo que aparecerá en el formulario.<br>Tamaño sugerido: 187x40px.</td></tr>
+    <tr><td><b>Color del botón</b></td><td>Define el color del botón “Pagar” en el formulario.<br>Valor por defecto: <span style="color:#FF0000; font-weight:bold;">#FF0000</span></td></tr>
+    <tr><td><b>Mostrar cantidad</b></td><td>Muestra el importe a pagar en el formulario.</td></tr>
+    <tr><td><b>Tamaño botón</b></td><td>Tamaño del botón de pago.<br>• SMALL<br>• MEDIUM<br>• LARGE<br>• DEFAULT</td></tr>
+    <tr><td><b>Política de devolución URL</b></td><td>Dirección URL de las políticas de devolución.</td></tr>
+    <tr><td><b>WebSite Ip</b></td><td>Dirección IP del servidor.</td></tr>
+    <tr><td><b>Términos y Condiciones URL</b></td><td>Dirección URL de los términos y condiciones del comercio.</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+<br />
 
 <br />
 
