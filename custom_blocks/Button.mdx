@@ -1,0 +1,14 @@
+---
+name: Button
+---
+export const Button = ({ children, variant, header }) => {
+    return (
+        <button className={`btn btn-${variant || 'primary'}`}>
+        {children}
+        </button>
+    );
+};
+
+<Button variant="secondary">
+    Getting Started with Custom Components
+</Button>
