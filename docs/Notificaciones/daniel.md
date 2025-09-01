@@ -161,7 +161,7 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 <HTMLBlock>{`
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971&node-id=11830-66973&viewport=1195%2C172%2C0.04&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11830%3A66973&embed-host=share" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="350" src="https://embed.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971&node-id=11830-66973&viewport=1195%2C172%2C0.04&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11830%3A66973&embed-host=share" allowfullscreen></iframe>
 `}</HTMLBlock>
 
 <br />
