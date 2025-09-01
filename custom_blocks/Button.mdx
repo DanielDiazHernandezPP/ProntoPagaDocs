@@ -1,10 +1,28 @@
 ---
 name: Button
 ---
-export const Button = ({ children, variant, header }) => {
+export const Button = ({
+    text,
+    /* primary | secondary | tertiary | danger */
+    variant = "primary",
+    /* sm | md | lg */
+    size = "md",
+    full = false,
+    disabled = false,
+    icon = "fa-solid fa-arrow-up-right-from-square",
+}) => {
+    const classes = [
+        "pp-btn",
+        `pp-btn--${variant}`,
+        `pp-btn--${size}`,
+        full ? "pp-btn--full" : "",
+        disabled ? "is-disabled" : "",
+    ].join(" ");
+
     return (
-        <button className={`btn btn-${variant || 'primary'}`}>
-        {children}
+        <button className={classes} disabled={disabled}>
+            <span className="pp-btn__label">{text}</span>
+            {icon ? <i className={`pp-btn__icon ${icon}`} aria-hidden="true" /> : null}
         </button>
     );
 };
