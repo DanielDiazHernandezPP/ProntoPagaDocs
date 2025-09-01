@@ -6,3 +6,11 @@ hidden: true
 metadata:
   robots: index
 ---
+```
+```
+
+<HTMLBlock>{`
+<button>hola</button>
+`}</HTMLBlock>
+
+<br />
