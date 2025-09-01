@@ -37,8 +37,8 @@ Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 Para instalar el plugin de pagos ProntoPaga en Adobe Commerce, sigue estas instrucciones:
 
 1. Subir la carpeta app mediante FTP a la carpeta de instalación de Magento. Por
-   ejemplo: /var/www/html/app 
-2. Aplica el siguiente comando en el directorio raíz de Magento: 
+   ejemplo: /var/www/html/app
+2. Aplica el siguiente comando en el directorio raíz de Magento:
 
 ```
 $ composer require improntus/module-prontopaga
@@ -47,27 +47,20 @@ $ php bin/magento setup:upgrade
 $ php bin/magento setup:static-content:deploy
 ```
 
-3. Después se restaurará la WEB sin estilos ejecutar los siguientes comandos.
-   sudo php bin/magento setup:upgrade
-   sudo php bin/magento setup:static-content:deploy -f
-   sudo php bin/magento cache:clean sudo chmod -R 777 var/
-   sudo chmod -R 777 pub/
-   sudo chmod -R 777 generated/
-   ● Una vez terminado, dirigirse al admin de tu sitio web.
-   ● Ir al menú Tiendas -> Configuración
-   ● Seleccionar Ventas -> Métodos de pago
-   ● Buscar Niubiz
-   ● Escribir el Merchant ID, Usuario y Contraseña según el entorno a utilizar:
-4. Modo Integración (Pruebas):
-   En este modo las transacciones no serán contabilizadas y no tendrán validez, se
-   aconseja no colocar tarjetas reales.
-   Nota: Colocar la opción debug: Yes
-   Modo Producción:
-   En este modo las transacciones serán reales y serán contabilizadas, por lo tanto, deberá
-   colocar tarjetas reales.
-   Nota: Colocar la opción debug: No
+3. Una vez terminado, ve al administrador de tu sitio web
+   1.  Dirígete al menú **Tiendas** -> Configuración
+   2. Selecciona **Ventas** -> Métodos de pago
+   3. Busca ProntoPaga y escribe el _Merchant ID_, Usuario y Contraseña según el entorno a utilizar:
+      1. **Entorno de integración (pruebas):**
+      * En este entorno las transacciones no serán contabilizadas y no tendrán validez. 
+      * Te aconsejamos no ingresar tarjetas reales.
+      * Nota: Colocar la opción debug: Yes
+      1. **Entorno de producción:**
+      * En este modo las transacciones serán reales y serán contabilizadas, por lo tanto, deberá
+        colocar tarjetas reales.
+      * Nota: Colocar la opción debug: No
 
-### Descripción de los campos 
+### Descripción de los campos
 
 <br />
 
