@@ -60,21 +60,17 @@ $ php bin/magento setup:static-content:deploy`
 
 ### Descripción de los campos
 
-# Configuración del Módulo de Pago en Magento
-
-<br />
-
-<HTMLBlock>{`
+```html
 # Configuración del Módulo de Pago en Magento
 
 <table>
   <thead>
-    <tr style="background-color:#f46f25; color:white; text-align:left;">
+    <tr style="background-color:#F64D5B; color:white; text-align:left;">
       <th>Configuración</th>
       <th>Descripción</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody style="color:#333333;">
     <tr><td><b>Enable</b></td><td>Habilita o deshabilita el método de pago.</td></tr>
     <tr><td><b>Título</b></td><td>Nombre del método de pago que aparece en el pedido (Administrador Magento).</td></tr>
     <tr><td><b>Merchant ID</b></td><td>Código de comercio en Soles creado al momento de la afiliación.</td></tr>
@@ -93,9 +89,14 @@ $ php bin/magento setup:static-content:deploy`
     <tr><td><b>Términos y Condiciones URL</b></td><td>Dirección URL de los términos y condiciones del comercio.</td></tr>
   </tbody>
 </table>
-`}</HTMLBlock>
+
+```
 
 <br />
+
+# Configuración del Módulo de Pago en Magento
+
+/
 
 <br />
 
