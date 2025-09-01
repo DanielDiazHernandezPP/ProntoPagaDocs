@@ -79,7 +79,32 @@ $ php bin/magento setup:static-content:deploy`
 
 <br />
 
-<br />
+\<table>
+&#x20; \<thead>
+&#x20;   \<tr style="background-color:#F64D5B; color:white; text-align:left;">
+&#x20;     \<th>Configuración\</th>
+&#x20;     \<th>Descripción\</th>
+&#x20;   \</tr>
+&#x20; \</thead>
+&#x20; \<tbody>
+&#x20;   \<tr>\<td>\<b>Enable\</b>\</td>\<td>Habilita o deshabilita el método de pago.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Título\</b>\</td>\<td>Nombre del método de pago que aparece en el pedido (Administrador Magento).\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Merchant ID\</b>\</td>\<td>Código de comercio en Soles creado al momento de la afiliación.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Merchant ID Dollar\</b>\</td>\<td>Código de comercio en Dólares creado al momento de la afiliación.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Usuario\</b>\</td>\<td>Usuario de acceso que permite invocar al API de Seguridad y crear un token de acceso.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Contraseña\</b>\</td>\<td>Contraseña de acceso que permite invocar al API de Seguridad y crear un token de acceso.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Debug\</b>\</td>\<td>Activa o desactiva el modo producción.\<br>• YES ⇒ Desarrollo\<br>• NO ⇒ Producción\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Título del formulario\</b>\</td>\<td>Nombre del método de pago que aparece en el checkout.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Descripción en el formulario\</b>\</td>\<td>Descripción del método de pago que aparece en el checkout.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Subir logo\</b>\</td>\<td>Subir imagen del logo que aparecerá en el formulario.\<br>Tamaño sugerido: 187x40px.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Color del botón\</b>\</td>\<td>Define el color del botón “Pagar” en el formulario.\<br>Valor por defecto: \<span style="color:#FF0000; font-weight:bold;">#FF0000\</span>\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Mostrar cantidad\</b>\</td>\<td>Muestra el importe a pagar en el formulario.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Tamaño botón\</b>\</td>\<td>Tamaño del botón de pago.\<br>• SMALL\<br>• MEDIUM\<br>• LARGE\<br>• DEFAULT\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Política de devolución URL\</b>\</td>\<td>Dirección URL de las políticas de devolución.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>WebSite Ip\</b>\</td>\<td>Dirección IP del servidor.\</td>\</tr>
+&#x20;   \<tr>\<td>\<b>Términos y Condiciones URL\</b>\</td>\<td>Dirección URL de los términos y condiciones del comercio.\</td>\</tr>
+&#x20; \</tbody>
+\</table>
 
 ```html
 # Configuración del Módulo de Pago en Magento
