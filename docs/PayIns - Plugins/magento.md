@@ -60,7 +60,7 @@ $ php bin/magento setup:static-content:deploy`
 
 ### Descripción de los campos
 
-```html
+```markdown
 <table>
   <thead>
     <tr style="background-color:#f46f25; color:white; text-align:left;">
@@ -101,30 +101,30 @@ $ php bin/magento setup:static-content:deploy`
 <br />
 
 \<table>
-  \<thead>
-    \<tr style="background-color:#f46f25; color:white; text-align:left;">
-      \<th>Configuración\</th>
-      \<th>Descripción\</th>
-    \</tr>
-  \</thead>
-  \<tbody>
-    \<tr>\<td>\<b>Enable\</b>\</td>\<td>Habilita o deshabilita el método de pago.\</td>\</tr>
-    \<tr>\<td>\<b>Título\</b>\</td>\<td>Nombre del método de pago que aparece en el pedido (Administrador Magento).\</td>\</tr>
-    \<tr>\<td>\<b>Merchant ID\</b>\</td>\<td>Código de comercio en Soles creado al momento de la afiliación.\</td>\</tr>
-    \<tr>\<td>\<b>Merchant ID Dollar\</b>\</td>\<td>Código de comercio en Dólares creado al momento de la afiliación.\</td>\</tr>
-    \<tr>\<td>\<b>Usuario\</b>\</td>\<td>Usuario de acceso que permite invocar al API de Seguridad y crear un token de acceso.\</td>\</tr>
-    \<tr>\<td>\<b>Contraseña\</b>\</td>\<td>Contraseña de acceso que permite invocar al API de Seguridad y crear un token de acceso.\</td>\</tr>
-    \<tr>\<td>\<b>Debug\</b>\</td>\<td>Activa o desactiva el modo producción.\<br>• YES ⇒ Desarrollo\<br>• NO ⇒ Producción\</td>\</tr>
-    \<tr>\<td>\<b>Título del formulario\</b>\</td>\<td>Nombre del método de pago que aparece en el checkout.\</td>\</tr>
-    \<tr>\<td>\<b>Descripción en el formulario\</b>\</td>\<td>Descripción del método de pago que aparece en el checkout.\</td>\</tr>
-    \<tr>\<td>\<b>Subir logo\</b>\</td>\<td>Subir imagen del logo que aparecerá en el formulario.\<br>Tamaño sugerido: 187x40px.\</td>\</tr>
-    \<tr>\<td>\<b>Color del botón\</b>\</td>\<td>Define el color del botón “Pagar” en el formulario.\<br>Valor por defecto: \<span style="color:#FF0000; font-weight:bold;">#FF0000\</span>\</td>\</tr>
-    \<tr>\<td>\<b>Mostrar cantidad\</b>\</td>\<td>Muestra el importe a pagar en el formulario.\</td>\</tr>
-    \<tr>\<td>\<b>Tamaño botón\</b>\</td>\<td>Tamaño del botón de pago.\<br>• SMALL\<br>• MEDIUM\<br>• LARGE\<br>• DEFAULT\</td>\</tr>
-    \<tr>\<td>\<b>Política de devolución URL\</b>\</td>\<td>Dirección URL de las políticas de devolución.\</td>\</tr>
-    \<tr>\<td>\<b>WebSite Ip\</b>\</td>\<td>Dirección IP del servidor.\</td>\</tr>
-    \<tr>\<td>\<b>Términos y Condiciones URL\</b>\</td>\<td>Dirección URL de los términos y condiciones del comercio.\</td>\</tr>
-  \</tbody>
+\<thead>
+\<tr style="background-color:#f46f25; color:white; text-align:left;">
+\<th>Configuración\</th>
+\<th>Descripción\</th>
+\</tr>
+\</thead>
+\<tbody>
+\<tr>\<td>\<b>Enable\</b>\</td>\<td>Habilita o deshabilita el método de pago.\</td>\</tr>
+\<tr>\<td>\<b>Título\</b>\</td>\<td>Nombre del método de pago que aparece en el pedido (Administrador Magento).\</td>\</tr>
+\<tr>\<td>\<b>Merchant ID\</b>\</td>\<td>Código de comercio en Soles creado al momento de la afiliación.\</td>\</tr>
+\<tr>\<td>\<b>Merchant ID Dollar\</b>\</td>\<td>Código de comercio en Dólares creado al momento de la afiliación.\</td>\</tr>
+\<tr>\<td>\<b>Usuario\</b>\</td>\<td>Usuario de acceso que permite invocar al API de Seguridad y crear un token de acceso.\</td>\</tr>
+\<tr>\<td>\<b>Contraseña\</b>\</td>\<td>Contraseña de acceso que permite invocar al API de Seguridad y crear un token de acceso.\</td>\</tr>
+\<tr>\<td>\<b>Debug\</b>\</td>\<td>Activa o desactiva el modo producción.\<br>• YES ⇒ Desarrollo\<br>• NO ⇒ Producción\</td>\</tr>
+\<tr>\<td>\<b>Título del formulario\</b>\</td>\<td>Nombre del método de pago que aparece en el checkout.\</td>\</tr>
+\<tr>\<td>\<b>Descripción en el formulario\</b>\</td>\<td>Descripción del método de pago que aparece en el checkout.\</td>\</tr>
+\<tr>\<td>\<b>Subir logo\</b>\</td>\<td>Subir imagen del logo que aparecerá en el formulario.\<br>Tamaño sugerido: 187x40px.\</td>\</tr>
+\<tr>\<td>\<b>Color del botón\</b>\</td>\<td>Define el color del botón “Pagar” en el formulario.\<br>Valor por defecto: \<span style="color:#FF0000; font-weight:bold;">#FF0000\</span>\</td>\</tr>
+\<tr>\<td>\<b>Mostrar cantidad\</b>\</td>\<td>Muestra el importe a pagar en el formulario.\</td>\</tr>
+\<tr>\<td>\<b>Tamaño botón\</b>\</td>\<td>Tamaño del botón de pago.\<br>• SMALL\<br>• MEDIUM\<br>• LARGE\<br>• DEFAULT\</td>\</tr>
+\<tr>\<td>\<b>Política de devolución URL\</b>\</td>\<td>Dirección URL de las políticas de devolución.\</td>\</tr>
+\<tr>\<td>\<b>WebSite Ip\</b>\</td>\<td>Dirección IP del servidor.\</td>\</tr>
+\<tr>\<td>\<b>Términos y Condiciones URL\</b>\</td>\<td>Dirección URL de los términos y condiciones del comercio.\</td>\</tr>
+\</tbody>
 \</table>
 
 <br />
