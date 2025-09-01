@@ -62,6 +62,21 @@ $ php bin/magento setup:static-content:deploy`
 
 # Configuración del Módulo de Pago en Magento
 
+```html
+<table>
+  <thead>
+    <tr style="background-color:#F64D5B; color:white; text-align:left;">
+      <th>Configuración</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><b>Enable</b></td><td>Habilita o deshabilita el método de pago.</td></tr>
+    <tr><td><b>Título</b></td><td>Nombre del método de pago que aparece en el pedido (Administrador Magento).</td></tr>
+    <tr><td><b>Merchant ID</b></td><td>Código de comercio en Soles creado al momento de la afiliación.</td></tr>
+    <tr><td><b>Merchant ID Dollar</b></td><td>Código de comercio en Dólares cr
+```
+
 <br />
 
 <br />
