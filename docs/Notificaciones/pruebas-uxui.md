@@ -13,6 +13,8 @@ metadata:
 <button>hola</button>
 `}</HTMLBlock>
 
-> <Button variant="primary">
->   Getting Started with Custom Components
-> </Button>
+<Button variant="secondary">
+  Getting Started with Custom Components
+</Button>
+
+<br />
