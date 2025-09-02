@@ -482,9 +482,9 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
       </td>
 
       <td>
-        * Límite de primera transacción:\
+        * Límite de primera transacción:
           **CLP $250.000**
-        * Límites de transacciones en curso:\
+        * Límites de transacciones en curso:
           hasta **$5.000.000 diarios (CLP)**
       </td>
 
@@ -533,9 +533,9 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
       </td>
 
       <td>
-        * Límite de primera transacción:\
+        * Límite de primera transacción:
           **CLP $250.000**
-        * Límites de transacciones en curso:\
+        * Límites de transacciones en curso:
           hasta **$5.000.000 diarios (CLP)**
       </td>
 
@@ -617,7 +617,7 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 # Comparativa de límites transaccionales – Bancos en Chile
 
-Aquí tienes un resumen rápido de límites y tiempos de espera.\
+Aquí tienes un resumen rápido de límites y tiempos de espera.
 Puedes ver una demo visual:
 
 <p align="center">
@@ -712,11 +712,32 @@ Puede deberse a múltiples causas internas.
 
 <br />
 
-h2. Service errors
+<Cards columns={3}>
+  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
+    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
-|| Código de error || Descripción ||\
-\| SERVICE\_ERROR | Error genérico del servicio. Puede deberse a múltiples causas internas. |
-\| NONEXISTENT\_ACCOUNT | La cuenta consultada no existe o no está registrada. |
-\| AFC\_ERROR | Error en la comunicación con AFC. |
-\| ERROR\_SII: CARPETA\_NO\_DISPONIBLE | El servicio de SII no tiene disponible la carpeta solicitada. |
-\| ERROR\_SII | Error general al consultar información con SII. |
+    <h3>PrestaShop</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>VTEX</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
+    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>WooCommerce</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+
+  <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
+    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>WooCommerce</h3>
+    Consulta su Guía de instalación y configuración aquí.
+  </Card>
+</Cards>
