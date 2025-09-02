@@ -51,7 +51,7 @@ $ php bin/magento setup:upgrade
 $ php bin/magento setup:static-content:deploy
 ```
 
-3. Listo, has instalado el _plugin_ para iniciar tu integración.
+3. Listo, has instalado el _plugin_ para iniciar tu configuración.
 
 ***
 
