@@ -13,4 +13,4 @@ metadata:
 <button>hola</button>
 `}</HTMLBlock>
 
-<Button variant="primary" text="click" />
+<br />
