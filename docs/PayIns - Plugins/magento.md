@@ -65,8 +65,6 @@ $ php bin/magento setup:static-content:deploy`
 <br />
 
 <HTMLBlock>{`
-# Configuración del Módulo de Pago en Magento
-
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
@@ -96,13 +94,6 @@ $ php bin/magento setup:static-content:deploy`
 `}</HTMLBlock>
 
 <br />
-
-_yy_
-
-| Configuración | Descripción                                                                   |
-| :------------ | :---------------------------------------------------------------------------- |
-| Enable        | Habilita o deshabilita em método de pago                                      |
-| Título        | Nombre del método de pago que aparece en el pedido (Administrador de Magento) |
 
 ## Verificación de la instalación y configuración
 
