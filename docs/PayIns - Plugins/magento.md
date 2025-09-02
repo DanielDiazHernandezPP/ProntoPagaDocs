@@ -28,7 +28,7 @@ Esta guía te llevará paso a paso a través del **proceso de instalación, conf
 
 Antes de comenzar con la instalación, debes contar con lo siguiente:
 
-* [Archivo .zip del _plugin_ previamente descargado](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp) 
+* [Archivo .zip del _plugin_ previamente descargado](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp)
 * Acceso con **permiso de administrador a la tienda de Adobe Commerce** en donde instalarás el _plugin_
 * Magento Commerce Cloud **versión 2.4 hasta 2.4.3** instalada
 * Certificado SSL de al **menos 246 bits**
@@ -41,7 +41,7 @@ Antes de comenzar con la instalación, debes contar con lo siguiente:
 Para **instalar el plugin de pagos ProntoPaga en Adobe Commerce**, sigue estas instrucciones:
 
 1. Sube la carpeta _app_ mediante FTP a la carpeta de instalación de Magento.
-   **Ejemplo**: `/var/www/html/app`Deberá ver la carpeta app de ProntoPaga. 
+   **Ejemplo**: `/var/www/html/app`Deberá ver la carpeta app de ProntoPaga.
 2. Ejecuta los siguientes comandos en el directorio raíz de Magento:
 
 ```
@@ -57,7 +57,7 @@ $ php bin/magento setup:static-content:deploy
 
 Una vez instalado el plugin desde la terminal, termina la configuración, siguiendo estos pasos:
 
-1. Ve al administrador de tu sitio web 
+1. Ve al administrador de tu sitio web
 2. Dirígete al menú **Tiendas** -> Configuración
 3. Selecciona **Ventas** -> Métodos de pago
 4. Busca **ProntoPaga** y escribe el **_Merchant ID_, Usuario y Contraseña** según el entorno que usarás:
@@ -68,6 +68,8 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
    1. ✅**Entorno de producción:**
    * Las transacciones **serán reales y contabilizadas**, por lo tanto, debes ingresar tarjetas reales.
    * Configuración`debug: No`
+
+***
 
 ### Descripción de los campos
 
@@ -121,7 +123,9 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 
 > 👍 Set de pruebas
 >
-> Te sugerimos hacer varias pruebas (exitosas y no exitosas) por cada método de pago, para confirmar el correcto funcionamiento de la pasarela.
+> Te sugerimos **hacer varias pruebas (exitosas y no exitosas)** por cada método de pago, para confirmar el correcto funcionamiento de la pasarela.
+
+***
 
 ## Solución de problemas comunes
 
@@ -133,17 +137,19 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 
 ***
 
-### Ayuda con un pedido
-
-Si necesitas ayuda con un pedido o identificas **errores persistentes con la pasarela**, por favor, comunícate con soporte de ProntoPaga al correo electrónico [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com).
-
-***
-
 ## Desinstalación
 
 Si deseas desactivar el plugin momentáneamente, sigue estos pasos:
 
-`Elimina` el 
+`Elimina` el
+
+***
+
+## Ayuda con un pedido
+
+Si necesitas ayuda con un pedido o identificas **errores persistentes con la pasarela**, por favor, comunícate con soporte de ProntoPaga al correo electrónico [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com).
+
+***
 
 ## Recursos adicionales
 
