@@ -4,16 +4,17 @@ excerpt: ''
 deprecated: false
 hidden: true
 metadata:
-  title: ''
+  title: Adobe Commerce Magento
   description: ''
+  image: >-
+    https://files.readme.io/b418e00d857c464d2927c3fbaf7750b03d1b5996c0f5b68f421fc95a2569c2ac-Prontopaga_logotipo.png
   keywords:
-    - plugin magento
-    - ' magento plugin'
-    - ' plugin magento prontopaga'
-    - ' prontopaga magento'
-    - ' acepta pagos con magento'
-    - ' plugin de pagos magento'
-    - ' prontpaga'
+    - magento plugin
+    - plugin magento prontopaga
+    - prontopaga magento
+    - acepta pagos con magento
+    - plugin de pagos magento
+    - prontopaga
   robots: index
 next:
   description: ''
