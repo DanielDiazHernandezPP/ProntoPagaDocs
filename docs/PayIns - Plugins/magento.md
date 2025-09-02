@@ -61,11 +61,11 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
 2. Dirígete al menú **Tiendas** -> Configuración
 3. Selecciona **Ventas** -> Métodos de pago
 4. Busca **ProntoPaga** y escribe el **_Merchant ID_, Usuario y Contraseña** según el entorno que usarás:
-   1. ⚙️**Entorno de integración (pruebas):**
+   1. ⚙️ **Entorno de integración (pruebas):**
    * Las transacciones no serán contabilizadas ni tendrán validez.
    * Te recomendamos **no utilizar tarjetas reales**.
    * Configuración: `debug: Yes`
-   1. ✅**Entorno de producción:**
+   1. ✅ **Entorno de producción:**
    * Las transacciones **serán reales y contabilizadas**, por lo tanto, debes ingresar tarjetas reales.
    * Configuración`debug: No`
 
@@ -110,7 +110,7 @@ La siguiente tabla presenta una descripción de todos los **campos que debes lle
 
 Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
 
-1. Agrega un producto al carrito, para ello selecciona Add to Cart.
+1. Agrega un producto al carrito, para ello **selecciona Add to Cart.**
 
 <Image align="center" width="500px" src="https://files.readme.io/75754c87e33d4c0d3d2a1ee9f1c8791c28be3eed4962111ad111db9753433dbe-image.png" />
 
