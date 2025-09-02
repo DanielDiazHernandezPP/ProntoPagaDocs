@@ -81,7 +81,7 @@ $ php bin/magento setup:static-content:deploy`
     <tr><td><b>Merchant ID Dollar</b></td><td>Código de comercio en Dólares creado al momento de la afiliación.</td></tr>
     <tr><td><b>Usuario</b></td><td>Usuario de acceso que permite invocar al API de Seguridad y crear un token de acceso.</td></tr>
     <tr><td><b>Contraseña</b></td><td>Contraseña de acceso que permite invocar al API de Seguridad y crear un token de acceso.</td></tr>
-    <tr><td><b>Debug</b></td><td>Activa o desactiva el modo producción.<br>• YES ⇒ Desarrollo<br>• NO ⇒ Producción</td></tr>
+    <tr><td><b><em>Debug<em></b></td><td>Activa o desactiva el modo producción.<br>• <em>YES<em> ⇒ Desarrollo<br>• NO ⇒ Producción</td></tr>
     <tr><td><b>Título del formulario</b></td><td>Nombre del método de pago que aparece en el checkout.</td></tr>
     <tr><td><b>Descripción en el formulario</b></td><td>Descripción del método de pago que aparece en el checkout.</td></tr>
     <tr><td><b>Subir logo</b></td><td>Subir imagen del logo que aparecerá en el formulario.<br>Tamaño sugerido: 187x40px.</td></tr>
