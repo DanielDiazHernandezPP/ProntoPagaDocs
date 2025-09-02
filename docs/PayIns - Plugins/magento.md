@@ -60,9 +60,7 @@ $ php bin/magento setup:static-content:deploy`
 
 ### Descripción de los campos
 
-# Configuración del Módulo de Pago en Magento
-
-<br />
+La siguiente tabla presenta una descripción de todos los campos que debes llenar al configurar el _plugin_ de Magento.
 
 <HTMLBlock>{`
 <table>
