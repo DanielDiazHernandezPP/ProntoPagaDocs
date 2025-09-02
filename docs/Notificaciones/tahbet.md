@@ -735,9 +735,9 @@ Puede deberse a múltiples causas internas.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/magento#/" target="_blank">
-    <img src="https://files.readme.io/bd11b8373a2828c0c12579b7d1033e83b361a7d2ba18924b1e1c8bfcc94155c1-adobe-commerce-logo.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+    <img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
-    <h3>Magento</h3>
+    <h3>Adobe Commerce (Magento)</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 </Cards>
@@ -746,6 +746,4 @@ Puede deberse a múltiples causas internas.
 
 <br />
 
-<Image align="center" src="https://files.readme.io/bd11b8373a2828c0c12579b7d1033e83b361a7d2ba18924b1e1c8bfcc94155c1-adobe-commerce-logo.png" />
-
-<br />
+<Image align="center" src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" />
