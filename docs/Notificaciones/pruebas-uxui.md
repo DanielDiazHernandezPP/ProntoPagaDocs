@@ -14,5 +14,3 @@ metadata:
 `}</HTMLBlock>
 
 <Button variant="primary" text="click" />
-
-<br />
