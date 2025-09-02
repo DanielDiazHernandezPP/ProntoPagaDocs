@@ -29,10 +29,10 @@ Esta guía te llevará paso a paso a través del **proceso de instalación, conf
 Antes de comenzar con la instalación, debes contar con lo siguiente:
 
 * Descargar previamente el [archivo .zip del _plugin_](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp)
-* Contar con **permiso de administrador en la tienda de Adobe Commerce** donde instalarás el _plugin_
-* Tener la **versión 2.4 hasta 2.4.3** de Magento Commerce Cloud instalada
-* Contar con un certificado SSL de al **menos 246 bits**
-* Tener acceso a **SFTP o terminal del servidor** para ejecutar comandos
+* Tener **permiso de administrador en la tienda de Adobe Commerce** donde instalarás el _plugin_
+* Contar con la **versión 2.4 hasta 2.4.3** de Magento Commerce Cloud instalada
+* Disponer de un certificado SSL de al **menos 246 bits**
+* Acceso a **SFTP o terminal del servidor** para ejecutar comandos
 
 ***
 
@@ -41,7 +41,7 @@ Antes de comenzar con la instalación, debes contar con lo siguiente:
 Para **instalar el plugin de pagos ProntoPaga en Adobe Commerce**, sigue estas instrucciones:
 
 1. Sube la carpeta _app_ mediante FTP a la carpeta de instalación de Magento.
-   **Ejemplo**: `/var/www/html/app`Deberá ver la carpeta app de ProntoPaga.
+   **Ejemplo**: `/var/www/html/app`Deberás ver la carpeta app de ProntoPaga.
 2. Ejecuta los siguientes comandos en el directorio raíz de Magento:
 
 ```
@@ -69,9 +69,13 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
    * Las transacciones **serán reales y contabilizadas**, por lo tanto, debes ingresar tarjetas reales.
    * Configuración`debug: No`
 
+<Image align="center" width="700px" src="https://files.readme.io/f38a4bb87e18441c01a124652b617efcb34d9ba07ded4001b3cba4d401076d4b-image.png" />
+
+ 
+
 ***
 
-### Descripción de los campos
+### Campos de configuración
 
 La siguiente tabla presenta una descripción de todos los **campos que debes llenar al configurar el _plugin_** de Magento.
 
@@ -110,17 +114,22 @@ La siguiente tabla presenta una descripción de todos los **campos que debes lle
 
 Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
 
-1. Ingresar a tu cuenta de Adobe Commerce
-2. Agrega un producto al carrito, para ello **selecciona Add to Cart.**
+1. Ingresa a tu cuenta de Adobe Commerce con tu usuario y contraseña.
+2. Selecciona un producto y haz clic **Add to Cart**.
 
-<Image align="center" width="500px" src="https://files.readme.io/75754c87e33d4c0d3d2a1ee9f1c8791c28be3eed4962111ad111db9753433dbe-image.png" />
+<Image align="center" width="500px" src="https://files.readme.io/410cf78022f6d78742bcc5c4a74e64cd23cb4657c77afa05104f4ffbac4c1554-image.png" />
 
-2. Una vez en la página del carrito, selecciona la forma de pago y haz clic en **Place Order**.
+3. Dirígete al carrito de compras, ubicado en la parte superior derecha de tu página y haz clic en **Proceed to Checkout**
+
+<Image align="center" width="350px" src="https://files.readme.io/18b54951366a5e121eee4a487d10a541cc5583c8bd16babbf5f7243a136d5cd9-image.png" />
+
+4. LLena el formulario con tus datos personales y selecciona **Next**.
+5. En esta sección, selecciona el método de pago, ingresa tu documento de identidad y haz clic en **Place Order**.
 
 <Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
 
-3. Completa los campos con los datos de prueba de tu tarjeta.
-4. ¡Listo! Recibirás la confirmación del pago en el correo electrónico registrado.
+6. Completa los campos con los datos de prueba de tu tarjeta.
+7. ¡Listo! **Recibirás la confirmación del pago** en el correo electrónico registrado.
 
 > 👍 Set de pruebas
 >
