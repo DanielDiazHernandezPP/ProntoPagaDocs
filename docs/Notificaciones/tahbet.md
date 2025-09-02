@@ -734,10 +734,18 @@ Puede deberse a múltiples causas internas.
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 
-  <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
-    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+  <Card href="https://docs.prontopaga.com/docs/magento#/" target="_blank">
+    <img src="https://files.readme.io/bd11b8373a2828c0c12579b7d1033e83b361a7d2ba18924b1e1c8bfcc94155c1-adobe-commerce-logo.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
-    <h3>WooCommerce</h3>
+    <h3>Magento</h3>
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 </Cards>
+
+<br />
+
+<br />
+
+<Image align="center" src="https://files.readme.io/bd11b8373a2828c0c12579b7d1033e83b361a7d2ba18924b1e1c8bfcc94155c1-adobe-commerce-logo.png" />
+
+<br />
