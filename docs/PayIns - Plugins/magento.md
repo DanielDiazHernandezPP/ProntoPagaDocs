@@ -28,7 +28,7 @@ Esta guía te llevará paso a paso a través del **proceso de instalación, conf
 
 Antes de comenzar con la instalación, debes contar con lo siguiente:
 
-* Descargar previamente el [archivo .zip del _plugin_](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBtL3EgaIwvYMOg0Z7aJEKSg?e=RCAKVA)
+* Descargar previamente el [archivo .zip del _plugin_](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBtL3EgaIwvYMOg0Z7aJEKSg?e=cj41V0)
 * Tener **permiso de administrador en la tienda de Adobe Commerce** donde instalarás el _plugin_
 * Contar con la **versión 2.4 hasta 2.4.3** de Magento Commerce Cloud instalada
 * Disponer de un certificado SSL de al **menos 246 bits**
