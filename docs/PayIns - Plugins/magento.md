@@ -28,11 +28,11 @@ Esta guía te llevará paso a paso a través del **proceso de instalación, conf
 
 Antes de comenzar con la instalación, debes contar con lo siguiente:
 
-* [Archivo .zip del _plugin_ previamente descargado](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp)
-* Acceso con **permiso de administrador a la tienda de Adobe Commerce** en donde instalarás el _plugin_
-* Magento Commerce Cloud **versión 2.4 hasta 2.4.3** instalada
-* Certificado SSL de al **menos 246 bits**
-* Acceso a **SFTP o terminal del servidor** para ejecutar comandos
+* Descargar previamente el [archivo .zip del _plugin_](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBztk09ndEYM9c53afjr2uQw?e=XhEXJp)
+* Contar con **permiso de administrador en la tienda de Adobe Commerce** donde instalarás el _plugin_
+* Tener la **versión 2.4 hasta 2.4.3** de Magento Commerce Cloud instalada
+* Contar con un certificado SSL de al **menos 246 bits**
+* Tener acceso a **SFTP o terminal del servidor** para ejecutar comandos
 
 ***
 
@@ -110,7 +110,8 @@ La siguiente tabla presenta una descripción de todos los **campos que debes lle
 
 Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Commerce, realiza una prueba de pago siguiendo estos pasos:
 
-1. Agrega un producto al carrito, para ello **selecciona Add to Cart.**
+1. Ingresar a tu cuenta de Adobe Commerce
+2. Agrega un producto al carrito, para ello **selecciona Add to Cart.**
 
 <Image align="center" width="500px" src="https://files.readme.io/75754c87e33d4c0d3d2a1ee9f1c8791c28be3eed4962111ad111db9753433dbe-image.png" />
 
