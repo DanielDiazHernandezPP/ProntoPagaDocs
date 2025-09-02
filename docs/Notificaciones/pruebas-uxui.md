@@ -14,3 +14,5 @@ metadata:
 `}</HTMLBlock>
 
 <Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+
+<Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
