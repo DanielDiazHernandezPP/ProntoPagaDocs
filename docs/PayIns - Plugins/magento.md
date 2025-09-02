@@ -51,7 +51,11 @@ $ php bin/magento setup:upgrade
 $ php bin/magento setup:static-content:deploy
 ```
 
+3. Ya habrás instalado los componentes para iniciar tu integración.
+
 ***
+
+<br />
 
 ### Verificación de la instalación y configuración
 
@@ -65,6 +69,7 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
    * Las transacciones no serán contabilizadas ni tendrán validez.
    * Te recomendamos **no utilizar tarjetas reales**.
    * Configuración: `debug: Yes`
+   <br />
    1. ✅ **Entorno de producción:**
    * Las transacciones **serán reales y contabilizadas**, por lo tanto, debes ingresar tarjetas reales.
    * Configuración`debug: No`
