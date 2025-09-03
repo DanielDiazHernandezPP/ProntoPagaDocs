@@ -198,9 +198,7 @@ php bin/magento setup:static-content:deploy -f
 7. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra la carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
 
 * **Si fue instalado manualmente:**  rm -rf app/code/Vendor/NombreDelModulo
-* **Si fue instalado vía Composer**:
-
-  * Primero, busca el nombre exacto del paquete:    composer show    , luego desinstálalo:    composer remove vendor/nombre-del-paquete
+* **Si fue instalado vía Composer**: primero, busca el nombre exacto del paquete:   composer show  , luego desinstálalo:   composer remove - vendor/nombre-del-paquete
 
 8. **Verifica el funcionamiento**
 
