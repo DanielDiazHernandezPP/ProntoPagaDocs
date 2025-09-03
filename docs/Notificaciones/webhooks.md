@@ -83,8 +83,8 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 | order                 | string |
 | currency              | string |
 | country               | string |
-| method\_type          | string |
-| method\_detail        | string |
+| method_type           | string |
+| method_detail         | string |
 | hash                  | string |
 | note                  | string |
 | sign                  | string |
@@ -119,7 +119,7 @@ Estos son algunos ejemplos de webhooks que podrías recibir.
   "method_detail":"6623 VD", 
   "hash":"25aGF34G33HG34H41111",
   "note":null, 
-  "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
+	"sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
 } 
 ```
 
