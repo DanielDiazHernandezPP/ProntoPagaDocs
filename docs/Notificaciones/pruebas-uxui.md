@@ -77,6 +77,24 @@ export const Button = ({
   </div>
 </div>
 
+<br />
+
+<div className="pp-image-card">
+  <div className="pp-image-card__media">
+    <img src="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" alt="imagen" />
+  </div>
+
+  <div className="pp-image-card__content">
+    <h3 className="pp-image-card__title">
+      title
+    </h3>
+
+    <p className="pp-image-card__description">
+      description
+    </p>
+  </div>
+</div>
+
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
 <Cards columns={4}>
