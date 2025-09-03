@@ -45,15 +45,15 @@ Utilizamos la norma ISO 8601 (AAAA-MM-DD) para las fechas y el versionado numér
 
 ## Histórico de versiones
 
-| Versión                                                                                                               | Fecha de lanzamiento | Tipo de cambios            |
-| :-------------------------------------------------------------------------------------------------------------------- | :------------------- | :------------------------- |
-| <Anchor label="2.0" target="_blank" href="https://docs.prontopaga.com/changelog/v20-2025-07-03-1#/">2.0</Anchor>      | 2025-07-03           | Breaking Change            |
-| <Anchor label="1.9" target="_blank" href="https://docs.prontopaga.com/changelog/v19-2025-06-17#/">1.9</Anchor>        | 2025-06-17           | New Feature, Security      |
-| <Anchor label="1.8" target="_blank" href="https://docs.prontopaga.com/changelog/v18-2025-05-14#/">1.8</Anchor> (Beta) | 2025-05-14           | New Feature                |
-| <Anchor label="1.7" target="_blank" href="https://docs.prontopaga.com/changelog/v17-2025-04-01#/">1.7</Anchor>        | 2025-04-01           | New Feature, Improvements  |
-| <Anchor label="1.6" target="_blank" href="https://docs.prontopaga.com/changelog/v16-2025-02-19#/">1.6</Anchor>        | 2025-02-19           | Improvements               |
-| <Anchor label="1.5" target="_blank" href="https://docs.prontopaga.com/changelog/v15-2025-02-06#/">1.5</Anchor>        | 2025-02-06           | New Feature                |
-| <Anchor label="1.4" target="_blank" href="https://docs.prontopaga.com/changelog/v14-2025-01-20#/">1.4</Anchor>        | 2025-01-20           | New Feature, Removed y Fix |
-| <Anchor label="1.3" target="_blank" href="https://docs.prontopaga.com/changelog/v13-2025-01-15#/">1.3</Anchor>        | 2025-01-15           | New Feature                |
-| <Anchor label="1.1" target="_blank" href="https://docs.prontopaga.com/changelog/v11-2024-12-02#/">1.1</Anchor>        | 2024-12-02           | Improvements               |
-| 1.0                                                                                                                   | 2024-09-01           | Primera versión pública    |
+| Versión | Fecha de lanzamiento | Tipo de cambios            |
+| :------ | :------------------- | :------------------------- |
+| 2.0     | 2025-07-03           | Breaking Change            |
+| 1.9     | 2025-06-17           | New Feature, Security      |
+| 1.8     | 2025-05-14           | New Feature                |
+| 1.7     | 2025-04-01           | New Feature, Improvements  |
+| 1.6     | 2025-02-19           | Improvements               |
+| 1.5     | 2025-02-06           | New Feature                |
+| 1.4     | 2025-01-20           | New Feature, Removed y Fix |
+| 1.3     | 2025-01-15           | New Feature                |
+| 1.1     | 2024-12-02           | Improvements               |
+| 1.0     | 2024-09-01           | Primera versión pública    |
