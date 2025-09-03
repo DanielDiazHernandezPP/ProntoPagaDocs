@@ -66,16 +66,16 @@ A continuación puedes ver un ejemplo de request:
 { 
   "currency": "ARS", 
   "country": "AR", 
-  "amount": "36400.90",
+  "amount": "34000.90",
   "clientName" : "John Doe", 
   "clientEmail" : "johndoe@example.com", 
   "clientPhone" : "999999999", 
   "clientDocument" : "12345678912", 
   "paymentMethod" : "latam_chk_card_payment", 
   "urlConfirmation" : "https://www.webhook.com", 
-  "urlFinal" : "example.com/successful", 
-  "urlRejected" : "example.com/declined", 
-  "order" : "XYZ789"
+  "urlFinal" : "https://sandbox.prontopaga.com/successful", 
+  "urlRejected" : "https://sandbox.prontopaga.com/declined", 
+  "order" : "XYZ789" 
 }
 ```
 
