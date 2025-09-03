@@ -15,6 +15,9 @@ metadata:
 
 <Button variant="primary" text="click" />
 
+```
+```
+
 <br />
 
 <Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
