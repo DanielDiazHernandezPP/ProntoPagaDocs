@@ -163,21 +163,20 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 
 Si deseas desactivar el plugin, sigue estos pasos:
 
-1. **Accede al servidor**   : Conéctate a tu servidor a través de SSH usando un usuario con los permisos adecuados o el terminal desde tu Cpanel.    Por ejemplo: ssh usuario@tuservidor.
+1. **Accede al servidor**   : Conéctate a tu servidor a través de SSH usando un usuario con los permisos adecuados o el terminal desde tu Cpanel.   Por ejemplo: ssh usuario@tuservidor.
 2. **Cambia al directorio raíz de Magento**   : Ubica la carpeta donde está instalado Magento:   `cd /ruta/a/tu/magento`
-3. **Verifica el nombre exacto del módulo:**    Lista todos los módulos instalados para identificar el nombre del _plugin_ que deseas desinstalar:
+3. **Verifica el nombre exacto del módulo:**   Lista todos los módulos instalados para identificar el nombre del _plugin_ que deseas desinstalar:
 
 * `   php bin/magento`
 * module: status  . El módulo aparecerá con un formato similar a:  **Vendor_NombreDelModulo**  .  Apunta el nombre exacto, ya que lo necesitarás para el siguiente paso.
 
 4. **Deshabilita el módulo**   : Desactiva el módulo para evitar que Magento intente cargarlo:
 
-* php bin/magento
-* module: disable
-* Vendor_NombreDelModulo
-  Verifica que se haya deshabilitado correctamente:
-* php bin/magento
-* module: status
+* php bin/magento - module: disable - Vendor_NombreDelModulo
+
+**Verifica que se haya deshabilitado correctamente:**
+
+* php bin/magento - module: status
   Debe aparecer en la lista de **módulos deshabilitados**.
 
 5. **Ejecuta el comando de desinstalación**   : Magento ofrece un comando específico para **desinstalar completamente el módulo**, incluyendo datos en la base de datos.
