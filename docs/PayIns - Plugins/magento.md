@@ -78,7 +78,7 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
    * Las transacciones **serán reales y contabilizadas**, por lo tanto, debes ingresar tarjetas reales.
    * Configuración`debug: No`
 
-<Image align="center" width="700px" src="https://files.readme.io/f38a4bb87e18441c01a124652b617efcb34d9ba07ded4001b3cba4d401076d4b-image.png" />
+<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/f38a4bb87e18441c01a124652b617efcb34d9ba07ded4001b3cba4d401076d4b-image.png" />
 
 ***
 
@@ -198,7 +198,7 @@ php bin/magento setup:static-content:deploy -f
 7. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra la carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
 
 * **Si fue instalado manualmente:**  rm -rf app/code/Vendor/NombreDelModulo
-* **Si fue instalado vía Composer**: primero, busca el nombre exacto del paquete:   composer show  , luego desinstálalo:   composer remove - vendor/nombre-del-paquete
+* **Si fue instalado vía Composer**: primero, busca el nombre exacto del paquete:  composer show  , luego desinstálalo:  composer remove - vendor/nombre-del-paquete
 
 8. **Verifica el funcionamiento**
 
