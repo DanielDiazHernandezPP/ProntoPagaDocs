@@ -68,11 +68,11 @@ export const Button = ({
 
   <div className="pp-guide-card__content">
     <h3 className="pp-guide-card__title">
-      Titulo
+      Inicio rápido
     </h3>
 
     <p className="pp-guide-card__description">
-      description
+      Revisa un resumen de lo que necesitas para empezar a recibir pagos con Prontopaga.
     </p>
   </div>
 </div>
