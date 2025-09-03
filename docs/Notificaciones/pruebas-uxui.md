@@ -13,6 +13,6 @@ metadata:
 <button>hola</button>
 `}</HTMLBlock>
 
-<Button variant="secondary" text="click" />
+<Button variant="primary" text="click" />
 
 <br />
