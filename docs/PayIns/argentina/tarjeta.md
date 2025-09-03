@@ -132,7 +132,7 @@ Ejemplo de **webhook para un pago exitoso**:
   "method_type":"TDD", 
   "method_detail":"6623 VD", 
   "hash":"25aGF34G33HG34H41111",
-  "note":null, 
+  "note":"Transaction successful", 
   "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
 } 
 ```
