@@ -163,14 +163,12 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 
 Si deseas desactivar el plugin, sigue estos pasos:
 
-1. **Accede al servidor**   : Conéctate a tu servidor a través de SSH usando un usuario con los permisos adecuados o el terminal desde tu Cpanel.   Por ejemplo: ssh usuario@tuservidor.
+1. **Accede al servidor**   : Conéctate a tu servidor a través de SSH usando un usuario con los permisos adecuados o el terminal desde tu Cpanel.    Por ejemplo: ssh usuario@tuservidor.
 2. **Cambia al directorio raíz de Magento**   : Ubica la carpeta donde está instalado Magento:   `cd /ruta/a/tu/magento`
-3. **Verifica el nombre exacto del módulo**   Lista todos los módulos instalados para identificar el nombre del _plugin_ que deseas desinstalar:
+3. **Verifica el nombre exacto del módulo:**    Lista todos los módulos instalados para identificar el nombre del _plugin_ que deseas desinstalar:
 
 * `   php bin/magento`
-* module: status  .
-
-El módulo aparecerá con un formato similar a:**Vendor_NombreDelModulo**.  Apunta el nombre exacto, ya que lo necesitarás para el siguiente paso.
+* module: status  . El módulo aparecerá con un formato similar a:  **Vendor_NombreDelModulo**  .  Apunta el nombre exacto, ya que lo necesitarás para el siguiente paso.
 
 4. **Deshabilita el módulo**   : Desactiva el módulo para evitar que Magento intente cargarlo:
 
@@ -198,15 +196,19 @@ php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy -f
 ```
 
-7. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra su carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
-8. * **Si fue instalado manualmente:**     rm -rf app/code/Vendor/NombreDelModulo
-   * **Si fue instalado vía Composer**:      
-     * Primero, busca el nombre exacto del paquete:        composer show       , luego desinstálalo:       composer remove vendor/nombre-del-paquete
-9. **Verifica el funcionamiento**
-   * Ingresa al Dashboard de Magento y confirma que la tienda funciona correctamente.
-   * Revisa que el plugin ya no aparezca en Stores > Configuration > Advanced > Advanced.
-   * Prueba procesos críticos, como el flujo de pago y la carga de productos.
-   * Listo, habrás desinstalado el _plugin_.
+7. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra la carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
+
+* **Si fue instalado manualmente:**  rm -rf app/code/Vendor/NombreDelModulo
+* **Si fue instalado vía Composer**:
+
+  * Primero, busca el nombre exacto del paquete:    composer show    , luego desinstálalo:    composer remove vendor/nombre-del-paquete
+
+8. **Verifica el funcionamiento**
+
+* Ingresa al Dashboard de Magento y confirma que la tienda funciona correctamente.
+* Revisa que el plugin ya no aparezca en Stores > Configuration > Advanced > Advanced.
+* Prueba procesos críticos, como el flujo de pago y la carga de productos.
+* Listo, habrás desinstalado el _plugin_.
 
 ***
 
