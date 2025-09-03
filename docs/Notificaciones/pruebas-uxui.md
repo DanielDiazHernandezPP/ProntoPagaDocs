@@ -61,23 +61,9 @@ export const Button = ({
 
 <br />
 
-<div className="pp-guide-card">
-  <div className="pp-guide-card__icon">
-    <i className="pp-guide-card__icon--img fa-solid fa-circle-info" aria-hidden="true" />
-  </div>
-
-  <div className="pp-guide-card__content">
-    <h3 className="pp-guide-card__title">
-      Inicio rápido
-    </h3>
-
-    <p className="pp-guide-card__description">
-      Revisa un resumen de lo que necesitas para empezar a recibir pagos con Prontopaga.
-    </p>
-  </div>
-</div>
-
 <br />
+
+<GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
 
 <div className="pp-image-card">
   <div className="pp-image-card__media">
