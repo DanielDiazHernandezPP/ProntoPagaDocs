@@ -5713,14 +5713,6 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "New Example": {
-                    "summary": "New Example",
-                    "value": ""
-                  },
-                  "New Example 1": {
-                    "summary": "New Example 1",
-                    "value": ""
-                  },
                   "Brazil Pix": {
                     "summary": "Brazil Pix",
                     "value": ""
@@ -5888,6 +5880,14 @@
                       "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRGMSMFJXEX3EF3G4DJR9A6F",
                       "uid": "01JRGMSMFJXEX3EF3G4DJR9A6F",
                       "reference": "17444031951404550493"
+                    }
+                  },
+                  "Argentina Card": {
+                    "summary": "Argentina Card",
+                    "value": {
+                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQPX93GR8TP1A1A7752TFT",
+                      "uid": "01JRTQPX93GR8TP1A1A7752TFT",
+                      "reference": "17424654000570548730"
                     }
                   }
                 }
@@ -6158,6 +6158,11 @@
               "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"yape_cof_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"order\": \"XYZ789\",\n  \"wallet_uid\": \"01JXNCAK8TX6PNBBN7ZNBSAEJH\",\n  \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Peru (Yape, One Click Payment)"
+            },
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"36400.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"example.com/successful\", \n  \"urlRejected\" : \"example.com/declined\", \n  \"order\" : \"XYZ789\"\n}",
+              "language": "json",
+              "name": "Argentina Card"
             }
           ],
           "samples-languages": [
