@@ -15,12 +15,12 @@ metadata:
 
 <Button variant="primary" text="click" />
 
-```
+```cplusplus
 console
 sdad
 sdasd
 ```
-```
+```javascript
 43456
 ```
 
