@@ -63,7 +63,7 @@ export const Button = ({
 
 <div className="pp-guide-card">
   <div className="pp-guide-card__icon">
-    <i className="pp-guide-card__icon--img" aria-hidden="true" />
+    <i className="pp-guide-card__icon--img fa-solid fa-circle-info" aria-hidden="true" />
   </div>
 
   <div className="pp-guide-card__content">
