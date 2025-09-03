@@ -6,4 +6,13 @@ hidden: true
 metadata:
   robots: index
 ---
+```
+```
+
+<HTMLBlock>{`
+<button>hola</button>
+`}</HTMLBlock>
+
+<Button variant="secondary" text="click" />
+
 <br />
