@@ -97,7 +97,7 @@ export const Button = ({
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
-<Cards columns={4}>
+<Cards columns={3}>
   <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
