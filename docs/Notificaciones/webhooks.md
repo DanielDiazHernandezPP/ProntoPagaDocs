@@ -105,21 +105,21 @@ Estos son algunos ejemplos de webhooks que podrías recibir.
 
 ```json
 { 
-"uid":"01HZ7HFEJZ0GN2TYNDDXC456F", 
-"status":"success", 
-"amount":10, 
-"method":"PE Tarjeta", 
-"reference":"1687348107370523",
-"clientEmail" : "johndoe@example.com",
-"clientDocument" : "999999999",         
-"order":"30023", 
-"currency":"PEN", 
-"country":"PE", 
-"method_type":"TDD", 
-"method_detail":"6623 VD", 
-"hash":"25aGF34G33HG34H41111",
-"note":null, 
-"sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
+	"uid":"01HZ7HFEJZ0GN2TYNDDXC456F", 
+	"status":"success", 
+	"amount":10, 
+	"method":"PE Tarjeta", 
+	"reference":"1687348107370523",
+	"clientEmail" : "johndoe@example.com",
+	"clientDocument" : "999999999",         
+	"order":"30023", 
+	"currency":"PEN", 
+	"country":"PE", 
+	"method_type":"TDD", 
+	"method_detail":"6623 VD", 
+	"hash":"25aGF34G33HG34H41111",
+	"note":null, 
+	"sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
 } 
 ```
 
