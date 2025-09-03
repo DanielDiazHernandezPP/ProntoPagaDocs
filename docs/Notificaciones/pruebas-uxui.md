@@ -109,8 +109,4 @@ export const Button = ({
   <Card title="Third Card" icon="fa-star">
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
-
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
-  </Card>
 </Cards>
