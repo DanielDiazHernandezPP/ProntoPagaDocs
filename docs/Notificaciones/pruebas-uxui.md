@@ -21,7 +21,41 @@ sdad
 sdasd
 ```
 ```javascript
-43456
+export const Button = ({
+    /* text of the button */
+    text,
+    /* primary | secondary */
+    variant = "primary",
+    /* sm | md | lg */
+    size = "md",
+    /* full width */
+    full = false,
+    /* disabled state */
+    disabled = false,
+    /* icon */
+    icon = "",
+    /* link */
+    href = "",
+    /* link target */
+    target = "_self"
+}) => {
+    const classes = [
+        "pp-btn",
+        `pp-btn--${variant}`,
+        `pp-btn--${size}`,
+        full ? "pp-btn--full" : "",
+        disabled ? "is-disabled" : "",
+    ].join(" ");
+
+    const Component = href ? "a" : "button";
+
+    return (
+        <Component className={classes} disabled={disabled} href={href} target={target}>
+            <span className="pp-btn__label">{text}</span>
+            {icon ? <i className={`pp-btn__icon ${icon}`} aria-hidden="true" /> : null}
+        </Component>
+    );
+};
 ```
 
 <br />
