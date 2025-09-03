@@ -1,0 +1,26 @@
+---
+name: GuideCard
+---
+export const GuideCard = ({
+    icon,
+    title,
+    description,
+}) => {
+    return (
+        <div className="pp-guide-card">
+            <div className="pp-guide-card__icon">
+                <i className={`pp-guide-card__icon--img ${icon}`} aria-hidden="true" />
+            </div>
+            <div className="pp-guide-card__content">
+                <h3 className="pp-guide-card__title">{title}</h3>
+                <p className="pp-guide-card__description">{description}</p>
+            </div>
+        </div>
+    )
+}
+
+<GuideCard
+    icon="fa-solid fa-circle-info"
+    title="Guide Card Title"
+    description="This is a description of the guide card."
+/>
