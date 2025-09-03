@@ -179,25 +179,30 @@ El módulo aparecerá con un formato similar a:**Vendor_NombreDelModulo**.  Ap
 * Vendor_NombreDelModulo
   Verifica que se haya deshabilitado correctamente:
 * php bin/magento
-* module:status
+* module: status
   Debe aparecer en la lista de **módulos deshabilitados**.
 
 5. **Ejecuta el comando de desinstalación**   : Magento ofrece un comando específico para **desinstalar completamente el módulo**, incluyendo datos en la base de datos.
 
 * php bin/magento
-* module:uninstall
+* module: uninstall
 * Vendor_NombreDelModulo
 * **Advertencia**: Este paso elimina datos relacionados con el módulo.  Si solo deseas deshabilitarlo sin borrar información, omite este paso.
 
 6. **Limpia caché y genera archivos**   : Después de la desinstalación, limpia la caché y vuelve a compilar:
-   `php bin/magento setup:upgrade
-   php bin/magento cache:flush
-   php bin/magento setup:di:compile
-   php bin/magento setup:static-content:deploy -f`
+
+```
+php bin/magento setup:upgrade
+php bin/magento cache:flush
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy -f
+```
+
 7. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra su carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
-   * **Si fue instalado manualmente:**     rm -rf app/code/Vendor/NombreDelModulo
-   * **Si fue instalado vía Composer**:     Primero, busca el nombre exacto del paquete:     composer show     , luego desinstálalo:     composer remove vendor/nombre-del-paquete
-8. **Verifica el funcionamiento**
+8. * **Si fue instalado manualmente:**     rm -rf app/code/Vendor/NombreDelModulo
+   * **Si fue instalado vía Composer**:      
+     * Primero, busca el nombre exacto del paquete:        composer show       , luego desinstálalo:       composer remove vendor/nombre-del-paquete
+9. **Verifica el funcionamiento**
    * Ingresa al Dashboard de Magento y confirma que la tienda funciona correctamente.
    * Revisa que el plugin ya no aparezca en Stores > Configuration > Advanced > Advanced.
    * Prueba procesos críticos, como el flujo de pago y la carga de productos.
