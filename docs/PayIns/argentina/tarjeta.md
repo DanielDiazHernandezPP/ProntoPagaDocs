@@ -1,6 +1,6 @@
 ---
 title: Acepta pagos con tarjeta
-excerpt: 'Conoce el paso a paso de cómo crear un pago con tarjeta en Argentina '
+excerpt: Conoce el paso a paso de cómo crear un pago con tarjeta en Argentina.
 deprecated: false
 hidden: true
 metadata:
