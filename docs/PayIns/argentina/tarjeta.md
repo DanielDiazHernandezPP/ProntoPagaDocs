@@ -1,6 +1,6 @@
 ---
-title: Crea pagos con tarjeta
-excerpt: ''
+title: Acepta pagos con tarjeta
+excerpt: 'Conoce el paso a paso de cómo crear un pago con tarjeta en Argentina '
 deprecated: false
 hidden: true
 metadata:
@@ -26,6 +26,10 @@ Crear un pago con tarjeta en Argentina consiste en capturar los datos necesarios
 
 Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (_challenges_) correspondientes para validar o rechazar transacciones.
 
+***
+
+<br />
+
 ## ¿Cómo funciona?
 
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
@@ -37,6 +41,10 @@ El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 3. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta.
 4. **Autorización y Captura.** Se verifica que existan los fondos suficientes, y se mueven desde el banco del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** El cliente ve en pantalla el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+
+***
+
+<br />
 
 ## Crea un nuevo pago
 
@@ -71,6 +79,8 @@ A continuación puedes ver un ejemplo de request:
 }
 ```
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
@@ -95,6 +105,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+<br />
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -109,12 +121,12 @@ Ejemplo de **webhook para un pago exitoso**:
 { 
   "uid":"01HZ7HFEJZ0GN2TYNDDXC456F", 
   "status":"success", 
-  "amount":200, 
+  "amount":36400.90, 
   "method":"AR Tarjeta", 
   "reference":"1687348107370523",
   "clientEmail" : "johndoe@example.com",
   "clientDocument" : "999999999",         
-  "order":"30023", 
+  "order":"XYZ789", 
   "currency":"ARS", 
   "country":"AR", 
   "method_type":"TDD", 
@@ -124,6 +136,8 @@ Ejemplo de **webhook para un pago exitoso**:
   "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
 } 
 ```
+
+<br />
 
 ### Detalles de un pago
 
@@ -149,6 +163,8 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 }
 ```
 
+<br />
+
 ### Motivos de rechazo
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
@@ -164,9 +180,23 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | REPORTED_STOLEN        | No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información. |
 | ERROR                  | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.                                |
 
+***
+
+<br />
+
 ## Prueba tu integración
 
-Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, también puedes hacer pruebas con [nuestros demos](https://demo.insospa.com/transactions/deposit).
+Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
+
+<Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
+
+<br />
+
+<br />
+
+***
+
+<br />
 
 ## Certifica tu integración
 
