@@ -86,11 +86,11 @@ export const Button = ({
 
   <div className="pp-image-card__content">
     <h3 className="pp-image-card__title">
-      title
+      Acepta pagos con tarjeta
     </h3>
 
     <p className="pp-image-card__description">
-      description
+      Acepta pagos con tarjeta online de manera segura.
     </p>
   </div>
 </div>
