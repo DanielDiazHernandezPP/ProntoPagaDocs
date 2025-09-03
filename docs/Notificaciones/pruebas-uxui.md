@@ -23,7 +23,7 @@ sdasd
 
 <br />
 
-<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+<Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
 <Cards columns={4}>
   <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
