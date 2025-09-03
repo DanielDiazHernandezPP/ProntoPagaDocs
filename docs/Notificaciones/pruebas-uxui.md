@@ -61,6 +61,22 @@ export const Button = ({
 
 <br />
 
+<div className="pp-guide-card">
+  <div className="pp-guide-card__icon">
+    <i className="pp-guide-card__icon--img" aria-hidden="true" />
+  </div>
+
+  <div className="pp-guide-card__content">
+    <h3 className="pp-guide-card__title">
+      Titulo
+    </h3>
+
+    <p className="pp-guide-card__description">
+      description
+    </p>
+  </div>
+</div>
+
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
 <Cards columns={4}>
