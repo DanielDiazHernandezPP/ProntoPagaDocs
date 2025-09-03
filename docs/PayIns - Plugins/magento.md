@@ -124,16 +124,16 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 1. Ingresa a tu cuenta de Adobe Commerce con tu usuario y contraseña.
 2. Selecciona un producto y haz clic **Add to Cart**.
 
-<Image align="center" width="500px" src="https://files.readme.io/410cf78022f6d78742bcc5c4a74e64cd23cb4657c77afa05104f4ffbac4c1554-image.png" />
+<Image align="center" className="border" border={true} width="300px" src="https://files.readme.io/410cf78022f6d78742bcc5c4a74e64cd23cb4657c77afa05104f4ffbac4c1554-image.png" />
 
 3. Dirígete al carrito de compras, ubicado en la parte superior derecha de tu página y haz clic en **Proceed to Checkout**
 
-<Image align="center" width="350px" src="https://files.readme.io/18b54951366a5e121eee4a487d10a541cc5583c8bd16babbf5f7243a136d5cd9-image.png" />
+<Image align="center" className="border" border={true} width="350px" src="https://files.readme.io/18b54951366a5e121eee4a487d10a541cc5583c8bd16babbf5f7243a136d5cd9-image.png" />
 
 4. LLena el formulario con tus datos personales y selecciona **Next**.
 5. En esta sección, selecciona el método de pago, ingresa tu documento de identidad y haz clic en **Place Order**.
 
-<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
+<Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
 
 6. Completa los campos con los datos de prueba de tu tarjeta.
 7. ¡Listo! **Recibirás la confirmación del pago** en el correo electrónico registrado.
@@ -163,36 +163,41 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 
 Si deseas desactivar el plugin, sigue estos pasos:
 
-1. **Accede al servidor**   : Conéctate a tu servidor a través de SSH usando un usuario con los permisos adecuados o el terminal desde tu Cpanel.    Por ejemplo: ssh usuario@tuservidor.
+1. **Accede al servidor**   : Conéctate a tu servidor a través de SSH usando un usuario con los permisos adecuados o el terminal desde tu Cpanel.   Por ejemplo: ssh usuario@tuservidor.
 2. **Cambia al directorio raíz de Magento**   : Ubica la carpeta donde está instalado Magento:   `cd /ruta/a/tu/magento`
 3. **Verifica el nombre exacto del módulo**   Lista todos los módulos instalados para identificar el nombre del _plugin_ que deseas desinstalar:
 
-* `   php bin/magento` 
-* module: status  . 
-* El módulo aparecerá con un formato similar a:   **Vendor_NombreDelModulo**  .  Apunta el nombre exacto, ya que lo necesitarás para el siguiente paso.
+* `   php bin/magento`
+* module: status  .
 
-1. **Deshabilita el módulo**   : Desactiva el módulo para evitar que Magento intente cargarlo:
-   * php bin/magento
-   * module: disable
-   * Vendor_NombreDelModulo
-     Verifica que se haya deshabilitado correctamente:
-   * php bin/magento
-   * module:status
-     Debe aparecer en la lista de **módulos deshabilitados**.
-2. **Ejecuta el comando de desinstalación**   : Magento ofrece un comando específico para **desinstalar completamente el módulo**, incluyendo datos en la base de datos.
-   * php bin/magento
-   * module:uninstall
-   * Vendor_NombreDelModulo
-   * **Advertencia**: Este paso elimina datos relacionados con el módulo.      Si solo deseas deshabilitarlo sin borrar información, omite este paso.
-3. **Limpia caché y genera archivos**   : Después de la desinstalación, limpia la caché y vuelve a compilar:
+El módulo aparecerá con un formato similar a:**Vendor_NombreDelModulo**.  Apunta el nombre exacto, ya que lo necesitarás para el siguiente paso.
+
+4. **Deshabilita el módulo**   : Desactiva el módulo para evitar que Magento intente cargarlo:
+
+* php bin/magento
+* module: disable
+* Vendor_NombreDelModulo
+  Verifica que se haya deshabilitado correctamente:
+* php bin/magento
+* module:status
+  Debe aparecer en la lista de **módulos deshabilitados**.
+
+5. **Ejecuta el comando de desinstalación**   : Magento ofrece un comando específico para **desinstalar completamente el módulo**, incluyendo datos en la base de datos.
+
+* php bin/magento
+* module:uninstall
+* Vendor_NombreDelModulo
+* **Advertencia**: Este paso elimina datos relacionados con el módulo.  Si solo deseas deshabilitarlo sin borrar información, omite este paso.
+
+6. **Limpia caché y genera archivos**   : Después de la desinstalación, limpia la caché y vuelve a compilar:
    `php bin/magento setup:upgrade
    php bin/magento cache:flush
    php bin/magento setup:di:compile
    php bin/magento setup:static-content:deploy -f`
-4. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra su carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
+7. **Elimina los archivos del módulo (opcional)**   : Si el _plugin_ fue instalado manualmente, borra su carpeta del directorio app/code o de _vendor_ si fue instalado vía Composer.
    * **Si fue instalado manualmente:**     rm -rf app/code/Vendor/NombreDelModulo
    * **Si fue instalado vía Composer**:     Primero, busca el nombre exacto del paquete:     composer show     , luego desinstálalo:     composer remove vendor/nombre-del-paquete
-5. **Verifica el funcionamiento**
+8. **Verifica el funcionamiento**
    * Ingresa al Dashboard de Magento y confirma que la tienda funciona correctamente.
    * Revisa que el plugin ya no aparezca en Stores > Configuration > Advanced > Advanced.
    * Prueba procesos críticos, como el flujo de pago y la carga de productos.
