@@ -24,11 +24,13 @@ next:
 ---
 Crear un pago con tarjeta en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (*challenges*) correspondientes para validar o rechazar transacciones.
+Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (_challenges_) correspondientes para validar o rechazar transacciones.
 
 ## ¿Cómo funciona?
 
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/e1dacb24c1b77701ec92c84ea97b1a91d502e6a450bc53e992490a26a3bde650-image_4.png" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico.
@@ -56,7 +58,7 @@ A continuación puedes ver un ejemplo de request:
 { 
   "currency": "ARS", 
   "country": "AR", 
-  "amount": "200",
+  "amount": "36400.90",
   "clientName" : "John Doe", 
   "clientEmail" : "johndoe@example.com", 
   "clientPhone" : "999999999", 
@@ -65,8 +67,7 @@ A continuación puedes ver un ejemplo de request:
   "urlConfirmation" : "https://www.webhook.com", 
   "urlFinal" : "example.com/successful", 
   "urlRejected" : "example.com/declined", 
-  "order" : "1234",
-  "sign" : "Signature of the parameters" 
+  "order" : "XYZ789"
 }
 ```
 
@@ -142,7 +143,8 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   "country": [string] // International Country Format 
   "method_type": [string] // Method type 
   "method_detail": [string] // Method details 
-  "hash": [string] // Security hash parameter 
+	"hash": [string] // Security hash parameter
+ 	"note": [string] // Transaction note
   "sign": [string] // Signature of the parameters
 }
 ```
@@ -151,16 +153,16 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Título                          | Descripción                                                                                 |
-| :------------------------------ | :------------------------------------------------------------------------------------------ |
-| FONDOS\_INSUFICIENTES           | Saldo insuficiente para realizar la transacción.                                            |
-| RECHAZADO\_POR\_BANCO           | Tu banco rechazó la transacción. Contáctate con ellos para más información.                 |
-| TRANSACCION\_RECHAZADA          | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.            |
-| CODIGO\_DE\_SEGURIDAD\_INVALIDO | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                    |
-| DATOS\_DE\_TARJETA\_INVALIDOS   | Los datos de la tarjeta ingresados son incorrectos. Verifica e inténtalo nuevamente.        |
-| NUMERO\_DE\_TARJETA\_INVALIDO   | El número de tarjeta ingresado es incorrecto. Verifica e inténtalo nuevamente.              |
-| TARJETA\_REPORTADA              | La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.         |
-| ERROR                           | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago. |
+| Título                 | Descripción                                                                                                                |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| SUCCEEDED              | Pago exitoso.                                                                                                              |
+| INSUFFICIENT_FUNDS     | Saldo insuficiente para realizar la transacción.                                                                           |
+| RECHAZADO POR EL BANCO | Tu banco rechazó la transacción. Contáctate con ellos para más información.                                                |
+| DO_NOT_HONOR           | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.                                           |
+| INVALID_SECURITY_CODE  | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                                                   |
+| INVALID_CARD_DATA      | Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.                                 |
+| REPORTED_STOLEN        | No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información. |
+| ERROR                  | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.                                |
 
 ## Prueba tu integración
 
@@ -168,7 +170,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
