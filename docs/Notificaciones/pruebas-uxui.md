@@ -59,7 +59,7 @@ export const Button = ({
 
 <br />
 
-**Guide Card**s
+**Guide Card**
 
 <Cards columns={2}>
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
@@ -67,7 +67,7 @@ export const Button = ({
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
 </Cards>
 
-**Image Car**d
+**Image Card**
 
 <Cards columns={3}>
   <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
