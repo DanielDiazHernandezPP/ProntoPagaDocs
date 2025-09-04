@@ -57,7 +57,7 @@ export const Button = ({
 };
 ```
 
-<br />
+## Guide Card
 
 **Guide Card**
 
