@@ -8,15 +8,15 @@ metadata:
 ---
 ## Button
 
-<br />
+**Button primary**
 
 <Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+
+**Button secondary**
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
 ## Guide Card
-
-<br />
 
 <Cards columns={2}>
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
@@ -26,8 +26,6 @@ metadata:
 
 ## Image Card
 
-<br />
-
 <Cards columns={3}>
   <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 
@@ -35,10 +33,6 @@ metadata:
 
   <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 </Cards>
-
-<br />
-
-<br />
 
 ## Code
 
