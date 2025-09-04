@@ -69,7 +69,9 @@ export const Button = ({
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
 </Cards>
 
-<ImageCard imageSrc="https://via.placeholder.com/150" imageAlt="Placeholder Image" title="Card Title" description="This is a description of the card." />
+<Cards columns={2}>
+  <ImageCard imageSrc="https://via.placeholder.com/150" imageAlt="Placeholder Image" title="Card Title" description="This is a description of the card." />
+</Cards>
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
