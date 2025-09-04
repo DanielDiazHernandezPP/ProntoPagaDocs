@@ -6,18 +6,47 @@ hidden: true
 metadata:
   robots: index
 ---
-```
-ggg
-```
+## Button
 
-<HTMLBlock>{`
-<button>hola</button>
-`}</HTMLBlock>
+<br />
+
+<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+
+<Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+
+## Guide Card
+
+<br />
+
+<Cards columns={2}>
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+</Cards>
+
+## Image Card
+
+<br />
+
+<Cards columns={3}>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+</Cards>
+
+<br />
+
+<br />
+
+## Code
 
 ```cplusplus
-console
-sdad
-sdasd
+sadasd
+sadas
+sadsad
+sadasd
 ```
 ```javascript
 export const Button = ({
@@ -55,50 +84,12 @@ export const Button = ({
         </Component>
     );
 };
+<div>
+    <Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+    <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+</div>
+
+
 ```
-
-<br />
-
-<br />
-
-## Button
-
-<br />
-
-<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
-
-<Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
-
-## Guide Card
-
-<br />
-
-<Cards columns={2}>
-  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
-
-  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
-</Cards>
-
-## Image Card
-
-<br />
-
-<Cards columns={3}>
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
-
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
-
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
-</Cards>
-
-<br />
-
-<br />
-
-## Code 
-
-<br />
-
-<br />
 
 <br />
