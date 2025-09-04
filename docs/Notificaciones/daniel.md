@@ -174,20 +174,12 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
-<Cards columns={4}>
+<Cards columns={2}>
   <Card title="API" href="https://readme.com" icon="fa-home" target="_blank">
     Conjunto de reglas que definen cómo dos aplicaciones de software se comunican entre sí para intercambiar datos y funcionalidades.
   </Card>
 
   <Card title="Second Card" icon="fa-user">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
-
-  <Card title="Third Card" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Card>
-
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
   </Card>
 </Cards>
