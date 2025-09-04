@@ -57,15 +57,7 @@ export const Button = ({
 };
 ```
 
-## Guide Card
-
 <br />
-
-<Cards columns={2}>
-  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
-
-  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
-</Cards>
 
 <br />
 
@@ -76,6 +68,16 @@ export const Button = ({
 <Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
+
+## Guide Card
+
+<br />
+
+<Cards columns={2}>
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+</Cards>
 
 ## Image Card
 
@@ -91,16 +93,12 @@ export const Button = ({
 
 <br />
 
-<Cards columns={3}>
-  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
-  </Card>
+<br />
 
-  <Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
+## Code 
 
-  <Card title="Third Card" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Card>
-</Cards>
+<br />
+
+<br />
+
+<br />
