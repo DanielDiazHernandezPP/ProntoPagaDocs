@@ -170,9 +170,13 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
+<br />
+
+<br />
+
 <Cards columns={4}>
-  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
+  <Card title="API" href="https://readme.com" icon="fa-home" target="_blank">
+    Conjunto de reglas que definen cómo dos aplicaciones de software se comunican entre sí para intercambiar datos y funcionalidades.
   </Card>
 
   <Card title="Second Card" icon="fa-user">
