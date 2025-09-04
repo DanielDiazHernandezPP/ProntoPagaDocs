@@ -42,6 +42,12 @@ metadata:
 
 ## Code
 
+```javascript
+console.log("Hola")
+```
+
+<br />
+
 ```cplusplus
 sadasd
 sadas
