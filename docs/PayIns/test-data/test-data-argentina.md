@@ -39,9 +39,9 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
     </tr>
   </thead>
   <tbody>
-    <tr><td><b>Visa</b></td><td>4147463011110059</td><td>dic-29</td><td>123</td></tr>
-    <tr><td><b>Título</b></td><td>Nombre del método de pago que aparece en el pedido (administrador Magento).</td></tr>
-    <tr><td><b><em>Merchant ID<em></b></td><td>Código de comercio en soles creado al momento de la afiliación.</td></tr>
+    <tr><td>Visa</td><td>4147463011110059</td><td>dic-29</td><td>123</td></tr>
+    <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td><td>123</td></tr>
+    <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td><td>123</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
