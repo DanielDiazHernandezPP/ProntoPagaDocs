@@ -73,7 +73,7 @@ export const Button = ({
 
 <br />
 
-<Button variant="primary" text="click" />
+<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
