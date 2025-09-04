@@ -19,3 +19,5 @@ metadata:
 | Solución | Método de pago         | Marca   |
 | :------- | :--------------------- | :------ |
 | Tarjeta  | latam_chk_card_payment | Tarjeta |
+
+<br />
