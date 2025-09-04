@@ -65,21 +65,7 @@ export const Button = ({
 
 <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
 
-<div className="pp-image-card">
-  <div className="pp-image-card__media">
-    <img src="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" alt="imagen" />
-  </div>
-
-  <div className="pp-image-card__content">
-    <h3 className="pp-image-card__title">
-      Acepta pagos con tarjeta
-    </h3>
-
-    <p className="pp-image-card__description">
-      Acepta pagos con tarjeta online de manera segura.
-    </p>
-  </div>
-</div>
+<ImageCard imageSrc="https://via.placeholder.com/150" imageAlt="Placeholder Image" title="Card Title" description="This is a description of the card." />
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
 
