@@ -1,0 +1,28 @@
+---
+name: ImageCard
+---
+export const ImageCard = ({
+    imageSrc,
+    imageAlt,
+    title,
+    description
+}) => {
+    return (
+        <div className="pp-image-card">
+            <div className="pp-image-card__media">
+                <img src={imageSrc} alt={imageAlt} />
+            </div>
+            <div className="pp-image-card__content">
+                <h3 className="pp-image-card__title">{title}</h3>
+                <p className="pp-image-card__description">{description}</p>
+            </div>
+        </div>
+    );
+};
+
+<ImageCard
+    imageSrc="https://via.placeholder.com/150"
+    imageAlt="Placeholder Image"
+    title="Card Title"
+    description="This is a description of the card."
+/>
