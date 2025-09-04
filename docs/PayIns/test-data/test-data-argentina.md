@@ -46,12 +46,4 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 </table>
 `}</HTMLBlock>
 
-***
-
-##
-
-| Tipo de tarjeta | Número de tarjeta | Fecha de vencimiento | CVV |
-| :-------------- | :---------------- | :------------------- | :-- |
-| Visa            | 4147463011110059  | dic-29               | 123 |
-| Mastercard      | 5165850000000008  | dic-29               | 123 |
-| Mastercard      | 5200000000002490  | dic-28               | 123 |
+<br />
