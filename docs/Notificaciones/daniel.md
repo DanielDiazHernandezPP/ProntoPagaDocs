@@ -172,7 +172,19 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
-<br />
+<Tabs>
+  <Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
+
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
+
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
 
 <Cards columns={2}>
   <Card title="API" href="https://readme.com" icon="fa-home" target="_blank">
