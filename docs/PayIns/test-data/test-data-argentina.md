@@ -26,8 +26,6 @@ next:
 
 Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta en Argentina.
 
-<br />
-
 <HTMLBlock>{`
 <table>
   <thead>
