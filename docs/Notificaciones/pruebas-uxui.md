@@ -61,7 +61,7 @@ export const Button = ({
 
 <br />
 
-<br />
+Guide Cards
 
 <Cards columns={2}>
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
