@@ -20,6 +20,25 @@ next:
 ---
 En este artículo, podrás consultar la cobertura que tenemos actualmente en los diversos países en los que operamos.
 
+<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇦🇷 Argentina</span>}>
+  A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.
+
+  <div style={{ textAlign: 'center' }}>
+    <img
+      src="https://files.readme.io/993783d3f97cd98ed52ccd0a1be04cc657b551f048139e85a23fbc3260267106-Coverage_in_Argentina.jpg"
+      alt="Argentina Coverage"
+      style={{
+        width: '80%',
+        maxWidth: '1000px',
+        height: 'auto',
+        transition: 'all 0.4s ease'
+      }}
+      onMouseOver={(e) => (e.target.style.width = '100%')}
+      onMouseOut={(e) => (e.target.style.width = '90%')}
+    />
+  </div>
+</Accordion>
+
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Brasil</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
