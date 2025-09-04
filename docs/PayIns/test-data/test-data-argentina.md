@@ -33,9 +33,9 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Tipo de tarjeta</b></th>
-      <th>Número de tarjeta</th>
-      <th>Fecha de vencimiento </th>
-			<th>CVV</th>
+      <th><b>Número de tarjeta</b></th>
+      <th><b>Fecha de vencimiento</b></th>
+			<th><b>CVV</b></th>
     </tr>
   </thead>
   <tbody>
