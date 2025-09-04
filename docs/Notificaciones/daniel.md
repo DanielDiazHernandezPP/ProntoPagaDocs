@@ -173,112 +173,108 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 <Tabs>
-  <Tab title="First Tab">
+  <Tab title="A">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="B">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="C">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="D">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="E">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="F">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="G">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="H">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="I">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="J">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="K">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="L">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="M">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="N">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="O">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="P">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="Q">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="R">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="S">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="T">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="U">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="V">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="W">
     Here's content that's only inside the second Tab.
   </Tab>
 
-  <Tab title="Third Tab">
+  <Tab title="X">
     Here's content that's only inside the third Tab.
   </Tab>
 
-  <Tab title="First Tab">
+  <Tab title="Y">
     Welcome to the content that you can only see inside the first Tab.
   </Tab>
 
-  <Tab title="Second Tab">
+  <Tab title="Z">
     Here's content that's only inside the second Tab.
-  </Tab>
-
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
   </Tab>
 </Tabs>
 
@@ -291,3 +287,5 @@ Consulta en [este enlace](www.la.com)
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 </Cards>
+
+/
