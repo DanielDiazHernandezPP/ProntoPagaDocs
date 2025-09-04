@@ -92,4 +92,4 @@ export const Button = ({
 
 ```
 
-<br />
+<GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
