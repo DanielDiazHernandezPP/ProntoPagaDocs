@@ -2,7 +2,7 @@
 title: Cobertura por país
 excerpt: Conoce la cobertura en los países donde ProntoPaga opera.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Cobertura por país | ProntoPaga Docs
   description: 'Puedes ver la cobertura de Prontopaga en diversos países. '
