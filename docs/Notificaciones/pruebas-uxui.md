@@ -63,7 +63,11 @@ export const Button = ({
 
 <br />
 
-<GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+<Cards columns={2}>
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
+</Cards>
 
 <ImageCard imageSrc="https://via.placeholder.com/150" imageAlt="Placeholder Image" title="Card Title" description="This is a description of the card." />
 
