@@ -10,7 +10,7 @@ metadata:
 
 **Button primary**
 
-<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" href="www.google.com" target="_blank" />
+<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" href="https://prontopaga.atlassian.net/jira/software/c/projects/SDX/boards/1309/backlog?assignee=712020%3A671ea3fe-c607-41c2-b024-3cc6d4bfc7db" target="_blank" />
 
 **Button secondary**
 
