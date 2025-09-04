@@ -32,7 +32,7 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th>Tipo de tarjeta</th>
+      <th><b>Tipo de tarjeta</b></th>
       <th>Número de tarjeta</th>
       <th>Fecha de vencimiento </th>
 			<th>CVV</th>
