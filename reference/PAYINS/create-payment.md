@@ -1,5 +1,5 @@
 ---
-title: Crear un nuevo pago - Chile, Brasil, Ecuador, Perú y Argentina
+title: Crear un nuevo pago - Argentina, Brasil, Chile, Ecuador y Perú
 api:
   file: prontopaga-api.json
   operationId: post_paymentnew
