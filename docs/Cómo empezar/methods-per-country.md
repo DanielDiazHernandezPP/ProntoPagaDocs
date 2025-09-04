@@ -20,8 +20,6 @@ next:
 ---
 En este artículo, podrás consultar la cobertura que tenemos actualmente en los diversos países en los que operamos.
 
-<br />
-
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Brasil</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
 
