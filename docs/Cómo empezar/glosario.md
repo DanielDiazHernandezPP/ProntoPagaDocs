@@ -47,19 +47,23 @@ metadata:
     * **Parámetros:**
     * **PayIns:**
     * **PayOuts:**
-    * **Pendiente por Retiro:**
+    * \*\*Pendiente por Retiro:\*\*Saldo en retiros pendientes.
     * **Plugins:**
   </Tab>
 
-  <Tab title="E">
-    * **Endpoint:**
-    * **Enviroments:**
+  <Tab title="Q">
+    * **QR:**
   </Tab>
 
-  <Tab title="F">
-    * **Firma:**
-    * **Front-end:**
+  <Tab title="S">
+    * \*\*Saldo bloqueado:\*\*Saldo bloqueado por procesos de contracargos.
+    * \*\*Saldo Diferido:\*\*Saldo a la espera de cumplir el tiempo necesario para estar disponible.
+    * \*\*Saldo Neto:\*\*Saldo total del comercio, contando el saldo ya disponible para retiro y el saldo diferido.
+    * **Sandbox:**
+      * **SecretKey:**
   </Tab>
 </Tabs>
+
+Saldo total del comercio, contando el saldo ya disponible para retiro y el saldo diferido.
 
 <br />
