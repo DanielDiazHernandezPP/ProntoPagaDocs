@@ -209,7 +209,7 @@ php bin/magento setup:static-content:deploy -f
 
 ## Ayuda con un pedido
 
-Si necesitas ayuda con un pedido o identificas **errores persistentes con la pasarela**, por favor, comunícate con soporte de ProntoPaga al correo electrónico [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com).
+Si necesitas ayuda con un pedido o identificas **errores persistentes con el plugin**, por favor, comunícate con soporte de ProntoPaga al correo electrónico [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com).
 
 ***
 
