@@ -29,16 +29,36 @@ metadata:
   </Tab>
 
   <Tab title="E">
-    * **Balance Disponible:**
-    * **Bearer Token:**
-    * **Body:**
+    * **Endpoint:**
+    * **Enviroments:**
   </Tab>
 
-  <Tab title="C">
-    * **Certificación:**
-    * **Changelog:**
-    * **Checkout:**
-    * **Cybersource (A Visa Solution):**
+  <Tab title="F">
+    * **Firma:**
+    * **Front-end:**
+  </Tab>
+
+  <Tab title="I">
+    * **iFrame:**
+    * **ntegración:**
+  </Tab>
+
+  <Tab title="P">
+    * **Parámetros:**
+    * **PayIns:**
+    * **PayOuts:**
+    * **Pendiente por Retiro:**
+      * **Plugins:**
+  </Tab>
+
+  <Tab title="E">
+    * **Endpoint:**
+    * **Enviroments:**
+  </Tab>
+
+  <Tab title="F">
+    * **Firma:**
+    * **Front-end:**
   </Tab>
 </Tabs>
 
