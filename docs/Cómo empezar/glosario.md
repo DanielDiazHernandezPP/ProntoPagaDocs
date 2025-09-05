@@ -6,32 +6,63 @@ hidden: true
 metadata:
   robots: index
 ---
+<HTMLBlock>{`
+\<Tabs>
+  \<Tab title="A">
+    * **API:**
+  \</Tab>
+
+  \<Tab title="B">
+    * **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**  
+  \</Tab>
+
+  \<Tab title="B">
+		* **Back-end:**
+		* **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**  
+  \</Tab>
+
+  \<Tab title="C">
+		* **Back-end:**
+		* **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**  
+  \</Tab>
+
+
+
+\</Tabs>
+`}</HTMLBlock>
+
 <br />
 
 \<Tabs>
-&#x20; \<Tab title="A">
-&#x20;   \* \*\*API:\*\*
-&#x20; \</Tab>
+  \<Tab title="A">
+    * **API:**
+  \</Tab>
 
-&#x20; \<Tab title="B">
-&#x20;   \* \*\*Balance Disponible:\*\*
-&#x20;   \* \*\*Bearer Token:\*\*
-&#x20;   \* \*\*Body:\*\* &#x20;
-&#x20; \</Tab>
+  \<Tab title="B">
+    * **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**  
+  \</Tab>
 
-&#x20; \<Tab title="B">
-&#x9;	\* \*\*Back-end:\*\*
-&#x9;	\* \*\*Balance Disponible:\*\*
-&#x20;   \* \*\*Bearer Token:\*\*
-&#x20;   \* \*\*Body:\*\* &#x20;
-&#x20; \</Tab>
+  \<Tab title="B">
+		* **Back-end:**
+		* **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**  
+  \</Tab>
 
-&#x20; \<Tab title="C">
-&#x9;	\* \*\*Back-end:\*\*
-&#x9;	\* \*\*Balance Disponible:\*\*
-&#x20;   \* \*\*Bearer Token:\*\*
-&#x20;   \* \*\*Body:\*\* &#x20;
-&#x20; \</Tab>
+  \<Tab title="C">
+		* **Back-end:**
+		* **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**  
+  \</Tab>
 
 <br />
 
