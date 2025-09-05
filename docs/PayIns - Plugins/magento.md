@@ -130,7 +130,7 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 
 <Image align="center" className="border" border={true} width="350px" src="https://files.readme.io/18b54951366a5e121eee4a487d10a541cc5583c8bd16babbf5f7243a136d5cd9-image.png" />
 
-4. LLena el formulario con tus datos personales y selecciona **Next**.
+4. Llena el formulario con tus datos personales y selecciona **Next**.
 5. En esta sección, selecciona el método de pago, ingresa tu documento de identidad y haz clic en **Place Order**.
 
 <Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
@@ -140,7 +140,7 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 
 > 👍 Set de pruebas
 >
-> Te sugerimos **hacer varias pruebas (exitosas y no exitosas)** por cada método de pago, para confirmar el correcto funcionamiento de la pasarela.
+> Te sugerimos **hacer varias pruebas (exitosas y no exitosas)** por cada método de pago, para confirmar el correcto funcionamiento del plugin.
 
 ***
 
@@ -154,8 +154,6 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 | El _plugin_ no aparece en el Admin        | Verifica si se instaló en el _workspace_ correcto y si fue publicado         |
 | Error de redirección al pagar             | Revisa las credenciales API configuradas                                     |
 | ProntoPaga no aparece como opción de pago | Asegúrate de que el _plugin_ esté activo y configurado                       |
-
-<br />
 
 ***
 
