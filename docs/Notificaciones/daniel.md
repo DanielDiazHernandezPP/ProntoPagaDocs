@@ -172,120 +172,134 @@ Consulta en [este enlace](www.la.com)
 
 <br />
 
-<Tabs>
-  <Tab title="A">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+\<Tabs>
+&#x20; \<Tab title="A">
+&#x20;   \<table>
+&#x20; \<thead>
+&#x20;   \<tr style="background-color:#ff1f55; color:white; text-align:left;">
+&#x20;     \<th>\<b>Tipo de tarjeta\</b>\</th>
+&#x20;     \<th>\<b>Número de tarjeta\</b>\</th>
+&#x20;     \<th>\<b>Fecha de vencimiento\</b>\</th>
+&#x9;		\<th>\<b>CVV\</b>\</th>
+&#x20;   \</tr>
+&#x20; \</thead>
+&#x20; \<tbody>
+&#x20;   \<tr>\<td>Visa\</td>\<td>4147463011110059\</td>\<td>dic-29\</td>\<td>123\</td>\</tr>
+&#x20;   \<tr>\<td>Mastercard\</td>\<td>5165850000000008\</td>\<td>dic-29\</td>\<td>123\</td>\</tr>
+&#x20;   \<tr>\<td>Mastercard\</td>\<td>5200000000002490\</td>\<td>dic-28\</td>\<td>123\</td>\</tr>\</tr>
+&#x20; \</tbody>
+\</table>
+&#x20; \</Tab>
 
-  <Tab title="B">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="B">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="C">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="C">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="D">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="D">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="E">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="E">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="F">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="F">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="G">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="G">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="H">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="H">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="I">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="I">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="J">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="J">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="K">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="K">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="L">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="L">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="M">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="M">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="N">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="N">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="O">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="O">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="P">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="P">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="Q">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="Q">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="R">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="R">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="S">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="S">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="T">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="T">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="U">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="U">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="V">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="V">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="W">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="W">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="X">
-    Here's content that's only inside the third Tab.
-  </Tab>
+&#x20; \<Tab title="X">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
 
-  <Tab title="Y">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+&#x20; \<Tab title="Y">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="Z">
-    Here's content that's only inside the second Tab.
-  </Tab>
-</Tabs>
+&#x20; \<Tab title="Z">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
+\</Tabs>
 
-<Cards columns={2}>
-  <Card title="API" href="https://readme.com" icon="fa-home" target="_blank">
-    Conjunto de reglas que definen cómo dos aplicaciones de software se comunican entre sí para intercambiar datos y funcionalidades.
-  </Card>
+\<Cards columns=\{2}>
+&#x20; \<Card title="API" href="https\://readme.com" icon="fa-home" target="\_blank">
+&#x20;   Conjunto de reglas que definen cómo dos aplicaciones de software se comunican entre sí para intercambiar datos y funcionalidades.
+&#x20; \</Card>
 
-  <Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
-</Cards>
+&#x20; \<Card title="Second Card" icon="fa-user">
+&#x20;   \*Lorem ipsum dolor sit amet, consectetur adipiscing elit\*
+&#x20; \</Card>
+\</Cards>
 
 /
