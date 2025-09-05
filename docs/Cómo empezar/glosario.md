@@ -44,7 +44,9 @@ metadata:
 
   <Tab title="I">
     * **iFrame:**
-    * **Integración:** Proceso de conectar tu aplicación, página web o sistema interno con un procesador de pagos o una orquestadora. Puede hacerse de distintas formas: APIs directas, SDKs (kits de desarrollo), iFrames que embeben formularios seguros, o plugins ya listos para plataformas de e-commerce. Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances. Todas estar características están presentes en ProntoPaga.
+    * **Integración:** Proceso de conectar tu aplicación, página web o sistema interno con un procesador de pagos o una orquestadora. Puede hacerse de distintas formas:
+
+      * APIs directas, SDKs (kits de desarrollo), iFrames que embeben formularios seguros, o plugins ya listos para plataformas de e-commerce. Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances. Todas estar características están presentes en ProntoPaga.
   </Tab>
 
   <Tab title="P">
