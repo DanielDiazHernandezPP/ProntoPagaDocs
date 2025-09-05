@@ -23,8 +23,9 @@ metadata:
     * **Cybersource (A Visa Solution):**
   </Tab>
 
-  <Tab title="A">
-    * **API:**
+  <Tab title="D">
+    * **Demo:**
+    * **Decisión Manager (DM):**
   </Tab>
 
   <Tab title="B">
