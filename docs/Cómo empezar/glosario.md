@@ -12,7 +12,7 @@ metadata:
   </Tab>
 
   <Tab title="B">
-    * **Balance Disponible:** Saldo
+    * **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
     * **Bearer Token:**
     * **Body:**
   </Tab>
