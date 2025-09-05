@@ -47,7 +47,7 @@ metadata:
     * **Parámetros:**
     * **PayIns:**
     * **PayOuts:**
-    * \*\*Pendiente por Retiro:\*\*Saldo en retiros pendientes.
+    * **Pendiente por Retiro:** Saldo en retiros pendientes.
     * **Plugins:**
   </Tab>
 
