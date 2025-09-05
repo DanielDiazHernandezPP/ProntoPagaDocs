@@ -40,7 +40,7 @@ metadata:
 
   <Tab title="I">
     * **iFrame:**
-    * **ntegración:**
+    * **Integración:**
   </Tab>
 
   <Tab title="P">
