@@ -1,10 +1,9 @@
 ---
 title: Configura el plugin de Adobe Commerce (Magento)
-excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Adobe Commerce Magento
+  title: Configura el plugin de Adobe Commerce (Magento) | ProntoPaga Docs
   description: >-
     Learn how to install, configure, and test the ProntoPaga payment plugin for
     Magento (Adobe Commerce). This guide walks you through setup requirements,
