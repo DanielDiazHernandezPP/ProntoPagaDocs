@@ -6,31 +6,6 @@ hidden: true
 metadata:
   robots: index
 ---
-<HTMLBlock>{`
-<Tabs>
-  \<Tab title="A">
-    * **API:**
-  \</Tab>
-  \<Tab title="B">
-    * **Balance Disponible:**
-    * **Bearer Token:**
-    * **Body:**  
-  \</Tab>
-  \<Tab title="B">
-		* **Back-end:**
-		* **Balance Disponible:**
-    * **Bearer Token:**
-    * **Body:**  
-  \</Tab>
-  \<Tab title="C">
-		* **Back-end:**
-		* **Balance Disponible:**
-    * **Bearer Token:**
-    * **Body:**  
-  \</Tab>
-\</Tabs>
-`}</HTMLBlock>
-
 <Tabs>
   <Tab title="A">
     * **API:**
@@ -53,7 +28,7 @@ metadata:
   </Tab>
 
   <Tab title="B">
-    * **Balance Disponible:**
+    * **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
     * **Bearer Token:**
     * **Body:**
   </Tab>
