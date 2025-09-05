@@ -62,6 +62,11 @@ metadata:
     * **Sandbox:**
     * **SecretKey:**
   </Tab>
+
+  <Tab title="W">
+    * **Wallet:**
+    * **Weebhok:**
+  </Tab>
 </Tabs>
 
 <br />
