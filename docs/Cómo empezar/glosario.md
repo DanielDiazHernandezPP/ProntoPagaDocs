@@ -31,37 +31,20 @@ metadata:
 \</Tabs>
 `}</HTMLBlock>
 
-<br />
+<Tabs>
+  <Tab title="A">
+    * **API:**
+  </Tab>
 
-\<Tabs>
-\<Tab title="A">
+  <Tab title="B">
+    * **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**
+  </Tab>
 
-* **API:**
-  \</Tab>
-
-\<Tab title="B">
-
-* **Balance Disponible:**
-* **Bearer Token:**
-* **Body:**
-  \</Tab>
-
-\<Tab title="B">
-
-* **Back-end:**
-* **Balance Disponible:**
-* **Bearer Token:**
-* **Body:**
-  \</Tab>
-
-\<Tab title="C">
-
-* **Back-end:**
-* **Balance Disponible:**
-* **Bearer Token:**
-* **Body:**
-  \</Tab>
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
 
 <br />
-
-\</Tabs>
