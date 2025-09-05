@@ -56,7 +56,7 @@ metadata:
   </Tab>
 
   <Tab title="S">
-    * **Saldo bloqueado:**
+    * \*\*Saldo bloqueado:\*\*Salfo bloqueado por procesos de contracargos.
     * **Saldo Diferido:**
     * **Saldo Neto:**
     * **Sandbox:**
