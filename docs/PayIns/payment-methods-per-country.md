@@ -35,9 +35,9 @@ En esta página están listados todos los métodos de pago por país, así como 
 
 ## Argentina
 
-| Solución | Método de pago         | Marca            |
-| :------- | :--------------------- | :--------------- |
-| Tarjeta  | latam_chk_card_payment | Visa y Mastercad |
+| Solución | Método de pago         | Marca             |
+| :------- | :--------------------- | :---------------- |
+| Tarjeta  | latam_chk_card_payment | Visa y Mastercard |
 
 <br />
 
