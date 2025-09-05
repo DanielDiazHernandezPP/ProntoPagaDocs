@@ -48,7 +48,7 @@ metadata:
     * **PayIns:**
     * **PayOuts:**
     * **Pendiente por Retiro:**
-      * **Plugins:**
+    * **Plugins:**
   </Tab>
 
   <Tab title="E">
