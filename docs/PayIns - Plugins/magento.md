@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce (Magento)
+title: Configura el plugin de Adobe Commerce (Magento)
 excerpt: ''
 deprecated: false
 hidden: false
