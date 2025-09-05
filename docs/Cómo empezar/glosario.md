@@ -42,8 +42,27 @@ metadata:
     * **Body:**
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="C">
+    * **Changelog:**
+    * **Checkout:**
+    * **Cybersource (A Visa Solution):**
+  </Tab>
+
+  <Tab title="A">
+    * **API:**
+  </Tab>
+
+  <Tab title="B">
+    * **Balance Disponible:**
+    * **Bearer Token:**
+    * **Body:**
+  </Tab>
+
+  <Tab title="C">
+    * **Certificación:**
+    * **Changelog:**
+    * **Checkout:**
+    * **Cybersource (A Visa Solution):**
   </Tab>
 </Tabs>
 
