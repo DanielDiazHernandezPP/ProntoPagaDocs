@@ -53,7 +53,7 @@ metadata:
 
       * iFrames que embeben formularios seguros.
 
-      * plugins ya listos para plataformas de e-commerce.
+      * Plugins ya listos para plataformas de e-commerce.
 
       Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances. Todas estar características están presentes en ProntoPaga.
   </Tab>
