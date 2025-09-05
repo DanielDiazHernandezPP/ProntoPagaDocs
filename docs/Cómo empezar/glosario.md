@@ -56,9 +56,9 @@ metadata:
   </Tab>
 
   <Tab title="S">
-    * \*\*Saldo bloqueado:\*\*Saldo bloqueado por procesos de contracargos.
-      * \*\*Saldo Diferido:\*\*Saldo a la espera de cumplir el tiempo necesario para estar disponible.
-    * \*\*Saldo Neto:\*\*Saldo total del comercio, contando el saldo ya disponible para retiro y saldo diferido.
+    * **Saldo bloqueado:**
+    * **Saldo Diferido:**
+    * **Saldo Neto:**
     * **Sandbox:**
     * **SecretKey:**
   </Tab>
