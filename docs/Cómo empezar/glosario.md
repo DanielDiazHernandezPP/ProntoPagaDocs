@@ -24,11 +24,11 @@ metadata:
   </Tab>
 
   <Tab title="D">
+    * **Decisión Manager (DM:**
     * **Demo:**
-    * **Decisión Manager (DM):**
   </Tab>
 
-  <Tab title="B">
+  <Tab title="E">
     * **Balance Disponible:**
     * **Bearer Token:**
     * **Body:**
