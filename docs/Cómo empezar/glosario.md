@@ -12,7 +12,7 @@ metadata:
   </Tab>
 
   <Tab title="B">
-    * **Balance Disponible:**
+    * **Balance Disponible:** Saldo
     * **Bearer Token:**
     * **Body:**
   </Tab>
