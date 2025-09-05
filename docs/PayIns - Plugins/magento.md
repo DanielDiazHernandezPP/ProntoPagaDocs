@@ -3,7 +3,6 @@ title: Adobe Commerce (Magento)
 excerpt: ''
 deprecated: false
 hidden: false
-icon: 😀
 metadata:
   title: Adobe Commerce Magento
   description: >-
