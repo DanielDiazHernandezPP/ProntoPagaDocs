@@ -65,7 +65,7 @@ metadata:
 
   <Tab title="W">
     * **Wallet:**
-    * **Weebhok:**
+    * **Weebhok:** Medio de automatización de respuesta ante un evento específico.
   </Tab>
 </Tabs>
 
