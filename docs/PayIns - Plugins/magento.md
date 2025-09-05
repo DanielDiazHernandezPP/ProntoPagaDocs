@@ -1,13 +1,6 @@
 ---
 title: Configura el plugin de Adobe Commerce (Magento)
-excerpt: >-
-  En ProntoPaga desarrollamos este **_plugin_ para integrarse específicamente
-  con Adobe Commerce (antes Magento)**, permitiéndote aceptar pagos de forma
-  segura, rápida y eficiente. Adobe Commerce es una plataforma de código abierto
-  para personalizar, administrar y optimizar una tienda de comercio
-  electrónico.  Esta guía te llevará paso a paso a través del **proceso de
-  instalación, configuración y prueba del _plugin_ de pagos ProntoPaga** para
-  Adobe Commerce.
+excerpt: 'Conoce cómo configurar el plugin para Adobe Commerce (Magento). '
 deprecated: false
 hidden: false
 metadata:
