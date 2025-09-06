@@ -36,8 +36,8 @@ metadata:
     * **Endpoint:**
     * **Enviroments:** Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son:
 
-    - Sandbox, donde se simulan transacciones sin dinero real.
-    - Producción, donde fluyen los pagos reales.
+      * Sandbox, donde se simulan transacciones sin dinero real.
+      * Producción, donde fluyen los pagos reales.
 
     Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
   </Tab>
