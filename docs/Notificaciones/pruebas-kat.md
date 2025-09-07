@@ -524,6 +524,15 @@ metadata:
 </div>
 `}</HTMLBlock>
 
+***
+
+| Mensajes de rechazo |
+| :------------------ |
+|                     |
+|                     |
+
+<br />
+
 <br />
 
 ***
@@ -650,7 +659,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 # Embedded form
 
-> This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form).
+> This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web&ui=embedded-form).
 
 #### Integration effort
 
@@ -1336,7 +1345,7 @@ En **Payouts**, se modifica el texto en:
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
@@ -1378,7 +1387,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
