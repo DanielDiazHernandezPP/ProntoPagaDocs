@@ -4,7 +4,7 @@ excerpt: ''
 deprecated: false
 hidden: false
 metadata:
-  title: Tipos de rechazos | ProntoPaga Docs
+  title: Tipos de rechazos (PayIns) | ProntoPaga Docs
   description: >-
     The document describes common types of rejections for payments in Brazil,
     Chile, Ecuador and Peru, including customer blocking, transaction limits,
