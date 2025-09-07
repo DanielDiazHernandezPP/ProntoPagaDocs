@@ -28,8 +28,6 @@ Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
@@ -43,8 +41,6 @@ El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 5. **Confirmación.** El cliente ve en pantalla el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ***
-
-<br />
 
 ## Crea un nuevo pago
 
@@ -79,8 +75,6 @@ A continuación puedes ver un ejemplo de request:
 }
 ```
 
-<br />
-
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
@@ -104,8 +98,6 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
    "reference": "Reason for rejection" 
 }
 ```
-
-<br />
 
 ### Confirmación de un pago
 
@@ -137,8 +129,6 @@ Ejemplo de **webhook para un pago exitoso**:
 } 
 ```
 
-<br />
-
 ### Detalles de un pago
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
@@ -163,8 +153,6 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 }
 ```
 
-<br />
-
 ### Motivos de rechazo
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
@@ -182,8 +170,6 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
@@ -195,8 +181,6 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 <br />
 
 ***
-
-<br />
 
 ## Certifica tu integración
 
