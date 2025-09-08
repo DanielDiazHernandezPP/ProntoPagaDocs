@@ -1,5 +1,5 @@
 ---
-title: Glosario (COPY)
+title: Glosario (V2)
 excerpt: Conoce los términos de la industria de pagos dentro de esta documentación.
 deprecated: false
 hidden: true
@@ -14,9 +14,9 @@ metadata:
   </Tab>
 
   <Tab title="B">
-    * **Back-end:** La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
+    **<h3>Back-end:</h3>** La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
 
-      Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
+    Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
 
     * **Balance Disponible:** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
 
