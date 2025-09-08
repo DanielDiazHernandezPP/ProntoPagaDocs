@@ -170,8 +170,9 @@ Consulta en [este enlace](www.la.com)
 
 <HTMLBlock>{`
 <Tabs>
-  <Tab title="A"
+  <Tab title="A">
        * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
+	</Tab>
 </Tabs>
 `}</HTMLBlock>
 
