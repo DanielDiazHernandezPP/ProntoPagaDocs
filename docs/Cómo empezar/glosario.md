@@ -7,7 +7,7 @@ metadata:
   robots: index
 ---
 <Tabs>
-  <Tab title="First Tab">
+  <Tab title="A">
     * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
 
     En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
