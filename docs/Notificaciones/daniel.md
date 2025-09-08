@@ -322,11 +322,11 @@ _Lorem ipsum dolor sit amet, consectetur adipiscing elit_
 
 /
 
-<br />
+<HTMLBlock>{`
+<Tabs>
+  <Tab title="A"
+       * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
+</Tabs>
+`}</HTMLBlock>
 
 <br />
-
-\<Tabs>
-\<Tab title="A">
-&#x20;   		\* \*\*API:\*\* Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
-\<Tabs>
