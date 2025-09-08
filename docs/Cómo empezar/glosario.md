@@ -24,8 +24,13 @@ metadata:
       Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="C">
+    * **Certificación:** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción.
+
+      En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
+    * **Changelog:**
+      * **Checkout:**
+      * **Cybersource**
   </Tab>
 
   <Tab title="First Tab">
