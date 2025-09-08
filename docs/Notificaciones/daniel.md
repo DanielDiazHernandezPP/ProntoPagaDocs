@@ -171,153 +171,160 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 \<Tabs>
-&#x20; \<Tab title="First Tab">
-&#x20;   \<table>
-&#x9;	 \\\<thead>
-&#x20;   	\\\<tr style="background-color:#ff1f55; color:white; text-align:left;">
-&#x20;     \\\<th>\\\<b>Tipo de tarjeta\\\</b>\\\</th>
-&#x20;     \\\<th>\\\<b>Número de tarjeta\\\</b>\\\</th>
-&#x20;     \\\<th>\\\<b>Fecha de vencimiento\\\</b>\\\</th>
-&#x9;		\\\<th>\\\<b>CVV\\\</b>\\\</th>
-&#x20; \</Tab>
-
-&#x20; \<Tab title="Second Tab">
-&#x20;   Here's content that's only inside the second Tab.
-&#x20; \</Tab>
-
-&#x20; \<Tab title="Third Tab">
-&#x20;   Here's content that's only inside the third Tab.
-&#x20; \</Tab>
-\</Tabs>
-
-\<Tabs>
-  \<Tab title="A">
+  \<Tab title="First Tab">
     \<table>
-  \<thead>
-    \<tr style="background-color:#ff1f55; color:white; text-align:left;">
+		 \<thead>
+    	\<tr style="background-color:#ff1f55; color:white; text-align:left;">
       \<th>\<b>Tipo de tarjeta\</b>\</th>
       \<th>\<b>Número de tarjeta\</b>\</th>
       \<th>\<b>Fecha de vencimiento\</b>\</th>
 			\<th>\<b>CVV\</b>\</th>
-    \</tr>
-  \</thead>
-  \<tbody>
-    \<tr>\<td>Visa\</td>\<td>4147463011110059\</td>\<td>dic-29\</td>\<td>123\</td>\</tr>
-    \<tr>\<td>Mastercard\</td>\<td>5165850000000008\</td>\<td>dic-29\</td>\<td>123\</td>\</tr>
-    \<tr>\<td>Mastercard\</td>\<td>5200000000002490\</td>\<td>dic-28\</td>\<td>123\</td>\</tr>\</tr>
-  \</tbody>
-\</table>
   \</Tab>
 
-  \<Tab title="B">
+  \<Tab title="Second Tab">
     Here's content that's only inside the second Tab.
   \</Tab>
 
-  \<Tab title="C">
+  \<Tab title="Third Tab">
     Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="D">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="E">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="F">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="G">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="H">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="I">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="J">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="K">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="L">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="M">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="N">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="O">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="P">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="Q">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="R">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="S">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="T">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="U">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="V">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="W">
-    Here's content that's only inside the second Tab.
-  \</Tab>
-
-  \<Tab title="X">
-    Here's content that's only inside the third Tab.
-  \</Tab>
-
-  \<Tab title="Y">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
-
-  \<Tab title="Z">
-    Here's content that's only inside the second Tab.
   \</Tab>
 \</Tabs>
 
-\<Cards columns=\{2}>
-  \<Card title="API" href="[https://readme.com](https://readme.com)" icon="fa-home" target="_blank">
-    Conjunto de reglas que definen cómo dos aplicaciones de software se comunican entre sí para intercambiar datos y funcionalidades.
-  \</Card>
+\<Tabs>
+\<Tab title="A">
+\<table>
+\<thead>
+\<tr style="background-color:#ff1f55; color:white; text-align:left;">
+\<th>\<b>Tipo de tarjeta\</b>\</th>
+\<th>\<b>Número de tarjeta\</b>\</th>
+\<th>\<b>Fecha de vencimiento\</b>\</th>
+\<th>\<b>CVV\</b>\</th>
+\</tr>
+\</thead>
+\<tbody>
+\<tr>\<td>Visa\</td>\<td>4147463011110059\</td>\<td>dic-29\</td>\<td>123\</td>\</tr>
+\<tr>\<td>Mastercard\</td>\<td>5165850000000008\</td>\<td>dic-29\</td>\<td>123\</td>\</tr>
+\<tr>\<td>Mastercard\</td>\<td>5200000000002490\</td>\<td>dic-28\</td>\<td>123\</td>\</tr>\</tr>
+\</tbody>
+\</table>
+\</Tab>
 
-  \<Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  \</Card>
+\<Tab title="B">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="C">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="D">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="E">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="F">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="G">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="H">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="I">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="J">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="K">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="L">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="M">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="N">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="O">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="P">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="Q">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="R">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="S">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="T">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="U">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="V">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="W">
+Here's content that's only inside the second Tab.
+\</Tab>
+
+\<Tab title="X">
+Here's content that's only inside the third Tab.
+\</Tab>
+
+\<Tab title="Y">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
+
+\<Tab title="Z">
+Here's content that's only inside the second Tab.
+\</Tab>
+\</Tabs>
+
+\<Cards columns=\{2}>
+\<Card title="API" href="[https://readme.com](https://readme.com)" icon="fa-home" target="_blank">
+Conjunto de reglas que definen cómo dos aplicaciones de software se comunican entre sí para intercambiar datos y funcionalidades.
+\</Card>
+
+\<Card title="Second Card" icon="fa-user">
+_Lorem ipsum dolor sit amet, consectetur adipiscing elit_
+\</Card>
 \</Cards>
 
 /
+
+<br />
+
+\<Tabs>
+&#x9;\<Tab title="A">
+&#x20;   		\* \*\*API:\*\* Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
+/\<Tabs>
