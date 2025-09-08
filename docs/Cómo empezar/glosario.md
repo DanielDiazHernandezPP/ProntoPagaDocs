@@ -110,42 +110,40 @@ metadata:
   </Tab>
 
   <Tab title="Q">
-    **QR (Quick Response Code)**\
-    Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un link a un checkout, una orden de transferencia o un identificador único de transacción. Es usado por su simplicidad y compatibilidad con billeteras (wallets) digitales.
+    * **QR:** Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un link a un checkout, una orden de transferencia o un identificador único de transacción.
+
+      Es usado por su simplicidad y compatibilidad con billeteras (wallets) digitales.
   </Tab>
 
   <Tab title="S">
-    **Sandbox**\
-    Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
+    * **Sandbox:** Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
 
-    **Saldo Bloqueado**\
-    Fondos retenidos por situaciones especiales, como contracargos, disputas abiertas o revisiones de fraude. Estos montos permanecen inaccesibles hasta que la investigación concluya. El saldo bloqueado protege tanto al cliente como al comercio, evitando retiros que luego no podrían cubrir reembolsos.
+    * **Saldo Bloqueado:** Fondos retenidos por situaciones especiales, como contracargos, disputas abiertas o revisiones de fraude. Estos montos permanecen inaccesibles hasta que la investigación concluya. El saldo bloqueado protege tanto al cliente como al comercio, evitando retiros que luego no podrían cubrir reembolsos.
 
-    **Saldo Diferido**\
-    Es la porción del saldo que aún no puede retirarse porque está en periodo de espera. Normalmente corresponde a fondos que deben cumplir con reglas de liberación para reducir riesgos de contracargos o fraudes. Una vez cumplido ese tiempo, pasa al saldo disponible.
+    * **Saldo Diferido:** Es la porción del saldo que aún no puede retirarse porque está en periodo de espera. Normalmente corresponde a fondos que deben cumplir con reglas de liberación para reducir riesgos de contracargos o fraudes. Una vez cumplido ese tiempo, pasa al saldo disponible.
 
-    **Saldo Neto**\
-    Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
+    * **Saldo Neto:** Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
 
-    **SecretKey / API Keys**\
-    Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.\
+    **SecretKey:** Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
+
     En ProntoPaga contarás con llaves para cada entorno (sandbox y producción). La llave de producción requiere que estés certificado por la administración de ProntoPaga. Una vez hecho, podrás usar los datos reales y en vivo.
   </Tab>
 
   <Tab title="T">
-    **Transacción**\
-    Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad. Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
+    * **Transacción:** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
+
+    Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
   </Tab>
 
   <Tab title="W">
-    **Wallet (billetera / monedero digital)**\
-    En pagos, el término puede referirse a dos cosas:
+    * **Wallet:** En el sector de pagos, el término puede referirse a dos cosas:
 
-    * Wallet del usuario: aplicaciones como Apple Pay, Google Pay o billeteras propias que almacenan tarjetas tokenizadas y permiten pagar de forma rápida y segura.
-    * Wallet del comercio: balance virtual que cuentan todos los comercios dentro de ProntoPaga, donde se acumulan los PayIns hasta que se ejecutan PayOuts. Este Wallet refleja saldos disponibles, diferidos y bloqueados.
+      * Wallet del usuario: aplicaciones como Apple Pay, Google Pay o billeteras propias que almacenan tarjetas tokenizadas y permiten pagar de forma rápida y segura.
+      * Wallet del comercio: balance virtual que cuentan todos los comercios dentro de ProntoPaga, donde se acumulan los PayIns hasta que se ejecutan PayOuts. Este Wallet refleja saldos disponibles, diferidos y bloqueados.
 
-    **Webhook**\
-    Mecanismo de notificación automática: cuando ocurre un evento en la plataforma (ejemplo: pago aprobado, contracargo iniciado, payout rechazado), ProntoPaga envía un mensaje POST a una URL configurada por el comercio. De esta forma, el sistema del comercio puede reaccionar en tiempo real (enviar confirmaciones, actualizar estados, liberar productos). Para conocer más acerca de los webhooks, haz clic aquí.
+    * **Webhook:** Mecanismo de notificación automática: cuando ocurre un evento en la plataforma (ejemplo: pago aprobado, contracargo iniciado, payout rechazado), ProntoPaga envía un mensaje POST a una URL configurada por el comercio. De esta forma, el sistema del comercio puede reaccionar en tiempo real (enviar confirmaciones, actualizar estados, liberar productos).
+
+      Para conocer más acerca de los webhooks, haz clic [aquí](https://docs.prontopaga.com/update/docs/webhooks#/).
   </Tab>
 </Tabs>
 
