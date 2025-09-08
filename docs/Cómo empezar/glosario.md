@@ -9,6 +9,7 @@ metadata:
 <Tabs>
   <Tab title="First Tab">
     * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
+
       En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout. Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
   </Tab>
 
@@ -66,8 +67,9 @@ metadata:
 <br />
 
 \<Tabs>
-	\<Tab title="A">
-    * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
+\<Tab title="A">
+
+* **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
 
 ```
 ```
