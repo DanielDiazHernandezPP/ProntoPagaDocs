@@ -7,14 +7,17 @@ metadata:
   robots: index
 ---
 <Tabs>
-  <Tab title="First Tab">
+  <Tab title="A">
     * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
       En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
       Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
   </Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
+  <Tab title="B">
+    * **Balance disponible:** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
+    * **Bearer Token** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
+      A este tipo de credenciales sueles llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
+      Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
   </Tab>
 
   <Tab title="Third Tab">
@@ -27,24 +30,26 @@ metadata:
 <br />
 
 \<Tabs>
-  \<Tab title="A">
-    * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
-\<Tab title="B">
-    * **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
-    * **Bearer Token:**
-\<Tab title="C">
-    * **Changelog:**
-    * **Checkout:**
-    * **Cybersource (A Visa Solution):**
+\<Tab title="A">
+
+* **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
+  \<Tab title="B">
+* **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
+* **Bearer Token:**
+  \<Tab title="C">
+* **Changelog:**
+* **Checkout:**
+* **Cybersource (A Visa Solution):**
   \</Tab>
 
 \<Tab title="D">
-    * **Decisión Manager (DM:**
-    * **Demo:**
+
+* **Decisión Manager (DM:**
+* **Demo:**
   \</Tab>
-\<Tab title="E">
-    * **Endpoint:**
-    * **Enviroments:** Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son
+  \<Tab title="E">
+* **Endpoint:**
+* **Enviroments:** Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son
 
 \<Tab title="F">
 
