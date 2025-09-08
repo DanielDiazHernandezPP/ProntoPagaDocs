@@ -132,7 +132,7 @@ metadata:
   <Tab title="T">
     * **Transacción:** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
 
-    Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
+      Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
   </Tab>
 
   <Tab title="W">
