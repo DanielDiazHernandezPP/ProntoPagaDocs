@@ -10,18 +10,18 @@ metadata:
   <Tab title="A">
     * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
 
-    En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
+      En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
 
-    Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
+      Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
   </Tab>
 
   <Tab title="B">
     * **Balance disponible:** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
     * **Bearer Token:** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
 
-    A este tipo de credenciales sueles llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
+      A este tipo de credenciales sueles llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
 
-    Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
+      Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
   </Tab>
 
   <Tab title="Third Tab">
