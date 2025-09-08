@@ -94,7 +94,7 @@ Error al generar el Token de Acceso Pix.
 
 ***
 
-## Chile
+## Chile 🇨🇱
 
 Estos son los tipos de pagos rechazados en Chile.
 
@@ -128,7 +128,7 @@ El cliente ha superado los límites establecidos para la transacción o comercio
 
 ***
 
-## Ecuador
+## Ecuador 🇪🇨
 
 Estos son los tipos de pagos rechazados en Ecuador.
 
@@ -186,7 +186,7 @@ El cliente tiene una transacción de pago pendiente.
 
 ***
 
-## Perú
+## Perú 🇵🇪
 
 Estos son los tipos de pagos rechazados en Perú.
 
