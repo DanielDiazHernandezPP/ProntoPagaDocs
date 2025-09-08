@@ -82,13 +82,13 @@ metadata:
   <Tab title="I">
     * **iFrame:** Elemento HTML que permite insertar contenido externo dentro de un sitio. En el sector de pagos, se usa para embebed formularios seguros (como el campo de tarjeta) de modo que los datos sensibles nunca toquen tu servidor, facilitando cumplir normativas de seguridad sin comprometer la experiencia de usuario.
 
-    * **Integración** Proceso de conectar tu aplicación, página web o sistema interno con un procesador de pagos o una orquestadora. Puede hacerse de distintas formas: APIs directas, SDKs (kits de desarrollo), iFrames que embeben formularios seguros, o plugins ya listos para plataformas de e-commerce. Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances.
+    * **Integración:** Proceso de conectar tu aplicación, página web o sistema interno con un procesador de pagos o una orquestadora. Puede hacerse de distintas formas: APIs directas, SDKs (kits de desarrollo), iFrames que embeben formularios seguros, o plugins ya listos para plataformas de e-commerce. Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances.
 
       La mayoría de estas características están presentes en ProntoPaga.
   </Tab>
 
   <Tab title="P">
-    * **Parámetro:s** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
+    * **Parámetros:** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
 
       Los parámetros son aquellos que permiten personalizar el comportamiento de cada operación (y que para un mismo endpoint, el resultado sea diferente cuando cambiamos los datos del parámetro).
 
