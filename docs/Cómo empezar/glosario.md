@@ -18,7 +18,9 @@ metadata:
   <Tab title="B">
     * **Balance disponible:** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
     * **Bearer Token** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
+
       A este tipo de credenciales sueles llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
+
       Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
   </Tab>
 
