@@ -24,7 +24,7 @@ next:
 ---
 Los tipos de rechazos posibles para PayIns varían dependiendo del país y del método de pago utilizado. A continuación, se describen los más comunes.
 
-## Brasil
+## Brasil 🇧🇷
 
 Estos son los tipos de pagos rechazados en Brasil.
 
@@ -204,18 +204,18 @@ Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 > * Cuenta bloqueada por OTP.
 > * 3er intento de OTP incorrecto.
 
-| Action\_code | Mensaje del rechazo                                                           |
-| :----------- | :---------------------------------------------------------------------------- |
-| 101          | Tarjeta vencida                                                               |
-| 116          | Fondos insuficientes                                                          |
-| 118          | Tarjeta inválida                                                              |
-| 129          | Tarjeta no operativa                                                          |
-| 208          | Tarjeta perdida                                                               |
-| 209          | Tarjeta robada                                                                |
-| 666          | Problemas de comunicación                                                     |
-| 413          | Excediste el límite diario de pagos con Yape                                  |
-| 414          | Tu cuenta fue bloqueada. Vuelve a intentar en 24 horas                        |
-| 418          | Ingresaste 3 códigos de aprobación incorrectos. Vuelve a intentar en 24 horas |
+| Action_code | Mensaje del rechazo                                                           |
+| :---------- | :---------------------------------------------------------------------------- |
+| 101         | Tarjeta vencida                                                               |
+| 116         | Fondos insuficientes                                                          |
+| 118         | Tarjeta inválida                                                              |
+| 129         | Tarjeta no operativa                                                          |
+| 208         | Tarjeta perdida                                                               |
+| 209         | Tarjeta robada                                                                |
+| 666         | Problemas de comunicación                                                     |
+| 413         | Excediste el límite diario de pagos con Yape                                  |
+| 414         | Tu cuenta fue bloqueada. Vuelve a intentar en 24 horas                        |
+| 418         | Ingresaste 3 códigos de aprobación incorrectos. Vuelve a intentar en 24 horas |
 
 > 👍 Datos de prueba
 >
@@ -227,23 +227,23 @@ A continuación se listan los posibles **rechazos secundarios** al realizar un p
 
 > ❗️ errorMessage
 >
-> Tanto el action\_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
+> Tanto el action_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
 
-| Action\_code | Mensaje del rechazo                                |
-| :----------- | :------------------------------------------------- |
-| 410          | Operacion denegada. OTP Incorrecto                 |
-| 411          | Operacion denegada. Cuenta Inactiva                |
-| 412          | Operacion Denegada. Cuenta no permitida            |
-| 413          | Limite diario excedido                             |
-| 414          | Operacion denegada. OTP Bloqueado                  |
-| 415          | Operacion denegada. Cuenta no asociada al programa |
-| 416          | Error codigo yape Incorrecto                       |
-| 417          | Error codigo yape Incorrecto                       |
-| 418          | Error codigo yape Incorrecto                       |
-| 503          | Operacion denegada. Problemas de comunicacion      |
-| 504          | Operacion denegada. Problemas de comunicacion      |
-| 511          | Operacion denegada. Problemas de comunicacion      |
-| 599          | Operacion denegada. Problemas de comunicacion      |
+| Action_code | Mensaje del rechazo                                |
+| :---------- | :------------------------------------------------- |
+| 410         | Operacion denegada. OTP Incorrecto                 |
+| 411         | Operacion denegada. Cuenta Inactiva                |
+| 412         | Operacion Denegada. Cuenta no permitida            |
+| 413         | Limite diario excedido                             |
+| 414         | Operacion denegada. OTP Bloqueado                  |
+| 415         | Operacion denegada. Cuenta no asociada al programa |
+| 416         | Error codigo yape Incorrecto                       |
+| 417         | Error codigo yape Incorrecto                       |
+| 418         | Error codigo yape Incorrecto                       |
+| 503         | Operacion denegada. Problemas de comunicacion      |
+| 504         | Operacion denegada. Problemas de comunicacion      |
+| 511         | Operacion denegada. Problemas de comunicacion      |
+| 599         | Operacion denegada. Problemas de comunicacion      |
 
 ### Tarjeta - Autorizador
 
@@ -251,23 +251,23 @@ Códigos de acción en la respuesta del **autorizador** (al hacer pagos con tarj
 
 > ❗️ errorMessage
 >
-> Tanto el action\_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
+> Tanto el action_code, como el Mensaje de rechazo te será entregado en la respuesta, en el campo `errorMessage`.
 
-| Action\_code | Mensaje del rechazo                      |
-| :----------- | :--------------------------------------- |
-| 101          | Tarjeta vencida                          |
-| 102          | Operación no permitida para esta tarjeta |
-| 113          | Monto no permitido                       |
-| 116          | Fondos insuficientes                     |
-| 118          | Tarjeta inválida                         |
-| 129          | Tarjeta no operativa                     |
-| 180          | Tarjeta inválida                         |
-| 208          | Tarjeta perdida                          |
-| 209          | Tarjeta robada                           |
-| 666          | Problemas de comunicación                |
-| 670          | Transacción denegada por posible fraude  |
-| 678          | Error en autenticación                   |
-| 754          | Comercio no válido                       |
-| 191          | Contactar emisor                         |
-| 0            | Afiliación a REC no exitosa              |
-| 190          | Contactar emisor                         |
+| Action_code | Mensaje del rechazo                      |
+| :---------- | :--------------------------------------- |
+| 101         | Tarjeta vencida                          |
+| 102         | Operación no permitida para esta tarjeta |
+| 113         | Monto no permitido                       |
+| 116         | Fondos insuficientes                     |
+| 118         | Tarjeta inválida                         |
+| 129         | Tarjeta no operativa                     |
+| 180         | Tarjeta inválida                         |
+| 208         | Tarjeta perdida                          |
+| 209         | Tarjeta robada                           |
+| 666         | Problemas de comunicación                |
+| 670         | Transacción denegada por posible fraude  |
+| 678         | Error en autenticación                   |
+| 754         | Comercio no válido                       |
+| 191         | Contactar emisor                         |
+| 0           | Afiliación a REC no exitosa              |
+| 190         | Contactar emisor                         |
