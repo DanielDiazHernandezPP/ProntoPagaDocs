@@ -8,29 +8,29 @@ metadata:
 ---
 <Tabs>
   <Tab title="A">
-    * **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
+    * **<h3>API</h3>** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
 
       Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
   </Tab>
 
   <Tab title="B">
-    **<h3>Back-end:</h3>** La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
+    **<h3>Back-end</h3>** La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
 
     Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
 
-    * **Balance Disponible:** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
+    **<h3>Balance Disponible</h3>** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
 
-    * **Bearer Token:** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
+    **<h3>Bearer Token</h3>** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
 
-      A este tipo de credenciales suele llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
+    A este tipo de credenciales suele llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
 
-      Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
+    Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
 
-    * **Body:** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
+    **<h3>Body</h3>** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
 
-      Los parámetros del body pueden ser de un tipo de dato distinto, como String, Number o Boolean. Toda la información que necesitas para crear tu petición, puedes encontarla en nuestra sección de API Reference.\\
+    Los parámetros del body pueden ser de un tipo de dato distinto, como String, Number o Boolean. Toda la información que necesitas para crear tu petición, puedes encontarla en nuestra sección de API Reference.\\
 
-      Al momento de crearlos, debes asegurarte de que todos los parámetros estén incluidos dentro de su estructura para que la API procese la transacción.
+    Al momento de crearlos, debes asegurarte de que todos los parámetros estén incluidos dentro de su estructura para que la API procese la transacción.
   </Tab>
 
   <Tab title="C">
