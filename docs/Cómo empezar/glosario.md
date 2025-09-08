@@ -24,23 +24,16 @@ metadata:
       Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="C">
+    * **Changelog:** Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
+
+      Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra [pestaña](https://docs.prontopaga.com/changelog#/) de Changelog.
   </Tab>
 </Tabs>
 
-<br />
 
-<br />
+\<Tab title="C">
 
-\<Tabs>
-\<Tab title="A">
-
-* **API:** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
-  \<Tab title="B">
-* **Balance Disponible:** Saldo disponible para retiro. Es el resultado del saldo neto menos el saldo diferido.
-* **Bearer Token:**
-  \<Tab title="C">
 * **Changelog:**
 * **Checkout:**
 * **Cybersource (A Visa Solution):**
