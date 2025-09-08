@@ -4,6 +4,12 @@ excerpt: Conoce los términos de la industria de pagos dentro de esta documentac
 deprecated: false
 hidden: true
 metadata:
+  keywords:
+    - glossary ProntoPaga
+    - ProntoPaga deficiones
+    - ProntoPaga glosario
+    - terminología ProntoPaga
+    - términos ProntoPaga
   robots: index
 ---
 <Tabs>
