@@ -5,6 +5,52 @@ hidden: true
 metadata:
   robots: index
 ---
+### General (todos los países)
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Mensaje de rechazo
+      </th>
+
+      <th>
+        Descripción
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        The client is blocked
+      </td>
+
+      <td>
+        El cliente se bloquea en lista negra.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Exceeds daily limit,
+        5,000,000.00 BRL available for the day,
+        10,000,000.00 BRL available for the week,
+        30,000,000.00 BRL available for the month.
+        Maximum deposit per transaction 6,000,000.00 BRL                                 
+      </td>
+
+      <td>
+        El cliente ha superado los límites establecidos para la transacción o comercio.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+***
+
 ### Argentina
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
@@ -19,17 +65,140 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | REPORTED_STOLEN        | No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información. |
 | ERROR                  | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.                                |
 
-<br />
+***
 
-<br />
+### Brasil
 
-| Mensajes de rechazo  |
-| :------------------- |
-| FONDOS_INSUFICIENTES |
-| RECHAZADO_POR_BANCO  |
-|                      |
-|                      |
-|                      |
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Mensaje de rechazo
+      </th>
+
+      <th>
+        Descripción
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Exceeds daily limit,
+        5,000,000.00 BRL available for the day,
+        10,000,000.00 BRL available for the week,                              
+        30,000,000.00 BRL available for the month.
+        Maximum deposit per transaction 6,000,000.00 BRL
+      </td>
+
+      <td>
+        El cliente ha superado los límites establecidos para la transacción o comercio.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error while creating the payment in the Pix service. Please try again
+      </td>
+
+      <td>
+        Error al crear el pago en el servicio Pix.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error generating Pix QR Code
+      </td>
+
+      <td>
+        Error al generar el código QR Pix.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Error generating Pix AccessToken
+      </td>
+
+      <td>
+        Error al generar el Token de Acceso Pix.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+***
+
+### Chile
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+| Mensaje de rechazo                     | Descripción                         |
+| :------------------------------------- | :---------------------------------- |
+| Bank not recognized                    | Banco no reconocido en la metadata. |
+| No destination account for BancoEstado | BancoEstado sin cuenta configurada. |
+| Failed to assign destination account   | Error al asignar cuenta destino.    |
+| Unexpected internal error              | Error inesperado.                   |
+
+***
+
+### Ecuador
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Mensaje de rechazo
+      </th>
+
+      <th>
+        Descripción
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        There is already a pending payment for that phone number.
+      </td>
+
+      <td>
+        El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Failed payment: There is already a pending payment transaction.
+      </td>
+
+      <td>
+        El cliente tiene una transacción de pago pendiente.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+***
+
+### Perú
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+| Mensaje de rechazo                     | Descripción                         |
+| :------------------------------------- | :---------------------------------- |
+| Bank not recognized                    | Banco no reconocido en la metadata. |
+| No destination account for BancoEstado | BancoEstado sin cuenta configurada. |
+| Failed to assign destination account   | Error al asignar cuenta destino.    |
+| Unexpected internal error              | Error inesperado.                   |
 
 <br />
 
