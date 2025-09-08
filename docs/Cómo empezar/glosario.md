@@ -28,9 +28,11 @@ metadata:
     * **Certificación:** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción.
 
       En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
-    * **Changelog:**
-      * **Checkout:**
-      * **Cybersource**
+    * **Changelog:** Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
+
+      Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra pestaña de Changelog.
+    * **Checkout:**
+    * **Cybersource**
   </Tab>
 
   <Tab title="First Tab">
