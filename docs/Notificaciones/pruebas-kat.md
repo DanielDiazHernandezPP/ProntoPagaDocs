@@ -5,6 +5,13 @@ hidden: true
 metadata:
   robots: index
 ---
+| Código de rechazo | Mensajes de rechazo |
+| :---------------- | :------------------ |
+| a                 |                     |
+|                   |                     |
+
+<br />
+
 <HTMLBlock>{`
 <!DOCTYPE html>
 <html lang="es">
