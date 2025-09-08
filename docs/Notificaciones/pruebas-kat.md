@@ -5,10 +5,13 @@ hidden: true
 metadata:
   robots: index
 ---
-| Código de rechazo | Mensajes de rechazo |
-| :---------------- | :------------------ |
-| a                 |                     |
-|                   |                     |
+| Mensajes de rechazo  |
+| :------------------- |
+| FONDOS_INSUFICIENTES |
+| RECHAZADO_POR_BANCO  |
+|                      |
+|                      |
+|                      |
 
 <br />
 
