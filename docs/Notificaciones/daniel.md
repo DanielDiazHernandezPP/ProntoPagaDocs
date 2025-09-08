@@ -171,23 +171,23 @@ Consulta en [este enlace](www.la.com)
 <br />
 
 \<Tabs>
-  \<Tab title="First Tab">
-    \<table>
-		 \<thead>
-    	\<tr style="background-color:#ff1f55; color:white; text-align:left;">
-      \<th>\<b>Tipo de tarjeta\</b>\</th>
-      \<th>\<b>Número de tarjeta\</b>\</th>
-      \<th>\<b>Fecha de vencimiento\</b>\</th>
-			\<th>\<b>CVV\</b>\</th>
-  \</Tab>
+\<Tab title="First Tab">
+\<table>
+\<thead>
+\<tr style="background-color:#ff1f55; color:white; text-align:left;">
+\<th>\<b>Tipo de tarjeta\</b>\</th>
+\<th>\<b>Número de tarjeta\</b>\</th>
+\<th>\<b>Fecha de vencimiento\</b>\</th>
+\<th>\<b>CVV\</b>\</th>
+\</Tab>
 
-  \<Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  \</Tab>
+\<Tab title="Second Tab">
+Here's content that's only inside the second Tab.
+\</Tab>
 
-  \<Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  \</Tab>
+\<Tab title="Third Tab">
+Here's content that's only inside the third Tab.
+\</Tab>
 \</Tabs>
 
 \<Tabs>
@@ -324,7 +324,9 @@ _Lorem ipsum dolor sit amet, consectetur adipiscing elit_
 
 <br />
 
+<br />
+
 \<Tabs>
-&#x9;\<Tab title="A">
+\<Tab title="A">
 &#x20;   		\* \*\*API:\*\* Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro.
-/\<Tabs>
+/\\\<Tabs>
