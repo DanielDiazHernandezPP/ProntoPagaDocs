@@ -5,6 +5,24 @@ hidden: true
 metadata:
   robots: index
 ---
+### Argentina
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+| Mensaje de rechazo     | Descripción                                                                                                                |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| INSUFFICIENT_FUNDS     | Saldo insuficiente para realizar la transacción.                                                                           |
+| RECHAZADO POR EL BANCO | Tu banco rechazó la transacción. Contáctate con ellos para más información.                                                |
+| DO_NOT_HONOR           | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.                                           |
+| INVALID_SECURITY_CODE  | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                                                   |
+| INVALID_CARD_DATA      | Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.                                 |
+| REPORTED_STOLEN        | No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información. |
+| ERROR                  | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.                                |
+
+<br />
+
+<br />
+
 | Mensajes de rechazo  |
 | :------------------- |
 | FONDOS_INSUFICIENTES |
