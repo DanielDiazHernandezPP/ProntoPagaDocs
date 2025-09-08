@@ -124,9 +124,9 @@ metadata:
 
     * **Saldo Neto:** Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
 
-    **SecretKey:** Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
+    * **SecretKey:** Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
 
-    En ProntoPaga contarás con llaves para cada entorno (sandbox y producción). La llave de producción requiere que estés certificado por la administración de ProntoPaga. Una vez hecho, podrás usar los datos reales y en vivo.
+      En ProntoPaga contarás con llaves para cada entorno (sandbox y producción). La llave de producción requiere que estés certificado por la administración de ProntoPaga. Una vez hecho, podrás usar los datos reales y en vivo.
   </Tab>
 
   <Tab title="T">
