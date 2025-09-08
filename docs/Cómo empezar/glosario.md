@@ -15,8 +15,9 @@ metadata:
     Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
   </Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
+  <Tab title="B">
+    * **Balance disponible:** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
+    * **Bearer Token:**
   </Tab>
 
   <Tab title="Third Tab">
