@@ -14,14 +14,17 @@ metadata:
   </Tab>
 
   <Tab title="B">
-    **Back-end**\
-    La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga. Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
+    * **Back-end:** La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
 
-    **Balance Disponible**\
-    Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
+      Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
 
-    **Bearer Token**\
-    Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado. A este tipo de credenciales sueles llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS). Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
+    * **Balance Disponible** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
+
+    * **Bearer Token** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
+
+      A este tipo de credenciales suele llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
+
+      Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
 
     **Body**\
     Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o PATCH. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.\
