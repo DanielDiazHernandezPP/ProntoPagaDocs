@@ -24,73 +24,143 @@ next:
 ---
 Los tipos de rechazos posibles para PayIns varían dependiendo del país y del método de pago utilizado. A continuación, se describen los más comunes.
 
+## General (todos los países)
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Mensaje de rechazo
+      </th>
+
+      <th>
+        Descripción
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        The client is blocked
+      </td>
+
+      <td>
+        El cliente se bloquea en lista negra.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Exceeds daily limit,
+        5,000,000.00 BRL available for the day,
+        10,000,000.00 BRL available for the week,
+        30,000,000.00 BRL available for the month.
+        Maximum deposit per transaction 6,000,000.00 BRL
+      </td>
+
+      <td>
+        El cliente ha superado los límites establecidos para la transacción o comercio.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        High fraudulent score - DM
+      </td>
+
+      <td>
+        La transacción tiene un alto nivel de riesgo de fraude.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+***
+
+## Argentina 🇦🇷
+
+### Tarjeta
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+| Mensaje de rechazo     | Descripción                                                                                                                |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| INSUFFICIENT_FUNDS     | Saldo insuficiente para realizar la transacción.                                                                           |
+| RECHAZADO POR EL BANCO | Tu banco rechazó la transacción. Contáctate con ellos para más información.                                                |
+| DO_NOT_HONOR           | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.                                           |
+| INVALID_SECURITY_CODE  | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                                                   |
+| INVALID_CARD_DATA      | Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.                                 |
+| REPORTED_STOLEN        | No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información. |
+| ERROR                  | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.                                |
+
+***
+
 ## Brasil 🇧🇷
 
-Estos son los tipos de pagos rechazados en Brasil.
+Estos son los tipos de pagos rechazados en Brasil, junto con su descripción.
 
-### Opción 1 - Cliente bloqueado
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Mensaje de rechazo
+      </th>
 
-El cliente se bloquea en lista negra.
+      <th>
+        Descripción
+      </th>
+    </tr>
+  </thead>
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "The client is blocked"
-},
-```
+  <tbody>
+    <tr>
+      <td>
+        Exceeds daily limit,
+        5,000,000.00 BRL available for the day,
+        10,000,000.00 BRL available for the week,
+        30,000,000.00 BRL available for the month.
+        Maximum deposit per transaction 6,000,000.00 BRL
+      </td>
 
-### Opción 2 - Limite de comercio
+      <td>
+        El cliente ha superado los límites establecidos para la transacción o comercio.
+      </td>
+    </tr>
 
-El cliente ha superado los límites establecidos para la transacción o comercio.
+    <tr>
+      <td>
+        Error while creating the payment in the Pix service. Please try again
+      </td>
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Exceeds daily limit,
-                5,000,000.00 BRL available for the day,
-                10,000,000.00 BRL available for the week,
-                30,000,000.00 BRL available for the month.
-                Maximum deposit per transaction 6,000,000.00 BRL"
-},
-```
+      <td>
+        Error al crear el pago en el servicio Pix.
+      </td>
+    </tr>
 
-### Opción 3
+    <tr>
+      <td>
+        Error generating Pix QR Code
+      </td>
 
-Error al crear el pago en el servicio Pix.
+      <td>
+        Error al generar el código QR Pix.
+      </td>
+    </tr>
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Error while creating the payment in the Pix service. Please try again"
-},
-```
+    <tr>
+      <td>
+        Error generating Pix AccessToken
+      </td>
 
-### Opción 4
-
-Error al generar el código QR Pix.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Error generating Pix QR Code"
-},
-```
-
-### Opción 5
-
-Error al generar el Token de Acceso Pix.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Error generating Pix AccessToken"
-},
-```
+      <td>
+        Error al generar el Token de Acceso Pix.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ***
 
@@ -98,33 +168,26 @@ Error al generar el Token de Acceso Pix.
 
 Estos son los tipos de pagos rechazados en Chile.
 
-### Opción 1 - Cliente Bloqueado
+#### Paga Con Tu Banco
 
-El cliente se bloquea en lista negra.
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "The client is blocked"
-},
-```
+| Mensaje de rechazo                     | Descripción                         |
+| :------------------------------------- | :---------------------------------- |
+| Bank not recognized                    | Banco no reconocido en la metadata. |
+| No destination account for BancoEstado | BancoEstado sin cuenta configurada. |
+| Failed to assign destination account   | Error al asignar cuenta destino.    |
+| Unexpected internal error              | Error inesperado.                   |
 
-### Opción 2 - Limite de comercio
+#### Tarjeta
 
-El cliente ha superado los límites establecidos para la transacción o comercio.
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Exceeds daily limit,
-                5,000,000.00 CLP available for the day,
-                10,000,000.00 CLP available for the week,
-                30,000,000.00 CLP available for the month.
-                Maximum deposit per transaction 6,000,000.00 CLP"
-},
-```
+| Mensaje de rechazo         | Descripción                                                                                           |
+| :------------------------- | :---------------------------------------------------------------------------------------------------- |
+| Excede monto máximo        | La transacción excede el monto máximo establecido.                                                    |
+| Problema en la transacción | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.           |
+| Rechazo general            | Se ha producido un rechazo general de la transacción. Inténtalo nuevamente o usa otro método de pago. |
 
 ***
 
@@ -132,57 +195,23 @@ El cliente ha superado los límites establecidos para la transacción o comercio
 
 Estos son los tipos de pagos rechazados en Ecuador.
 
-### Opción 1 - Cliente Bloqueado
+#### Efectivo
 
-El cliente se bloquea en lista negra.
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "The client is blocked"
-},
-```
+| Mensaje de rechazo                            | Descripción                                                  |
+| :-------------------------------------------- | :----------------------------------------------------------- |
+| Excede límite Depósito Máximo por Transacción | Se ha excedido el límite de depósito máximo por transacción. |
 
-### Opción 2 - Limite de comercio
+#### Tarjeta / Wallet
 
-El cliente ha superado los límites establecidos para la transacción o comercio.
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Exceeds daily limit,
-                5,000,000.00 CLP available for the day,
-                10,000,000.00 CLP available for the week,
-                30,000,000.00 CLP available for the month.
-                Maximum deposit per transaction 6,000,000.00 CLP"
-},
-```
-
-### Opción 3 - Pago pendiente
-
-El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "There is already a pending payment for that phone number."
-},
-```
-
-### Opción 4 - Pago fallido
-
-El cliente tiene una transacción de pago pendiente.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "rejected",
-    "message": "Failed payment: There is already a pending payment transaction."
-},
-```
+| Mensaje de rechazo                                                   | Descripción                                                                           |
+| :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| There is already a pending payment for that phone number.            | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono. |
+| Failed payment: There is already a pending payment transaction.      | El cliente tiene una transacción de pago pendiente.                                   |
+| The identity document does not match the one registered in PayPhone. | El documento ingresado no coincide con el documento registrado en Payphone.           |
 
 ***
 
