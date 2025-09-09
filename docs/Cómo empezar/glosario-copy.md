@@ -28,7 +28,7 @@ metadata:
 
     **<h3>Body</h3>** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
 
-    Los parámetros del body pueden ser de un tipo de dato distinto, como String, Number o Boolean. Toda la información que necesitas para crear tu petición, puedes encontarla en nuestra sección de API Reference.\\
+    Los parámetros del body pueden ser de un tipo de dato distinto, como String, Number o Boolean. Toda la información que necesitas para crear tu petición, puedes encontarla en nuestra sección de API Reference.
 
     Al momento de crearlos, debes asegurarte de que todos los parámetros estén incluidos dentro de su estructura para que la API procese la transacción.
   </Tab>
