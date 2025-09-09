@@ -224,6 +224,8 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | Su dominio no está autorizado por la aplicación. Ingrese a la consola de developer para configurar. | Ingresa a la consola de developer y añade tu dominio.                                                                              |
 | La transacción no existe, verifique que el identificador enviado sea correcto.                      | Verifica que el identificador enviado sea correcto. Inténtalo nuevamente o usa otro método de pago.                                |
 | La transacción no pudo ser creada, por favor inténtelo de nuevo.                                    | Intenta nuevamente más tarde; si persiste, contacta al soporte.                                                                    |
+| Ya existe una transacción con el `ClientTransactionId` especificado.                                | Cambia el identificador; cada transacción debe tener un ID único.                                                                  |
+| La transacción ya se encuentra cancelada.                                                           | Verifica el estado de la transacción antes de intentar cancelarla.                                                                 |
 
 ***
 
