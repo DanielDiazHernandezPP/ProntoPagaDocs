@@ -214,11 +214,13 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Mensaje de rechazo                                                   | Descripción                                                                           |
-| :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| There is already a pending payment for that phone number.            | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono. |
-| Failed payment: There is already a pending payment transaction.      | El cliente tiene una transacción de pago pendiente.                                   |
-| The identity document does not match the one registered in PayPhone. | El documento ingresado no coincide con el documento registrado en Payphone.           |
+| Mensaje de rechazo                                                                           | Descripción                                                                                                                        |
+| :------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| There is already a pending payment for that phone number.                                    | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.                                              |
+| Failed payment: There is already a pending payment transaction.                              | El cliente tiene una transacción de pago pendiente.                                                                                |
+| The identity document does not match the one registered in PayPhone.                         | El documento ingresado no coincide con el documento registrado en Payphone.                                                        |
+| La aplicación no existe, verifique que el token enviado sea el entregado para su aplicación. | El token enviado no es el correcto. Verifica que el token enviado sea el correcto. Inténtalo nuevamente o usa otro método de pago. |
+| La aplicación no tiene relación con la compañía especificada.                                | Revisa la relación entre tu app y la compañía configurada. Inténtalo nuevamente o usa otro método de pago.                         |
 
 ***
 
