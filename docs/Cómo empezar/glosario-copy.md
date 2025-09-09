@@ -143,8 +143,8 @@ metadata:
   <Tab title="W">
     **<h3>Wallet</h3>** En el sector de pagos, el término puede referirse a dos cosas:
 
-    * Wallet del usuario: aplicaciones como Apple Pay, Google Pay o billeteras propias que almacenan tarjetas tokenizadas y permiten pagar de forma rápida y segura.
-    * Wallet del comercio: balance virtual que cuentan todos los comercios dentro de ProntoPaga, donde se acumulan los PayIns hasta que se ejecutan PayOuts. Este Wallet refleja saldos disponibles, diferidos y bloqueados.
+    * **Wallet del usuario:** Aplicaciones como Apple Pay, Google Pay o billeteras propias que almacenan tarjetas tokenizadas y permiten pagar de forma rápida y segura.
+    * **Wallet del comercio:** Balance virtual que cuentan todos los comercios dentro de ProntoPaga, donde se acumulan los PayIns hasta que se ejecutan PayOuts. Este Wallet refleja saldos disponibles, diferidos y bloqueados.
 
     **<h3>Webhook</h3>** Mecanismo de notificación automática: cuando ocurre un evento en la plataforma (ejemplo: pago aprobado, contracargo iniciado, payout rechazado), ProntoPaga envía un mensaje POST a una URL configurada por el comercio. De esta forma, el sistema del comercio puede reaccionar en tiempo real (enviar confirmaciones, actualizar estados, liberar productos).
 
