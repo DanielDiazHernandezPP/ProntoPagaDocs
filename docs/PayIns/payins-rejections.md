@@ -120,7 +120,8 @@ Estos son los tipos de pagos rechazados en Brasil, junto con su descripción.
     <tr>
       <td>
         Exceeds daily limit,
-        5,000,000.00 BRL available for the day,
+
+        5,000,000.00 BRL available for the day,
         10,000,000.00 BRL available for the week,
         30,000,000.00 BRL available for the month.
         Maximum deposit per transaction 6,000,000.00 BRL
@@ -191,7 +192,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | Rechazo general                                                                                                                                           | Se ha producido un rechazo general de la transacción. Inténtalo nuevamente o usa otro método de pago. |
 | Rechazo - Posible error en el ingreso de datos de la transacción                                                                                          | Se ha producido un error en el ingresos de los datos. Inténtalo nuevamente o usa otro método de pago. |
 | Rechazo - Se produjo fallo al procesar la transacción, este mensaje de rechazo se encuentra relacionado a parámetros de la tarjeta y/o su cuenta asociada | Se ha producido un fallo al procesar la transacción. Inténtalo nuevamente o usa otro método de pago.  |
-| Rechazo - Error en Transacción                                                                                                                            |                                                                                                       |
+| Rechazo - Error en Transacción                                                                                                                            | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.           |
 
 ***
 
