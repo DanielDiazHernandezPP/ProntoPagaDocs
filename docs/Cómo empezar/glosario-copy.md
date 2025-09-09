@@ -101,7 +101,7 @@ metadata:
 
     Los PayIns cuentan con diferentes estados dentro de ProntoPaga, que son: new, created, success, canceled, rejected, pending y expired.
 
-    Conoce más acerca de los estados de PayIns en este artículo.
+    Conoce más acerca de los estados de PayIns en este [artículo](https://docs.prontopaga.com/docs/payins-status#/).
 
     **<h3>PayOuts</h3>** Son las salidas de dinero desde tu comercio hacia un tercero: proveedores, usuarios de un marketplace o la misma cuenta bancaria del comercio.
 
