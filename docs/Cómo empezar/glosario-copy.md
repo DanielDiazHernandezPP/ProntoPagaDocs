@@ -61,7 +61,7 @@ metadata:
     Ejemplo:
 
     * [https://sandbox.prontopaga.com/api/payment/new](https://sandbox.prontopaga.com/api/payment/new) para crear un cobro
-      * [https://sandbox.prontopaga.com/api/balance](https://sandbox.prontopaga.com/api/balance) para consultar saldos.
+    * [https://sandbox.prontopaga.com/api/balance](https://sandbox.prontopaga.com/api/balance) para consultar saldos.
 
     Cada endpoint define el tipo de HTTP (los más usados en ProntoPaga son POST, y GET), los parámetros requeridos y las respuestas posibles ( las más conocidas son la respuesta 200: exitosa y 400: rechazada).
 
