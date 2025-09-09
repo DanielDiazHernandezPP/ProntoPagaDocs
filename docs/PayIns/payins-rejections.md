@@ -168,7 +168,7 @@ Estos son los tipos de pagos rechazados en Brasil, junto con su descripción.
 
 Estos son los tipos de pagos rechazados en Chile.
 
-#### Paga Con Tu Banco
+### Paga Con Tu Banco
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
@@ -179,7 +179,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | Failed to assign destination account   | Error al asignar cuenta destino.    |
 | Unexpected internal error              | Error inesperado.                   |
 
-#### Tarjeta
+### Tarjeta
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
