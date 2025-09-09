@@ -36,391 +36,76 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 ## Generales (todos los países)
 
-### 1 - Cliente bloqueado
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-El cliente está bloqueado en lista negra.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "El cliente se encuentra bloqueado",
-    "errorCode": "1"
-},
-```
-
-<br />
-
-### 2 - Límite excedido
-
-El cliente ha superado los límites configurados para el comercio (se detallan las cifras en el mensaje).
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Excede límite %s, quedan disponibles %s para el dia, %s para la semana, %s para el mes. Retiro máximo por transacción %s",
-    "errorCode": "2"
-},
-```
-
-<br />
-
-### 3 - Balance excedido para cierta moneda
-
-No hay balance disponible para la moneda seleccionada.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "El saldo a retirar excede el balance disponible en esta moneda",
-    "errorCode": "3"
-},
-```
-
-<br />
-
-### 4 - La cuenta no existe
-
-La cuenta bancaria ingresada no existe.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Cuenta ingresada no existe",
-    "errorCode": "4"
-},
-```
-
-<br />
-
-### 21 - Moneda inválida
-
-El código de moneda que se ha enviado no es correcto.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Moneda ingresada es inválida",
-    "errorCode": "21"
-},
-```
-
-<br />
-
-### 22 - Cuenta inválida
-
-La cuenta no es válida. Posiblemente ha sido bloqueada o cerrada con anterioridad.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Cuenta  invalida, bloqueada o cerrada",
-    "errorCode": "22"
-},
-```
-
-<br />
-
-### 23 - Información inválida
-
-La información enviada no pudo ser verificada, es inválida. O bien, hay campos esenciales que no se enviaron.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "La información suministrada es insuficiente o inválida",
-    "errorCode": "23"
-},
-```
-
-<br />
-
-### 24 - Numero de cuenta inválido
-
-Se realizó una validación y el número de cuenta ingresado para hacer el PayOut, no corresponde a los datos del usuario. Es un retiro a terceros, no válido.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "El número de cuenta del destinatario no corresponde a los datos del usuario ingresado",
-    "errorCode": "24"
-},
-```
-
-<br />
-
-### 25 - ID inválido
-
-El número de ID ingresado es inválido.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "ID inválido",
-    "errorCode": "25"
-},
-```
+| Mensaje de rechazo                                                                                                       | Descripción                                                                                                                                                 |
+| :----------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| El cliente se encuentra bloqueado                                                                                        | El cliente se bloquea en la lista negra.                                                                                                                    |
+| Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s | El cliente ha superado los límites configurados para el comercio, detallándose las cifras en el mensaje.                                                    |
+| El saldo a retirar excede el balance disponible en esta moneda                                                           | No hay balance disponible para la moneda seleccionada.                                                                                                      |
+| Cuenta ingresada no existe                                                                                               | La cuenta bancaria ingresada no existe.                                                                                                                     |
+| Moneda ingresada es inválida                                                                                             | El código de moneda que se ha enviado no es correcto.                                                                                                       |
+| Cuenta invalida, bloqueada o cerrada                                                                                     | La cuenta no es válida. Posiblemente ha sido bloqueada o cerrada con anterioridad.                                                                          |
+| La información suministrada es insuficiente o inválida                                                                   | La información enviada no pudo ser verificada, es inválida. O bien, hay campos esenciales que no se enviaron.                                               |
+| El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                    | Se realizó una validación y el número de cuenta ingresado para hacer el PayOut, no corresponde a los datos del usuario. Es un retiro a terceros, no válido. |
+| ID inválido                                                                                                              | El número de ID ingresado es inválido.                                                                                                                      |
 
 ***
 
 <br />
 
-## Chile
+## Brasil 🇧🇷
 
-### 5 - La cuenta no coincide con el RUT
+Estos son los tipos de retiros rechazados en Brasil.
 
-El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros).
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "El número de cuenta del destinatario no corresponde al Rut ingresado.",
-    "errorCode": "5"
-},
-```
-
-<br />
-
-### 6 - Banco no corresponde
-
-El banco que se seleccionó no corresponde con los datos enviados.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Banco seleccionado no corresponde.",
-    "errorCode": "6"
-},
-```
-
-<br />
-
-### 7 - Restricción de abono
-
-La cuenta tiene una restricción de abono (crédito).
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Cuenta con restricción de abono.",
-    "errorCode": "7"
-},
-```
-
-<br />
-
-### 8 - Banco en mantenimiento
-
-El banco al que será enviado el PayOut se encuentra en pausa de actividades por mantenimiento.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Banco de destino en mantención.",
-    "errorCode": "8"
-},
-```
-
-<br />
-
-### 9 - RUT incorrecto
-
-El RUT enviado es incorrecto.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Rut Incorrecto.",
-    "errorCode": "9"
-},
-```
-
-<br />
-
-### 10 - RUT con dígito verificador
-
-La cuenta de RUT tiene dígito verificador.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Cuenta Rut Con Dígito Verificador.",
-    "errorCode": "10"
-},
-```
+| Mensaje de rechazo                                                                | Descripción                                                                                                                        |
+| :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| Validation error. Please check the Chave PIX and try again                        | Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.                                             |
+| Request declined by the server                                                    | La solicitud fue declinada por el servidor.                                                                                        |
+| Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado | El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros. |
 
 ***
 
 <br />
 
-## Perú
+## Chile 🇨🇱
 
-### 11 - InstantPayouts no disponibles
+Estos son los tipos de retiros rechazados en Chile.
 
-El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "InstanPayouts no disponible, intente nuevamente.",
-    "errorCode": "11"
-},
-```
-
-<br />
-
-### 12 - Banco no disponible (en InstantPayouts)
-
-En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Banco de destino no disponible.",
-    "errorCode": "12"
-},
-```
-
-<br />
-
-### 13 - Error interno (en InstantPayouts)
-
-Ocurrió un error interno inesperado. Por favor reintente nuevamente.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Error interno, favor reintentar.",
-    "errorCode": "13"
-},
-```
-
-<br />
-
-### 20 - Wallet no encontrada
-
-El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Wallet no encontrada para este número.",
-    "errorCode": "20"
-},
-```
+| Mensaje de rechazo                                                   | Descripción                                                                                              |
+| :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| El número de cuenta del destinatario no corresponde al Rut ingresado | El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros). |
+| Banco seleccionado no corresponde                                    | El banco que se seleccionó no corresponde con los datos enviados.                                        |
+| Cuenta con restricción de abono                                      | La cuenta tiene una restricción de abono (crédito).                                                      |
+| Banco de destino en mantención                                       | El banco al que será enviado el PayOut se encuentra en pausa de actividades por mantenimiento.           |
+| Rut Incorrecto                                                       | El RUT enviado es incorrecto.                                                                            |
+| Cuenta Rut Con Dígito Verificador                                    | La cuenta de RUT tiene dígito verificador.                                                               |
 
 ***
 
 <br />
 
-## Brasil
+## Ecuador 🇪🇨
 
-### 14 - Error de llave PIX
+Estos son los tipos de retiros rechazados en Ecuador.
 
-Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Validation error. Please check the Chave PIX and try again.",
-    "errorCode": "14"
-},
-```
-
-<br />
-
-### 15 - Declinación del servidor
-
-La solicitud fue declinada por el servidor.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Request declined by the server.",
-    "errorCode": "15"
-},
-```
-
-<br />
-
-### 19 - CPF no coincide con los datos
-
-El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado.",
-    "errorCode": "19"
-},
-```
+| Mensaje de rechazo                                          | Descripción                                                                                                 |
+| :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| El número de teléfono no es válido en la cabina telefónica. | El número telefónico enviado no es válido para el servicio de Payphone (no está registrado en el servicio). |
+| Error interno, validaciones fallidas                        | Ocurrió un error interno debido a una falla durante el proceso de validación.                               |
+| Problem with bank account details, please try again         | Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.              |
 
 ***
 
 <br />
 
-## Ecuador
+## Perú 🇵🇪
 
-### 16 - Número telefónico inválido (Payphone)
+Estos son los tipos de retiros rechazados en Perú.
 
-El número telefónico enviado no es válido para el servicio de Payphone (no está registrado en el servicio).
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "El número de teléfono no es válido en la cabina telefónica.",
-    "errorCode": "16"
-},
-```
-
-<br />
-
-### 17 - Error interno por validaciones
-
-Ocurrió un error interno debido a una falla durante el proceso de validación.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Error interno, validaciones fallidas.",
-    "errorCode": "17"
-},
-```
-
-<br />
-
-### 18 - Problema con detalles de la cuenta bancaria
-
-Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.
-
-```json
-{
-    "uid": "01GMB3VVRB3QWYDKW6Z92W2T3B",
-    "status": "canceled",
-    "message": "Problem with bank account details, please try again.",
-    "errorCode": "18"
-},
-```
+| Mensaje de rechazo                              | Descripción                                                                                                    |
+| :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| InstanPayouts no disponible, intente nuevamente | El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente. |
+| Banco de destino no disponible                  | En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.                               |
+| Error interno, favor reintentar                 | Ocurrió un error interno inesperado. Por favor reintente nuevamente.                                           |
+| Wallet no encontrada para este número           | El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.           |
