@@ -39,7 +39,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
         5,000,000.00 BRL available for the day,
         10,000,000.00 BRL available for the week,
         30,000,000.00 BRL available for the month.
-        Maximum deposit per transaction 6,000,000.00 BRL                                 
+        Maximum deposit per transaction 6,000,000.00 BRL
       </td>
 
       <td>
@@ -89,7 +89,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
       <td>
         Exceeds daily limit,
         5,000,000.00 BRL available for the day,
-        10,000,000.00 BRL available for the week,                              
+        10,000,000.00 BRL available for the week,
         30,000,000.00 BRL available for the month.
         Maximum deposit per transaction 6,000,000.00 BRL
       </td>
@@ -135,6 +135,8 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ### Chile
 
+#### Paga Con Tu Banco (pagos con transferencia)
+
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
 | Mensaje de rechazo                     | Descripción                         |
@@ -150,42 +152,10 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Mensaje de rechazo
-      </th>
-
-      <th>
-        Descripción
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        There is already a pending payment for that phone number.
-      </td>
-
-      <td>
-        El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Failed payment: There is already a pending payment transaction.
-      </td>
-
-      <td>
-        El cliente tiene una transacción de pago pendiente.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Mensaje de rechazo                                              | Descripción                                                                           |
+| :-------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| There is already a pending payment for that phone number.       | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono. |
+| Failed payment: There is already a pending payment transaction. | El cliente tiene una transacción de pago pendiente.                                   |
 
 ***
 
