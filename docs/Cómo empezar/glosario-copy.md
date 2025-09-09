@@ -40,7 +40,7 @@ metadata:
 
     Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra [pestaña de Changelog](https://docs.prontopaga.com/changelog#/).
 
-    **<h3>Checkout</h3>** Es Interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
+    **<h3>Checkout</h3>** Es la interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
 
     Reduce tiempo de integración y garantiza que la experiencia cumpla los estándares de calidad necesarios.
 
