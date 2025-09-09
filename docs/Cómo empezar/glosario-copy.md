@@ -56,7 +56,12 @@ metadata:
   </Tab>
 
   <Tab title="E">
-    **<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación. Ejemplo: [https://sandbox.prontopaga.com/api/payment/new](https://sandbox.prontopaga.com/api/payment/new) para crear un cobro o [https://sandbox.prontopaga.com/api/balance](https://sandbox.prontopaga.com/api/balance) para consultar saldos.
+    **<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación.
+
+    Ejemplo:
+
+    * [https://sandbox.prontopaga.com/api/payment/new](https://sandbox.prontopaga.com/api/payment/new) para crear un cobro
+      * [https://sandbox.prontopaga.com/api/balance](https://sandbox.prontopaga.com/api/balance) para consultar saldos.
 
     Cada endpoint define el tipo de HTTP (los más usados en ProntoPaga son POST, y GET), los parámetros requeridos y las respuestas posibles ( las más conocidas son la respuesta 200: exitosa y 400: rechazada).
 
@@ -66,7 +71,7 @@ metadata:
 
     * Producción, donde fluyen los pagos reales.
 
-      Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
+    Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
   </Tab>
 
   <Tab title="F">
