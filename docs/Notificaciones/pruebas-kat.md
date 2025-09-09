@@ -46,12 +46,24 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
         El cliente ha superado los límites establecidos para la transacción o comercio.
       </td>
     </tr>
+
+    <tr>
+      <td>
+        High fraudulent score - DM
+      </td>
+
+      <td>
+        La transacción tiene un alto nivel de riesgo de fraude.
+      </td>
+    </tr>
   </tbody>
 </Table>
 
 ***
 
 ### Argentina
+
+#### Tarjeta
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
@@ -135,7 +147,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ### Chile
 
-#### Paga Con Tu Banco (pagos con transferencia)
+#### Paga Con Tu Banco
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
@@ -145,30 +157,56 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | No destination account for BancoEstado | BancoEstado sin cuenta configurada. |
 | Failed to assign destination account   | Error al asignar cuenta destino.    |
 | Unexpected internal error              | Error inesperado.                   |
+
+#### Tarjeta
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+| Mensaje de rechazo         | Descripción                                                                                           |
+| :------------------------- | :---------------------------------------------------------------------------------------------------- |
+| Excede monto máximo        | La transacción excede el monto máximo establecido.                                                    |
+| Problema en la transacción | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.           |
+| Rechazo general            | Se ha producido un rechazo general de la transacción. Inténtalo nuevamente o usa otro método de pago. |
 
 ***
 
 ### Ecuador
 
+#### Efectivo
+
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Mensaje de rechazo                                              | Descripción                                                                           |
-| :-------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| There is already a pending payment for that phone number.       | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono. |
-| Failed payment: There is already a pending payment transaction. | El cliente tiene una transacción de pago pendiente.                                   |
+| Mensaje de rechazo                            | Descripción                                                  |
+| :-------------------------------------------- | :----------------------------------------------------------- |
+| Excede límite Depósito Máximo por Transacción | Se ha excedido el límite de depósito máximo por transacción. |
+
+#### Tarjeta / Wallet
+
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+
+| Mensaje de rechazo                                                   | Descripción                                                                           |
+| :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| There is already a pending payment for that phone number.            | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono. |
+| Failed payment: There is already a pending payment transaction.      | El cliente tiene una transacción de pago pendiente.                                   |
+| The identity document does not match the one registered in PayPhone. | El documento ingresado no coincide con el documento registrado en Payphone.           |
 
 ***
 
 ### Perú
 
+#### Paga Con Tu Banco
+
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Mensaje de rechazo                     | Descripción                         |
-| :------------------------------------- | :---------------------------------- |
-| Bank not recognized                    | Banco no reconocido en la metadata. |
-| No destination account for BancoEstado | BancoEstado sin cuenta configurada. |
-| Failed to assign destination account   | Error al asignar cuenta destino.    |
-| Unexpected internal error              | Error inesperado.                   |
+| Mensaje de rechazo                          | Descripción                                                                              |
+| :------------------------------------------ | :--------------------------------------------------------------------------------------- |
+| Bank not recognized                         | El banco no se encuentra reconocido en la metadata.                                      |
+| Failed to assign destination account        | Se ha producido un error al asignar cuenta destino.                                      |
+| Unexpected internal error                   | Se ha producido un error inesperado. Inténtalo nuevamente o usa otro método de pago.     |
+| Payment cancelled by user                   | El pago ha sido cancelado por el cliente.                                                |
+| Account blocked by your bank                | Tu cuenta ha sido bloqueada por tu banco.                                                |
+| Las credenciales ingresadas son incorrectas | Las credenciales proporcionadas por el cliente son incorrectas.                          |
+| Error de servicio                           | Se ha producido un error en el servicio. Inténtalo nuevamente o usa otro método de pago. |
 
 <br />
 
