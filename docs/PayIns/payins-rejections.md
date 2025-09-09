@@ -214,13 +214,16 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Mensaje de rechazo                                                                           | Descripción                                                                                                                        |
-| :------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| There is already a pending payment for that phone number.                                    | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.                                              |
-| Failed payment: There is already a pending payment transaction.                              | El cliente tiene una transacción de pago pendiente.                                                                                |
-| The identity document does not match the one registered in PayPhone.                         | El documento ingresado no coincide con el documento registrado en Payphone.                                                        |
-| La aplicación no existe, verifique que el token enviado sea el entregado para su aplicación. | El token enviado no es el correcto. Verifica que el token enviado sea el correcto. Inténtalo nuevamente o usa otro método de pago. |
-| La aplicación no tiene relación con la compañía especificada.                                | Revisa la relación entre tu app y la compañía configurada. Inténtalo nuevamente o usa otro método de pago.                         |
+| Mensaje de rechazo                                                                                  | Descripción                                                                                                                        |
+| :-------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| There is already a pending payment for that phone number.                                           | El cliente tiene una transacción de pago pendiente para ese mismo número de teléfono.                                              |
+| Failed payment: There is already a pending payment transaction.                                     | El cliente tiene una transacción de pago pendiente.                                                                                |
+| The identity document does not match the one registered in PayPhone.                                | El documento ingresado no coincide con el documento registrado en Payphone.                                                        |
+| La aplicación no existe, verifique que el token enviado sea el entregado para su aplicación.        | El token enviado no es el correcto. Verifica que el token enviado sea el correcto. Inténtalo nuevamente o usa otro método de pago. |
+| La aplicación no tiene relación con la compañía especificada.                                       | Revisa la relación entre tu app y la compañía configurada. Inténtalo nuevamente o usa otro método de pago.                         |
+| Su dominio no está autorizado por la aplicación. Ingrese a la consola de developer para configurar. | Ingresa a la consola de developer y añade tu dominio.                                                                              |
+| La transacción no existe, verifique que el identificador enviado sea correcto.                      | Verifica que el identificador enviado sea correcto. Inténtalo nuevamente o usa otro método de pago.                                |
+| La transacción no pudo ser creada, por favor inténtelo de nuevo.                                    | Intenta nuevamente más tarde; si persiste, contacta al soporte.                                                                    |
 
 ***
 
