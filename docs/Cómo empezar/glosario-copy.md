@@ -38,7 +38,7 @@ metadata:
 
     **<h3>Changelog</h3>** Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
 
-    Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra pestaña de Changelog.
+    Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra [pestaña de Changelog](https://docs.prontopaga.com/changelog#/).
 
     **<h3>Checkout</h3>** Es Interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
 
