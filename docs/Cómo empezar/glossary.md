@@ -67,7 +67,7 @@ metadata:
 
       Cada endpoint define el tipo de HTTP (los más usados en ProntoPaga son POST, y GET), los parámetros requeridos y las respuestas posibles ( las más conocidas son la respuesta 200: exitosa y 400: rechazada).
 
-    * **Environments / Entornos** Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son:
+    * **Environments / Entornos:** Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son:
 
     * Sandbox, donde se simulan transacciones sin dinero real.
 
