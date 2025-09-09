@@ -194,6 +194,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | Rechazo - Se produjo fallo al procesar la transacción, este mensaje de rechazo se encuentra relacionado a parámetros de la tarjeta y/o su cuenta asociada | Se ha producido un fallo al procesar la transacción. Inténtalo nuevamente o usa otro método de pago.   |
 | Rechazo - Error en Transacción                                                                                                                            | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.            |
 | Rechazo - Rechazada por parte del emisor                                                                                                                  | La transacción ha sido rechazada por parte del emisor. Inténtalo nuevamente o usa otro método de pago. |
+| Rechazo - Transacción con riesgo de posible fraude                                                                                                        | La transacción tiene un alto nivel de riesgo de fraude.                                                |
 
 ***
 
