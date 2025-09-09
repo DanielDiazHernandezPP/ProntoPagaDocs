@@ -58,6 +58,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
         5,000,000.00 BRL available for the day,
         10,000,000.00 BRL available for the week,
         30,000,000.00 BRL available for the month.
+
         Maximum deposit per transaction 6,000,000.00 BRL
       </td>
 
@@ -119,7 +120,7 @@ Estos son los tipos de pagos rechazados en Brasil, junto con su descripción.
     <tr>
       <td>
         Exceeds daily limit,
-        5,000,000.00 BRL available for the day,
+        5,000,000.00 BRL available for the day,
         10,000,000.00 BRL available for the week,
         30,000,000.00 BRL available for the month.
         Maximum deposit per transaction 6,000,000.00 BRL
