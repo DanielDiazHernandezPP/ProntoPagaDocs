@@ -1,7 +1,7 @@
 ---
 title: Tipos de rechazos (PayIns) (COPY)
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Tipos de rechazos (PayIns) | ProntoPaga Docs
   description: >-
