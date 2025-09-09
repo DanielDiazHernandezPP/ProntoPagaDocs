@@ -176,44 +176,44 @@ Consulta en [este enlace](www.la.com)
 </Tabs>
 `}</HTMLBlock>
 
-<Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+Tabs>
+&#x20; \<Tab title="First Tab">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="Second Tab">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+&#x20; \<Tab title="Third Tab">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
+\</Tabs>
 
-<Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+\<Tabs>
+&#x20; \<Tab title="First Tab">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="Second Tab">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+&#x20; \<Tab title="Third Tab">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
+\</Tabs>
 
-<Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+\<Tabs>
+&#x20; \<Tab title="First Tab">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+&#x20; \</Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="Second Tab">
+&#x20;   Here's content that's only inside the second Tab.
+&#x20; \</Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+&#x20; \<Tab title="Third Tab">
+&#x20;   Here's content that's only inside the third Tab.
+&#x20; \</Tab>
+\</Tabs>
