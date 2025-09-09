@@ -183,11 +183,14 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Mensaje de rechazo         | Descripción                                                                                           |
-| :------------------------- | :---------------------------------------------------------------------------------------------------- |
-| Excede monto máximo        | La transacción excede el monto máximo establecido.                                                    |
-| Problema en la transacción | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.           |
-| Rechazo general            | Se ha producido un rechazo general de la transacción. Inténtalo nuevamente o usa otro método de pago. |
+| Mensaje de rechazo                                                                                                                                        | Descripción                                                                                           |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| Excede monto máximo                                                                                                                                       | La transacción excede el monto máximo establecido.                                                    |
+| Problema en la transacción                                                                                                                                | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.           |
+| Rechazo general                                                                                                                                           | Se ha producido un rechazo general de la transacción. Inténtalo nuevamente o usa otro método de pago. |
+| Rechazo - Posible error en el ingreso de datos de la transacción                                                                                          | Se ha producido un error en el ingresos de los datos. Inténtalo nuevamente o usa otro método de pago. |
+| Rechazo - Se produjo fallo al procesar la transacción, este mensaje de rechazo se encuentra relacionado a parámetros de la tarjeta y/o su cuenta asociada | Se ha producido un fallo al procesar la transacción. Inténtalo nuevamente o usa otro método de pago.  |
+| Rechazo - Error en Transacción                                                                                                                            |                                                                                                       |
 
 ***
 
