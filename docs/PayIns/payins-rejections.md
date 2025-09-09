@@ -195,7 +195,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 Estos son los tipos de pagos rechazados en Ecuador.
 
-#### Efectivo
+### Efectivo
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
@@ -203,7 +203,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 | :-------------------------------------------- | :----------------------------------------------------------- |
 | Excede límite Depósito Máximo por Transacción | Se ha excedido el límite de depósito máximo por transacción. |
 
-#### Tarjeta / Wallet
+### Tarjeta / Wallet
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
