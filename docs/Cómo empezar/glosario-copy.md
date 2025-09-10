@@ -148,9 +148,9 @@ metadata:
     **<h3>Puntos físicos de pago / de retiros</h3>**
     Ubicaciones físicas (corresponsales) donde los usuarios pueden realizar pagos en efectivo o cobrar retiros.Si deseas saber más, este método es usado en:
 
-    \*Ecuador  – Con puntos físicos de pago y retiro.
+    * Ecuador  – Con puntos físicos de pago y retiro.
 
-    \*Perú – con puntos físicos de pago.
+    * Perú – con puntos físicos de pago.
 
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
