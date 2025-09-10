@@ -50,6 +50,9 @@ metadata:
     **<h3>Código del país (ISO 3166-1 alpha-2)</h3>**\
     Código estándar de dos letras para identificar países (por ejemplo: AR, BR y CL). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
 
+    **<h3>Código de moneda (ISO 4217)</h3>**\
+    Código estándar de tres letras para identificar monedas (Por ejemplo: ARS, BRL y CLP). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
+
     **<h3>Cybersource</h3>** Es una plataforma de procesamiento de pagos y gestión de fraude adquirida por Visa en 2010. Ofrece servicios de gateway, prevención de fraude, tokenización y orquestación global de medios de pago. Está orientada a comercios grandes y empresas multinacionales, con alcance en más de 190 países.
   </Tab>
 
