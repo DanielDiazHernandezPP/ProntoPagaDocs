@@ -118,7 +118,7 @@ Estos son los tipos de pagos rechazados en Brasil, junto con su descripción.
 
 Estos son los tipos de pagos rechazados en Chile.
 
-### Paga Con Tu Banco
+### Paga con Tu Banco
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
