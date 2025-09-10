@@ -168,6 +168,9 @@ metadata:
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
+    **<h3>Producción</h3>** Es el ambiente real donde fluyen los pagos con dinero verdadero. A diferencia del ambiente Sandbox, en Producción se procesan transacciones que impactan directamente en cuentas bancarias y balances de tu comercio.
+
+    En ProntoPaga, Producción requiere credenciales específicas (Bearer Token y SecretKey del ambiente), las cuales solo se entregan una vez completada la certificación técnica. En este entorno, se aplican todas las validaciones antifraude, ventanas de liquidación y políticas regulatorias, por lo que es crítico mantener las credenciales seguras y monitorear constantemente las transacciones.
   </Tab>
 
   <Tab title="Q">
