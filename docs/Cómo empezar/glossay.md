@@ -59,11 +59,15 @@ metadata:
 
     Reduce tiempo de integración y garantiza que la experiencia cumpla los estándares de calidad necesarios.
 
-    **<h3>Código del país (ISO 3166-1 alpha-2)</h3>**\
+    **<h3>Código del país (ISO 3166-1 alpha-2)</h3>**
     Código estándar de dos letras para identificar países (por ejemplo: AR, BR y CL). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
 
-    **<h3>Código de moneda (ISO 4217)</h3>**\
+    **<h3>Código de moneda (ISO 4217)</h3>**
     Código estándar de tres letras para identificar monedas (Por ejemplo: ARS, BRL y CLP). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
+
+    **<h3>Colección de Postman</h3>** Archivo estructurado (generalmente en formato JSON) que agrupa un conjunto de peticiones a una API. Permite a desarrolladores probar, documentar y compartir endpoints de forma organizada. En el caso de ProntoPaga, nuestra colección de Postman incluye ejemplos listos de endpoints (crear un PayIn, consultar balances, iniciar un PayOut, etc.), con parámetros y credenciales de prueba, facilitando la integración y validación de flujos de pago sin necesidad de escribir código desde cero.
+
+    Conoce más acerca en el siguiente [artículo](https://docs.prontopaga.com/reference/postman#/).
 
     **<h3>Cybersource</h3>** Es una plataforma de procesamiento de pagos y gestión de fraude adquirida por Visa en 2010. Ofrece servicios de gateway, prevención de fraude, tokenización y orquestación global de medios de pago. Está orientada a comercios grandes y empresas multinacionales, con alcance en más de 190 países.
   </Tab>
