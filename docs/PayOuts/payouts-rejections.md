@@ -73,14 +73,14 @@ Estos son los tipos de retiros rechazados en Brasil.
 
 Estos son los tipos de retiros rechazados en Chile.
 
-| Mensaje de rechazo                                                   | Descripción                                                                                              |
-| :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| El número de cuenta del destinatario no corresponde al Rut ingresado | El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros). |
-| Banco seleccionado no corresponde                                    | El banco que se seleccionó no corresponde con los datos enviados.                                        |
-| Cuenta con restricción de abono                                      | La cuenta tiene una restricción de abono (crédito).                                                      |
-| Banco de destino en mantención                                       | El banco al que será enviado el PayOut se encuentra en pausa de actividades por mantenimiento.           |
-| Rut Incorrecto                                                       | El RUT enviado es incorrecto.                                                                            |
-| Cuenta Rut Con Dígito Verificador                                    | La cuenta de RUT tiene dígito verificador.                                                               |
+| Código de error | Mensaje de rechazo                                                   | Descripción                                                                                              |
+| :-------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| 5               | El número de cuenta del destinatario no corresponde al Rut ingresado | El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros). |
+| 6               | Banco seleccionado no corresponde                                    | El banco que se seleccionó no corresponde con los datos enviados.                                        |
+| 7               | Cuenta con restricción de abono                                      | La cuenta tiene una restricción de abono (crédito).                                                      |
+| 8               | Banco de destino en mantención                                       | El banco al que será enviado el PayOut se encuentra en pausa de actividades por mantenimiento.           |
+| 9               | Rut Incorrecto                                                       | El RUT enviado es incorrecto.                                                                            |
+| 10              | Cuenta Rut Con Dígito Verificador                                    | La cuenta de RUT tiene dígito verificador.                                                               |
 
 ***
 
