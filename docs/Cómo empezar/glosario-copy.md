@@ -135,6 +135,23 @@ metadata:
 
     Si deseas conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-brazil-pix-plus#/).
 
+    **<h3>Paga con Tu Banco</h3>**\
+    Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
+
+    Si deseas saber más, este método es usado en:
+
+    \*Ecuador  – Con puntos físicos de pago y retiro.
+
+    \*Perú – con puntos físicos de pago.
+
+    **<h3>Payphone</h3>**\
+    Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
+
+    Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
+
+    **Puntos físicos de pago / de retiros**\
+    Ubicaciones físicas (corresponsales) donde los usuarios pueden realizar pagos en efectivo o cobrar retiros. Común en Ecuador y Perú.  [oai\_citation:8‡docs.prontopaga.com](https://docs.prontopaga.com/docs/bank-codes-transfer?utm_source=chatgpt.com)
+
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
