@@ -125,17 +125,17 @@ metadata:
 
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
-    **<h3>PIX</h3>**\
+    **<h3>PIX</h3>**
     Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
     Si quieres conocer más acerca de este método, visita su artículo de [PayIns](https://docs.prontopaga.com/docs/payins-brazil-pix#/) o [PayOuts](https://docs.prontopaga.com/docs/payouts-brazil-pix#/) según requieras.
 
-    **<h3>PIX+</h3>**\
+    **<h3>PIX+</h3>**
     Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
 
     Si deseas conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-brazil-pix-plus#/).
 
-    **<h3>Paga con Tu Banco</h3>**\
+    **<h3>Paga con Tu Banco</h3>**
     Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
 
     Si deseas saber más, este método es usado en:
@@ -144,12 +144,12 @@ metadata:
 
     \*Perú – con puntos físicos de pago.
 
-    **<h3>Payphone</h3>**\
+    **<h3>Payphone</h3>**
     Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
 
     Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
 
-    **Puntos físicos de pago / de retiros**\
+    **Puntos físicos de pago / de retiros**
     Ubicaciones físicas (corresponsales) donde los usuarios pueden realizar pagos en efectivo o cobrar retiros. Común en Ecuador y Perú.  [oai\_citation:8‡docs.prontopaga.com](https://docs.prontopaga.com/docs/bank-codes-transfer?utm_source=chatgpt.com)
 
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
