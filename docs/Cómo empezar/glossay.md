@@ -193,7 +193,7 @@ metadata:
   <Tab title="T">
     **<h3>Transacción</h3>** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
 
-    Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
+    Además, para efectos contables, es el registro fundamental para conciliar balances y saldos.
     **<h3>Tipos de cuenta</h3>** En ProntoPaga existen deferentes tipos de cuenta, que varían según el país, por ejemplo: Una cuenta Corriente es de tipo 1 en Brasil, pero tipo C en Chile.
 
     Conoce más acerca de los tipos de cuentas en el siguiente \[artículo].([https://docs.prontopaga.com/docs/countries-currencies-accounts#/](https://docs.prontopaga.com/docs/countries-currencies-accounts#/))
