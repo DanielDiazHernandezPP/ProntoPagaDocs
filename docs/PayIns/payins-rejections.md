@@ -106,65 +106,11 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 Estos son los tipos de pagos rechazados en Brasil, junto con su descripción.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Mensaje de rechazo
-      </th>
-
-      <th>
-        Descripción
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        Exceeds daily limit,
-
-        5,000,000.00 BRL available for the day,        10,000,000.00 BRL available for the week, 30,000,000.00 BRL available for the month.
-
-        Maximum deposit per transaction 6,000,000.00 BRL
-      </td>
-
-      <td>
-        El cliente ha superado los límites establecidos para la transacción o comercio.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Error while creating the payment in the Pix service. Please try again
-      </td>
-
-      <td>
-        Error al crear el pago en el servicio Pix.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Error generating Pix QR Code
-      </td>
-
-      <td>
-        Error al generar el código QR Pix.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Error generating Pix AccessToken
-      </td>
-
-      <td>
-        Error al generar el Token de Acceso Pix.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Mensaje de rechazo                                                    | Descripción                                |
+| :-------------------------------------------------------------------- | :----------------------------------------- |
+| Error while creating the payment in the Pix service. Please try again | Error al crear el pago en el servicio Pix. |
+| Error generating Pix QR Code                                          | Error al generar el código QR Pix.         |
+| Error generating Pix AccessToken                                      | Error al generar el Token de Acceso Pix.   |
 
 ***
 
