@@ -6,174 +6,194 @@ hidden: true
 metadata:
   robots: index
 ---
-<Tabs>
-  <Tab title="A">
-    **<h3>API</h3>** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
+\<Tabs>
+&#x20; \<Tab title="A">
+&#x20;   \*\*\<h3>API\</h3>\*\* Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
 
-    Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
-  </Tab>
+&#x20;   Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
+&#x20; \</Tab>
 
-  <Tab title="B">
-    **<h3>Back-end</h3>** La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
+&#x20; \<Tab title="B">
+&#x20;   \*\*\<h3>Back-end\</h3>\*\* La capa del servidor que procesa la lógica de negocio y comunica el sistema del comercio con ProntoPaga.
 
-    Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
+&#x20;   Aquí se validan los webhooks, se gestionan las llaves secretas, se almacenan órdenes y se realiza la conciliación financiera. Es la parte “invisible” para el cliente final, pero crítica para la seguridad y el flujo de pagos.
 
-    **<h3>Balance Disponible</h3>** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
+&#x20;   \*\*\<h3>Balance Disponible\</h3>\*\* Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
 
-    **<h3>Balance (Wallet empresarial)</h3>**\
-    Billetera empresarial que muestra el balance total de tu comercio. Esto incluye saldos disponibles, diferidos y retenidos. Proporciona una visión completa del los montos disponibles en la Consola de Prontopaga. Para saber más, visita nuestro [artículo](https://docs.prontopaga.com/docs/balance-wallet#/).
+&#x20;   \*\*\<h3>Balance (Wallet empresarial)\</h3>\*\*\\
+&#x20;   Billetera empresarial que muestra el balance total de tu comercio. Esto incluye saldos disponibles, diferidos y retenidos. Proporciona una visión completa del los montos disponibles en la Consola de Prontopaga. Para saber más, visita nuestro \[artículo]\(https\://docs.prontopaga.com/docs/balance-wallet#/).
 
-    **<h3>Bearer Token</h3>** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
+&#x20;   \*\*\<h3>Bearer Token\</h3>\*\* Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
 
-    A este tipo de credenciales suele llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
+&#x20;   A este tipo de credenciales suele llamárseles “al portador”, pues quien posea el token puede usarlo sin restricciones, por lo que deben mantenerse en secreto y transmitirse únicamente por conexiones seguras (HTTPS).
 
-    Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
+&#x20;   Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
 
-    **<h3>Body</h3>** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
+&#x20;   \*\*\<h3>Body\</h3>\*\* Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
 
-    Los parámetros del body pueden ser de un tipo de dato distinto, como String, Number o Boolean. Toda la información que necesitas para crear tu petición, puedes encontarla en nuestra sección de API Reference.
+&#x20;   Los parámetros del body pueden ser de un tipo de dato distinto, como String, Number o Boolean. Toda la información que necesitas para crear tu petición, puedes encontarla en nuestra sección de API Reference.
 
-    Al momento de crearlos, debes asegurarte de que todos los parámetros estén incluidos dentro de su estructura para que la API procese la transacción.
-  </Tab>
+&#x20;   Al momento de crearlos, debes asegurarte de que todos los parámetros estén incluidos dentro de su estructura para que la API procese la transacción.
+&#x20; \</Tab>
 
-  <Tab title="C">
-    **<h3>Certificación</h3>** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
+&#x20; \<Tab title="C">
+&#x20;   \*\*\<h3>Certificación\</h3>\*\* Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
 
-    **<h3>Changelog</h3>** Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
+&#x20;   \*\*\<h3>Changelog\</h3>\*\* Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
 
-    Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra [pestaña de Changelog](https://docs.prontopaga.com/changelog#/).
+&#x20;   Si quieres conocer más acerca de los cambios que se han hecho en ProntoPaga, visita nuestra \[pestaña de Changelog]\(https\://docs.prontopaga.com/changelog#/).
 
-    **<h3>Checkout</h3>** Es la interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
+&#x20;   \*\*\<h3>Checkout\</h3>\*\* Es la interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
 
-    Reduce tiempo de integración y garantiza que la experiencia cumpla los estándares de calidad necesarios.
+&#x20;   Reduce tiempo de integración y garantiza que la experiencia cumpla los estándares de calidad necesarios.
 
-    **<h3>Código del país (ISO 3166-1 alpha-2)</h3>**\
-    Código estándar de dos letras para identificar países (por ejemplo: AR, BR y CL). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
+&#x20;   \*\*\<h3>Código del país (ISO 3166-1 alpha-2)\</h3>\*\*\\
+&#x20;   Código estándar de dos letras para identificar países (por ejemplo: AR, BR y CL). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente \[artículo]\(https\://docs.prontopaga.com/docs/countries-currencies-accounts#/).
 
-    **<h3>Código de moneda (ISO 4217)</h3>**\
-    Código estándar de tres letras para identificar monedas (Por ejemplo: ARS, BRL y CLP). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
+&#x20;   \*\*\<h3>Código de moneda (ISO 4217)\</h3>\*\*\\
+&#x20;   Código estándar de tres letras para identificar monedas (Por ejemplo: ARS, BRL y CLP). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente \[artículo]\(https\://docs.prontopaga.com/docs/countries-currencies-accounts#/).
 
-    **<h3>Cybersource</h3>** Es una plataforma de procesamiento de pagos y gestión de fraude adquirida por Visa en 2010. Ofrece servicios de gateway, prevención de fraude, tokenización y orquestación global de medios de pago. Está orientada a comercios grandes y empresas multinacionales, con alcance en más de 190 países.
-  </Tab>
+&#x20;   \*\*\<h3>Cybersource\</h3>\*\* Es una plataforma de procesamiento de pagos y gestión de fraude adquirida por Visa en 2010. Ofrece servicios de gateway, prevención de fraude, tokenización y orquestación global de medios de pago. Está orientada a comercios grandes y empresas multinacionales, con alcance en más de 190 países.
+&#x20; \</Tab>
 
-  <Tab title="D">
-    **<h3>Decision Manager (DM)</h3>** Herramienta de prevención de fraude desarrollada por Cybersource (Visa). Funciona como un motor que evalúa cada transacción en tiempo real, aplicando reglas configurables y modelos de machine learning. Permite simular políticas con escenario, ajustar la tolerancia al riesgo y maximizar la tasa de aprobación reduciendo falsos positivos.
+&#x20; \<Tab title="D">
+&#x20;   \*\*\<h3>Decision Manager (DM)\</h3>\*\* Herramienta de prevención de fraude desarrollada por Cybersource (Visa). Funciona como un motor que evalúa cada transacción en tiempo real, aplicando reglas configurables y modelos de machine learning. Permite simular políticas con escenario, ajustar la tolerancia al riesgo y maximizar la tasa de aprobación reduciendo falsos positivos.
 
-    **<h3>Demo</h3>** Aplicación o entorno de demostración que simula el flujo de pago real. Permite a comercios y desarrolladores visualizar la experiencia completa que verá el cliente final sin necesidad de escribir código. Suele acompañarse de ejemplos de credenciales y tarjetas de prueba.
+&#x20;   \*\*\<h3>Demo\</h3>\*\* Aplicación o entorno de demostración que simula el flujo de pago real. Permite a comercios y desarrolladores visualizar la experiencia completa que verá el cliente final sin necesidad de escribir código. Suele acompañarse de ejemplos de credenciales y tarjetas de prueba.
 
-    Puedes encontrar nuestras demo de PayIns o [PayOuts](https://www.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971\&node-id=11830-66973\&viewport=1195%2C172%2C0.04\&t=ALYxaSbw4N7OP646-1\&scaling=scale-down\&content-scaling=fixed\&starting-point-node-id=11830%3A66973) en los links correspondientes.
-  </Tab>
+&#x20;   Puedes encontrar nuestras demo de PayIns o \[PayOuts]\(https\://www\.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971\\\&node-id=11830-66973\\\&viewport=1195%2C172%2C0.04\\\&t=ALYxaSbw4N7OP646-1\\\&scaling=scale-down\\\&content-scaling=fixed\\\&starting-point-node-id=11830%3A66973) en los links correspondientes.
+&#x20; \</Tab>
 
-  <Tab title="E">
-    **<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación.
+&#x20; \<Tab title="E">
+&#x20;   \*\*\<h3>Endpoint\</h3>\*\* Es una URL concreta de la API que permite ejecutar una operación.
 
-    Ejemplo:
+&#x20;   Ejemplo:
 
-    * [https://sandbox.prontopaga.com/api/payment/new](https://sandbox.prontopaga.com/api/payment/new) para crear un cobro.
-    * [https://sandbox.prontopaga.com/api/balance](https://sandbox.prontopaga.com/api/balance) para consultar saldos.
+&#x20;   \* \[https\://sandbox.prontopaga.com/api/payment/new]\(https\://sandbox.prontopaga.com/api/payment/new) para crear un cobro.
+&#x20;   \* \[https\://sandbox.prontopaga.com/api/balance]\(https\://sandbox.prontopaga.com/api/balance) para consultar saldos.
 
-    Cada endpoint define el tipo de HTTP (los más usados en ProntoPaga son POST, y GET), los parámetros requeridos y las respuestas posibles ( las más conocidas son la respuesta 200: exitosa y 400: rechazada).
+&#x20;   Cada endpoint define el tipo de HTTP (los más usados en ProntoPaga son POST, y GET), los parámetros requeridos y las respuestas posibles ( las más conocidas son la respuesta 200: exitosa y 400: rechazada).
 
-    **<h3>Environments / Entornos</h3>** Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son:
+&#x20;   \*\*\<h3>Environments / Entornos\</h3>\*\* Se trata de espacios aislados en los que se ejecutan las pruebas y operaciones de pago. Los ambientes usados por ProntoPaga son:
 
-    * Sandbox, donde se simulan transacciones sin dinero real.
+&#x20;   \* Sandbox, donde se simulan transacciones sin dinero real.
 
-    * Producción, donde fluyen los pagos reales.
+&#x20;   \* Producción, donde fluyen los pagos reales.
 
-      **<h3>Efectivo</h3>**\
-      Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
+&#x20;     \*\*\<h3>Efectivo\</h3>\*\*\\
+&#x20;     Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
 
-    Puedes conocer acerca de este método de pago en los siguientes artículos de [Perú](https://docs.prontopaga.com/docs/payins-peru-cash#/) y [Ecuador](https://docs.prontopaga.com/docs/payins-ecuador-cash#/).
+&#x20;   Puedes conocer acerca de este método de pago en los siguientes artículos de \[Perú]\(https\://docs.prontopaga.com/docs/payins-peru-cash#/) y \[Ecuador]\(https\://docs.prontopaga.com/docs/payins-ecuador-cash#/).
 
-    Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
-  </Tab>
+&#x20;   Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
+&#x20; \</Tab>
 
-  <Tab title="F">
-    **<h3>Firma</h3>** Mecanismo que asegura que los datos de una petición o notificación no fueron manipulados. Normalmente se genera un hash (ej. HMAC SHA256) con una clave secreta compartida. El comercio recalcula la firma y la compara con la recibida para validar la autenticidad del mensaje.
+&#x20; \<Tab title="F">
+&#x20;   \*\*\<h3>Firma\</h3>\*\* Mecanismo que asegura que los datos de una petición o notificación no fueron manipulados. Normalmente se genera un hash (ej. HMAC SHA256) con una clave secreta compartida. El comercio recalcula la firma y la compara con la recibida para validar la autenticidad del mensaje.
 
-    Si quieres conocer más acerca de las firmas, haz clic [aquí](https://docs.prontopaga.com/docs/sign-transactions#/).
+&#x20;   Si quieres conocer más acerca de las firmas, haz clic \[aquí]\(https\://docs.prontopaga.com/docs/sign-transactions#/).
 
-    **<h3>Front-end</h3>** La capa visible para el usuario (ya sea una web o una app). Aquí es donde se capturan datos, muestrannformularios de pago o cajas de checkout.
+&#x20;   \*\*\<h3>Front-end\</h3>\*\* La capa visible para el usuario (ya sea una web o una app). Aquí es donde se capturan datos, muestrannformularios de pago o cajas de checkout.
 
-    Estos siempre se enfocan en la experiencia de usuario: tiempos de carga, validaciones claras y confianza visual.
-  </Tab>
+&#x20;   Estos siempre se enfocan en la experiencia de usuario: tiempos de carga, validaciones claras y confianza visual.
+&#x20; \</Tab>
 
-  <Tab title="I">
-    **<h3>iFrame</h3>** Elemento HTML que permite insertar contenido externo dentro de un sitio. En el sector de pagos, se usa para embebed formularios seguros (como el campo de tarjeta) de modo que los datos sensibles nunca toquen tu servidor, facilitando cumplir normativas de seguridad sin comprometer la experiencia de usuario.
+&#x20; \<Tab title="I">
+&#x20;   \*\*\<h3>iFrame\</h3>\*\* Elemento HTML que permite insertar contenido externo dentro de un sitio. En el sector de pagos, se usa para embebed formularios seguros (como el campo de tarjeta) de modo que los datos sensibles nunca toquen tu servidor, facilitando cumplir normativas de seguridad sin comprometer la experiencia de usuario.
 
-    **<h3>Integración</h3>** Proceso de conectar tu aplicación, página web o sistema interno con un procesador de pagos o una orquestadora. Puede hacerse de distintas formas: APIs directas, SDKs (kits de desarrollo), iFrames que embeben formularios seguros, o plugins ya listos para plataformas de e-commerce. Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances.
+&#x20;   \*\*\<h3>Integración\</h3>\*\* Proceso de conectar tu aplicación, página web o sistema interno con un procesador de pagos o una orquestadora. Puede hacerse de distintas formas: APIs directas, SDKs (kits de desarrollo), iFrames que embeben formularios seguros, o plugins ya listos para plataformas de e-commerce. Una integración no solo habilita procesar cobros, sino también administrar contracargos, verificar identidades, emitir reembolsos y reconciliar balances.
 
-    La mayoría de estas características están presentes en ProntoPaga.
-  </Tab>
+&#x20;   La mayoría de estas características están presentes en ProntoPaga.
+&#x20; \</Tab>
 
-  <Tab title="P">
-    **<h3>Parámetros</h3>** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
+&#x20; \<Tab title="P">
+&#x20;   \*\*\<h3>Parámetros\</h3>\*\* Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/\{}) o en el body (JSON).
 
-    Los parámetros son aquellos que permiten personalizar el comportamiento de cada operación (y que para un mismo endpoint, el resultado sea diferente cuando cambiamos los datos del parámetro).
+&#x20;   Los parámetros son aquellos que permiten personalizar el comportamiento de cada operación (y que para un mismo endpoint, el resultado sea diferente cuando cambiamos los datos del parámetro).
 
-    **<h3>PayIns</h3>** Se refiere al flujo de entrada de dinero, es decir, los cobros que tus usuarios o clientes hacen a tu comercio. Estos pueden provenir de múltiples métodos: tarjetas de crédito/débito, transferencias bancarias, billeteras digitales o pagos en efectivo a través de corresponsales. Todos estos métodos están disponibles en ProntoPaga.
+&#x20;   \*\*\<h3>PayIns\</h3>\*\* Se refiere al flujo de entrada de dinero, es decir, los cobros que tus usuarios o clientes hacen a tu comercio. Estos pueden provenir de múltiples métodos: tarjetas de crédito/débito, transferencias bancarias, billeteras digitales o pagos en efectivo a través de corresponsales. Todos estos métodos están disponibles en ProntoPaga.
 
-    Los PayIns cuentan con diferentes estados dentro de ProntoPaga, que son: new, created, success, canceled, rejected, pending y expired.
+&#x20;   Los PayIns cuentan con diferentes estados dentro de ProntoPaga, que son: new, created, success, canceled, rejected, pending y expired.
 
-    Conoce más acerca de los estados de PayIns en este [artículo](https://docs.prontopaga.com/docs/payins-status#/).
+&#x20;   Conoce más acerca de los estados de PayIns en este \[artículo]\(https\://docs.prontopaga.com/docs/payins-status#/).
 
-    **<h3>PayOuts</h3>** Son las salidas de dinero desde tu comercio hacia un tercero: proveedores, usuarios de un marketplace o la misma cuenta bancaria del comercio.
+&#x20;   \*\*\<h3>PayOuts\</h3>\*\* Son las salidas de dinero desde tu comercio hacia un tercero: proveedores, usuarios de un marketplace o la misma cuenta bancaria del comercio.
 
-    Funcionan como retiros programados y también pasan por estados (conoce más de los estados de PayOuts aquí). Los PayOuts suelen tener límites, validaciones contra la prevención de fraude y ventanas de liquidación. Un Payout puede agrupar múltiples PayIns menos comisiones y contracargos.
+&#x20;   Funcionan como retiros programados y también pasan por estados (conoce más de los estados de PayOuts aquí). Los PayOuts suelen tener límites, validaciones contra la prevención de fraude y ventanas de liquidación. Un Payout puede agrupar múltiples PayIns menos comisiones y contracargos.
 
-    **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
+&#x20;   \*\*\<h3>Pendiente por Retiro\</h3>\*\* Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
-    **<h3>PIX</h3>**\
-    Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
+&#x20;   \*\*\<h3>PIX\</h3>\*\*\\
+&#x20;   Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
-    Si quieres conocer más acerca de este método, visita su artículo de [PayIns](https://docs.prontopaga.com/docs/payins-brazil-pix#/) o [PayOuts](https://docs.prontopaga.com/docs/payouts-brazil-pix#/) según requieras.
+&#x20;   Si quieres conocer más acerca de este método, visita su artículo de \[PayIns]\(https\://docs.prontopaga.com/docs/payins-brazil-pix#/) o \[PayOuts]\(https\://docs.prontopaga.com/docs/payouts-brazil-pix#/) según requieras.
 
-    **<h3>PIX+</h3>**\
-    Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
+&#x20;   \*\*\<h3>PIX+\</h3>\*\*\\
+&#x20;   Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
 
-    Si deseas conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-brazil-pix-plus#/).
+&#x20;   Si deseas conocer más acerca de este método, visita el siguiente \[artículo]\(https\://docs.prontopaga.com/docs/payins-brazil-pix-plus#/).
+&#x20;  &#x20;
+&#x9;	\*\*\<h3>Paga con Tu Banco\</h3>\*\* &#x20;
+&#x9;	Método exclusivo de Prontopaga de transferencia vía enlace redirigido al banco del usuario para completar el pago o retiro, el cual se encuentra disponible en múltiples países.&#x20;
 
-    **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
+&#x9;	\*\*\<h3>Payphone\<(h3>\*\* &#x20;
+&#x20;   Método de pago integrado a ProntoPaga que es usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).&#x20;
+&#x20;  &#x20;
+&#x9;	Si quieres conocer más acerca de este método, visita el siguiente \[artículo]\(https\://docs.prontopaga.com/docs/payins-ecuador-card#/).&#x20;
 
-    Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
-  </Tab>
 
-  <Tab title="Q">
-    **<h3>QR</h3>** Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un link a un checkout, una orden de transferencia o un identificador único de transacción.
+&#x9;	\*\*\<h3>Puntos físicos de pago / de retiros\</h3>\*\* &#x20;
+&#x9;	Ubicaciones físicas (corresponsales) donde los usuarios pueden realizar pagos en efectivo o cobrar retiros. Este Común en Ecuador y Perú. &#x20;
+&#x20;  &#x20;
+Si deseas saber más, este método es usado en:
 
-    Es usado por su simplicidad y compatibilidad con billeteras (wallets) digitales.
-  </Tab>
+&#x9;		\*Ecuador  – Con puntos físicos de \[pago]\(https\://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) y \[retiro]\(https\://docs.prontopaga.com/docs/physical-points-payouts#/).
 
-  <Tab title="S">
-    **<h3>Sandbox</h3>** Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
+&#x9;		\*Perú – Con puntos físicos de \[pago]\(https\://docs.prontopaga.com/docs/payins-peru-cash#/).
 
-    **<h3>Saldo Bloqueado</h3>** Fondos retenidos por situaciones especiales, como contracargos, disputas abiertas o revisiones de fraude. Estos montos permanecen inaccesibles hasta que la investigación concluya. El saldo bloqueado protege tanto al cliente como al comercio, evitando retiros que luego no podrían cubrir reembolsos.
+&#x20;
 
-    **<h3>Saldo Diferido</h3>** Es la porción del saldo que aún no puede retirarse porque está en periodo de espera. Normalmente corresponde a fondos que deben cumplir con reglas de liberación para reducir riesgos de contracargos o fraudes. Una vez cumplido ese tiempo, pasa al saldo disponible.
+&#x20;   \*\*\<h3>Plugins\</h3>\*\* En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
-    **<h3>Saldo Neto</h3>** Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
+&#x20;   Puedes revisar nuestra \[sección de plugins]\(https\://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
+&#x20; \</Tab>
 
-    **<h3>SecretKey</h3>** Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
+&#x20; \<Tab title="Q">
+&#x20;   \*\*\<h3>QR\</h3>\*\* Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un link a un checkout, una orden de transferencia o un identificador único de transacción.
 
-    En ProntoPaga contarás con llaves para cada entorno (sandbox y producción). La llave de producción requiere que estés certificado por la administración de ProntoPaga. Una vez hecho, podrás usar los datos reales y en vivo.
-  </Tab>
+&#x20;   Es usado por su simplicidad y compatibilidad con billeteras (wallets) digitales.
+&#x20; \</Tab>
 
-  <Tab title="T">
-    **<h3>Transacción</h3>** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
+&#x20; \<Tab title="S">
+&#x20;   \*\*\<h3>Sandbox\</h3>\*\* Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
 
-    Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
-  </Tab>
+&#x20;   \*\*\<h3>Saldo Bloqueado\</h3>\*\* Fondos retenidos por situaciones especiales, como contracargos, disputas abiertas o revisiones de fraude. Estos montos permanecen inaccesibles hasta que la investigación concluya. El saldo bloqueado protege tanto al cliente como al comercio, evitando retiros que luego no podrían cubrir reembolsos.
 
-  <Tab title="W">
-    **<h3>Wallet</h3>** En el sector de pagos, el término puede referirse a dos cosas:
+&#x20;   \*\*\<h3>Saldo Diferido\</h3>\*\* Es la porción del saldo que aún no puede retirarse porque está en periodo de espera. Normalmente corresponde a fondos que deben cumplir con reglas de liberación para reducir riesgos de contracargos o fraudes. Una vez cumplido ese tiempo, pasa al saldo disponible.
 
-    * **Wallet del usuario:** Aplicaciones como Apple Pay, Google Pay o billeteras propias que almacenan tarjetas tokenizadas y permiten pagar de forma rápida y segura.
-    * **Wallet del comercio:** Balance virtual que cuentan todos los comercios dentro de ProntoPaga, donde se acumulan los PayIns hasta que se ejecutan PayOuts. Este Wallet refleja saldos disponibles, diferidos y bloqueados.
+&#x20;   \*\*\<h3>Saldo Neto\</h3>\*\* Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
 
-    **<h3>Webhook</h3>** Mecanismo de notificación automática: cuando ocurre un evento en la plataforma (ejemplo: pago aprobado, contracargo iniciado, payout rechazado), ProntoPaga envía un mensaje POST a una URL configurada por el comercio. De esta forma, el sistema del comercio puede reaccionar en tiempo real (enviar confirmaciones, actualizar estados, liberar productos).
+&#x20;   \*\*\<h3>SecretKey\</h3>\*\* Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
 
-    Para conocer más acerca de los webhooks, haz clic [aquí](https://docs.prontopaga.com/update/docs/webhooks#/).
-  </Tab>
-</Tabs>
+&#x20;   En ProntoPaga contarás con llaves para cada entorno (sandbox y producción). La llave de producción requiere que estés certificado por la administración de ProntoPaga. Una vez hecho, podrás usar los datos reales y en vivo.
+&#x20; \</Tab>
+
+&#x20; \<Tab title="T">
+&#x20;   \*\*\<h3>Transacción\</h3>\*\* Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
+
+&#x20;   Además, Para efectos contables, es el registro fundamental para conciliar balances y saldos.
+&#x20; \</Tab>
+
+&#x20; \<Tab title="W">
+&#x20;   \*\*\<h3>Wallet\</h3>\*\* En el sector de pagos, el término puede referirse a dos cosas:
+
+&#x20;   \* \*\*Wallet del usuario:\*\* Aplicaciones como Apple Pay, Google Pay o billeteras propias que almacenan tarjetas tokenizadas y permiten pagar de forma rápida y segura.
+&#x20;   \* \*\*Wallet del comercio:\*\* Balance virtual que cuentan todos los comercios dentro de ProntoPaga, donde se acumulan los PayIns hasta que se ejecutan PayOuts. Este Wallet refleja saldos disponibles, diferidos y bloqueados.
+
+&#x20;   \*\*\<h3>Webhook\</h3>\*\* Mecanismo de notificación automática: cuando ocurre un evento en la plataforma (ejemplo: pago aprobado, contracargo iniciado, payout rechazado), ProntoPaga envía un mensaje POST a una URL configurada por el comercio. De esta forma, el sistema del comercio puede reaccionar en tiempo real (enviar confirmaciones, actualizar estados, liberar productos).
+
+&#x20;   Para conocer más acerca de los webhooks, haz clic \[aquí]\(https\://docs.prontopaga.com/update/docs/webhooks#/).
+&#x20; \</Tab>
+\</Tabs>
 
 <br />
