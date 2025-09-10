@@ -28,59 +28,11 @@ Los tipos de rechazos posibles para PayIns varían dependiendo del país y del m
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Mensaje de rechazo
-      </th>
-
-      <th>
-        Descripción
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        The client is blocked
-      </td>
-
-      <td>
-        El cliente se bloquea en lista negra.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Exceeds daily limit,
-
-        5,000,000.00 BRL available for the day,
-
-        10,000,000.00 BRL available for the week,
-
-        30,000,000.00 BRL available for the month.
-
-        Maximum deposit per transaction 6,000,000.00 BRL
-      </td>
-
-      <td>
-        El cliente ha superado los límites establecidos para la transacción o comercio.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        High fraudulent score - DM
-      </td>
-
-      <td>
-        La transacción tiene un alto nivel de riesgo de fraude.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Mensaje de rechazo         | Descripción                                                                     |
+| :------------------------- | :------------------------------------------------------------------------------ |
+| The client is blocked      | El cliente se bloquea en lista negra.                                           |
+| Exceeds daily limit        | El cliente ha superado los límites establecidos para la transacción o comercio. |
+| High fraudulent score - DM | La transacción tiene un alto nivel de riesgo de fraude.                         |
 
 ***
 
