@@ -33,7 +33,7 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ## ¿Cómo funciona?
 
-PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como, transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
+PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
 
 El proceso de pago con PIX consta de cinco etapas principales:
 
@@ -139,7 +139,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 <br />
 
