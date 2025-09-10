@@ -131,6 +131,8 @@ metadata:
     **<h3>PIX+</h3>**\
     Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
 
+    Si deseas conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-brazil-pix-plus#/).
+
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
