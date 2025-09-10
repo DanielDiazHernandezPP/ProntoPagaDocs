@@ -131,7 +131,7 @@ metadata:
 
     **<h3>PayOuts</h3>** Son las salidas de dinero desde tu comercio hacia un tercero: proveedores, usuarios de un marketplace o la misma cuenta bancaria del comercio.
 
-    Funcionan como retiros programados y también pasan por estados (conoce más de los estados de PayOuts aquí). Los PayOuts suelen tener límites, validaciones contra la prevención de fraude y ventanas de liquidación. Un Payout puede agrupar múltiples PayIns menos comisiones y contracargos.
+    Funcionan como retiros programados y también pasan por estados (conoce más de los estados de PayOuts [aquí](https://docs.prontopaga.com/docs/payouts-status#/)). Los PayOuts suelen tener límites, validaciones contra la prevención de fraude y ventanas de liquidación. Un Payout puede agrupar múltiples PayIns menos comisiones y contracargos.
 
     Conoce más acerca de los PayOuts en  el siguiente [artículo](https://docs.prontopaga.com/docs/payouts-overview#/).
 
