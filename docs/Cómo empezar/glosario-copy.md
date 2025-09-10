@@ -123,6 +123,14 @@ metadata:
 
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
+    **<h3>PIX</h3>**\
+    Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
+
+    Si quieres conocer más acerca de este método, visita su artículo de [PayIns](https://docs.prontopaga.com/docs/payins-brazil-pix#/) o [PayOuts](https://docs.prontopaga.com/docs/payouts-brazil-pix#/) según requieras.
+
+    **<h3>PIX+</h3>**\
+    Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
+
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
