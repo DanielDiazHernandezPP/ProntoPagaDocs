@@ -28,8 +28,6 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 ***
 
-<br />
-
 ## Generales (todos los países) 🌎
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
@@ -50,8 +48,6 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ***
 
-<br />
-
 ## Brasil 🇧🇷
 
 Estos son los tipos de retiros rechazados en Brasil.
@@ -63,8 +59,6 @@ Estos son los tipos de retiros rechazados en Brasil.
 | 19              | Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado | El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros. |
 
 ***
-
-<br />
 
 ## Chile 🇨🇱
 
@@ -80,8 +74,6 @@ Estos son los tipos de retiros rechazados en Chile.
 | 10              | Cuenta Rut Con Dígito Verificador                                    | La cuenta de RUT tiene dígito verificador.                                                               |
 
 ***
-
-<br />
 
 ## Ecuador 🇪🇨
 
@@ -108,8 +100,6 @@ Estos son los tipos de retiros rechazados en Ecuador.
 | 300                | No se puede resolver                                                                                                                                                                                                                               | Ocurrió un error inesperado. Por favor, intente nuevamente.                                                 |
 
 ***
-
-<br />
 
 ## Perú 🇵🇪
 
