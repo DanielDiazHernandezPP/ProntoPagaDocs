@@ -4,6 +4,16 @@ excerpt: Conoce los términos de la industria de pagos dentro de esta documentac
 deprecated: false
 hidden: true
 metadata:
+  title: Glosario | ProntoPaga Docs
+  description: >-
+    Learn about the definitions most commonly used by ProntoPaga within the
+    payments sector.
+  image: >-
+    https://files.readme.io/5b893b6158e8ce07ba46d6d15bfd84e3c373f6cf4371fb0fc173bdd3545994b6-Prontopaga_Logotipo.JPG
+  keywords:
+    - Glosario ProntoPaga
+    - Definiciones ProntoPaga
+    - Términos ProntoPaga
   robots: index
 ---
 <br />
