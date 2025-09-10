@@ -26,10 +26,6 @@ next:
 ---
 A continuación se describen todos los posibles tipos de rechazos para PayOuts. El número corresponde al número que se devuelve en el campo `errorCode` del rechazo.
 
-> 👍 Números de error
->
-> Los tipos de rechazos están ordenados por país, y el número que se indica al inicio de cada error, es el que se recibe como `errorCode`. Para encontrar el error que buscas, puedes guiarte con la Tabla de Contenidos que aparece a la derecha del artículo.
-
 ***
 
 <br />
