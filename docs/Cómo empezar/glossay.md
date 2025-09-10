@@ -96,8 +96,7 @@ metadata:
 
     * Producción, donde fluyen los pagos reales.
 
-      **<h3>Efectivo</h3>**\
-      Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
+    **<h3>Efectivo</h3>** Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
 
     Puedes conocer acerca de este método de pago en los siguientes artículos de [Perú](https://docs.prontopaga.com/docs/payins-peru-cash#/) y [Ecuador](https://docs.prontopaga.com/docs/payins-ecuador-cash#/).
 
