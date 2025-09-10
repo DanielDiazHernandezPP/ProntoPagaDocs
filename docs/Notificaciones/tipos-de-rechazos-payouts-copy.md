@@ -1,7 +1,7 @@
 ---
 title: Tipos de rechazos (PayOuts) (COPY)
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Tipos de rechazos (PayOuts) | ProntoPaga Docs
   description: >-
