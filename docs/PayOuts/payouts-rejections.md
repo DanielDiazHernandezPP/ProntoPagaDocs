@@ -30,7 +30,7 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 <br />
 
-## Generales (todos los países)
+## Generales (todos los países) 🌎
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
