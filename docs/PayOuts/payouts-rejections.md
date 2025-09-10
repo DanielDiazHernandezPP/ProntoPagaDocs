@@ -38,17 +38,18 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Mensaje de rechazo                                                                                                       | Descripción                                                                                                                                                 |
-| :----------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| El cliente se encuentra bloqueado                                                                                        | El cliente se bloquea en la lista negra.                                                                                                                    |
-| Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s | El cliente ha superado los límites configurados para el comercio, detallándose las cifras en el mensaje.                                                    |
-| El saldo a retirar excede el balance disponible en esta moneda                                                           | No hay balance disponible para la moneda seleccionada.                                                                                                      |
-| Cuenta ingresada no existe                                                                                               | La cuenta bancaria ingresada no existe.                                                                                                                     |
-| Moneda ingresada es inválida                                                                                             | El código de moneda que se ha enviado no es correcto.                                                                                                       |
-| Cuenta invalida, bloqueada o cerrada                                                                                     | La cuenta no es válida. Posiblemente ha sido bloqueada o cerrada con anterioridad.                                                                          |
-| La información suministrada es insuficiente o inválida                                                                   | La información enviada no pudo ser verificada, es inválida. O bien, hay campos esenciales que no se enviaron.                                               |
-| El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                    | Se realizó una validación y el número de cuenta ingresado para hacer el PayOut, no corresponde a los datos del usuario. Es un retiro a terceros, no válido. |
-| ID inválido                                                                                                              | El número de ID ingresado es inválido.                                                                                                                      |
+| Código de error | Mensaje de rechazo                                                                                                                  | Descripción                                                                                                                                                 |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1               | El cliente se encuentra bloqueado                                                                                                   | El cliente se bloquea en la lista negra.                                                                                                                    |
+| 2               | Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s            | El cliente ha superado los límites configurados para el comercio, detallándose las cifras en el mensaje.                                                    |
+| 3               | El saldo a retirar excede el balance disponible en esta moneda                                                                      | No hay balance disponible para la moneda seleccionada.                                                                                                      |
+| 4               | Cuenta ingresada no existe                                                                                                          | La cuenta bancaria ingresada no existe.                                                                                                                     |
+| 21              | Moneda ingresada es inválida                                                                                                        | El código de moneda que se ha enviado no es correcto.                                                                                                       |
+| 22              | Cuenta invalida, bloqueada o cerrada                                                                                                | La cuenta no es válida. Posiblemente ha sido bloqueada o cerrada con anterioridad.                                                                          |
+| 23              | La información suministrada es insuficiente o inválida                                                                              | La información enviada no pudo ser verificada, es inválida. O bien, hay campos esenciales que no se enviaron.                                               |
+| 34              | El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                               | Se realizó una validación y el número de cuenta ingresado para hacer el PayOut, no corresponde a los datos del usuario. Es un retiro a terceros, no válido. |
+| 25              | ID inválido                                                                                                                         | El número de ID ingresado es inválido.                                                                                                                      |
+| 27              | No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar. | El documento de identidad ingresado está asociado a una empresa, y los Payouts solo pueden realizarse a personas naturales.                                 |
 
 ***
 
@@ -58,11 +59,11 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 Estos son los tipos de retiros rechazados en Brasil.
 
-| Mensaje de rechazo                                                                | Descripción                                                                                                                        |
-| :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| Validation error. Please check the Chave PIX and try again                        | Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.                                             |
-| Request declined by the server                                                    | La solicitud fue declinada por el servidor.                                                                                        |
-| Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado | El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros. |
+| Código de error | Mensaje de rechazo                                                                | Descripción                                                                                                                        |
+| :-------------- | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| 14              | Validation error. Please check the Chave PIX and try again                        | Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.                                             |
+| 15              | Request declined by the server                                                    | La solicitud fue declinada por el servidor.                                                                                        |
+| 19              | Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado | El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros. |
 
 ***
 
@@ -89,11 +90,11 @@ Estos son los tipos de retiros rechazados en Chile.
 
 Estos son los tipos de retiros rechazados en Ecuador.
 
-| Mensaje de rechazo                                          | Descripción                                                                                                 |
-| :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| El número de teléfono no es válido en la cabina telefónica. | El número telefónico enviado no es válido para el servicio de Payphone (no está registrado en el servicio). |
-| Error interno, validaciones fallidas                        | Ocurrió un error interno debido a una falla durante el proceso de validación.                               |
-| Problem with bank account details, please try again         | Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.              |
+| Código de error | Mensaje de rechazo                                          | Descripción                                                                                                 |
+| :-------------- | :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| 16              | El número de teléfono no es válido en la cabina telefónica. | El número telefónico enviado no es válido para el servicio de Payphone (no está registrado en el servicio). |
+| 17              | Error interno, validaciones fallidas                        | Ocurrió un error interno debido a una falla durante el proceso de validación.                               |
+| 18              | Problem with bank account details, please try again         | Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.              |
 
 ***
 
@@ -103,9 +104,11 @@ Estos son los tipos de retiros rechazados en Ecuador.
 
 Estos son los tipos de retiros rechazados en Perú.
 
-| Mensaje de rechazo                              | Descripción                                                                                                    |
-| :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| InstanPayouts no disponible, intente nuevamente | El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente. |
-| Banco de destino no disponible                  | En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.                               |
-| Error interno, favor reintentar                 | Ocurrió un error interno inesperado. Por favor reintente nuevamente.                                           |
-| Wallet no encontrada para este número           | El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.           |
+| Código de error | Mensaje de rechazo                              | Descripción                                                                                                    |
+| :-------------- | :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| 11              | InstanPayouts no disponible, intente nuevamente | El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente. |
+| 12              | Banco de destino no disponible                  | En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.                               |
+| 13              | Error interno, favor reintentar                 | Ocurrió un error interno inesperado. Por favor reintente nuevamente.                                           |
+| 20              | Wallet no encontrada para este número           | El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.           |
+
+<br />
