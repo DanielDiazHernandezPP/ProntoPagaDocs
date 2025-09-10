@@ -119,11 +119,12 @@ Estos son los tipos de retiros rechazados en Ecuador.
 
 Estos son los tipos de retiros rechazados en Perú.
 
-| Código de error | Mensaje de rechazo                              | Descripción                                                                                                    |
-| :-------------- | :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| 11              | InstanPayouts no disponible, intente nuevamente | El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente. |
-| 12              | Banco de destino no disponible                  | En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.                               |
-| 13              | Error interno, favor reintentar                 | Ocurrió un error interno inesperado. Por favor reintente nuevamente.                                           |
-| 20              | Wallet no encontrada para este número           | El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.           |
+| Código de error | Mensaje de rechazo                            | Descripción                                                                                                    |
+| :-------------- | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| 7               | Internal error, failed validations            | Ocurrió un error interno y las validaciones fallaron. Por favor, reintente nuevamente.                         |
+| 11              | InstanPayouts not available, please try again | El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente. |
+| 12              | Destination bank not available                | En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.                               |
+| 13              | Internal error, please try again              | Ocurrió un error interno inesperado. Por favor reintente nuevamente.                                           |
+| 20              | Wallet not found for this phone number        | El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.           |
 
 <br />
