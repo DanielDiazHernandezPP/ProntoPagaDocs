@@ -123,6 +123,8 @@ metadata:
 
     Funcionan como retiros programados y también pasan por estados (conoce más de los estados de PayOuts aquí). Los PayOuts suelen tener límites, validaciones contra la prevención de fraude y ventanas de liquidación. Un Payout puede agrupar múltiples PayIns menos comisiones y contracargos.
 
+    Conoce más acerca de los PayOuts en  el siguiente [artículo](https://docs.prontopaga.com/docs/payouts-overview#/).
+
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
     **<h3>PIX</h3>**
