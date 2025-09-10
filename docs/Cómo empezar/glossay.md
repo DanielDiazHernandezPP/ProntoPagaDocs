@@ -96,11 +96,11 @@ metadata:
 
     * Producción, donde fluyen los pagos reales.
 
+      Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
+
     **<h3>Efectivo</h3>** Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
 
     Puedes conocer acerca de este método de pago en los siguientes artículos de [Perú](https://docs.prontopaga.com/docs/payins-peru-cash#/) y [Ecuador](https://docs.prontopaga.com/docs/payins-ecuador-cash#/).
-
-    Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
   </Tab>
 
   <Tab title="F">
