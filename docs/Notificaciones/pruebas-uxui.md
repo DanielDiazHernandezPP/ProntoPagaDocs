@@ -18,7 +18,7 @@ metadata:
 
 ## Guide Card
 
-<Cards columns={2}>
+<Cards>
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
 
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
