@@ -35,8 +35,6 @@ Crear pagos recurrentes con Yape On File consiste en hacer una solicitud de afil
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar a Yape como método de pago, tener una cuenta creada y aprobar la suscripción desde su aplicación.
@@ -46,12 +44,21 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de las sigu
 <Image align="center" src="https://files.readme.io/cbf7e2d3364a3dcfccbde9d3cdbcfb05b15e771ece8e66ba778cf4292d765bff-oneClick-recurrencia_1.jpg" />
 
 1. **Selección de método.** Durante el checkout de un pago de suscripción, el cliente selecciona a Yape como método de pago en tu sitio web o aplicación. La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
-   1. **En web:**
-      1. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
-      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
-   2. **En mobile**
-      1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente debe hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
-      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**. Para dispositivos móviles, se debe agregar un deeplink de Yape. Este deeplink redirecciona automáticamente al usuario a la sección de "Código de aprobación" de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
+
+<Tabs>
+  <Tab title="En web">
+    a. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+
+    b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+  </Tab>
+
+  <Tab title="En mobile">
+    a. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente debe hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+
+    b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**. Para dispositivos móviles, se debe agregar un deeplink de Yape. Este deeplink redirecciona automáticamente al usuario a la sección de "Código de aprobación" de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
+  </Tab>
+</Tabs>
+
 2. **Confirmación de la afiliación.** Se hace la afiliación, la pantalla de tu comercio se actualiza y se muestra el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 3. **Recurrencia.** Ahora podrás llamar a nuestro endpoint de cobro de pago para realizar los cargos a su cuenta de Yape, cada vez que lo requieras (según los detalles especificados por el cliente y por tu comercio, sobre su plan de suscripción).
 4. **Confirmación de pago recurrente** Tu cliente recibirá notificaciones push en su wallet cada vez que se realice un pago recurrente. A su vez, tu comercio recibirá la confirmación a través de los webhooks que hayas configurado.
