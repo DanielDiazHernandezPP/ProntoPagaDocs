@@ -50,9 +50,9 @@ El proceso de pago con wallet en Perú consta de las siguientes etapas:
   </Tab>
 
   <Tab title="En mobile">
-    1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
+    a. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
 
-    2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
+    b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
   </Tab>
 </Tabs>
 
