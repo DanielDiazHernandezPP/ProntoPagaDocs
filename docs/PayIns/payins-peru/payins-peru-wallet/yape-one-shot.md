@@ -30,8 +30,6 @@ Crear un pago con **Botón Yape: One Shot** en Perú consiste en capturar los da
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Yape", tener una cuenta creada y aprobar la compra desde su aplicación.
@@ -43,18 +41,25 @@ El proceso de pago con wallet en Perú consta de las siguientes etapas:
 1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
 3. **Aprobación.** El flujo de aprobación del pago varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
-   1. **En web:**
-      1. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
-      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
-   2. **En mobile:**
-      1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
-      2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
+
+<Tabs>
+  <Tab title="En web">
+    a. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
+
+    b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
+  </Tab>
+
+  <Tab title="En mobile">
+    1. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
+
+    2. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
+  </Tab>
+</Tabs>
+
 4. **Validación.** Se valida que la información sea correcta, se hace el pago y el dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** Se le informa el resultado de la transacción al cliente. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ***
-
-<br />
 
 ## Versiones
 
@@ -66,8 +71,6 @@ Es posible integrar el servicio **Botón Yape: One Shot** de dos maneras:
 A continuación, verás las instrucciones para la versión web. Más abajo, dentro de esta misma página, verás los pasos para la versión mobile. Para una navegación más rápida, te sugerimos usar el índice de la derecha.
 
 ***
-
-<br />
 
 ## Validación pago terceros
 
@@ -88,13 +91,9 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
 
 ***
 
-<br />
-
 ## Integra la versión web
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
-
-<br />
 
 ### Crea un nuevo pago
 
@@ -103,8 +102,6 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
-
-<br />
 
 ### Body de la solicitud
 
@@ -132,8 +129,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-<br />
-
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -145,8 +140,6 @@ Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una vent
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-<br />
 
 ### Devolución de un pago
 
@@ -164,13 +157,9 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 ***
 
-<br />
-
 ## Integra la versión mobile
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
-
-<br />
 
 ### Crea un nuevo pago
 
@@ -179,8 +168,6 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
-
-<br />
 
 ### Body de la solicitud
 
@@ -208,8 +195,6 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-<br />
-
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -224,8 +209,6 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con demos que simulan la experiencia de pago del cliente, en donde podrás hacer pruebas. Conócelos aquí:
@@ -234,13 +217,9 @@ Contamos con demos que simulan la experiencia de pago del cliente, en donde podr
 
 ***
 
-<br />
-
 ## Certifica tu integración
 
 La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
-
-<br />
 
 ### Requisitos de certificación
 
