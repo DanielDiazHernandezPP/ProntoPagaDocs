@@ -32,19 +32,19 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Código de error              | Mensaje de rechazo                                                                                                                  |
-| :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| 1                            | El cliente se encuentra bloqueado                                                                                                   |
-| 2                            | Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s            |
-| 3                            | El saldo a retirar excede el balance disponible en esta moneda                                                                      |
-| 4                            | Cuenta ingresada no existe                                                                                                          |
-| 21                           | Moneda ingresada es inválida                                                                                                        |
-| 22                           | Cuenta invalida, bloqueada o cerrada                                                                                                |
-| 23                           | La información suministrada es insuficiente o inválida                                                                              |
-| 34                           | El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                               |
-| 25                           | ID inválido                                                                                                                         |
-| 26                           | Transaction amount limit exceeds                                                                                                    |
-| 27                           | No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar. |
+| Código de error                           | Mensaje de rechazo                                                                                                                  |
+| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| 1                                         | El cliente se encuentra bloqueado                                                                                                   |
+| 2                                         | Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s            |
+| 3                                         | El saldo a retirar excede el balance disponible en esta moneda                                                                      |
+| 4                                         | Cuenta ingresada no existe                                                                                                          |
+| 21                                        | Moneda ingresada es inválida                                                                                                        |
+| 22                                        | Cuenta invalida, bloqueada o cerrada                                                                                                |
+| 23                                        | La información suministrada es insuficiente o inválida                                                                              |
+| 34                                        | El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                               |
+| 25                                        | ID inválido                                                                                                                         |
+| 26                                        | Transaction amount limit exceeds                                                                                                    |
+| 27                                        | No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar. |
 
 ***
 
