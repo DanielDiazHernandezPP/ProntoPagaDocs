@@ -32,19 +32,19 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Código de error                           | Mensaje de rechazo                                                                                                                  |
-| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| 1                                         | El cliente se encuentra bloqueado                                                                                                   |
-| 2                                         | Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s            |
-| 3                                         | El saldo a retirar excede el balance disponible en esta moneda                                                                      |
-| 4                                         | Cuenta ingresada no existe                                                                                                          |
-| 21                                        | Moneda ingresada es inválida                                                                                                        |
-| 22                                        | Cuenta invalida, bloqueada o cerrada                                                                                                |
-| 23                                        | La información suministrada es insuficiente o inválida                                                                              |
-| 34                                        | El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                               |
-| 25                                        | ID inválido                                                                                                                         |
-| 26                                        | Transaction amount limit exceeds                                                                                                    |
-| 27                                        | No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar. |
+| Código de error | Mensaje de rechazo                                                                                                                  |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| 1               | El cliente se encuentra bloqueado                                                                                                   |
+| 2               | Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s            |
+| 3               | El saldo a retirar excede el balance disponible en esta moneda                                                                      |
+| 4               | Cuenta ingresada no existe                                                                                                          |
+| 21              | Moneda ingresada es inválida                                                                                                        |
+| 22              | Cuenta invalida, bloqueada o cerrada                                                                                                |
+| 23              | La información suministrada es insuficiente o inválida                                                                              |
+| 34              | El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                               |
+| 25              | ID inválido                                                                                                                         |
+| 26              | Transaction amount limit exceeds                                                                                                    |
+| 27              | No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar. |
 
 ***
 
@@ -64,14 +64,14 @@ Estos son los tipos de retiros rechazados en Brasil.
 
 Estos son los tipos de retiros rechazados en Chile.
 
-| Código de error | Mensaje de rechazo                                                   | Descripción                                                                                              |
-| :-------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| 5               | El número de cuenta del destinatario no corresponde al Rut ingresado | El número de cuenta no coincide con el RUT ingresado (normalmente sucede con pagos hechos por terceros). |
-| 6               | Banco seleccionado no corresponde                                    | El banco que se seleccionó no corresponde con los datos enviados.                                        |
-| 7               | Cuenta con restricción de abono                                      | La cuenta tiene una restricción de abono (crédito).                                                      |
-| 8               | Banco de destino en mantención                                       | El banco al que será enviado el PayOut se encuentra en pausa de actividades por mantenimiento.           |
-| 9               | Rut Incorrecto                                                       | El RUT enviado es incorrecto.                                                                            |
-| 10              | Cuenta Rut Con Dígito Verificador                                    | La cuenta de RUT tiene dígito verificador.                                                               |
+| Código de error | Mensaje de rechazo                                                   |
+| :-------------- | :------------------------------------------------------------------- |
+| 5               | El número de cuenta del destinatario no corresponde al Rut ingresado |
+| 6               | Banco seleccionado no corresponde                                    |
+| 7               | Cuenta con restricción de abono                                      |
+| 8               | Banco de destino en mantención                                       |
+| 9               | Rut Incorrecto                                                       |
+| 10              | Cuenta Rut Con Dígito Verificador                                    |
 
 ***
 
