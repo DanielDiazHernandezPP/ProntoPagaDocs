@@ -13,6 +13,6 @@ Primeros pasos
 
 <br />
 
-<Image align="left" width="160px" src="https://files.readme.io/00036138e2051734dd0a2d3bc67eabe570ff9c9768a4519a5c25318af06adfe8-Ilustration.svg" />
+<Image align="left" width="700px" src="https://files.readme.io/00036138e2051734dd0a2d3bc67eabe570ff9c9768a4519a5c25318af06adfe8-Ilustration.svg" />
 
 <br />
