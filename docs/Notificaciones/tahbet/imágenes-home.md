@@ -13,8 +13,4 @@ Primeros pasos
 
 <br />
 
-<br />
-
-<Image align="center" width="1500px" src="https://files.readme.io/979477db649e91659fef3dfb985bd03e20845b72c396153317db3893f2ab7031-Ilustration.svg" />
-
-<br />
+<Image align="left" src="https://files.readme.io/00036138e2051734dd0a2d3bc67eabe570ff9c9768a4519a5c25318af06adfe8-Ilustration.svg" />
