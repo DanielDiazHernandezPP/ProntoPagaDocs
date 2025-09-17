@@ -24,7 +24,7 @@ next:
 ---
 Los tipos de rechazos posibles para PayIns varían dependiendo del país y del método de pago utilizado. A continuación, se describen los más comunes.
 
-## General (todos los países)
+## Generales (todos los países) 🌎
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
