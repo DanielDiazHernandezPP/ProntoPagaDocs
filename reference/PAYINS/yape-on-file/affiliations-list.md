@@ -25,6 +25,23 @@ metadata:
 next:
   description: ''
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-db936049-f3cb-4641-990f-04231a9adea9?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
+
 Endpoint para obtener una lista con las afiliaciones (ya sea de tipo One Click Payment o de Recurrencias) activas para cierto cliente, según su número de documento.
 
 Toma en cuenta que este endpoint solo devolverá como respuesta las afiliaciones con estado `ACCEPTED`, ya que son las que están activas y con las cuales el cliente puede pagar.
