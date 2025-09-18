@@ -11,22 +11,27 @@ metadata:
   occaecat cupidatat non proident!
 </Accordion>
 
-<Columns layout="auto">
-  <Column>
-    **En web**
-    a. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+***
 
-    b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
-  </Column>
+<br />
 
-  <Column>
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Column>
 
-  <Column>
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Column>
-</Columns>
+\<Columns layout="auto">
+&#x20; \<Column>
+&#x20;   \*\*En web\*\* \<br>\<br>
+&#x20;   a. \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a \*\*Aprobar compras > Solicitudes por aprobar\*\*, seleccionar la indicada y hacer clic en \*\*Aprobar afiliación\*\*.
+
+&#x20;   b. \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar afiliación\*\*.
+&#x20; \</Column>
+
+&#x20; \<Column>
+&#x20;   \*Lorem ipsum dolor sit amet, consectetur adipiscing elit\*
+&#x20; \</Column>
+
+&#x20; \<Column>
+&#x20;   \> Ut enim ad minim veniam, quis nostrud ullamco
+&#x20; \</Column>
+\</Columns>
 
 ### General (todos los países)
 
