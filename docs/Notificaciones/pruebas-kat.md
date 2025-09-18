@@ -33,14 +33,6 @@ metadata:
         <th style={{ textAlign: "left" }}>
           En mobile
         </th>
-
-        <th style={{ textAlign: "left" }}>
-          Límites de transacciones en curso:
-        </th>
-
-        <th style={{ textAlign: "left" }}>
-          Tiempo de espera para la segunda transacción:
-        </th>
       </tr>
     </thead>
 
@@ -53,17 +45,9 @@ metadata:
         </td>
 
         <td style={{ textAlign: "left" }}>
-          CLP $350.000
-        </td>
+          a. **Si se tiene desactivado el servicio de validación pago de terceros:** El cliente ve el botón de **Abrir Yape**, el cual lo redireccionará a la aprobación del pago en su aplicación.
 
-        <td style={{ textAlign: "left" }}>
-          * **DigiPass y Mi Pass**: hasta $5.000.000 diarios (CLP)
-          * **DigiCard**:
-            hasta $2.000.000 diarios (CLP)
-        </td>
-
-        <td style={{ textAlign: "left" }}>
-          12 horas
+          b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
         </td>
       </tr>
     </tbody>
