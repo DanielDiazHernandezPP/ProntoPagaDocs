@@ -13,25 +13,61 @@ metadata:
 
 ***
 
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs Resaltadas</title>
+  <style>
+    /* Contenedor principal */
+    .tabs-container {
+      width: 80%;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Estilos para las tabs */
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .tab:hover {
+      background-color: #f1f1f1;
+    }
+
+    .active-tab {
+      background-color: #0056b3;
+      color: white;
+      border-bottom: 2px solid #0056b3;
+    }
+
+    /* Estilos para el contenido de las tabs */
+    .tab-content {
+      display: none;
+      padding: 20px;
+      border-top: 2px solid #ddd;
+      background-color: #f9f9f9;
+    }
+
+    .active-content {
+      display: block;
+    }
+
+    /* Resaltado de las tabs activas */
+    .
+`}</HTMLBlock>
+
 <br />
-
-
-\<Columns layout="auto">
-&#x20; \<Column>
-&#x20;   \*\*En web\*\* \<br>\<br>
-&#x20;   a. \*\*Si se tiene desactivado el servicio de validación pago de terceros:\*\* Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a \*\*Aprobar compras > Solicitudes por aprobar\*\*, seleccionar la indicada y hacer clic en \*\*Aprobar afiliación\*\*.
-
-&#x20;   b. \*\*Si se tiene activado el servicio de validación pago de terceros:\*\* Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en \*\*Confirmar afiliación\*\*.
-&#x20; \</Column>
-
-&#x20; \<Column>
-&#x20;   \*Lorem ipsum dolor sit amet, consectetur adipiscing elit\*
-&#x20; \</Column>
-
-&#x20; \<Column>
-&#x20;   \> Ut enim ad minim veniam, quis nostrud ullamco
-&#x20; \</Column>
-\</Columns>
 
 ### General (todos los países)
 
