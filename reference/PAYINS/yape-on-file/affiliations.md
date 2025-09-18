@@ -23,6 +23,23 @@ metadata:
     - recurrencia Yape
   robots: index
 ---
+Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/folder/34607190-e17e5cde-ec99-4cf3-a956-db41ccb369ee?action=share&source=copy-link&creator=45976681&ctx=documentation" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
+
 Este endpoint se usa en Perú, para crear una afiliación de la wallet del cliente con tu comercio. Los servicios de Yape On File que utilizan afiliaciones son:
 
 * **One Click Payment.** Puedes consultar la guía completa en [este enlace](https://docs.prontopaga.com/docs/yape-on-file-ocp#/).
