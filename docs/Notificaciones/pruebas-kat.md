@@ -5,6 +5,14 @@ hidden: true
 metadata:
   robots: index
 ---
+<Accordion title="My Accordion Title" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+</Accordion>
+
+<br />
+
 ### General (todos los países)
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
@@ -864,7 +872,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 # Embedded form
 
-> This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web&ui=embedded-form).
+> This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form).
 
 #### Integration effort
 
