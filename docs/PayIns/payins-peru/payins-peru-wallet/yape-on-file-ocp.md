@@ -40,7 +40,7 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de la
 
 1. **Selección de afiliación.** Durante el checkout, el cliente elige la opción de "Agrega Yape como método de pago". La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
 
-**💻 En web:**
+**🌐 En web:**
 
 <Cards columns={2}>
   <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
