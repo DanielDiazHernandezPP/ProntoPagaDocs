@@ -7,21 +7,6 @@ metadata:
 ---
 <br />
 
-<br />
-
-***
-
-| Mensajes de rechazo |
-| :------------------ |
-|                     |
-|                     |
-
-<br />
-
-<br />
-
-***
-
 <HTMLBlock>{`
 <div class="background-decoration" aria-hidden="true">
             <img class="bg-cards fade-left" src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Union.svg" alt="" role="presentation">
