@@ -13,25 +13,25 @@ metadata:
 
 ***
 
-| En web | En mobile |
-| :----- | :-------- |
-|        |           |
-|        |           |
+| En web | En mobileó |
+| :----- | :--------- |
+|        |            |
+|        |            |
 
 <br />
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco de Chile</span>}>
-  Información sobre límites transaccionales.
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Flujo de validación pago a terceros</span>}>
+  Conoce el flujo de validacion de pago a terceros, tanto para flujo web como flujo mobile.
 
   <Table align={["left","left","left","left"]}>
     <thead>
       <tr>
         <th style={{ textAlign: "left" }}>
-          Banco de Chile
+          En web
         </th>
 
         <th style={{ textAlign: "left" }}>
-          Límite de primera transacción
+          En mobile
         </th>
 
         <th style={{ textAlign: "left" }}>
@@ -47,7 +47,9 @@ metadata:
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen**según el tipo de autenticación de segundo factor**.
+          a. **Si se tiene desactivado el servicio de validación pago de terceros:** Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
+
+          b. **Si se tiene activado el servicio de validación pago de terceros:** Se le pide al cliente confirmar su número de celular para solicitar el pago. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar**.
         </td>
 
         <td style={{ textAlign: "left" }}>
