@@ -45,8 +45,6 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de las sigu
 
 1. **Selección de método.** Durante el checkout de un pago de suscripción, el cliente selecciona a Yape como método de pago en tu sitio web o aplicación. La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
 
-<br />
-
 **🌐 En web:**
 
 <Cards columns={2}>
