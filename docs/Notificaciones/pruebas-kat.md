@@ -769,17 +769,6 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 <br />
 
-<HTMLBlock>{`
-<div class="selectors">
-  <a class="selector" href="/docs/vtex">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VTEX_Logo.svg/305px-VTEX_Logo.svg.png?20211207023221" style="max-height:70px" class="icon-plugin">
-  </a>
-  <a class="selector" href="/docs/shopify">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shopify_logo.svg/800px-Shopify_logo.svg.png?20200909100300" style="max-height:70px" class="icon-plugin">
-  </a>
-</div>
-`}</HTMLBlock>
-
 ***
 
 | Mensajes de rechazo |
