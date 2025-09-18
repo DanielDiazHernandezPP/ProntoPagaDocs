@@ -13,36 +13,39 @@ metadata:
 
 ***
 
-<HTMLBlock>{`
-# Instrucciones de validación de pago
+<br />
 
-## Tabs
+## Instrucciones de Validación de Pago
 
-### [En web](#en-web) | [En mobile](#en-mobile)
+### Tabs
 
----
+* [En web](#en-web)
+* [En mobile](#en-mobile)
 
-### <a name="en-web"></a>En web
+***
 
-**a. Si se tiene desactivado el servicio de validación pago de terceros:**  
+### <a name="en-web" />En web
+
+#### a. Si se tiene desactivado el servicio de validación pago de terceros:
+
 Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
 
-**b. Si se tiene activado el servicio de validación pago de terceros:**  
+#### b. Si se tiene activado el servicio de validación pago de terceros:
+
 Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
 
----
+***
 
-### <a name="en-mobile"></a>En mobile
+### <a name="en-mobile" />En mobile
 
-**a. Si se tiene desactivado el servicio de validación pago de terceros:**  
+#### a. Si se tiene desactivado el servicio de validación pago de terceros:
+
 El cliente debe hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
 
-**b. Si se tiene activado el servicio de validación pago de terceros:**  
-Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.  
-Para dispositivos móviles, se debe agregar un **deeplink de Yape**. Este deeplink redirecciona automáticamente al usuario a la sección de **Código de aprobación** de su aplicación de Yape. La URL del deeplink es: [https://www.yape.com.pe/app/checkout/approval_code](https://www.yape.com.pe/app/checkout/approval_code).
-`}</HTMLBlock>
+#### b. Si se tiene activado el servicio de validación pago de terceros:
 
-<br />
+Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+Para dispositivos móviles, se debe agregar un **deeplink de Yape**. Este deeplink redirecciona automáticamente al usuario a la sección de **Código de aprobación** de su aplicación de Yape. La URL del deeplink es: [https://www.yape.com.pe/app/checkout/approval\_code](https://www.yape.com.pe/app/checkout/approval_code).
 
 ### General (todos los países)
 
