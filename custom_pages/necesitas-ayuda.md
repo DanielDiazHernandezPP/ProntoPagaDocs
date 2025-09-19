@@ -15,7 +15,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
 | ![](https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png)WhatsApp | [Iniciar conversación](https://wa.me/56962922878)  - (+56) 962922878 |
 | 📧  Correo electrónico                                                                                          | [support@prontopaga.com](mailto:support@prontopaga.com)              |
-|  ![](https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png) Slack  | En el canal que compartes con ProntoPaga                             |
+| ![](https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png) Slack   | En el canal que compartes con ProntoPaga                             |
 
 * Después de registrar tu consulta, te brindaremos un ticket para hacer seguimiento a tu pedido.
 * También puedes comunicarte mediante el canal de Slack entre tu comercio y ProntoPaga, para absolver dudas.
