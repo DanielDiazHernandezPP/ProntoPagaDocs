@@ -5,7 +5,7 @@ hidden: false
 ---
 Si tienes dudas, consultas o sugerencias, puedes contactar a nuestro **equipo de _Customer support_** para ser atendido.
 
-El servicio de atención a comercios está disponible las 24 horas del día, los 7 días de la semana, durante todo el año. Después de registrar tu consulta, te **brindaremos un ticket**para hacer seguimiento a tu caso.
+El servicio de atención a comercios está disponible las 24 horas del día, los 7 días de la semana, durante todo el año. Después de registrar tu consulta, te **brindaremos un ticket** para hacer seguimiento a tu caso.
 
 ***
 
