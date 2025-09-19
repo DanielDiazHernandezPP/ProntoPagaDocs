@@ -5,6 +5,16 @@ hidden: false
 ---
 <br />
 
+Canales de atención
+
+WhatsApp (+56) 962922878 à Iniciar conversación (solo mensajes)
+
+Correo electrónico à [support@prontopaga.com](mailto:support@prontopaga.com)
+
+Después de registrar tu consulta, te brindaremos un ticket para hacer seguimiento a tu pedido.
+
+También puedes comunicarte mediante el canal de Slack entre tu comercio y ProntoPaga, para absolver dudas.
+
 <br />
 
 <HTMLBlock>{`
