@@ -14,8 +14,8 @@ Algunos casos que pueden ser atendido por estos canales son:
 ```mermaid
 mindmap
   root("Tipificación de consultas")
-    "Webinars"
-    "Consultas generales"
+    Webinars
+    Consultas generales
     "Abonos"
     "Felicitaciones"
     "Balance de comercio"
