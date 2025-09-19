@@ -47,6 +47,7 @@ Utilizamos la norma ISO 8601 (AAAA-MM-DD) para las fechas y el versionado numér
 
 | Versión | Fecha de lanzamiento | Tipo de cambios            |
 | :------ | :------------------- | :------------------------- |
+| 2.2     | 2025-09-19           | New Feature                |
 | 2.1     | 2025-08-21           | Improvements               |
 | 2.0     | 2025-07-03           | Breaking Change            |
 | 1.9     | 2025-06-17           | New Feature, Security      |
