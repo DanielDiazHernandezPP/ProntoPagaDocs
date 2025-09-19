@@ -16,7 +16,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 <div style="width:100%; max-width:900px; margin:0; border-radius:12px; overflow:hidden;">
   <table style="width:100%; border-collapse:separate; border-spacing:0;">
     <thead>
-      <tr style="background:#f8fafc; color:#111827;">
+      <tr style="background:#FF1F55; color:#111827;">
         <th style="text-align:left; padding:12px 16px;">Canal</th>
         <th style="text-align:left; padding:12px 16px;">Dirección</th>
       </tr>
