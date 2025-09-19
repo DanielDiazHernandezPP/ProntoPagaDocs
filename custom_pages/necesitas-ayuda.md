@@ -12,7 +12,10 @@ Algunos casos que pueden ser atendido por estos canales son:
 <br />
 
 ```mermaid
-mindmap
+flowchart LR 
+ A --- B[fa:fa-spinner B] 
+ B --> C[fa:fa-check C] 
+ B --> D[fa:fa-ban D]mindmap
   root((Tipificación de consultas))
     %% Lado izquierdo
     Webinars
@@ -32,10 +35,5 @@ mindmap
     PayIn
     "Success Rate"
     Sugerencias
-flowchart LR 
- A --- B[fa:fa-spinner B] 
- B --> C[fa:fa-check C] 
- B --> D[fa:fa-ban D]
-```
 
-<br />
+```
