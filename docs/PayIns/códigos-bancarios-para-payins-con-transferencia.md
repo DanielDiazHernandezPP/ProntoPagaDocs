@@ -9,6 +9,8 @@ Para crear un nuevo pago por transferencia bancaria en Chile, Ecuador, o Perú, 
 
 ***
 
+# Perú 
+
 ```json
 [
     {
@@ -61,7 +63,5 @@ Para crear un nuevo pago por transferencia bancaria en Chile, Ecuador, o Perú, 
     }
 ]
 ```
-
-<br />
 
 <br />
