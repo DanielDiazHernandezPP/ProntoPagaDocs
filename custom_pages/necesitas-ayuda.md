@@ -9,6 +9,8 @@ Si tienes dudas, consultas o sugerencias, puedes contactar a nuestro equipo de C
 
 El servicio de atención a comercios está disponible las 24 horas del día, los 7 días de la semana, durante todo el año.
 
+***
+
 ## Canales de atención
 
 <HTMLBlock>{`
@@ -63,6 +65,8 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 `}</HTMLBlock>
 
 Después de registrar tu consulta, **te brindaremos un ticket** para hacer seguimiento a tu caso.
+
+***
 
 ## Consultas frecuentes
 
