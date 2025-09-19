@@ -81,67 +81,21 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 <!-- Canales de contacto — header gris (theme-aware) + links #FF1F55 -->
 <div id="pp-contacts" style="width:100%; max-width:900px; margin:0; border-radius:12px; overflow:hidden;">
   <style>
-    /* Vars por tema */
     #pp-contacts{
-      --brand: #FF1F55;          /* color de enlaces */
-      --header-bg: #F4F4F4;      /* fondo encabezado (light) */
-      --header-text: #111827;    /* texto encabezado (light) */
-      --row-bg: transparent;     /* filas sin fondo propio */
-      --row-text: inherit;       /* tipografía hereda del tema */
+      --brand:#FF1F55;
+      --header-bg:#F4F4F4;
+      --header-text:#111827;
+      --row-bg:transparent;
+      --row-text:inherit;
     }
     @media (prefers-color-scheme: dark){
       #pp-contacts{
-        --header-bg: rgba(255,255,255,0.08); /* gris suave para dark */
-        --header-text: #E5E7EB;              /* texto claro en header */
+        --header-bg:rgba(255,255,255,.08);
+        --header-text:#E5E7EB;
       }
     }
-
-    /* Estilos mínimos */
-    #pp-contacts table{ width:100%; border-collapse:separate; border-spacing:0; }
-    #pp-contacts thead tr{ background:var(--header-bg); color:var(--header-text); }
-    #pp-contacts th{ text-align:left; padding:12px 16px; }
-    #pp-contacts tbody tr{ background:var(--row-bg); color:var(--row-text); }
-    #pp-contacts td{ padding:14px 16px; }
-    #pp-contacts a{ color:var(--brand); text-decoration:none; }
-    #pp-contacts a:hover{ text-decoration:underline; }
-    #pp-contacts .row{ display:inline-flex; align-items:center; gap:10px; }
-    #pp-contacts .icon{ width:20px; height:20px; vertical-align:middle; }
-  </style>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Canal</th>
-        <th>Dirección</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <span class="row">
-            <img class="icon" alt="WhatsApp" src="https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png">
-            <strong>WhatsApp</strong>
-          </span>
-        </td>
-        <td>
-          <a href="https://wa.me/56962922878">Iniciar conversación</a> &nbsp;—&nbsp; (+56) 962922878
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <span class="row">
-            <span style="font-size:18px;">📧</span>
-            <strong>Correo electrónico</strong>
-          </span>
-        </td>
-        <td><a href="mailto:support@prontopaga.com">support@prontopaga.com</a></td>
-      </tr>
-
-      <tr>
-        <td>
-          <span class="row">
-            <img class="icon" alt="Slack" src="https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c4
+    #pp-contacts table{width:100%; border-collapse:separate; border-spacing:0;}
+    #pp-contacts thead tr{background:var(--header-bg);
 `}</HTMLBlock>
 
 <br />
