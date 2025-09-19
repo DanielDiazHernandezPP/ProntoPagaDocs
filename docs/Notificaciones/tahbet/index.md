@@ -19,6 +19,29 @@ metadata:
 
 <Image align="center" width="50px" src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" />
 
+📱
+
+<br />
+
+| Canal                                                                                                           | Dirección                                                            |
+| :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
+| ![](https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png)WhatsApp | [Iniciar conversación](https://wa.me/56962922878)  - (+56) 962922878 |
+| 📧  Correo electrónico                                                                                          | [support@prontopaga.com](mailto:support@prontopaga.com)              |
+| ![](https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png) Slack   | En el canal que compartes con ProntoPaga                             |
+
+Phone
+
+<Image align="left" width="30px" src="https://files.readme.io/409196079e7ba9dce1abd6bddcbbff17db35f0fbd498c3dd9db139727d53d7bc-image.png" />
+
+<br />
+
+|                                                                                                                 |    |    |   |
+| :-------------------------------------------------------------------------------------------------------------- | :- | :- | - |
+| ![](https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png)WhatsApp |    |    |   |
+|                                                                                                                 |    |    |   |
+
+<br />
+
 En este banco, los límites transaccionales se establecen según el tipo de autenticación de segundo factor.
 
 <Table align={["left","left","left","left"]}>
