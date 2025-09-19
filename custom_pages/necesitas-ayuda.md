@@ -11,6 +11,11 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 
 ## Canales de atención
 
+```toml
+```
+
+<br />
+
 ```html
 <!-- Canales de contacto -->
 <div style="width:100%; max-width: 900px; margin: 0; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
