@@ -34,8 +34,6 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 
 ## Canales de atención 💬
 
-<br />
-
 <HTMLBlock>{`
 <!-- Canales de contacto — header gris (theme-aware) + links #FF1F55 -->
 <div id="pp-contacts" style="width:100%; max-width:900px; margin:0; border-radius:12px; overflow:hidden;">
