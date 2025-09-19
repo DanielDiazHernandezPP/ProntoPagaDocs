@@ -76,7 +76,7 @@ Algunos casos que pueden ser atendidos por estos canales son:
 
   <defs>
     <style><![CDATA[
-      .center-box { fill:#F4F4F4; stroke:#F4F4F4; stroke-width:2; rx:16; ry:16; }
+      .center-box { fill:#FF1F55; stroke:#F4F4F4; stroke-width:2; rx:16; ry:16; }
       .leaf-box   { fill:#FFFFFF; stroke:#F4F4F4; stroke-width:2; rx:14; ry:14; }
       .edge       { stroke:#F4F4F4; stroke-width:3; stroke-linecap:round; }
       .label      { font: 18px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
