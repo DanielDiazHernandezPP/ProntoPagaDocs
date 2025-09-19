@@ -68,7 +68,7 @@ Después de registrar tu consulta, **te brindaremos un ticket** para hacer segui
 
 ## Consultas frecuentes
 
-Algunos casos que pueden ser atendido por estos canales son:
+Algunos casos que pueden ser atendidos por estos canales son:
 
 <HTMLBlock>{`
 <!-- Consultas frecuentes -->
