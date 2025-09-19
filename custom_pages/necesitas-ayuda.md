@@ -4,16 +4,16 @@ fullscreen: false
 hidden: false
 ---
 <HTMLBlock>{`
-<!-- Tipificación de consultas – ProntoPaga (#FF1F55), centro más arriba y zoom -->
+<!-- Tipificación de consultas -->
 <svg viewBox="-650 -360 1300 720" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Tipificación de consultas</title>
-  <desc id="desc">Centro #FF1F55 y ramas blancas; centro elevado y diagrama ampliado.</desc>
+  <desc id="desc">Centro #4F49A3, ramas blancas con borde #4F49A3, líneas conectadas al costado del centro.</desc>
 
   <defs>
     <style><![CDATA[
-      .center-box { fill:#FF1F55; stroke:#FF1F55; stroke-width:2; rx:16; ry:16; }
-      .leaf-box   { fill:#FFFFFF; stroke:#FF1F55; stroke-width:2; rx:14; ry:14; }
-      .edge       { stroke:#FF1F55; stroke-width:3; }
+      .center-box { fill:#4F49A3; stroke:#4F49A3; stroke-width:2; rx:16; ry:16; }
+      .leaf-box   { fill:#FFFFFF; stroke:#4F49A3; stroke-width:2; rx:14; ry:14; }
+      .edge       { stroke:#4F49A3; stroke-width:3; stroke-linecap:round; }
       .label      { font: 18px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
       .center-text{ fill:#FFFFFF; font-weight:700; font-size:22px; }
       .shadow { filter:url(#s); }
@@ -23,35 +23,34 @@ hidden: false
     </filter>
   </defs>
 
-  <!-- Centro (subido) -->
-  <rect class="center-box shadow" x="-240" y="-115" width="480" height="110"/>
-  <text class="label center-text" x="0" y="-60">Tipificación de consultas</text>
+  <!-- Centro (más arriba) -->
+  <rect class="center-box shadow" x="-240" y="-140" width="480" height="110"/>
+  <text class="label center-text" x="0" y="-85">Tipificación de consultas</text>
 
-  <!-- Líneas izquierda (anclajes ajustados hacia arriba) -->
+  
   <g class="edge">
-    <line x1="-240" y1="-88" x2="-520" y2="-300"/>
-    <line x1="-240" y1="-82" x2="-520" y2="-240"/>
-    <line x1="-240" y1="-76" x2="-520" y2="-180"/>
-    <line x1="-240" y1="-70" x2="-520" y2="-120"/>
-    <line x1="-240" y1="-64" x2="-520" y2="-60"/>
-    <line x1="-240" y1="-58" x2="-520" y2="0"/>
-    <line x1="-240" y1="-52" x2="-520" y2="60"/>
-    <line x1="-240" y1="-46" x2="-520" y2="120"/>
+    <line x1="-240" y1="-132" x2="-400" y2="-300"/>
+    <line x1="-240" y1="-118" x2="-400" y2="-240"/>
+    <line x1="-240" y1="-104" x2="-400" y2="-180"/>
+    <line x1="-240" y1="-90"  x2="-400" y2="-120"/>
+    <line x1="-240" y1="-76"  x2="-400" y2="-60"/>
+    <line x1="-240" y1="-62"  x2="-400" y2="0"/>
+    <line x1="-240" y1="-48"  x2="-400" y2="60"/>
+    <line x1="-240" y1="-46"  x2="-400" y2="120"/>
   </g>
 
-  <!-- Líneas derecha (anclajes ajustados hacia arriba) -->
+  <!-- Derecha -->
   <g class="edge">
-    <line x1="240" y1="-88" x2="520" y2="-300"/>
-    <line x1="240" y1="-82" x2="520" y2="-240"/>
-    <line x1="240" y1="-76" x2="520" y2="-180"/>
-    <line x1="240" y1="-70" x2="520" y2="-120"/>
-    <line x1="240" y1="-64" x2="520" y2="-60"/>
-    <line x1="240" y1="-58" x2="520" y2="0"/>
-    <line x1="240" y1="-52" x2="520" y2="60"/>
-    <line x1="240" y1="-46" x2="520" y2="120"/>
+    <line x1="240" y1="-132" x2="400" y2="-300"/>
+    <line x1="240" y1="-118" x2="400" y2="-240"/>
+    <line x1="240" y1="-104" x2="400" y2="-180"/>
+    <line x1="240" y1="-90"  x2="400" y2="-120"/>
+    <line x1="240" y1="-76"  x2="400" y2="-60"/>
+    <line x1="240" y1="-62"  x2="400" y2="0"/>
+    <line x1="240" y1="-48"  x2="400" y2="60"/>
+    <line x1="240" y1="-46"  x2="400" y2="120"/>
   </g>
 
-  <!-- Nodos izquierda -->
   <g>
     <rect class="leaf-box shadow" x="-640" y="-322" width="240" height="44"/><text class="label" x="-520" y="-300">Webinars</text>
     <rect class="leaf-box shadow" x="-640" y="-262" width="240" height="44"/><text class="label" x="-520" y="-240">Consultas generales</text>
@@ -63,7 +62,6 @@ hidden: false
     <rect class="leaf-box shadow" x="-640" y="98"   width="240" height="44"/><text class="label" x="-520" y="120">Incidencias técnicas</text>
   </g>
 
-  <!-- Nodos derecha -->
   <g>
     <rect class="leaf-box shadow" x="400" y="-322" width="240" height="44"/><text class="label" x="520" y="-300">Liquidación</text>
     <rect class="leaf-box shadow" x="400" y="-262" width="240" height="44"/><text class="label" x="520" y="-240">Mantención</text>
@@ -76,12 +74,5 @@ hidden: false
   </g>
 </svg>
 `}</HTMLBlock>
-
-<br />
-
-https://www.canva.com/design/DAGzcM3CtgQ/MQjiy_7smDolv5f1ol2qcw/view 
-
-```html
-```
 
 <br />
