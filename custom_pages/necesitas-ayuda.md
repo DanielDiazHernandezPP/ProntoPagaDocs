@@ -3,9 +3,7 @@ title: ¿Necesitas ayuda?
 fullscreen: false
 hidden: false
 ---
-# Customer support
-
-Si tienes dudas, consultas o sugerencias, puedes contactar a nuestro equipo de Customer support para ser atendido.
+Si tienes dudas, consultas o sugerencias, puedes contactar a nuestro **equipo de _Customer support_** para ser atendido.
 
 El servicio de atención a comercios está disponible las 24 horas del día, los 7 días de la semana, durante todo el año.
 
