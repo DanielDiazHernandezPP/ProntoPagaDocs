@@ -18,7 +18,7 @@ En este artículo se muestran las listas de códigos bancarios por país.
 
 ***
 
-# Perú
+## Perú
 
 Lista de códigos bancarios para Perú.
 
