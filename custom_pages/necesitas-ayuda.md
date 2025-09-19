@@ -80,7 +80,7 @@ Algunos casos que pueden ser atendidos por estos canales son:
       .leaf-box   { fill:#FFFFFF; stroke:#F4F4F4; stroke-width:2; rx:14; ry:14; }
       .edge       { stroke:#F4F4F4; stroke-width:3; stroke-linecap:round; }
       .label      { font: 18px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
-      .center-text{ fill:#111827; font-weight:700; font-size:22px; }
+      .center-text{ fill:#FFFFFF; font-weight:700; font-size:22px; }
       .shadow { filter:url(#s); }UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
       .center-text{ fill:#4F49A3; font-weight:700; font-size:22px; }
       .shadow { filter:url(#s); }
