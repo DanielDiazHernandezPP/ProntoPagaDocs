@@ -11,13 +11,10 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 
 ## Canales de atención
 
-```toml
-```
-
 <br />
 
-```html
-<!-- Canales de contacto -->
+<HTMLBlock>{`
+<!-- Canales de contacto – tabla bonita para README -->
 <div style="width:100%; max-width: 900px; margin: 0; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
   <table style="width:100%; border-collapse:separate; border-spacing:0; font: 16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial;">
     <thead>
@@ -65,12 +62,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
     </tbody>
   </table>
 </div>
-
-```
-
-<br />
-
-<br />
+`}</HTMLBlock>
 
 * Después de registrar tu consulta, te brindaremos un ticket para hacer seguimiento a tu pedido.
 * También puedes comunicarte mediante el canal de Slack entre tu comercio y ProntoPaga, para absolver dudas.
