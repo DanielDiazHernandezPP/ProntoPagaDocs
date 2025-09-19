@@ -1,10 +1,10 @@
 ---
-title: 'Glosario '
+title: Glosario de pagos digitales
 excerpt: Conoce los términos de la industria de pagos dentro de esta documentación.
 deprecated: false
 hidden: false
 metadata:
-  title: Glosario | ProntoPaga Docs
+  title: Glosario de pagos digitales | ProntoPaga Docs
   description: >-
     Learn about the definitions most commonly used by ProntoPaga within the
     payments sector.
