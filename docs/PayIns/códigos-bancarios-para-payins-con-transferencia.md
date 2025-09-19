@@ -1,23 +1,26 @@
 ---
 title: Códigos bancarios para PayIns con transferencia
+excerpt: 'Conoce la lista de códigos bancarios para PayIns. '
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesario utilizar [Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y enviar el código bancario en el campo `bankCode`. El valor de bankCode depende del país y debe elegirse desde las tablas que encontrarás más abajo.
+Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesario utilizar el [endpoindt Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y **enviar el código bancario** en el campo `bankCode`. El valor de bankCode depende del país y debe elegirse desde las tablas que encontrarás más abajo.
 
-<Callout icon="❗️">
-  **Importante**: 
+En este artículo se muestran las listas de códigos bancarios por país. 
+
+<Callout icon="❗️" theme="error">
+  **Importante**:
 
   El resto de campos (monto, datos del cliente, URLs, firma, etc.) deben venir en el cuerpo de la solicitud según tu integración.
 </Callout>
 
-En este artículo se muestran las listas de códigos bancarios por país.
-
 ***
 
 # Perú
+
+Lista de códigos bancarios para Perú. 
 
 ```json
 [
@@ -72,32 +75,11 @@ En este artículo se muestran las listas de códigos bancarios por país.
 ]
 ```
 
-### Parámetros
-
-Para probar los códigos deberás intentar con los siguientes parámetros
-
-```json
-{
-"currency": "PEN",
-  "country": "PE",
-  "amount": 100,
-  "clientName": "John Doe",
-  "clientEmail": "johndoe@example.com",
-  "clientPhone": "999999999",
-  "clientDocument": "12345678912",
-  "paymentMethod": "PagaConTuBanco",
-  "bankCode": "PE_490",
-  "urlConfirmation": "Webhook",
-  "urlFinal": "example.com/successful",
-  "urlRejected": "example.com/declined",
-  "order": "1234",
- "sing": "Signature of the parameters"
-}
-```
-
 ***
 
 ## Chile
+
+Lista de códigos bancarios para CHile.
 
 ```json
 [
@@ -168,6 +150,31 @@ Para probar los códigos deberás intentar con los siguientes parámetros
     "logo": "https://sandbox.insospa.com/img/gateways/type-scotiabank-isotype-true-1712676743.svg"
   }
 ]
+```
+
+***
+
+### Parámetros
+
+Para probar los códigos deberás intentar con los siguientes parámetros. Este ejemplo muestra un JSON para el caso de Perú. 
+
+```json
+{
+"currency": "PEN",
+  "country": "PE",
+  "amount": 100,
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "PagaConTuBanco",
+  "bankCode": "PE_490",
+  "urlConfirmation": "Webhook",
+  "urlFinal": "example.com/successful",
+  "urlRejected": "example.com/declined",
+  "order": "1234",
+ "sing": "Signature of the parameters"
+}
 ```
 
 <br />
