@@ -8,7 +8,7 @@ metadata:
 ---
 Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesario utilizar el [endpoindt Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y **enviar el código bancario** en el campo `bankCode`. El valor de bankCode depende del país y debe elegirse desde las tablas que encontrarás más abajo.
 
-En este artículo se muestran las listas de códigos bancarios por país. 
+En este artículo se muestran las listas de códigos bancarios por país.
 
 <Callout icon="❗️" theme="error">
   **Importante**:
@@ -20,7 +20,7 @@ En este artículo se muestran las listas de códigos bancarios por país.
 
 # Perú
 
-Lista de códigos bancarios para Perú. 
+Lista de códigos bancarios para Perú.
 
 ```json
 [
@@ -156,7 +156,7 @@ Lista de códigos bancarios para CHile.
 
 ### Parámetros
 
-Para probar los códigos deberás intentar con los siguientes parámetros. Este ejemplo muestra un JSON para el caso de Perú. 
+Este ejemplo muestra los parámetros con los datos de Perú.
 
 ```json
 {
