@@ -14,7 +14,6 @@ Algunos casos que pueden ser atendido por estos canales son:
 ```mermaid
 flowchart LR
   C(["Tipificación de consultas"])
-
   C --- W["Webinars"]
   C --- CG["Consultas generales"]
   C --- AB["Abonos"]
@@ -23,7 +22,6 @@ flowchart LR
   C --- PS["Portal de servicios"]
   C --- PO["PayOut"]
   C --- IT["Incidencias técnicas"]
-
   C --- LI["Liquidación"]
   C --- MA["Mantención"]
   C --- ME["Mejoras"]
@@ -32,5 +30,4 @@ flowchart LR
   C --- PI["PayIn"]
   C --- SR["Success Rate"]
   C --- SU["Sugerencias"]
-
 ```
