@@ -16,17 +16,17 @@ mindmap
   root("Tipificación de consultas")
     Webinars
     Consultas generales
-    "Abonos"
-    "Felicitaciones"
-    "Balance de comercio"
-    "Portal de servicios"
-    "PayOut"
-    "Incidencias técnicas"
-    "Liquidación"
-    "Mantención"
-    "Mejoras"
-    "Métodos de pago"
-    "Pay4U"
+    Abonos
+    Felicitaciones
+    Balance de comercio
+    Portal de servicios
+    PayOut
+    Incidencias técnicas
+    Liquidación
+    Mantención
+    Mejoras
+    Métodos de pago
+    Pay4U
     "PayIn"
     "Success Rate"
     "Sugerencias"
