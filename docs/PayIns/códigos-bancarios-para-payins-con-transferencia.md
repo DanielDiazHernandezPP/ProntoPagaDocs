@@ -1,7 +1,7 @@
 ---
 title: Códigos bancarios para PayIns con transferencia
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
