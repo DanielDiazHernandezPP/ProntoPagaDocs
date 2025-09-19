@@ -13,7 +13,7 @@ Algunos casos que pueden ser atendido por estos canales son:
 
 ```mermaid
 mindmap
-  root("Tipificación de consultas")
+  root(Tipificación de consultas)
     Webinars
     Consultas generales
     Abonos
@@ -27,7 +27,7 @@ mindmap
     Mejoras
     Métodos de pago
     Pay4U
-    "PayIn"
-    "Success Rate"
-    "Sugerencias"
+    PayIn
+    Success Rate
+    Sugerencias
 ```
