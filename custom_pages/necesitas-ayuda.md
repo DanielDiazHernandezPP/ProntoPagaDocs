@@ -12,28 +12,25 @@ Algunos casos que pueden ser atendido por estos canales son:
 <br />
 
 ```mermaid
-flowchart LR 
- A --- B[fa:fa-spinner B] 
- B --> C[fa:fa-check C] 
- B --> D[fa:fa-ban D]mindmap
-  root((Tipificación de consultas))
-    %% Lado izquierdo
-    Webinars
-    "Consultas generales"
-    Abonos
-    Felicitaciones
-    "Balance de comercio"
-    "Portal de servicios"
-    PayOut
-    "Incidencias técnicas"
-    %% Lado derecho
-    Liquidación
-    Mantención
-    Mejoras
-    "Métodos de pago"
-    Pay4U
-    PayIn
-    "Success Rate"
-    Sugerencias
+flowchart LR
+  C(["Tipificación de consultas"])
+
+  C --- W["Webinars"]
+  C --- CG["Consultas generales"]
+  C --- AB["Abonos"]
+  C --- FE["Felicitaciones"]
+  C --- BC["Balance de comercio"]
+  C --- PS["Portal de servicios"]
+  C --- PO["PayOut"]
+  C --- IT["Incidencias técnicas"]
+
+  C --- LI["Liquidación"]
+  C --- MA["Mantención"]
+  C --- ME["Mejoras"]
+  C --- MP["Métodos de pago"]
+  C --- P4["Pay4U"]
+  C --- PI["PayIn"]
+  C --- SR["Success Rate"]
+  C --- SU["Sugerencias"]
 
 ```
