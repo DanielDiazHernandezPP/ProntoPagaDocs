@@ -4,6 +4,34 @@ excerpt: En este artículo se muestran las listas de códigos bancarios por paí
 deprecated: false
 hidden: true
 metadata:
+  title: Códigos bancarios de PayIns
+  description: >-
+    Cómo crear pagos por transferencia en Chile y Perú con Create Payment: envía
+    el bankCode correcto y consulta aquí las listas de bancos y un ejemplo de
+    payload.
+  image: >-
+    https://files.readme.io/6a73613a99c856ebb8da4030e21a37ee867a3deaeb5d8a02a0e7d2d1c1677b94-Captura_de_pantalla_2025-09-08_a_las_4.24.49_p._m..png
+  keywords:
+    - ProntoPaga
+    - transferencias bancarias
+    - bankCode
+    - códigos bancarios
+    - Chile
+    - Perú
+    - CLP
+    - PEN
+    - Create Payment
+    - API de pagos
+    - integración de pagos
+    - payins
+    - payouts
+    - webhook
+    - firma HMAC
+    - ejemplo de payload
+    - bancos peruanos
+    - bancos chilenos
+    - pagos con banco
+    - pasarela de pagos
   robots: index
 ---
 Para crear un nuevo pago por **transferencia bancaria en Chile y Perú**, es necesario utilizar el [endpoindt Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y **enviar el código bancario** en el campo `bankCode`. El valor de bankCode depende del país.
