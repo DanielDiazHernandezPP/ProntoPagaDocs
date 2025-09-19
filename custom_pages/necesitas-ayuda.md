@@ -22,7 +22,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
       </tr>
     </thead>
     <tbody>
-      <tr style="background:#ffffff; color:#0f172a;">
+      <tr style="background:#ffffff; color:#FF1F55;">
         <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
           <span style="display:inline-flex; align-items:center; gap:10px;">
             <img alt="WhatsApp" src="https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png" width="20" height="20" style="vertical-align:middle;">
@@ -86,7 +86,7 @@ Algunos casos que pueden ser atendidos por estos canales son:
       .shadow { filter:url(#s); }
     ]]></style>
     <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b1220" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FF1F55" flood-opacity="0.12"/>
     </filter>
   </defs>
 
