@@ -1,7 +1,7 @@
 ---
 title: ¿Necesitas ayuda?
 fullscreen: false
-hidden: true
+hidden: false
 ---
 Si tienes dudas, consultas o sugerencias sobre los reportes transaccionales o financieros de tu comercio u otros temas, puedes contactar a nuestro equipo de Customer support, para ser atendido.
 
