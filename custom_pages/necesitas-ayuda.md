@@ -46,7 +46,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
         </td>
       </tr>
 
-      <tr style="background:#ffffff; color:#0f172a;">
+      <tr style="background:#ffffff; color:#111827;">
         <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
           <span style="display:inline-flex; align-items:center; gap:10px;">
             <img alt="Slack" src="https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png" width="20" height="20" style="vertical-align:middle;">
