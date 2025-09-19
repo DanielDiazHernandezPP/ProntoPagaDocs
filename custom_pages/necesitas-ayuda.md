@@ -86,7 +86,7 @@ Algunos casos que pueden ser atendidos por estos canales son:
       .shadow { filter:url(#s); }
     ]]></style>
     <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FF1F55" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#111827" flood-opacity="0.12"/>
     </filter>
   </defs>
 
