@@ -82,7 +82,7 @@ Algunos casos que pueden ser atendidos por estos canales son:
       .label      { font: 18px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
       .center-text{ fill:#111827; font-weight:700; font-size:22px; }
       .shadow { filter:url(#s); }UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
-      .center-text{ fill:#FFFFFF; font-weight:700; font-size:22px; }
+      .center-text{ fill:#4F49A3; font-weight:700; font-size:22px; }
       .shadow { filter:url(#s); }
     ]]></style>
     <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
