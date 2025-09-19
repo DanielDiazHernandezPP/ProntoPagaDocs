@@ -2,6 +2,29 @@
 title: ¿Necesitas ayuda?
 fullscreen: false
 hidden: false
+metadata:
+  title: Soporte Prontopaga
+  description: >-
+    ¿Tienes dudas con tu integración? En ProntoPaga Docs encuentras guías claras
+    y, si necesitas asistencia personalizada, nuestro equipo de soporte te
+    ayuda.
+  image: >-
+    https://files.readme.io/2fa8798c3f2a1d96a00724d999c8f402ae5970a5fcff00d36b45ae7e09aaa680-Prontopaga_logotipo.png
+  keywords:
+    - prontopaga
+    - documentación
+    - soporte
+    - ayuda
+    - integraciones
+    - pasarela de pagos
+    - payins
+    - payouts
+    - api de pagos
+    - contacto soporte
+    - asistencia técnica
+    - guía de integración
+    - webhooks
+    - status page
 ---
 Si tienes dudas, consultas o sugerencias, puedes contactar a nuestro **equipo de _Customer support_** para ser atendido.
 
