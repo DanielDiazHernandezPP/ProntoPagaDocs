@@ -74,7 +74,7 @@ Algunos casos que pueden ser atendidos por estos canales son:
 <!-- Consultas frecuentes -->
 <svg viewBox="-650 -360 1300 720" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Consultas frecuentes</title>
-  <desc id="desc">Centro #4F49A3, ramas blancas con borde #4F49A3, líneas conectadas al costado del centro.</desc>
+  <desc id="desc">Centro #111827, ramas blancas con borde #4F49A3, líneas conectadas al costado del centro.</desc>
 
   <defs>
     <style><![CDATA[
