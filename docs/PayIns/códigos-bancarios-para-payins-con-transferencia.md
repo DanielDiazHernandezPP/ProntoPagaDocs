@@ -66,9 +66,10 @@ Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesar
 
 ### Parámetros
 
-Para probar los códigos deberás intentar con los siguientes parámetros 
+Para probar los códigos deberás intentar con los siguientes parámetros
 
 ```json
+{
 "currency": "PEN",
   "country": "PE",
   "amount": 100,
@@ -82,7 +83,8 @@ Para probar los códigos deberás intentar con los siguientes parámetros
   "urlFinal": "example.com/successful",
   "urlRejected": "example.com/declined",
   "order": "1234",
-  "sing": "Signature of the parameters"
+ "sing": "Signature of the parameters"
+}
 ```
 
 <br />
