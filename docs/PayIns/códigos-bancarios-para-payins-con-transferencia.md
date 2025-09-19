@@ -87,7 +87,7 @@ Para probar los códigos deberás intentar con los siguientes parámetros
 }
 ```
 
-<br />
+***
 
 ## Chile
 
