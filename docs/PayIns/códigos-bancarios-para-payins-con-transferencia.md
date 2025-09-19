@@ -1,20 +1,12 @@
 ---
-title: Códigos bancarios para PayIns con transferencia
-excerpt: 'Conoce la lista de códigos bancarios para PayIns. '
+title: 'Códigos bancarios para PayIns '
+excerpt: En este artículo se muestran las listas de códigos bancarios por país.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesario utilizar el [endpoindt Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y **enviar el código bancario** en el campo `bankCode`. El valor de bankCode depende del país y debe elegirse desde las tablas que encontrarás más abajo.
-
-En este artículo se muestran las listas de códigos bancarios por país.
-
-<Callout icon="❗️" theme="error">
-  **Importante**:
-
-  El resto de campos (monto, datos del cliente, URLs, firma, etc.) deben venir en el cuerpo de la solicitud según tu integración.
-</Callout>
+Para crear un nuevo pago por **transferencia bancaria en Chile y Perú**, es necesario utilizar el [endpoindt Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y **enviar el código bancario** en el campo `bankCode`. El valor de bankCode depende del país.
 
 ***
 
@@ -176,5 +168,7 @@ Este ejemplo muestra los parámetros con los datos de Perú.
  "sing": "Signature of the parameters"
 }
 ```
+
+<br />
 
 <br />
