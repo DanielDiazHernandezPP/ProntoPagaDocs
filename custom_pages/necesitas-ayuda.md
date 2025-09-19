@@ -9,7 +9,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 
 ***
 
-## Canales de atención
+## Canales de atención 💬
 
 <HTMLBlock>{`
 <!-- Canales de contacto -->
@@ -64,7 +64,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 
 ***
 
-## Consultas frecuentes
+## Consultas frecuentes ℹ️
 
 Algunos casos que pueden ser atendidos por estos canales son:
 
