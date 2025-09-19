@@ -12,7 +12,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 ## Canales de atención
 
 <HTMLBlock>{`
-<!-- Canales de contacto – tabla bonita para README -->
+<!-- Canales de contacto -->
 <div style="width:100%; max-width: 900px; margin: 0; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
   <table style="width:100%; border-collapse:separate; border-spacing:0; font: 16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial;">
     <thead>
@@ -73,7 +73,7 @@ Algunos casos que pueden ser atendido por estos canales son:
 <HTMLBlock>{`
 <!-- Tipificación de consultas -->
 <svg viewBox="-650 -360 1300 720" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Tipificación de consultas</title>
+  <title id="title">Consultas frecuentes</title>
   <desc id="desc">Centro #4F49A3, ramas blancas con borde #4F49A3, líneas conectadas al costado del centro.</desc>
 
   <defs>
