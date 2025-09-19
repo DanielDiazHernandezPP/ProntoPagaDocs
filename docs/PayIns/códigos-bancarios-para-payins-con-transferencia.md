@@ -2,7 +2,7 @@
 title: 'Códigos bancarios para PayIns '
 excerpt: En este artículo se muestran las listas de códigos bancarios por país.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Códigos bancarios de PayIns
   description: >-
