@@ -64,4 +64,29 @@ Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesar
 ]
 ```
 
+### Parámetros
+
+Para probar los códigos deberás intentar con los siguientes parámetros 
+
+```json
+"currency": "PEN",
+  "country": "PE",
+  "amount": 100,
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "PagaConTuBanco",
+  "bankCode": "PE_490",
+  "urlConfirmation": "Webhook",
+  "urlFinal": "example.com/successful",
+  "urlRejected": "example.com/declined",
+  "order": "1234",
+  "sing": "Signature of the parameters"
+```
+
+<br />
+
+## Chile
+
 <br />
