@@ -75,7 +75,9 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
   </tbody>
 </Table>
 
-<br />
+﻿﻿﻿﻿﻿
+
+﻿﻿﻿
 
 <HTMLBlock>{`
 <!-- Canales de contacto — header gris (theme-aware) + links #FF1F55 -->
@@ -152,6 +154,57 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 <br />
 
 <br />
+
+<HTMLBlock>{`
+<!-- Canales de contacto -->
+<div style="width:100%; max-width:900px; margin:0; border-radius:12px; overflow:hidden;">
+  <table style="width:100%; border-collapse:separate; border-spacing:0;">
+    <thead>
+      <tr style="background:##F4F4F4; color:#111827;">
+        <th style="text-align:left; padding:12px 16px;">Canal</th>
+        <th style="text-align:left; padding:12px 16px;">Dirección</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#ffffff; color:#0f172a;">
+        <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
+          <span style="display:inline-flex; align-items:center; gap:10px;">
+            <img alt="WhatsApp" src="https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png" width="20" height="20" style="vertical-align:middle;">
+            <strong>WhatsApp</strong>
+          </span>
+        </td>
+        <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
+          <a href="https://wa.me/56962922878">Iniciar conversación</a> &nbsp;—&nbsp; (+56) 962922878
+        </td>
+      </tr>
+
+      <tr style="background:#ffffff; color:#0f172a;">
+        <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
+          <span style="display:inline-flex; align-items:center; gap:10px;">
+            <span style="font-size:18px;">📧</span>
+            <strong>Correo electrónico</strong>
+          </span>
+        </td>
+        <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
+          <a href="mailto:support@prontopaga.com">support@prontopaga.com</a>
+        </td>
+      </tr>
+
+      <tr style="background:#ffffff; color:#111827;">
+        <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
+          <span style="display:inline-flex; align-items:center; gap:10px;">
+            <img alt="Slack" src="https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png" width="20" height="20" style="vertical-align:middle;">
+            <strong>Slack</strong>
+          </span>
+        </td>
+        <td style="padding:14px 16px; border-top:1px solid #e5e7eb;">
+          En el canal que compartes con ProntoPaga
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`}</HTMLBlock>
 
 <Table align={["left","left","left","left"]}>
   <thead>
