@@ -85,8 +85,6 @@ Algunos casos que pueden ser atendido por estos canales son:
 </svg>
 `}</HTMLBlock>
 
-<br />
-
 # Canales de atención
 
 WhatsApp (+56) 962922878 à Iniciar conversación (solo mensajes)
