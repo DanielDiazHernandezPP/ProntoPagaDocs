@@ -4,70 +4,78 @@ fullscreen: false
 hidden: false
 ---
 <HTMLBlock>{`
-<!-- Tipificación de consultas – Centro #FF1F55, ramas blancas -->
+<!-- Tipificación de consultas – SVG esquema azul (grande) -->
 <svg viewBox="-760 -420 1520 840" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Tipificación de consultas</title>
-  <desc id="desc">Nodo central fucsia (#FF1F55) con 16 ramas; etiquetas blancas con borde #FF1F55.</desc>
+  <desc id="desc">Diagrama radial con un nodo central azul oscuro y 16 categorías en celeste.</desc>
+
   <defs>
-    <style><![CDATA[
-      .hub{fill:#FF1F55}
-      .hubText{fill:#fff;font:700 22px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial;text-anchor:middle;dominant-baseline:middle}
-      .edge{stroke:#FF1F55;stroke-width:3;stroke-linecap:round}
-      .leaf{fill:#fff;stroke:#FF1F55;stroke-width:2;rx:14;ry:14}
-      .leafText{fill:#1F2937;font:17px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial;text-anchor:middle;dominant-baseline:middle}
-      .shadow{filter:url(#s)}
+    <style type="text/css"><![CDATA[
+      .center-box { fill:#0F2A5A; stroke:#0F2A5A; stroke-width:2; rx:16; ry:16; }
+      .leaf-box   { fill:#E6F0FF; stroke:#1E3A8A; stroke-width:1.8; rx:14; ry:14; }
+      .edge       { stroke:#93C5FD; stroke-width:3; }
+      .label      { font: 18px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial; fill:#0F2A5A; dominant-baseline: middle; text-anchor: middle; }
+      .center-text{ fill:#FFFFFF; font-weight:700; font-size:22px; }
+      .shadow { filter:url(#s); }
     ]]></style>
+
+    <!-- Sombra sutil -->
     <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000" flood-opacity="0.08"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b1220" flood-opacity="0.15"/>
     </filter>
   </defs>
 
-  <!-- centro -->
-  <circle class="hub shadow" cx="0" cy="-10" r="110"/>
-  <text class="hubText" x="0" y="-28">TIPIFICACIÓN</text>
-  <text class="hubText" x="0" y="0">DE CONSULTAS</text>
+  <!-- Centro (más grande) -->
+  <rect class="center-box shadow" x="-240" y="-55" width="480" height="110"/>
+  <text class="label center-text" x="0" y="0">Tipificación de consultas</text>
 
-  <!-- Ramas (anclaje a 160px; cajas a ~270px) -->
+  <!-- Líneas izquierda -->
   <g class="edge">
-    <!-- 16 direcciones -->
-    <line x1="0" y1="-10" x2="0" y2="-170"/>
-    <line x1="0" y1="-10" x2="60" y2="-160"/>
-    <line x1="0" y1="-10" x2="115" y2="-125"/>
-    <line x1="0" y1="-10" x2="160" y2="-60"/>
-    <line x1="0" y1="-10" x2="170" y2="-10"/>
-    <line x1="0" y1="-10" x2="160" y2="40"/>
-    <line x1="0" y1="-10" x2="120" y2="100"/>
-    <line x1="0" y1="-10" x2="60" y2="150"/>
-    <line x1="0" y1="-10" x2="0" y2="160"/>
-    <line x1="0" y1="-10" x2="-60" y2="150"/>
-    <line x1="0" y1="-10" x2="-120" y2="100"/>
-    <line x1="0" y1="-10" x2="-160" y2="40"/>
-    <line x1="0" y1="-10" x2="-170" y2="-10"/>
-    <line x1="0" y1="-10" x2="-160" y2="-60"/>
-    <line x1="0" y1="-10" x2="-115" y2="-125"/>
-    <line x1="0" y1="-10" x2="-60" y2="-160"/>
+    <line x1="-240" y1="-28" x2="-520" y2="-300"/>
+    <line x1="-240" y1="-22" x2="-520" y2="-240"/>
+    <line x1="-240" y1="-16" x2="-520" y2="-180"/>
+    <line x1="-240" y1="-10" x2="-520" y2="-120"/>
+    <line x1="-240" y1="-4"  x2="-520" y2="-60"/>
+    <line x1="-240" y1="2"   x2="-520" y2="0"/>
+    <line x1="-240" y1="8"   x2="-520" y2="60"/>
+    <line x1="-240" y1="14"  x2="-520" y2="120"/>
   </g>
 
-  <!-- Cajas y textos (edítalos a gusto) -->
-  <!-- parte superior y sentido horario -->
-  <g transform="translate(0,-270)"><rect class="leaf shadow" x="-130" y="-22" width="260" height="44"/><text class="leafText" y="0">Webinars</text></g>
-  <g transform="translate(95,-245)"><rect class="leaf shadow" x="-140" y="-22" width="280" height="44"/><text class="leafText" y="0">Consultas generales</text></g>
-  <g transform="translate(175,-195)"><rect class="leaf shadow" x="-120" y="-22" width="240" height="44"/><text class="leafText" y="0">Abonos</text></g>
-  <g transform="translate(235,-120)"><rect class="leaf shadow" x="-130" y="-22" width="260" height="44"/><text class="leafText" y="0">Felicitaciones</text></g>
-  <g transform="translate(270,-40)"><rect class="leaf shadow" x="-155" y="-22" width="310" height="44"/><text class="leafText" y="0">Métodos de pago</text></g>
-  <g transform="translate(250,40)"><rect class="leaf shadow" x="-120" y="-22" width="240" height="44"/><text class="leafText" y="0">Pay4U</text></g>
-  <g transform="translate(190,110)"><rect class="leaf shadow" x="-120" y="-22" width="240" height="44"/><text class="leafText" y="0">PayIn</text></g>
-  <g transform="translate(95,170)"><rect class="leaf shadow" x="-130" y="-22" width="260" height="44"/><text class="leafText" y="0">Success Rate</text></g>
+  <!-- Líneas derecha -->
+  <g class="edge">
+    <line x1="240" y1="-28" x2="520" y2="-300"/>
+    <line x1="240" y1="-22" x2="520" y2="-240"/>
+    <line x1="240" y1="-16" x2="520" y2="-180"/>
+    <line x1="240" y1="-10" x2="520" y2="-120"/>
+    <line x1="240" y1="-4"  x2="520" y2="-60"/>
+    <line x1="240" y1="2"   x2="520" y2="0"/>
+    <line x1="240" y1="8"   x2="520" y2="60"/>
+    <line x1="240" y1="14"  x2="520" y2="120"/>
+  </g>
 
-  <!-- lado inferior y regreso antihorario -->
-  <g transform="translate(0,250)"><rect class="leaf shadow" x="-140" y="-22" width="280" height="44"/><text class="leafText" y="0">Sugerencias</text></g>
-  <g transform="translate(-95,170)"><rect class="leaf shadow" x="-140" y="-22" width="280" height="44"/><text class="leafText" y="0">Incidencias técnicas</text></g>
-  <g transform="translate(-190,110)"><rect class="leaf shadow" x="-130" y="-22" width="260" height="44"/><text class="leafText" y="0">PayOut</text></g>
-  <g transform="translate(-250,40)"><rect class="leaf shadow" x="-150" y="-22" width="300" height="44"/><text class="leafText" y="0">Portal de servicios</text></g>
-  <g transform="translate(-270,-40)"><rect class="leaf shadow" x="-165" y="-22" width="330" height="44"/><text class="leafText" y="0">Balance de comercio</text></g>
-  <g transform="translate(-235,-120)"><rect class="leaf shadow" x="-110" y="-22" width="220" height="44"/><text class="leafText" y="0">Mejoras</text></g>
-  <g transform="translate(-175,-195)"><rect class="leaf shadow" x="-120" y="-22" width="240" height="44"/><text class="leafText" y="0">Mantención</text></g>
-  <g transform="translate(-95,-245)"><rect class="leaf shadow" x="-120" y="-22" width="240" height="44"/><text class="leafText" y="0">Liquidación</text></g>
+  <!-- Nodos izquierda -->
+  <g>
+    <rect class="leaf-box shadow" x="-640" y="-322" width="240" height="44"/><text class="label" x="-520" y="-300">Webinars</text>
+    <rect class="leaf-box shadow" x="-640" y="-262" width="240" height="44"/><text class="label" x="-520" y="-240">Consultas generales</text>
+    <rect class="leaf-box shadow" x="-640" y="-202" width="240" height="44"/><text class="label" x="-520" y="-180">Abonos</text>
+    <rect class="leaf-box shadow" x="-640" y="-142" width="240" height="44"/><text class="label" x="-520" y="-120">Felicitaciones</text>
+    <rect class="leaf-box shadow" x="-640" y="-82"  width="240" height="44"/><text class="label" x="-520" y="-60">Balance de comercio</text>
+    <rect class="leaf-box shadow" x="-640" y="-22"  width="240" height="44"/><text class="label" x="-520" y="0">Portal de servicios</text>
+    <rect class="leaf-box shadow" x="-640" y="38"   width="240" height="44"/><text class="label" x="-520" y="60">PayOut</text>
+    <rect class="leaf-box shadow" x="-640" y="98"   width="240" height="44"/><text class="label" x="-520" y="120">Incidencias técnicas</text>
+  </g>
+
+  <!-- Nodos derecha -->
+  <g>
+    <rect class="leaf-box shadow" x="400" y="-322" width="240" height="44"/><text class="label" x="520" y="-300">Liquidación</text>
+    <rect class="leaf-box shadow" x="400" y="-262" width="240" height="44"/><text class="label" x="520" y="-240">Mantención</text>
+    <rect class="leaf-box shadow" x="400" y="-202" width="240" height="44"/><text class="label" x="520" y="-180">Mejoras</text>
+    <rect class="leaf-box shadow" x="400" y="-142" width="240" height="44"/><text class="label" x="520" y="-120">Métodos de pago</text>
+    <rect class="leaf-box shadow" x="400" y="-82"  width="240" height="44"/><text class="label" x="520" y="-60">Pay4U</text>
+    <rect class="leaf-box shadow" x="400" y="-22"  width="240" height="44"/><text class="label" x="520" y="0">PayIn</text>
+    <rect class="leaf-box shadow" x="400" y="38"   width="240" height="44"/><text class="label" x="520" y="60">Success Rate</text>
+    <rect class="leaf-box shadow" x="400" y="98"   width="240" height="44"/><text class="label" x="520" y="120">Sugerencias</text>
+  </g>
 </svg>
 `}</HTMLBlock>
 
