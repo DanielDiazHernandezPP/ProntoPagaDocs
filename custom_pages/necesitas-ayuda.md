@@ -5,14 +5,20 @@ hidden: false
 ---
 # Customer support
 
-Si tienes dudas, consultas o sugerencias sobre los reportes transaccionales o financieros de tu comercio u otros temas, puedes contactar a nuestro equipo de Customer support, para ser atendido.
+Si tienes dudas, consultas o sugerencias, puedes contactar a nuestro equipo de Customer support para ser atendido.
 
 El servicio de atención a comercios está disponible las 24 horas del día, los 7 días de la semana, durante todo el año.
 
 ## Canales de atención
 
-* WhatsApp (+56) 962922878 à Iniciar conversación (solo mensajes)
-* Correo electrónico à [support@prontopaga.com](mailto:support@prontopaga.com)
+* 📱
+* <br />
+
+  |                                                                                                                 |                                                          |                                                        |
+  | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- | ------------------------------------------------------ |
+  | ![](https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png)WhatsApp |                                                          |                                                        |
+  | 📧 Correo electrónico                                                                                           | [support@prontopaga.com](mailto:support@prontopaga.com)  |                                                        |
+  | Slack                                                                                                           |                                                          | Con el canal que tienes entre ProntoPaga y tu comercio |
 * Después de registrar tu consulta, te brindaremos un ticket para hacer seguimiento a tu pedido.
 * También puedes comunicarte mediante el canal de Slack entre tu comercio y ProntoPaga, para absolver dudas.
 
