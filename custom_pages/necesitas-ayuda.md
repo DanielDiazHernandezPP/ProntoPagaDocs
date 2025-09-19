@@ -11,7 +11,7 @@ El servicio de atención a comercios está disponible las 24 horas del día, los
 
 ## Canales de atención
 
-```
+```html
 <!-- Canales de contacto -->
 <div style="width:100%; max-width: 900px; margin: 0; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
   <table style="width:100%; border-collapse:separate; border-spacing:0; font: 16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial;">
