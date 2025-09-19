@@ -17,10 +17,6 @@ metadata:
 
 <Image align="center" width="20px" src="https://files.readme.io/88c8d0732d449f32986a24cbac1768a36ba2ba93a7a3a993f5780c05be60c374-descarga.jpeg" />
 
-<Image align="center" width="50px" src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" />
-
-📱
-
 <br />
 
 | Canal                                                                                                           | Dirección                                                            |
@@ -29,16 +25,7 @@ metadata:
 | 📧  Correo electrónico                                                                                          | [support@prontopaga.com](mailto:support@prontopaga.com)              |
 | ![](https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png) Slack   | En el canal que compartes con ProntoPaga                             |
 
-Phone
-
-<Image align="left" width="30px" src="https://files.readme.io/409196079e7ba9dce1abd6bddcbbff17db35f0fbd498c3dd9db139727d53d7bc-image.png" />
-
 <br />
-
-|                                                                                                                 |    |    |   |
-| :-------------------------------------------------------------------------------------------------------------- | :- | :- | - |
-| ![](https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png)WhatsApp |    |    |   |
-|                                                                                                                 |    |    |   |
 
 <br />
 
@@ -91,74 +78,50 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 <br />
 
 <HTMLBlock>{`
-<!-- Canales de contacto – compatible light & dark -->
-<div id="pp-contacts" style="width:100%; max-width:900px; margin:0; border-radius:12px; overflow:hidden;">
-  <style>
-    /* Paleta basada en el tema del usuario */
-    #pp-contacts{
-      --bg: #ffffff;                 /* fondo filas */
-      --text: #0f172a;               /* texto */
-      --header-bg: #f4f4f4;          /* fondo encabezado */
-      --header-text: #111827;        /* texto encabezado */
-      --border: #e5e7eb;             /* bordes internos */
-    }
-    @media (prefers-color-scheme: dark){
-      #pp-contacts{
-        --bg: #111827;
-        --text: #e5e7eb;
-        --header-bg: rgba(255,255,255,.08);
-        --header-text: #e5e7eb;
-        --border: rgba(255,255,255,.12);
-      }
-    }
-    #pp-contacts table{width:100%; border-collapse:separate; border-spacing:0;}
-    #pp-contacts thead tr{background:var(--header-bg); color:var(--header-text);}
-    #pp-contacts th{ text-align:left; padding:12px 16px; }
-    #pp-contacts tbody tr{ background:var(--bg); color:var(--text); }
-    #pp-contacts td{ padding:14px 16px; border-top:1px solid var(--border); }
-    #pp-contacts .row{ display:inline-flex; align-items:center; gap:10px; }
-    #pp-contacts .icon{ vertical-align:middle; width:20px; height:20px; }
-    /* Sin borde exterior: sólo separadores internos */
-  </style>
-
-  <table>
+<!-- Canales de contacto — hereda colores (light & dark) del tema -->
+<div style="width:100%; max-width:900px; margin:0; border-radius:12px; overflow:hidden;">
+  <table style="width:100%; border-collapse:separate; border-spacing:0;">
     <thead>
       <tr>
-        <th>Canal</th>
-        <th>Dirección</th>
+        <th style="text-align:left; padding:12px 16px;">Canal</th>
+        <th style="text-align:left; padding:12px 16px;">Dirección</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>
-          <span class="row">
-            <img class="icon" alt="WhatsApp" src="https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png">
+        <td style="padding:14px 16px;">
+          <span style="display:inline-flex; align-items:center; gap:10px;">
+            <img alt="WhatsApp" src="https://files.readme.io/57c1b3e9e2d0df69b148e9abc06cb189f9dbeb639b7992ffd3691df2a3c8e636-image.png" width="20" height="20" style="vertical-align:middle;">
             <strong>WhatsApp</strong>
           </span>
         </td>
-        <td>
+        <td style="padding:14px 16px;">
           <a href="https://wa.me/56962922878">Iniciar conversación</a> &nbsp;—&nbsp; (+56) 962922878
         </td>
       </tr>
 
       <tr>
-        <td>
-          <span class="row">
+        <td style="padding:14px 16px;">
+          <span style="display:inline-flex; align-items:center; gap:10px;">
             <span style="font-size:18px;">📧</span>
             <strong>Correo electrónico</strong>
           </span>
         </td>
-        <td><a href="mailto:support@prontopaga.com">support@prontopaga.com</a></td>
+        <td style="padding:14px 16px;">
+          <a href="mailto:support@prontopaga.com">support@prontopaga.com</a>
+        </td>
       </tr>
 
       <tr>
-        <td>
-          <span class="row">
-            <img class="icon" alt="Slack" src="https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png">
+        <td style="padding:14px 16px;">
+          <span style="display:inline-flex; align-items:center; gap:10px;">
+            <img alt="Slack" src="https://files.readme.io/796096674bf5c4ac43cca3fc778eb3bd5554ed9759a5e7c48de47f5bf5b4d182-image.png" width="20" height="20" style="vertical-align:middle;">
             <strong>Slack</strong>
           </span>
         </td>
-        <td>En el canal que compartes con ProntoPaga</td>
+        <td style="padding:14px 16px;">
+          En el canal que compartes con ProntoPaga
+        </td>
       </tr>
     </tbody>
   </table>
