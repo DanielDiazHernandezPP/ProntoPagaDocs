@@ -71,7 +71,7 @@ Después de registrar tu consulta, **te brindaremos un ticket** para hacer segui
 Algunos casos que pueden ser atendido por estos canales son:
 
 <HTMLBlock>{`
-<!-- Tipificación de consultas -->
+<!-- Consultas frecuentes -->
 <svg viewBox="-650 -360 1300 720" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Consultas frecuentes</title>
   <desc id="desc">Centro #4F49A3, ramas blancas con borde #4F49A3, líneas conectadas al costado del centro.</desc>
@@ -92,7 +92,7 @@ Algunos casos que pueden ser atendido por estos canales son:
 
   <!-- Centro (más arriba) -->
   <rect class="center-box shadow" x="-240" y="-140" width="480" height="110"/>
-  <text class="label center-text" x="0" y="-85">Tipificación de consultas</text>
+  <text class="label center-text" x="0" y="-85">Consultas frecuentes</text>
 
   
   <g class="edge">
