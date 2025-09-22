@@ -234,6 +234,8 @@ Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el 
 
 Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
+***
+
 ## Listado de wallets
 
 Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
