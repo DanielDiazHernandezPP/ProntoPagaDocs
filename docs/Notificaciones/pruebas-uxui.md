@@ -6,13 +6,9 @@ hidden: true
 metadata:
   robots: index
 ---
-## Button
-
 **Button primary**
 
-\<Button variant="primary" text="click" icon="fa-solid fa-users" href="[https://google.com](https://google.com)" target="_blank" />
-
-\<Button variant="primary" text="Clickeame" icon="fa-solid fa-circle-info" href="[https://google.com](https://google.com)" />
+<Button variant="primary" text="click" icon="fa-solid fa-users" />
 
 **Button secondary**
 
