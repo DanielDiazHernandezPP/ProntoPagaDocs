@@ -77,34 +77,38 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 ﻿﻿﻿﻿﻿
 
-\<html>
-&#x20; \<head>
-&#x20;   \<title>Finding an apprenticeship - Frequently Asked Questions(FAQ)\</title>
-&#x20;   \<script type="application/ld+json">
-&#x20;   \{
-&#x20;     "@context": "https\://schema.org",
-&#x20;     "@type": "FAQPage",
-&#x20;     "mainEntity": \[\{
-&#x20;       "@type": "Question",
-&#x20;       "name": "How to find an apprenticeship?",
-&#x20;       "acceptedAnswer": \{
-&#x20;         "@type": "Answer",
-&#x20;         "text": "\<p>We provide an official service to search through available apprenticeships. To get started, create an account here, specify the desired region, and your preferences. You will be able to search through all officially registered open apprenticeships.\</p>"
-&#x20;       }
-&#x20;     }, \{
-&#x20;       "@type": "Question",
-&#x20;       "name": "Whom to contact?",
-&#x20;       "acceptedAnswer": \{
-&#x20;         "@type": "Answer",
-&#x20;         "text": "You can contact the apprenticeship office through our official phone hotline above, or with the web-form below. We generally respond to written requests within 7-10 days."
-&#x20;       }
-&#x20;     }]
-&#x20;   }
-&#x20;   \</script>
-&#x20; \</head>
-&#x20; \<body>
-&#x20; \</body>
-\</html>
+```
+<html>
+  <head>
+    <title>Finding an apprenticeship - Frequently Asked Questions(FAQ)</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to find an apprenticeship?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>We provide an official service to search through available apprenticeships. To get started, create an account here, specify the desired region, and your preferences. You will be able to search through all officially registered open apprenticeships.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "Whom to contact?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can contact the apprenticeship office through our official phone hotline above, or with the web-form below. We generally respond to written requests within 7-10 days."
+        }
+      }]
+    }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+<br />
 
 ﻿﻿﻿
 
