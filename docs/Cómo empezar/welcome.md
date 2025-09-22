@@ -40,6 +40,4 @@ Para ello, en esta documentación encontrarás las guías de integración de cad
 
 ## 💬 ¿Necesitas ayuda?
 
-Sabemos que cada integración es única. Si tienes alguna pregunta o necesitas asistencia personalizada, no dudes en contactarnos por email. Estamos aquí para ayudarte en cada paso del camino.
-
-[contacto@prontopaga.com](mailto:contacto@prontopaga.com)
+Sabemos que cada integración es única. Si tienes alguna pregunta o necesitas asistencia personalizada, [no dudes en contactarnos](https://docs.prontopaga.com/page/necesitas-ayuda#/). Estamos aquí para ayudarte en cada paso del camino.
