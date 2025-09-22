@@ -12,6 +12,10 @@ metadata:
 
 <Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" href="https://google.com" target="_blank" />
 
+<br />
+
+<Button variant="primary" text="Clickeame" icon="fa-solid bi-3-circle-fill" href="https://google.com" target="_blank" />
+
 **Button secondary**
 
 <Button variant="secondary" text="click" icon="fa-solid fa-arrow-up-right-from-square" />
