@@ -3,7 +3,7 @@ title: ¿Necesitas ayuda?
 fullscreen: false
 hidden: false
 metadata:
-  title: Soporte Prontopaga
+  title: ¿Necesitas ayuda?
   description: >-
     ¿Tienes dudas con tu integración? En ProntoPaga Docs encuentras guías claras
     y, si necesitas asistencia personalizada, nuestro equipo de soporte te
