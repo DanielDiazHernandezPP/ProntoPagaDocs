@@ -4,7 +4,7 @@ excerpt: En este artículo se muestran las listas de códigos bancarios por paí
 deprecated: false
 hidden: false
 metadata:
-  title: ódigos bancarios para PayIns con transferencias | ProntoPaga Docs
+  title: Códigos bancarios para PayIns con transferencias | ProntoPaga Docs
   description: >-
     Cómo crear pagos por transferencia en Chile y Perú con Create Payment: envía
     el bankCode correcto y consulta aquí las listas de bancos y un ejemplo de
