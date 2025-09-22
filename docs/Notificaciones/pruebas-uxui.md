@@ -10,7 +10,7 @@ metadata:
 
 **Button primary**
 
-<Button variant="primary" text="click" icon="fa-solid fa-arrow-up-right-from-square" href="https://google.com" target="_blank" />
+<Button variant="primary" text="click" icon="fa-solid fa-users" href="https://google.com" target="_blank" />
 
 <Button variant="primary" text="Clickeame" icon="fa-solid fa-circle-info" href="https://google.com" />
 
