@@ -34,15 +34,11 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ***
 
-<br />
-
 ## QR con interfaz estándar (flujo completo)
 
 Para quienes buscan una integración práctica y eficiente, contamos con una interfaz completamente lista para usar, que genera y muestra automáticamente el código QR al usuario final. Esta solución ofrece una experiencia visual atractiva, además de permitir hacer el monitoreo en tiempo real del estado del pago, facilitando así una implementación rápida sin comprometer la calidad ni la experiencia del usuario.
 
 ***
-
-<br />
 
 ## ¿Cómo funciona?
 
@@ -59,8 +55,6 @@ El proceso de pago con QR en Perú consta de cuatro etapas principales:
 
 ***
 
-<br />
-
 ## Crea un nuevo pago (flujo completo)
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
@@ -75,13 +69,9 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-<br />
-
 ### Personalización del formulario
 
 Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
-
-<br />
 
 ### Body de la solicitud
 
@@ -106,13 +96,9 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
-<br />
-
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
-
-<br />
 
 ### Confirmación de un pago
 
@@ -121,8 +107,6 @@ Una vez que el usuario haya completado el proceso de pago en el formulario, Pron
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-<br />
 
 ### Devolución de un pago
 
@@ -138,8 +122,6 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
-<br />
-
 ### Cancelar un pago con QR
 
 Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
@@ -147,8 +129,6 @@ Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el 
 Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
 ***
-
-<br />
 
 ## QR embebido (solo datos QR)
 
@@ -159,8 +139,6 @@ Si únicamente requieres el código QR en formato base64, esta opción es perfec
 > Esta modalidad no carga automáticamente el monto en la wallet, por lo tanto, el cliente debe ingresarlo de manera manual.
 
 ***
-
-<br />
 
 ## Crea un nuevo pago (solo datos QR)
 
@@ -176,13 +154,9 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-<br />
-
 ### Solicitar el QR
 
 Para recibir el código QR en la respuesta, deberás usar el parámetro de personalización `"theme"` y mandar el parámetro `"type": "qr"`, tal como se muestra en el ejemplo del body de la solicitud.
-
-<br />
 
 ### Body de la solicitud
 
@@ -206,8 +180,6 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "sign": "Signature of the parameters"
 }
 ```
-
-<br />
 
 ### Respuesta
 
@@ -234,8 +206,6 @@ Como respuesta a una solicitud de pago exitosa recibirás el enlace para procesa
 }
 ```
 
-<br />
-
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -243,8 +213,6 @@ Una vez que el usuario haya completado el proceso de pago en el formulario, Pron
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-<br />
 
 ### Devolución de un pago
 
@@ -260,17 +228,13 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
-<br />
-
 ### Cancelar un pago con QR
 
 Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
 
 Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
-<br />
-
-### Listado de wallets
+## Listado de wallets
 
 Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
 
@@ -298,8 +262,6 @@ Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
 
 ***
 
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
@@ -308,13 +270,9 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ***
 
-<br />
-
 ## Certifica tu integración
 
 La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
-
-<br />
 
 ## Requisitos de certificación
 
@@ -350,4 +308,4 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 </Tabs>
 
-#
+<br />
