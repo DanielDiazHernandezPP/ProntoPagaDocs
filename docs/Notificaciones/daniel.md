@@ -177,43 +177,61 @@ Consulta en [este enlace](www.la.com)
 `}</HTMLBlock>
 
 Tabs>
-&#x20; \<Tab title="First Tab">
-&#x20;   Welcome to the content that you can only see inside the first Tab.
-&#x20; \</Tab>
+  \<Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  \</Tab>
 
-&#x20; \<Tab title="Second Tab">
-&#x20;   Here's content that's only inside the second Tab.
-&#x20; \</Tab>
+  \<Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  \</Tab>
 
-&#x20; \<Tab title="Third Tab">
-&#x20;   Here's content that's only inside the third Tab.
-&#x20; \</Tab>
+  \<Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  \</Tab>
 \</Tabs>
 
 \<Tabs>
-&#x20; \<Tab title="First Tab">
-&#x20;   Welcome to the content that you can only see inside the first Tab.
-&#x20; \</Tab>
+  \<Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  \</Tab>
 
-&#x20; \<Tab title="Second Tab">
-&#x20;   Here's content that's only inside the second Tab.
-&#x20; \</Tab>
+  \<Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  \</Tab>
 
-&#x20; \<Tab title="Third Tab">
-&#x20;   Here's content that's only inside the third Tab.
-&#x20; \</Tab>
+  \<Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  \</Tab>
 \</Tabs>
 
 \<Tabs>
-&#x20; \<Tab title="First Tab">
-&#x20;   Welcome to the content that you can only see inside the first Tab.
-&#x20; \</Tab>
+  \<Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  \</Tab>
 
-&#x20; \<Tab title="Second Tab">
-&#x20;   Here's content that's only inside the second Tab.
-&#x20; \</Tab>
+  \<Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  \</Tab>
 
-&#x20; \<Tab title="Third Tab">
-&#x20;   Here's content that's only inside the third Tab.
-&#x20; \</Tab>
+  \<Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  \</Tab>
 \</Tabs>
+
+<Cards columns={4}>
+  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+    Neque porro quisquam est qui dolorem ipsum quia
+  </Card>
+
+  <Card title="Second Card" icon="fa-user">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+
+  <Card title="Third Card" icon="fa-star">
+    > Ut enim ad minim veniam, quis nostrud ullamco
+  </Card>
+
+  <Card title="Fourth Card" icon="fa-question">
+    **Excepteur sint occaecat cupidatat non proident**
+  </Card>
+</Cards>
