@@ -108,8 +108,6 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 </html>
 ```
 
-<br />
-
 ﻿﻿﻿
 
 <HTMLBlock>{`
@@ -586,4 +584,80 @@ Puede deberse a múltiples causas internas.
 
 <br />
 
-<Image align="center" src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" />
+<br />
+
+<HTMLBlock>{`
+<html>
+  <head>
+    <title>Finding an apprenticeship - Frequently Asked Questions(FAQ)</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to find an apprenticeship?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>We provide an official service to search through available apprenticeships. To get started, create an account here, specify the desired region, and your preferences. You will be able to search through all officially registered open apprenticeships.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "Whom to contact?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can contact the apprenticeship office through our official phone hotline above, or with the web-form below. We generally respond to written requests within 7-10 days."
+        }
+      }]
+    }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+`}</HTMLBlock>
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Banco Itaú
+      </th>
+
+      <th>
+        Límite de primera transacción
+      </th>
+
+      <th>
+        Límites de transacciones en curso:
+      </th>
+
+      <th>
+        Tiempo de espera para la segunda transacción:
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        En este banco, los limites se establecen para la transacción inicial **según el tipo de cuenta del usuario**.
+      </td>
+
+      <td>
+        * Cuenta Corriente:
+          **hasta $300.000** diarios (CLP)
+        * Cuenta Vista/Ahorro/RUT:
+          **hasta $200.000** diarios (CLP)
+      </td>
+
+      <td>
+        Hasta $**5.000.000** diarios (CLP)
+      </td>
+
+      <td>
+        24 horas
+      </td>
+    </tr>
+  </tbody>
+</Table>
