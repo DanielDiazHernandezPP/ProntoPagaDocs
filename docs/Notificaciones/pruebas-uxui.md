@@ -14,7 +14,7 @@ metadata:
 
 <br />
 
-<Button variant="primary" text="Clickeame" icon="fa-solid bi-3-circle-fill" href="https://google.com" target="_blank" />
+<Button variant="primary" text="Clickeame" icon="fa-solid fa-circle-info" href="https://google.com" target="_blank" />
 
 **Button secondary**
 
