@@ -2,7 +2,7 @@
 title: 'Botón Yape: One Shot'
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: 'Botón Yape: One Shot | ProntoPaga Docs'
   description: >-
