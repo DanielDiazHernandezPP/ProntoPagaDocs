@@ -1,5 +1,5 @@
 ---
 title: Preguntas frecuentes
-fullscreen: false
+fullscreen: true
 hidden: false
 ---
