@@ -35,8 +35,6 @@ En Perú, contamos con distintas modalidades de pago por medio de la wallet Yape
 
 A continuación, encontrarás las modalidades de pago disponibles para procesar pagos únicos, junto con su guía de integración.
 
-<br />
-
 <Cards>
   <ImageCard imageSrc="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" imageAlt="Placeholder Image" title="Botón Yape v1" description="Integra pagos únicos con Botón Yape, tanto con iFrame, como sin iFrame." />
 </Cards>
