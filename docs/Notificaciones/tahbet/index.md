@@ -428,7 +428,7 @@ Aquí tienes un resumen rápido de límites y tiempos de espera.
 Puedes ver una demo visual:
 
 <p align="center">
-  <img src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png" alt="Demo: cómo funciona el pago con tu banco" width="700" />
+  <img src="" alt="Demo: cómo funciona el pago con tu banco" width="700" />
 </p>
 
 > Nota: Si la animación no se reproduce, asegúrate de que `assets/animacion.gif` esté en la rama `main` del repositorio.
