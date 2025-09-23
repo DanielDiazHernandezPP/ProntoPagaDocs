@@ -1,5 +1,5 @@
 ---
-title: '¿Necesitas ayuda? '
+title: Preguntas frecuentes
 fullscreen: false
-hidden: true
+hidden: false
 ---
