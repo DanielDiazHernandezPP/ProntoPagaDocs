@@ -1,5 +1,5 @@
 ---
 title: Prueba
 fullscreen: false
-hidden: false
+hidden: true
 ---
