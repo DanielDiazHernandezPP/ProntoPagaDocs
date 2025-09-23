@@ -1,5 +1,5 @@
 ---
-title: Consultas frecuentes
+title: Preguntas frecuentes
 fullscreen: false
 hidden: true
 ---
