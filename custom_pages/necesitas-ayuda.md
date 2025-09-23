@@ -1,6 +1,6 @@
 ---
 title: ¿Necesitas ayuda?
-fullscreen: false
+fullscreen: true
 hidden: false
 metadata:
   title: ¿Necesitas ayuda? | ProntoPaga Docs
