@@ -78,34 +78,30 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 ﻿﻿﻿﻿﻿
 
 ```html
-<html>
-  <head>
-    <title>Finding an apprenticeship - Frequently Asked Questions(FAQ)</title>
+<head>
+    <title>How To Make Banana Bread</title>
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "How to find an apprenticeship?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "<p>We provide an official service to search through available apprenticeships. To get started, create an account here, specify the desired region, and your preferences. You will be able to search through all officially registered open apprenticeships.</p>"
-        }
-      }, {
-        "@type": "Question",
-        "name": "Whom to contact?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can contact the apprenticeship office through our official phone hotline above, or with the web-form below. We generally respond to written requests within 7-10 days."
-        }
-      }]
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "Banana Bread Recipe",
+      "description": "The best banana bread recipe you'll ever find! Learn how to use up all those extra bananas.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "ratingCount": 123
+      },
+      "video": {
+        "@type": "VideoObject",
+        "name": "How To Make Banana Bread",
+        "description": "This is how you make banana bread, in 5 easy steps.",
+        "contentUrl": "https://www.example.com/video123.mp4"
+       }
     }
     </script>
   </head>
   <body>
   </body>
-</html>
 ```
 
 ﻿﻿﻿
