@@ -1,5 +1,5 @@
 ---
-title: Consultas frecuentes
+title: <i class="fa-duotone fa-solid fa-paper-plane"></i> Consultas frecuentes
 fullscreen: false
 hidden: true
 ---
