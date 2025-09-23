@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
