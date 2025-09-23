@@ -77,33 +77,6 @@ En este banco, los límites transaccionales se establecen según el tipo de aute
 
 ﻿﻿﻿﻿﻿
 
-```html
-<head>
-    <title>How To Make Banana Bread</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Recipe",
-      "name": "Banana Bread Recipe",
-      "description": "The best banana bread recipe you'll ever find! Learn how to use up all those extra bananas.",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "ratingCount": 123
-      },
-      "video": {
-        "@type": "VideoObject",
-        "name": "How To Make Banana Bread",
-        "description": "This is how you make banana bread, in 5 easy steps.",
-        "contentUrl": "https://www.example.com/video123.mp4"
-       }
-    }
-    </script>
-  </head>
-  <body>
-  </body>
-```
-
 ﻿﻿﻿
 
 <HTMLBlock>{`
