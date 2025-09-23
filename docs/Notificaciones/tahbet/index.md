@@ -438,7 +438,7 @@ Puedes ver una demo visual:
 <Cards columns={4}>
   <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
     <img
-      src="https://files.readme.io/78a50dbf947abcc2763916ad40c6575ed46012d94bdee2e8810e1888eb23416f-descarga.png"
+      src=""
       alt="First Card Image"
       style={{
         transition: "transform 0.4s ease-in-out",
