@@ -1,5 +1,5 @@
 ---
-title: Consultas frecuentes
+title: 🔍 Consultas frecuentes
 fullscreen: false
 hidden: true
 ---
