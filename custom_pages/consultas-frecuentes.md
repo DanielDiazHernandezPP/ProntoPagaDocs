@@ -1,7 +1,7 @@
 ---
 title: Consultas frecuentes
 fullscreen: false
-hidden: true
+hidden: false
 ---
 <br />
 
