@@ -47,23 +47,34 @@ Datos para pruebas en el servicio de retiros hacia wallets en Perú.
 </table>
 `}</HTMLBlock>
 
-| Wallet                                                                                                                                                                                                                                                                                             | Número de celular | Número de identificación |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------- | :----------------------- |
-| Luquea                                                                                                                                                                                                                                                                                             | 987365083         | 00335447                 |
-| Plin / Luquea                                                                                                                                                                                                                                                                                      | 974646632         | 47675102                 |
-| Oh! / Prexpe                                                                                                                                                                                                                                                                                       | 987829825         | 42346654                 |
-| GNB                                                                                                                                                                                                                                                                                                | 987365083         | 10267181                 |
-| Plin / MiBanco                                                                                                                                                                                                                                                                                     | 944000003         | 45790023                 |
-| BCP / Dale                                                                                                                                                                                                                                                                                         | 984937706         | 95106558                 |
-| Yape / Confianza                                                                                                                                                                                                                                                                                   | 974646632         | 19208630                 |
-| Yape                                                                                                                                                                                                                                                                                               | 960961006         | 66477267                 |
-| Falabella, Caja Cusco, Nación, MiBanco, Oh!, GNB, BanBif, Caja Lima, Compartamos, Caja Huancayo, Caja Piura, Dale, Confianza, Comercio (Banco de Comercio), Ripley, Santander, Banco Pichincha, Efectiva, BCP, Caja Ica, Caja Trujillo, Interbank, Luquea, Caja Sullana, Prexpe, Yape, Plin, y Bim | 933020100         | 09184423                 |
-
 ***
 
 ## Retiros instantáneos por transferencia
 
 Datos para pruebas en el servicio de retiros por transferencia en Perú.
+
+<br />
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Número de cuenta interbancaria</b></th>
+      <th><b>Código bancario</b></th>
+      <th><b>Número de identificación</b></th>
+			 <th><b>Número de celular</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>00219311803687806711</td><td>02</td><td>09179328</td><td>974646320</td></tr>
+    <tr><td>00235017098310703971</td><td>02</td><td>95106558</td><td>944000003</td></tr>
+    <tr><td>00310001700746882659</td><td>03</td><td>45790023</td><td>944000003</td></tr>
+    <tr><td>00310001700922358857</td><td>03</td><td>47675102</td><td>984937706</td></tr>
+    <tr><td>04955700601816547120</td><td>49</td><td>45790023</td><td>944000003</td></tr>
+		<tr><td>05300100194255100143</td><td>53</td><td>10267181</td><td>974646320</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Número de cuenta interbancaria | Código bancario | Número de identificación | Número de celular |
 | :----------------------------- | :-------------- | :----------------------- | :---------------- |
