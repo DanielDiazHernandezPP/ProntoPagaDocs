@@ -24,6 +24,29 @@ metadata:
 
 Datos para pruebas en el servicio de retiros hacia wallets en Perú.
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Wallet</b></th>
+      <th><b>Número de celular</b></th>
+      <th><b>Número de identificación</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Luquea</td><td>987365083</td><td>00335447</td></tr>
+    <tr><td>Plin / Luquea</td><td>974646632</td><td>47675102</td></tr>
+    <tr><td>Oh! / Prexpe</td><td>987829825</td><td>42346654</td></tr></tr>
+    <tr><td>GNB</td><td>987365083</td><td>10267181</td></tr>
+    <tr><td>Plin / MiBanco</td><td>944000003</td><td>45790023</td></tr>
+		<tr><td>BCP / Dale</td><td>984937706</td><td>95106558</td></tr></tr>
+    <tr><td>Yape / Confianza</td><td>974646632</td><td>19208630</td></tr>
+    <tr><td>Yape</td><td>960961006</td><td>66477267</td></tr>
+    <tr><td>Falabella, Caja Cusco, Nación, MiBanco, Oh!, GNB, BanBif, Caja Lima, Compartamos, Caja Huancayo, Caja Piura, Dale, Confianza, Comercio (Banco de Comercio), Ripley, Santander, Banco Pichincha, Efectiva, BCP, Caja Ica, Caja Trujillo, Interbank, Luquea, Caja Sullana, Prexpe, Yape, Plin, y Bim</td><td>933020100</td><td>09184423</td></tr></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Wallet                                                                                                                                                                                                                                                                                             | Número de celular | Número de identificación |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------- | :----------------------- |
 | Luquea                                                                                                                                                                                                                                                                                             | 987365083         | 00335447                 |
