@@ -34,7 +34,7 @@ Crear un pago con esta modalidad consiste en hacer una solicitud de afiliación 
 
 Yape es una aplicación que permite realizar pagos y transferencias de dinero en Perú, utilizando solo el número de celular. Con Yape, los usuarios pueden hacer pagos en línea, recargar saldo en su cuenta o realizar compras en comercios afiliados. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Agrega Yape como método de pago", tener una cuenta creada y aprobar la afiliación desde su aplicación.
 
-El proceso de pago con **Yape On File: One Click Payment** en Perú consta de las siguientes etapas:
+El proceso de pago con **Yape On File: One Click Payments** en Perú consta de las siguientes etapas:
 
 <Image align="center" border={false} src="https://files.readme.io/9e669b7d42a453a5ecb3d022290857c591ebda3fb06a1d823421a87ede68fb27-oneClick-oneclick_1.jpg" />
 
