@@ -73,7 +73,7 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de las sigu
 
     Se utiliza un deeplink genérico, el cual redirige automáticamente al usuario a una sección específica dentro de la app de Yape.
 
-    La URL del deeplink es:
+    La URL del deeplink genérico es:
     `https://www.yape.com.pe/app/checkout/approval_code`.
   </Card>
 </Cards>
