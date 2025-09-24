@@ -271,15 +271,6 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
 </table>
 `}</HTMLBlock>
 
-| Motivo                                                | Acción                                                |
-| :---------------------------------------------------- | :---------------------------------------------------- |
-| Error por cuenta yapera no encontrada                 | Yape notifica sobre la transacción denegada por email |
-| Error por operación de cargo no encontrado            | Yape notifica sobre la transacción denegada por email |
-| Error por plazo vencido para solicitar una devolución | Yape notifica sobre la transacción denegada por email |
-| Error en monto de devolución                          | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
-| Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
-
 <br />
 
 ### Lista de afiliaciones
