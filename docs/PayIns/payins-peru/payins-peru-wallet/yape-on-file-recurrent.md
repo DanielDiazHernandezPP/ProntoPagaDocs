@@ -49,11 +49,13 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de las sigu
 
 <Cards columns={2}>
   <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    Se le pide al cliente ingresar su número de celular y hacer clic en el botón de "Solicitar aprobación". Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
+    Se le pide al cliente ingresar su número de celular y hacer clic en el botón de **Solicitar aprobación**. Luego se le muestran en pantalla instrucciones para abrir su aplicación de Yape, ir a **Aprobar compras > Solicitudes por aprobar**, seleccionar la indicada y hacer clic en **Aprobar afiliación**.
   </Card>
 
   <Card title="Si se tiene activado el servicio de validación pago de terceros">
-    Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape (por notificación y correo). El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+    Se le pide al cliente confirmar su número de celular y documento de identidad, y hacer clic en el botón de **Solicitar aprobación**. Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, se le manda la solicitud directamente a su aplicación de Yape. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+
+    En el caso del proceso de afiliación, Yape envía un correo electrónico únicamente cuando esta ha sido exitosa, y, en caso de una desafiliación, el cliente recibe una notificación push en su app.
   </Card>
 </Cards>
 
