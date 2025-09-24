@@ -35,7 +35,7 @@ metadata:
 ---
 Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Perú, con lo cual podrán ir a un punto físico de recaudo de las siguientes instituciones a realizar el pago:
 
-<Image align="center" width="650px" src="https://files.readme.io/3ac1441fcab67687abbb4085cc4ad6e4899adb4464ba08658dc02aefa4147443-Captura_de_pantalla_2025-08-05_a_las_8.14.58_p.m..png" />
+<Image align="center" border={false} width="650px" src="https://files.readme.io/3ac1441fcab67687abbb4085cc4ad6e4899adb4464ba08658dc02aefa4147443-Captura_de_pantalla_2025-08-05_a_las_8.14.58_p.m..png" />
 
 Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , nosotros te notificaremos sobre el estado del pago.
 
@@ -48,6 +48,25 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 🌎 Conoce todas las ubicaciones así como los puntos más cercanos según tu dirección en el mapa de esta [página ](https://www.bbva.pe/personas/oficinas.html)⬅️
 
 ### Especificaciones
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>BBVA</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+    <tr><td>El usuario no tiene una cuenta de Yape activa.</td><td><code>The user does not have an active Yape account</code></td></tr>
+    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio.</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
+    <tr><td>El servicio de validación no está respondiendo correctamente.</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
 | :----- | :--------------- | :-------------------- | :------------------- |
