@@ -226,8 +226,17 @@ A continuación se muestran varios posibles casos de rechazo junto con su códig
   </thead>
   <tbody>
     <tr><td>101</td><td>Tarjeta vencida</td><td>4024007126919058<br>03/19</br>111</td></tr>
-    <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td></tr>
-    <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td></tr>
+    <tr><td>102</td><td>Operación no permitida para esta tarjeta</td><td>4916122919724598<br>03/28</br>111</td></tr>
+		<tr><td>113</td><td>Monto no permitido</td><td>4242424242424242<br>03/28</br>111</td></tr>
+		<tr><td>116</td><td>Fondos insuficientes</td><td>4041650444437904<br>03/28</br>111</td></tr>
+		<tr><td>118</td><td>Tarjeta inválida</td><td>4111111111111111<br>03/28</br>111</td></tr>
+		<tr><td>129</td><td>Tarjeta no operativa</td><td>4534410925317008<br>03/28</br>111</td></tr>
+		<tr><td>191</td><td>Contactar emisor</td><td>4539676788512233<br>03/28</br>111</td></tr>
+		<tr><td>208</td><td>Tarjeta perdida</td><td>4557885040264791<br>03/28</br>111</td></tr>
+		<tr><td>209</td><td>Tarjeta robada</td><td>4557883870910971<br>03/28</br>111</td></tr>
+		<tr><td>666</td><td>Problemas de comunicación</td><td>4285975261967724<br>03/28</br>111</td></tr>
+		<tr><td>670</td><td>Transacción denegada por posible fraude</td><td>4551707477308329<br>03/28</br>111</td></tr>
+		<tr><td>679</td><td>Error de autenticación</td><td>4732453453776393<br>03/28</br>111</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
