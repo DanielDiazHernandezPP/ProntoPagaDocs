@@ -36,7 +36,7 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
-<Image align="center" src="https://files.readme.io/933d0090646d5cc0354e287b4d84eccd245130527f44959c81db060d5744af76-peru_-_04.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/933d0090646d5cc0354e287b4d84eccd245130527f44959c81db060d5744af76-peru_-_04.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con wallet (Yape) en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
@@ -65,6 +65,23 @@ Esta validación se asigna de forma automática a ciertos comercios integrados c
 
 A continuación, se listan los posibles motivos de validación pago terceros, así como los mensajes que se mostrarán.
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Motivo</b></th>
+      <th><b>Mensaje</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>El número de celular y el documento de identidad no están asociados</td><td><code>\`The user's phone number and identity document do not match\`</code></td></tr>
+    <tr><td>El usuario no tiene una cuenta de Yape activa</td><td><code>\`The user does not have an active Yape account\`</code></td></tr>
+    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio</td><td><code>\`The Document Type provided by the validation service does not match the one sent by the Merchant\`</code></td></tr>
+    <tr><td>El servicio de validación no está respondiendo correctamente</td><td><code>\`The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM\`</code></td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Motivo                                                                                                             | Mensaje                                                                                                          |
 | :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
 | El número de celular y el documento de identidad no están asociados.                                               | `The user's phone number and identity document do not match`                                                     |
@@ -92,7 +109,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
-<Image align="center" width="200px" src="https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png" />
+<Image align="center" border={false} width="200px" src="https://files.readme.io/51e88becc4a1e257996cb45407d291f16c63f89f2a34baee995ee4a95f82c6ef-yapepersonaliz.png" />
 
 ### Body de la solicitud
 
@@ -248,7 +265,7 @@ Si estás integrando pagos con Yape sin nuestro iFrame, estas son algunas recome
 
 Puedes ver un ejemplo de las anteriores recomendaciones aplicadas en esta imagen:
 
-<Image align="center" width="300px" src="https://files.readme.io/933b1e6be8cf3243b46a018e64cf2c8f87c2ad05a2873fcfc4cc9579b6eed6b7-yapesintelef.jpg" />
+<Image align="center" border={false} width="300px" src="https://files.readme.io/933b1e6be8cf3243b46a018e64cf2c8f87c2ad05a2873fcfc4cc9579b6eed6b7-yapesintelef.jpg" />
 
 ***
 
