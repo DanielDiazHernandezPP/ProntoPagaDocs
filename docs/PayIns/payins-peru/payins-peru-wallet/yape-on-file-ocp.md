@@ -208,7 +208,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     </tr>
   </thead>
   <tbody>
-    <tr><td>Error por cuenta yapera no existe o inactiva</td><td><b>- Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.</td></tr>
+    <tr><td>Error por cuenta yapera no existe o inactiva</td><td><b>• Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.</td></tr>
     <tr><td>El usuario no tiene una cuenta de Yape activa.</td><td><code>The user does not have an active Yape account</code></td></tr>
     <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio.</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
     <tr><td>El servicio de validación no está respondiendo correctamente.</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
