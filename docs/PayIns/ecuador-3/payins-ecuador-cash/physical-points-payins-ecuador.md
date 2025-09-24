@@ -37,8 +37,6 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 #### Especificaciones
 
-<br />
-
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
   <thead>
