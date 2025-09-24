@@ -65,10 +65,6 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 </table>
 `}</HTMLBlock>
 
-| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----- | :--------------- | :-------------------- | :------------------- |
-| BBVA   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
-
 ***
 
 ## BCP
@@ -79,9 +75,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----- | :--------------- | :-------------------- | :------------------- |
-| BCP    | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>BCP</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -93,11 +101,25 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----- | :--------------- | :-------------------- | :------------------- |
-| Yape   | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Yape</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
+
+<br />
 
 ## Scotiabank
 
@@ -107,9 +129,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :--------- | :--------------- | :-------------------- | :------------------- |
-| Scotiabank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Scotiabank</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -121,9 +155,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre        | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------ | :--------------- | :-------------------- | :------------------- |
-| Caja Arequipa | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Caja Arequipa</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -135,9 +181,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre    | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :-------- | :--------------- | :-------------------- | :------------------- |
-| Interbank | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Interbank</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -149,9 +207,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----- | :--------------- | :-------------------- | :------------------- |
-| Niubiz | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Niubiz</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -163,9 +233,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----- | :--------------- | :-------------------- | :------------------- |
-| Tambo  | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tambo</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -177,9 +259,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre        | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :------------ | :--------------- | :-------------------- | :------------------- |
-| Western Union | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Western Union</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -191,9 +285,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----- | :--------------- | :-------------------- | :------------------- |
-| BanBif | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>BanBif</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -205,9 +311,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre                   | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----------------------- | :--------------- | :-------------------- | :------------------- |
-| Agente Multibanco KasNet | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Agente Multibanco KasNet</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -219,9 +337,21 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre     | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :--------- | :--------------- | :-------------------- | :------------------- |
-| Ya Ganaste | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Ya Ganaste</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -233,6 +363,20 @@ Con la ayuda de un [webhook](https://docs.prontopaga.com/docs/webhooks#/) , noso
 
 ### Especificaciones
 
-| Nombre             | Límite mínimo    | Límite máximo         | Tiempo de expiración |
-| :----------------- | :--------------- | :-------------------- | :------------------- |
-| Agente Red Digital | PEN 1 / USD 0.05 | PEN 3.000 / USD 1.000 | 24 horas             |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Agente Red Digital</td><td>PEN 1 / USD 0.05</td><td>PEN 3.000 / USD 1.000</td><td>24 horas</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+<br />
