@@ -157,9 +157,11 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
     </tr>
   </thead>
   <tbody>
-    <tr><td>No aparece el módulo de ProntoPaga en el menú lateral</td><td>Verifica si el plugin está instalado y activo en <b>Plugins > Plugins instalados</b></td></tr>
+    <tr><td>Error de instalación de <i>plugin</i></td><td>Debes validar que la versión de Magento que estás instalando sea la correcta</td></tr>
+    <tr><td>El <i>plugin</i> no aparece en el Admin</td><td>Verifica si se instaló en el <i>workspace</i> correcto y si fue publicado</td></tr>
     <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
-    <tr><td>No aparece ProntoPaga como opción de pago</td><td>Asegúrate de que el plugin esté activo y configurado según esta guía</td></tr>
+  </tbody>
+		<tr><td>ProntoPaga no aparece como opción de pago</td><td>Asegúrate de que el <i>plugin</i> esté activo y configurado</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
