@@ -225,7 +225,7 @@ A continuación se muestran varios posibles casos de rechazo junto con su códig
     </tr>
   </thead>
   <tbody>
-    <tr><td>101</td><td>Tarjeta vencida</td><td>4024007126919058<br>03/19b</br><br>111</br></td></tr>
+    <tr><td>101</td><td>Tarjeta vencida</td><td>4024007126919058<br>03/19</br><br>111</br></td></tr>
     <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td></tr>
     <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td></tr>
   </tbody>
