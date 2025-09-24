@@ -53,6 +53,21 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 
 ## Estados del retiro en Payphone
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Estado</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Success</td><td>Solicitud aprobada</td></tr>
+    <tr><td>Canceled</td><td>Solicitud rechazada. Conoce los <a href="https://docs.prontopaga.com/docs/payouts-rejections#/">tipos de retiros cancelados</a> </td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Estado   | Descripción                                                                                                         |
 | :------- | :------------------------------------------------------------------------------------------------------------------ |
 | Success  | Solicitud aprobada                                                                                                  |
