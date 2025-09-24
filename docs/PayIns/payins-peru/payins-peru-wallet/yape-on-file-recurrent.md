@@ -227,19 +227,6 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 </table>
 `}</HTMLBlock>
 
-| Motivo                                                             | Acción                                                |
-| :----------------------------------------------------------------- | :---------------------------------------------------- |
-| Error por suscripción confirmada no existente                      | Yape notifica sobre la transacción denegada por email |
-| Error por no coincidencia del código de comercio de la suscripción | Yape notifica sobre la transacción denegada por email |
-| Error por monto máximo por compra excedido                         | Yape notifica sobre la transacción denegada por email |
-| Error por autorización detectada como fraude                       | Yape notifica sobre la transacción denegada por email |
-| Error por fondos insuficientes                                     | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria bloqueada                                | Yape notifica sobre la transacción denegada por email |
-| Error por timeout en el proceso de transferencia                   | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta yapera no encontrada                              | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria cerrada                                  | Yape notifica sobre la transacción denegada por email |
-| Error inesperado ocurrido en el servidor                           | Yape notifica sobre la transacción denegada por email |
-
 <br />
 
 ### Devolución de un pago de una Recurrencia
@@ -262,14 +249,24 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
 
-| Motivo                                                | Acción                                                |
-| :---------------------------------------------------- | :---------------------------------------------------- |
-| Error por cuenta yapera no encontrada                 | Yape notifica sobre la transacción denegada por email |
-| Error por operación de cargo no encontrado            | Yape notifica sobre la transacción denegada por email |
-| Error por plazo vencido para solicitar una devolución | Yape notifica sobre la transacción denegada por email |
-| Error en monto de devolución                          | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
-| Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Motivo</b></th>
+      <th><b>Acción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Error por cuenta yapera no encontrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por operación de cargo no encontrado</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por plazo vencido para solicitar una devolución</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error en monto de devolución</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por cuenta bancaria cerrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+		<tr><td>Error inesperado ocurrido en el servidor</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 <br />
 
