@@ -60,10 +60,6 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 </table>
 `}</HTMLBlock>
 
-| Nombre                            | Límite mínimo | Límite máximo | Tiempo de expiración |
-| :-------------------------------- | :------------ | :------------ | :------------------- |
-| Puntos Red Activa / Western Union | 1 USD         | 300 USD       | 24 horas             |
-
 <br />
 
 ## Ponle más
