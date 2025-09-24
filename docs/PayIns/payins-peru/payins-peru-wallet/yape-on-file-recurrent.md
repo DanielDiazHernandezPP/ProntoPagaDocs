@@ -69,7 +69,12 @@ El proceso de pago con **Yape On File: Recurrencia** en Perú consta de las sigu
   </Card>
 
   <Card title="Si se tiene activado el servicio de validación pago de terceros">
-    Se le pide al cliente confirmar su número de celular y hacer clic en el botón de "Solicitar aprobación". Si los datos no coinciden, se le muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón de "Abrir Yape" para ser redirigido a la aplicación. El cliente ingresa, ve en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**. Para dispositivos móviles, se debe agregar un deeplink de Yape. Este deeplink redirecciona automáticamente al usuario a la sección de "Código de aprobación" de su aplicación de Yape. La URL del deeplink es: `https://www.yape.com.pe/app/checkout/approval_code`.
+    Se le pide al cliente confirmar su número de celular y su documento de identidad, y luego hacer clic en el botón **Solicitar aprobación**. Si alguno de estos datos (número de celular y documento de identidad) no coincide, se muestra un mensaje de error. Si los datos coinciden, el cliente debe hacer clic en el botón **Abrir Yape** para ser redirigido a la aplicación. El cliente ingresa, visualiza en pantalla las solicitudes por aprobar, selecciona la indicada y hace clic en **Confirmar afiliación**.
+
+    Se utiliza un deeplink genérico, el cual redirige automáticamente al usuario a la sección **Código de aprobación** dentro de la app de Yape.
+
+    La URL del deeplink es:
+    `https://www.yape.com.pe/app/checkout/approval_code`.
   </Card>
 </Cards>
 
