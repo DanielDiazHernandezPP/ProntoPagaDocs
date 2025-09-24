@@ -43,10 +43,10 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 <table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #FC2B5F; color: white;">
-      <th style="padding: 12px;">Banco</th>
-      <th style="padding: 12px;">Primera transacción</th>
-      <th style="padding: 12px;">Tiempo de espera</th>
-      <th style="padding: 12px;">Transacción en curso</th>
+      <th style="padding: 12px;">Nombre</th>
+      <th style="padding: 12px;">Límite mínimo</th>
+      <th style="padding: 12px;">Límite máximo</th>
+      <th style="padding: 12px;">Tiempo de expiración</th>
     </tr>
   </thead>
   <tbody>
