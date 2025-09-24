@@ -213,8 +213,6 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 
 A continuación se muestran varios posibles casos de rechazo junto con su código y descripción. Además, incluimos posibles datos de prueba para utilizar en cada caso:
 
-<br />
-
 <HTMLBlock>{`
 <table>
   <thead>
