@@ -111,7 +111,7 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
   </thead>
   <tbody>
     <tr>
-      <td>Tiendas con Bemovils</td>
+      <td>Tiendas con Bemovil</td>
       <td>1 USD</td>
       <td>50 USD</td>
       <td>24 horas</td>
