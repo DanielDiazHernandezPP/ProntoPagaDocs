@@ -397,19 +397,6 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 </table>
 `}</HTMLBlock>
 
-| Motivo                                                             | Acción                                                |
-| :----------------------------------------------------------------- | :---------------------------------------------------- |
-| Error por suscripción confirmada no existente                      | Yape notifica sobre la transacción denegada por email |
-| Error por no coincidencia del código de comercio de la suscripción | Yape notifica sobre la transacción denegada por email |
-| Error por monto máximo por compra excedido                         | Yape notifica sobre la transacción denegada por email |
-| Error por autorización detectada como fraude                       | Yape notifica sobre la transacción denegada por email |
-| Error por fondos insuficientes                                     | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria bloqueada                                | Yape notifica sobre la transacción denegada por email |
-| Error por timeout en el proceso de transferencia                   | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta yapera no encontrada                              | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria cerrada                                  | Yape notifica sobre la transacción denegada por email |
-| Error inesperado ocurrido en el servidor                           | Yape notifica sobre la transacción denegada por email |
-
 <br />
 
 ### Devolución de un pago de una Recurrencia
