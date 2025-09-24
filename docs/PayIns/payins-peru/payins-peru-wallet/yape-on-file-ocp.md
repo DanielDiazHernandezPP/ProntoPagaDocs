@@ -44,7 +44,7 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de la
 
 <Cards columns={2}>
   <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
+    Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego, se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
   </Card>
 
   <Card title="Si se tiene activado el servicio de validación pago de terceros">
@@ -58,9 +58,7 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de la
 
 <Cards columns={2}>
   <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    El cliente debe hacer clic en el botón **Solicitar aprobación**.
-
-    Luego, será redirigido a la aplicación de Yape mediante un deeplink dinámico generado a demanda, el cual estará activo por 15 minutos.
+    El cliente debe hacer clic en el botón **Solicitar aprobación**. Luego, será redirigido a la aplicación de Yape mediante un deeplink dinámico generado a demanda, el cual estará activo por 15 minutos.
 
     Después de ingresar su clave de acceso, aparecerá un modal en la pantalla, donde podrá aprobar la afiliación directamente.
   </Card>
