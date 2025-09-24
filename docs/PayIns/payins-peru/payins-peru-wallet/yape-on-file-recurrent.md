@@ -374,6 +374,29 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 A continuación, se listan los posibles motivos de rechazo para un pago de tipo Recurrencia, así como las acciones de Yape al respecto.
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Motivo</b></th>
+      <th><b>Acción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Error por suscripción confirmada no existente</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por no coincidencia del código de comercio de la suscripción</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por monto máximo por compra excedido</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por autorización detectada como fraude</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por fondos insuficientes</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por cuenta bancaria bloqueada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+		<tr><td>Error por timeout en el proceso de transferencia</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por cuenta yapera no encontrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por cuenta bancaria cerrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+		<tr><td>Error inesperado ocurrido en el servidor</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Motivo                                                             | Acción                                                |
 | :----------------------------------------------------------------- | :---------------------------------------------------- |
 | Error por suscripción confirmada no existente                      | Yape notifica sobre la transacción denegada por email |
@@ -409,14 +432,24 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
 
-| Motivo                                                | Acción                                                |
-| :---------------------------------------------------- | :---------------------------------------------------- |
-| Error por cuenta yapera no encontrada                 | Yape notifica sobre la transacción denegada por email |
-| Error por operación de cargo no encontrado            | Yape notifica sobre la transacción denegada por email |
-| Error por plazo vencido para solicitar una devolución | Yape notifica sobre la transacción denegada por email |
-| Error en monto de devolución                          | Yape notifica sobre la transacción denegada por email |
-| Error por cuenta bancaria cerrada                     | Yape notifica sobre la transacción denegada por email |
-| Error inesperado ocurrido en el servidor              | Yape notifica sobre la transacción denegada por email |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Motivo</b></th>
+      <th><b>Acción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Error por cuenta yapera no encontrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por operación de cargo no encontrado</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por plazo vencido para solicitar una devolución</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error en monto de devolución</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+    <tr><td>Error por cuenta bancaria cerrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+		<tr><td>Error inesperado ocurrido en el servidor</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 <br />
 
