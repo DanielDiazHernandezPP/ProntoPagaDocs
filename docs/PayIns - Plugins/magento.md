@@ -34,7 +34,7 @@ Esta guía te llevará paso a paso a través del **proceso de instalación, conf
 
 Antes de comenzar con la instalación, debes contar con lo siguiente:
 
-* Descargar previamente el [archivo .zip del _plugin_](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBtL3EgaIwvYMOg0Z7aJEKSg?e=cj41V0)
+* Descargar previamente el [archivo .zip del *plugin*](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/Eg9ZKZSWz6tOkFFvIVhajxYBtL3EgaIwvYMOg0Z7aJEKSg?e=cj41V0)
 * Tener **permiso de administrador en la tienda de Adobe Commerce** donde instalarás el _plugin_
 * Contar con la **versión 2.4 hasta 2.4.3** de Magento Commerce Cloud instalada
 * Disponer de un certificado SSL de al **menos 246 bits**
@@ -78,7 +78,7 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
    * Las transacciones **serán reales y contabilizadas**, por lo tanto, debes ingresar tarjetas reales.
    * Configuración`debug: No`
 
-<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/f38a4bb87e18441c01a124652b617efcb34d9ba07ded4001b3cba4d401076d4b-image.png" />
+<Image align="center" border={true} width="500px" src="https://files.readme.io/f38a4bb87e18441c01a124652b617efcb34d9ba07ded4001b3cba4d401076d4b-image.png" className="border" />
 
 ***
 
@@ -90,8 +90,8 @@ La siguiente tabla presenta una descripción de todos los **campos que debes lle
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th>Configuración</th>
-      <th>Descripción</th>
+      <th><b>Configuración</b></th>
+      <th><b>Descripción</b></th>
     </tr>
   </thead>
   <tbody>
@@ -124,16 +124,16 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 1. Ingresa a tu cuenta de Adobe Commerce con tu usuario y contraseña.
 2. Selecciona un producto y haz clic **Add to Cart**.
 
-<Image align="center" className="border" border={true} width="300px" src="https://files.readme.io/410cf78022f6d78742bcc5c4a74e64cd23cb4657c77afa05104f4ffbac4c1554-image.png" />
+<Image align="center" border={true} width="300px" src="https://files.readme.io/410cf78022f6d78742bcc5c4a74e64cd23cb4657c77afa05104f4ffbac4c1554-image.png" className="border" />
 
 3. Dirígete al carrito de compras, ubicado en la parte superior derecha de tu página y haz clic en **Proceed to Checkout**
 
-<Image align="center" className="border" border={true} width="350px" src="https://files.readme.io/18b54951366a5e121eee4a487d10a541cc5583c8bd16babbf5f7243a136d5cd9-image.png" />
+<Image align="center" border={true} width="350px" src="https://files.readme.io/18b54951366a5e121eee4a487d10a541cc5583c8bd16babbf5f7243a136d5cd9-image.png" className="border" />
 
 4. Llena el formulario con tus datos personales y selecciona **Next**.
 5. En esta sección, selecciona el método de pago, ingresa tu documento de identidad y haz clic en **Place Order**.
 
-<Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" />
+<Image align="center" border={true} width="400px" src="https://files.readme.io/614b71076823a0457837bbf586a0b11a026811d2de50e7b2a7a9c32147062cd0-image.png" className="border" />
 
 6. Completa los campos con los datos de prueba de tu tarjeta.
 7. ¡Listo! **Recibirás la confirmación del pago** en el correo electrónico registrado.
@@ -147,6 +147,22 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Problema</b></th>
+      <th><b>Solución sugerida</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>No aparece el módulo de ProntoPaga en el menú lateral</td><td>Verifica si el plugin está instalado y activo en <b>Plugins > Plugins instalados</b></td></tr>
+    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
+    <tr><td>No aparece ProntoPaga como opción de pago</td><td>Asegúrate de que el plugin esté activo y configurado según esta guía</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Solución sugerida                                                            | Problema                                  |
 | :--------------------------------------------------------------------------- | :---------------------------------------- |
