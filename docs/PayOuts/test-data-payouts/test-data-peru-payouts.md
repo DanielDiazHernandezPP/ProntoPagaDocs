@@ -20,8 +20,6 @@ metadata:
     - payouts transfer
   robots: index
 ---
-<br />
-
 ## Retiros instantáneos hacia wallets
 
 Datos para pruebas en el servicio de retiros hacia wallets en Perú.
@@ -50,8 +48,6 @@ Datos para pruebas en el servicio de retiros hacia wallets en Perú.
 `}</HTMLBlock>
 
 ***
-
-<br />
 
 ## Retiros instantáneos por transferencia
 
