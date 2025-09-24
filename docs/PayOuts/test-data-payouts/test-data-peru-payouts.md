@@ -53,8 +53,6 @@ Datos para pruebas en el servicio de retiros hacia wallets en Perú.
 
 Datos para pruebas en el servicio de retiros por transferencia en Perú.
 
-<br />
-
 <HTMLBlock>{`
 <table>
   <thead>
@@ -75,12 +73,3 @@ Datos para pruebas en el servicio de retiros por transferencia en Perú.
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Número de cuenta interbancaria | Código bancario | Número de identificación | Número de celular |
-| :----------------------------- | :-------------- | :----------------------- | :---------------- |
-| 00219311803687806711           | 02              | 09179328                 | 974646320         |
-| 00235017098310703971           | 02              | 95106558                 | 944000003         |
-| 00310001700746882659           | 03              | 45790023                 | 944000003         |
-| 00310001700922358857           | 03              | 47675102                 | 984937706         |
-| 04955700601816547120           | 49              | 45790023                 | 944000003         |
-| 05300100194255100143           | 53              | 10267181                 | 974646320         |
