@@ -53,10 +53,6 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 </table>
 `}</HTMLBlock>
 
-| Nombre                            | Límite mínimo | Límite máximo | Tiempo de expiración |
-| :-------------------------------- | :------------ | :------------ | :------------------- |
-| Puntos Red Activa / Western Union | 5 USD         | 300 USD       | No expira            |
-
 ***
 
 ## Ponle más
@@ -67,9 +63,21 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ### Especificaciones
 
-| Nombre           | Límite mínimo | Límite máximo | Tiempo de expiración |
-| :--------------- | :------------ | :------------ | :------------------- |
-| Puntos Ponle más | 1 USD         | 50 USD        | No expira            |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Puntos Ponle más</td><td>USD 1</td><td>USD 50</td><td>No expira</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -81,6 +89,18 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ### Especificaciones
 
-| Nombre              | Límite mínimo | Límite máximo | Tiempo de expiración |
-| :------------------ | :------------ | :------------ | :------------------- |
-| Tiendas con Bemovil | 1 USD         | 50 USD        | No expira            |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tiendas con Bemovil</td><td>USD 1</td><td>USD 50</td><td>No expira</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
