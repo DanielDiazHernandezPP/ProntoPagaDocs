@@ -35,7 +35,23 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de [esta página](https://redactiva.com/agencias/) ⬅️
 
-#### Especificaciones
+### Especificaciones
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Nombre</b></th>
+      <th><b>Límite mínimo</b></th>
+			<th><b>Límite máximo</b></th>
+      <th><b>Tiempo de expiración</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Puntos Red Activa / Western Union</td><td>USD 5</td><td>USD 300</td><td>No expira</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Nombre                            | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :-------------------------------- | :------------ | :------------ | :------------------- |
@@ -49,7 +65,7 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 🌎 Conoce los puntos PonleMas **cercanos a ti** en el mapa disponible en [esta página](https://promociones.ponlemas.com/wsUbicacionPDV/Home/ComerciosCercanos/) ⬅️
 
-#### Especificaciones
+### Especificaciones
 
 | Nombre           | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :--------------- | :------------ | :------------ | :------------------- |
@@ -63,7 +79,7 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 🌎 Pregunta en tu tienda más cercana si procesan recargas con Bemovil.
 
-#### Especificaciones
+### Especificaciones
 
 | Nombre              | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :------------------ | :------------ | :------------ | :------------------- |
