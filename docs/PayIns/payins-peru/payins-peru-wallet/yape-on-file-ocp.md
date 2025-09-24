@@ -220,7 +220,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
    <tr><td>Error por cuenta bancaria bloqueada</td><td><ul><li><b>Tu cuenta asociada a Yape está bloqueada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</li></ul></td></tr> 
     <tr><td>Error por timeout en el proceso de transferencia</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
     <tr><td>Error por cuenta yapera no encontrada</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.</li></ul></td></tr>
-    <tr><td>Error por tarjeta BCP desactualizada</td><td><ul><li><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Ingresa al Centro de Ayuda de <a href=" www.yape.com.pe"></a> y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.</li></ul></td></tr>
+    <tr><td>Error por tarjeta BCP desactualizada</td><td><ul><li><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Ingresa al Centro de Ayuda de <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.</li></ul></td></tr>
     
     
     
