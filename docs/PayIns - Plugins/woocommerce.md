@@ -179,12 +179,6 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 </table>
 `}</HTMLBlock>
 
-| Problema                                              | Solución sugerida                                                                 |
-| :---------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| No aparece el módulo de ProntoPaga en el menú lateral | Verifica si el plugin está instalado y activo en **Plugins > Plugins instalados** |
-| Error de redirección al pagar                         | Revisa las credenciales API configuradas                                          |
-| No aparece ProntoPaga como opción de pago             | Asegúrate de que el plugin esté activo y configurado según esta guía              |
-
 <br />
 
 ### Ayuda con un pedido
