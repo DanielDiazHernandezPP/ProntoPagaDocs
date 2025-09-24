@@ -166,13 +166,6 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 </table>
 `}</HTMLBlock>
 
-| Solución sugerida                                                            | Problema                                  |
-| :--------------------------------------------------------------------------- | :---------------------------------------- |
-| Debes validar que la versión de Magento que estás instalando sea la correcta | Error de instalación de _plugin_          |
-| Verifica si se instaló en el _workspace_ correcto y si fue publicado         | El _plugin_ no aparece en el Admin        |
-| Revisa las credenciales API configuradas                                     | Error de redirección al pagar             |
-| Asegúrate de que el _plugin_ esté activo y configurado                       | ProntoPaga no aparece como opción de pago |
-
 ***
 
 ## Desinstalación
