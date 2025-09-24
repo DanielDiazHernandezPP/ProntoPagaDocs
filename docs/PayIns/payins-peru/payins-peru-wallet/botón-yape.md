@@ -74,10 +74,10 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
     </tr>
   </thead>
   <tbody>
-    <tr><td>El número de celular y el documento de identidad no están asociados</td><td><code>The user's phone number and identity document do not match</code></td></tr>
-    <tr><td>El usuario no tiene una cuenta de Yape activa</td><td><code>The user does not have an active Yape account</code></td></tr>
-    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
-    <tr><td>El servicio de validación no está respondiendo correctamente</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
+    <tr><td>El número de celular y el documento de identidad no están asociados.</td><td><code>The user's phone number and identity document do not match</code></td></tr>
+    <tr><td>El usuario no tiene una cuenta de Yape activa.</td><td><code>The user does not have an active Yape account</code></td></tr>
+    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio.</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
+    <tr><td>El servicio de validación no está respondiendo correctamente.</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
