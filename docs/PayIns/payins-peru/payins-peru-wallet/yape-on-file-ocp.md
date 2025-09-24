@@ -48,7 +48,9 @@ El proceso de pago con **Yape On File: One Click Payment** en Perú consta de la
   </Card>
 
   <Card title="Si se tiene activado el servicio de validación pago de terceros">
-    Se le pide al cliente confirmar su número de celular y su documento de identidad. Si los datos no coinciden, se muestra un mensaje de error. Si los datos coinciden, la solicitud se envía directamente a su aplicación de Yape, donde el cliente podrá visualizar en pantalla las solicitudes pendientes, seleccionar la correspondiente y hacer clic en **Confirmar**. En el caso del proceso de afiliación, Yape envía un correo electrónico únicamente cuando esta ha sido exitosa, y, en caso de una desafiliación, el cliente recibe una notificación push en su app.
+    Se le pide al cliente confirmar su número de celular y su documento de identidad. Si los datos no coinciden, se muestra un mensaje de error. Si los datos coinciden, la solicitud se envía directamente a su aplicación de Yape, donde el cliente podrá visualizar en pantalla las solicitudes pendientes, seleccionar la correspondiente y hacer clic en **Confirmar**.
+
+    En el caso del proceso de afiliación, Yape envía un correo electrónico únicamente cuando esta ha sido exitosa, y, en caso de una desafiliación, el cliente recibe una notificación push en su app.
   </Card>
 </Cards>
 
