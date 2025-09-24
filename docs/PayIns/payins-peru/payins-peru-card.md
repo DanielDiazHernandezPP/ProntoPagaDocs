@@ -39,7 +39,7 @@ Pagos con Tarjeta es un servicio que permite aceptar pagos con tarjetas de créd
 
 El proceso de pago con tarjeta en Perú consta de cinco etapas principales:
 
-<Image align="center" src="https://files.readme.io/341224d75b1d4619ee7ff57c93c63a3c05300691f309dfd6b92f8e18e518af38-peru_-_01.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/341224d75b1d4619ee7ff57c93c63a3c05300691f309dfd6b92f8e18e518af38-peru_-_01.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico. Si tienes activadas las opciones, el cliente verá también la opción de pagar en cuotas y la de recordar tarjeta.
@@ -61,7 +61,7 @@ El pago con tarjeta en Perú cuenta con características extras. Algunas de ella
 
 El sistema detectará automáticamente si se está realizando un pago con tarjeta de crédito o débito, en caso de ser tarjeta de crédito, la opción de cuotas se mostrará en automático en el formulario. El número de cuotas son definidas por el emisor de la tarjeta, así como por el banco del usuario.
 
-<Image align="center" src="https://files.readme.io/deee08d0ef65a7124c0f6208436b93e0c3035b039ea3c069b930786377102a0f-cuotas.png" />
+<Image align="center" border={false} src="https://files.readme.io/deee08d0ef65a7124c0f6208436b93e0c3035b039ea3c069b930786377102a0f-cuotas.png" />
 
 <br />
 
@@ -69,7 +69,7 @@ El sistema detectará automáticamente si se está realizando un pago con tarjet
 
 Si el cliente desea recordar su tarjeta para futuras compras, contamos con un campo extra dentro del formulario de pago. Podrá asignarle un alias a cada tarjeta que decida guardar:
 
-<Image align="center" src="https://files.readme.io/05694f34656428e9cabb3184d9f52bde33c4eb8d1628f5146329b52849ee3f0b-recordar.png" />
+<Image align="center" border={false} src="https://files.readme.io/05694f34656428e9cabb3184d9f52bde33c4eb8d1628f5146329b52849ee3f0b-recordar.png" />
 
 > 📘 Monedas
 >
@@ -81,7 +81,7 @@ Si el cliente desea recordar su tarjeta para futuras compras, contamos con un ca
 
 Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectará en automático cuando se trata de una tarjeta de este tipo, con lo cual, el cliente verá dos campos extras en su formulario de pagos (ciudad y país de la tarjeta):
 
-<Image align="center" src="https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png" />
+<Image align="center" border={false} src="https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png" />
 
 ***
 
@@ -212,6 +212,25 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 ### Motivos de rechazo
 
 A continuación se muestran varios posibles casos de rechazo junto con su código y descripción. Además, incluimos posibles datos de prueba para utilizar en cada caso:
+
+<br />
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código</b></th>
+      <th><b>Descripción</b></th>
+      <th><b>Datos de prueba para casos denegados</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Visa</td><td>4147463011110059</td><td>dic-29</td></tr>
+    <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td></tr>
+    <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 <Table align={["left","left","left"]}>
   <thead>
