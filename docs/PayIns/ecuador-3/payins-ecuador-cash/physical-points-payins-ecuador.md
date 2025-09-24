@@ -68,9 +68,26 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 #### Especificaciones
 
-| Nombre           | Límite mínimo | Límite máximo | Tiempo de expiración |
-| :--------------- | :------------ | :------------ | :------------------- |
-| Puntos Ponle más | 1 USD         | 50 USD        | 24 horas             |
+<HTMLBlock>{`
+<table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #FC2B5F; color: white;">
+      <th style="padding: 12px;">Nombre</th>
+      <th style="padding: 12px;">Límite mínimo</th>
+      <th style="padding: 12px;">Límite máximo</th>
+      <th style="padding: 12px;">Tiempo de expiración</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Puntos Ponle más</td>
+      <td>1 USD</td>
+      <td>50 USD</td>
+      <td>24 horas</td>
+    </tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 <br />
 
@@ -82,6 +99,25 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 #### Especificaciones
 
-| Nombre              | Límite mínimo | Límite máximo | Tiempo de expiración |
-| :------------------ | :------------ | :------------ | :------------------- |
-| Tiendas con Bemovil | 1 USD         | 50 USD        | 24 horas             |
+<HTMLBlock>{`
+<table style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #FC2B5F; color: white;">
+      <th style="padding: 12px;">Nombre</th>
+      <th style="padding: 12px;">Límite mínimo</th>
+      <th style="padding: 12px;">Límite máximo</th>
+      <th style="padding: 12px;">Tiempo de expiración</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tiendas con Bemovils</td>
+      <td>1 USD</td>
+      <td>50 USD</td>
+      <td>24 horas</td>
+    </tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+<br />
