@@ -68,11 +68,6 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 </table>
 `}</HTMLBlock>
 
-| Estado   | Descripción                                                                                                         |
-| :------- | :------------------------------------------------------------------------------------------------------------------ |
-| Success  | Solicitud aprobada                                                                                                  |
-| Canceled | Solicitud rechazada. Conoce los [tipos de retiros cancelados](https://docs.prontopaga.com/docs/payouts-rejections). |
-
 > 📘 Estados
 >
 > Payphone solo utiliza el estado **success** y **canceled** ya que son pagos instantáneos.
