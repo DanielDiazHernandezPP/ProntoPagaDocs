@@ -50,7 +50,7 @@ Para instalar el plugin de pagos ProntoPaga en WooCommerce, sigue estas instrucc
 1. En el menú lateral de WooCommerce, dirígete a **Plugins > Añadir plugin**.
 2. Haz clic en el botón superior **Subir plugin**, en donde deberás seleccionar el archivo .zip previamente descargado
 
-<Image align="center" width="450px" src="https://files.readme.io/52ca502e35a0a7fa7dd938c2f81e73949970f236e0e5b8e212faaab01ebd5663-1wc.png" />
+<Image align="center" border={false} width="450px" src="https://files.readme.io/52ca502e35a0a7fa7dd938c2f81e73949970f236e0e5b8e212faaab01ebd5663-1wc.png" />
 
 3. Cuando se haya cargado el archivo, haz clic en **Instalar ahora**
 4. Al finalizar la instalación, haz clic en el botón azul de **Activar plugin**
@@ -72,7 +72,7 @@ Para configurarlo y elegir los métodos de pago, sigue estos pasos:
    1. Token de autenticación (Bearer Token)
    2. Secret Key
 
-<Image align="center" width="420px" src="https://files.readme.io/3203508386674b3a7b09984a9ded7bb7f51440217034dafd3e99f5dbe8929e92-Captura_de_pantalla_2025-05-04_a_las_11.09.56_p.m..png" />
+<Image align="center" border={false} width="420px" src="https://files.readme.io/3203508386674b3a7b09984a9ded7bb7f51440217034dafd3e99f5dbe8929e92-Captura_de_pantalla_2025-05-04_a_las_11.09.56_p.m..png" />
 
 > 📘 Credenciales
 >
@@ -81,7 +81,7 @@ Para configurarlo y elegir los métodos de pago, sigue estos pasos:
 4. Debajo de las credenciales que agregaste, haz clic en **Validar credenciales**, para que se puedan visualizar los métodos de pago asociados a tu comercio
 5. Debajo, en **Métodos de pago**, selecciona los métodos de pago que deseas mostrar en tu tienda de WooCommerce
 
-<Image align="center" width="450px" src="https://files.readme.io/140ba6d396f7ce95b0167090c233e67b6148a8e5535a6f2e4a7111e5b09e7100-Captura_de_pantalla_2025-05-04_a_las_11.12.04_p.m..png" />
+<Image align="center" border={false} width="450px" src="https://files.readme.io/140ba6d396f7ce95b0167090c233e67b6148a8e5535a6f2e4a7111e5b09e7100-Captura_de_pantalla_2025-05-04_a_las_11.12.04_p.m..png" />
 
 6. Haz clic en el botón inferior de **Guardar Configuración**
 
@@ -98,13 +98,13 @@ Para modificarlo:
 3. Agrega el **Título del método de pago** que desees
 4. Añade una **Descripción**, si así lo requieres
 
-<Image align="center" width="450px" src="https://files.readme.io/eb90c4eacc975cd57b4c830722296a993e1a7c99c5ea52cb563b21bdf0fcb12e-Captura_de_pantalla_2025-05-04_a_las_11.13.46_p.m..png" />
+<Image align="center" border={false} width="450px" src="https://files.readme.io/eb90c4eacc975cd57b4c830722296a993e1a7c99c5ea52cb563b21bdf0fcb12e-Captura_de_pantalla_2025-05-04_a_las_11.13.46_p.m..png" />
 
 5. Haz clic en el botón inferior de **Guardar Configuración**
 
-Este es un ejemplo de cómo se verían el título y la descripción durante el *checkout*:
+Este es un ejemplo de cómo se verían el título y la descripción durante el _checkout_:
 
-<Image align="center" width="320px" src="https://files.readme.io/950e4513979756c17e0fe8c895c6a0fde66085682edd9a5a46c7a0c9a47c53d1-Captura_de_pantalla_2025-05-04_a_las_11.15.48_p.m..png" />
+<Image align="center" border={false} width="320px" src="https://files.readme.io/950e4513979756c17e0fe8c895c6a0fde66085682edd9a5a46c7a0c9a47c53d1-Captura_de_pantalla_2025-05-04_a_las_11.15.48_p.m..png" />
 
 <br />
 
@@ -116,7 +116,7 @@ Dependiendo de lo que requiera tu comercio, podrás configurar el estado final d
 2. Navega hasta la sección inferior de **Ajustes adicionales**
 3. Selecciona el estado final de las transacciones que deseas utilizar
    1. **Procesando:** Utiliza este estado si necesitas completar el proceso manualmente, por ejemplo, si vas a facturar o enviar el producto.
-   2. \*\*Completada:\*\*Utiliza este estado si con el pago el pedido queda completado y no debes hacer nada más, por ejemplo, en el caso de productos digitales.
+   2. **Completada:**Utiliza este estado si con el pago el pedido queda completado y no debes hacer nada más, por ejemplo, en el caso de productos digitales.
 4. Haz clic en el botón inferior de **Guardar Configuración**
 
 > 📘 Estado de las transacciones
@@ -133,21 +133,21 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de WooCommer
 
 1. Agrega un producto al carrito
 
-2. Haz clic en el botón **Finalizar compra**, para proceder al *checkout*
+2. Haz clic en el botón **Finalizar compra**, para proceder al _checkout_
 
-<Image align="center" width="400px" src="https://files.readme.io/0084fd098f3c09c2d5af19ec77805d5889d2a8d94b05fac56d5206e25b3e041d-Captura_de_pantalla_2025-05-04_a_las_3.08.56_p.m..png" />
+<Image align="center" border={false} width="400px" src="https://files.readme.io/0084fd098f3c09c2d5af19ec77805d5889d2a8d94b05fac56d5206e25b3e041d-Captura_de_pantalla_2025-05-04_a_las_3.08.56_p.m..png" />
 
-3. En la página del *checkout*, realiza lo siguiente:
+3. En la página del _checkout_, realiza lo siguiente:
    1. Completa los datos de **Detalles de facturación**
    2. En el detalle de **Tu pedido**, elige ProntoPaga y selecciona el método de pago que probarás
    3. En caso de ser requerido para el método o país, ingresa un número de identificación
 
-<Image align="center" width="420px" src="https://files.readme.io/71a4c95ec8e4104cc5e54ad9cca79ffd80556ba793935a088a8c09fa5f4dedb0-Captura_de_pantalla_2025-05-04_a_las_3.10.55_p.m..png" />
+<Image align="center" border={false} width="420px" src="https://files.readme.io/71a4c95ec8e4104cc5e54ad9cca79ffd80556ba793935a088a8c09fa5f4dedb0-Captura_de_pantalla_2025-05-04_a_las_3.10.55_p.m..png" />
 
 4. Haz clic en el botón **Realizar el pedido**
 5. Se abrirá la experiencia de ProntoPaga, en donde podrás continuar el pago y comprobar que se realice correctamente
 
-<Image align="center" width="420px" src="https://files.readme.io/9125cfb2a3144888366a1fa2ca6d9fca7e184179b8edb5afbd28d44e5baf2b85-woocomm_check.png" />
+<Image align="center" border={false} width="420px" src="https://files.readme.io/9125cfb2a3144888366a1fa2ca6d9fca7e184179b8edb5afbd28d44e5baf2b85-woocomm_check.png" />
 
 > 👍 Set de pruebas
 >
@@ -162,6 +162,22 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de WooCommer
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Problema</b></th>
+      <th><b>Solución sugerida</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>No aparece el módulo de ProntoPaga en el menú lateral</td><td>Verifica si el plugin está instalado y activo en <b>Plugins > Plugins instalados</b></td></tr>
+    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
+    <tr><td>No aparece ProntoPaga como opción de pago</td><td>Asegúrate de que el plugin esté activo y configurado según esta guía</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Problema                                              | Solución sugerida                                                                 |
 | :---------------------------------------------------- | :-------------------------------------------------------------------------------- |
