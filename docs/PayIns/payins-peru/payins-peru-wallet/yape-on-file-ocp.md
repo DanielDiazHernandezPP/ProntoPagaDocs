@@ -36,7 +36,7 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con **Yape On File: One Click Payment** en Perú consta de las siguientes etapas:
 
-<Image align="center" src="https://files.readme.io/9e669b7d42a453a5ecb3d022290857c591ebda3fb06a1d823421a87ede68fb27-oneClick-oneclick_1.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/9e669b7d42a453a5ecb3d022290857c591ebda3fb06a1d823421a87ede68fb27-oneClick-oneclick_1.jpg" />
 
 1. **Selección de afiliación.** Durante el checkout, el cliente elige la opción de "Agrega Yape como método de pago". La siguiente parte del flujo varía según el dispositivo del cliente y si tu comercio tiene o no activado el servicio de validación de pago de terceros:
 
@@ -96,6 +96,23 @@ Esta validación se asigna de forma automática a ciertos comercios integrados c
 ### Motivos de rechazo de validación pago terceros
 
 A continuación, se listan los posibles motivos de validación pago terceros, así como los mensajes que se mostrarán.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Motivo</b></th>
+      <th><b>Mensaje</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>El número de celular y el documento de identidad no están asociados.</td><td><code>The user's phone number and identity document do not match</code></td></tr>
+    <tr><td>El usuario no tiene una cuenta de Yape activa.</td><td><code>The user does not have an active Yape account</code></td></tr>
+    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio.</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
+    <tr><td>El servicio de validación no está respondiendo correctamente.</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Motivo                                                                                                             | Mensaje                                                                                                          |
 | :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
