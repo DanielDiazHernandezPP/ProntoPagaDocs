@@ -49,19 +49,19 @@ Para instalar el plugin de pagos ProntoPaga en VTEX, sigue estas instrucciones:
 
 1. Abre la terminal e inicia sesión en VTEX CLI, ejecutando el comando: `vtex login nombre_de_cuenta`
 
-<Image align="center" src="https://files.readme.io/fda43071aadb95b9238dc3ecf6edf454c9a5c8e76bf22730258736da09f5e4a6-1_vtex.png" />
+<Image align="center" border={false} src="https://files.readme.io/fda43071aadb95b9238dc3ecf6edf454c9a5c8e76bf22730258736da09f5e4a6-1_vtex.png" />
 
-2. El comando te redirigirá al *login* de VTEX en el navegador. Inicia sesión con tus datos
+2. El comando te redirigirá al _login_ de VTEX en el navegador. Inicia sesión con tus datos
 
-<Image align="center" width="320px" src="https://files.readme.io/4eb449d06eff1282d1426f9614aa5bd980935b8116de2cc99a5a878bf76dcbdc-2vtex.png" />
+<Image align="center" border={false} width="320px" src="https://files.readme.io/4eb449d06eff1282d1426f9614aa5bd980935b8116de2cc99a5a878bf76dcbdc-2vtex.png" />
 
 3. Una vez iniciada la sesión en el navegador, la terminal se actualizará
 
-<Image align="center" src="https://files.readme.io/b9cd29f262c0279d21aeb46e19128c170caeac5dc3020314d4a077e8f632a972-3vtex.png" />
+<Image align="center" border={false} src="https://files.readme.io/b9cd29f262c0279d21aeb46e19128c170caeac5dc3020314d4a077e8f632a972-3vtex.png" />
 
 4. Verifica el workspace, ejecutando el comando: `vtex workspace list`
 
-<Image align="center" src="https://files.readme.io/7ad5e5637d8f6566d95229921a3be33ec23540f651cca9a4769ecab32b84703e-4vtex.png" />
+<Image align="center" border={false} src="https://files.readme.io/7ad5e5637d8f6566d95229921a3be33ec23540f651cca9a4769ecab32b84703e-4vtex.png" />
 
 5. Elige usar el workspace master ejecutando el comando: `vtex use master`
 
@@ -71,7 +71,7 @@ Para instalar el plugin de pagos ProntoPaga en VTEX, sigue estas instrucciones:
 
 6. Instala ProntoPaga en tu cuenta VTEX, ejecutando el comando: `vtex install knownonline.prontopaga-paymentapp@1.3.0`
 
-<Image align="center" src="https://files.readme.io/b0ed4bcc26c97cbb80e2304be9f73add3dda99c2a03b23548fa4996667db3e40-5vtex.png" />
+<Image align="center" border={false} src="https://files.readme.io/b0ed4bcc26c97cbb80e2304be9f73add3dda99c2a03b23548fa4996667db3e40-5vtex.png" />
 
 > 🚧 Versión del plugin
 >
@@ -79,7 +79,7 @@ Para instalar el plugin de pagos ProntoPaga en VTEX, sigue estas instrucciones:
 
 7. ¡Listo! ProntoPaga habrá quedado instalado desde la terminal.
 
-<Image align="center" width="400px" src="https://files.readme.io/f285ea53557966437a16198152986d56e63a7e05cba6608b758eee49efa7419e-6_vtex.png" />
+<Image align="center" border={false} width="400px" src="https://files.readme.io/f285ea53557966437a16198152986d56e63a7e05cba6608b758eee49efa7419e-6_vtex.png" />
 
 ***
 
@@ -105,18 +105,18 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, rea
 
 1. Agrega un producto al carrito
 
-2. Haz clic en el botón **Finalizar compra**, para proceder al *checkout*
+2. Haz clic en el botón **Finalizar compra**, para proceder al _checkout_
 
-<Image align="center" width="420px" src="https://files.readme.io/7183f974b5492d342350e9c14c60710de8fe91556d1db998b69180c647ea47ab-7vtex.png" />
+<Image align="center" border={false} width="420px" src="https://files.readme.io/7183f974b5492d342350e9c14c60710de8fe91556d1db998b69180c647ea47ab-7vtex.png" />
 
 3. Completa los datos **Identificación** y **Envío**. En **Pago**, elige ProntoPaga
 
-<Image align="center" width="420px" src="https://files.readme.io/14fafdf1339d6347f35c26e91cf4067b26b109298e89f7a43abe771d47fde016-8vtex.png" />
+<Image align="center" border={false} width="420px" src="https://files.readme.io/14fafdf1339d6347f35c26e91cf4067b26b109298e89f7a43abe771d47fde016-8vtex.png" />
 
 4. Haz clic en el botón **Comprar ahora**
 5. Se abrirá la experiencia de ProntoPaga, en donde podrás elegir un método de pago y comprobar que el pago se realice correctamente
 
-<Image align="center" width="370px" src="https://files.readme.io/827ddff4ab33e92dc048f358d4a899bd27b2a6572cf93fa546502e33fd93dfb1-9vtex.png" />
+<Image align="center" border={false} width="370px" src="https://files.readme.io/827ddff4ab33e92dc048f358d4a899bd27b2a6572cf93fa546502e33fd93dfb1-9vtex.png" />
 
 > 👍 Set de pruebas
 >
@@ -131,6 +131,22 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, rea
 ## Solución de problemas comunes
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Problema</b></th>
+      <th><b>Solución sugerida</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>El plugin no aparece en el Admin</td><td>Verifica si se instaló en el workspace correcto, y si fue publicado</td></tr>
+    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
+    <tr><td>No aparece ProntoPaga como opción de pago</td><td>Asegúrate de que el plugin esté activo y configurado</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Problema                                  | Solución sugerida                                                   |
 | :---------------------------------------- | :------------------------------------------------------------------ |
