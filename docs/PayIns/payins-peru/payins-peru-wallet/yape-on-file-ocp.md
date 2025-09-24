@@ -209,9 +209,26 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   </thead>
   <tbody>
     <tr><td>Error por cuenta yapera no existe o inactiva</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.</li></ul></td></tr>
-    <tr><td>El usuario no tiene una cuenta de Yape activa.</td><td><code>The user does not have an active Yape account</code></td></tr>
-    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio.</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
-    <tr><td>El servicio de validación no está respondiendo correctamente.</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
+    <tr><td>Error por tipo de cuenta yapera no soportada</td><td><ul><li><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.</li></ul></td></tr>
+    <tr><td>Error por cuenta yapera en blacklist</td><td><ul><li><b>Por seguridad, tu cuenta Yape fue bloqueada.</b> Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.</li></ul></td></tr>
+    <tr><td>Error por cuenta yapera bloqueada para el canal e-commerce</td><td><ul><li><b>Tu cuenta Yape está bloqueada temporalmente.</b> Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.</li></ul></td></tr>  
+		<tr><td>Error por suscripción confirmada no existente</td><td><ul><li><b>Ocurrió un inconveniente.</b>Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+		
   </tbody>
 </table>
 `}</HTMLBlock>
