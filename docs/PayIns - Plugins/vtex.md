@@ -148,12 +148,6 @@ A continuación, se presenta una tabla con los problemas más comunes asociados 
 </table>
 `}</HTMLBlock>
 
-| Problema                                  | Solución sugerida                                                   |
-| :---------------------------------------- | :------------------------------------------------------------------ |
-| El plugin no aparece en el Admin          | Verifica si se instaló en el workspace correcto, y si fue publicado |
-| Error de redirección al pagar             | Revisa las credenciales API configuradas                            |
-| No aparece ProntoPaga como opción de pago | Asegúrate de que el plugin esté activo y configurado                |
-
 <br />
 
 ### Ayuda con un pedido
