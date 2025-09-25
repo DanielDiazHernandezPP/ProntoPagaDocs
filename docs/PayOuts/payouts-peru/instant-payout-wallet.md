@@ -56,8 +56,6 @@ El proceso de PayOut con wallet en Perú consta de cuatro etapas principales:
 
 Este es la lista completa de las wallets disponibles para hacer PayOuts con ProntoPaga en Perú:
 
-<br />
-
 <HTMLBlock>{`
 <table>
   <thead>
@@ -98,37 +96,6 @@ Este es la lista completa de las wallets disponibles para hacer PayOuts con Pron
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Marca                           | Valor        |
-| :------------------------------ | :----------- |
-| Banco Falabella                 | falabella    |
-| Wayki Caja Cusco                | cajaCusco    |
-| Banco Nación                    | nacion       |
-| Mibanco                         | mibanco      |
-| Tarjeta oh                      | oh           |
-| Banco GNB                       | gnb          |
-| BanBif                          | banbif       |
-| Caja Lima                       | cajaLima     |
-| Compartamos Financiera          | compartamos  |
-| Caja Huancayo                   | cajaHuancayo |
-| Caja Piura                      | cajaPiura    |
-| Dale                            | dale         |
-| Financiera Confianza            | confianza    |
-| Bancom                          | comercio     |
-| Ripley                          | ripley       |
-| Santander                       | santander    |
-| Banco Pichincha                 | pichincha    |
-| Banco de Crédito del Perú (BCP) | bcp          |
-| Financiera Efectiva             | efectiva     |
-| Caja Ica                        | cajaIca      |
-| Caja Trujillo                   | cajaTrujillo |
-| Interbank                       | interbank    |
-| Luqea                           | luqea        |
-| Caja Sullana                    | cajaSullana  |
-| Prexpe                          | prexpe       |
-| Yape                            | yape         |
-| Plin                            | plin         |
-| Bim                             | bim          |
 
 ***
 
