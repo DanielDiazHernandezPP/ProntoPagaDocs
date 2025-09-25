@@ -1,5 +1,5 @@
 ---
-title: PRINCIPAL
+title: Sección PRINCIPAL
 deprecated: false
 hidden: true
 metadata:
