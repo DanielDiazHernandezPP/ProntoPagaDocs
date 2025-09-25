@@ -1,5 +1,5 @@
 ---
-title: Módulo Balace
+title: Módulo Balance
 deprecated: false
 hidden: true
 metadata:
