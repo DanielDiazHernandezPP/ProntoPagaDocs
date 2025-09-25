@@ -71,6 +71,39 @@ Ejemplo:
 
 Estos son los posibles parámetros que se pueden entregar en el cuerpo del webhook:
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Parámetro</b></th>
+      <th><b>Tipo</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>uid</td><td>string</td></tr>
+    <tr><td>status</td><td>string</td></tr>
+    <tr><td>amount</td><td>number</td></tr>
+    <tr><td>reference</td><td>string</td></tr>
+    <tr><td>clientEmail</td><td>string</td></tr>
+    <tr><td>clientDocument</td><td>string</td></tr>
+    <tr><td>order</td><td>string</td></tr>
+    <tr><td>currency</td><td>string</td></tr>
+    <tr><td>country</td><td>string</td></tr>
+    <tr><td>method_type</td><td>string</td></tr>
+    <tr><td>method_detail</td><td>string</td></tr>
+    <tr><td>hash</td><td>string</td></tr>
+    <tr><td>note</td><td>string</td></tr>
+    <tr><td>sign</td><td>string</td></tr>
+    <tr><td>data</td><td>string</td></tr>
+    <tr><td>type</td><td>string</td></tr>
+    <tr><td>statusCode</td><td>string</td></tr>
+    <tr><td>startNotificationTime</td><td>string</td></tr>
+    <tr><td>endNotificationTime</td><td>string</td></tr>
+    <tr><td>totalRequestTime</td><td>string</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Parámetro             | Tipo   |
 | :-------------------- | :----- |
 | uid                   | string |
