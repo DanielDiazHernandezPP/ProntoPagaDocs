@@ -131,7 +131,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/ESSezIFfGzxArH2s5zmajoEBkGiSmK6xkxjh7bLDhFOGzg?e=SVAXYW).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/ESSezIFfGzxArH2s5zmajoEBkGiSmK6xkxjh7bLDhFOGzg?e=SVAXYW\&download=1).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
