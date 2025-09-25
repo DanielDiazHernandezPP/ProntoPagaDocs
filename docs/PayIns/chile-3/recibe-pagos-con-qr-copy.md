@@ -34,6 +34,15 @@ El proceso de pago con QR en Chile consta de cuatro etapas principales:
 <Image align="center" border={false} src="https://files.readme.io/fc447752eb33caef4a4ec1b20e70f55f4e25426e66b742a21046149de4a7ed65-Chile-05.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con QR a través de una wallet en tu sitio web o aplicación.
+
+<Callout icon="📘">
+  **Selección de método versión mobile 📱**
+
+  Si se detecta que el dispositivo del cliente es mobile, se le desplegará la opción de abrir la aplicación de MACH o BCI, según sus preferencias.
+
+  _Esto solo ocurre cuando el cliente selecciona la opción "Paga con QR/Wallet - MACH"._
+</Callout>
+
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
 
 En el caso de **MACH**, el flujo varía dependiendo de la versión utilizada:
