@@ -38,10 +38,7 @@ El proceso de pago con QR en Chile consta de cuatro etapas principales:
 <Callout icon="📘" theme="info">
   **Selección de método versión mobile 📱**
 
-  Si se detecta que el dispositivo del cliente es mobile, se mostrarán dos botones con las opciones de pago:
-
-  1. MACH
-  2. BCI 
+  Si se detecta que el dispositivo del cliente es mobile, se mostrarán dos botones con las opciones de pago: **MACH** o **BCI**.
 
   El cliente elegirá según sus preferencias y se abrirá la aplicación correspondiente.
 
