@@ -5,8 +5,6 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
 <Image align="center" alt="Portal Comercio ProntoPaga Secciones" border={true} width="25% " src="https://files.readme.io/2c6ce283325e4bce27041ee90de0b3cf2f586a09e12cd6bd6b9b802b8a2a3f43-Captura_de_pantalla_2025-09-08_a_las_1.06.39_p.m..png" className="border" />
 
 ***
