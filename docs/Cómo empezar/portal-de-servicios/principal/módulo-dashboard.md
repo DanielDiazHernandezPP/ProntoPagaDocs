@@ -1,7 +1,7 @@
 ---
 title: Módulo Dashboard
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
