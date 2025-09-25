@@ -13,6 +13,8 @@ En este documento, una sección se refiere a un bloque de separación del menú 
 
 Por otro lado, una carpeta se refiere a aquellos menús desplegables que contienen dentro los módulos. Las carpetas disponibles para el usuario comercio son: **Payouts (retiros)**, **Liquidaciones** y **Pay4U**. 
 
-Además, los módulos son aquellas zonas en donde el usuario puede visualizar información y realizar diversas acciones. En este caso, los módulos que no están contenidos dentro de una carpeta son: **Dashboard**, **Balance**, **Payins (pagis)**, **Reportes de transacciones**, **Reportes Automáticos**, **Llaves API**, **Clientes** y **Financieros**. A continuación, se detallan los módulos que sí están contenidos dentro de una carpeta. 
+Además, los módulos son aquellas zonas en donde el usuario puede visualizar información y realizar diversas acciones. En este caso, los módulos que no están contenidos dentro de una carpeta son: **Dashboard**, **Balance**, **Payins (pagos)**, **Reportes de transacciones**, **Reportes Automáticos**, **Llaves API**, **Clientes** y **Financieros**. A continuación, se detallan los módulos que sí están contenidos dentro de una carpeta. 
 
-Dentro de la carpeta de Payouts (retiros), los módulos son: Payouts Chile, Payouts Perú, Payputs Brasil, Payouts Ecuador y Todos.
+Dentro de la carpeta de **Payouts (retiros)**, los módulos son: **Payouts Chile**, **Payouts Perú**, **Payouts Brasil**, **Payouts Ecuador** y **Todos**.
+
+<Image align="center" alt="Carpeta Payouts (retiros)" border={true} src="https://files.readme.io/bde8639ee952fd8d98d651485dd6dc10f10f8afaec3242bcbce779cef9d89d05-Captura_de_pantalla_2025-09-08_a_las_1.10.18_p.m..png" className="border" />
