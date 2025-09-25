@@ -55,6 +55,23 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 
 Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Corrente</td></tr>
+    <tr><td>2</td><td>Salario</td></tr>
+    <tr><td>3</td><td>Poupança</td></tr>
+    <tr><td>4</td><td>Transacional</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Tipo de cuenta | Descripción  |
 | :------------- | :----------- |
 | 1              | Corrente     |
