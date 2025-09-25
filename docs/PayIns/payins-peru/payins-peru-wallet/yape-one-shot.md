@@ -36,7 +36,7 @@ Yape es una aplicación que permite realizar pagos y transferencias de dinero en
 
 El proceso de pago con wallet en Perú consta de las siguientes etapas:
 
-<Image align="center" src="https://files.readme.io/efce1e62affd017683ff5f4c5d7d37aeaa0ac61be005cfb70327fc48a99f1f7d-oneShot.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/efce1e62affd017683ff5f4c5d7d37aeaa0ac61be005cfb70327fc48a99f1f7d-oneShot.jpg" />
 
 1. **Selección de método.** Durante el checkout, el cliente elige pagar con Yape en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga se comunica con la wallet y genera la solicitud de pago.
@@ -243,7 +243,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EbD96y46pUpPuY6kwX-lLsUBy5mLusdOzRTNhWqjTm9DRg?e=tz6XD3\&download=1).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
