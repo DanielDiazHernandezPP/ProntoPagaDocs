@@ -5,8 +5,6 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
 ## Secciones
 
 Una sección se refiere a un bloque de separación del menú lateral, en este caso: **PRINCIPAL**, **TRANSACCIONES**, **REPORTES**, **ENTIDADES** y **USUARIOS**. 
