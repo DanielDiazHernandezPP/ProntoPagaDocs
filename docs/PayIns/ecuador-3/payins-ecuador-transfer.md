@@ -35,7 +35,7 @@ Paga con Tu Banco (Transferencia) es un método de pago utilizado en Ecuador que
 
 El proceso de pago con transferencia en Ecuador consta de cuatro etapas principales:
 
-<Image align="center" src="https://files.readme.io/1928bc5ac79a084a9b25b4050ef0d51c71bd6f063ed7cd89e36bac84b509a3a0-Ecuador_-_02.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/1928bc5ac79a084a9b25b4050ef0d51c71bd6f063ed7cd89e36bac84b509a3a0-Ecuador_-_02.jpg" />
 
 <br />
 
@@ -122,7 +122,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 <br />
 
@@ -138,7 +138,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EbD96y46pUpPuY6kwX-lLsUBy5mLusdOzRTNhWqjTm9DRg?e=tz6XD3\&download=1).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
