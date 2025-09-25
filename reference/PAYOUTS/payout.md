@@ -73,29 +73,43 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 </table>
 `}</HTMLBlock>
 
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| C              | Corriente   |
-| S              | Savings     |
-| V              | Demand      |
-
 ***
 
 ### Ecuador
 
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| AHO            | Ahorros     |
-| CTE            | Corriente   |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>AHO</td><td>Ahorros</td></tr>
+    <tr><td>CTE</td><td>Corriente</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
 ### Perú
 
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| A              | Ahorros     |
-| C              | Corriente   |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Ahorros</td></tr>
+    <tr><td>C</td><td>Corriente</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
