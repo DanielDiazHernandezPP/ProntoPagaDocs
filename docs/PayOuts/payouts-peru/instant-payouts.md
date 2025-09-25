@@ -176,56 +176,6 @@ A continuación se muestran varios posibles casos de rechazo de un retiro, junto
 </table>
 `}</HTMLBlock>
 
-| Código | Mensaje                                                     |
-| :----- | :---------------------------------------------------------- |
-| AC01   | Número de cuenta incorrecta                                 |
-| AC03   | Número de cuenta a acreditar incorrecta                     |
-| AC06   | Cuenta bloqueada                                            |
-| AC07   | Cuenta a acreditar cerrada                                  |
-| AC11   | Moneda de la cuenta a acreditar invalida                    |
-| AC14   | Tipo de cuenta a acreditar invalida                         |
-| AG01   | Transacción prohibida                                       |
-| AG03   | Operación no soportada                                      |
-| AM01   | Monto Cero                                                  |
-| AM02   | Monto no permitido                                          |
-| AM03   | Error interno en moneda de la transacción                   |
-| AM04   | Saldo de garantía insuficiente                              |
-| AM05   | Duplicado                                                   |
-| AM09   | Monto equivocado                                            |
-| AM11   | Error interno en moneda de la transacción                   |
-| AM13   | Monto excede límite de operación                            |
-| BE08   | Nombre de cliente originante faltante                       |
-| BE15   | Id de referencia requerido                                  |
-| BE16   | Código de identificación de originante invalido             |
-| BE22   | Nombre de beneficiario faltante                             |
-| CH11   | Identificador de cliente receptor incorrecto                |
-| CH21   | Falta de elementos obligatorios                             |
-| DNOR   | Entidad originante no registrada                            |
-| DS0A   | Forma de datos requerida                                    |
-| DS0B   | Formato de firma desconocido                                |
-| DS0D   | Certificado de firma invalido                               |
-| DS0H   | Entidad indirecta no autorizada                             |
-| DT04   | Fecha de creación no soportada                              |
-| FF02   | Error de formato                                            |
-| RC01   | Estructura de identificador de entidad incorrecta           |
-| RC02   | Entidad originante no autorizado                            |
-| RC03   | Identificador de entidad originante invalido                |
-| RC04   | Identificador de entidad receptora invalido                 |
-| RR04   | Motivo regulatorio (políticas de AML/CFT)                   |
-| RR10   | Set de caracteres invalido                                  |
-| 9910   | Entidad receptora en sign off                               |
-| 9912   | Entidad receptora no disponible                             |
-| 9920   | Tipo de transacción, canal o código de transacción invalido |
-| 9921   | Criterio de aplicación invalido                             |
-| 9922   | Tipo de persona invalido                                    |
-| 9923   | Concepto de cobro no es numérico                            |
-| 9924   | Indicador de activo invalido (320)                          |
-| 9934   | Entidad originante en sign off                              |
-| 9946   | Entidad originante suspendida                               |
-| 9947   | Entidad receptora suspendida                                |
-| 9948   | Servicio IPS suspendido                                     |
-| 9964   | Identificador de entidad invalido                           |
-
 ### Confirmación de un retiro
 
 Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
