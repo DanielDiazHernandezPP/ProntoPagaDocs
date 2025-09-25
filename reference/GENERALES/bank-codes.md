@@ -62,11 +62,4 @@ Se debe enviar en la URL el código de país en formato ISO 3166-1 alpha-2.
 </table>
 `}</HTMLBlock>
 
-| País    | Código |
-| :------ | :----- |
-| Brasil  | BR     |
-| Chile   | CL     |
-| Ecuador | EC     |
-| Perú    | PE     |
-
 ***
