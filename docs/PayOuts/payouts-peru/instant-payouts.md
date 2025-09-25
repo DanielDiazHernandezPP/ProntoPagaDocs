@@ -42,7 +42,7 @@ Transferencia (Retiros Instantáneos) es una forma de retirar fondos en Perú me
 
 El proceso de PayOut con transferencia (retiros instantáneos) en Perú consta de cuatro etapas principales:
 
-<Image align="center" src="https://files.readme.io/149a54f4d90599dd421fbd4e89786257bb12ae426173ca0bf8852615248dfa92-Peru-01.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/149a54f4d90599dd421fbd4e89786257bb12ae426173ca0bf8852615248dfa92-Peru-01.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero por medio de transferencia en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado (como banco, número de cuenta bancaria e interbancaria y tipo de cuenta) y confirma la transacción.
@@ -115,6 +115,66 @@ Si la transacción es rechazada, recibirás esta respuesta similar a esta:
 ### Motivos de rechazo
 
 A continuación se muestran varios posibles casos de rechazo de un retiro, junto con su respectivo código.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código</b></th>
+      <th><b>Mensaje</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>AC01</td><td>Número de cuenta incorrecta</td></tr>
+    <tr><td>AC03</td><td>Número de cuenta a acreditar incorrecta</td></tr>
+    <tr><td>AC06</td><td>Cuenta bloqueada</td></tr>
+    <tr><td>AC07</td><td>Cuenta a acreditar cerrada</td></tr>
+    <tr><td>AC11</td><td>Moneda de la cuenta a acreditar invalida</td></tr>
+    <tr><td>AC14</td><td>Tipo de cuenta a acreditar invalida</td></tr>
+    <tr><td>AG01</td><td>Transacción prohibida</td></tr>
+    <tr><td>AG03</td><td>Operación no soportada</td></tr>
+    <tr><td>AM01</td><td>Monto Cero</td></tr>
+    <tr><td>AM02</td><td>Monto no permitido</td></tr>
+    <tr><td>AM03</td><td>Error interno en moneda de la transacción</td></tr>
+    <tr><td>AM04</td><td>Saldo de garantía insuficiente</td></tr>
+    <tr><td>AM05</td><td>Duplicado</td></tr>
+    <tr><td>AM09</td><td>Monto equivocado</td></tr>
+    <tr><td>AM11</td><td>Error interno en moneda de la transacción</td></tr>
+    <tr><td>AM13</td><td>Monto excede límite de operación</td></tr>
+    <tr><td>BE08</td><td>Nombre de cliente originante faltante</td></tr>
+    <tr><td>BE15</td><td>Id de referencia requerido</td></tr>
+    <tr><td>BE16</td><td>Código de identificación de originante invalido</td></tr>
+    <tr><td>BE22</td><td>Nombre de beneficiario faltante</td></tr>
+    <tr><td>CH11</td><td>Identificador de cliente receptor incorrecto</td></tr>
+    <tr><td>CH21</td><td>Falta de elementos obligatorios</td></tr>
+    <tr><td>DNOR</td><td>Entidad originante no registrada</td></tr>
+    <tr><td>DS0A</td><td>Forma de datos requerida</td></tr>
+    <tr><td>DS0B</td><td>Formato de firma desconocido</td></tr>
+    <tr><td>DS0D</td><td>Certificado de firma invalido</td></tr>
+    <tr><td>DS0H</td><td>Entidad indirecta no autorizada</td></tr>
+    <tr><td>DT04</td><td>Fecha de creación no soportada</td></tr>
+    <tr><td>FF02</td><td>Error de formato</td></tr>
+    <tr><td>RC01</td><td>Estructura de identificador de entidad incorrecta</td></tr>
+    <tr><td>RC02</td><td>Entidad originante no autorizado</td></tr>
+    <tr><td>RC03</td><td>Identificador de entidad originante invalido</td></tr>
+    <tr><td>RC04</td><td>Identificador de entidad receptora invalido</td></tr>
+    <tr><td>RR04</td><td>Motivo regulatorio (políticas de AML/CFT)</td></tr>
+    <tr><td>RR10</td><td>Set de caracteres invalido</td></tr>
+    <tr><td>9910</td><td>Entidad receptora en sign off</td></tr>
+    <tr><td>9912</td><td>Entidad receptora no disponible</td></tr>
+    <tr><td>9920</td><td>	Tipo de transacción, canal o código de transacción invalido</td></tr>
+    <tr><td>9921</td><td>Criterio de aplicación invalido</td></tr>
+    <tr><td>9922</td><td>Tipo de persona invalido</td></tr>
+    <tr><td>9923</td><td>Concepto de cobro no es numérico</td></tr>
+    <tr><td>9924</td><td>Indicador de activo invalido (320)</td></tr>
+    <tr><td>9934</td><td>Entidad originante en sign off</td></tr>
+    <tr><td>9946</td><td>Entidad originante suspendida</td></tr>
+    <tr><td>9947</td><td>Entidad receptora suspendida</td></tr>
+    <tr><td>9948</td><td>Servicio IPS suspendido</td></tr>
+    <tr><td>9964</td><td>Identificador de entidad invalido</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Código | Mensaje                                                     |
 | :----- | :---------------------------------------------------------- |
@@ -202,7 +262,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
