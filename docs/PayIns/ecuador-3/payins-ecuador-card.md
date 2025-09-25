@@ -38,7 +38,7 @@ PayPhone es un método de pago en línea utilizado en Ecuador que permite recibi
 
 El proceso de pago con tarjeta (Payphone) en Ecuador consta de cinco etapas principales:
 
-<Image align="center" src="https://files.readme.io/af15b14a7884f57ab27b9df13f97087233bfe5c854f2af06fbcaa6722a2fa7be-Payment_witch_card_-_Ecuador.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/af15b14a7884f57ab27b9df13f97087233bfe5c854f2af06fbcaa6722a2fa7be-Payment_witch_card_-_Ecuador.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico.
@@ -156,7 +156,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EbD96y46pUpPuY6kwX-lLsUBy5mLusdOzRTNhWqjTm9DRg?e=tz6XD3\&download=1).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
