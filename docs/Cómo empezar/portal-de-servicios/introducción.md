@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Este compendio de artículos son un Manual de uso del Portal de servicios de ProntoPaga, para el usuario de tipo comercio. En este, se detallan las secciones, carpetas y módulos del Portal de servicios, así como las acciones que pueden ser realizadas en cada módulo.
+<br />
 
 <Image align="center" alt="Portal Comercio ProntoPaga Secciones" border={true} width="25% " src="https://files.readme.io/2c6ce283325e4bce27041ee90de0b3cf2f586a09e12cd6bd6b9b802b8a2a3f43-Captura_de_pantalla_2025-09-08_a_las_1.06.39_p.m..png" className="border" />
 
