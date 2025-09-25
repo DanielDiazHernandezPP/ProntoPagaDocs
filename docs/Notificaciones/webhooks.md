@@ -104,30 +104,6 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 </table>
 `}</HTMLBlock>
 
-| Parámetro             | Tipo   |
-| :-------------------- | :----- |
-| uid                   | string |
-| status                | string |
-| amount                | number |
-| method                | string |
-| reference             | string |
-| clientEmail           | string |
-| clientDocument        | string |
-| order                 | string |
-| currency              | string |
-| country               | string |
-| method_type           | string |
-| method_detail         | string |
-| hash                  | string |
-| note                  | string |
-| sign                  | string |
-| data                  | string |
-| type                  | string |
-| statusCode            | string |
-| startNotificationTime | string |
-| endNotificationTime   | string |
-| totalRequestTime      | string |
-
 ***
 
 ## Ejemplos
