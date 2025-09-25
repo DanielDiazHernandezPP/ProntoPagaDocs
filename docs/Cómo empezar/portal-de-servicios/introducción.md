@@ -27,8 +27,28 @@ Además, los módulos son aquellas zonas en donde el usuario puede visualizar in
 
 <br />
 
-## Carpeta Payouts (retiros)
+## Carpetas
+
+### Payouts (retiros)
 
 Dentro de la carpeta de **Payouts (retiros)**, los módulos son: **Payouts Chile**, **Payouts Perú**, **Payouts Brasil**, **Payouts Ecuador** y **Todos**.
 
 <Image align="center" alt="Carpeta Payouts (retiros)" border={true} src="https://files.readme.io/bde8639ee952fd8d98d651485dd6dc10f10f8afaec3242bcbce779cef9d89d05-Captura_de_pantalla_2025-09-08_a_las_1.10.18_p.m..png" className="border" />
+
+<br />
+
+### Liquidaciones
+
+Dentro de **Liquidaciones**, los módulos son: **Generar liquidación**, **Payouts Chile**, **Payouts Perú**, **Payouts Brasil**, **Payouts Ecuador** y **Todos**.
+
+<Image align="center" alt="Carpeta Liquidaciones" border={true} src="https://files.readme.io/81931d5b59ab3ee95d8839737cda6243e1e3ad9a2206c59215587ed3f8734c58-Captura_de_pantalla_2025-09-08_a_las_1.11.18_p.m..png" className="border" />
+
+<br />
+
+<br />
+
+### Pay4U
+
+Dentro de **Pay4U**, los módulos son: **Proveedores**, **Colaboradores**, **Prestadores de Servicio** y **Generar Pay4U**.
+
+<Image align="center" border={false} src="https://files.readme.io/44f28fbe153e87b0556b80000cc2d01b9f0de0ea8039544763f32040ded47767-Captura_de_pantalla_2025-09-08_a_las_12.40.35_p.m..png" />
