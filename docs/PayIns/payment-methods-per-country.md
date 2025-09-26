@@ -35,6 +35,21 @@ En esta página están listados todos los métodos de pago por país, así como 
 
 ## Argentina
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Solución</b></th>
+      <th><b>Método de pago</b></th>
+      <th><b>Marca</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tarjeta</td><td>latam_chk_card_payment</td><td>Visa y Mastercard</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Solución | Método de pago         | Marca             |
 | :------- | :--------------------- | :---------------- |
 | Tarjeta  | latam_chk_card_payment | Visa y Mastercard |
@@ -42,6 +57,22 @@ En esta página están listados todos los métodos de pago por país, así como 
 <br />
 
 ## Brasil
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Solución</b></th>
+      <th><b>Método de pago</b></th>
+      <th><b>Marca</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>QR/Wallet</td><td>pix_payment</td><td>Pix</td></tr>
+   	<tr><td>QR/Wallet (Open-Finance)</td><td>belvo_payment</td><td>Pix+</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Solución                 | Método de pago | Marca |
 | :----------------------- | :------------- | :---- |
@@ -51,6 +82,24 @@ En esta página están listados todos los métodos de pago por país, así como 
 <br />
 
 ## Chile
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Solución</b></th>
+      <th><b>Método de pago</b></th>
+      <th><b>Marca</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tarjeta</td><td>webpay_payment</td><td>Webpay</td></tr>
+    <tr><td>Transferencia</td><td>PagaConTuBanco</td><td>Paga con tu Banco</td></tr>
+    <tr><td>QR/Wallet</td><td>mercadopagoqr_payment</td><td>Mercado Pago</td></tr>
+   	<tr><td>QR/Wallet</td><td>mach_payment</td><td>MACH</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Solución      | Método de pago        | Marca             |
 | :------------ | :-------------------- | :---------------- |
@@ -62,6 +111,26 @@ En esta página están listados todos los métodos de pago por país, así como 
 <br />
 
 ## Ecuador
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Solución</b></th>
+      <th><b>Método de pago</b></th>
+      <th><b>Marca</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tarjeta</td><td>ec_card_payment</td><td>Payphone</td></tr>
+    <tr><td>Transferencia</td><td>PagaConTuBanco</td><td>Paga con tu Banco</td></tr>
+    <tr><td>Wallet</td><td>payphone_payment</td><td>Payphone</td></tr>
+    <tr><td>Efectivo</td><td>broadnet_payment</td><td>Ponle más</td></tr>
+    <tr><td>Efectivo</td><td>bemovil_payment</td><td>Bemovil</td></tr>
+   	<tr><td>Efectivo</td><td>redactiva_payment</td><td>Red Activa / Western Union</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Solución      | Método de pago    | Marca                      |
 | :------------ | :---------------- | :------------------------- |
@@ -76,9 +145,30 @@ En esta página están listados todos los métodos de pago por país, así como 
 
 ## Perú
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Solución</b></th>
+      <th><b>Método de pago</b></th>
+      <th><b>Marca</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tarjeta</td><td>pe_card_payment</td><td>VISA y MasterCard</td></tr>
+    <tr><td>Transferencia</td><td>PagaConTuBanco</td><td>Paga con tu Banco</td></tr>
+    <tr><td>Wallet</td><td>yape_payment</td><td>Botón Yape</td></tr>
+    <tr><td>Wallet</td><td>yape_oneshot_payment</td><td>Botón Yape: One Shot</td></tr>
+    <tr><td>Wallet</td><td>yape_cof_payment</td><td>Yape On File</td></tr>
+    <tr><td>QR</td><td>pe_qr_payment</td><td>QR</td></tr>
+   	<tr><td>Efectivo</td><td>pagoefectivo_payment</td><td>PagoEfectivo</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Solución      | Método de pago       | Marca                |
 | :------------ | :------------------- | :------------------- |
-| Tarjetas      | pe_card_payment      | VISA y MasterCard    |
+| Tarjeta       | pe_card_payment      | VISA y MasterCard    |
 | Transferencia | PagaConTuBanco       | Paga con tu banco    |
 | Wallet        | yape_payment         | Botón Yape           |
 | Wallet        | yape_oneshot_payment | Botón Yape: One Shot |
