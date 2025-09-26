@@ -109,7 +109,8 @@ Datos para pruebas en el servicio Paga con tu banco de Chile.
   </thead>
   <tbody>
     <tr><td>Banco Estado</td><td>11111111-1</td><td>1234</td><td>Primera</td><td>NA</td><td>Método: bepass. <br>Clave: 1234</td></tr>
-    
+    <tr><td>Banco Santander</td><td>415792638</td><td>jonsnow</td><td>Cualquiera</td><td>00 00 00</td><td>NA</td></tr>
+		<tr><td>Banco de Test</td><td>11111111-1</td><td>111111</td><td>Primera</td><td>11 11 11</td><td>11 11 11</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
