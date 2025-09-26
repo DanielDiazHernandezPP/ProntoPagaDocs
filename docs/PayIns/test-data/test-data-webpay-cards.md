@@ -56,20 +56,7 @@ Tarjetas para realizar pagos en modo prueba con el servicio de Webpay en Chile.
 </table>
 `}</HTMLBlock>
 
-| Tipo de tarjeta     | Detalle                                                      | Resultado                                                                          |
-| :------------------ | :----------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| VISA (crédito)      | 4051 8856 0044 6623 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones aprobadas.                                                    |
-| AMEX                | 3700 0000 0002 032 **CVV** 1234 Cualquier fecha de caducidad | Genera transacciones aprobadas.                                                    |
-| MasterCard          | 5186 0595 5959 0568 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones rechazadas.                                                   |
-| Red compra (débito) | 4051 8842 3993 7763                                          | Genera transacciones aprobadas (para operaciones que permiten débito Red compra).  |
-| Red compra          | 4511 3466 6003 7060                                          | Genera transacciones aprobadas (para operaciones que permiten débito Red compra).  |
-| Red compra          | 5186 0085 4123 3829                                          | Genera transacciones rechazadas (para operaciones que permiten débito Red compra). |
-| Prepago VISA        | 4051 8860 0005 6590 **CVV** 123 msg_testCard4                | Genera transacciones aprobadas.                                                    |
-| Prepago MasterCard  | 5186 1741 1062 9480 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones rechazadas.                                                   |
-
 Además, puedes usar los siguientes datos para tus pruebas con Webpay:
-
-<br />
 
 <HTMLBlock>{`
 <table>
@@ -84,10 +71,6 @@ Además, puedes usar los siguientes datos para tus pruebas con Webpay:
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| RUT / RUT Usuario | Clave / Clave de transferencia |
-| :---------------- | :----------------------------- |
-| 11.111.111-1      | 123                            |
 
 <br />
 
@@ -114,9 +97,3 @@ Datos para pruebas en el servicio Paga con tu banco de Chile.
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Banco           | RUT        | Clave   | Cuenta     | Coordenadas | Verificación                |
-| :-------------- | :--------- | :------ | :--------- | :---------- | :-------------------------- |
-| Banco Estado    | 11111111-1 | 1234    | Primera    | NA          | Método: bepass. Clave: 1234 |
-| Banco Santander | 415792638  | jonsnow | Cualquiera | 00 00 00    | NA                          |
-| Banco de Test   | 11111111-1 | 111111  | Primera    | 11 11 11    | 11 11 11                    |
