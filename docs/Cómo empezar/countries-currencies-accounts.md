@@ -28,13 +28,24 @@ next:
 
 Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están en formato ISO 4217.
 
-| País      | Código del país (ISO 3166-1 alpha-2) | Código de moneda (ISO 4217) |
-| :-------- | :----------------------------------- | :-------------------------- |
-| Argentina | AR                                   | ARS                         |
-| Brasil    | BR                                   | BRL / USD                   |
-| Chile     | CL                                   | CLP / USD                   |
-| Ecuador   | EC                                   | USD                         |
-| Perú      | PE                                   | PEN / USD                   |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>País</b></th>
+      <th><b>Código del país (ISO 3166-1 alpha-2)</b></th>
+      <th><b>Código de moneda (ISO 4217)</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Argentina</td><td>AR</td><td>ARS</td></tr>
+    <tr><td>Brasil</td><td>BR</td><td>BRL / USD</td></tr>
+    <tr><td>Chile</td><td>CL</td><td>CLP / USD</td></tr></tr>
+    <tr><td>Ecuador</td><td>EC</td><td>USD</td></tr>
+    <tr><td>Perú</td><td>PE</td><td>PEN / USD</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -45,6 +56,23 @@ Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están e
 El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos (a excepción de Ecuador), como se describe a continuación.
 
 ### Brasil
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Corriente</td></tr>
+    <tr><td>2</td><td>Salario</td></tr>
+    <tr><td>3</td><td>Ahorro</td></tr>
+    <tr><td>4</td><td>Transaccional</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Tipo de cuenta | Descripción   |
 | :------------- | :------------ |
@@ -57,6 +85,22 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 
 ### Chile
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>C</td><td>Cuenta corriente</td></tr>
+    <tr><td>S</td><td>Cuenta de ahorros</td></tr>
+    <tr><td>V</td><td>Cuenta Rut / Visa</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Tipo de cuenta | Descripción        |
 | :------------- | :----------------- |
 | C              | Cuenta corriente   |
@@ -67,12 +111,44 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 
 ### Ecuador
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>AHO</td><td>Ahorros</td></tr>
+    <tr><td>CTE</td><td>Corriente</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Tipo de cuenta | Descripción |
 | :------------- | :---------- |
 | AHO            | Ahorros     |
 | CTE            | Corriente   |
 
+<br />
+
 #### Payphone
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>C</td><td>Cliente</td></tr>
+    <tr><td>B</td><td>Comercio</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Tipo de cuenta | Descripción |
 | :------------- | :---------- |
@@ -82,6 +158,21 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 <br />
 
 ### Perú
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Ahorros</td></tr>
+    <tr><td>C</td><td>Corriente</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Tipo de cuenta | Descripción |
 | :------------- | :---------- |
