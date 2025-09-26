@@ -108,7 +108,7 @@ Datos para pruebas en el servicio Paga con tu banco de Chile.
     </tr>
   </thead>
   <tbody>
-    <tr><td>Banco Estado</td><td>11111111-1</td><td>1234</td></tr><td>Primera</td></tr><td>NA</td></tr><td>Método: bepass. <br>Clave: 1234</td></tr>
+    <tr><td>Banco Estado</td><td>11111111-1</td><td>1234</td><td>Primera</td><td>NA</td><td>Método: bepass. <br>Clave: 1234</td></tr>
     
   </tbody>
 </table>
