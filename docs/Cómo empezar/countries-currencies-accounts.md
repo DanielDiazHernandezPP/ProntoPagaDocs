@@ -113,8 +113,6 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-<br />
-
 #### Payphone
 
 <HTMLBlock>{`
