@@ -193,7 +193,7 @@ Este ejemplo muestra los parámetros con los datos de Perú.
   "urlFinal": "example.com/successful",
   "urlRejected": "example.com/declined",
   "order": "1234",
- "sing": "Signature of the parameters"
+ "sign": "Signature of the parameters"
 }
 ```
 
