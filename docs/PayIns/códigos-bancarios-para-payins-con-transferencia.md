@@ -99,7 +99,7 @@ Lista de códigos bancarios para Perú.
 
 ## Chile
 
-Lista de códigos bancarios para CHile.
+Lista de códigos bancarios para Chile.
 
 ```json
 [
