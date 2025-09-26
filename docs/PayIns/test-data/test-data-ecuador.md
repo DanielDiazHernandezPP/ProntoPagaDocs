@@ -45,8 +45,3 @@ Tarjetas para realizar pagos en modo prueba con el servicio de Payphone en Ecuad
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Tipo de tarjeta | Detalle                                                      | Resultado                       |
-| :-------------- | :----------------------------------------------------------- | :------------------------------ |
-| VISA (crédito)  | 4051 8856 0044 6623 **CVV** 123 Cualquier fecha de caducidad | Genera transacciones aprobadas. |
-| AMEX            | 3700 0000 0002 032 **CVV** 1234 Cualquier fecha de caducidad | Genera transacciones aprobadas. |
