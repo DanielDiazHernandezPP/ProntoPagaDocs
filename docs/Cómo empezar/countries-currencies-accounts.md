@@ -74,13 +74,6 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-| Tipo de cuenta | Descripción   |
-| :------------- | :------------ |
-| 1              | Corriente     |
-| 2              | Salario       |
-| 3              | Ahorro        |
-| 4              | Transaccional |
-
 <br />
 
 ### Chile
@@ -101,12 +94,6 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-| Tipo de cuenta | Descripción        |
-| :------------- | :----------------- |
-| C              | Cuenta corriente   |
-| S              | Cuenta de ahorros  |
-| V              | Cuenta Rut / Vista |
-
 <br />
 
 ### Ecuador
@@ -125,11 +112,6 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| AHO            | Ahorros     |
-| CTE            | Corriente   |
 
 <br />
 
@@ -150,11 +132,6 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| C              | Cliente     |
-| B              | Comercio    |
-
 <br />
 
 ### Perú
@@ -173,8 +150,3 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| A              | Ahorros     |
-| C              | Corriente   |
