@@ -50,10 +50,6 @@ En esta página están listados todos los métodos de pago por país, así como 
 </table>
 `}</HTMLBlock>
 
-| Solución | Método de pago         | Marca             |
-| :------- | :--------------------- | :---------------- |
-| Tarjeta  | latam_chk_card_payment | Visa y Mastercard |
-
 <br />
 
 ## Brasil
@@ -73,11 +69,6 @@ En esta página están listados todos los métodos de pago por país, así como 
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Solución                 | Método de pago | Marca |
-| :----------------------- | :------------- | :---- |
-| QR/Wallet                | pix_payment    | Pix   |
-| QR/Wallet (Open-Finance) | belvo_payment  | Pix+  |
 
 <br />
 
@@ -100,13 +91,6 @@ En esta página están listados todos los métodos de pago por país, así como 
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Solución      | Método de pago        | Marca             |
-| :------------ | :-------------------- | :---------------- |
-| Tarjeta       | webpay_payment        | Webpay            |
-| Transferencia | PagaConTuBanco        | Paga con tu Banco |
-| QR/Wallet     | mercadopagoqr_payment | Mercado Pago      |
-| QR/Wallet     | mach_payment          | MACH              |
 
 <br />
 
@@ -132,15 +116,6 @@ En esta página están listados todos los métodos de pago por país, así como 
 </table>
 `}</HTMLBlock>
 
-| Solución      | Método de pago    | Marca                      |
-| :------------ | :---------------- | :------------------------- |
-| Tarjeta       | ec_card_payment   | Payphone                   |
-| Transferencia | PagaConTuBanco    | Paga con tu Banco          |
-| Wallet        | payphone_payment  | Payphone                   |
-| Efectivo      | broadnet_payment  | Ponle más                  |
-| Efectivo      | bemovil_payment   | Bemovil                    |
-| Efectivo      | redactiva_payment | Red Activa / Western Union |
-
 <br />
 
 ## Perú
@@ -165,13 +140,3 @@ En esta página están listados todos los métodos de pago por país, así como 
   </tbody>
 </table>
 `}</HTMLBlock>
-
-| Solución      | Método de pago       | Marca                |
-| :------------ | :------------------- | :------------------- |
-| Tarjeta       | pe_card_payment      | VISA y MasterCard    |
-| Transferencia | PagaConTuBanco       | Paga con tu banco    |
-| Wallet        | yape_payment         | Botón Yape           |
-| Wallet        | yape_oneshot_payment | Botón Yape: One Shot |
-| Wallet        | yape_cof_payment     | Yape On File         |
-| QR            | pe_qr_payment        | QR                   |
-| Efectivo      | pagoefectivo_payment | PagoEfectivo         |
