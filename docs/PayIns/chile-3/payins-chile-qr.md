@@ -37,9 +37,43 @@ El proceso de pago con QR en Chile consta de cuatro etapas principales:
 <Image align="center" border={false} src="https://files.readme.io/fc447752eb33caef4a4ec1b20e70f55f4e25426e66b742a21046149de4a7ed65-Chile-05.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con QR a través de una wallet en tu sitio web o aplicación.
+
+<Callout icon="📘" theme="info">
+  **Paga con QR/Wallet - MACH versión mobile 📱**
+
+  Si se detecta que el dispositivo del cliente es mobile, se mostrarán dos botones con las opciones de pago: **MACH** o **BCI**.
+
+  El cliente elegirá según sus preferencias y se abrirá la aplicación correspondiente.
+</Callout>
+
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
+
+En el caso de **MACH**, el flujo varía dependiendo de la versión utilizada:
+
+<Cards columns={2}>
+  <Card title="🌐 En web">
+    Se genera un QR para que el cliente lo escaneé y es redirigido a la web para continuar con el pago.
+  </Card>
+
+  <Card title="📱En mobile">
+    Se abre la aplicación de MACH y se valida al cliente a través de biometría o PIN para continuar con el pago.
+  </Card>
+</Cards>
+
 3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+
+En el caso de **MACH**, el flujo varía dependiendo de la versión utilizada:
+
+<Cards columns={2}>
+  <Card title="🌐 En web">
+    El cliente finaliza el pago dentro del navegador para obtener la confirmación de pago exitoso, y a su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+  </Card>
+
+  <Card title="📱En mobile">
+    La confirmación de pago exitoso ocurre dentro de la aplicación, y a su vez tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+  </Card>
+</Cards>
 
 ***
 
