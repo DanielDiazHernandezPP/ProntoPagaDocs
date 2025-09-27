@@ -83,7 +83,7 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
   <tbody>
     <tr><td>Venta exitosa – con cuotas</td><td>5160030000000317</td><td>03/2028</td><td>111</td><td>000</td></tr>
     <tr><td>Venta exitosa – sin cuotas</td><td>5455460920094260</td><td>03/2028</td><td>111</td><td>000</td></tr>
-    <tr><td>Venta exitosa – foránea</td><td>5443599980000447</td><td>03/2028</td><td>111</td><td>000</td></tr>
+    <tr><td>Venta exitosa – afiliación a REC</td><td>5443599980000447</td><td>03/2028</td><td>111</td><td>000</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
