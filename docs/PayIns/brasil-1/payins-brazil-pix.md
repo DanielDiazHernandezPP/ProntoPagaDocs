@@ -37,7 +37,7 @@ PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Cen
 
 El proceso de pago con PIX consta de cinco etapas principales:
 
-<Image align="center" src="https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png" />
+<Image align="center" border={false} src="https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png" />
 
 1. **Selección de método.** El cliente elige pagar con PIX en tu sitio web o aplicación.
 2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente.
@@ -74,6 +74,22 @@ El valor del campo `isIframePay` deberá ser enviado como  `true` para este mét
 ### Tipo de pago
 
 El campo  `typePixPayment` es requerido para este método de pago. Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran:
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Valor</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Pago inmediato</td></tr>
+    <tr><td>2</td><td>Pago con fecha de vencimiento (temporalmente deshabilitado)</td></tr>
+    <tr><td>3</td><td>Pago por lotes con fecha de vencimiento (temporalmente deshabilitado)</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 | Valor | Descripción                                                           |
 | :---- | :-------------------------------------------------------------------- |
