@@ -91,12 +91,6 @@ El campo  `typePixPayment` es requerido para este método de pago. Este campo se
 </table>
 `}</HTMLBlock>
 
-| Valor | Descripción                                                           |
-| :---- | :-------------------------------------------------------------------- |
-| 1     | Pago inmediato                                                        |
-| 2     | Pago con fecha de vencimiento (temporalmente deshabilitado)           |
-| 3     | Pago por lotes con fecha de vencimiento (temporalmente deshabilitado) |
-
 <br />
 
 ### Body de la solicitud
