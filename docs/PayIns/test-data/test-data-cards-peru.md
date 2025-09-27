@@ -249,12 +249,12 @@ Datos para pruebas en el servicio de Botón Yape de Perú.
     <tr><td>969929157</td><td>557454</td><td>Yapero autenticado y habilitado</td></tr>
 		<tr><td>999999999</td><td>284563</td><td>Cuenta inactiva</td></tr>    
 		<tr><td>993355231</td><td>784592</td><td>Cuenta en blacklist</td></tr>    
-		<tr><td>969929157</td><td>285743</td><td>Límite diario excedido (> 500.00). ⚠️<b>Nota:</b> En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP.</td></tr>    
- 		<tr><td>991055199</td><td>378458</td><td>Cuenta bloqueada por OTP. ⚠️<b>Nota:</b> En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP.</td></tr>   
+		<tr><td>969929157</td><td>285743</td><td>Límite diario excedido (> 500.00). ⚠️<b>Nota:</b> En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP</td></tr>    
+ 		<tr><td>991055199</td><td>378458</td><td>Cuenta bloqueada por OTP. ⚠️<b>Nota:</b> En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP</td></tr>   
 		<tr><td>995555126</td><td>678452</td><td>Ausencia en F&F</td></tr>
 		<tr><td>969929158</td><td>528475</td><td>1er intento de OTP incorrecto</td></tr>
 		<tr><td>969929158</td><td>074854</td><td>2do intento de OTP incorreto</td></tr>
-		<tr><td>969929158</td><td>875612</td><td>3er intento de OTP incorrecto. ⚠️<b>Nota:</b> En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP.</td></tr>
+		<tr><td>969929158</td><td>875612</td><td>3er intento de OTP incorrecto. ⚠️<b>Nota:</b> En la integración sin iFrame, el pago es rechazado como resultado final y no es posible colocar otro OTP</td></tr>
 		<tr><td>969929157</td><td>000000</td><td>OTP no generado</td></tr>
   </tbody>
 </table>
