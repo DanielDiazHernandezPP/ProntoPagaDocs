@@ -24,6 +24,26 @@ next:
 ---
 Estos son los posibles estados que pueden tener los PayIns.
 
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Estado</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>new</td><td>Estado inicial de la aplicación</td></tr>
+    <tr><td>created</td><td>Estado correspondiente a cuando el usuario selecciona el método de pago</td></tr>
+    <tr><td>success</td><td>Indica que la transacción fue exitosa</td></tr>
+    <tr><td>canceled</td><td>El usuario ha cancelado la transacción</td></tr>
+    <tr><td>rejected</td><td>Solicitud rechazada por el método de pago. Conoce los tipos de pagos rechazados<a href="https://docs.prontopaga.com/docs/payins-rejections">aquí</a></td></tr>
+    <tr><td>pending</td><td>Solicitud pendiente de aprobación por el método de pago. Normalmente sucede cuando falta algo para completar la transacción (comúnmente en pagos con efectivo)</td></tr>
+    <tr><td>expired</td><td>El sistema expira automáticamente las solicitudes pendientes después de cierta cantidad de tiempo</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 | Estado   | Descripción                                                                                                                                                     |
 | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | new      | Estado inicial de la aplicación.                                                                                                                                |
