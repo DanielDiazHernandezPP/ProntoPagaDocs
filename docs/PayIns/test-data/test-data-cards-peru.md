@@ -165,7 +165,7 @@ Datos para realizar pagos en modo prueba con el servicio de pagos con tarjeta en
     <tr><td>Monto no permitido</td><td>5101641510088022</td><td>04/2023</td><td>111</td><td>113</td></tr>
     <tr><td>Fondos insuficientes</td><td>5115422225052734</td><td>04/2023	</td><td>111</td><td>116</td></tr>  
     <tr><td>Tarjeta no registrada</td><td>5109616945811695</td><td>04/2023</td><td>111</td><td>118</td></tr>
-    <tr><td>Tarjeta no registrada (error de cvv)</td><td>5111053459429167</td><td>04/2023	td><td>111</td><td>129</td></tr>
+    <tr><td>Tarjeta no registrada (error de cvv)</td><td>5111053459429167</td><td>04/2023</td><td>111</td><td>129</td></tr>
     <tr><td>Tarjeta inválida</td><td>5243798112895755</td><td>04/2023</td><td>111</td><td>180</td></tr>
     <tr><td>Contactar emisor</td><td>5100538637530152</td><td>04/2023</td><td>111</td><td>191</td></tr>
     <tr><td>Tarjeta perdida</td><td>5102851705613406</td><td>04/2023</td><td>111</td><td>207</td></tr>   
