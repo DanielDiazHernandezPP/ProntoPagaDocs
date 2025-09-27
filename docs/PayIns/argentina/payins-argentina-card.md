@@ -32,7 +32,7 @@ Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (
 
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/e1dacb24c1b77701ec92c84ea97b1a91d502e6a450bc53e992490a26a3bde650-image_4.png" />
+<Image align="center" border={true} src="https://files.readme.io/e1dacb24c1b77701ec92c84ea97b1a91d502e6a450bc53e992490a26a3bde650-image_4.png" className="border" />
 
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico.
@@ -157,16 +157,25 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Título                 | Descripción                                                                                                                |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| SUCCEEDED              | Pago exitoso.                                                                                                              |
-| INSUFFICIENT_FUNDS     | Saldo insuficiente para realizar la transacción.                                                                           |
-| RECHAZADO POR EL BANCO | Tu banco rechazó la transacción. Contáctate con ellos para más información.                                                |
-| DO_NOT_HONOR           | Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.                                           |
-| INVALID_SECURITY_CODE  | El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.                                                   |
-| INVALID_CARD_DATA      | Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.                                 |
-| REPORTED_STOLEN        | No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información. |
-| ERROR                  | Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.                                |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Mensaje de rechazo</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>INSUFFICIENT_FUNDS</td><td>Saldo insuficiente para realizar la transacción.</td></tr>
+    <tr><td>RECHAZADO POR EL BANCO</td><td>Tu banco rechazó la transacción. Contáctate con ellos para más información.</td></tr>
+    <tr><td>DO_NOT_HONOR</td><td>Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.</td></tr>
+<tr><td>INVALID_SECURITY_CODE</td><td>El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.</td></tr>
+    <tr><td>INVALID_CARD_DATA</td><td>Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.</td></tr>
+    <tr><td>REPORTED_STOLEN</td><td>No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.</td></tr>
+    <tr><td>ERROR</td><td>Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
