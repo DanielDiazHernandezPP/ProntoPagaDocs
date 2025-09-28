@@ -56,36 +56,46 @@ Con este endpoint podrás hacer un retiro instantáneo desde el comercio a una w
 
 Estas son las wallets disponibles en Perú para hacer payouts con ProntoPaga.
 
-| Marca                           | Valor        |
-| :------------------------------ | :----------- |
-| Banco Falabella                 | falabella    |
-| Wayki Caja Cusco                | cajaCusco    |
-| Banco Nación                    | nacion       |
-| Mibanco                         | mibanco      |
-| Tarjeta oh                      | oh           |
-| Banco GNB                       | gnb          |
-| BanBif                          | banbif       |
-| Caja Lima                       | cajaLima     |
-| Compartamos Financiera          | compartamos  |
-| Caja Huancayo                   | cajaHuancayo |
-| Caja Piura                      | cajaPiura    |
-| Dale                            | dale         |
-| Financiera Confianza            | confianza    |
-| Bancom                          | comercio     |
-| Ripley                          | ripley       |
-| Santander                       | santander    |
-| Banco Pichincha                 | pichincha    |
-| Banco de Crédito del Perú (BCP) | bcp          |
-| Financiera Efectiva             | efectiva     |
-| Caja Ica                        | cajaIca      |
-| Caja Trujillo                   | cajaTrujillo |
-| Interbank                       | interbank    |
-| Luqea                           | luqea        |
-| Caja Sullana                    | cajaSullana  |
-| Prexpe                          | prexpe       |
-| Yape                            | yape         |
-| Plin                            | plin         |
-| Bim                             | bim          |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Marca</b></th>
+      <th><b>Valor</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Banco Falabella</td><td>falabella</td></tr>
+    <tr><td>Wayki Caja Cusco</td><td>cajaCusco</td></tr>
+    <tr><td>Banco Nación</td><td>nacion</td></tr>
+    <tr><td>Mibanco</td><td>mibanco</td></tr>
+    <tr><td>Tarjeta oh</td><td>oh</td></tr>
+    <tr><td>Banco GNB</td><td>gnb</td></tr>
+    <tr><td>BanBif</td><td>banbif</td></tr>
+    <tr><td>Caja Lima</td><td>cajaLima</td></tr>
+    <tr><td>Compartamos Financiera</td><td>compartamos</td></tr>
+    <tr><td>Caja Huancayo</td><td>cajaHuancayo</td></tr>
+    <tr><td>Caja Piura</td><td>cajaPiura</td></tr>
+    <tr><td>Dale</td><td>dale</td></tr>
+    <tr><td>Financiera Confianza</td><td>confianza</td></tr>
+    <tr><td>Bancom</td><td>comercio</td></tr>
+    <tr><td>Ripley</td><td>ripley</td></tr>
+    <tr><td>Santander</td><td>santander</td></tr>
+    <tr><td>Banco Pichincha</td><td>pichincha</td></tr>
+    <tr><td>Banco de Crédito del Perú (BCP)</td><td>bcp</td></tr>
+    <tr><td>Financiera Efectiva</td><td>efectiva</td></tr>
+    <tr><td>Caja Ica</td><td>cajaIca</td></tr>
+    <tr><td>Caja Trujillo</td><td>cajaTrujillo</td></tr>
+    <tr><td>Interbank</td><td>interbank</td></tr>
+    <tr><td>Luqea</td><td>luqea</td></tr>
+    <tr><td>Caja Sullana</td><td>cajaSullana</td></tr>
+    <tr><td>Prexpe</td><td>prexpe</td></tr>
+    <tr><td>Yape</td><td>yape</td></tr>
+    <tr><td>Plin</td><td>plin</td></tr>
+    <tr><td>Bim</td><td>bim</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
