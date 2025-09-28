@@ -32,19 +32,29 @@ A continuación se describen todos los posibles tipos de rechazos para PayOuts. 
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-| Código de error | Mensaje de rechazo                                                                                                                  |
-| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| 1               | El cliente se encuentra bloqueado                                                                                                   |
-| 2               | Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s            |
-| 3               | El saldo a retirar excede el balance disponible en esta moneda                                                                      |
-| 4               | Cuenta ingresada no existe                                                                                                          |
-| 21              | Moneda ingresada es inválida                                                                                                        |
-| 22              | Cuenta invalida, bloqueada o cerrada                                                                                                |
-| 23              | La información suministrada es insuficiente o inválida                                                                              |
-| 34              | El número de cuenta del destinatario no corresponde a los datos del usuario ingresado                                               |
-| 25              | ID inválido                                                                                                                         |
-| 26              | Transaction amount limit exceeds                                                                                                    |
-| 27              | No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar. |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código de error</b></th>
+      <th><b>Mensaje de rechazo</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>El cliente se encuentra bloqueado</td></tr>
+    <tr><td>2</td><td>Excede límite %s, quedan disponibles %s para el día, %s para la semana, %s para el mes. Retiro máximo por transacción %s</td></tr>
+    <tr><td>3</td><td>El saldo a retirar excede el balance disponible en esta moneda</td></tr>
+    <tr><td>4</td><td>Cuenta ingresada no existe</td></tr>
+    <tr><td>21</td><td>Moneda ingresada es inválida</td></tr>
+    <tr><td>22</td><td>Cuenta invalida, bloqueada o cerrada</td></tr>
+    <tr><td>23</td><td>	La información suministrada es insuficiente o inválida</td></tr>
+    <tr><td>24</td><td>El número de cuenta del destinatario no corresponde a los datos del usuario ingresado</td></tr>
+    <tr><td>25</td><td>ID inválido</td></tr>
+    <tr><td>26</td><td>Transaction amount limit exceeds</td></tr>
+    <tr><td>27</td><td>No se aceptan documentos de identidad correspondientes a empresas. Por favor, ingresa uno válido de persona natural para continuar</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -52,11 +62,22 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 Estos son los tipos de retiros rechazados en Brasil.
 
-| Código de error | Mensaje de rechazo                                                                | Descripción                                                                                                                        |
-| :-------------- | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| 14              | Validation error. Please check the Chave PIX and try again                        | Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.                                             |
-| 15              | Request declined by the server                                                    | La solicitud fue declinada por el servidor.                                                                                        |
-| 19              | Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado | El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros. |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código de error</b></th>
+      <th><b>Mensaje de rechazo</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>14</td><td>Validation error. Please check the Chave PIX and try again</td><td>Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.</td></tr>
+    <tr><td>15</td><td>Request declined by the server</td><td>La solicitud fue declinada por el servidor.</td></tr>
+    <tr><td>19</td><td>Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado</td><td>El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros.</td></tr>    
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -64,14 +85,24 @@ Estos son los tipos de retiros rechazados en Brasil.
 
 Estos son los tipos de retiros rechazados en Chile.
 
-| Código de error | Mensaje de rechazo                                                   |
-| :-------------- | :------------------------------------------------------------------- |
-| 5               | El número de cuenta del destinatario no corresponde al Rut ingresado |
-| 6               | Banco seleccionado no corresponde                                    |
-| 7               | Cuenta con restricción de abono                                      |
-| 8               | Banco de destino en mantención                                       |
-| 9               | Rut Incorrecto                                                       |
-| 10              | Cuenta Rut Con Dígito Verificador                                    |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código de error</b></th>
+      <th><b>Mensaje de rechazo</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>5</td><td>El número de cuenta del destinatario no corresponde al Rut ingresado</td></tr>
+    <tr><td>6</td><td>Banco seleccionado no corresponde</td></tr>
+    <tr><td>7</td><td>Cuenta con restricción de abono</td></tr>
+    <tr><td>8</td><td>Banco de destino en mantención</td></tr>
+    <tr><td>9</td><td>	Rut Incorrecto</td></tr>
+    <tr><td>10</td><td>Cuenta Rut Con Dígito Verificador</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -79,24 +110,35 @@ Estos son los tipos de retiros rechazados en Chile.
 
 Estos son los tipos de retiros rechazados en Ecuador.
 
-| Código de error    | Mensaje de rechazo                                                                                                                                                                                                                                 | Descripción                                                                                                 |
-| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| Limite de comercio | Exceeds daily limit, 5,000,000.00 CLP available for the day,                 10,000,000.00 CLP available for the week,                 30,000,000.00 CLP available for the month.                 Maximum deposit per transaction 6,000,000.00 CLP | La cantidad límite del comercio, ya sea por día, semana o mes, fue excedida.                                |
-| Pago pendiente     | There is already a pending payment for that phone number.                                                                                                                                                                                          | El número de teléfono ya cuenta con un pago pendiente.                                                      |
-| Pago fallido       | Failed payment: There is already a pending payment transaction.                                                                                                                                                                                    | El pago falló y se generó una transacción pendiente.                                                        |
-| 16                 | El número de teléfono no es válido en la cabina telefónica.                                                                                                                                                                                        | El número telefónico enviado no es válido para el servicio de Payphone (no está registrado en el servicio). |
-| 17                 | Error interno, validaciones fallidas                                                                                                                                                                                                               | Ocurrió un error interno debido a una falla durante el proceso de validación.                               |
-| 18                 | Problem with bank account details, please try again                                                                                                                                                                                                | Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.              |
-| 100                | Error de autenticación                                                                                                                                                                                                                             | Hay un error de autenticación. Por favor, intente nuevamente.                                               |
-| 101                | Error de autenticación                                                                                                                                                                                                                             | Hay un error de autenticación. Por favor, intente nuevamente.                                               |
-| 104                | Error de autenticación                                                                                                                                                                                                                             | Hay un error de autenticación. Por favor, intente nuevamente.                                               |
-| 110                | Datos incompletos                                                                                                                                                                                                                                  | Los datos ingresados no están completos. Por favor, ingréselos e intente nuevamente.                        |
-| 120                | Referencia no encontrada                                                                                                                                                                                                                           | La referencia solicitada no fue encontrada.                                                                 |
-| 121                | Referencia no asociada a esta pasarela                                                                                                                                                                                                             | La referencia solicitada no está asociada a esta pasarela de retiros.                                       |
-| 122                | Pago expirado                                                                                                                                                                                                                                      | El pago ha caducado.                                                                                        |
-| 123                | Pago pendiente                                                                                                                                                                                                                                     | El pago se encuentra en estado pendiente.                                                                   |
-| 200                | Pago Completado                                                                                                                                                                                                                                    | El pago fue completado exitosamente.                                                                        |
-| 300                | No se puede resolver                                                                                                                                                                                                                               | Ocurrió un error inesperado. Por favor, intente nuevamente.                                                 |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código de error</b></th>
+      <th><b>Mensaje de rechazo</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Limite de comercio</td><td>Exceeds daily limit, 5,000,000.00 CLP available for the day, 10,000,000.00 CLP available for the week, 30,000,000.00 CLP available for the month. Maximum deposit per transaction 6,000,000.00 CLP</td><td>La cantidad límite del comercio, ya sea por día, semana o mes, fue excedida.</td></tr>
+    <tr><td>Pago pendiente</td><td>There is already a pending payment for that phone number</td><td>El número de teléfono ya cuenta con un pago pendiente.</td></tr>
+    <tr><td>Pago fallido</td><td>Failed payment: There is already a pending payment transaction</td><td>El pago falló y se generó una transacción pendiente.</td></tr>  
+    <tr><td>16</td><td>El número de teléfono no es válido en la cabina telefónica</td><td>El número telefónico enviado no es válido para el servicio de Payphone (no está registrado en el servicio).</td></tr>  
+    <tr><td>17</td><td>Error interno, validaciones fallidas</td><td>Ocurrió un error interno debido a una falla durante el proceso de validación.</td></tr>  
+    <tr><td>18</td><td>	Problem with bank account details, please try again</td><td>Ocurrió un problema con algunos detalles de la cuenta bancaria. Por favor, intente nuevamente.</td></tr>  
+    <tr><td>100</td><td>Error de autenticación</td><td>Hay un error de autenticación. Por favor, intente nuevamente.</td></tr>  
+    <tr><td>101</td><td>Error de autenticación</td><td>Hay un error de autenticación. Por favor, intente nuevamente.</td></tr>  
+    <tr><td>104</td><td>Error de autenticación</td><td>Hay un error de autenticación. Por favor, intente nuevamente.</td></tr>  
+    <tr><td>110</td><td>Datos incompletos</td><td>Los datos ingresados no están completos. Por favor, ingréselos e intente nuevamente.</td></tr>  
+    <tr><td>120</td><td>Referencia no encontrada</td><td>La referencia solicitada no fue encontrada.</td></tr>  
+    <tr><td>121</td><td>Referencia no asociada a esta pasarela</td><td>La referencia solicitada no está asociada a esta pasarela de retiros.</td></tr>  
+    <tr><td>122</td><td>Pago expirado</td><td>El pago ha caducado.</td></tr>  
+    <tr><td>123</td><td>Pago pendiente</td><td>El pago se encuentra en estado pendiente.</td></tr>  
+    <tr><td>200</td><td>Pago Completado</td><td>El pago fue completado exitosamente.</td></tr>  
+    <tr><td>300</td><td>No se puede resolver</td><td>Ocurrió un error inesperado. Por favor, intente nuevamente</td></tr>  
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
@@ -104,12 +146,23 @@ Estos son los tipos de retiros rechazados en Ecuador.
 
 Estos son los tipos de retiros rechazados en Perú.
 
-| Código de error | Mensaje de rechazo                            | Descripción                                                                                                    |
-| :-------------- | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| 7               | Internal error, failed validations            | Ocurrió un error interno y las validaciones fallaron. Por favor, reintente nuevamente.                         |
-| 11              | InstanPayouts not available, please try again | El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente. |
-| 12              | Destination bank not available                | En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.                               |
-| 13              | Internal error, please try again              | Ocurrió un error interno inesperado. Por favor reintente nuevamente.                                           |
-| 20              | Wallet not found for this phone number        | El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.           |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código de error</b></th>
+      <th><b>Mensaje de rechazo</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>7</td><td>Internal error, failed validations</td><td>Ocurrió un error interno y las validaciones fallaron. Por favor, reintente nuevamente.</td></tr>
+    <tr><td>11</td><td>InstanPayouts not available, please try again</td><td>El servicio de PayOuts instantáneos no está disponible por el momento, por lo que se debe intentar nuevamente.</td></tr>
+    <tr><td>12</td><td>Destination bank not available</td><td>En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.</td></tr>  
+    <tr><td>13</td><td>Internal error, please try again</td><td>Ocurrió un error interno inesperado. Por favor reintente nuevamente.</td></tr>  
+    <tr><td>20</td><td>Wallet not found for this phone number</td><td>El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.</td></tr>  
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 <br />
