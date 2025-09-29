@@ -1,6 +1,6 @@
 ---
 title: Códigos bancarios para PayIns con transferencias
-excerpt: En este artículo se muestran las listas de códigos bancarios por país.
+excerpt: En este artículo se muestran las listas de códigos bancarios por país
 deprecated: false
 hidden: false
 metadata:
