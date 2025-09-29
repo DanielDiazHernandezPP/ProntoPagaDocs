@@ -32,7 +32,7 @@ Payphone es una billetera digital ecuatoriana que permite recibir pagos, adminis
 
 El proceso de PayOut con Wallet Payphone consta de cuatro etapas principales:
 
-<Image align="center" src="https://files.readme.io/48d4a30ebbdf1146be448659c39934c68d582a110dbe367a3eef6d9f51cbb84b-Ecuador-03.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/48d4a30ebbdf1146be448659c39934c68d582a110dbe367a3eef6d9f51cbb84b-Ecuador-03.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero por medio de wallet (Payphone) en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado y confirma la transacción.
@@ -94,7 +94,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en *sandbox* es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
@@ -108,7 +108,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EWC1ijJHq5JKnjpIH9qH0ncB42rHOzcbXWdiOlyQQHciCA?e=3taLCb\&download=1).
     * 🔎 Todos los nombres y logos de los métodos de retiro habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
