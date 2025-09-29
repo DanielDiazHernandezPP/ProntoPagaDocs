@@ -46,7 +46,7 @@ Los pagos con QR son una forma de pago digital utilizada en Perú que permite re
 
 El proceso de pago con QR en Perú consta de cuatro etapas principales:
 
-<Image align="center" src="https://files.readme.io/b2e065728089a44d6cc0c2806bd8eb118b1f570b023d80dabb029066cf433682-peru_-_05.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/b2e065728089a44d6cc0c2806bd8eb118b1f570b023d80dabb029066cf433682-peru_-_05.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con QR en tu sitio web o aplicación.
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
@@ -271,7 +271,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1lIu2zZ572E0Oxm0mexQ4x8fmma7kcLQr).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EWC1ijJHq5JKnjpIH9qH0ncB42rHOzcbXWdiOlyQQHciCA?e=3taLCb\&download=1).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
