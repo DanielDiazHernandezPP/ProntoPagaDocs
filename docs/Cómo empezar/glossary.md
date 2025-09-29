@@ -1,6 +1,6 @@
 ---
 title: Glosario de pagos digitales
-excerpt: Conoce los términos de la industria de pagos dentro de esta documentación.
+excerpt: Conoce los términos de la industria de pagos dentro de esta documentación
 deprecated: false
 hidden: false
 metadata:
