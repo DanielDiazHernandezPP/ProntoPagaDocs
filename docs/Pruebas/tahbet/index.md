@@ -5,19 +5,33 @@ hidden: true
 metadata:
   robots: index
 ---
-<Image align="center" width="20px" src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" />
+<Image align="center" border={false} width="20px" src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" />
 
-<Image align="center" width="20px" src="https://files.readme.io/7a13f4a615d27e1f3f638235406ef265f590911efe1d7c52b0fc1941ac8326cd-740ea7d2f0c8131a98ac574312bc7c45.jpg" />
+<Image align="center" border={false} width="20px" src="https://files.readme.io/7a13f4a615d27e1f3f638235406ef265f590911efe1d7c52b0fc1941ac8326cd-740ea7d2f0c8131a98ac574312bc7c45.jpg" />
 
-<Image align="center" width="20px" src="https://files.readme.io/8df8568b17affdeba21d3ee6be41717630245b6336daa493b5eb862585435d70-bci-banco-credito-logo-png_seeklogo-311385.png" />
+<Image align="center" border={false} width="20px" src="https://files.readme.io/8df8568b17affdeba21d3ee6be41717630245b6336daa493b5eb862585435d70-bci-banco-credito-logo-png_seeklogo-311385.png" />
 
-<Image align="center" width="20px" src="https://files.readme.io/4a05e25bd70c57cf44a21f5531483b2a8cc3c6299b6baf8606f35fb44ac8f996-descarga_1.png" />
+<Image align="center" border={false} width="20px" src="https://files.readme.io/4a05e25bd70c57cf44a21f5531483b2a8cc3c6299b6baf8606f35fb44ac8f996-descarga_1.png" />
 
-<Image align="center" width="20px" src="https://files.readme.io/c71f20243b30b466401940e3d0424d64763cc55b7a9215094a555d43ff91f69f-descarga_2.png" />
+<Image align="center" border={false} width="20px" src="https://files.readme.io/c71f20243b30b466401940e3d0424d64763cc55b7a9215094a555d43ff91f69f-descarga_2.png" />
 
-<Image align="center" width="20px" src="https://files.readme.io/88c8d0732d449f32986a24cbac1768a36ba2ba93a7a3a993f5780c05be60c374-descarga.jpeg" />
+<Image align="center" border={false} width="20px" src="https://files.readme.io/88c8d0732d449f32986a24cbac1768a36ba2ba93a7a3a993f5780c05be60c374-descarga.jpeg" />
 
 <br />
+
+export const ExampleComponent = ({ children }) => {
+  return (
+    <div className="flex items-center h-full w-full">
+      <div className="bg-gray-800 rounded-md p-6 m-4">
+        {children}
+      </div>
+    </div>
+  );
+};
+
+<ExampleComponent>
+  Here's a very simple example component rather than an empty state. This should help you figure out what's happening quicker and see what's possible with custom components!
+</ExampleComponent>
 
 | Canal                                                                                                           | Dirección                                                            |
 | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
