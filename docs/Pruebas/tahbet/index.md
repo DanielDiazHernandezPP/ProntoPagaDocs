@@ -30,7 +30,7 @@ export const ExampleComponent = ({ children }) => {
 };
 
 <ExampleComponent>
-  Here's a very simple example component rather than an empty state. This should help you figure out what's happening quicker and see what's possible with custom components!
+  Hello
 </ExampleComponent>
 
 | Canal                                                                                                           | Dirección                                                            |
