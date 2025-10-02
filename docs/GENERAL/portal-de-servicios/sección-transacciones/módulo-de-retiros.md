@@ -49,9 +49,9 @@ El listado puede verse similar al ejemplo mostrado a continuación:
 
 <Image align="center" alt="Todos los retiros" border={true} src="https://files.readme.io/5ca3ed981f70566ebba58d0c7503c539ffabed49b71f2c4794e441f8ca429f19-Todos_los_retiros.png" className="border" />
 
-***
+<br />
 
-## Ver detalle de un retiro
+### Ver detalle de un retiro
 
 Puedes consultar el detalle de cualquiera de los retiros listados. Para hacerlo:
 
@@ -71,8 +71,6 @@ Puedes consultar el detalle de cualquiera de los retiros listados. Para hacerlo:
 Una vez dentro de la página de detalle de un retiro, podrás acceder a los **Datos Completos**, en donde verás toda la información del retiro en formato JSON. Para ello, haz clic en el botón superior derecho de **Datos Completos**.
 
 <Image align="center" alt="Datos completos" border={true} src="https://files.readme.io/1ec3ad016f88e953570eae5a4707c8f593001cda234fcde6f7633963734e1fca-Datos_completos.png" className="border" />
-
-***
 
 <br />
 
