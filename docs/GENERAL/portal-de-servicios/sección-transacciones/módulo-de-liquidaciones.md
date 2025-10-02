@@ -146,4 +146,60 @@ Este módulo también cuenta con su propio set de filtros para dividir el listad
 
 Para hacer una conciliación en el módulo de Perú:
 
-1. <br />
+1. Haz clic en el selector de la parte superior derecha **Conciliar**.
+
+<Image align="center" border={true} src="https://files.readme.io/f5a1c1b5dabf29b434123c5cdf88df15284ba1a5594bee25d977f92775da403a-conciliacion_Peru_1.png" className="border" />
+
+2. Selecciona el banco a través del cual deseas conciliar.
+3. Adjunta los archivos indicados en formato ._txt _y _.xls_.
+
+<Image align="center" alt="Conciliación Perú archivos" border={true} width="35% " src="https://files.readme.io/b3d4c6fbff4e17a546367f9f3e069c63d7082d6d53356ec3244a785865ea1664-conciliacion_Peru_2.png" className="border" />
+
+4. Haz clic en **Conciliar**. Tu archivo comenzará a procesarse y verás un mensaje de éxito o error, según corresponda.
+
+***
+
+<br />
+
+## Brasil
+
+En este módulo se muestra una tabla con la descripción de cada uno de los retiros de liquidación registrados en el país de Brasil.
+
+Este módulo también cuenta con su propio set de filtros para dividir el listado, con opciones para exportar los datos, así como opción para ver los detalles de un retiro de liquidación.
+
+***
+
+<br />
+
+## Ecuador
+
+En este módulo se muestra una tabla con la descripción de cada uno de los retiros de liquidación registrados en el país de Ecuador.
+
+Este módulo también cuenta con su propio set de filtros para dividir el listado, con opciones para exportar los datos, así como opción para ver los detalles de un retiro de liquidación.
+
+<br />
+
+### Generar conciliación
+
+Para hacer una conciliación en el módulo de Ecuador:
+
+1. Haz clic en el selector de la parte superior derecha **Conciliar**.
+
+<Image align="center" alt="Conciliación Brasil" border={true} src="https://files.readme.io/ab13c480dabc78cd054c42f443c3b925b11e1886e15976e17c8fa8f2814490f3-Brasil_1.png" className="border" />
+
+2. Selecciona el banco a través del cual deseas conciliar.
+3. Adjunta los archivos indicados en formato _.txt_ y _.xlsx_.
+
+<Image align="center" border={true} width="35% " src="https://files.readme.io/9029b431582eb417df8ad2f328c1060568e3028aef1c8d5ba20d877067b27566-Ecuador_2.png" className="border" />
+
+4. Haz clic en **Conciliar**. Tu archivo comenzará a procesarse y verás un mensaje de éxito o error, según corresponda.
+
+***
+
+<br />
+
+## Todos
+
+En este módulo se muestra una tabla con la descripción de cada uno de los retiros de liquidación registrados en todos los países en los que opera el comercio.
+
+Este módulo también cuenta con su propio set de filtros para dividir el listado, con opciones para exportar los datos, así como opción para ver los detalles de un retiro de liquidación.
