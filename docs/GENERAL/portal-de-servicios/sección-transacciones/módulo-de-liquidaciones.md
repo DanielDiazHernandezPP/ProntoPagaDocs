@@ -29,7 +29,7 @@ Para crear una nueva liquidación, deberás realizar los siguientes pasos:
 
 2. Serás redirigido a una nueva página, en donde deberás llenar los datos del formulario indicado:
 
-<Image align="center" border={false} width="40% " src="https://files.readme.io/90c01022695922f1e346833e1275ce24472bf5569a6252fb209e87c865e464ef-Formulario_crear_liquidacion.png" />
+<Image align="center" border={true} width="40% " src="https://files.readme.io/90c01022695922f1e346833e1275ce24472bf5569a6252fb209e87c865e464ef-Formulario_crear_liquidacion.png" className="border" />
 
 3. Haz clic en el botón superior derecho **Guardar**.
 
