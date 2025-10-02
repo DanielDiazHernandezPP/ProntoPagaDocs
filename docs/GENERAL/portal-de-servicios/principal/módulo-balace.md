@@ -34,9 +34,11 @@ Para observar el detalle de los números en tu **Resumen de balance**, sigue est
 
 Una vez seleccionados ambos filtros, podrás ver el detalle de los números en tu **Resumen de balance**.
 
+***
+
 <br />
 
-### Resumen de balance
+## Resumen de balance
 
 Los números que podrás visualizar en esta página podrían verse similares a los de la imagen de a continuación:
 
@@ -51,3 +53,25 @@ Este balance se subdivide en diferentes tipos de saldos, que a continuación se 
 * **Pendiente por Retiro:** Saldo en retiros pendientes.
 
 <br />
+
+### Filtro de fecha de corte
+
+Adicionalmente al filtro de comercio y moneda, este módulo también cuenta con filtros de fecha en la parte superior. En este caso, podrás seleccionar una fecha exacta de corte.
+
+<Image align="center" alt="Filtro de fecha de corte" border={true} src="https://files.readme.io/12192a1ed53afd6acb9c8c9f6772c236d5cbff8147bf08a450ec17fa9352c534-Filtro_de_fecha_de_corte.png" className="border" />
+
+<br />
+
+### Filtro de fecha
+
+El segundo filtro ubicado en la parte superior derecha es el **Filtro de fecha**, en el cual puedes seleccionar un periodo predefinido, o bien, una fecha personalizada para los datos de tu balance.
+
+<Image align="center" alt="Casilla Aplicar filtro" border={true} src="https://files.readme.io/73f9a2ef07c420d60b6b90b136d741d8c67c4ef52cd7abde2d3d5eff2563c0a3-Casilla_Aplicar_filtro.png" className="border" />
+
+<br />
+
+### Descargar el balance 
+
+Puedes descargar el detalle de tu balance mensual en PDF, haciendo clic en el botón **Balance Mensual**, ubicado en la esquina superior derecha del detalle de tus saldos.
+
+<Image align="center" alt="Descargar balance mensual" border={true} src="https://files.readme.io/2750fec2cb57ee638c21215c0870dd0835c0459923e6e9d53655e4e9ed1538ae-descargar_balance_mensual.png" className="border" />
