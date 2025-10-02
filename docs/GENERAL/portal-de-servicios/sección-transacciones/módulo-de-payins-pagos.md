@@ -76,8 +76,8 @@ Otra manera de modificar cómo se ve la información de la tabla de **Pagos**, e
 
 2. Se ordenarán de forma descendente, si la flecha está hacia abajo.
 
-<Image align="center" alt="Campo Monto 2" border={true} src="https://files.readme.io/b68e51bc94bd35817d1dd2a818e0662e7ff73862d6003cd1c9e851064775a165-Monto_2.png" className="border" />
+<Image align="center" alt="Campo Monto 2" border={true} width="15% " src="https://files.readme.io/b68e51bc94bd35817d1dd2a818e0662e7ff73862d6003cd1c9e851064775a165-Monto_2.png" className="border" />
 
 3. Para cambiar el orden a ascendente, haz clic nuevamente en la flecha.
 
-<Image align="center" alt="Campo Monto 3" border={true} src="https://files.readme.io/861dcf61f543eee67c8d95ebd89eb032fd37d14ecd64425ad8c5cbd778c813af-Monto_3.png" className="border" />
+<Image align="center" alt="Campo Monto 3" border={true} width="16% " src="https://files.readme.io/861dcf61f543eee67c8d95ebd89eb032fd37d14ecd64425ad8c5cbd778c813af-Monto_3.png" className="border" />
