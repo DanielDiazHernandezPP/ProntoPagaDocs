@@ -5846,14 +5846,6 @@
                       "reference": "17478465140837270911"
                     }
                   },
-                  "Peru Wallet (with customized form)": {
-                    "summary": "Peru Wallet (with customized form)",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQS9T4E2KPMWD3ZBW6K38Z",
-                      "uid": "01JRTQS9T4E2KPMWD3ZBW6K38Z",
-                      "reference": "17412463554078372071"
-                    }
-                  },
                   "Ecuador Cash (Ponle Más)": {
                     "summary": "Ecuador Cash (Ponle Más)",
                     "value": {
@@ -6125,11 +6117,6 @@
               "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocumentType\": \"DN\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"PagaConTuBanco\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Peru Pay With Your Bank"
-            },
-            {
-              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"yape_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"theme\": \"[{\\\"bgColor\\\": \\\"transparent\\\", \\\"mode\\\": \\\"dark\\\"}]\",\n  \"sign\": \"Signature of the parameters\"\n}",
-              "language": "json",
-              "name": "Peru Wallet (Yape, with customized form)"
             },
             {
               "code": "{\n  \"currency\": \"USD\",\n  \"country\": \"EC\",\n  \"amount\": \"25.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"broadnet_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
