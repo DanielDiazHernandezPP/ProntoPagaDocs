@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: get_new-endpoint
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Procesa un pago - Perú Botón Yape (sin iFrame) | ProntoPaga Docs
   description: >-
