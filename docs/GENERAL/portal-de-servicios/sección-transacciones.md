@@ -1,7 +1,7 @@
 ---
 title: Sección TRANSACCIONES
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
