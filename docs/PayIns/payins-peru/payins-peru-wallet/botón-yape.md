@@ -2,7 +2,7 @@
 title: Botón Yape v1
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Botón Yape v1 | ProntoPaga Docs
   description: >-
