@@ -21,7 +21,7 @@ En el módulo **Dashboard**, en la parte superior, encontrarás la casilla **Apl
 
 <Image align="center" alt="Casilla Aplicar filtro" border={true} src="https://files.readme.io/73f9a2ef07c420d60b6b90b136d741d8c67c4ef52cd7abde2d3d5eff2563c0a3-Casilla_Aplicar_filtro.png" className="border" />
 
-***
+<br />
 
 ### Filtro de moneda
 
@@ -38,5 +38,21 @@ Al lado derecho del **Filtro de fecha**, encontrarás el **Filtro de moneda**, e
 <Image align="center" alt="Filtro de moneda desplegado" border={true} src="https://files.readme.io/5506bdfb7442173eebc40e83a617960290bff59c07f533dc252cc2989ff1756a-Filtro_de_moneda_desplegado.png" className="border" />
 
 <br />
+
+### Filtro de comercio
+
+Al lado derecho del **Filtro de moneda**, encontrarás el **Filtro de comercio**, el cual te permite filtrar las transacciones visualizadas en tu resumen, según un comercio específico (dependiendo de cuáles y cuántos tengas configurados).
+
+<Image align="center" alt="Filtro de comercio" border={true} src="https://files.readme.io/25e4229c826f9a92d16ead7624d799a59e632b1376d1de41d28ff33ccc03b484-Filtro_de_comercio.png" className="border" />
+
+***
+
+<br />
+
+## Descargar el resumen
+
+En tu **Panel principal**, cuentas con la opción de descargar los datos que hayas filtrado previamente para visualizar en tu resumen. Para ello, deberás hacer clic en el botón **Descargar**, ubicado en la parte superior derecha, justo al lado de los filtros.
+
+<Image align="center" alt="Botón Descargar" border={true} src="https://files.readme.io/ac03277f3de4b84577fdde0883c33daf61ca3c3931ce64e58c7bcb8804ea3617-Boton_descargar.png" className="border" />
 
 <br />
