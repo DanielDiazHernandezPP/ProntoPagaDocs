@@ -45,11 +45,9 @@ Al lado derecho del **Filtro de moneda**, encontrarás el **Filtro de comercio**
 
 <Image align="center" alt="Filtro de comercio" border={true} src="https://files.readme.io/25e4229c826f9a92d16ead7624d799a59e632b1376d1de41d28ff33ccc03b484-Filtro_de_comercio.png" className="border" />
 
-***
-
 <br />
 
-## Descargar el resumen
+### Descargar el resumen
 
 En tu **Panel principal**, cuentas con la opción de descargar los datos que hayas filtrado previamente para visualizar en tu resumen. Para ello, deberás hacer clic en el botón **Descargar**, ubicado en la parte superior derecha, justo al lado de los filtros.
 
