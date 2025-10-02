@@ -789,13 +789,6 @@
                         "logo": "https://sandbox.prontopaga.com/img/gateways/pagacontubanco-1741205059.jpg"
                       },
                       {
-                        "id": 63,
-                        "name": "Botón Yape",
-                        "method": "yape_payment",
-                        "currency": "PEN",
-                        "logo": "https://sandbox.prontopaga.com/img/gateways/light-pe-paga-con-yape-prontopaga-1741204953.png"
-                      },
-                      {
                         "id": 64,
                         "name": "QR",
                         "method": "pe_qr_payment",
