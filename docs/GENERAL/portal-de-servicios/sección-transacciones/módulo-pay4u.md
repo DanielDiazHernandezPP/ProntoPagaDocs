@@ -11,7 +11,7 @@ En esta carpeta podrás consultar todo lo referente a nuestro servicio de pagos 
 
 A continuación, puedes consultar el diagrama de flujo para conocer el proceso de configuración de destinatarios:
 
-<Image align="center" alt="Diagrama General Pay4U" border={false} src="https://files.readme.io/f2e1fb157731061c64a6a1848f492cfa710be28837950b696eccf6f7333a392b-Pay4U_part1.png" />
+<Image align="center" alt="Diagrama General Pay4U" border={true} src="https://files.readme.io/f2e1fb157731061c64a6a1848f492cfa710be28837950b696eccf6f7333a392b-Pay4U_part1.png" className="border" />
 
 <br />
 
