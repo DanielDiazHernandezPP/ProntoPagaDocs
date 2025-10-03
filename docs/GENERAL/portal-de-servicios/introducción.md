@@ -21,7 +21,7 @@ Por otro lado, una carpeta se refiere a aquellos menús desplegables que contien
 
 ### Módulos
 
-Además, los módulos son aquellas zonas en donde el usuario puede visualizar información y realizar diversas acciones. En este caso, los módulos que no están contenidos dentro de una carpeta son: **Dashboard**, **Balance**, **Payins (pagos)**, **Reportes de transacciones**, **Reportes Automáticos**, **Llaves API**, **Clientes** y **Financieros**. A continuación, se detallan los módulos que sí están contenidos dentro de una carpeta. 
+Además, los módulos son aquellas zonas en donde el usuario puede visualizar información y realizar diversas acciones. En este caso, los módulos que no están contenidos dentro de una carpeta son: **Dashboard**, **Balance**, **Payins (pagos)**, **Reportes de transacciones**, **Reportes Automáticos**, **Cuentas para liquidaciones** y**Clientes**. A continuación, se detallan los módulos que sí están contenidos dentro de una carpeta. 
 
 ***
 
