@@ -7,7 +7,7 @@ metadata:
 ---
 ## Pay4U
 
-En esta carpeta podrás consultar todo lo referente a nuestro servicio de pagos Pay4u. Además del módulo específico de **Pagos Pay4u**, esta carpeta cuenta también con módulos para los listados de **Proveedores**, **Colaboradores** y **Prestadores de Servicio**.
+En esta carpeta podrás consultar todo lo referente a nuestro servicio de pagos Pay4u. Además del módulo específico de **Pagos Pay4u**, esta carpeta cuenta también con módulos para los listados de **Proveedores**, **Colaboradores** y **Prestadores de servicio**.
 
 A continuación, puedes consultar el diagrama de flujo para conocer el proceso de configuración de destinatarios:
 
