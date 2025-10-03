@@ -164,4 +164,30 @@ Puedes modificar los datos de cualquiera de los colaboradores listados. Para hac
 
 Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del colaborador, es decir, hasta el lado derecho de la pantalla.  
 
-Del menú desplegable, selecciona la opción Modificar. 
+Del menú desplegable, selecciona la opción **Modificar**. 
+
+<Image align="center" alt="Opción Ver" border={true} width="20% " src="https://files.readme.io/2676179092bfeae46e34078016345f42257164c3c6f64e7a9bd7a4fdbae88b2c-Opcion_ver.png" className="border" />
+
+3. Serás redirigido a la página de detalle del colaborador. Verás la información dividida en las categorías de: **Detalle del Colaborador**, **Datos de la cuenta del Colaborador**, **Contrato del Colaborador** y **Estado del registro**. 
+
+<Callout icon="📘" theme="info">
+  Modificación de datos
+
+  Una vez creado el colaborador, solo podrás modificar los siguientes datos: **información de la cuenta bancaria** (**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
+</Callout>
+
+4. Al terminar de editar, haz clic en el botón superior derecho **Guardar cambios**. 
+
+<br />
+
+#### Filtros
+
+El módulo de **Colaboradores** cuenta con la opción de filtrar el listado. Esto facilita la localización rápida de colaboradores específicos. Puedes ver todas las opciones disponibles de filtrado haciendo clic en el botón superior derecho de **Filtros**.
+
+<Image align="center" alt="Filtros " border={true} width="30% " src="https://files.readme.io/d9c813ab534fe1352b4eec7c6a0adda6abf87220c807be645dd99cb15f3a6888-filtros_proveedores.png" className="border" />
+
+<br />
+
+#### Ordenar por campo
+
+<br />
