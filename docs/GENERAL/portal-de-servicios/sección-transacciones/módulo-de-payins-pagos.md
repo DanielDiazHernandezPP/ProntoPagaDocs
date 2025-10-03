@@ -9,7 +9,7 @@ metadata:
 
 En este módulo se muestra una tabla detallada con la información de todos los pagos registrados hasta el momento. La tabla incluye diversos campos descriptivos, como: número de referencia, nombre del comprador, número de identificación del comprador, tipo y método de pago, detalle del método de pago (en caso de ser necesario), comercio, monto, moneda, estado del pago, fecha de creación del pago, fecha de liberación del pago, liquidación automática y contracargo (en caso de haberse realizado).
 
-<Image align="center" border={true} src="https://files.readme.io/4efe5410a963f759646623b2769609fffd63e8c5d40e97c7f64c36511aa22e0c-Panel_Payins.png" className="border" />
+<Image align="center" border={true} src="https://files.readme.io/15ccf75c99d0f375a4f4628a07385ca34777c38be5b977c72abd5591940c7bb6-descarga.png" className="border" />
 
 <br />
 
