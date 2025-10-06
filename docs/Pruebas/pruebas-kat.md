@@ -7,6 +7,12 @@ metadata:
 ---
 <br />
 
+<a href="https://google.com">
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data CL" title="Datos de prueba Chile" description="Conoce los datos de prueba disponibles para Chile." />
+</a>
+
+<br />
+
 <Cards>
   <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data CL" title="Datos de prueba Chile" description="Conoce los datos de prueba disponibles para Chile." href="https://google.com" />
 
