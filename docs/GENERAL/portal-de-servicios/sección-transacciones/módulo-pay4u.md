@@ -73,7 +73,7 @@ Puedes modificar los datos de cualquiera de los proveedores listados. Para hacer
 
 3. Serás redirigido a la página editable de datos del proveedor. Verás la información dividida en las categorías de: **Datos de la cuenta del proveedor**, **Contrato del Proveedor** y **Estado del registro**.
 
-<Callout icon="📘" theme="info">
+<Callout icon="🚧">
   **Modificación de datos**
 
   Una vez creado el proveedor, solo podrás modificar los siguientes datos: **información de la cuenta bancaria **(**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados. 
@@ -170,7 +170,7 @@ Del menú desplegable, selecciona la opción **Modificar**. 
 
 3. Serás redirigido a la página de detalle del colaborador. Verás la información dividida en las categorías de: **Detalle del Colaborador**, **Datos de la cuenta del Colaborador**, **Contrato del Colaborador** y **Estado del registro**. 
 
-<Callout icon="📘" theme="info">
+<Callout icon="🚧">
   Modificación de datos
 
   Una vez creado el colaborador, solo podrás modificar los siguientes datos: **información de la cuenta bancaria** (**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
@@ -216,4 +216,91 @@ Este módulo te permite crear un nuevo prestador de servicio, así como consulta
 
 El módulo con el listado de prestadores de servicio puede verse similar al siguiente: 
 
+<Image align="center" alt="Prestadores de servicio vista general" border={true} src="https://files.readme.io/a2a72c25b39a5407cd85cc9b48a5f5037e54c899befb4a8a174781f3ba6c3f3d-Prestadores_de_servicios_general.png" className="border" />
+
 <br />
+
+#### Crear un prestador de servicio
+
+Para crear un nuevo prestador de servicio, sigue estos pasos: 
+
+1. Haz clic en el botón de la esquina superior derecha **Crear prestador de servicio**.
+
+<Image align="center" alt="Botón prestadores de servicio" border={true} src="https://files.readme.io/850b6d42d38500137c3aea22cafa7281323cc0bd24b322ae3a98adebcdf6e532-Boton_prestador_de_servicio.png" className="border" />
+
+2. Serás redirigido a una nueva pestaña, en donde deberás llenar los datos solicitados. Todos son requeridos. 
+
+<Image align="center" alt="Formulario prestadores de servicio" border={true} width="80% " src="https://files.readme.io/3f672bf589ff2ee175b18c9add005d6844f2f01df751fd9e00c7f29a5c522cde-Formilario_prestadores_de_servicio.png" className="border" />
+
+<Callout icon="📘" theme="info">
+  **Archivos de validación**
+
+  Al crear un prestador de servicio, se pueden subir hasta tres archivos, cada uno con un tamaño máximo de 25 MB, para su validación.
+</Callout>
+
+<br />
+
+#### Ver detalle de un prestador de servicio
+
+Puedes consultar el detalle de cualquiera de los prestadores de servicio listados. Para hacerlo: 
+
+1. Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del prestador de servicio, es decir, hasta el lado derecho de la pantalla.  
+2. Del menú desplegable, selecciona la opción **Ver**. 
+
+<Image align="center" alt="Menú desplegable prestador de servicio" border={true} src="https://files.readme.io/58f43fd32b074ad71f0095e84c4b361379f72ecbc47fc3572b213dfa12fb190b-Ver_prestador_de_servicio.png" className="border" />
+
+3. Serás redirigido a la página de detalle del prestador de servicio. Verás la información dividida en las categorías de: **Detalle del Prestador de Servicio**, **Datos de la cuenta del Prestador de Servicio**, **Contrato del Prestador de Servicio** y **Estado del registro**. 
+
+<br />
+
+#### Modificar los datos de un prestador de servicio
+
+Puedes modificar los datos de cualquiera de los prestadores de servicio listados. Para hacerlo: 
+
+Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del prestador de servicio, es decir, hasta el lado derecho de la pantalla.  
+
+Del menú desplegable, selecciona la opción **Modificar**. 
+
+<Image align="center" alt="Botón desplegable modificar" border={true} src="https://files.readme.io/97c96fa1f6b47193de603231581c8d1b38681a256d82de5bd4a84679ef5d6771-Modificar_prestador_de_servicio.png" className="border" />
+
+3. Serás redirigido a la página de detalle del prestador de servicio. Verás la información dividida en las categorías de: **Detalle del Prestador de Servicio**, **Datos de la cuenta del Prestador de Servicio**, **Contrato del Prestador de Servicio** y **Estado del registro**. 
+
+<Callout icon="🚧" theme="warn">
+  **Modificación de datos**
+
+  Una vez creado el proveedor, solo podrás modificar los siguientes datos: **información de la cuenta bancaria **(**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
+</Callout>
+
+4. Al terminar de editar, haz clic en el botón superior derecho **Guardar cambios**. 
+
+<br />
+
+#### Filtros
+
+El módulo de **Prestadores de servicio** cuenta con la opción de filtrar el listado. Esto facilita la localización rápida de colaboradores específicos. Puedes ver todas las opciones disponibles de filtrado haciendo clic en el botón superior derecho de **Filtros**. 
+
+<Image align="center" alt="Filtros " border={true} width="30% " src="https://files.readme.io/d9c813ab534fe1352b4eec7c6a0adda6abf87220c807be645dd99cb15f3a6888-filtros_proveedores.png" className="border" />
+
+<br />
+
+#### Ordenar por campo
+
+Otra manera de modificar cómo se ve la información de la tabla de **Prestadores de servicio**, es ordenándola por alguno de los campos descriptivos superiores. Para hacerlo: 
+
+1. Haz clic en las flechas que se encuentran al lado de un campo específico. 
+
+<Image align="center" alt="Ordenar por campo " border={true} src="https://files.readme.io/ce4151017397460fd7229df8df7c99c2f766f31782e3bf1e2c524db70eda35c6-Ordenar_por_campo_1.png" className="border" />
+
+2. Se ordenarán de forma descendente, si la flecha está hacia abajo. 
+
+<Image align="center" alt="Ordenar por campo descendente" border={true} src="https://files.readme.io/f7b8a1431566a221a8d90b1685882f4a2e5dffde88a8c934914d6c17584cb850-Ordenar_por_campo_2.png" className="border" />
+
+3. Para cambiar el orden a ascendente, haz clic nuevamente en la flecha. 
+
+<Image align="center" alt="Ordenar por campo ascendente" border={true} src="https://files.readme.io/38853a9729b9b67dc3905897239bc8f5d1b4b1d2bf8a62acec810e1415d74ea5-Ordenar_por_campo_3.png" className="border" />
+
+***
+
+<br />
+
+### Generar Pay4U
