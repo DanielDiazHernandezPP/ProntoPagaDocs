@@ -49,8 +49,6 @@ Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están e
 
 ***
 
-<br />
-
 ## Tipos de cuentas
 
 El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos (a excepción de Ecuador), como se describe a continuación.
