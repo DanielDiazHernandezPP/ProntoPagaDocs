@@ -119,7 +119,7 @@ Este módulo te permite crear un nuevo colaborador, así como consultar el lista
 
 El módulo con el listado de colaboradores puede verse similar al siguiente: 
 
-<Image align="center" alt="Colaboradores" border={true} src="https://files.readme.io/c2773ec5c2c69604b2684822784d4b4ed46314e55fe0fa6ebf5345bf7e75a331-Colaboradores_modulo.png" className="border" />
+<Image align="center" alt="Colaboradores" border={true} src="https://files.readme.io/51daf70cb817002c40d4b3c4111daa31fcc17936ae987e1dbfe910b42f40dd28-Proyecto_nuevo.png" className="border" />
 
 <br />
 
