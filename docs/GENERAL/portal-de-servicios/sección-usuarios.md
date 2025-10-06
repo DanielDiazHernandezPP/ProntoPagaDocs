@@ -1,7 +1,7 @@
 ---
 title: Sección USUARIOS
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
