@@ -1,6 +1,6 @@
 ---
 title: Métodos de pago por país
-excerpt: ''
+excerpt: Descubre los distintos métodos de pago por país, marca y nomenclatura
 deprecated: false
 hidden: false
 metadata:
@@ -25,13 +25,13 @@ metadata:
 next:
   description: ''
 ---
-En esta página están listados todos los métodos de pago por país, así como su nomenclatura dentro de ProntoPaga.
+<br />
 
 > 👍 Métodos en tu comercio
 >
 > Recuerda que para conocer los métodos asociados a tu comercio, primero deberás consulta el endpoint de [Métodos de pago](https://docs.prontopaga.com/reference/payment-methods). Solo podrás hacer pruebas con los métodos de pago asociados a tu comercio.
 
-<br />
+***
 
 ## Argentina
 
@@ -70,6 +70,8 @@ En esta página están listados todos los métodos de pago por país, así como 
 </table>
 `}</HTMLBlock>
 
+***
+
 <br />
 
 ## Chile
@@ -91,6 +93,8 @@ En esta página están listados todos los métodos de pago por país, así como 
   </tbody>
 </table>
 `}</HTMLBlock>
+
+***
 
 <br />
 
@@ -115,6 +119,8 @@ En esta página están listados todos los métodos de pago por país, así como 
   </tbody>
 </table>
 `}</HTMLBlock>
+
+***
 
 <br />
 
