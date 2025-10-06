@@ -1,6 +1,8 @@
 ---
 title: ¿Cómo firmar las transacciones?
-excerpt: ''
+excerpt: >-
+  Conoce el proceso para firmar las transacciones realizadas a través de nuestra
+  API
 deprecated: false
 hidden: false
 metadata:
