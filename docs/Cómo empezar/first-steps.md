@@ -23,8 +23,6 @@ En esta página podrás familiarizarte con conceptos clave para el procesamiento
 
 ***
 
-<br />
-
 ## 1. Obtén tus credenciales
 
 Antes de iniciar con la integración, deberás contar con tus credenciales, las cuales son:
@@ -37,8 +35,6 @@ Tanto el Bearer Token como el secretKey serán proporcionados a tu comercio por 
 > ❗️ Credenciales
 >
 > Obtener tus credenciales es esencial, ya que cualquier solicitud que no incluya Bearer Token o secretKey devolverá un error, al no estar autenticada.
-
-<br />
 
 ### 1.1. Credenciales de prueba
 
@@ -54,13 +50,9 @@ Puedes usar estas credenciales momentáneamente para pruebas en dos sitios:
 
 ***
 
-<br />
-
 ## 2. ¿Cómo hacer una solicitud?
 
 Una vez que tengas tus credenciales, podrás hacer tu primera solicitud en nuestra API.
-
-<br />
 
 ### 2.1. Hacer una solicitud en la Referencia API online
 
@@ -73,21 +65,15 @@ Sigue estos pasos para hacer tu primera solicitud en nuestra Referencia API onli
 5. Si el body request requiere el parámetro `sign`, usa tu secretKey y sigue [estas instrucciones](https://docs.prontopaga.com/docs/sign-transactions) para construir la firma de tu transacción.
 6. Haz clic en el botón **Try it!** para enviar la solicitud. Verás la respuesta justo debajo.
 
-<br />
-
 ### 2.2. Hacer una solicitud en la Colección de Postman
 
 Para hacer tu primera solicitud en nuestra Colección de Postman, sigue los pasos indicados en [esta página](https://docs.prontopaga.com/reference/postman). Ahí encontrarás instrucciones específicas para usar las credenciales genéricas de prueba, así como instrucciones para usar tus propias credenciales de prueba.
 
 ***
 
-<br />
-
 ## 3. Conceptos clave
 
 Estos son algunos conceptos del mundo de los pagos que podrían serte de utilidad durante tu integración con ProntoPaga.
-
-<br />
 
 ### 3.1. ¿Qué es un método de pago?
 
@@ -99,8 +85,6 @@ Un método de pago es una forma específica en la que un cliente puede realizar 
 * **QR**: Este método permite escanear un código QR para realizar un pago de manera rápida, a través de distintos servicios.
 * **Efectivo**: Algunas regiones permiten pagos en efectivo a través de intermediarios como tiendas de conveniencia.
 
-<br />
-
 ### 3.2. ¿Qué es un método de retiro?
 
 Un método de retiro es una forma específica en la que un cliente puede elegir hacer un retiro. Por ejemplo, cuando un cliente hace una apuesta en un sitio online, gana dinero, y desea retirar parte de sus ganancias. Estos métodos varían según el país y la preferencia del usuario. Aquí tienes una breve descripción de los tipos más comunes:
@@ -108,8 +92,6 @@ Un método de retiro es una forma específica en la que un cliente puede elegir 
 * **Transferencias bancarias**: Permiten al cliente elegir que su dinero sea transferido directamente a su cuenta bancaria.
 * **Wallets (billeteras digitales):** Son servicios como PayPal o GooglePay, en los cuales se puede recibir dinero de forma segura.
 * **Efectivo**: Algunas regiones permiten retiros en efectivo a través de intermediarios como tiendas de conveniencia.
-
-<br />
 
 ### 3.3. PayIns y PayOuts
 
@@ -119,8 +101,6 @@ Anteriormente hablamos de pagos y retiros. Pero los términos de PayIns y PayOut
 * **PayOut**: Se refiere al proceso de transferir dinero desde tu plataforma o negocio a tus clientes o proveedores. Un ejemplo de esto es el pago a un vendedor en un marketplace. Otro ejemplo sería el retiro de fondos por parte de un cliente.
 
 ***
-
-<br />
 
 ## 4. Siguientes Pasos
 
