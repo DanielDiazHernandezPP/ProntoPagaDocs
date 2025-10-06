@@ -28,8 +28,6 @@ next:
 
 Tarjetas para realizar pagos en modo prueba con el servicio de Payphone en Ecuador.
 
-<br />
-
 <HTMLBlock>{`
 <table>
   <thead>
