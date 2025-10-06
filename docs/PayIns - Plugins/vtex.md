@@ -1,6 +1,6 @@
 ---
 title: Configura el plugin de VTEX
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo configurar el plugin de VTEX para tu comercio.
 deprecated: false
 hidden: false
 metadata:
