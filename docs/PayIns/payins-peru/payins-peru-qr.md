@@ -1,6 +1,6 @@
 ---
 title: Recibe pagos con QR
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con QR en Perú.
 deprecated: false
 hidden: false
 metadata:
