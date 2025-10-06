@@ -1,6 +1,6 @@
 ---
 title: Datos de prueba Perú (PayIns)
-excerpt: ''
+excerpt: Conoce los datos de prueba disponibles para Perú
 deprecated: false
 hidden: false
 metadata:
