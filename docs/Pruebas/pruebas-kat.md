@@ -11,14 +11,6 @@ metadata:
   <a href="https://google.com" target="_blank" rel="noopener noreferrer">
     <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data CL" title="Datos de prueba Chile" description="Conoce los datos de prueba disponibles para Chile." />
   </a>
-
-  <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-    <ImageCard imageSrc="https://fastly.picsum.photos/id/103/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data CO" title="Datos de prueba Colombia" description="Conoce los datos de prueba disponibles para Colombia." />
-  </a>
-
-  <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-    <ImageCard imageSrc="https://fastly.picsum.photos/id/104/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data PE" title="Datos de prueba Perú" description="Conoce los datos de prueba disponibles para Perú." />
-  </a>
 </div>
 
 <br />
