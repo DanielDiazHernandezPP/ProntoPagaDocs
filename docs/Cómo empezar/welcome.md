@@ -1,6 +1,6 @@
 ---
 title: Bienvenido a ProntoPaga Docs
-excerpt: ''
+excerpt: Descubre cómo navegar y usar la documentación técnica de ProntoPaga
 deprecated: false
 hidden: false
 metadata:
