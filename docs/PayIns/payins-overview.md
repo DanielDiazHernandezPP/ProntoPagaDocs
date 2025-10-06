@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo funcionan?
-excerpt: 'Conoce cómo funcionan los PayIns en ProntoPaga '
+excerpt: 'Conoce cómo funcionan los PayIns en ProntoPaga. '
 deprecated: false
 hidden: false
 metadata:
