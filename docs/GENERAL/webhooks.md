@@ -1,6 +1,6 @@
 ---
 title: Webhooks
-excerpt: ''
+excerpt: Conoce cómo configurar un webhook para tus transacciones
 deprecated: false
 hidden: false
 metadata:
@@ -23,10 +23,6 @@ metadata:
 next:
   description: ''
 ---
-**Configurar un webhook para tus transacciones** te ayudará a conocer el estado de tus PayIns y PayOuts. Estos callbacks te notificarán cuando ocurra un cambio de estado en cierta transacción.
-
-***
-
 ## Configura un webhook
 
 Para iniciar la configuración de tu webhook, sigue estos pasos:
