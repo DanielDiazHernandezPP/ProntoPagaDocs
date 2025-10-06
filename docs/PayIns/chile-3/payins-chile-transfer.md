@@ -1,6 +1,6 @@
 ---
 title: Transferencia (Paga con Tu Banco)
-excerpt: Conoce el paso a paso de cómo crear un pago con transferencia en Chile
+excerpt: Conoce el paso a paso de cómo crear un pago con transferencia en Chile.
 deprecated: false
 hidden: false
 metadata:
