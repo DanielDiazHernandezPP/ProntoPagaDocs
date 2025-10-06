@@ -42,7 +42,7 @@ Una vez seleccionados ambos filtros, podrás ver el detalle de los números en t
 
 Los números que podrás visualizar en esta página podrían verse similares a los de la imagen de a continuación:
 
-<Image align="center" alt="Resumen de balance" border={true} width="80% " src="https://files.readme.io/9cb4f7a70ea947785eb3ea70146933868c57655d9d051c900902c7950ab91fd3-Resumen_de_balance_test.png" className="border" />
+<Image align="center" alt="Resumen de balance" border={true} width="80% " src="https://files.readme.io/8daa8a5356f8a98c0b440cad6b2a97b63c5c5122a4af3cb59a244c1bd1d83281-descarga.png" className="border" />
 
 Este balance se subdivide en diferentes tipos de saldos, que a continuación se detallan:
 
@@ -70,7 +70,7 @@ El segundo filtro ubicado en la parte superior derecha es el **Filtro de fecha**
 
 <br />
 
-### Descargar el balance 
+### Descargar el balance
 
 Puedes descargar el detalle de tu balance mensual en PDF, haciendo clic en el botón **Balance Mensual**, ubicado en la esquina superior derecha del detalle de tus saldos.
 
