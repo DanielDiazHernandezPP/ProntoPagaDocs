@@ -1,6 +1,6 @@
 ---
 title: Datos de prueba Ecuador
-excerpt: ''
+excerpt: Conoce los datos de prueba disponibles para Ecuador
 deprecated: false
 hidden: false
 metadata:
