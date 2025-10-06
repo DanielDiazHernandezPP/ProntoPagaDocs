@@ -15,7 +15,7 @@ En esta carpeta verás todos los reportes automáticos configurados y enviados a
 
 Un listado de **Reportes automáticos enviados a tus Comercios** podría verse así:
 
-<Image align="center" alt="Reportes Automáticos" border={true} width="80% " src="https://files.readme.io/5b1ac47f8ffba0c1dd7e83c15dd286dff5b2c5996cb7ec8a0a28952344f1928c-Reportes_automaticos.png" className="border" />
+<Image align="center" alt="Reportes Automáticos" border={true} width="80% " src="https://files.readme.io/75e0b32219252e71d284f2f4bc7609f98996b920ffe3346d28ef5338ef085ff5-reportes_automaticos.png" className="border" />
 
 <br />
 
