@@ -78,8 +78,6 @@ Una vez dentro de la página de detalle de un retiro, podrás acceder a los **Da
 
 El módulo de **Retiros** cuenta con la opción de filtrar el listado. Esto facilita la localización rápida de retiros específicos. Puedes ver todas las opciones disponibles de filtrado haciendo clic en el botón superior derecho de **Filtros**.
 
-<br />
-
 <Image align="center" alt="Filtros de Payins" border={true} width="30% " src="https://files.readme.io/f0e9d5ac7a3e782d69bd155a877226a9b0686ab99afe36f78cfe99b76a906af1-Filtros.png" className="border" />
 
 <br />
