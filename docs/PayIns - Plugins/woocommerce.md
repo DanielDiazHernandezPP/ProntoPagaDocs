@@ -1,6 +1,8 @@
 ---
 title: Configura el plugin de WooCommerce
-excerpt: ''
+excerpt: >-
+  Conoce el paso a paso de cómo configurar el plugin de WooCommerce para tu
+  comercio.
 deprecated: false
 hidden: false
 metadata:
