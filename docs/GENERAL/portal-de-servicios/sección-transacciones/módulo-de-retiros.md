@@ -47,7 +47,7 @@ En este módulo se muestra una tabla con la descripción de cada uno de los reti
 
 El listado puede verse similar al ejemplo mostrado a continuación:
 
-<Image align="center" alt="Todos los retiros" border={true} src="https://files.readme.io/5ca3ed981f70566ebba58d0c7503c539ffabed49b71f2c4794e441f8ca429f19-Todos_los_retiros.png" className="border" />
+<Image align="center" alt="Todos los retiros" border={true} src="https://files.readme.io/77a76ef0f6c915ac58e684025919b940555b0db7e6a192033479f9055b0def5c-5ca3ed981f70566ebba58d0c7503c539ffabed49b71f2c4794e441f8ca429f19-Todos_los_retiros.png" className="border" />
 
 <br />
 
