@@ -1,6 +1,6 @@
 ---
 title: Balance (Wallet empresarial)
-excerpt: ''
+excerpt: Conoce cómo se divide el balance de tu wallet empresarial en nuestro portal
 deprecated: false
 hidden: false
 metadata:
