@@ -1,6 +1,6 @@
 ---
 title: Recibe pagos con tarjeta
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con tarjeta en Chile.
 deprecated: false
 hidden: false
 metadata:
