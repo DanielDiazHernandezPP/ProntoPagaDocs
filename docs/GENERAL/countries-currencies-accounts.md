@@ -1,8 +1,8 @@
 ---
 title: Países, monedas y cuentas
 excerpt: >-
-  Conoce los países, las monedas y los tipos de cuentas disponibles para
-  transaccionar con ProntoPaga
+  Conoce los países, las monedas y los tipos de cuentas para transaccionar con
+  ProntoPaga
 deprecated: false
 hidden: false
 metadata:
