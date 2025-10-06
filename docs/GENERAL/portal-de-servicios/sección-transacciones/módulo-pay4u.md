@@ -7,7 +7,7 @@ metadata:
 ---
 ## Pay4U
 
-En esta carpeta podrás consultar todo lo referente a nuestro servicio de pagos Pay4u. Además del módulo específico de **Pagos Pay4u**, esta carpeta cuenta también con módulos para los listados de **Proveedores**, **Colaboradores** y **Prestadores de servicio**.
+En esta carpeta podrás consultar todo lo referente a nuestro servicio de pagos Pay4U. Además del módulo específico de **Pagos Pay4U**, esta carpeta cuenta también con módulos para los listados de **Proveedores**, **Colaboradores** y **Prestadores de servicio**.
 
 A continuación, puedes consultar el diagrama de flujo para conocer el proceso de configuración de destinatarios:
 
@@ -321,7 +321,7 @@ A continuación, puedes consultar el diagrama de flujo para conocer el proceso d
 
 Mediante la opción para pagos Pay4U masivos, **solo se podrán ejecutar pagos destinados a colaboradores** debido a que son transferencias recurrentes por un valor repetitivo que consta en el contrato, mientras que, para proveedores y prestadores de servicios, la frecuencia y los valores cambia, por lo que siempre será requerida una factura para cada transacción.
 
-<Callout icon="🚧">
+<Callout icon="🚧" theme="warn">
   **Remuneraciones hacia colaboradores**
 
   Los pagos de las remuneraciones se realizan el mismo día para todos los colaboradores.
@@ -337,7 +337,7 @@ Haz clic en el botón ubicado en la parte superior derecha **+Crear Masivo**. 
 
 <Image align="center" alt="Formulario crear Pay4U masivo" border={true} width="80% " src="https://files.readme.io/b10ebaa1554027abdccdc4ef6d9720d63ecaa4271ae86885c822e7c57a7e320b-formulario_crear_pay4u_masivo.png" className="border" />
 
-<Callout icon="❗️">
+<Callout icon="❗️" theme="error">
   **Importante**
 
   Se cuentan con plantillas para ingresar manualmente la información de los colaboradores, pero no se recomienda debido a la complejidad del proceso. Al igual que en los archivos individuales de Pay4U, los destinatarios deben estar registrados en el país correspondiente al balance. Lo ideal es usar el archivo descargable desde el módulo de **Colaboradores** mencionado en este mismo artículo, ya que contiene la información precargada y minimiza errores.
@@ -361,7 +361,7 @@ Haz clic en el botón ubicado en la parte superior derecha **+Crear Individual**
 
 3. Al terminar de llenar todos los campos, haz clic en el botón superior derecho **Guardar**, o, si así lo requieres, **Crear y añadir otro**.
 
-<Callout icon="❗️">
+<Callout icon="❗️" theme="error">
   **Importante**
 
   El destinatario seleccionado debe ser registrado en el país que corresponde al balance elegido.
