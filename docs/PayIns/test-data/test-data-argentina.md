@@ -1,6 +1,6 @@
 ---
 title: Datos de prueba Argentina
-excerpt: ''
+excerpt: Conoce los datos de prueba disponibles para Argentina
 deprecated: false
 hidden: false
 metadata:
