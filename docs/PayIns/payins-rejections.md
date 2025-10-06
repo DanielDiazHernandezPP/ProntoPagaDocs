@@ -1,6 +1,6 @@
 ---
 title: Tipos de rechazos (PayIns)
-excerpt: ''
+excerpt: Explora los distintos tipos de rechazos para los PayIns, divididos por país
 deprecated: false
 hidden: false
 metadata:
