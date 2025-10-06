@@ -1,6 +1,6 @@
 ---
 title: Datos de prueba Chile
-excerpt: ''
+excerpt: Conoce los datos de prueba disponibles para Chile
 deprecated: false
 hidden: false
 metadata:
