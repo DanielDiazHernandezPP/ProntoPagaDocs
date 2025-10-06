@@ -74,7 +74,7 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-<br />
+***
 
 ### Chile
 
@@ -94,7 +94,7 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-<br />
+***
 
 ### Ecuador
 
@@ -130,7 +130,7 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 </table>
 `}</HTMLBlock>
 
-<br />
+***
 
 ### Perú
 
