@@ -44,3 +44,5 @@ Dentro de **Liquidaciones**, los módulos son: **Generar liquidación**, **Payou
 ### Pay4U
 
 Dentro de **Pay4U**, los módulos son: **Proveedores**, **Colaboradores**, **Prestadores de Servicio** y **Generar Pay4U**.
+
+<Image align="center" alt="Carpeta Pay4U" border={true} src="https://files.readme.io/44f28fbe153e87b0556b80000cc2d01b9f0de0ea8039544763f32040ded47767-Captura_de_pantalla_2025-09-08_a_las_12.40.35_p.m..png" className="border" />
