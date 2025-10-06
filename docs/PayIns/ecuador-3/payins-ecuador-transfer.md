@@ -1,6 +1,6 @@
 ---
 title: Transferencia (Paga con Tu Banco)
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con transferencia en Ecuador.
 deprecated: false
 hidden: false
 metadata:
