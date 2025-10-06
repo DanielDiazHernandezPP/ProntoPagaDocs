@@ -1,6 +1,6 @@
 ---
 title: Acepta pagos con Wallet
-excerpt: ''
+excerpt: Explora las modalidades de pago disponibles para transacciones con wallet.
 deprecated: false
 hidden: false
 metadata:
