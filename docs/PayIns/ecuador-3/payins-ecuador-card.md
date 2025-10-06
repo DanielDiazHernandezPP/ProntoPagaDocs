@@ -1,6 +1,6 @@
 ---
 title: Acepta pagos con Tarjeta (Payphone)
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con tarjeta en Ecuador.
 deprecated: false
 hidden: false
 metadata:
