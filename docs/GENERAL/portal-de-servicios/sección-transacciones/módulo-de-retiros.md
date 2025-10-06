@@ -62,7 +62,7 @@ Puedes consultar el detalle de cualquiera de los retiros listados. Para hacerlo:
 
 3. Serás redirigido a la página de detalle del retiro. Verás la información dividida en las categorías de: **Identificación**, **Datos del usuario**, **Datos del retiro** e **Información adicional**.
 
-<Image align="center" alt="Detalles de retiro" border={true} width="70% " src="https://files.readme.io/5413195d2296fff269530a65f623cce509ebec2d9fe931c7f1724c498bc5808b-Ver_Payout.png" className="border" />
+<Image align="center" alt="Detalles de retiro" border={true} width="70% " src="https://files.readme.io/304aaec5528f3e404abad6de43b58e100e47ebc60078623b74842ca43a537741-descarga.png" className="border" />
 
 <br />
 
