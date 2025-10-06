@@ -340,7 +340,88 @@ Haz clic en el botón ubicado en la parte superior derecha **+Crear Masivo**. 
 <Callout icon="❗️">
   **Importante**
 
-  Se cuentan con plantillas para ingresar manualmente la información de los colaboradores, pero no se recomienda debido a la complejidad del proceso. Al igual que en los archivos individuales de Pay4U, los destinatarios deben estar registrados en el país correspondiente al balance. Lo ideal es usar el archivo descargable desde el módulo de **Colaboradores**, ya que contiene la información precargada y minimiza errores.
+  Se cuentan con plantillas para ingresar manualmente la información de los colaboradores, pero no se recomienda debido a la complejidad del proceso. Al igual que en los archivos individuales de Pay4U, los destinatarios deben estar registrados en el país correspondiente al balance. Lo ideal es usar el archivo descargable desde el módulo de **Colaboradores** mencionado en este mismo artículo, ya que contiene la información precargada y minimiza errores.
+</Callout>
+
+3. Al terminar de llenar todos los campos, haz clic en el botón superior derecho **Guardar**.
+
+<br />
+
+#### Crear Pay4U individual
+
+Para crear un pago Pay4u individual, sigue estos pasos:
+
+Haz clic en el botón ubicado en la parte superior derecha **+Crear Individual**.
+
+<Image align="center" alt="Botón crear individual" border={true} src="https://files.readme.io/a15123d187ff056e0654eb1ba9f2425610bdd092661ac6540fe0a38613e5a174-boton_crer_inividual.png" className="border" />
+
+2. Serás redirigido a una nueva pestaña, en donde deberás llenar los campos del formulario.
+
+<Image align="center" alt="Formulario crear Pay4U individual" border={true} width="80% " src="https://files.readme.io/7f380f761e345fb459e0f065b1bd52fc4200c9a77ceac572b7af7df4a63dc0e5-Formulario_crear_individual.png" className="border" />
+
+3. Al terminar de llenar todos los campos, haz clic en el botón superior derecho **Guardar**, o, si así lo requieres, **Crear y añadir otro**.
+
+<Callout icon="❗️">
+  **Importante**
+
+  El destinatario seleccionado debe ser registrado en el país que corresponde al balance elegido.
 </Callout>
 
 <br />
+
+#### Ver detalle de un Pay4U
+
+Puedes consultar el detalle de cualquiera de los Pay4U listados. Para hacerlo: 
+
+1. Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del pago, es decir, hasta el lado derecho de la pantalla.  
+2. Del menú desplegable, selecciona la opción **Ver**.
+
+<Image align="center" alt="Botón desplegable ver detalle Pay4U" border={true} src="https://files.readme.io/f57fd75f6c75c4f8551fd1d1046f63f6c6d345f120a5cff2b3ad144016cbe1d2-Ver_detalle_Pay4U.png" className="border" />
+
+3. Serás redirigido a la página de detalle del pago. Verás la información dividida en las categorías de: **Datos de la transacción**, **Información del pago**, **Retiros Asociados** y **Registro Histórico**. 
+
+<br />
+
+#### Modificar los datos de un Pay4U
+
+Puedes modificar los datos de cualquiera de los Pay4U listados. Para hacerlo: 
+
+1. Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del pago, es decir, hasta el lado derecho de la pantalla.  
+2. Del menú desplegable, selecciona la opción **Modificar**.
+
+<Image align="center" alt="Botón desplegable ver detalle Pay4U" border={true} src="https://files.readme.io/f57fd75f6c75c4f8551fd1d1046f63f6c6d345f120a5cff2b3ad144016cbe1d2-Ver_detalle_Pay4U.png" className="border" />
+
+3. Serás redirigido a la página editable de datos del Pay4U, en donde podrás hacer los ajustes necesarios. 
+4. Al terminar de editar, haz clic en el botón superior derecho **Guardar cambios**.
+
+<Callout icon="📘" theme="info">
+  **Nota**
+
+  Solo podrás modificar los datos de los Pay4U cuyo estado sea distinto a **Exitoso**. De lo contrario, solo podrás ver los detalles. 
+</Callout>
+
+<br />
+
+#### Filtros
+
+El módulo de Generar Pay4U cuenta con la opción de filtrar el listado. Esto facilita la localización rápida de pagos específicos. Puedes ver todas las opciones disponibles de filtrado haciendo clic en el botón superior derecho de **Filtros**.
+
+<Image align="center" alt="Filtros Pay4U" border={true} width="30% " src="https://files.readme.io/e103ec60fee69706b5fcd32396ab78f08fe94ad61af5fa3dd45c5d6a147f6228-filtros_pay4U.png" className="border" />
+
+<br />
+
+#### Ordenar por campo
+
+Otra manera de modificar cómo se ve la información de la tabla de **Generar Pay4U**, es ordenándola por alguno de los campos descriptivos superiores. Para hacerlo: 
+
+1. Haz clic en las flechas que se encuentran al lado de un campo específico. 
+
+<Image align="center" alt="Ordenar por campo " border={true} src="https://files.readme.io/ce4151017397460fd7229df8df7c99c2f766f31782e3bf1e2c524db70eda35c6-Ordenar_por_campo_1.png" className="border" />
+
+2. Se ordenarán de forma descendente, si la flecha está hacia abajo. 
+
+<Image align="center" alt="Ordenar por campo descendente" border={true} src="https://files.readme.io/f7b8a1431566a221a8d90b1685882f4a2e5dffde88a8c934914d6c17584cb850-Ordenar_por_campo_2.png" className="border" />
+
+3. Para cambiar el orden a ascendente, haz clic nuevamente en la flecha. 
+
+<Image align="center" alt="Ordenar por campo ascendente" border={true} src="https://files.readme.io/38853a9729b9b67dc3905897239bc8f5d1b4b1d2bf8a62acec810e1415d74ea5-Ordenar_por_campo_3.png" className="border" />
