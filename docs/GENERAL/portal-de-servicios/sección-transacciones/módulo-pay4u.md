@@ -23,7 +23,7 @@ Este módulo te permite crear un nuevo proveedor, así como consultar el listado
 
 El módulo con el listado de proveedores puede verse similar al siguiente:
 
-<Image align="center" alt="Categoría proveedores" border={true} src="https://files.readme.io/21e5ca4a4dbf1eb9db5ba48daf9a7a399fe6e7f1f1b2474d5404f840ae5c896e-descarga.png" className="border" />
+<Image align="center" alt="Categoría proveedores" border={true} src="https://files.readme.io/d56daa686cf54594eb5286aace94ad8ea86249999b5dd74e2e5290079ce1529a-Proyecto_nuevo.png" className="border" />
 
 <br />
 
