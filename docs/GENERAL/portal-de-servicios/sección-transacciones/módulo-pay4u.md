@@ -216,7 +216,7 @@ Este módulo te permite crear un nuevo prestador de servicio, así como consulta
 
 El módulo con el listado de prestadores de servicio puede verse similar al siguiente: 
 
-<Image align="center" alt="Prestadores de servicio vista general" border={true} src="https://files.readme.io/a2a72c25b39a5407cd85cc9b48a5f5037e54c899befb4a8a174781f3ba6c3f3d-Prestadores_de_servicios_general.png" className="border" />
+<Image align="center" alt="Prestadores de servicio vista general" border={true} src="https://files.readme.io/821d2a28c8c3f2d062e2595c5d7427c69f09717f17aaf9065dea049793376173-Prestador_de_servicio.png" className="border" />
 
 <br />
 
@@ -309,7 +309,7 @@ En este módulo verás un listado de todos los pagos Pay4U realizados a tus prov
 
 El listado general del módulo podría verse similar al siguiente: 
 
-<Image align="center" alt="Pay4U General" border={true} width="100% " src="https://files.readme.io/87cd1d90f0936a79efe8a23351f2ae3a9f04ff5b8181844961fd6eeae52e117f-Pay4U_general.png" className="border" />
+<Image align="center" alt="Pay4U General" border={true} width="100% " src="https://files.readme.io/29fe7959b79457e04d617fa2337cf884d4e7c8dcf9d61526bf798c4ce115b19f-pay4u.png" className="border" />
 
 A continuación, puedes consultar el diagrama de flujo para conocer el proceso de creación de pagos Pay4U:
 
