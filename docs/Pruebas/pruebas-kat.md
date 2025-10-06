@@ -7,6 +7,22 @@ metadata:
 ---
 <br />
 
+<Cards>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+</Cards>
+
+***
+
+<br />
+
 <HTMLBlock>{`
 <div class="background-decoration" aria-hidden="true">
             <img class="bg-cards fade-left" src="https://documentacion-prontopaga.s3.us-east-1.amazonaws.com/Union.svg" alt="" role="presentation">
@@ -259,27 +275,27 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
   </Card>
 </Cards>
 
-<Image align="center" src="https://files.readme.io/0622c4c5eda1747285ef87390e320dcf9dd1aafa518601634ce7c7b729d91a94-prestashop.svg" />
+<Image align="center" border={false} src="https://files.readme.io/0622c4c5eda1747285ef87390e320dcf9dd1aafa518601634ce7c7b729d91a94-prestashop.svg" />
 
 <br />
 
-<Image align="center" width="100px" src="https://files.readme.io/3a3e686276c9c7fab0dc0141e3d54acb3ac6df6da8927c9d542647122dc0d5f0-62e3cccfd889babae63d7512.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/3a3e686276c9c7fab0dc0141e3d54acb3ac6df6da8927c9d542647122dc0d5f0-62e3cccfd889babae63d7512.png" />
 
-<Image align="center" width="100px" src="https://files.readme.io/78df363cf2ad4475247110eeb90f01bb65d460ba35e64bb1fa3522786854e1c0-prestashop_2.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/78df363cf2ad4475247110eeb90f01bb65d460ba35e64bb1fa3522786854e1c0-prestashop_2.png" />
 
-<Image align="center" width="100px" src="https://files.readme.io/237677136a29c3f87dc497f78202b9a0bbb30de9254062377c9db0957c278b13-Woo_logo_color.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/237677136a29c3f87dc497f78202b9a0bbb30de9254062377c9db0957c278b13-Woo_logo_color.png" />
 
-<Image align="center" width="100px" src="https://files.readme.io/57d885272860137bab59027756f4d031a8b0179f2ce91142ba94b7f2753e075e-pngwing.com.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/57d885272860137bab59027756f4d031a8b0179f2ce91142ba94b7f2753e075e-pngwing.com.png" />
 
-<Image align="center" width="100px" src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" />
 
-<Image align="center" src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" />
+<Image align="center" border={false} src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" />
 
-<Image align="center" src="https://files.readme.io/0a3c6ce890a44d81d6d832d26dffa484af540dd475751964867802967698b7ee-62e3cccfd889babae63d7512_1.png" />
+<Image align="center" border={false} src="https://files.readme.io/0a3c6ce890a44d81d6d832d26dffa484af540dd475751964867802967698b7ee-62e3cccfd889babae63d7512_1.png" />
 
-<Image align="center" src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" />
+<Image align="center" border={false} src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" />
 
-<Image align="center" src="https://files.readme.io/8d699661f5c1917560db8fb08ec0d4aa366ab62ed9f8482d6902d34315265307-Logo_rebel_1.png" />
+<Image align="center" border={false} src="https://files.readme.io/8d699661f5c1917560db8fb08ec0d4aa366ab62ed9f8482d6902d34315265307-Logo_rebel_1.png" />
 
 <br />
 
@@ -767,9 +783,9 @@ prueba 3
   </Card>
 </Cards>
 
-![](https://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png)
+<Image border={false} src="https://files.readme.io/b0f30b97d8035a2f4387eaf8d715a913308b29e7a26c09df081e8ea99f4dc1a0-image.png" />
 
-<Image align="center" src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" />
+<Image align="center" border={false} src="https://files.readme.io/93987a75250f9f38e0196e691806fd8b7fd6b99ef4baf51e766bae2b392d1cf2-yape-app-logo-png_seeklogo-399697.png" />
 
 <br />
 
