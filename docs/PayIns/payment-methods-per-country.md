@@ -1,6 +1,6 @@
 ---
 title: Métodos de pago por país
-excerpt: Descubre los distintos métodos de pago por país, marca y nomenclatura
+excerpt: Descubre los diferentes métodos de pago por país, marca y nomenclatura
 deprecated: false
 hidden: false
 metadata:
