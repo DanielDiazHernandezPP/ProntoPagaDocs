@@ -8,7 +8,7 @@ metadata:
 <br />
 
 <Cards>
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data CL" href="https://readme.com" title="Datos de prueba Chile" description="Conoce los datos de prueba disponibles para Chile." />
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Test data CL" href="https://google.com" title="Datos de prueba Chile" description="Conoce los datos de prueba disponibles para Chile." />
 
   <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 </Cards>
