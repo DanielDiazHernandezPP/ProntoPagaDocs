@@ -1,6 +1,8 @@
 ---
 title: Primeros Pasos
-excerpt: ''
+excerpt: >-
+  Conoce el procesamiento de transacciones y cómo realizar solicitudes en
+  nuestra API.
 deprecated: false
 hidden: false
 metadata:
