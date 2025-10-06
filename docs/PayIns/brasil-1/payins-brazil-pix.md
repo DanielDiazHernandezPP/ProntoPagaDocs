@@ -1,6 +1,6 @@
 ---
 title: Acepta pagos con PIX
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con PIX en Brasil.
 deprecated: false
 hidden: false
 metadata:
