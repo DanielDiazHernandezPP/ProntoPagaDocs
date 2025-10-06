@@ -73,7 +73,7 @@ Puedes modificar los datos de cualquiera de los proveedores listados. Para hacer
 
 3. Serás redirigido a la página editable de datos del proveedor. Verás la información dividida en las categorías de: **Datos de la cuenta del proveedor**, **Contrato del Proveedor** y **Estado del registro**.
 
-<Callout icon="🚧">
+<Callout icon="🚧" theme="warn">
   **Modificación de datos**
 
   Una vez creado el proveedor, solo podrás modificar los siguientes datos: **información de la cuenta bancaria **(**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados. 
@@ -170,7 +170,7 @@ Del menú desplegable, selecciona la opción **Modificar**. 
 
 3. Serás redirigido a la página de detalle del colaborador. Verás la información dividida en las categorías de: **Detalle del Colaborador**, **Datos de la cuenta del Colaborador**, **Contrato del Colaborador** y **Estado del registro**. 
 
-<Callout icon="🚧">
+<Callout icon="🚧" theme="warn">
   Modificación de datos
 
   Una vez creado el colaborador, solo podrás modificar los siguientes datos: **información de la cuenta bancaria** (**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
@@ -304,3 +304,43 @@ Otra manera de modificar cómo se ve la información de la tabla de **Prestadore
 <br />
 
 ### Generar Pay4U
+
+En este módulo verás un listado de todos los pagos Pay4U realizados a tus proveedores, colaboradores y prestadores de servicio. Además, podrás crear pagos Pay4U masivos o individuales. 
+
+El listado general del módulo podría verse similar al siguiente: 
+
+<Image align="center" alt="Pay4U General" border={true} width="100% " src="https://files.readme.io/87cd1d90f0936a79efe8a23351f2ae3a9f04ff5b8181844961fd6eeae52e117f-Pay4U_general.png" className="border" />
+
+A continuación, puedes consultar el diagrama de flujo para conocer el proceso de creación de pagos Pay4U:
+
+<Image align="center" alt="Diagrama Pay4U" border={true} src="https://files.readme.io/d3e3f6aa49170ded42a306866451630149e6b2d13d3d2c596c2ce0c0bcaf0149-Pay4U_part2_1.png" className="border" />
+
+<br />
+
+#### Crear Pay4U masivo
+
+Mediante la opción para pagos Pay4U masivos, **solo se podrán ejecutar pagos destinados a colaboradores** debido a que son transferencias recurrentes por un valor repetitivo que consta en el contrato, mientras que, para proveedores y prestadores de servicios, la frecuencia y los valores cambia, por lo que siempre será requerida una factura para cada transacción.
+
+<Callout icon="🚧">
+  **Remuneraciones hacia colaboradores**
+
+  Los pagos de las remuneraciones se realizan el mismo día para todos los colaboradores.
+</Callout>
+
+Para crear un pago Pay4U masivo, sigue estos pasos: 
+
+Haz clic en el botón ubicado en la parte superior derecha **+Crear Masivo**. 
+
+<Image align="center" alt="Botón crear masivo" border={true} src="https://files.readme.io/0427d3a3ce42ccb553d2f7a1b0978515e6d9c51c5d09b52e79a803c67e9fd12a-Boton_crear_masivo.png" className="border" />
+
+2. Serás redirigido a una nueva pestaña, en donde deberás seguir las instrucciones en pantalla para rellenar el formulario.
+
+<Image align="center" alt="Formulario crear Pay4U masivo" border={true} width="80% " src="https://files.readme.io/b10ebaa1554027abdccdc4ef6d9720d63ecaa4271ae86885c822e7c57a7e320b-formulario_crear_pay4u_masivo.png" className="border" />
+
+<Callout icon="❗️">
+  **Importante**
+
+  Se cuentan con plantillas para ingresar manualmente la información de los colaboradores, pero no se recomienda debido a la complejidad del proceso. Al igual que en los archivos individuales de Pay4U, los destinatarios deben estar registrados en el país correspondiente al balance. Lo ideal es usar el archivo descargable desde el módulo de **Colaboradores**, ya que contiene la información precargada y minimiza errores.
+</Callout>
+
+<br />
