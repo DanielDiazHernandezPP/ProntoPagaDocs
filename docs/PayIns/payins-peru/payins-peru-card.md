@@ -1,6 +1,6 @@
 ---
 title: Acepta pagos con tarjeta
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con tarjeta en Perú.
 deprecated: false
 hidden: false
 metadata:
