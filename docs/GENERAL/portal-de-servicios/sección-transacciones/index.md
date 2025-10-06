@@ -5,8 +5,6 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
 <Cards columns={2}>
   <Card title="Payins (pagos)" href="https://docs.prontopaga.com/docs/m%C3%B3dulo-de-payins-pagos#/" target="_blank">
     Conoce la información de todos los pagos registrados hasta el momento
