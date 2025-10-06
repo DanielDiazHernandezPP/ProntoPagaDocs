@@ -24,7 +24,7 @@ Puedes consultar el detalle de cualquiera de los pagos que aparecen en la tabla 
 
 3. Serás redirigido a la página de detalle del pago. Verás la información dividida en las categorías de: **Identificación**, **Datos del usuario**, **Datos de pago**, **Datos Adicionales** y **Autenticación y evaluación de riesgo**.
 
-<Image align="center" alt="Detalles de pago" border={true} width="75% " src="https://files.readme.io/294e75e39d65c60b15c56fa7c2a191ffb52a9336d49fe94f224931f5f7d05159-Detalles_de_pago.png" className="border" />
+<Image align="center" alt="Detalles de pago" border={true} width="75% " src="https://files.readme.io/b0f7ed7ca39d0887207194d92745215487dcb73bb31b3b915d5374254e03c737-descarga_1.png" className="border" />
 
 <br />
 
