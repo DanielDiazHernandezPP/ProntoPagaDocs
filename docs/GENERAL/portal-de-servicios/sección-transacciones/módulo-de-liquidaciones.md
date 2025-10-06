@@ -15,7 +15,7 @@ En esta carpeta podrás crear, buscar, ver o exportar la información de tus liq
 
 En este módulo podrás ver un listado de las liquidaciones que has generado, así como generar una nueva liquidación. El listado podría verse similar al siguiente:
 
-<Image align="center" alt="Generar liquidación" border={true} src="https://files.readme.io/dcba665836f0aa9e6eef2fc80113aba7ee1d4fbaea4358878f8e22c6a02363af-generar_liquidacion.png" className="border" />
+<Image align="center" alt="Generar liquidación" border={true} src="https://files.readme.io/2cf0ac6b422b5c8a8069b2a0df6fb221db94f2644c094fb19814b8087205ca71-Proyecto_nuevo.png" className="border" />
 
 <br />
 
