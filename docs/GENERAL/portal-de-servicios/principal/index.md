@@ -6,7 +6,7 @@ metadata:
   robots: index
 ---
 <Cards columns={2}>
-  <Card title="Dashboard" href="https://docs.prontopaga.com/docs/m%C3%B3dulo-dashboard#/" target="_blank">
+  <Card title="Dashboard" href="https://docs.prontopaga.com/docs/m%C3%B3dulo-dashboard#/">
     Accede a un resumen en tiempo real de las transacciones de tu comercio
   </Card>
 
