@@ -1,6 +1,6 @@
 ---
 title: Recibe pagos en efectivo
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con efectivo en Perú.
 deprecated: false
 hidden: false
 metadata:
