@@ -1,6 +1,6 @@
 ---
 title: Acepta pagos con Wallet
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con wallet en Ecuador.
 deprecated: false
 hidden: false
 metadata:
