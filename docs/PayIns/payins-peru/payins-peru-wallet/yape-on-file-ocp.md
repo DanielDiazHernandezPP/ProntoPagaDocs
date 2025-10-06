@@ -1,6 +1,6 @@
 ---
 title: 'Yape On File: One Click Payments'
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo crear un pago con Yape en Perú.
 deprecated: false
 hidden: false
 metadata:
