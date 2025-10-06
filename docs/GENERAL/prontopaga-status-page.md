@@ -2,7 +2,7 @@
 title: Status Page
 excerpt: >-
   Conoce el estado de los servicios de ProntoPaga, incidentes y mantenimientos
-  programados.
+  programados
 deprecated: false
 hidden: false
 metadata:
