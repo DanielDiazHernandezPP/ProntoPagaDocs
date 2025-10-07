@@ -43,4 +43,4 @@ Estos son los posibles estados que pueden tener los PayOuts.
 
 > 📘 Estado process y canceled
 >
-> El estado **process** se notifica al momento de procesar el retiro en la entidad bancaria. Sin embargo, el estado **canceled** se puede notificar antes de **process** si se detecta algún dato erróneo o un problema en la entidad bancaria.
+> El estado `process` se notifica al momento de procesar el retiro en la entidad bancaria. Sin embargo, el estado `canceled` se puede notificar antes de `process` si se detecta algún dato erróneo o un problema en la entidad bancaria.
