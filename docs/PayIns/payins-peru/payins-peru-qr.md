@@ -127,8 +127,6 @@ Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el 
 
 Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
-<br />
-
 ### Personalizar el formulario de pago
 
 Para modificar el estilo del formulario de pago, usa este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
