@@ -116,13 +116,10 @@ A continuación puedes ver un ejemplo de request:
   "urlConfirmation" : "https://www.webhook.com", 
   "urlFinal" : "https://sandbox.prontopaga.com/successful", 
   "urlRejected" : "https://sandbox.prontopaga.com/declined", 
-  "order" : "XYZ789", 
-  "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\"}]",
+  "order" : "XYZ789",
   "sign" : "Signature of the parameters" 
 }
 ```
-
-Puedes ajustar la apariencia de tu formulario con el parámetro opcional `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
 
 <br />
 
