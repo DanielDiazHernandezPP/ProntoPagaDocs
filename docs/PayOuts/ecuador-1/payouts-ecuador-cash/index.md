@@ -1,6 +1,6 @@
 ---
 title: Retiros en Efectivo
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo hacer un retiro en efectivo en Ecuador.
 deprecated: false
 hidden: false
 metadata:
