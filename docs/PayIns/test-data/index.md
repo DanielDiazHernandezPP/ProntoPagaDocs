@@ -1,6 +1,6 @@
 ---
 title: Datos de prueba (PayIns)
-excerpt: Conoce los datos de prueba disponibles para validar tu integración
+excerpt: Conoce los datos de prueba para validar tu integración con PayIns.
 deprecated: false
 hidden: false
 metadata:
