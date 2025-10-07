@@ -26,7 +26,7 @@ metadata:
 next:
   description: ''
 ---
-Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú, es necesario utilizar [este endpoint](https://docs.prontopaga.com/reference/payout), en el cual se debe enviar el código bancario en el parámetro `bankCode`. En este artículo se muestran las listas de códigos bancarios por país.
+Para crear un nuevo retiro por transferencia bancaria en Brasil, Chile, Ecuador o Perú, es necesario utilizar [este endpoint](https://docs.prontopaga.com/reference/payout), en el cual se debe enviar el código bancario en el parámetro `bankCode`. En este artículo se muestran las listas de códigos bancarios por país.
 
 ***
 
