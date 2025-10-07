@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo funcionan?
-excerpt: ''
+excerpt: Conoce el funcionamiento de los PayOuts en ProntoPaga.
 deprecated: false
 hidden: false
 metadata:
