@@ -124,6 +124,35 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+<br />
+
+### Personalizar el formulario de pago
+
+Puedes ajustar la apariencia de tu formulario con el parámetro opcional `theme`, cambiando el color de fondo, creando versiones modo claro y modo oscuro, o definiendo el tipo de vista con este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
+
+```json
+{
+  "currency": "USD",
+  "country": "EC",
+  "amount": "25.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "0912345678",
+  "clientDocument": "12345678912",
+  "paymentMethod": "payphone_payment",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
+  "theme": {
+  	"bgColor": "transparent", 
+    "mode": "dark",
+	  "type": "simple”
+	}, 
+	"order": "XYZ789",
+	"sign": "Signature of the parameters"
+}
+```
+
 ***
 
 <br />
