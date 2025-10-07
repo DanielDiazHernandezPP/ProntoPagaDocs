@@ -1,6 +1,6 @@
 ---
 title: Retiros instantáneos con Wallet
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo hacer un retiro instantáneo con wallet en Perú.
 deprecated: false
 hidden: false
 metadata:
