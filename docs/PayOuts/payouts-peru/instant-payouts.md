@@ -1,6 +1,8 @@
 ---
 title: Retiros instantáneos por Transferencia
-excerpt: ''
+excerpt: >-
+  Conoce el paso a paso de cómo hacer un retiro instantáneo con transferencia en
+  Perú.
 deprecated: false
 hidden: false
 metadata:
