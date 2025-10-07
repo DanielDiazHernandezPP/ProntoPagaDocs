@@ -5893,6 +5893,30 @@
                       "uid": "01JRTQPX93GR8TP1A1A7752TFT",
                       "reference": "17424654000570548730"
                     }
+                  },
+                  "Ecuador Wallet (Payphone with customized form)": {
+                    "summary": "Ecuador Wallet (Payphone with customized form)",
+                    "value": {
+                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTM6XFCMNY4JFHY3SYVM44A",
+                      "uid": "01JRTM6XFCMNY4JFHY3SYVM44A",
+                      "reference": "17446750335713609823"
+                    }
+                  },
+                  "Peru Card (with customized form)": {
+                    "summary": "Peru Card (with customized form)",
+                    "value": {
+                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQR4MYT1TW201VX07G61FX",
+                      "uid": "01JRTQR4MYT1TW201VX07G61FX",
+                      "reference": "17446540459328"
+                    }
+                  },
+                  "Peru QR (with customized form)": {
+                    "summary": "Peru QR (with customized form)",
+                    "value": {
+                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTSMFH40B7WXQYWNSF7MTRA",
+                      "uid": "01JRTSMFH40B7WXQYWNSF7MTRA",
+                      "reference": "17446560231902"
+                    }
                   }
                 }
               }
@@ -6166,7 +6190,7 @@
             {
               "code": "{\n  \"currency\": \"USD\",\n  \"country\": \"EC\",\n  \"amount\": \"25.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"0912345678\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"payphone_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"theme\": {\n  \t\"bgColor\": \"transparent\", \n    \"mode\": \"dark\",\n\t  \"type\": \"simple”\n\t}, \n\t\"order\": \"XYZ789\",\n\t\"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
-              "name": "Ecuador Wallet (with customized form)"
+              "name": "Ecuador Wallet (Payphone with customized form)"
             }
           ],
           "samples-languages": [
