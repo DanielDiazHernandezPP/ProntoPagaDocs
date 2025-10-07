@@ -226,7 +226,9 @@ Payphone Wallet -> Ecuador
 
 Se le puede pasar un bgColor (valor hexadecimal con su '#' al principio), mode (light o dark), type (default o simple)
 
-Ecuador Wallet (with customized form)
+* Crear nuevo endopoint: Ecuador Wallet (with customized form)
+* Subir a postman
+* Crear ejemplo 200 y 400
 
 ```
 {
@@ -251,11 +253,13 @@ Ecuador Wallet (with customized form)
  "sign": "Signature of the parameters"
 ```
 
+***
+
 <br />
 
 GmoneyQR, LigoQR y NiubizQR -> Perú
 
-Ya está arriba
+Ya estaba arriba con antelación
 
 ```
 {
@@ -276,11 +280,13 @@ Ya está arriba
 }
 ```
 
+***
+
+<br />
+
 Niubiz Tarjeta -> Perú
 
 Ya estaba con antelación
-
-<br />
 
 ```
 {
@@ -297,6 +303,33 @@ Ya estaba con antelación
   "urlRejected": "https://sandbox.prontopaga.com/declined",
   "order": "XYZ789",
   "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\"}]",
+  "sign": "Signature of the parameters"
+}
+```
+
+***
+
+PixQR BancoRendimiento -> Brasil
+
+* Crear nuevo endpoint: Brazil PIX (with customized form)
+* Subir a postman
+* Crear ejemplo 200 y 400
+
+```
+{
+  "currency": "BRL",
+  "country": "BR",
+  "amount": "150.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "pix_payment",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
+  "order": "XYZ789",
+  "typePixPayment": 1,
   "sign": "Signature of the parameters"
 }
 ```
