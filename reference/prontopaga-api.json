@@ -5897,9 +5897,9 @@
                   "Ecuador Wallet (Payphone with customized form)": {
                     "summary": "Ecuador Wallet (Payphone with customized form)",
                     "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTM6XFCMNY4JFHY3SYVM44A",
-                      "uid": "01JRTM6XFCMNY4JFHY3SYVM44A",
-                      "reference": "17446750335713609823"
+                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQECVWVY95CVRTJ3541C3T",
+                      "uid": "01JRTQECVWVY95CVRTJ3541C3T",
+                      "reference": "17446537263755"
                     }
                   },
                   "Peru Card (with customized form)": {
