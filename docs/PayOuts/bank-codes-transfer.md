@@ -1,6 +1,8 @@
 ---
 title: Códigos bancarios para PayOuts con transferencia
-excerpt: ''
+excerpt: >-
+  Explora las listas de códigos bancarios para retiros por transferencia,
+  dividido por país.
 deprecated: false
 hidden: false
 metadata:
