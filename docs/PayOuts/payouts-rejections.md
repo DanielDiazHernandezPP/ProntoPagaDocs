@@ -1,6 +1,6 @@
 ---
 title: Tipos de rechazos (PayOuts)
-excerpt: ''
+excerpt: Explora los distintos tipos de rechazos para los PayOuts, divididos por país.
 deprecated: false
 hidden: false
 metadata:
