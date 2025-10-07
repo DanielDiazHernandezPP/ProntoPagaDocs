@@ -1,5 +1,6 @@
 ---
 title: Changelog
+excerpt: Conoce la terminología utilizada en nuestro changelog.
 deprecated: false
 hidden: false
 metadata:
