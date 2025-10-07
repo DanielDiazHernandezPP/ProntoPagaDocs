@@ -1,6 +1,6 @@
 ---
 title: Retiros con QR/Wallet PIX
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo hacer un retiro con PIX en Brasil.
 deprecated: false
 hidden: false
 metadata:
