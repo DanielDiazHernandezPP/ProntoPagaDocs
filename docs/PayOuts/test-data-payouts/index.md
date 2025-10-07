@@ -1,6 +1,6 @@
 ---
 title: Datos de prueba (PayOuts)
-excerpt: Conoce los datos para realizar pruebas de PayOuts.
+excerpt: Conoce los datos de prueba para validar tu integración con PayOuts.
 deprecated: false
 hidden: false
 metadata:
