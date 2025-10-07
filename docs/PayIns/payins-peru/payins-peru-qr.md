@@ -238,7 +238,7 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 
 Para modificar el estilo del formulario de pago, usa este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
 
-```Text JSON
+```json
 {
   "currency": "PEN",
   "country": "PE",
@@ -259,8 +259,6 @@ Para modificar el estilo del formulario de pago, usa este <Anchor label="endpoin
   "sign": "Signature of the parameters"
 }
 ```
-
-<br />
 
 ***
 
