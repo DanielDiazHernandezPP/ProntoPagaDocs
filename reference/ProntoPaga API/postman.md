@@ -1,6 +1,8 @@
 ---
 title: Colección de Postman
-excerpt: ''
+excerpt: >-
+  Descubre cómo utilizar nuestra colección de Postman para facilitar tus
+  pruebas.
 deprecated: false
 hidden: false
 metadata:
