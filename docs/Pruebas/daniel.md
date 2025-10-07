@@ -241,14 +241,64 @@ Ecuador Wallet (with customized form)
   "urlConfirmation": "https://www.webhook.com",
   "urlFinal": "https://sandbox.prontopaga.com/successful",
   "urlRejected": "https://sandbox.prontopaga.com/declined",
-  "order": "XYZ789",
-	"theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\”, \"type\": \"simple\”}]”,
-  "sign": "Signature of the parameters"
+  "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\”, \"type\": \"simple\”}]”
+	"order": "XYZ789",
+	"sign": "Signature of the parameters"
 }
+
+
+ "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\"}]",
+ "sign": "Signature of the parameters"
 ```
 
 <br />
 
 GmoneyQR, LigoQR y NiubizQR -> Perú
+
+Ya está arriba
+
+```
+{
+  "currency": "PEN",
+  "country": "PE",
+  "amount": "100.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "pe_qr_payment",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
+  "order": "XYZ789",
+  "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\"}]",
+  "sign": "Signature of the parameters"
+}
+```
+
 Niubiz Tarjeta -> Perú
-PixQR BancoRendimiento -> Brasil
+
+Ya estaba con antelación
+
+<br />
+
+```
+{
+  "currency": "PEN",
+  "country": "PE",
+  "amount": "100.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "pe_card_payment",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
+  "order": "XYZ789",
+  "theme": "[{\"bgColor\": \"transparent\", \"mode\": \"dark\"}]",
+  "sign": "Signature of the parameters"
+}
+```
+
+<br />
