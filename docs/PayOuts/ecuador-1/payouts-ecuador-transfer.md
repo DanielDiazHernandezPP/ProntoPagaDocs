@@ -1,6 +1,6 @@
 ---
 title: Retiros por Transferencia
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo hacer un retiro por transferencia en Ecuador.
 deprecated: false
 hidden: false
 metadata:
