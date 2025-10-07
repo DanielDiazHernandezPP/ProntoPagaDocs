@@ -1,6 +1,5 @@
 ---
 title: Balance
-excerpt: ''
 api:
   file: prontopaga-api.json
   operationId: balance
