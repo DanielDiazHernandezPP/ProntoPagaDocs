@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo usar nuestra documentación?
-excerpt: ''
+excerpt: Descubre cómo utilizar nuestra documentación y explora sus secciones.
 deprecated: false
 hidden: false
 metadata:
