@@ -6144,7 +6144,7 @@
               "name": "Peru QR (receive QR directly)"
             },
             {
-              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pe_card_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"theme\": \"[{\\\"bgColor\\\": \\\"transparent\\\", \\\"mode\\\": \\\"dark\\\"}]\",\n  \"sign\": \"Signature of the parameters\"\n}",
+              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pe_card_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"theme\": {\n    \"bgColor\": \"transparent\", \n    \"mode\": \"dark\"\n\t},\n  \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Peru Card (with customized form)"
             },
