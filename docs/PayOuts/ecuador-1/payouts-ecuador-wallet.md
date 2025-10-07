@@ -1,6 +1,6 @@
 ---
 title: Retiros con Wallet Payphone
-excerpt: ''
+excerpt: Conoce el paso a paso de cómo hacer un retiro con wallet en Ecuador.
 deprecated: false
 hidden: false
 metadata:
