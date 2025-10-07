@@ -259,7 +259,7 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 ### Personalizar el formulario de pago
 
-Para modificar el estilo del formulario de pago, usa este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
+Puedes ajustar la apariencia de tu formulario con el parámetro opcional `theme`, cambiando el color de fondo o creando versiones modo claro y modo oscuro con este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
 
 ```json
 {
