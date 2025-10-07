@@ -255,6 +255,34 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 }
 ```
 
+<br />
+
+### Personalizar el formulario de pago
+
+Para modificar el estilo del formulario de pago, usa este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
+
+```json
+{
+  "currency": "PEN",
+  "country": "PE",
+  "amount": "100.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "pe_card_payment",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
+  "order": "XYZ789",
+  "theme": {
+    "bgColor": "transparent", 
+    "mode": "dark"
+	},
+  "sign": "Signature of the parameters"
+}
+```
+
 ***
 
 <br />
