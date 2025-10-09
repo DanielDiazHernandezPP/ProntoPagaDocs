@@ -371,7 +371,6 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     </tr>
   </thead>
   <tbody>    
-    <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
 		<tr><td><code>YPSBS003</code></td><td>Error por cuenta yapera no existe o inactiva</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.</li></ul></td></tr>
     <tr><tr><td><code>YPSBS004</code></td><td>Error por tipo de cuenta yapera no soportada</td><td><ul><li><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.</li></ul></td></tr>
     <tr><tr><td><code>YPSBS005</code></td><td>Error por cuenta yapera en blacklist</td><td><ul><li><b>Por seguridad, tu cuenta Yape fue bloqueada.</b> Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.</li></ul></td></tr>
