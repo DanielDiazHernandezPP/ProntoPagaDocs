@@ -2,7 +2,7 @@
 title: 'Yape On File: One Click Payments (COPY)'
 excerpt: Conoce el paso a paso de cómo crear un pago con Yape en Perú.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: 'Yape On File: One Click Payments | ProntoPaga Docs'
   description: >-
