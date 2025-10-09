@@ -13,15 +13,15 @@ export const GuideCard = ({
     /* background icon color */
     bgIconColor,
 }) => {
-    return (
+			return (
         <div className="pp-guide-card">
             <div 
                 className="pp-guide-card__icon"
-                style={{ backgroundColor: bgIconColor }}
+                style={bgIconColor ? { backgroundColor: bgIconColor } : {}}
             >
                 <i 
                     className={`pp-guide-card__icon--img ${icon}`} 
-                    style={{ color: iconColor }}
+                    style={iconColor ? { color: iconColor } : {}}
                     aria-hidden="true" 
                 />
             </div>
