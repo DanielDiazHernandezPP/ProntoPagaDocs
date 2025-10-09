@@ -236,6 +236,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     <tr><td><code>YPTRX008</code></td><td>Error por tarjeta digital inválida</td><td><ul><li><b>Tu cuenta está bloqueada.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta con tus mismos datos.</li></ul></td></tr>
     <tr><td><code>YPTRX009</code></td><td>Error por tarjeta BCP vencida</td><td><ul><li><b>Tu cuenta está vencida.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.</li></ul></td></tr>
     <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><ul><li><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
     <tr><td><code>YPSBS999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
   </tbody>
 </table>
