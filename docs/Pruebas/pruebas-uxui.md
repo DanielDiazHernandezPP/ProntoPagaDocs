@@ -17,7 +17,7 @@ metadata:
 ## Guide Card
 
 <Cards>
-  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="Description number 1." iconColor="#475467" bgIconColor="#182230" />
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="Description number 1." iconColor="#FFFF" bgIconColor="#182230" />
 
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title 2 prueba" description="This is a description of the guide card." iconColor="#FFFF" bgIconColor="#182230" />
 </Cards>
