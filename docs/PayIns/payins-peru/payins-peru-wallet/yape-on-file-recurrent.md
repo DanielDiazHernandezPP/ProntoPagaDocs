@@ -238,29 +238,6 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 </table>
 `}</HTMLBlock>
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Motivo</b></th>
-      <th><b>Acción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Error por suscripción confirmada no existente</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por no coincidencia del código de comercio de la suscripción</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por monto máximo por compra excedido</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por autorización detectada como fraude</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por fondos insuficientes</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta bancaria bloqueada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-		<tr><td>Error por timeout en el proceso de transferencia</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta yapera no encontrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta bancaria cerrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-		<tr><td>Error inesperado ocurrido en el servidor</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
 <br />
 
 ### Devolución de un pago de una Recurrencia
@@ -387,26 +364,26 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Motivo</b></th>
-      <th><b>Acción</b></th>
+      <th><b>Código</b></th>
+			<th><b>Motivo</b></th>
+      <th><b>Mensaje</b></th>
     </tr>
   </thead>
-  <tbody>
-    <tr><td>Error por suscripción confirmada no existente</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por no coincidencia del código de comercio de la suscripción</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por monto máximo por compra excedido</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por autorización detectada como fraude</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por fondos insuficientes</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta bancaria bloqueada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-		<tr><td>Error por timeout en el proceso de transferencia</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta yapera no encontrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta bancaria cerrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-		<tr><td>Error inesperado ocurrido en el servidor</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
+  <tbody>    
+    <tr><td><code>YPSBS014</code></td><td>Error por suscripción confirmada no existente</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>  
+ 		<tr><td><code>YPSBS015</code></td><td>Error por no coincidencia del código de comercio de la suscripción</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>    
+    <tr><td><code>YPSBS018</code></td><td>Error por monto máximo por compra excedido</td><td><ul><li><b>Yape notifica transacción denegada por email.</li></ul></td></tr>
+    <tr><td><code>YPTRX001</code></td><td>Error por autorización detectada como fraude</td><td><ul><li><b>Detectamos una actividad sospechosa.</b> Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPTRX002</code></td><td>Error por fondos insuficientes</td><td><ul><li><b>Necesitas más saldo para este pago.</b> No cuentas con saldo suficiente para realizar este pago.</li></ul></td></tr>
+   <tr><td><code>YPTRX003</code></td><td>Error por cuenta bancaria bloqueada</td><td><ul><li><b>Tu cuenta asociada a Yape está bloqueada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</li></ul></td></tr> 
+    <tr><td><code>YPTRX004</code></td><td>Error por timeout en el proceso de transferencia</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
+		    <tr><td><code>YPTRX005</code></td><td>Error por cuenta yapera no encontrada</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><ul><li><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
+    <tr><td><code>YPSBS999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
-
-<br />
 
 ### Devolución de un pago de una Recurrencia
 
