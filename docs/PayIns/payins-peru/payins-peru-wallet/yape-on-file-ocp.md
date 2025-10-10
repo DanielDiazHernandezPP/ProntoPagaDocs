@@ -410,29 +410,6 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 <br />
 
-### Motivos de rechazo de una devolución
-
-A continuación, se listan los posibles motivos de rechazo para una devolución de un pago realizado con este método, así como las acciones de Yape al respecto.
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Motivo</b></th>
-      <th><b>Acción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Error por cuenta yapera no encontrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por operación de cargo no encontrado</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por plazo vencido para solicitar una devolución</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error en monto de devolución</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-    <tr><td>Error por cuenta bancaria cerrada</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-		<tr><td>Error inesperado ocurrido en el servidor</td><td>Yape notifica sobre la transacción denegada por email</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
 <br />
 
 ### Lista de afiliaciones
