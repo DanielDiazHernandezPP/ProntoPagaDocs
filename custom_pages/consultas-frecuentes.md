@@ -23,27 +23,16 @@ hidden: true
      * **Autenticación y evaluación de riesgo**
 </Accordion>
 
-Image Card
+<Cards>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 
-<Cards columns={4}>
-  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
-  </Card>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 
-  <Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 
-  <Card title="Third Card" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Card>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
-  </Card>
+  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 </Cards>
-
-
-  \<ImageCard imageSrc="[https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI](https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI)" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
 
 <br />
