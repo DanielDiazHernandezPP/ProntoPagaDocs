@@ -4,25 +4,25 @@ fullscreen: false
 hidden: true
 ---
 <Accordion title="¿Cómo puedo ver el estado final de una transacción de PayIn (pagos)? " icon="fa-info-circle">
-  Para PayIns:
+  Para ver el estado final de una transacción de **PayIns**, ingresa con tu usuario y contraseña al [**Portal de servicios de ProntoPaga**](https://prontopaga.com/es/login) y sigue estos pasos:
 
-  En el panel izquierdo, ubica la sección Transacciones --> Payins (pagos). Verás un panel con las transacciones de tu comercio.
+  1. En el panel izquierdo, ubica la sección **Transacciones → PayIns (pagos)**.\
+     Verás un panel con las transacciones de tu comercio.
 
-  En la parte superior derecha, selecciona la opción Filtros para ubicar rápidamente la transacción. Verás distintas opciones para filtrar como: DNI, Email, UID, ID, n.° de Referencia, etc, marca las que consideres conveniente yhaz clic en Aplicar.
+  2. En la parte superior derecha, selecciona la opción **Filtros** para ubicar rápidamente la transacción.\
+     Podrás filtrar por distintos criterios como: **DNI**, **Email**, **UID**, **ID**, **N.º de referencia**, entre otros.\
+     Marca las opciones que consideres convenientes y haz clic en **Aplicar**.
 
-  El panel mostrará toda la información de la transacción detallada en las columnas.
+  3. El panel mostrará toda la información de la transacción detallada en las columnas.
 
-  Si deseas información aún más detallada, desplázate hasta al final de la fila y haz clic en el menú de tres puntos. Selecciona la opción Ver para visualizar el detalle. Las secciones principales que verás son los siguientes:
-
-  Identificación
-
-  Datos del usuario
-
-  Datos del pago
-
-  Datos Adicionales
-
-  Autenticación y evaluación de riesgo
+  4. Si deseas información más detallada, desplázate hasta el final de la fila y haz clic en el **menú de tres puntos (⋮)**.\
+     Selecciona la opción **Ver** para visualizar el detalle.\
+     Las secciones principales que verás son las siguientes:
+     * **Identificación**
+     * **Datos del usuario**
+     * **Datos del pago**
+     * **Datos adicionales**
+     * **Autenticación y evaluación de riesgo**
 </Accordion>
 
 <Accordion title="My Accordion Title" icon="fa-info-circle">
