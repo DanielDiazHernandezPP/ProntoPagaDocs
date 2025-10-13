@@ -16,11 +16,6 @@ hidden: true
   3. El panel mostrará toda la información de la transacción detallada en las columnas.\
      La columna **Estado** muestra el resultado final del proceso de pago, por ejemplo:
 
-     * **Pendiente**: la transacción está en proceso y aún no se ha completado.
-     * **Fallido**: el pago no se realizó correctamente.
-     * **Rechazado**: el pago fue denegado por el banco o proveedor.
-     * **Exitoso**: la transacción se completó correctamente y los fondos fueron liberados.
-
      **Ejemplo del panel de transacciones:**
 
      ![Panel de transacciones - ProntoPaga](https://files.readme.io/6bc2756e467ff344e10f5366f44592638dfdbe43604e4d014ef986eb457a81f3-Captura_de_pantalla_2025-10-13_a_las_9.22.14_a._m..png)
