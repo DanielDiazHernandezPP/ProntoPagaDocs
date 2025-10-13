@@ -5,9 +5,11 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
+<Image align="center" border={false} src="https://files.readme.io/4d530c3c38f4bffea401e844d71ea953e5e589e2bcd0459f39815af94f8b3cb1-Captura_de_pantalla_2025-10-13_a_las_5.02.07_p._m..png" />
 
 <Image align="center" border={false} src="https://files.readme.io/2bf849fd4c4b9318441e8c4852479cbde651036356cc14b711e53088567b0535-Captura_de_pantalla_2025-10-13_a_las_4.58.44_p._m..png" />
+
+<br />
 
 <Image border={false} />
 
