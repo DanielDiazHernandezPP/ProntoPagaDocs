@@ -5,6 +5,8 @@ hidden: true
 metadata:
   robots: index
 ---
+<Image align="center" border={false} src="https://files.readme.io/6bc2756e467ff344e10f5366f44592638dfdbe43604e4d014ef986eb457a81f3-Captura_de_pantalla_2025-10-13_a_las_9.22.14_a._m..png" />
+
 <Image align="center" border={false} width="20px" src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" />
 
 <Image align="center" border={false} width="20px" src="https://files.readme.io/7a13f4a615d27e1f3f638235406ef265f590911efe1d7c52b0fc1941ac8326cd-740ea7d2f0c8131a98ac574312bc7c45.jpg" />
