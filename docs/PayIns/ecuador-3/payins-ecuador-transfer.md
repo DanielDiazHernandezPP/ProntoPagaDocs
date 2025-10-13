@@ -2,7 +2,7 @@
 title: Transferencia (Paga con Tu Banco)
 excerpt: Conoce el paso a paso de cómo crear un pago con transferencia en Ecuador.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Transferencia (Paga con Tu Banco) | ProntoPaga Docs
   description: >-
