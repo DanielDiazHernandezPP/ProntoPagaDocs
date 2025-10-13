@@ -109,7 +109,6 @@ next:
   </thead>
   <tbody>
     <tr><td>Tarjeta</td><td>ec_card_payment</td><td>Payphone</td></tr>
-    <tr><td>Transferencia</td><td>PagaConTuBanco</td><td>Paga con tu Banco</td></tr>
     <tr><td>Wallet</td><td>payphone_payment</td><td>Payphone</td></tr>
     <tr><td>Efectivo</td><td>broadnet_payment</td><td>Ponle más</td></tr>
     <tr><td>Efectivo</td><td>bemovil_payment</td><td>Bemovil</td></tr>
