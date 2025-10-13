@@ -3,8 +3,17 @@ title: 'Portal de servicios '
 deprecated: false
 hidden: true
 metadata:
+  title: Portal de servicios | ProntoPaga Docs
   image: >-
     https://files.readme.io/85133fb8ca64ce3311ea9fcd7a85a305edab36d53fcad621399ac8dc78825032-Prontopaga_Logotipo_1.JPG
+  keywords:
+    - portal de servicio prontopaga
+    - portal prontopaga
+    - service portal
+    - consola
+    - manual de la consola
+    - manual de comercio prontopaga
+    - Manual del portal de servicio ProntoPaga
   robots: index
 ---
 Este compendio de artículos son un **Manual de uso del Portal de servicios de ProntoPaga** para el usuario de tipo **Financiero**. En este, se detallan las secciones, carpetas y módulos del Portal de servicios, así como las acciones que pueden ser realizadas en cada módulo.
