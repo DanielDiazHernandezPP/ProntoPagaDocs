@@ -5,6 +5,26 @@ hidden: true
 metadata:
   robots: index
 ---
+<br />
+
+<br />
+
+<br />
+
+<Image align="center" border={false} src="https://files.readme.io/4456a3b95bc6e0b763b946b0532ff027e2aebbdcc65e14b97cc178910bb6c8cf-Captura_de_pantalla_2025-10-13_a_las_8.40.43_a._m..png" />
+
+<Image align="center" border={false} src="https://files.readme.io/40a72274da63d3d48d1adda04c8d28f59ca65ebaae49e00ccefa0160b1880e06-Captura_de_pantalla_2025-10-13_a_las_9.43.26_a._m..png" />
+
+<br />
+
+<Image align="center" border={false} src="https://files.readme.io/a4a563dcae22cc2d97d07c1dcbdf4b380b14520fd59cd8600d40a076a46c370f-Captura_de_pantalla_2025-10-13_a_las_11.45.20_a._m..png" />
+
+<Image align="center" border={false} src="https://files.readme.io/75c4cec08c6373ce699f4699584ab129bd905252b50f4edc2de237108e734e86-Captura_de_pantalla_2025-10-13_a_las_11.29.37_a._m..png" />
+
+<Image align="center" border={false} width="150px" src="https://files.readme.io/60d5b55469c1eb754fba04446c0d1ae260fa10ccee307ae1a55d43bd3255aa70-Captura_de_pantalla_2025-10-13_a_las_9.57.34_a._m..png" />
+
+<Image align="center" border={false} src="https://files.readme.io/c318f4a999b102b13bfce9b7947578ffd25575c56be61a6ea0eb664c983c9306-Captura_de_pantalla_2025-10-13_a_las_9.59.22_a._m..png" />
+
 <Image align="center" border={false} src="https://files.readme.io/6bc2756e467ff344e10f5366f44592638dfdbe43604e4d014ef986eb457a81f3-Captura_de_pantalla_2025-10-13_a_las_9.22.14_a._m..png" />
 
 <Image align="center" border={false} width="20px" src="https://files.readme.io/b93f49c82927cb2af650266f65cb7b98b103bd866bad86e68d9ded22ce121c9f-Captura_de_pantalla_2025-08-11_a_las_2.50.26_p._m..png" />
