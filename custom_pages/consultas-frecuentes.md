@@ -15,9 +15,7 @@ hidden: true
 
   3. El panel mostrará toda la información de la transacción detallada en las columnas.
 
-  4. Si deseas información más detallada, desplázate hasta el final de la fila y haz clic en el **menú de tres puntos (⋮)**.\
-     Selecciona la opción **Ver** para visualizar el detalle.\
-     Las secciones principales que verás son las siguientes:
+  4. Si deseas información más detallada, desplázate hasta el final de la fila y haz clic en el **menú de tres puntos**.Selecciona la opción **Ver** para visualizar el detalle. Las secciones principales que verás son las siguientes:
      * **Identificación**
      * **Datos del usuario**
      * **Datos del pago**
