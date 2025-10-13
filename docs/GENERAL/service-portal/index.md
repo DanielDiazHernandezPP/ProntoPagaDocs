@@ -4,6 +4,10 @@ deprecated: false
 hidden: true
 metadata:
   title: Portal de servicios | ProntoPaga Docs
+  description: >-
+    Read the ProntoPaga Service Portal User Manual, which details the sections,
+    folders, and modules of the Service Portal, as well as the actions that can
+    be performed in each module.
   image: >-
     https://files.readme.io/85133fb8ca64ce3311ea9fcd7a85a305edab36d53fcad621399ac8dc78825032-Prontopaga_Logotipo_1.JPG
   keywords:
