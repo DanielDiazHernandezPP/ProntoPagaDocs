@@ -5822,14 +5822,6 @@
                       "reference": "17446530971245277191"
                     }
                   },
-                  "Ecuador Pay With Your Bank": {
-                    "summary": "Ecuador Pay With Your Bank",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQD79ECQNVH3BV32Z2BJC6",
-                      "uid": "01JRTQD79ECQNVH3BV32Z2BJC6",
-                      "reference": "17446536881092654543"
-                    }
-                  },
                   "Peru Cash": {
                     "summary": "Peru Cash",
                     "value": {
