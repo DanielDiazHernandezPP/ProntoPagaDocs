@@ -5,6 +5,26 @@ hidden: true
 metadata:
   robots: index
 ---
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<Image align="center" border={false} src="https://files.readme.io/34c8b8663865860fd966eb93802e5dc14d7e48d736a49dcb56bf5742c3c78d57-Captura_de_pantalla_2025-10-14_a_las_9.17.19_a._m..png" />
+
 <Image align="center" border={false} src="https://files.readme.io/d2760f202aae72a7dedb35f4daee9585234870d8d79a4f1d4dcd9d0a947b639d-Coverage_in_Ecuador_updated.jpg" />
 
 <Image align="center" border={false} src="https://files.readme.io/4d530c3c38f4bffea401e844d71ea953e5e589e2bcd0459f39815af94f8b3cb1-Captura_de_pantalla_2025-10-13_a_las_5.02.07_p._m..png" />
