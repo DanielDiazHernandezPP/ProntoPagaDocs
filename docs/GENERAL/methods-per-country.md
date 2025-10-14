@@ -82,7 +82,7 @@ En este artículo, podrás consultar la cobertura que tenemos actualmente en los
 
   <div style={{ textAlign: 'center' }}>
     <img
-      src="https://files.readme.io/f726f22a13bc8511c8ab07d77032139ccc8212ac4b0b10640a9cceccedd7d30d-Coverage_in_Ecuador.png"
+      src="https://files.readme.io/d2760f202aae72a7dedb35f4daee9585234870d8d79a4f1d4dcd9d0a947b639d-Coverage_in_Ecuador_updated.jpg"
       alt="Ecuadorian Coverage"
       style={{
         width: '80%',
