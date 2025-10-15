@@ -20,25 +20,6 @@ next:
 ---
 En este artículo, podrás consultar la cobertura que tenemos actualmente en los diversos países en los que operamos.
 
-<Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇧🇷 Brasil</span>}>
-  A continuación, podrás ver listados los métodos con los que contamos en Brasil, tanto para PayIns como para PayOuts.
-
-  <div style={{ textAlign: 'center' }}>
-    <img
-      src="https://files.readme.io/1e9dadd76fca5d3e0febcfd0deb3b2272c052f48e7db565382a370dc99450c45-93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png"
-      alt="Brasil Coverage"
-      style={{
-        width: '80%',
-        maxWidth: '1000px',
-        height: 'auto',
-        transition: 'all 0.4s ease'
-      }}
-      onMouseOver={(e) => (e.target.style.width = '100%')}
-      onMouseOut={(e) => (e.target.style.width = '90%')}
-    />
-  </div>
-</Accordion>
-
 <Accordion title={<span style={{ fontSize: '20px', fontWeight: 'bold' }}>🇨🇱 Chile</span>}>
   A continuación, podrás ver listados los métodos con los que contamos en Chile, tanto para PayIns como para PayOuts.
 
