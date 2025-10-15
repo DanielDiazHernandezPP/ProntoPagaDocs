@@ -40,7 +40,7 @@ Una vez seleccionados ambos filtros, podrás ver el detalle de los números en t
 
 ## Resumen de balance
 
-Los números que podrás visualizar en esta página podrían verse similares a los de la imagen de a continuación:
+El Resumen de balance de tu comercio podría verse similar a la siguiente imagen:
 
 <Image align="center" alt="Resumen de balance" border={true} width="80% " src="https://files.readme.io/8daa8a5356f8a98c0b440cad6b2a97b63c5c5122a4af3cb59a244c1bd1d83281-descarga.png" className="border" />
 
