@@ -40,7 +40,6 @@ Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están e
     </tr>
   </thead>
   <tbody>
-    <tr><td>Brasil</td><td>BR</td><td>BRL / USD</td></tr>
     <tr><td>Chile</td><td>CL</td><td>CLP</td></tr></tr>
     <tr><td>Ecuador</td><td>EC</td><td>USD</td></tr>
     <tr><td>Perú</td><td>PE</td><td>PEN / USD</td></tr>
@@ -53,25 +52,6 @@ Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están e
 ## Tipos de cuentas
 
 El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos (a excepción de Ecuador), como se describe a continuación.
-
-### Brasil
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>Corriente</td></tr>
-    <tr><td>2</td><td>Salario</td></tr>
-    <tr><td>3</td><td>Ahorro</td></tr>
-    <tr><td>4</td><td>Transaccional</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
 
 ***
 
