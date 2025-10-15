@@ -5725,18 +5725,6 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "Brazil Pix": {
-                    "summary": "Brazil Pix",
-                    "value": ""
-                  },
-                  "Brazil Pix+ V1": {
-                    "summary": "Brazil Pix+ V1",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRGMSMFJXEX3EF3G4DJR9A6F",
-                      "uid": "01JRGMSMFJXEX3EF3G4DJR9A6F",
-                      "reference": "17423154045493678901"
-                    }
-                  },
                   "Peru QR (Receive QR Directly)": {
                     "summary": "Peru QR (Receive QR Directly)",
                     "value": {
@@ -5870,22 +5858,6 @@
                       "reference": "17446253466436001138"
                     }
                   },
-                  "Brazil PIX": {
-                    "summary": "Brazil PIX",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRGMSMFJXEX3EF3G4DJR9A6F",
-                      "uid": "01JRGMSMFJXEX3EF3G4DJR9A6F",
-                      "reference": "17444031951404550493"
-                    }
-                  },
-                  "Argentina Card": {
-                    "summary": "Argentina Card",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQPX93GR8TP1A1A7752TFT",
-                      "uid": "01JRTQPX93GR8TP1A1A7752TFT",
-                      "reference": "17424654000570548730"
-                    }
-                  },
                   "Ecuador Wallet (Payphone with customized form)": {
                     "summary": "Ecuador Wallet (Payphone with customized form)",
                     "value": {
@@ -5960,7 +5932,7 @@
                   },
                   "country": {
                     "type": "string",
-                    "description": "Código del país: **CL/EC/PE**.",
+                    "description": "Código del país: **BR/CL/EC/PE**.",
                     "default": "CL"
                   },
                   "amount": {
@@ -6073,16 +6045,6 @@
               "code": "{\n  \"currency\": \"CLP\",\n  \"country\": \"CL\",\n  \"amount\": \"25500\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"11111111-1\",\n  \"paymentMethod\": \"PagaConTuBanco\",\n  \"bankCode\": \"1\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Chile Direct Banks"
-            },
-            {
-              "code": "{\n  \"currency\": \"BRL\",\n  \"country\": \"BR\",\n  \"amount\": \"150.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pix_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"typePixPayment\": 1,\n  \"sign\": \"Signature of the parameters\"\n}",
-              "language": "json",
-              "name": "Brazil PIX"
-            },
-            {
-              "code": "{\n  \"currency\": \"BRL\",\n  \"country\": \"BR\",\n  \"amount\": \"150.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"belvo_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
-              "language": "json",
-              "name": "Brazil PIX+"
             },
             {
               "code": "{\n  \"currency\": \"USD\",\n  \"country\": \"EC\",\n  \"amount\": \"25.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"0912345678\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"bemovil_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
