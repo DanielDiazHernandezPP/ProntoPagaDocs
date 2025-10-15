@@ -58,29 +58,6 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ***
 
-## Brasil 🇧🇷
-
-Estos son los tipos de retiros rechazados en Brasil.
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Código de error</b></th>
-      <th><b>Mensaje de rechazo</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>14</td><td>Validation error. Please check the Chave PIX and try again</td><td>Ocurrió un error de validación. Por favor verifique la llave PIX e intente nuevamente.</td></tr>
-    <tr><td>15</td><td>Request declined by the server</td><td>La solicitud fue declinada por el servidor.</td></tr>
-    <tr><td>19</td><td>Os saques não podem ser feitos com terceiros. O CPF não corresponde ao cadastrado</td><td>El CPF enviado no coincide con los datos de la persona a quien se quiere enviar el PayOut. No es posible hacer PayOuts a terceros.</td></tr>    
-  </tbody>
-</table>
-`}</HTMLBlock>
-
-***
-
 ## Chile 🇨🇱
 
 Estos son los tipos de retiros rechazados en Chile.
