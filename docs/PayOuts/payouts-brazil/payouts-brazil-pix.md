@@ -2,7 +2,7 @@
 title: Retiros con QR/Wallet PIX
 excerpt: Conoce el paso a paso de cómo hacer un retiro con PIX en Brasil.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Retiros con QR/Wallet PIX | ProntoPaga Docs
   description: >-
