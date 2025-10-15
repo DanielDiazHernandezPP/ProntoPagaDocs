@@ -5960,7 +5960,7 @@
                   },
                   "country": {
                     "type": "string",
-                    "description": "Código del país: **BR/CL/EC/PE**.",
+                    "description": "Código del país: **CL/EC/PE**.",
                     "default": "CL"
                   },
                   "amount": {
