@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: institution-brazil-pixplus-v2
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Selección de institución de pago Brasil Pix+ v2 | ProntoPaga Docs
   description: >-
