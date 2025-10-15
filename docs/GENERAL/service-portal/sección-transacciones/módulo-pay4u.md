@@ -268,7 +268,7 @@ Del menú desplegable, selecciona la opción **Modificar**. 
 <Callout icon="🚧" theme="warn">
   **Modificación de datos**
 
-  Una vez creado el proveedor, solo podrás modificar los siguientes datos: **información de la cuenta bancaria **(**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
+  Una vez creado el Prestador de servicio, solo podrás modificar los siguientes datos: **información de la cuenta bancaria **(**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
 </Callout>
 
 4. Al terminar de editar, haz clic en el botón superior derecho **Guardar cambios**. 
