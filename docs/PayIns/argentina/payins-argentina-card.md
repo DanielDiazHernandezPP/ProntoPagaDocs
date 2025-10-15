@@ -2,7 +2,7 @@
 title: Acepta pagos con tarjeta
 excerpt: Conoce el paso a paso de cómo crear un pago con tarjeta en Argentina.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Crea pagos con tarjeta en Argentina | ProntoPaga Docs
   description: >-
