@@ -40,7 +40,6 @@ Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están e
     </tr>
   </thead>
   <tbody>
-    <tr><td>Argentina</td><td>AR</td><td>ARS</td></tr>
     <tr><td>Brasil</td><td>BR</td><td>BRL / USD</td></tr>
     <tr><td>Chile</td><td>CL</td><td>CLP</td></tr></tr>
     <tr><td>Ecuador</td><td>EC</td><td>USD</td></tr>
