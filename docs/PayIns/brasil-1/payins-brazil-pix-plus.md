@@ -2,7 +2,7 @@
 title: Acepta pagos con PIX+ (Open Finance)
 excerpt: Conoce el paso a paso de cómo crear un pago con PIX+ (Open Finance) en Brasil.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Acepta pagos con PIX+ (Open Finance) | ProntoPaga Docs
   description: >-
