@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: payout-brazil-pix
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Crear un nuevo retiro - Brasil PIX | ProntoPaga Docs
   description: >-
