@@ -1,5 +1,5 @@
 ---
-title: Crear un nuevo pago - Argentina, Brasil, Chile, Ecuador y Perú
+title: Crear un nuevo pago - Chile, Ecuador y Perú
 api:
   file: prontopaga-api.json
   operationId: post_paymentnew
@@ -41,7 +41,7 @@ Prueba este endpoint en la colección de ProntoPaga de Postman haciendo clic en 
 
 ***
 
-Endpoint para crear un nuevo pago en Chile, Brasil, Ecuador y Perú, con distintos métodos. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
+Endpoint para crear un nuevo pago en Chile, Ecuador y Perú, con distintos métodos. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
 
 > 📘 Datos del cliente
 >
