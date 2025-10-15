@@ -31,45 +31,6 @@ next:
 
 ***
 
-## Argentina
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Solución</b></th>
-      <th><b>Método de pago</b></th>
-      <th><b>Marca</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Tarjeta</td><td>latam_chk_card_payment</td><td>Visa y Mastercard</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
-<br />
-
-## Brasil
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Solución</b></th>
-      <th><b>Método de pago</b></th>
-      <th><b>Marca</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>QR/Wallet</td><td>pix_payment</td><td>Pix</td></tr>
-   	<tr><td>QR/Wallet (Open-Finance)</td><td>belvo_payment</td><td>Pix+</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
-***
-
 <br />
 
 ## Chile
