@@ -30,19 +30,6 @@ Para crear un nuevo retiro por transferencia bancaria en Brasil, Chile, Ecuador 
 
 ***
 
-## Brasil
-
-```json
-[
-   {
-      "code":633,
-      "name":"Banco Rendimiento"
-   }
-]
-```
-
-***
-
 ## Chile
 
 ```json
