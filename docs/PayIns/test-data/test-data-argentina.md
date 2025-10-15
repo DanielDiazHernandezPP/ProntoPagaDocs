@@ -2,7 +2,7 @@
 title: Datos de prueba Argentina
 excerpt: Conoce los datos de prueba disponibles para Argentina
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Datos de prueba Argentina | ProntoPaga Docs
   description: >-
