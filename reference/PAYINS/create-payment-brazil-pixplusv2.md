@@ -5,7 +5,7 @@ api:
   file: prontopaga-api.json
   operationId: create-payment-brazil-pixplusv2
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Crear un nuevo pago - Brasil Pix+ v2 | ProntoPaga Docs
   description: >-
