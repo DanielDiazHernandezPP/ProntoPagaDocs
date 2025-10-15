@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-En esta sección podrás ver todos los reportes transaccionales solicitados o generados con anterioridad. Para solicitar un reporte, contacta al equipo de soporte de ProntoPaga.
+En esta sección podrás ver todos los reportes transaccionales solicitados o generados con anterioridad de forma automática.
 
 ***
 
