@@ -1,7 +1,7 @@
 ---
 title: Módulo de Reportes Automáticos
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
