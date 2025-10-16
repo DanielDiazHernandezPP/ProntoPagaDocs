@@ -56,7 +56,8 @@ Utilizamos la norma ISO 8601 (AAAA-MM-DD) para las fechas y el versionado numér
     </tr>
   </thead>
   <tbody>
-    <tr><td>2.2</td><td>2025-09-19</td><td>New Feature</td></tr>
+    <tr><td>2.3</td><td>2025-10-16</td><td>New Feature</td></tr>
+		<tr><td>2.2</td><td>2025-09-19</td><td>New Feature</td></tr>
     <tr><td>2.1</td><td>2025-08-21</td><td>Improvements</td></tr>
 		<tr><td>2.0</td><td>2025-07-03</td><td>Breaking Change</td></tr>
 		<tr><td>1.9</td><td>2025-06-17</td><td>New Feature, Security</td></tr>
