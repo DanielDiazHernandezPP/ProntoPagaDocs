@@ -1,7 +1,7 @@
 ---
 title: Módulo de Payins (pagos)
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
