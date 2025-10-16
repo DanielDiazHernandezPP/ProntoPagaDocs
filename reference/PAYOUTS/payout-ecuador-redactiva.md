@@ -43,9 +43,9 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-### Logos de los métodos de pago
+### Logos de los métodos de retiro
 
-Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EWC1ijJHq5JKnjpIH9qH0ncBOMEiK2wrNPdxkTdVmyZ7Kg?e=SCuGY4\&download=1)
+Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EWC1ijJHq5JKnjpIH9qH0ncBOMEiK2wrNPdxkTdVmyZ7Kg?e=SCuGY4\&download=1)
 
 ***
 
@@ -59,4 +59,4 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 
 <NmeroDeCaracteres />
 
-***
+<br />
