@@ -1,7 +1,7 @@
 ---
 title: Sección PRINCIPAL
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Sección PRINCIPAL | ProntoPaga Docs
   description: >-
