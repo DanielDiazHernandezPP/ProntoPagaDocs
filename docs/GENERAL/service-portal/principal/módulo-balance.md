@@ -1,7 +1,7 @@
 ---
 title: Módulo Balance
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
