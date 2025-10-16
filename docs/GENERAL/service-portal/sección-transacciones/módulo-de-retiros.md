@@ -1,7 +1,7 @@
 ---
 title: Módulo de Retiros
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
