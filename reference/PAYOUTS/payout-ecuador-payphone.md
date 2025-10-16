@@ -33,7 +33,7 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 <html>
 <body>
 
-<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-40b1560c-cb2a-45f3-a180-74954e1c75e3?action=share&source=copy-link&creator=45976681" target="_blank">
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-0d6476c8-9ce4-4eb0-93ff-38b609e8e8a8?action=share&source=copy-link&creator=45976681" target="_blank">
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
 </a></p>
 
@@ -51,26 +51,32 @@ Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, 
 
 ***
 
-## Estados del retiro en Payphone
+### Logos de los métodos de pago
+
+Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/tahbet_reategui_prontopaga_com/EWC1ijJHq5JKnjpIH9qH0ncBOMEiK2wrNPdxkTdVmyZ7Kg?e=SCuGY4\&download=1)
+
+***
+
+## Tipos de cuentas
+
+Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
 
 <HTMLBlock>{`
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Estado</b></th>
+      <th><b>Tipo de cuenta</b></th>
       <th><b>Descripción</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Success</td><td>Solicitud aprobada</td></tr>
-    <tr><td>Canceled</td><td>Solicitud rechazada. Conoce los <a href="https://docs.prontopaga.com/docs/payouts-rejections#/">tipos de retiros cancelados</a> </td></tr>
+    <tr><td>1</td><td>Corrente</td></tr>
+    <tr><td>2</td><td>Salario</td></tr>
+    <tr><td>3</td><td>Poupança</td></tr>
+    <tr><td>4</td><td>Transacional</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
-
-> 📘 Estados
->
-> Payphone solo utiliza el estado **success** y **canceled** ya que son pagos instantáneos.
 
 ***
 
