@@ -1,7 +1,7 @@
 ---
 title: Módulo Pay4U
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
