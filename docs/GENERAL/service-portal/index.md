@@ -1,7 +1,7 @@
 ---
 title: 'Portal de servicios '
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Portal de servicios | ProntoPaga Docs
   description: >-
