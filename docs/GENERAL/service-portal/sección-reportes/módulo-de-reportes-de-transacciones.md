@@ -1,7 +1,7 @@
 ---
 title: Módulo de Reportes de transacciones
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
