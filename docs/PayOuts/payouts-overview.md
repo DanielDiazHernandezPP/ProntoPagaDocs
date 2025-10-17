@@ -32,7 +32,7 @@ Un PayOut es una suma de dinero que se le paga a un individuo o entidad. En este
 
 > 📘 Métodos y soluciones
 >
-> Conoce todos los métodos y soluciones disponibles por país [aquí](https://docs.prontopaga.com/docs/methods-per-country-brazil).
+> Conoce todos los métodos y soluciones disponibles por país [aquí](https://docs.prontopaga.com/docs/methods-per-country#/).
 
 ***
 
