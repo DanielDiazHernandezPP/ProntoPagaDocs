@@ -25,7 +25,7 @@ metadata:
 next:
   description: ''
 ---
-Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos, podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
+Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
 * <Anchor label="Datos de prueba para Argentina" target="_blank" href="https://docs.prontopaga.com/docs/test-data-argentina#/">Datos de prueba para Argentina</Anchor>.
 * <Anchor label="Datos de prueba para Chile" target="_blank" href="https://docs.prontopaga.com/docs/test-data-webpay-cards">Datos de prueba para Chile</Anchor>.
