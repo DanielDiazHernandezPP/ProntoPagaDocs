@@ -96,7 +96,7 @@ export const Button = ({
 
 <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="This is a description of the guide card." />
 
-<Cards className="pp-cards--autofit">
+<Cards columns= {4} className="pp-cards--autofit">
   <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
