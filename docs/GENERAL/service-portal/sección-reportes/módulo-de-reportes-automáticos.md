@@ -11,7 +11,7 @@ En esta sección podrás ver todos los reportes transaccionales solicitados o ge
 
 ## Reportes Automáticos
 
-En esta carpeta verás todos los reportes automáticos configurados y enviados a tus comercios, según un periodo: **Diario**, **Mensual**, **Precierre Mensual **y **Todos.** Dependiendo de los que tengas configurados, podrás o no ver los módulos de periodos.
+En esta carpeta verás todos los reportes automáticos configurados y enviados a tus comercios, según un periodo: **Diario**, **Mensual**, **Precierre Mensual** y **Todos.** Dependiendo de los que tengas configurados, podrás o no ver los módulos de periodos.
 
 Un listado de **Reportes automáticos enviados a tus Comercios** podría verse así:
 
