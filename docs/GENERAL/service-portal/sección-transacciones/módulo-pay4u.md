@@ -327,7 +327,7 @@ Mediante la opción para pagos Pay4U masivos, **solo se podrán ejecutar pagos d
 
 Para crear un pago Pay4U masivo, sigue estos pasos: 
 
-Haz clic en el botón ubicado en la parte superior derecha **+Crear Masivo**. 
+1. Haz clic en el botón ubicado en la parte superior derecha **+Crear Masivo**. 
 
 <Image align="center" alt="Botón crear masivo" border={true} src="https://files.readme.io/0427d3a3ce42ccb553d2f7a1b0978515e6d9c51c5d09b52e79a803c67e9fd12a-Boton_crear_masivo.png" className="border" />
 
@@ -349,7 +349,7 @@ Haz clic en el botón ubicado en la parte superior derecha **+Crear Masivo**. 
 
 Para crear un pago Pay4u individual, sigue estos pasos:
 
-Haz clic en el botón ubicado en la parte superior derecha **+Crear Individual**.
+1. Haz clic en el botón ubicado en la parte superior derecha **+Crear Individual**.
 
 <Image align="center" alt="Botón crear individual" border={true} src="https://files.readme.io/a15123d187ff056e0654eb1ba9f2425610bdd092661ac6540fe0a38613e5a174-boton_crer_inividual.png" className="border" />
 
