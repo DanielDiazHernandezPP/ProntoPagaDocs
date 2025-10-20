@@ -162,9 +162,8 @@ Puedes consultar el detalle de cualquiera de los colaboradores listados. Para ha
 
 Puedes modificar los datos de cualquiera de los colaboradores listados. Para hacerlo: 
 
-Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del colaborador, es decir, hasta el lado derecho de la pantalla.  
-
-Del menú desplegable, selecciona la opción **Modificar**. 
+1. Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del colaborador, es decir, hasta el lado derecho de la pantalla.  
+2. Del menú desplegable, selecciona la opción **Modificar**. 
 
 <Image align="center" alt="Opción Ver" border={true} width="20% " src="https://files.readme.io/2676179092bfeae46e34078016345f42257164c3c6f64e7a9bd7a4fdbae88b2c-Opcion_ver.png" className="border" />
 
