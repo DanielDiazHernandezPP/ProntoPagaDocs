@@ -40,8 +40,6 @@ Una sección se refiere a un bloque de separación del menú lateral, en este ca
 
 Por otro lado, una carpeta se refiere a aquellos menús desplegables que contienen dentro los módulos. Las carpetas disponibles para el usuario comercio son: **Payouts (retiros)**, **Liquidaciones** y **Pay4U**. 
 
-<br />
-
 ### Payouts (retiros)
 
 Dentro de la carpeta de **Payouts (retiros)**, los módulos son: **Payouts Chile**, **Payouts Perú**, **Payouts Brasil**, **Payouts Ecuador** y **Todos**.
