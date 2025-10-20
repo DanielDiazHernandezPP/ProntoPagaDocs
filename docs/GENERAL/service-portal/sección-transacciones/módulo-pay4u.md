@@ -256,9 +256,8 @@ Puedes consultar el detalle de cualquiera de los prestadores de servicio listado
 
 Puedes modificar los datos de cualquiera de los prestadores de servicio listados. Para hacerlo: 
 
-Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del prestador de servicio, es decir, hasta el lado derecho de la pantalla.  
-
-Del menú desplegable, selecciona la opción **Modificar**. 
+1. Haz clic en el menú de tres puntos, ubicado al final de los campos descriptivos del prestador de servicio, es decir, hasta el lado derecho de la pantalla.  
+2. Del menú desplegable, selecciona la opción **Modificar**. 
 
 <Image align="center" alt="Botón desplegable modificar" border={true} src="https://files.readme.io/97c96fa1f6b47193de603231581c8d1b38681a256d82de5bd4a84679ef5d6771-Modificar_prestador_de_servicio.png" className="border" />
 
