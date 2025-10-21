@@ -237,6 +237,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><ul><li><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.</li></ul></td></tr>
     <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
     <tr><td><code>YPSBS999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
+ 	  <tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
@@ -390,6 +391,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><ul><li><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.</li></ul></td></tr>
     <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
     <tr><td><code>YPSBS999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
+		<tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
