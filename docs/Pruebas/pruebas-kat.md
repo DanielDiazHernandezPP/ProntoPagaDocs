@@ -12,7 +12,7 @@ metadata:
 
 ### CCI
 
-### Entidades
+## Entidades
 
 En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía CCI, así como aquellas que envían el DNI.
 
@@ -148,7 +148,11 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
 | 0808   | CAJA HUANCAYO             | ✅ YES     | ✅ YES         |
 | 0849   | CAJA LOS ANDES            | ✅ YES     | ✅ YES         |
 
-### Entidades no aptas
+<br />
+
+## Entidades
+
+En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía wallet, así como aquellas que envían el DNI.
 
 <HTMLBlock>{`
 <table>
