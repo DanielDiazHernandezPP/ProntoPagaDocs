@@ -50,7 +50,51 @@ El proceso de PayOut con wallet en Perú consta de cuatro etapas principales:
 
 ***
 
-<br />
+## Entidades
+
+En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía wallet, así como aquellas que envían el DNI.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código</b></th>
+      <th><b>Entidad</b></th>
+      <th><b>Envía DNI</b></th>
+      <th><b>Apta para Wallet</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>0002</td><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0003</td><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0011</td><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0018</td><td>BANCO NACION</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0023</td><td>BANCOM</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0053</td><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0054</td><td>BANCO FALABELLA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0091</td><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0096</td><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0099</td><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0776</td><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0806</td><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0809</td><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0901</td><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0902</td><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0910</td><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0921</td><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0007</td><td>CITIBANK</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0056</td><td>SANTANDER</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0073</td><td>CREDINKA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0765</td><td>LUQEA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0777</td><td>GLOBAL66</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0805</td><td>CAJA SULLANA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0813</td><td>CAJA TACNA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0904</td><td>BIM</td><td>❌ NOT</td><td>✅ YES</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+***
 
 ## Wallets disponibles
 
