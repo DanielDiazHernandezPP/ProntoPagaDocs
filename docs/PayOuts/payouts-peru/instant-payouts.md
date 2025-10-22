@@ -67,48 +67,47 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Código</b></th>
       <th><b>Entidad</b></th>
       <th><b>Envía DNI</b></th>
       <th><b>Apta para CCI</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>0002</td><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0003</td><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0011</td><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0018</td><td>BANCO NACION</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0023</td><td>BANCOM</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0053</td><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0054</td><td>BANCO FALABELLA</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0091</td><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0096</td><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0099</td><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0776</td><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0806</td><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0809</td><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0901</td><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0902</td><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0910</td><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0921</td><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0007</td><td>CITIBANK</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0009</td><td>SCOTIABANK</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0035</td><td>BANCO PICHINCHA</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0038</td><td>BANBIF</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0043</td><td>CREDISCOTIA</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0049</td><td>MI BANCO</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0055</td><td>BANCO RIPLEY</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0056</td><td>SANTANDER</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0073</td><td>CREDINKA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0765</td><td>LUQEA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0777</td><td>GLOBAL66</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0800</td><td>CAJA LIMA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0801</td><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0802</td><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0803</td><td>CMAC AREQUIPA</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0805</td><td>CAJA SULLANA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0808</td><td>CAJA HUANCAYO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0849</td><td>CAJA LOS ANDES</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO NACION</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>BANCOM</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO FALABELLA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CITIBANK</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>SCOTIABANK</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>BANCO PICHINCHA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>BANBIF</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>CREDISCOTIA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>MI BANCO</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>BANCO RIPLEY</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>SANTANDER</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>CREDINKA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>LUQEA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>GLOBAL66</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>CAJA LIMA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CMAC AREQUIPA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>CAJA SULLANA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>CAJA HUANCAYO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA LOS ANDES</td><td>✅ YES</td><td>✅ YES</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
