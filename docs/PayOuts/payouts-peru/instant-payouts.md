@@ -73,7 +73,7 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     </tr>
   </thead>
   <tbody>
-    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅</td><td>✅</td></tr>
     <tr><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>BANCO NACION</td><td>❌ NO</td><td>✅ YES</td></tr>
