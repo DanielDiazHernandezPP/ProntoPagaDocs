@@ -58,38 +58,43 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Código</b></th>
       <th><b>Entidad</b></th>
-      <th><b>Envía DNI</b></th>
-      <th><b>Apta para Wallet</b></th>
+      <th><b>Apta para wallet (con Validación de Terceros)</b></th>
+      <th><b>Apta para wallet (sin Validación de Terceros)</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>0002</td><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0003</td><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0011</td><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0018</td><td>BANCO NACION</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>0023</td><td>BANCOM</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>0053</td><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0054</td><td>BANCO FALABELLA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>0091</td><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0096</td><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0099</td><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0776</td><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0806</td><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0809</td><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0901</td><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0902</td><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0910</td><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0921</td><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0007</td><td>CITIBANK</td><td>❌ NO</td><td>❌ NO</td></tr>
-    <tr><td>0056</td><td>SANTANDER</td><td>❌ NO</td><td>❌ NO</td></tr>
-    <tr><td>0073</td><td>CREDINKA</td><td>❌ NO</td><td>❌ NO</td></tr>
-    <tr><td>0765</td><td>LUQEA</td><td>❌ NO</td><td>❌ NO</td></tr>
-    <tr><td>0777</td><td>GLOBAL66</td><td>❌ NO</td><td>❌ NO</td></tr>
-    <tr><td>0805</td><td>CAJA SULLANA</td><td>❌ NO</td><td>❌ NO</td></tr>
-    <tr><td>0813</td><td>CAJA TACNA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0904</td><td>BIM</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅</td><td>❌</td></tr>
+    <tr><td>INTERBANK</td><td>✅</td><td>❌</td></tr>
+    <tr><td>SCOTIABANK</td><td>❌</td><td>✅</td></tr>
+    <tr><td>BBVA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>BANCO NACION</td><td>❌</td><td>✅</td></tr>
+    <tr><td>BANCOM</td><td>❌</td><td>✅</td></tr>
+    <tr><td>BANCO PICHINCHA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>BANBIF</td><td>❌</td><td>✅</td></tr>
+    <tr><td>CREDISCOTIA</td><td>❌</td><td>✅</td></tr>
+    <tr><td>MI BANCO</td><td>❌</td><td>✅</td></tr>
+    <tr><td>BANCO GNB</td><td>✅</td><td>❌</td></tr>
+    <tr><td>BANCO FALABELLA</td><td>❌</td><td>✅</td></tr>
+    <tr><td>BANCO RIPLEY</td><td>✅</td><td>❌</td></tr>
+    <tr><td>BANCO ALFIN</td><td>✅</td><td>❌</td></tr>
+    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>TARJETA OH</td><td>✅</td><td>❌</td></tr>
+    <tr><td>FINANCIERA EFECTIVA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>FINANCIERA CONFIANZA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>PREXPE</td><td>✅</td><td>❌</td></tr>
+    <tr><td>CAJA PIURA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>CAJA TRUJILLO</td><td>✅</td><td>❌</td></tr>
+    <tr><td>CMAC AREQUIPA</td><td>❌</td><td>✅</td></tr>
+    <tr><td>WAYKI CAJA CUSCO</td><td>✅</td><td>❌</td></tr>
+    <tr><td>CAJA HUANCAYO</td><td>❌</td><td>✅</td></tr>
+    <tr><td>CAJA ICA</td><td>✅</td><td>❌</td></tr>
+    <tr><td>CAJA LOS ANDES</td><td>✅</td><td>❌</td></tr>
+    <tr><td>YAPE</td><td>✅</td><td>❌</td></tr>
+    <tr><td>PLIN</td><td>✅</td><td>❌</td></tr>
+    <tr><td>COOPERATIVA ABACO</td><td>✅</td><td>❌</td></tr>
+    <tr><td>LIGO</td><td>✅</td><td>❌</td></tr>
+    <tr><td>DALE</td><td>✅</td><td>❌</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
