@@ -14,7 +14,7 @@ metadata:
 
 ### Entidades
 
-En la tabla a continuación, podrás ver las entidades aptas para transacciones vía CCI, así como aquellas que envían el DNI.
+En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía CCI, así como aquellas que envían el DNI.
 
 <HTMLBlock>{`
 <table>
@@ -223,8 +223,6 @@ En la tabla a continuación, podrás ver las entidades aptas para transacciones 
 | 0813   | CAJA TACNA                | NOT           | YES               | YES       | Apta (Phone)       |
 | 0849   | CAJA LOS ANDES            | YES           | NOT               | YES       | Apta (CCI)         |
 | 0904   | BIM                       | NOT           | YES               | NOT       | Apta (Phone)       |
-
-
 
 <div className="card-container">
   <a href="https://google.com" target="_blank" rel="noopener noreferrer">
