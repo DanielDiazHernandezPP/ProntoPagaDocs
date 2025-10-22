@@ -5,7 +5,226 @@ hidden: true
 metadata:
   robots: index
 ---
+|    |    |    |
+| :- | :- | :- |
+|    |    |    |
+|    |    |    |
+
+### CCI
+
+### Entidades
+
+En la tabla a continuación, podrás ver las entidades aptas para transacciones vía CCI, así como aquellas que envían el DNI.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código</b></th>
+      <th><b>Entidad</b></th>
+      <th><b>Envía DNI</b></th>
+      <th><b>Apta para CCI</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>0002</td><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0003</td><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0011</td><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0018</td><td>BANCO NACION</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0023</td><td>BANCOM</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0053</td><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0054</td><td>BANCO FALABELLA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0091</td><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0096</td><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0099</td><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0776</td><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0806</td><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0809</td><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0901</td><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0902</td><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0910</td><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0921</td><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0007</td><td>CITIBANK</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0009</td><td>SCOTIABANK</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0035</td><td>BANCO PICHINCHA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0038</td><td>BANBIF</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0043</td><td>CREDISCOTIA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0049</td><td>MI BANCO</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0055</td><td>BANCO RIPLEY</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0056</td><td>SANTANDER</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0073</td><td>CREDINKA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0765</td><td>LUQEA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0777</td><td>GLOBAL66</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0800</td><td>CAJA LIMA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0801</td><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0802</td><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0803</td><td>CMAC AREQUIPA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0805</td><td>CAJA SULLANA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0808</td><td>CAJA HUANCAYO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>0849</td><td>CAJA LOS ANDES</td><td>✅ YES</td><td>✅ YES</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
 <br />
+
+<br />
+
+| Código | Entidad                   | Envía DNI | Apta para CCI |
+| ------ | ------------------------- | --------- | ------------- |
+| 0002   | BANCO DE CREDITO DEL PERU | ✅ YES     | ✅ YES         |
+| 0003   | INTERBANK                 | ✅ YES     | ✅ YES         |
+| 0011   | BBVA                      | ✅ YES     | ✅ YES         |
+| 0018   | BANCO NACION              | ❌ NOT     | ✅ YES         |
+| 0023   | BANCOM                    | ❌ NOT     | ✅ YES         |
+| 0053   | BANCO GNB                 | ✅ YES     | ✅ YES         |
+| 0054   | BANCO FALABELLA           | ❌ NOT     | ✅ YES         |
+| 0091   | COMPARTAMOS FINANCIERA    | ✅ YES     | ✅ YES         |
+| 0096   | FINANCIERA EFECTIVA       | ✅ YES     | ✅ YES         |
+| 0099   | FINANCIERA CONFIANZA      | ✅ YES     | ✅ YES         |
+| 0776   | PREXPE                    | ✅ YES     | ✅ YES         |
+| 0806   | WAYKI CAJA CUSCO          | ✅ YES     | ✅ YES         |
+| 0809   | CAJA ICA                  | ✅ YES     | ✅ YES         |
+| 0901   | YAPE                      | ✅ YES     | ✅ YES         |
+| 0902   | PLIN                      | ✅ YES     | ✅ YES         |
+| 0910   | COOPERATIVA ABACO         | ✅ YES     | ✅ YES         |
+| 0921   | LIGO                      | ✅ YES     | ✅ YES         |
+| 0007   | CITIBANK                  | ❌ NOT     | ❌ NOT         |
+| 0009   | SCOTIABANK                | ❌ NOT     | ✅ YES         |
+| 0035   | BANCO PICHINCHA           | ❌ NOT     | ✅ YES         |
+| 0038   | BANBIF                    | ❌ NOT     | ✅ YES         |
+| 0043   | CREDISCOTIA               | ❌ NOT     | ✅ YES         |
+| 0049   | MI BANCO                  | ❌ NOT     | ✅ YES         |
+| 0055   | BANCO RIPLEY              | ✅ YES     | ✅ YES         |
+| 0056   | SANTANDER                 | ❌ NOT     | ❌ NOT         |
+| 0073   | CREDINKA                  | ❌ NOT     | ❌ NOT         |
+| 0765   | LUQEA                     | ❌ NOT     | ❌ NOT         |
+| 0777   | GLOBAL66                  | ❌ NOT     | ❌ NOT         |
+| 0800   | CAJA LIMA                 | ✅ YES     | ✅ YES         |
+| 0801   | CAJA PIURA                | ✅ YES     | ✅ YES         |
+| 0802   | CAJA TRUJILLO             | ✅ YES     | ✅ YES         |
+| 0803   | CMAC AREQUIPA             | ❌ NOT     | ✅ YES         |
+| 0805   | CAJA SULLANA              | ❌ NOT     | ❌ NOT         |
+| 0808   | CAJA HUANCAYO             | ✅ YES     | ✅ YES         |
+| 0849   | CAJA LOS ANDES            | ✅ YES     | ✅ YES         |
+
+| Entidad                   | Envía DNI | Apta para CCI |
+| ------------------------- | --------- | ------------- |
+| BANCO DE CREDITO DEL PERU | ✅ YES     | ✅ YES         |
+| INTERBANK                 | ✅ YES     | ✅ YES         |
+| BBVA                      | ✅ YES     | ✅ YES         |
+| BANCO GNB                 | ✅ YES     | ✅ YES         |
+| COMPARTAMOS FINANCIERA    | ✅ YES     | ✅ YES         |
+| FINANCIERA EFECTIVA       | ✅ YES     | ✅ YES         |
+| FINANCIERA CONFIANZA      | ✅ YES     | ✅ YES         |
+| PREXPE                    | ✅ YES     | ✅ YES         |
+| WAYKI CAJA CUSCO          | ✅ YES     | ✅ YES         |
+| CAJA ICA                  | ✅ YES     | ✅ YES         |
+| YAPE                      | ✅ YES     | ✅ YES         |
+| PLIN                      | ✅ YES     | ✅ YES         |
+| COOPERATIVA ABACO         | ✅ YES     | ✅ YES         |
+| LIGO                      | ✅ YES     | ✅ YES         |
+| BANCO RIPLEY              | ✅ YES     | ✅ YES         |
+| CAJA LIMA                 | ✅ YES     | ✅ YES         |
+| CAJA PIURA                | ✅ YES     | ✅ YES         |
+| CAJA TRUJILLO             | ✅ YES     | ✅ YES         |
+| CAJA HUANCAYO             | ✅ YES     | ✅ YES         |
+| CAJA LOS ANDES            | ✅ YES     | ✅ YES         |
+| BANCO NACION              | ❌ NOT     | ✅ YES         |
+| BANCOM                    | ❌ NOT     | ✅ YES         |
+| BANCO FALABELLA           | ❌ NOT     | ✅ YES         |
+| SCOTIABANK                | ❌ NOT     | ✅ YES         |
+| BANCO PICHINCHA           | ❌ NOT     | ✅ YES         |
+| BANBIF                    | ❌ NOT     | ✅ YES         |
+| CREDISCOTIA               | ❌ NOT     | ✅ YES         |
+| MI BANCO                  | ❌ NOT     | ✅ YES         |
+| CMAC AREQUIPA             | ❌ NOT     | ✅ YES         |
+
+<br />
+
+| Código | Entidad                   | Envia DNI | Apta para CCI |
+| ------ | ------------------------- | --------- | ------------- |
+| 0002   | BANCO DE CREDITO DEL PERU | ✅ YES     | ✅ YES         |
+| 0003   | INTERBANK                 | ✅ YES     | ✅ YES         |
+| 0011   | BBVA                      | ✅ YES     | ✅ YES         |
+| 0018   | BANCO NACION              | ❌ NOT     | ✅ YES         |
+| 0023   | BANCOM                    | ❌ NOT     | ✅ YES         |
+| 0053   | BANCO GNB                 | ✅ YES     | ✅ YES         |
+| 0054   | BANCO FALABELLA           | ❌ NOT     | ✅ YES         |
+| 0091   | COMPARTAMOS FINANCIERA    | ✅ YES     | ✅ YES         |
+| 0096   | FINANCIERA EFECTIVA       | ✅ YES     | ✅ YES         |
+| 0099   | FINANCIERA CONFIANZA      | ✅ YES     | ✅ YES         |
+| 0776   | PREXPE                    | ✅ YES     | ✅ YES         |
+| 0806   | WAYKI CAJA CUSCO          | ✅ YES     | ✅ YES         |
+| 0809   | CAJA ICA                  | ✅ YES     | ✅ YES         |
+| 0901   | YAPE                      | ✅ YES     | ✅ YES         |
+| 0902   | PLIN                      | ✅ YES     | ✅ YES         |
+| 0910   | COOPERATIVA ABACO         | ✅ YES     | ✅ YES         |
+| 0921   | LIGO                      | ✅ YES     | ✅ YES         |
+| 0007   | CITIBANK                  | ❌ NOT     | ❌ NOT         |
+| 0009   | SCOTIABANK                | ❌ NOT     | ✅ YES         |
+| 0035   | BANCO PICHINCHA           | ❌ NOT     | ✅ YES         |
+| 0038   | BANBIF                    | ❌ NOT     | ✅ YES         |
+| 0043   | CREDISCOTIA               | ❌ NOT     | ✅ YES         |
+| 0049   | MI BANCO                  | ❌ NOT     | ✅ YES         |
+| 0055   | BANCO RIPLEY              | ✅ YES     | ✅ YES         |
+| 0056   | SANTANDER                 | ❌ NOT     | ❌ NOT         |
+| 0073   | CREDINKA                  | ❌ NOT     | ❌ NOT         |
+| 0765   | LUQEA                     | ❌ NOT     | ❌ NOT         |
+| 0777   | GLOBAL66                  | ❌ NOT     | ❌ NOT         |
+| 0800   | CAJA LIMA                 | ✅ YES     | ✅ YES         |
+| 0801   | CAJA PIURA                | ✅ YES     | ✅ YES         |
+| 0802   | CAJA TRUJILLO             | ✅ YES     | ✅ YES         |
+| 0803   | CMAC AREQUIPA             | ❌ NOT     | ✅ YES         |
+| 0805   | CAJA SULLANA              | ❌ NOT     | ❌ NOT         |
+| 0808   | CAJA HUANCAYO             | ✅ YES     | ✅ YES         |
+| 0849   | CAJA LOS ANDES            | ✅ YES     | ✅ YES         |
+
+### Entidades no aptas
+
+<br />
+
+| Código | Entidad                   | CCI (TRX CCI) | Phone (TRX PHONE) | Envia DNI | Estado             |
+| ------ | ------------------------- | ------------- | ----------------- | --------- | ------------------ |
+| 0002   | BANCO DE CREDITO DEL PERU | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0003   | INTERBANK                 | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0011   | BBVA                      | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0018   | BANCO NACION              | YES           | YES               | NOT       | Apta (CCI y Phone) |
+| 0023   | BANCOM                    | YES           | YES               | NOT       | Apta (CCI y Phone) |
+| 0053   | BANCO GNB                 | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0054   | BANCO FALABELLA           | YES           | YES               | NOT       | Apta (CCI y Phone) |
+| 0091   | COMPARTAMOS FINANCIERA    | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0096   | FINANCIERA EFECTIVA       | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0099   | FINANCIERA CONFIANZA      | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0776   | PREXPE                    | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0806   | WAYKI CAJA CUSCO          | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0809   | CAJA ICA                  | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0901   | YAPE                      | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0902   | PLIN                      | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0910   | COOPERATIVA ABACO         | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0921   | LIGO                      | YES           | YES               | YES       | Apta (CCI y Phone) |
+| 0007   | CITIBANK                  | NOT           | NOT               | NOT       | No Apta            |
+| 0009   | SCOTIABANK                | YES           | YES               | NOT       | Apta (CCI)         |
+| 0035   | BANCO PICHINCHA           | YES           | NOT               | NOT       | Apta (CCI)         |
+| 0038   | BANBIF                    | YES           | NOT               | NOT       | Apta (CCI)         |
+| 0043   | CREDISCOTIA               | YES           | NOT               | NOT       | Apta (CCI)         |
+| 0049   | MI BANCO                  | YES           | NOT               | NOT       | Apta (CCI)         |
+| 0055   | BANCO RIPLEY              | YES           | NOT               | YES       | Apta (CCI)         |
+| 0056   | SANTANDER                 | NOT           | NOT               | NOT       | No Apta            |
+| 0073   | CREDINKA                  | NOT           | NOT               | NOT       | No Apta            |
+| 0765   | LUQEA                     | NOT           | NOT               | NOT       | No Apta            |
+| 0777   | GLOBAL66                  | NOT           | NOT               | NOT       | No Apta            |
+| 0800   | CAJA LIMA                 | YES           | NOT               | YES       | Apta (CCI)         |
+| 0801   | CAJA PIURA                | YES           | NOT               | YES       | Apta (CCI)         |
+| 0802   | CAJA TRUJILLO             | YES           | NOT               | YES       | Apta (CCI)         |
+| 0803   | CMAC AREQUIPA             | YES           | NOT               | NOT       | Apta (CCI)         |
+| 0805   | CAJA SULLANA              | NOT           | NOT               | NOT       | No Apta            |
+| 0808   | CAJA HUANCAYO             | YES           | NOT               | YES       | Apta (CCI)         |
+| 0813   | CAJA TACNA                | NOT           | YES               | YES       | Apta (Phone)       |
+| 0849   | CAJA LOS ANDES            | YES           | NOT               | YES       | Apta (CCI)         |
+| 0904   | BIM                       | NOT           | YES               | NOT       | Apta (Phone)       |
+
+
 
 <div className="card-container">
   <a href="https://google.com" target="_blank" rel="noopener noreferrer">
@@ -161,7 +380,7 @@ El proceso de pago con wallet en Perú consta de cinco etapas principales:
 
 # Embedded form
 
-> This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form).
+> This is a Embedded form for when platform is web and ui is embedded-form. View the full page at [https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web&ui=embedded-form](https://docs.stripe.com/billing/subscriptions/build-subscriptions?platform=web\&ui=embedded-form).
 
 #### Integration effort
 
