@@ -68,10 +68,10 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     <tr><td>0002</td><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>0003</td><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>0011</td><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0018</td><td>BANCO NACION</td><td>❌ NOT</td><td>✅ YES</td></tr>
-    <tr><td>0023</td><td>BANCOM</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0018</td><td>BANCO NACION</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>0023</td><td>BANCOM</td><td>❌ NO</td><td>✅ YES</td></tr>
     <tr><td>0053</td><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0054</td><td>BANCO FALABELLA</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0054</td><td>BANCO FALABELLA</td><td>❌ NO</td><td>✅ YES</td></tr>
     <tr><td>0091</td><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>0096</td><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>0099</td><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
@@ -82,14 +82,14 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     <tr><td>0902</td><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>0910</td><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>0921</td><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0007</td><td>CITIBANK</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0056</td><td>SANTANDER</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0073</td><td>CREDINKA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0765</td><td>LUQEA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0777</td><td>GLOBAL66</td><td>❌ NOT</td><td>❌ NOT</td></tr>
-    <tr><td>0805</td><td>CAJA SULLANA</td><td>❌ NOT</td><td>❌ NOT</td></tr>
+    <tr><td>0007</td><td>CITIBANK</td><td>❌ NO</td><td>❌ NO</td></tr>
+    <tr><td>0056</td><td>SANTANDER</td><td>❌ NO</td><td>❌ NO</td></tr>
+    <tr><td>0073</td><td>CREDINKA</td><td>❌ NO</td><td>❌ NO</td></tr>
+    <tr><td>0765</td><td>LUQEA</td><td>❌ NO</td><td>❌ NO</td></tr>
+    <tr><td>0777</td><td>GLOBAL66</td><td>❌ NO</td><td>❌ NO</td></tr>
+    <tr><td>0805</td><td>CAJA SULLANA</td><td>❌ NO</td><td>❌ NO</td></tr>
     <tr><td>0813</td><td>CAJA TACNA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>0904</td><td>BIM</td><td>❌ NOT</td><td>✅ YES</td></tr>
+    <tr><td>0904</td><td>BIM</td><td>❌ NO</td><td>✅ YES</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
