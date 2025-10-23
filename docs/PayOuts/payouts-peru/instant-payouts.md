@@ -68,8 +68,8 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Entidad</b></th>
-      <th><b>Apta para CCI (con Validación de Terceros)</b></th>
-      <th><b>Apta para CCI (sin Validación de Terceros)</b></th>
+      <th><b>Apta para CCI (con validación de terceros)</b></th>
+      <th><b>Apta para CCI (sin validación de terceros)</b></th>
     </tr>
   </thead>
   <tbody>
