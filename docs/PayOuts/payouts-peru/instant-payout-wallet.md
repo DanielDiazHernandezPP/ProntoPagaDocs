@@ -64,37 +64,37 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     </tr>
   </thead>
   <tbody>
-    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅</td><td>✅</td></tr>
-    <tr><td>INTERBANK</td><td>✅</td><td>✅</td></tr>
-    <tr><td>SCOTIABANK</td><td>❌</td><td>✅</td></tr>
-    <tr><td>BBVA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>BANCO NACION</td><td>❌</td><td>✅</td></tr>
-    <tr><td>BANCOM</td><td>❌</td><td>✅</td></tr>
-    <tr><td>BANCO PICHINCHA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>BANBIF</td><td>❌</td><td>✅</td></tr>
-    <tr><td>CREDISCOTIA</td><td>❌</td><td>✅</td></tr>
-    <tr><td>MI BANCO</td><td>❌</td><td>✅</td></tr>
-    <tr><td>BANCO GNB</td><td>✅</td><td>✅</td></tr>
-    <tr><td>BANCO FALABELLA</td><td>❌</td><td>✅</td></tr>
-    <tr><td>BANCO RIPLEY</td><td>✅</td><td>✅</td></tr>
-    <tr><td>BANCO ALFIN</td><td>✅</td><td>✅</td></tr>
-    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>TARJETA OH</td><td>✅</td><td>✅</td></tr>
-    <tr><td>FINANCIERA EFECTIVA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>FINANCIERA CONFIANZA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>PREXPE</td><td>✅</td><td>✅</td></tr>
-    <tr><td>CAJA PIURA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>CAJA TRUJILLO</td><td>✅</td><td>✅</td></tr>
-    <tr><td>CMAC AREQUIPA</td><td>❌</td><td>✅</td></tr>
-    <tr><td>WAYKI CAJA CUSCO</td><td>✅</td><td>✅</td></tr>
-    <tr><td>CAJA HUANCAYO</td><td>❌</td><td>✅</td></tr>
-    <tr><td>CAJA ICA</td><td>✅</td><td>✅</td></tr>
-    <tr><td>CAJA LOS ANDES</td><td>✅</td><td>✅</td></tr>
-    <tr><td>YAPE</td><td>✅</td><td>✅</td></tr>
-    <tr><td>PLIN</td><td>✅</td><td>✅</td></tr>
-    <tr><td>COOPERATIVA ABACO</td><td>✅</td><td>✅</td></tr>
-    <tr><td>LIGO</td><td>✅</td><td>✅</td></tr>
-    <tr><td>DALE</td><td>✅</td><td>✅</td></tr>
+    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>SCOTIABANK</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO NACION</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>BANCOM</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>BANCO PICHINCHA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANBIF</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>CREDISCOTIA</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>MI BANCO</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO FALABELLA</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>BANCO RIPLEY</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>BANCO ALFIN</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>TARJETA OH</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>PREXPE</td><td>✅ YES✅</td><td>✅ YES</td></tr>
+    <tr><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CMAC AREQUIPA</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA HUANCAYO</td><td>❌ NO</td><td>✅ YES</td></tr>
+    <tr><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>CAJA LOS ANDES</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
+    <tr><td>DALE</td><td>✅ YES</td><td>✅ YES</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
