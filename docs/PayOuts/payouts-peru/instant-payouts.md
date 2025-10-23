@@ -80,11 +80,11 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     <tr><td>BANCO NACION</td><td>❌ NO</td><td>✅ SI</td></tr>
     <tr><td>BANCOM</td><td>❌ NO</td><td>✅ SI</td></tr>
     <tr><td>BANCO PICHINCHA</td><td>✅ SI</td><td>✅ SI</td></tr>
-    <tr><td>BANBIF</td><td>❌</td><td>✅ SI</td></tr>
-    <tr><td>CREDISCOTIA</td><td>❌</td><td>✅ SI</td></tr>
-    <tr><td>MI BANCO</td><td>❌</td><td>✅ SI</td></tr>
+    <tr><td>BANBIF</td><td>❌ NO</td><td>✅ SI</td></tr>
+    <tr><td>CREDISCOTIA</td><td>❌ NO</td><td>✅ SI</td></tr>
+    <tr><td>MI BANCO</td><td>❌ NO</td><td>✅ SI</td></tr>
     <tr><td>BANCO GNB</td><td>✅ SI</td><td>✅ SI</td></tr>
-    <tr><td>BANCO FALABELLA</td><td>❌</td><td>✅ SI</td></tr>
+    <tr><td>BANCO FALABELLA</td><td>❌ NO</td><td>✅ SI</td></tr>
     <tr><td>BANCO RIPLEY</td><td>✅ SI</td><td>✅ SI</td></tr>
     <tr><td>BANCO ALFIN</td><td>✅ SI</td><td>✅ SI</td></tr>
     <tr><td>COMPARTAMOS FINANCIERA</td><td>✅ SI</td><td>✅ SI</td></tr>
@@ -95,9 +95,9 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     <tr><td>CAJA LIMA</td><td>✅ SI</td><td>✅ SI</td></tr>
     <tr><td>CAJA PIURA</td><td>✅ SI</td><td>✅ SI</td></tr>
     <tr><td>CAJA TRUJILLO</td><td>✅ SI</td><td>✅ SI</td></tr>
-    <tr><td>CMAC AREQUIPA</td><td>❌</td><td>✅ SI</td></tr>
+    <tr><td>CMAC AREQUIPA</td><td>❌ NO</td><td>✅ SI</td></tr>
     <tr><td>WAYKI CAJA CUSCO</td><td>✅ SI</td><td>✅ SI</td></tr>
-    <tr><td>CAJA HUANCAYO</td><td>❌</td><td>✅ SI</td></tr>
+    <tr><td>CAJA HUANCAYO</td><td>❌ NO</td><td>✅ SI</td></tr>
     <tr><td>CAJA ICA</td><td>✅ SI</td><td>✅ SI</td></tr>
     <tr><td>CAJA LOS ANDES</td><td>✅ SI</td><td>✅ SI</td></tr>
     <tr><td>COOPERATIVA ABACO</td><td>✅ SI</td><td>✅ SI</td></tr>
