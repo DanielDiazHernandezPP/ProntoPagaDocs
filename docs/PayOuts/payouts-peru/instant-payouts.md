@@ -61,7 +61,7 @@ La lista de códigos bancarios para PayOuts de tipo transferencia la puedes enco
 
 ## Entidades
 
-En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía CCI, así como aquellas que envían el DNI.
+En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía CCI, así como aquellas que requieren o no requieren validación de pagos a terceros.
 
 <HTMLBlock>{`
 <table>
