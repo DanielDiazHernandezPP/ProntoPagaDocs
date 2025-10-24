@@ -52,7 +52,7 @@ El proceso de PayOut con wallet en Perú consta de cuatro etapas principales:
 
 ## Entidades
 
-En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía wallet, así como aquellas que envían el DNI.
+En la tabla a continuación, podrás consultar las entidades aptas para transacciones a través de wallet, así como aquellas que requieren o no requieren validación de pagos a terceros.
 
 <HTMLBlock>{`
 <table>
