@@ -22,53 +22,8 @@ metadata:
 next:
   description: ''
 ---
-Esta es una **Guía Rápida** para conocer la plataforma y acomodo de la Documentación Técnica de ProntoPaga. Nuestra documentación cuenta con cuatro pestañas principales en el menú superior:
+Este video es una **Guía Rápida** para conocer la plataforma y acomodo de la Documentación Técnica de ProntoPaga. 
 
-<Image align="center" width="500px" src="https://files.readme.io/5c7c84352166fdf0df87772560bb537f69eda81821f14c6b0b002d9df7ae66f2-Captura_de_pantalla_2025-03-04_a_las_8.47.39_p.m..png" />
+<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=Oq7rAHAbGRE" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FOq7rAHAbGRE%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DOq7rAHAbGRE%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FOq7rAHAbGRE%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" href="https://www.youtube.com/watch?v=Oq7rAHAbGRE" providerUrl="https://www.youtube.com/" providerName="YouTube" />
 
-A continuación, te mostramos qué puedes encontrar en cada una, así como consejos para sacar lo mejor de esta documentación.
-
-## Guides
-
-La pestaña de **Guides** contiene principalmente todas las Guías de integración, ordenadas por país y métodos. Además, también contiene información general que puede ser de utilidad para tu integración. En la siguiente imagen puedes observar sus características:
-
-<Image align="center" src="https://files.readme.io/49a9a08bc7807a835a59d53ed5ada771565057e65069c9ba494912425ca2e6ab-03.png" />
-
-Dentro de cada Guía de integración podrás encontrar información detallada, como:
-
-* Introducción al método
-* Notas o especificaciones importantes
-* Ejemplos de body request para la solicitud
-* Ejemplos de posibles respuestas
-* Ejemplos de webhooks
-
-## API Reference
-
-La pestaña de **API Reference** es la más visitada de nuestro sitio. Aquí encontrarás todos los endpoints de ProntoPaga, ordenados por método. A continuación te mostramos los componentes generales:
-
-<Image align="center" src="https://files.readme.io/cea86d1a25cb96889740a8bd06a1139c9efbe6771459c2deebbf1067a8f67834-01.png" />
-
-Además, cada endpoint cuenta con ejemplos de body request y respuestas, así como un enviroment listo para realizar pruebas de la API en vivo:
-
-<Image align="center" src="https://files.readme.io/e162b75d25a17ec8477a9c625f67292bdedc5f227551064367e727904448a12f-02.png" />
-
-Recuerda que para hacer uso de la caja de pruebas en vivo, deberás contar con tu **Bearer Token y secretKey de Sandbox** (proporcionados por ProntoPaga), y seguir estos pasos:
-
-1. Agregar tu Bearer Token en la sección **CREDENTIALS**.
-2. Modificar los valores de los parámetros del body (en caso de ser necesario).
-3. [Crear la firma de la transacción](https://docs.prontopaga.com/docs/sign-transactions) con tu secretKey y agregarla al body de la transacción (en caso de ser necesario).
-4. Hacer clic en el botón **Try it!**. Verás la respuesta debajo, en la sección **RESPONSE**.
-
-### Colección de Postman
-
-Si prefieres realizar tus pruebas desde Postman, tenemos a tu disposición una colección que puedes copiar en tu espacio de trabajo. Esta colección cuenta con un script para automatizar la creación de la firma.
-
-Conoce toda la información necesaria para utilizar nuestra colección de Postman en [esta página](https://docs.prontopaga.com/reference/postman).
-
-### Environments
-
-Para conocer más sobre los enviroments de ProntoPaga, así como las URL e IP de éstos, te sugerimos revisar [esta página](https://docs.prontopaga.com/docs/ambientes).
-
-## Changelog
-
-La pestaña de **Changelog** contiene el detalle del control de cambios de la API. Podrás ver los cambios realizados en cada nueva versión.
+<br />
