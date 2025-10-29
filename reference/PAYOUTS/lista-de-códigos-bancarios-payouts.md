@@ -2,7 +2,7 @@
 title: Lista de códigos bancarios (PayOuts)
 excerpt: Conoce la lista oficial de códigos bancarios usados para retiros.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
