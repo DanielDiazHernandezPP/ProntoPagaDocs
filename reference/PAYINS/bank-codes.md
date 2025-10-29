@@ -64,7 +64,7 @@ Se debe enviar en la URL el código de país en formato ISO 3166-1 alpha-2.
     </tr>
   </thead>
   <tbody>
-    <tr><td>chile</td><td>CL</td></tr>
+    <tr><td>Chile</td><td>CL</td></tr>
     <tr><td>Ecuador</td><td>EC</td></tr>
 		<tr><td>Perú</td><td>PE</td></tr>
   </tbody>
