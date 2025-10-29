@@ -97,7 +97,7 @@ next:
     <tr><td>Tarjeta</td><td>pe_card_payment</td><td>VISA y MasterCard</td></tr>
     <tr><td>Transferencia</td><td>PagaConTuBanco</td><td>Paga con tu Banco</td></tr>
     <tr><td>Wallet</td><td>yape_cof_payment</td><td>Yape On File</td></tr>
-    <tr><td>QR</td><td>pe_qr_payment</td><td>QR</td></tr>
+    <tr><td>QR</td><td>pe_qr_3_payment</td><td>QR</td></tr>
    	<tr><td>Efectivo</td><td>pagoefectivo_payment</td><td>PagoEfectivo</td></tr>
   </tbody>
 </table>
