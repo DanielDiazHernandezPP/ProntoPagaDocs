@@ -87,7 +87,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          En este banco, los límites transaccionales se establecen**según el tipo de autenticación de segundo factor**.
+          En este banco, los límites transaccionales se establecen **según el tipo de autenticación de segundo factor**.
         </td>
 
         <td style={{ textAlign: "left" }}>
@@ -184,8 +184,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          En Banco BCI, los límites dependen del
-          sistema de autenticación.
+          En Banco BCI, los límites dependen del sistema de autenticación.
         </td>
 
         <td style={{ textAlign: "left" }}>
