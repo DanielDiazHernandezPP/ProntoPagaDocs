@@ -7,8 +7,10 @@ api:
 deprecated: false
 hidden: false
 metadata:
-  title: Lista de códigos bancarios | ProntoPaga Docs
-  description: To see a list of available banks by country, request this endpoint.
+  title: Lista de códigos bancarios (PayIns) | ProntoPaga Docs
+  description: >-
+    To see a list of available banks for payins by country, request this
+    endpoint.
   image: >-
     https://files.readme.io/9edb9f042ac1b31726d25ed524206b73f8fb508a4ac9c7d75f9e8c21e61f9254-Prontopaga_logotipo.png
   keywords:
