@@ -8,10 +8,10 @@ metadata:
 <Callout icon="🚧">
   **Importante**
 
-  La lista de códigos bancarios aplica únicamente para PayOuts por transferencia.
+  La lista de códigos bancarios aplica únicamente para PayOuts con transferencia.
 </Callout>
 
-Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú, es necesario utilizar [este endpoint](https://docs.prontopaga.com/reference/payout), en el cual se debe enviar el código bancario en el parámetro `bankCode`. En este artículo se muestran las listas de códigos bancarios por país.
+En ProntoPaga contamos con una lista de códigos bancarios para PayOuts con transferencia. Puedes consultar la lista en el <Anchor label="siguiente artículo" target="_blank" href="https://docs.prontopaga.com/docs/bank-codes-transfer#/">siguiente artículo</Anchor>.
 
 <br />
 
