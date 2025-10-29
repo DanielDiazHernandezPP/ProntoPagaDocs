@@ -4,6 +4,19 @@ excerpt: Conoce la lista oficial de códigos bancarios usados para retiros.
 deprecated: false
 hidden: false
 metadata:
+  title: Lista de códigos bancarios (PayOuts) | ProntoPaga Docs
+  description: >-
+    To see a list of available banks for PayOuts by country, request this
+    article.
+  keywords:
+    - bank codes
+    - available banks
+    - banks by country
+    - prontopaga api
+    - endpoint
+    - request
+    - body params Prontopaga
+    - lista de códigos bancarios prontopaga
   robots: index
 ---
 <Callout icon="🚧" theme="warn">
