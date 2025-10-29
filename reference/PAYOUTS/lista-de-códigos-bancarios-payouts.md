@@ -1,6 +1,6 @@
 ---
 title: Lista de códigos bancarios (PayOuts)
-excerpt: Consulta la lista oficial de códigos bancarios para PayOuts.
+excerpt: Conoce la lista oficial de códigos bancarios usados para PayOuts.
 deprecated: false
 hidden: true
 metadata:
