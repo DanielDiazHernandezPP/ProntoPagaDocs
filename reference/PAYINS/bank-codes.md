@@ -1,5 +1,5 @@
 ---
-title: Lista de códigos bancarios
+title: Lista de códigos bancarios (PayIns)
 excerpt: ''
 api:
   file: prontopaga-api.json
@@ -24,6 +24,14 @@ metadata:
 next:
   description: ''
 ---
+<Callout icon="🚧">
+  **Ten en cuenta que**
+
+  Este endpoint solo está disponible y es aplicable para transacciones de tipo**pagos (PayIns)**, por lo que no debe ser utilizado para otros tipos de transacciones.
+</Callout>
+
+***
+
 Para ver una lista de los bancos disponibles por país, haz una solicitud a este endpoint o da clic en el siguiente botón:
 
 <HTMLBlock>{`
