@@ -8,6 +8,8 @@ metadata:
   description: >-
     To see a list of available banks for PayOuts by country, request this
     article.
+  image: >-
+    https://files.readme.io/1d0406ad9b57a7817a186ec0e20d98e54ce46ec59617e375cc699c2cef6d204a-Prontopaga_Logotipo_2.JPG
   keywords:
     - bank codes
     - available banks
