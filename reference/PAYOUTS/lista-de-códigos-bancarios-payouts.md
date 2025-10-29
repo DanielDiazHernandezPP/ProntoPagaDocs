@@ -1,5 +1,6 @@
 ---
 title: Lista de códigos bancarios (PayOuts)
+excerpt: Consulta la lista oficial de códigos bancarios para PayOuts.
 deprecated: false
 hidden: true
 metadata:
@@ -8,7 +9,7 @@ metadata:
 <Callout icon="🚧" theme="warn">
   **Importante**
 
-  La lista de códigos bancarios aplica únicamente para **PayOuts con transferencia**.
+  La lista de códigos bancarios aplica únicamente para **PayOuts con transferencia**, por lo que no debe ser utilizado para otros tipos de transacciones.
 </Callout>
 
 En ProntoPaga contamos con una lista de códigos bancarios para PayOuts con transferencia. Puedes consultar la lista en el <Anchor label="siguiente artículo" target="_blank" href="https://docs.prontopaga.com/docs/bank-codes-transfer#/">siguiente artículo</Anchor>.
