@@ -237,7 +237,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
     <tbody>
       <tr>
         <td style={{ textAlign: "left" }}>
-          Los límites diarios de Banco Estado varían según el tipo de cuenta..
+          Los límites diarios de Banco Estado varían según el tipo de cuenta.
         </td>
 
         <td style={{ textAlign: "left" }}>
