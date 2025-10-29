@@ -1,6 +1,6 @@
 ---
 title: Lista de códigos bancarios (PayIns)
-excerpt: ''
+excerpt: Conoce la lista oficial de códigos bancarios usados para pagos.
 api:
   file: prontopaga-api.json
   operationId: bank-codes
