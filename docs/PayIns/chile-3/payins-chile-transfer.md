@@ -290,7 +290,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 
   | Banco Scotiabank                 | Límite de primera transacción: | Limites de transacciones diarias: | Tiempo de espera para la segunda transacción: |
   | :------------------------------- | :----------------------------- | :-------------------------------- | :-------------------------------------------- |
-  | Hasta **5.000.000(CLP) diarios** | **300.000 (CLP)**              | **$5.000.000 (CLP)**              | **24 horas**                            |
+  | Hasta **5.000.000(CLP) diarios** | **300.000 (CLP)**              | **$5.000.000 (CLP)**              | **24 horas**                                  |
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
@@ -400,6 +400,12 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
       <td>$200.000</td>
       <td>24 horas</td>
       <td>$7.000.000</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><img src="https://files.readme.io/a6adf9c3fb306ba11fc9af7f4777ca365f26ff74b50976f2798c03d3f22c00fc-image.png" alt="Banco Ripley" height="30"> Banco Ripley</td>
+      <td>$250.000</td>
+      <td>N/A</td>
+      <td>$7.000.000 con clave Rpass y $2.000.000 con clave de coordenadas</td>
     </tr>
     <tr>
       <td style="padding: 12px;"><img src="https://files.readme.io/88c8d0732d449f32986a24cbac1768a36ba2ba93a7a3a993f5780c05be60c374-descarga.jpeg" height="30"> Banco Security</td>
