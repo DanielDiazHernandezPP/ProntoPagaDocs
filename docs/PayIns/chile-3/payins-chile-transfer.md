@@ -425,7 +425,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
     </tr>
       <td style="padding: 12px;"><img src="https://files.readme.io/df5156bafc17e3ada82adb3026905c815371eb9b431349b8b4339a3b81be35f4-image.png" alt="Banco BICE" height="30"> Banco BICE</td>
       <td>$250.000</td>
-      <td>24 horas</td>
+      <td>N/A</td>
       <td>$2.500.000</td>
   </tr>
 
