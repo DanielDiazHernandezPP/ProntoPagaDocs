@@ -290,7 +290,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 
   | Banco Scotiabank                 | Límite de primera transacción: | Limites de transacciones diarias: | Tiempo de espera para la segunda transacción: |
   | :------------------------------- | :----------------------------- | :-------------------------------- | :-------------------------------------------- |
-  | Hasta **5.000.000(CLP) diarios** | **300.000 (CLP)**              | **$5.000.000 (CLP)**      | Hasta **24 horas**                            |
+  | Hasta **5.000.000(CLP) diarios** | **300.000 (CLP)**              | **$5.000.000 (CLP)**              | **24 horas**                            |
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
