@@ -277,6 +277,14 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
   | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
 </Accordion>
 
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Ripley</span>}>
+  Información sobre límites transaccionales.
+
+  | Banco Ripley                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+  | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
+  | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
+</Accordion>
+
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
   Información sobre límites transaccionales
 
