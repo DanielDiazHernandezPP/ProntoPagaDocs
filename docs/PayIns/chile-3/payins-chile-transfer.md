@@ -285,6 +285,14 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
   | Transferencias diarias de hasta **$7.000.000 CLP** con clave Rpass. | **CLP $250.000**               | Hasta **$7.000.000 diarios (CLP)** | Hasta **$2.000.000 (CLP)**        |
 </Accordion>
 
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Scotiabank</span>}>
+  Información sobre límites transaccionales.
+
+  | Banco Scotiabank                                                        | Límite de primera transacción: | Limites de transacciones diarias: | Tiempo de espera para la segunda transacción: |
+  | :------------------------------------------------------------------ | :----------------------------- | :--------------------------------- | :-------------------------------- |
+  |Hasta **300,000 (CLP)**| ** 5,000,000 (CLP)**               | Hasta **$7.000.000 diarios (CLP)** | Hasta **24 horas**        |
+</Accordion>
+
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
   Información sobre límites transaccionales
 
@@ -392,12 +400,6 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
       <td>$200.000</td>
       <td>24 horas</td>
       <td>$7.000.000</td>
-    </tr>
-    <tr>
-      <td style="padding: 12px;"><img src="https://files.readme.io/553871aa095d9fd0262651cbcf4241e2de363281da1b6a052a09fd504caddb92-image.png" alt="Banco Ripley" height="30"> Banco Ripley</td>
-      <td>$250.000</td>
-      <td>N/A</td>
-      <td>$7.000.000 con clave Rpass y hasta $2.000.000 con clave de coordenadas.</td>
     </tr>
     <tr>
       <td style="padding: 12px;"><img src="https://files.readme.io/88c8d0732d449f32986a24cbac1768a36ba2ba93a7a3a993f5780c05be60c374-descarga.jpeg" height="30"> Banco Security</td>
