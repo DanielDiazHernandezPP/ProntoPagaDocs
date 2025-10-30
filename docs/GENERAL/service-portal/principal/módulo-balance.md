@@ -36,7 +36,6 @@ Este balance se subdivide en diferentes tipos de saldos, que a continuación se 
 
 #### Ver detalle de saldo neto
 
-
 En el módulo** Balance** puedes obtener una vista detallada del saldo neto. Para ello, selecciona el ícono de información en la opción **SALDO NETO**, lo que desplegará una tabla similar a esta:
 
 <Image align="center" alt="Saldo neto" border={true} width="30% " src="https://files.readme.io/51e9b4767ae8603f31b6c5935ec4f88c07c800dc7fd84ea26f9e7c208cead680-saldo_neto.png" className="border" />
@@ -80,6 +79,10 @@ En el módulo **Balance **puedes obtener una vista detallada de tu balance dispo
 Adicionalmente al filtro de comercio y moneda, este módulo también cuenta con filtros de fecha en la parte superior. En este caso, podrás seleccionar una fecha exacta de corte.
 
 <Image align="center" alt="Fecha de corte" border={true} width="25% " src="https://files.readme.io/4633fc15f5c324a401bd473c37a09906f8a4e18957074e08c7d2b988bc69ac52-Captura_de_pantalla_2025-09-08_a_las_2.40.09_p.m..png" className="border" />
+
+***
+
+<br />
 
 ### Descargar el balance mensual
 
