@@ -285,12 +285,12 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
   | Transferencias diarias de hasta **$7.000.000 CLP** con clave Rpass. | **CLP $250.000**               | Hasta **$7.000.000 diarios (CLP)** | Hasta **$2.000.000 (CLP)**        |
 </Accordion>
 
-<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Ripley</span>}>
+<Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco BICE</span>}>
   Información sobre límites transaccionales.
 
-  | Banco BICE                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+  | Banco BICE                                | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
   | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
-  | En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$2.500.000 diarios (CLP)** | N/A        |
+  | En este banco, los limites son generales. | **CLP $250.000**               | Hasta **$2.500.000 diarios (CLP)** | N/A                                           |
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Scotiabank</span>}>
