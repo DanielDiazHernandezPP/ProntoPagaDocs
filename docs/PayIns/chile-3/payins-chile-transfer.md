@@ -272,17 +272,17 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Falabella</span>}>
   Información sobre límites transaccionales.
 
-  | Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+  | Banco Falabella                           | Límite de primera transacción: | Limites de transacciones en curso: |Límites con clave de coordenadas: |
   | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
-  | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
+  | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** |  Hasta $2.000.000 CLP                               |
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Ripley</span>}>
   Información sobre límites transaccionales.
 
-  | Banco Ripley                           | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
+  | Banco Ripley                              | Límite de primera transacción: | Limites de transacciones en curso: | Tiempo de espera para la segunda transacción: |
   | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
-  | En este banco, los limites son generales. | **CLP $200.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
+  | Transferencias diarias de hasta $7.000.000 CLP con clave Rpass | **CLP $250.000**               | Hasta **$7.000.000 diarios (CLP)** | 24 horas                                      |
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Security</span>}>
