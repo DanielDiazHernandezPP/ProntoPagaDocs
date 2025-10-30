@@ -9,6 +9,8 @@ metadata:
 
 El módulo **Balance** muestra un resumen en tiempo real del estado financiero del comercio, con información sobre saldo neto, saldo diferido, saldo bloqueado,  pendiente por retiro y balance disponible, filtrable por fecha y tipo de moneda configurado.
 
+***
+
 <br />
 
 ### Consultar el resumen del balance
