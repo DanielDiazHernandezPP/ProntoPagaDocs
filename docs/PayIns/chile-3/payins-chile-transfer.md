@@ -290,7 +290,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
 
   | Banco BICE                                | Límite de primera transacción: | Limites diarios: | Tiempo de espera para la segunda transacción: |
   | :---------------------------------------- | :----------------------------- | :--------------------------------- | :-------------------------------------------- |
-  | En este banco, los limites son generales. | **$250.000CLP**               | Hasta **$2.500.000 (CLP) diarios ** | N/A                                           |
+  | En este banco, los limites son generales. | **$250.000CLP**               | Hasta **$2.500.000 (CLP) diarios** | N/A                                           |
 </Accordion>
 
 <Accordion title={<span style={{ fontSize: '18px', fontWeight: 'bold' }}>🏦 Banco Scotiabank</span>}>
@@ -423,7 +423,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
   </tr>
 
     </tr>
-      <td style="padding: 12px;"><img src="https://files.readme.io/8a777688ffe876336883cdd3cc709f2af697675a0b105b324cdf2b36cd69eb42-image.png" alt="Banco BICE" height="30"> Banco Scotiabank</td>
+      <td style="padding: 12px;"><img src="https://files.readme.io/df5156bafc17e3ada82adb3026905c815371eb9b431349b8b4339a3b81be35f4-image.png" alt="Banco BICE" height="30"> Banco BICE</td>
       <td>$250.000</td>
       <td>24 horas</td>
       <td>$2.500.000</td>
