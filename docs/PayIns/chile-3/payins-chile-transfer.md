@@ -394,7 +394,7 @@ Es importante **conocer las políticas de cada banco sobre los montos de las tra
       <td>$7.000.000</td>
     </tr>
     <tr>
-      <td style="padding: 12px;"><img src="https://files.readme.io/553871aa095d9fd0262651cbcf4241e2de363281da1b6a052a09fd504caddb92-image.png" alt="Banco Ripley" height="30"> Banco Ripley</td>
+      <td style="padding: 12px;"><img src="https://files.readme.io/553871aa095d9fd0262651cbcf4241e2de363281da1b6a052a09fd504caddb92-image.png" alt="Banco Ripley" height="30">Banco Ripley</td>
       <td>$250.000</td>
       <td>N/A</td>
       <td>$7.000.000 con clave Rpass y hasta $2.000.000 con clave de coordenadas.</td>
