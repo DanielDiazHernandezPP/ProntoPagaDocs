@@ -266,7 +266,7 @@ Puedes modificar los datos de cualquiera de los prestadores de servicio listados
 <Callout icon="🚧" theme="warn">
   **Modificación de datos**
 
-  Una vez creado el Prestador de servicio, solo podrás modificar los siguientes datos: **información de la cuenta bancaria **(**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
+  Una vez creado el Prestador de servicio, solo podrás modificar los siguientes datos: **información de la cuenta bancaria** (**banco**, **titular**, **tipo de cuenta** y **número de cuenta**). El resto de datos no pueden ser modificados.
 </Callout>
 
 4. Al terminar de editar, haz clic en el botón superior derecho **Guardar cambios**. 
