@@ -20,7 +20,7 @@ Para consultar el resumen del balance en tiempo real del comercio que desees sel
 1. Dirígete a la ruta **PRINCIPAL > Balance**. Luego, se desplegará una nueva ventana donde encontrarás los siguientes filtros a seleccionar:
    1. **Fecha de corte hasta:** Selecciona la fecha de corte del balance.
    2. **Comercio:** Selecciona el comercio para conocer el balance en tiempo real.
-   3. **Moneda: **Selecciona el tipo de moneda para conocer el balance.
+   3. **Moneda:** Selecciona el tipo de moneda para conocer el balance.
 
 Después de seleccionar las opciones necesarias, aparecerá una tabla como la siguiente:
 
@@ -38,7 +38,7 @@ Este balance se subdivide en diferentes tipos de saldos, que a continuación se 
 
 #### Ver detalle de saldo neto
 
-En el módulo** Balance** puedes obtener una vista detallada del saldo neto. Para ello, selecciona el ícono de información en la opción **SALDO NETO**, lo que desplegará una tabla similar a esta:
+En el módulo **Balance** puedes obtener una vista detallada del saldo neto. Para ello, selecciona el ícono de información en la opción **SALDO NETO**, lo que desplegará una tabla similar a esta:
 
 <Image align="center" alt="Saldo neto" border={true} width="30% " src="https://files.readme.io/51e9b4767ae8603f31b6c5935ec4f88c07c800dc7fd84ea26f9e7c208cead680-saldo_neto.png" className="border" />
 
@@ -54,7 +54,7 @@ En el módulo **Balance** puedes obtener una vista detallada del saldo diferido.
 
 #### Ver detalle de saldo bloqueado
 
-En el módulo **Balance** puedes obtener una vista detallada de los contracargos. Para ello, selecciona el ícono de información en la opción SALDO BLOQUEADO, lo que desplegará una tabla similar a esta:
+En el módulo **Balance** puedes obtener una vista detallada de los contracargos. Para ello, selecciona el ícono de información en la opción **SALDO BLOQUEADO**, lo que desplegará una tabla similar a esta:
 
 <Image align="center" alt="Saldo bloqueado" border={true} width="30% " src="https://files.readme.io/eda59fd1503b0359d40c0c81899e1e87c1fd35f026f55e555b278cbfb6ea2468-saldo_bloqueado.png" className="border" />
 
@@ -68,7 +68,7 @@ En el módulo **Balance** puedes obtener una vista detallada de los saldos pendi
 
 #### Ver detalle de balance disponible
 
-En el módulo **Balance **puedes obtener una vista detallada de tu balance disponible. Para ello, selecciona el ícono de información en la opción **BALANCE DISPONIBLE**, lo que desplegará una tabla similar a esta:
+En el módulo **Balance** puedes obtener una vista detallada de tu balance disponible. Para ello, selecciona el ícono de información en la opción **BALANCE DISPONIBLE**, lo que desplegará una tabla similar a esta:
 
 <Image align="center" alt="Balance disponible" border={true} width="30% " src="https://files.readme.io/7773727aa3476ab5080253773d485a01f9f9701d34900a6c0e3f2ba65c74c71d-balance_disponible.png" className="border" />
 
