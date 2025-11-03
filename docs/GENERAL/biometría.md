@@ -52,7 +52,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para redirigir al usuario a la página en donde tomará las fotografías indicadas.
 
-**Ejemplo de respuesta exitosa**:
+#### Ejemplo de respuesta exitosa:
 
 ```json
 {
