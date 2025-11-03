@@ -20,6 +20,10 @@ De este modo, para crear una solicitud de nueva biometría, deberás usar <Ancho
 
 <NotaFirma />
 
+Para incluir la URL de retorno a la cual será redireccionado el cliente después de completar el proceso de la toma de fotografías, ponte en contacto con nuestro equipo de **<Anchor label="Customer support" target="_blank" href="https://docs.prontopaga.com/page/necesitas-ayuda#/">Customer support</Anchor>**
+
+***
+
 <br />
 
 ### Body de la solicitud
@@ -68,6 +72,54 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 }
 ```
 
-<br />
+#### Ejemplo de respuesta fallida:
+
+```json
+{
+  "error": {
+    "documentNumber": "(string) documentNumber, cannot be null."
+  }
+}
+```
 
 <br />
+
+### Confirmación de una biometría
+
+Una vez que el usuario haya completado el proceso de la toma de fotografías, ProntoPaga lo redireccionará a la URL de retorno. Al mismo tiempo, devolverá los datos de la transacción al URL que hayas agregado anteriormente.
+
+De este modo, para confirmar si una biometría fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+
+***
+
+## Detalles de una biometría
+
+También puedes consultar los detalles de una biometría creada de forma exitosa anteriormente. Para hacerlo, debes de consultar [este endpoint], en donde deberás enviar el número `uid`en el path.
+
+### Respuesta
+
+Como respuesta a una solicitud de detalles de una biometría, recibirás la información con la que fue creada y registrada dicha biometría.
+
+**Ejemplo de respuesta exitosa**:
+
+```json
+{
+    "biometricVerification": {
+        "uid": ID in our services,
+        "status": Biometric status,
+        "reference": Biometrics reference,
+        "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
+        "decisions": [],
+        "createdAt": Creation date,
+        "updatedAt": Date of last update
+    }
+}
+```
+
+**Ejemplo de respuesta fallida**:
+
+```json
+{
+  "message": "Token could not be found."
+}
+```
