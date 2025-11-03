@@ -12,4 +12,20 @@ Con el servicio de verificación por biometría, los clientes serán redireccion
 
 <br />
 
+## Crea una nueva biometría
+
+Tu front-end será el encargado de recopilar los datos necesarios de tu cliente, mientras que tu back-end estará integrado con nuestra API, procesando la creación de la biometría.
+
+De este modo, para crear una solicitud de nueva biometría, deberás usar <Anchor label="este endpoint" target="_blank">este endpoint</Anchor>. La solicitud se envía con tu Bearer token, así como con tu SecretKey. Además, debes incluir los datos necesarios del cliente, como: nombre y apellido, correo electrónico, teléfono, país, fecha de nacimiento, entre otros.
+
+<NotaFirma />
+
+También deberás incluir la URL de retorno a la cual será redireccionado el cliente después de completar el proceso de la toma de fotografías.
+
+<NotaWebhooks />
+
 <br />
+
+### Body de la solicitud
+
+A continuación puedes ver un ejemplo del body que se envía en la solicitud:
