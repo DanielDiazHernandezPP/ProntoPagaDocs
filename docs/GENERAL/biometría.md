@@ -57,15 +57,17 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 ```json
 {
     "biometricVerification": {
-        "uid": "a8d089a7-00a4-475a-8e12-1ce559976e6f",
-        "status": "new",
-        "reference": "01K8VEGC40897X2NM1JHQ8PXMF",
-        "verificationUrl": "https://dev-test.prontopaga.com/v2/biometric/a8d089a7-00a4-475a-8e12-1ce559976e6f/verification",
+        "uid": ID in our services,
+        "status": new,
+        "reference": <Biometrics reference>, // This reference is ours and unique, it is used to verify the biometrics in the ProntoPaga system.  ,
+        "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
         "decisions": [],
-        "createdAt": "2025-10-30 17:56:17",
-        "updatedAt": "2025-10-30 17:56:17"
+        "createdAt": Creation date,
+        "updatedAt": Date of last update
     }
 }
 ```
+
+<br />
 
 <br />
