@@ -6154,7 +6154,7 @@
       }
     },
     "/payment/yape/{uid}/process/": {
-      "post": {
+      "get": {
         "description": "",
         "operationId": "get_new-endpoint",
         "responses": {
