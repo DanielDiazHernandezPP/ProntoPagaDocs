@@ -76,8 +76,8 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 ```json
 {
-		"error": {
-    	"documentNumber": "(string) documentNumber, cannot be null."
+"error": {
+	"documentNumber": "(string) documentNumber, cannot be null."
   }
 }
 ```
@@ -104,14 +104,14 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ```json
 {
-		"biometricVerification": {
-			"uid": ID in our services,
-     	"status": Biometric status,
-     	"reference": Biometrics reference,
-     	"verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
-     	"decisions": <approved | declined>,
-     	"createdAt": Creation date,
-     	"updatedAt": Date of last update
+"biometricVerification": {
+	"uid": ID in our services,
+  "status": Biometric status,
+  "reference": Biometrics reference,
+  "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
+  "decisions": <approved | declined>,
+  "createdAt": Creation date,
+  "updatedAt": Date of last update
     }
 }
 ```
@@ -120,10 +120,10 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ```json
 {
-    "success": false,
-    "statusCode": 404,
-    "message": "No existe una solicitud con el ID proporcionado.",
-    "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
-    "timestamp": "2025-11-04T14:20:17.098Z"
+"success": false,
+"statusCode": 404,
+"message": "No existe una solicitud con el ID proporcionado.",
+"path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
+"timestamp": "2025-11-04T14:20:17.098Z"
 }
 ```
