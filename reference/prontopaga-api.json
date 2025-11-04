@@ -6202,7 +6202,8 @@
             "schema": {
               "type": "string"
             },
-            "required": true
+            "required": true,
+            "description": "ID retornado de la verificación biométrica solicitada."
           }
         ],
         "security": [
