@@ -8,6 +8,7 @@ hidden: true
 link:
   new_tab: false
 metadata:
+  title: Detalles de una biometría | ProntoPagaDocs
   image: >-
     https://files.readme.io/8c172bfafb41ef74938cb4394fb0bde0b41539a9ac86c03822c5208bddf98f42-Prontopaga_Logotipo_2.JPG
   robots: index
