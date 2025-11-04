@@ -4,6 +4,16 @@ excerpt: Implementa verificación por biometría de reconocimiento facial en tu 
 deprecated: false
 hidden: true
 metadata:
+  title: Biometría | ProntoPaga Docs
+  description: Learn how to implement biometric verification for your merch.
+  image: >-
+    https://files.readme.io/4e2c4f2384753e0da4d92df3255aaa1ccd396cb0e8105eb2b4c3a90286cf19b9-Prontopaga_Logotipo_2.JPG
+  keywords:
+    - biometría
+    - biometrics
+    - biometría ProntoPaga
+    - cómo crear una biometría en ProntoPaga
+    - biometrics endpoint
   robots: index
 ---
 Con el servicio de verificación por biometría, los clientes serán redireccionados a una web en donde deberán tomar fotografías de su documento de identidad, así como de su rostro. De esta forma, sus transacciones estarán aún más seguras.
