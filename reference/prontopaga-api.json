@@ -6440,31 +6440,6 @@
             "required": true
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "properties": {
-                  "phoneNumber": {
-                    "type": "string",
-                    "description": "Número de teléfono del cliente",
-                    "default": "999999999"
-                  },
-                  "otp": {
-                    "type": "string",
-                    "default": "123456",
-                    "description": "Código de validación OTP"
-                  }
-                },
-                "type": "object",
-                "required": [
-                  "phoneNumber",
-                  "otp"
-                ]
-              }
-            }
-          }
-        },
         "x-readme": {
           "code-samples": [
             {
