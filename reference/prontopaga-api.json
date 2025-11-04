@@ -6404,11 +6404,7 @@
                 "examples": {
                   "Successful": {
                     "summary": "Successful",
-                    "value": {
-                      "uid": "Payment identifier in the system",
-                      "status": "Status of the payment",
-                      "actionType": "API"
-                    }
+                    "value": "{\n\"biometricVerification\": {\n\t\"uid\": ID in our services,\n  \"status\": Biometric status,\n  \"reference\": Biometrics reference,\n  \"verificationUrl\": <Biometrics link, the user should be redirected to this link to complete the process.>, \n  \"decisions\": <approved | declined>,\n  \"createdAt\": Creation date,\n  \"updatedAt\": Date of last update\n    }\n}"
                   }
                 }
               }
