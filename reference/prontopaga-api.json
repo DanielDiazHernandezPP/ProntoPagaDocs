@@ -6442,17 +6442,17 @@
                 "properties": {
                   "firstName": {
                     "type": "string",
-                    "default": "John Doe",
+                    "default": "",
                     "description": "Primer nombre del cliente"
                   },
                   "lastName": {
                     "type": "string",
-                    "default": "Doe",
+                    "default": "",
                     "description": "Apellido del cliente"
                   },
                   "phone": {
                     "type": "string",
-                    "default": "123456789",
+                    "default": "",
                     "description": "Número de teléfono del cliente"
                   },
                   "email": {
