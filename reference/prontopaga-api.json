@@ -6153,66 +6153,6 @@
         }
       }
     },
-    "/payment/yape/{uid}/process/": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "OK": {
-                    "summary": "OK",
-                    "value": "{\n\t\t\"biometricVerification\": {\n\t\t\t\"uid\": ID in our services,\n     \t\"status\": Biometric status,\n     \t\"reference\": Biometrics reference,\n     \t\"verificationUrl\": <Biometrics link, the user should be redirected to this link to complete the process.>, \n     \t\"decisions\": <approved | declined>,\n     \t\"createdAt\": Creation date,\n     \t\"updatedAt\": Date of last update\n    }\n}"
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                },
-                "examples": {
-                  "Not Found": {
-                    "summary": "Not Found",
-                    "value": {
-                      "success": false,
-                      "statusCode": 404,
-                      "message": "No existe una solicitud con el ID proporcionado.",
-                      "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
-                      "timestamp": "2025-11-04T14:20:17.098Z"
-                    }
-                  }
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "parameters": [
-          {
-            "in": "path",
-            "name": "uid",
-            "schema": {
-              "type": "string"
-            },
-            "required": true,
-            "description": "ID retornado de la verificación biométrica solicitada."
-          }
-        ],
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
-      }
-    },
     "/payment/peqr/cancel/{uid}": {
       "post": {
         "description": "",
@@ -6564,6 +6504,56 @@
             }
           ]
         },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
+      }
+    },
+    "/": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{\n\t\t\"biometricVerification\": {\n\t\t\t\"uid\": ID in our services,\n     \t\"status\": Biometric status,\n     \t\"reference\": Biometrics reference,\n     \t\"verificationUrl\": <Biometrics link, the user should be redirected to this link to complete the process.>, \n     \t\"decisions\": <approved | declined>,\n     \t\"createdAt\": Creation date,\n     \t\"updatedAt\": Date of last update\n    }\n}"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Not Found": {
+                    "summary": "Not Found",
+                    "value": {
+                      "success": false,
+                      "statusCode": 404,
+                      "message": "No existe una solicitud con el ID proporcionado.",
+                      "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
+                      "timestamp": "2025-11-04T14:20:17.098Z"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Not Found"
+          }
+        },
+        "parameters": [],
         "security": [
           {
             "BearerAuth": []
