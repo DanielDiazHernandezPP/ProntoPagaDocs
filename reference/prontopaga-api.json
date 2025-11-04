@@ -6442,35 +6442,37 @@
                 "properties": {
                   "firstName": {
                     "type": "string",
-                    "default": "John Doe",
+                    "default": "John",
                     "description": "Primer nombre del cliente"
                   },
                   "lastName": {
                     "type": "string",
-                    "default": "",
+                    "default": "Doe",
                     "description": "Apellido del cliente"
                   },
                   "phone": {
                     "type": "string",
-                    "default": "",
+                    "default": "123456789",
                     "description": "Número de teléfono del cliente"
                   },
                   "email": {
                     "type": "string",
-                    "default": "",
+                    "default": "johndoe@example.com",
                     "description": "Correo electrónico del cliente"
                   },
                   "dateOfBirth": {
                     "type": "string",
-                    "description": "Fecha de nacimiento del cliente"
+                    "description": "Fecha de nacimiento del cliente",
+                    "default": "1999-01-01"
                   },
                   "gender": {
                     "type": "string",
-                    "description": "Género del cliente"
+                    "description": "Género del cliente: <b> M/F </b>",
+                    "default": "M"
                   },
                   "maritalStatus": {
                     "type": "string",
-                    "description": "Estado civil del cliente"
+                    "description": "Estado civil del cliente: <b> single/married"
                   },
                   "number": {
                     "type": "string",
