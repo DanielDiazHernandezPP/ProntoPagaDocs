@@ -6402,25 +6402,12 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "New Example": {
-                    "summary": "New Example",
-                    "value": ""
-                  },
                   "Successful": {
                     "summary": "Successful",
                     "value": {
                       "uid": "Payment identifier in the system",
                       "status": "Status of the payment",
                       "actionType": "API"
-                    }
-                  },
-                  "Rejected-Third OTP Attempt Failed": {
-                    "summary": "Rejected-Third OTP Attempt Failed",
-                    "value": {
-                      "uid": "Payment identifier in the system",
-                      "status": "rejected",
-                      "errorTitle": "Title of the rejection",
-                      "errorMessage": "Description of the rejection"
                     }
                   }
                 }
