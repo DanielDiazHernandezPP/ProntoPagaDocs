@@ -32,20 +32,20 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json JSON
 {
-	  "usageType": "kyc",
-    "person": {
-      "firstName": "John",
-      "lastName": "Doe",
-      "phone": "123456789",
-      "email": "johndoe@example.com",
-      "dateOfBirth": "1999-01-01",
-      "gender": "M",
-      "maritalStatus": "single"
+"usageType": "kyc",
+"person": {
+	"firstName": "John",
+	"lastName": "Doe",
+  "phone": "123456789",
+  "email": "johndoe@example.com",
+  "dateOfBirth": "1999-01-01",
+  "gender": "M",
+  "maritalStatus": "single"
     },
-    "document": {
-      "number": "1234567",
-      "documentType": "PP",
-      "country": "PE"
+"document": {
+	"number": "1234567",
+ 	"documentType": "PP",
+ 	"country": "PE"
     }
 }
 ```
