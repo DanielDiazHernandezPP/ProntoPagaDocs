@@ -94,7 +94,7 @@ De este modo, para confirmar si una biometría fue exitosa, debes verificar que 
 
 ## Detalles de una biometría
 
-También puedes consultar los detalles de una biometría creada de forma exitosa anteriormente. Para hacerlo, debes de consultar [este endpoint], en donde deberás enviar el número `uid`en el path.
+También puedes consultar los detalles de una biometría creada de forma exitosa anteriormente. Para hacerlo, debes de consultar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/reference/biometric-details#/">este endpoint</Anchor> , en donde deberás enviar el número `uid`en el path.
 
 ### Respuesta
 
