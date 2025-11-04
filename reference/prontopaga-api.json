@@ -6442,37 +6442,35 @@
                 "properties": {
                   "firstName": {
                     "type": "string",
-                    "default": "John",
+                    "default": "John Doe",
                     "description": "Primer nombre del cliente"
                   },
                   "lastName": {
                     "type": "string",
-                    "default": "Doe",
+                    "default": "",
                     "description": "Apellido del cliente"
                   },
                   "phone": {
                     "type": "string",
-                    "default": "123456789",
+                    "default": "",
                     "description": "Número de teléfono del cliente"
                   },
                   "email": {
                     "type": "string",
-                    "default": "johndoe@example.com",
+                    "default": "",
                     "description": "Correo electrónico del cliente"
                   },
                   "dateOfBirth": {
                     "type": "string",
-                    "description": "Fecha de nacimiento del cliente",
-                    "default": "1999-01-01"
+                    "description": "Fecha de nacimiento del cliente"
                   },
                   "gender": {
                     "type": "string",
-                    "description": "Género del cliente: <b> M/F </b>",
-                    "default": "M"
+                    "description": "Género del cliente"
                   },
                   "maritalStatus": {
                     "type": "string",
-                    "description": "Estado civil del cliente: <b> single/married"
+                    "description": "Estado civil del cliente"
                   },
                   "number": {
                     "type": "string",
@@ -6480,7 +6478,7 @@
                   },
                   "documentType": {
                     "type": "string",
-                    "description": "Tipo de documento del cliente. "
+                    "description": "Para <b>Perú</b> el código puede ser:<br> <b>DN:</b> DNI <br> <b>CE:</b> Carné de extranjería<br>   <b>PP:</b> Pasaporte <br><br>Para <b>Ecuador</b> el código puede ser:<br><b>R:</b> RUC <br><b>C:</b> Cédula/DNI <br><b>P:</b> Pasaporte <br><br>Para <b>Chile</b> el código puede ser: <br><b>RUT:</b> Rut"
                   },
                   "country": {
                     "type": "string",
