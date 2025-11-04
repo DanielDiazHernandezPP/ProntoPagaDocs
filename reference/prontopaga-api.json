@@ -6467,7 +6467,18 @@
             }
           }
         },
-        "x-readme": {},
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No JSON body",
+              "language": "json",
+              "name": "JSON"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
         "security": [
           {
             "BearerAuth": []
