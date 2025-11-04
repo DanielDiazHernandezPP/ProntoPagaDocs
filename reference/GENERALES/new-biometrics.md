@@ -9,8 +9,19 @@ link:
   new_tab: false
 metadata:
   title: Crear una nueva biometría | ProntoPaga Docs
+  description: Learn how to create a new biometric with this ProntoPaga endpoint.
   image: >-
     https://files.readme.io/3be893047fb24e22ff09d640bc828668a2e15239373fe4122937db78e48c17c2-Prontopaga_Logotipo_2.JPG
+  keywords:
+    - biometric
+    - biometrics
+    - facial recognition
+    - prontopaga
+    - api
+    - endpoint
+    - create a new biometric
+    - create biometrics
+    - biometric service
   robots: index
 ---
 Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
