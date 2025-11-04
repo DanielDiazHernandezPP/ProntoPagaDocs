@@ -104,7 +104,7 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ```json
 {
-		"biom	etricVerification": {
+		"biometricVerification": {
 			"uid": ID in our services,
      	"status": Biometric status,
      	"reference": Biometrics reference,
