@@ -27,4 +27,4 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-Con este endpoint podrás realizar una nueva solicitud de verificación biométrica. La respuesta de ProntoPaga a la solicitud de verificaición biométrica es el UID de la transacción y la URL a la que debe redirigir al usuario.
+Con este endpoint podrás realizar una nueva solicitud de verificación biométrica. La respuesta de ProntoPaga a la solicitud de verificación biométrica es el UID de la transacción y la URL a la que debe redirigir al usuario.
