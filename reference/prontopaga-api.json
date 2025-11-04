@@ -6447,12 +6447,12 @@
                   },
                   "lastName": {
                     "type": "string",
-                    "default": "",
+                    "default": "Doe",
                     "description": "Apellido del cliente"
                   },
                   "phone": {
                     "type": "string",
-                    "default": "",
+                    "default": "123456789",
                     "description": "Número de teléfono del cliente"
                   },
                   "email": {
