@@ -34,10 +34,10 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 {
     "usageType": "kyc",
     "person": {
-      "firstName": "Jhon",
+      "firstName": "John",
       "lastName": "Doe",
       "phone": "123456789",
-      "email": "jhondoe@example.com",
+      "email": "johndoe@example.com",
       "dateOfBirth": "1999-01-01",
       "gender": "M",
       "maritalStatus": "single"
