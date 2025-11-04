@@ -6377,7 +6377,7 @@
       }
     },
     "/v2/biometric/new": {
-      "get": {
+      "post": {
         "description": "",
         "operationId": "get_v2biometricnew",
         "responses": {
@@ -6399,7 +6399,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{\n    \"usageType\": \"kyc\",\n    \"person\": {\n      \"firstName\": \"Jhon\",\n      \"lastName\": \"Doe\",\n      \"phone\": \"123456789\",\n      \"email\": \"jhondoe@example.com\",\n      \"dateOfBirth\": \"1999-01-01\",\n      \"gender\": \"M\",\n      \"maritalStatus\": \"single\"\n    },\n    \"document\": {\n      \"number\": \"1234567\",\n      \"documentType\": \"PP\",\n      \"country\": \"PE\"\n    }\n}",
+              "code": "{\n    \"usageType\": \"kyc\",\n    \"person\": {\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\",\n      \"phone\": \"123456789\",\n      \"email\": \"jhondoe@example.com\",\n      \"dateOfBirth\": \"1999-01-01\",\n      \"gender\": \"M\",\n      \"maritalStatus\": \"single\"\n    },\n    \"document\": {\n      \"number\": \"1234567\",\n      \"documentType\": \"PP\",\n      \"country\": \"PE\"\n    }\n}",
               "language": "json",
               "name": ""
             }
@@ -6412,7 +6412,74 @@
           {
             "BearerAuth": []
           }
-        ]
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstName": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Primer nombre del cliente"
+                  },
+                  "lastName": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Apellido del cliente"
+                  },
+                  "phone": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Número de teléfono del cliente"
+                  },
+                  "email": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Correo electrónico del cliente"
+                  },
+                  "dateOfBirth": {
+                    "type": "string",
+                    "description": "Fecha de nacimiento del cliente"
+                  },
+                  "gender": {
+                    "type": "string",
+                    "description": "Género del cliente"
+                  },
+                  "maritalStatus": {
+                    "type": "string",
+                    "description": "Estado civil del cliente"
+                  },
+                  "number": {
+                    "type": "string",
+                    "description": "Número de documento del cliente"
+                  },
+                  "documentType": {
+                    "type": "string",
+                    "description": "Tipo de documento del cliente. "
+                  },
+                  "country": {
+                    "type": "string",
+                    "description": "Código del país: <b>CL/EC/PE</b>"
+                  }
+                },
+                "required": [
+                  "firstName",
+                  "lastName",
+                  "phone",
+                  "email",
+                  "dateOfBirth",
+                  "maritalStatus",
+                  "gender",
+                  "number",
+                  "documentType",
+                  "country"
+                ]
+              }
+            }
+          }
+        }
       }
     }
   },
