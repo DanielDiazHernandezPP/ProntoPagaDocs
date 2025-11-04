@@ -6153,113 +6153,6 @@
         }
       }
     },
-    "/payment/yape/{uid}/process": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "New Example": {
-                    "summary": "New Example",
-                    "value": ""
-                  },
-                  "Successful": {
-                    "summary": "Successful",
-                    "value": {
-                      "uid": "Payment identifier in the system",
-                      "status": "Status of the payment",
-                      "actionType": "API"
-                    }
-                  },
-                  "Rejected-Third OTP Attempt Failed": {
-                    "summary": "Rejected-Third OTP Attempt Failed",
-                    "value": {
-                      "uid": "Payment identifier in the system",
-                      "status": "rejected",
-                      "errorTitle": "Title of the rejection",
-                      "errorMessage": "Description of the rejection"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "Rejected": {
-                    "value": {
-                      "status": "false",
-                      "errorTitle": "Title of the rejection",
-                      "errorMessage": "Description of the rejection"
-                    },
-                    "summary": "Rejected"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "in": "path",
-            "name": "uid",
-            "schema": {
-              "type": "string"
-            },
-            "required": true
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "properties": {
-                  "phoneNumber": {
-                    "type": "string",
-                    "description": "Número de teléfono del cliente",
-                    "default": "999999999"
-                  },
-                  "otp": {
-                    "type": "string",
-                    "default": "123456",
-                    "description": "Código de validación OTP"
-                  }
-                },
-                "type": "object",
-                "required": [
-                  "phoneNumber",
-                  "otp"
-                ]
-              }
-            }
-          }
-        },
-        "x-readme": {
-          "samples-languages": [
-            "json"
-          ],
-          "code-samples": [
-            {
-              "code": "{\n  \"phoneNumber\": \"999999999\",\n  \"otp\": 123456\n}",
-              "language": "json",
-              "name": "Peru Yape (without iFrame)"
-            }
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
-      }
-    },
     "/payment/yape/{uid}/process/": {
       "post": {
         "description": "",
@@ -6535,6 +6428,113 @@
           }
         },
         "parameters": []
+      }
+    },
+    "/v2/biometric/{uid}/status": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "New Example": {
+                    "summary": "New Example",
+                    "value": ""
+                  },
+                  "Successful": {
+                    "summary": "Successful",
+                    "value": {
+                      "uid": "Payment identifier in the system",
+                      "status": "Status of the payment",
+                      "actionType": "API"
+                    }
+                  },
+                  "Rejected-Third OTP Attempt Failed": {
+                    "summary": "Rejected-Third OTP Attempt Failed",
+                    "value": {
+                      "uid": "Payment identifier in the system",
+                      "status": "rejected",
+                      "errorTitle": "Title of the rejection",
+                      "errorMessage": "Description of the rejection"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Rejected": {
+                    "value": {
+                      "status": "false",
+                      "errorTitle": "Title of the rejection",
+                      "errorMessage": "Description of the rejection"
+                    },
+                    "summary": "Rejected"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "phoneNumber": {
+                    "type": "string",
+                    "description": "Número de teléfono del cliente",
+                    "default": "999999999"
+                  },
+                  "otp": {
+                    "type": "string",
+                    "default": "123456",
+                    "description": "Código de validación OTP"
+                  }
+                },
+                "type": "object",
+                "required": [
+                  "phoneNumber",
+                  "otp"
+                ]
+              }
+            }
+          }
+        },
+        "x-readme": {
+          "samples-languages": [
+            "json"
+          ],
+          "code-samples": [
+            {
+              "code": "{\n  \"phoneNumber\": \"999999999\",\n  \"otp\": 123456\n}",
+              "language": "json",
+              "name": "Peru Yape (without iFrame)"
+            }
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     }
   },
