@@ -6392,18 +6392,6 @@
         }
       }
     },
-    "/new-endpoint": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
-      }
-    },
     "/v2/biometric/{uid}/status": {
       "get": {
         "description": "",
@@ -6557,6 +6545,27 @@
         "security": [
           {
             "BearerAuth": []
+          }
+        ]
+      }
+    },
+    "//v2/biometric/{uid}/status": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
           }
         ]
       }
