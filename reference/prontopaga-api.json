@@ -6393,6 +6393,38 @@
                 }
               }
             }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "error": {
+                        "documentNumber": "(string) documentNumber, cannot be null."
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "description": "Not Found"
           }
         },
         "parameters": [],
@@ -6476,6 +6508,28 @@
                   "documentType",
                   "country"
                 ]
+              },
+              "examples": {
+                "New Example": {
+                  "summary": "New Example",
+                  "value": {
+                    "usageType": "kyc",
+                    "person": {
+                      "firstName": "John",
+                      "lastName": "Doe",
+                      "phone": "123456789",
+                      "email": "jhondoe@example.com",
+                      "dateOfBirth": "1999-01-01",
+                      "gender": "M",
+                      "maritalStatus": "single"
+                    },
+                    "document": {
+                      "number": "1234567",
+                      "documentType": "PP",
+                      "country": "PE"
+                    }
+                  }
+                }
               }
             }
           }
