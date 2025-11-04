@@ -9,8 +9,17 @@ link:
   new_tab: false
 metadata:
   title: Detalles de una biometría | ProntoPagaDocs
+  description: >-
+    With this endpoint, you can check the status of a biometric verification
+    request.
   image: >-
     https://files.readme.io/8c172bfafb41ef74938cb4394fb0bde0b41539a9ac86c03822c5208bddf98f42-Prontopaga_Logotipo_2.JPG
+  keywords:
+    - biometric details
+    - biometric status
+    - ProntoPaga biometrics
+    - biometric verification
+    - biometric status endpoint
   robots: index
 ---
 Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
