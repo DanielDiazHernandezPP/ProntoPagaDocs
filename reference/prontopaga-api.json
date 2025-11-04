@@ -6414,17 +6414,6 @@
               }
             },
             "description": "Bad Request"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                }
-              }
-            },
-            "description": "Not Found"
           }
         },
         "parameters": [],
