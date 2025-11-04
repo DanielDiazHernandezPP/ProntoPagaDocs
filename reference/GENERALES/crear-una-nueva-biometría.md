@@ -27,6 +27,4 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-Con este endpoint obtendremos el balance disponible de todos nuestros comercios habilitados en nuestra cuenta.
-
-Muestra el balance total de todos los comercios en Neto, Diferido y Disponible. Con su respectiva moneda.
+Con este endpoint podrás realizar una nueva solicitud de verificación biométrica. La respuesta de ProntoPaga a la solicitud de verificaición biométrica es el UID de la transacción y la URL a la que debe redirigir al usuario.
