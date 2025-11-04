@@ -32,7 +32,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json JSON
 {
-		"usageType": "kyc",
+	  "usageType": "kyc",
     "person": {
       "firstName": "John",
       "lastName": "Doe",
