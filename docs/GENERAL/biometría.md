@@ -60,14 +60,14 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 ```json
 {
-		"biometricVerification": {
-			"uid": ID in our services,
-     	"status": Biometric status,
-      	"reference": <Biometrics reference>, // This reference is ours and unique, it is used to verify the biometrics in the ProntoPaga system.,
-      	"verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
-      	"decisions": [],
-      	"createdAt": Creation date,
-      	"updatedAt": Date of last update
+"biometricVerification": {
+	"uid": ID in our services,
+  "status": Biometric status,
+  "reference": <Biometrics reference>, // This reference is ours and unique, it is used to verify the biometrics in the ProntoPaga system.,
+  "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
+  "decisions": [],
+  "createdAt": Creation date,
+  "updatedAt": Date of last update
     }
 }
 ```
