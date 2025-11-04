@@ -6413,21 +6413,31 @@
           "400": {
             "description": "Bad Request",
             "content": {
+              "application/json": {}
+            }
+          },
+          "404": {
+            "content": {
               "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
                 "examples": {
-                  "Rejected": {
+                  "Not Found": {
+                    "summary": "Not Found",
                     "value": {
                       "success": false,
                       "statusCode": 404,
                       "message": "No existe una solicitud con el ID proporcionado.",
                       "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
                       "timestamp": "2025-11-04T14:20:17.098Z"
-                    },
-                    "summary": "Rejected"
+                    }
                   }
                 }
               }
-            }
+            },
+            "description": "Not Found"
           }
         },
         "parameters": [
