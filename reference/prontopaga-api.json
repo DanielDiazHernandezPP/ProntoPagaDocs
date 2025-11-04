@@ -6375,6 +6375,18 @@
           }
         ]
       }
+    },
+    "/v2/biometric/new": {
+      "get": {
+        "description": "",
+        "operationId": "get_v2biometricnew",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
     }
   },
   "x-readme": {
