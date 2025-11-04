@@ -6467,18 +6467,7 @@
             }
           }
         },
-        "x-readme": {
-          "samples-languages": [
-            "json"
-          ],
-          "code-samples": [
-            {
-              "code": "{\n  \"phoneNumber\": \"999999999\",\n  \"otp\": 123456\n}",
-              "language": "json",
-              "name": "Peru Yape (without iFrame)"
-            }
-          ]
-        },
+        "x-readme": {},
         "security": [
           {
             "BearerAuth": []
