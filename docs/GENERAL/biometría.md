@@ -62,7 +62,7 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 {
     "biometricVerification": {
         "uid": ID in our services,
-        "status": new,
+        "status": Biometric status,
         "reference": <Biometrics reference>, // This reference is ours and unique, it is used to verify the biometrics in the ProntoPaga system.,
         "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
         "decisions": [],
@@ -109,7 +109,7 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
         "status": Biometric status,
         "reference": Biometrics reference,
         "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
-        "decisions": [],
+        "decisions": <approved | declined>,
         "createdAt": Creation date,
         "updatedAt": Date of last update
     }
@@ -120,6 +120,10 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ```json
 {
-  "message": "Token could not be found."
+    "success": false,
+    "statusCode": 404,
+    "message": "No existe una solicitud con el ID proporcionado.",
+    "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
+    "timestamp": "2025-11-04T14:20:17.098Z"
 }
 ```
