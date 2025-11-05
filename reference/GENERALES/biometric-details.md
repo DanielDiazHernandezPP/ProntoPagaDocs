@@ -8,7 +8,7 @@ hidden: true
 link:
   new_tab: false
 metadata:
-  title: Detalles de una biometría | ProntoPagaDocs
+  title: Detalles de una biometría | ProntoPaga Docs
   description: >-
     With this endpoint, you can check the status of a biometric verification
     request.
