@@ -20,21 +20,17 @@ Con el servicio de verificación por biometría, los clientes serán redireccion
 
 ***
 
-<br />
-
 ## Crea una nueva biometría
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente, mientras que tu back-end estará integrado con nuestra API, procesando la creación de la biometría.
 
-De este modo, para crear una solicitud de nueva biometría, deberás usar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/reference/new-biometrics#/">este endpoint</Anchor>. La solicitud se envía con tu Bearer token, así como con tu SecretKey. Además, debes incluir los datos necesarios del cliente, como: nombre y apellido, correo electrónico, teléfono, país, fecha de nacimiento, entre otros.
+De este modo, para crear una solicitud de nueva biometría, deberás usar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/reference/new-biometrics#/">este endpoint</Anchor>. La solicitud se envía con tu Bearer token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente, como: nombre y apellido, correo electrónico, teléfono, país, fecha de nacimiento, entre otros.
 
 <NotaFirma />
 
 Para incluir la URL de retorno a la cual será redireccionado el cliente después de completar el proceso de la toma de fotografías, ponte en contacto con nuestro equipo de <Anchor label="Customer support" target="_blank" href="https://docs.prontopaga.com/page/necesitas-ayuda#/">Customer support</Anchor>
 
 ***
-
-<br />
 
 ### Body de la solicitud
 
@@ -59,8 +55,6 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
     }
 }
 ```
-
-<br />
 
 ### Respuesta
 
@@ -92,8 +86,6 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 }
 ```
 
-<br />
-
 ### Confirmación de una biometría
 
 Una vez que el usuario haya completado el proceso de la toma de fotografías, ProntoPaga lo redireccionará a la URL de retorno. Al mismo tiempo, devolverá los datos de la transacción al URL que hayas agregado anteriormente.
@@ -104,7 +96,7 @@ De este modo, para confirmar si una biometría fue exitosa, debes verificar que 
 
 ## Detalles de una biometría
 
-También puedes consultar los detalles de una biometría creada de forma exitosa anteriormente. Para hacerlo, debes de consultar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/reference/biometric-details#/">este endpoint</Anchor> , en donde deberás enviar el número `uid`en el path.
+También puedes consultar los detalles de una biometría creada de forma exitosa anteriormente. Para hacerlo, debes de consultar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/reference/biometric-details#/">este endpoint</Anchor>, en donde deberás enviar el número `uid`en el path.
 
 ### Respuesta
 
