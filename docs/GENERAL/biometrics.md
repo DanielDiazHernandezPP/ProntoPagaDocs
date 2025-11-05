@@ -28,7 +28,7 @@ De este modo, para crear una solicitud de nueva biometría, deberás usar <Ancho
 
 <NotaFirma />
 
-Para incluir la URL de retorno a la cual será redireccionado el cliente después de completar el proceso de la toma de fotografías, ponte en contacto con nuestro equipo de <Anchor label="Customer support" target="_blank" href="https://docs.prontopaga.com/page/necesitas-ayuda#/">Customer support</Anchor>
+Para incluir la URL de retorno a la cual será redireccionado el cliente después de completar el proceso de la toma de fotografías, ponte en contacto con nuestro equipo de <Anchor label="Customer support" target="_blank" href="https://docs.prontopaga.com/page/necesitas-ayuda#/">Customer support</Anchor>.
 
 ***
 
