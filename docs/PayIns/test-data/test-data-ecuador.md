@@ -43,3 +43,13 @@ Tarjetas para realizar pagos en modo prueba con el servicio de Payphone en Ecuad
   </tbody>
 </table>
 `}</HTMLBlock>
+
+<br />
+
+## Wallet (Payphone)
+
+<Callout icon="🚧">
+  **Datos de prueba para Payphone wallet**
+
+  Las pruebas de Payphone Wallet requieren un número telefónico y DNI válidos de un usuario real.
+</Callout>
