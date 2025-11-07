@@ -64,14 +64,37 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 ```json
 {
-"biometricVerification": {
-	"uid": ID in our services,
-  "status": Biometric status,
-  "reference": <Biometrics reference>, // This reference is ours and unique, it is used to verify the biometrics in the ProntoPaga system.,
-  "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
-  "decisions": [],
-  "createdAt": Creation date,
-  "updatedAt": Date of last update
+    "biometricVerification": {
+        "uid": "a5d089a7-00a4-475a-8e12-1ce559976e6f",
+        "status": "new",
+        "reference": "789XYZ",
+        "verificationUrl": "https://sandbox.prontopaga.com/v2/biometric/a5d089a7-00a4-475a-8e12-1ce559976e6f/verification",
+        "decisions": [
+         {
+        "verification": {
+            "id": "e5c11508-1512-42ec-bbec-0dfea9786e81",
+            "providerVerificationId": "e5c11508-1512-42ec-bbec-0dfea9786e81",
+            "verificationType": "document-selfie",
+            "vendorData": "015a5b17-df41-72b5-b18d-6f0be6459a1e",
+            "status": "started",
+            "person": {
+                "firstName": "John",
+                "lastName": "Doe",
+                "idNumber": "12345678"
+            },
+            "document": {
+                "number": "12345678",
+                "country": "PE",
+                "type": "PP"
+            },
+            "finalDocument": {
+                "number": null,
+                "country": null,
+                "type": null
+            }
+        ],
+        "createdAt": "2025-10-30 17:56:17",
+        "updatedAt": "2025-10-30 17:56:17"
     }
 }
 ```
@@ -80,17 +103,28 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 ```json
 {
-"error": {
-	"documentNumber": "(string) documentNumber, cannot be null."
-  }
+  "errors": [
+    {
+      "property": "document.number",
+      "value": "",
+      "message": "El campo 'number' no puede estar vacío."
+    },
+    {
+      "property": "document.number",
+      "value": "",
+      "message": "Este valor es demasiado corto. Debería tener 5 caracteres o más."
+    }
+  ]
 }
 ```
-
-### Confirmación de una biometría
 
 Una vez que el usuario haya completado el proceso de la toma de fotografías, ProntoPaga lo redireccionará a la URL de retorno. Al mismo tiempo, devolverá los datos de la transacción al URL que hayas agregado anteriormente.
 
 De este modo, para confirmar si una biometría fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+
+<Callout icon="❗️">
+
+</Callout>
 
 ***
 
@@ -106,14 +140,37 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ```json
 {
-"biometricVerification": {
-	"uid": ID in our services,
-  "status": Biometric status,
-  "reference": Biometrics reference,
-  "verificationUrl": <Biometrics link, the user should be redirected to this link to complete the process.>, 
-  "decisions": <approved | declined>,
-  "createdAt": Creation date,
-  "updatedAt": Date of last update
+    "biometricVerification": {
+        "uid": "a5d089a7-00a4-475a-8e12-1ce559976e6f",
+        "status": "success",
+        "reference": "04K8VEGC40897X2NM1JHQ8PXMF",
+        "verificationUrl": "https://sandbox.prontopaga.com/v2/biometric/a5d089a7-00a4-475a-8e12-1ce559976e6f/verification",
+        "decisions": [
+         {
+        "verification": {
+            "id": "e5c11508-1512-42ec-bbec-0dfea9786e81",
+            "providerVerificationId": "e5c11508-1512-42ec-bbec-0dfea9786e81",
+            "verificationType": "document-selfie",
+            "vendorData": "015a5b17-df41-72b5-b18d-6f0be6459a1e",
+            "status": "started",
+            "person": {
+                "firstName": "John",
+                "lastName": "Doe",
+                "idNumber": "12345678"
+            },
+            "document": {
+                "number": "12345678",
+                "country": "PE",
+                "type": "PP"
+            },
+            "finalDocument": {
+                "number": null,
+                "country": null,
+                "type": null
+            }
+        ],
+        "createdAt": "2025-10-30 17:56:17",
+        "updatedAt": "2025-10-30 17:56:17"
     }
 }
 ```
@@ -122,10 +179,9 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ```json
 {
-"success": false,
-"statusCode": 404,
-"message": "No existe una solicitud con el ID proporcionado.",
-"path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
-"timestamp": "2025-11-04T14:20:17.098Z"
+  "message": "biometricNotFound",
+  "code": 1
 }
 ```
+
+<br />
