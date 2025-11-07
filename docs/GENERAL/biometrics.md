@@ -120,10 +120,8 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 Una vez que el usuario haya completado el proceso de la toma de fotografías, ProntoPaga lo redireccionará a la URL de retorno. Al mismo tiempo, devolverá los datos de la transacción al URL que hayas agregado anteriormente.
 
-De este modo, para confirmar si una biometría fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
-
 <Callout icon="❗️" theme="error">
-
+  **Reenvío de nueva biometría**
 </Callout>
 
 ***
