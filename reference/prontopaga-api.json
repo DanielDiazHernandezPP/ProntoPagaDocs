@@ -6255,7 +6255,7 @@
                 "examples": {
                   "OK": {
                     "summary": "OK",
-                    "value": "{\n    \"biometricVerification\": {\n        \"uid\": ID in our services,\n        \"status\": new,\n        \"reference\": <Biometrics reference>, // This reference is ours and unique, it is used to verify the biometrics in the ProntoPaga system.,\n        \"verificationUrl\": <Biometrics link, the user should be redirected to this link to complete the process.>, \n        \"decisions\": [],\n        \"createdAt\": Creation date,\n        \"updatedAt\": Date of last update\n    }\n}"
+                    "value": "{\n    \"biometricVerification\": {\n        \"uid\": \"a5d089a7-00a4-475a-8e12-1ce559976e6f\",\n        \"status\": \"new\",\n        \"reference\": \"789XYZ\",\n        \"verificationUrl\": \"https://sandbox.prontopaga.com/v2/biometric/a5d089a7-00a4-475a-8e12-1ce559976e6f/verification\",\n        \"decisions\": [\n         {\n        \"verification\": {\n            \"id\": \"e5c11508-1512-42ec-bbec-0dfea9786e81\",\n            \"providerVerificationId\": \"e5c11508-1512-42ec-bbec-0dfea9786e81\",\n            \"verificationType\": \"document-selfie\",\n            \"vendorData\": \"015a5b17-df41-72b5-b18d-6f0be6459a1e\",\n            \"status\": \"started\",\n            \"person\": {\n                \"firstName\": \"John\",\n                \"lastName\": \"Doe\",\n                \"idNumber\": \"12345678\"\n            },\n            \"document\": {\n                \"number\": \"12345678\",\n                \"country\": \"PE\",\n                \"type\": \"PP\"\n            },\n            \"finalDocument\": {\n                \"number\": null,\n                \"country\": null,\n                \"type\": null\n            }\n        ],\n        \"createdAt\": \"2025-10-30 17:56:17\",\n        \"updatedAt\": \"2025-10-30 17:56:17\"\n    }\n}"
                   }
                 }
               }
@@ -6272,9 +6272,18 @@
                   "Bad Request": {
                     "summary": "Bad Request",
                     "value": {
-                      "error": {
-                        "documentNumber": "(string) documentNumber, cannot be null."
-                      }
+                      "errors": [
+                        {
+                          "property": "document.number",
+                          "value": "",
+                          "message": "El campo 'number' no puede estar vacío."
+                        },
+                        {
+                          "property": "document.number",
+                          "value": "",
+                          "message": "Este valor es demasiado corto. Debería tener 5 caracteres o más."
+                        }
+                      ]
                     }
                   }
                 }
