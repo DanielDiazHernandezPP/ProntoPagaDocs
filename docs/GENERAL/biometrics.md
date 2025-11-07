@@ -122,6 +122,8 @@ Una vez que el usuario haya completado el proceso de la toma de fotografías, Pr
 
 <Callout icon="❗️" theme="error">
   **Reenvío de nueva biometría**
+
+  Si un cliente realiza una solicitud para una nueva biometría después de haber sido dado de baja, debe usar **el mismo número y tipo de documento** en los parámetros del campo `document` que se usó la primera vez que envió su solicitud.
 </Callout>
 
 ***
