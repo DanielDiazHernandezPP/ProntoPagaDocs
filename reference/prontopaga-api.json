@@ -6433,7 +6433,17 @@
           "400": {
             "description": "Bad Request",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "biometricNotFound",
+                      "code": 1
+                    }
+                  }
+                }
+              }
             }
           },
           "404": {
@@ -6442,18 +6452,6 @@
                 "schema": {
                   "type": "object",
                   "properties": {}
-                },
-                "examples": {
-                  "Not Found": {
-                    "summary": "Not Found",
-                    "value": {
-                      "success": false,
-                      "statusCode": 404,
-                      "message": "No existe una solicitud con el ID proporcionado.",
-                      "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
-                      "timestamp": "2025-11-04T14:20:17.098Z"
-                    }
-                  }
                 }
               }
             },
