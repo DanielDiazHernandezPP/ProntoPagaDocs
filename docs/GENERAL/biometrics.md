@@ -122,7 +122,7 @@ Una vez que el usuario haya completado el proceso de la toma de fotografías, Pr
 
 De este modo, para confirmar si una biometría fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
-<Callout icon="❗️">
+<Callout icon="❗️" theme="error">
 
 </Callout>
 
@@ -185,9 +185,9 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 ```
 
 <Callout icon="📘" theme="info">
-  **Ver el estado de una verificación biométrica**
+  **###Ver el estado de una verificación biométrica**
 
-  Otra forma de conocer el `status` de una biometría es copiar y pegar el `verificationURL` obtenido en la respuesta del endpoint de **Crear una nueva solicitud de biometría**, una vez que hayas terminado el proceso de la toma de fotografías. 
+  Otra forma de conocer el `status` de una biometría es copiar y pegar el `verificationURL` obtenido en la respuesta del endpoint de **Crear una nueva solicitud de biometría**, una vez que hayas terminado el proceso de la toma de fotografías.
 
   Al ingresar, se te mostrará el estatus actual de la verificación.
 </Callout>
