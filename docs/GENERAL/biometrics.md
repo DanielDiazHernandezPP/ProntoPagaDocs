@@ -189,3 +189,11 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 > Otra forma de conocer el `status` de una biometría, es copiar y pegar el `verificationURL` obtenido en la respuesta del endpoint de **Crear una nueva solicitud de biometría**, una vez hayas terminado el proceso de la toma de fotografías.
 >
 > Al ingresar, se te mostrará el estatus actual de la verificación.
+
+<br />
+
+## Posibles resultados de una verificación biométrica
+
+El parámetros `status` muestra el estado actual de una verificación de biometría. Los posibles resultados dentro de este parámetro son los siguientes:
+
+<br />
