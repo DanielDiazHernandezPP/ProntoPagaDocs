@@ -184,10 +184,8 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 }
 ```
 
-<Callout icon="📘" theme="info">
-  ## **Ver el estado de una verificación biométrica**
-
-  Otra forma de conocer el `status` de una biometría es copiar y pegar el `verificationURL` obtenido en la respuesta del endpoint de **Crear una nueva solicitud de biometría**, una vez que hayas terminado el proceso de la toma de fotografías.
-
-  Al ingresar, se te mostrará el estatus actual de la verificación.
-</Callout>
+> 📘 **Ver el estado de una verificación biométrica**
+>
+> Otra forma de conocer el `status` de una biometría es copiar y pegar el `verificationURL` obtenido en la respuesta del endpoint de **Crear una nueva solicitud de biometría**, una vez que hayas terminado el proceso de la toma de fotografías.
+>
+> Al ingresar, se te mostrará el estatus actual de la verificación.
