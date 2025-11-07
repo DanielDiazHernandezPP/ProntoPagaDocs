@@ -99,6 +99,10 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 }
 ```
 
+> 📘 **Campo `finalDocument`**
+>
+> Los parámetros del campo `finalDocument` pueden ser `null`.
+
 #### Ejemplo de respuesta fallida:
 
 ```json
@@ -120,11 +124,9 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 Una vez que el usuario haya completado el proceso de la toma de fotografías, ProntoPaga lo redireccionará a la URL de retorno. Al mismo tiempo, devolverá los datos de la transacción al URL que hayas agregado anteriormente.
 
-<Callout icon="❗️" theme="error">
-  **Reenvío de nueva biometría**
-
-  Si un cliente solicita una **nueva biometría** después de haber sido dado de baja, debe usar **el mismo número y tipo de documento** en los parámetros del campo `document` que empleó en su solicitud original.
-</Callout>
+> ❗️ **Reenvío de nueva biometría**
+>
+> Si un cliente solicita una **nueva biometría** después de haber sido dado de baja, debe usar **el mismo número y tipo de documento** en los parámetros del campo `document` que empleó en su solicitud original.
 
 ***
 
