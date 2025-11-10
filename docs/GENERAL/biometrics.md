@@ -99,9 +99,12 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 }
 ```
 
-> 📘 **Campo `finalDocument`**
+> 📘 **Parámetros de una respuesta**
 >
-> Los parámetros del campo `finalDocument` pueden ser `null`.
+> * Los parámetros del campo `finalDocument` pueden ser `null`.
+> * El campo `decisions` puede ser un array vacío.
+
+<br />
 
 #### Ejemplo de respuesta fallida:
 
@@ -176,6 +179,13 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
     }
 }
 ```
+
+> 📘 **Parámetros de una respuesta**
+>
+> * Los parámetros del campo `finalDocument` pueden ser `null`.
+> * El campo `decisions` puede ser un array vacío.
+
+<br />
 
 **Ejemplo de respuesta fallida**:
 
