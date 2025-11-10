@@ -39,7 +39,7 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de WooCommerce en donde instalarás el plugin.
-* Descargar previamente el archivo .zip del plugin, [disponible aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/ana_escalante_prontopaga_com/Ef-ZtsauA5lIkDChCnRxrjoBn_kNMDcw7-sXk_6-3YMeEg?e=X5gLiX).
+* Descargar previamente el archivo .zip del plugin, [disponible aquí](https://drive.google.com/uc?export=download\&id=1GBeWHdoyFovihNltMqwZEQxFj8U2ho2X).
 
 ***
 
