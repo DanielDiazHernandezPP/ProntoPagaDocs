@@ -82,7 +82,7 @@ En la tabla a continuación, podrás consultar las entidades aptas para transacc
     <tr><td>TARJETA OH</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>PREXPE</td><td>✅ YES✅</td><td>✅ YES</td></tr>
+    <tr><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
     <tr><td>CMAC AREQUIPA</td><td>❌ NO</td><td>✅ YES</td></tr>
