@@ -163,6 +163,8 @@ En caso de requerir ayuda con un pedido específico, por favor comparte con noso
 Estos son algunos enlaces que podrían ser de utilidad durante este proceso:
 
 * Documentación oficial de VTEX: [https://developers.vtex.com/](https://developers.vtex.com/)
-* Repositorio de ProntoPaga: [https://ci.prontopaga.com/users/sign\_in](https://ci.prontopaga.com/users/sign_in)
-* Soporte de VTEX (en caso de errores persistentes en la plataforma):  [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
-* Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [roger.pecho@prontopaga.com](mailto:roger.pecho@prontopaga.com)
+* Repositorio de ProntoPaga: [https://ci.prontopaga.com/users/sign_in](https://ci.prontopaga.com/users/sign_in)
+* Soporte de VTEX (en caso de errores persistentes en la plataforma):  [support@prontopaga.com](mailto:support@prontopaga.com)
+* Soporte de ProntoPaga (en caso de errores persistentes con la pasarela): [support@prontopaga.com](mailto:support@prontopaga.com)
+
+<br />
