@@ -6340,7 +6340,7 @@
                   "phone": {
                     "type": "string",
                     "default": "",
-                    "description": "Número de teléfono del cliente"
+                    "description": "Número de teléfono del cliente. Admite solo 9 caracteres."
                   },
                   "email": {
                     "type": "string",
@@ -6353,7 +6353,7 @@
                   },
                   "gender": {
                     "type": "string",
-                    "description": "Género del cliente"
+                    "description": "Género del cliente: <b<M/F</b>"
                   },
                   "maritalStatus": {
                     "type": "string",
@@ -6370,6 +6370,9 @@
                   "country": {
                     "type": "string",
                     "description": "Código del país: <b>CL/EC/PE</b>"
+                  },
+                  "usageType": {
+                    "type": "string"
                   }
                 },
                 "required": [
