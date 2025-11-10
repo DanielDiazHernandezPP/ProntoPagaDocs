@@ -6327,6 +6327,10 @@
               "schema": {
                 "type": "object",
                 "properties": {
+                  "usageType": {
+                    "type": "string",
+                    "description": "Campo de texto libre para indicar el uso que se le da a la biometría"
+                  },
                   "firstName": {
                     "type": "string",
                     "default": "",
@@ -6353,7 +6357,7 @@
                   },
                   "gender": {
                     "type": "string",
-                    "description": "Género del cliente: <b<M/F</b>"
+                    "description": "Género del cliente: <b>M/F</b>"
                   },
                   "maritalStatus": {
                     "type": "string",
@@ -6370,9 +6374,6 @@
                   "country": {
                     "type": "string",
                     "description": "Código del país: <b>CL/EC/PE</b>"
-                  },
-                  "usageType": {
-                    "type": "string"
                   }
                 },
                 "required": [
@@ -6385,7 +6386,8 @@
                   "gender",
                   "number",
                   "documentType",
-                  "country"
+                  "country",
+                  "usageType"
                 ]
               },
               "examples": {
