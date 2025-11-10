@@ -6361,7 +6361,7 @@
                   },
                   "maritalStatus": {
                     "type": "string",
-                    "description": "Estado civil del cliente"
+                    "description": "Estado civil del cliente: <b>single/married/divorced/widowed</b>"
                   },
                   "number": {
                     "type": "string",
