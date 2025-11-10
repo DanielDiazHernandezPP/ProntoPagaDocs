@@ -35,7 +35,7 @@ Esta guía te llevará paso a paso a través del proceso de instalación, config
 Antes de comenzar con la instalación, asegúrate de contar con lo siguiente:
 
 * Acceso de tipo administrador a la tienda de PrestaShop en donde instalarás el plugin.
-* Descargar previamente el archivo .zip del plugin, [disponible aquí](https://prontopagalatam-my.sharepoint.com/:u:/g/personal/ana_escalante_prontopaga_com/EbQ-WUuMFhpCqKj_ss_kz_cBUsvQG6SrmqE3PZgNJ9_DDg?e=1XIxVE).
+* Descargar previamente el archivo .zip del plugin, [disponible aquí](https://drive.google.com/uc?export=download\&id=1w3SEr_1xuBVHak23uhcx9HRNjG_UO8MM).
 
 ***
 
