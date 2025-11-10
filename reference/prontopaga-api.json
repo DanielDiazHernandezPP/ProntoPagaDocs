@@ -6344,7 +6344,7 @@
                   "phone": {
                     "type": "string",
                     "default": "",
-                    "description": "Número de teléfono del cliente. Admite solo 9 caracteres."
+                    "description": "Número de teléfono del cliente. Admite únicamente 9 caracteres"
                   },
                   "email": {
                     "type": "string",
@@ -6365,7 +6365,7 @@
                   },
                   "number": {
                     "type": "string",
-                    "description": "Número de documento del cliente"
+                    "description": "Número de documento del cliente. Mínimo de 5 y máximo de 18 caracteres alfanumérios"
                   },
                   "documentType": {
                     "type": "string",
