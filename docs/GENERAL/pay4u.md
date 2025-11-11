@@ -16,12 +16,16 @@ Este servicio es útil para los clientes que están constituidos en un país y o
 
 El proceso de un pago Pay4U inicia con el registro del destinatario de la transferencia, donde se solicitan **datos de identificación**, **cuenta bancaria** y **contrato**. Puedes ver el paso a paso de este proceso <Anchor label="aquí" target="_blank" href="https://docs.prontopaga.com/docs/m%C3%B3dulo-pay4u#/">aquí</Anchor>.
 
-> 📘 Registro de destinatarios
->
-> Los destinatarios se registran y validan solamente una vez.
+<Callout icon="📘" theme="info">
+  **Registro de destinatarios**
+
+  Los destinatarios se registran y validan solamente una vez.
+</Callout>
 
 Una vez aprobado el destinatario, el cliente puede solicitar el Pay4U, ingresando **la factura asociada**, o **rol de pagos**, en caso de **colaboradores**. Este documento es revisado para asegurar que el monto coincida, sea válido y corresponda al destinatario.
 
-> 📘 Solicitar un pago Pay4U
->
-> Se debe ingresar la factura o rol en cada pago, por ende se valida cada vez que se va a realizar un pago.
+<Callout icon="🚧">
+  **Solicitar un pago Pay4U**
+
+  Se debe ingresar la factura o rol en cada pago, por ende se valida cada vez que se va a realizar un pago.
+</Callout>
