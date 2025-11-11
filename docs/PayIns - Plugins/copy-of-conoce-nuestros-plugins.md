@@ -118,29 +118,70 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 ## 🚀 Cómo empezar tu integración
 
-<Cards columns={4} className="pp-cards--autofit">
-  <div style={{ textAlign: 'center' }}>
-    <Card icon="fa-solid fa-hand-pointer">
+<Cards columns={4} className="pp-cards--equal">
+  <Card>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}>
+      <i className="fa-solid fa-hand-pointer" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
       <strong>Selecciona tu plataforma</strong>
-<br></br>
-    </Card>
-  </div>
-
-  <div style={{ textAlign: 'center' }}>
-    <Card icon="fa-solid fa-plug">
+    </div>
+  </Card>
+  <Card>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}>
+      <i className="fa-solid fa-plug" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
       <strong>Descarga e instala el plugin</strong>
-    </Card>
-  </div>
-
-  <div style={{ textAlign: 'center' }}>
-    <Card icon="fa-solid fa-flask">
+    </div>
+  </Card>
+  <Card>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}>
+      <i className="fa-solid fa-vial" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
       <strong>Prueba tu integración</strong>
-    </Card>
-  </div>
-
-  <div style={{ textAlign: 'center' }}>
-    <Card icon="fa-solid fa-circle-check">
+    </div>
+  </Card>
+  <Card>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}>
+      <i className="fa-solid fa-circle-check" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
       <strong>¡Listo!</strong>
-    </Card>
-  </div>
+    </div>
+  </Card>
 </Cards>
+
+
+
+
+
+
+
+Tomar notas
+
+
+
+
+
+
+
+
+
