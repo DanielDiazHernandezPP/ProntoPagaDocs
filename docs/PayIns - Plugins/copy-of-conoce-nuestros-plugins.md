@@ -70,7 +70,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
   <div style={{ width: '100%', maxWidth: 560 }}>
-    <Cards columns={1}>
+    <Cards columns={0}>
       <Card>
         <h3 style={{ textAlign: 'center', marginTop: 0 }}>:cohete: Cómo empezar</h3>
 
