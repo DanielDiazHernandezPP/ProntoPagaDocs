@@ -72,7 +72,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <center>
   <GuideCard
-    title="🚀 Cómo empezar"
+    title="🚀 Cómo empezar tu integración"
     description={
     <ul>
       <li><center><h3>Selecciona tu plataforma</h3></center></li>
@@ -83,3 +83,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   }
   />
 </center>
+
+integración
+
+<br />
