@@ -69,8 +69,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 | <center><img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/magento#/" target="_blank" /></center> |
 
 <Cards columns={1}>
-  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
-    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+  <Card>
 
     <h3>🚀 Cómo empezar</h3>
     Consulta su Guía de instalación y configuración aquí.
