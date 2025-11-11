@@ -120,68 +120,68 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <Cards columns={4} className="pp-cards--equal">
   <Card>
-    <div style={{
+    <div
+      style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
       height: '140px'
-    }}>
-      <i className="fa-solid fa-hand-pointer" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
+    }}
+    >
+      <i className="fa-solid fa-hand-pointer" style={{ fontSize: '24px', marginBottom: '8px' }} />
+
       <strong>Selecciona tu plataforma</strong>
     </div>
   </Card>
+
   <Card>
-    <div style={{
+    <div
+      style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
       height: '140px'
-    }}>
-      <i className="fa-solid fa-plug" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
+    }}
+    >
+      <i className="fa-solid fa-plug" style={{ fontSize: '24px', marginBottom: '8px' }} />
+
       <strong>Descarga e instala el plugin</strong>
     </div>
   </Card>
+
   <Card>
-    <div style={{
+    <div
+      style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
       height: '140px'
-    }}>
-      <i className="fa-solid fa-vial" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
-      <strong>Prueba tu integración</strong>
+    }}
+    >
+      <i className="fa-solid fa-vial" style={{ fontSize: '24px', marginBottom: '8px' }} />
+
+      <strong><center>Prueba tu integración</center></strong>
     </div>
   </Card>
+
   <Card>
-    <div style={{
+    <div
+      style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
       height: '140px'
-    }}>
-      <i className="fa-solid fa-circle-check" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
+    }}
+    >
+      <i className="fa-solid fa-circle-check" style={{ fontSize: '24px', marginBottom: '8px' }} />
+
       <strong>¡Listo!</strong>
     </div>
   </Card>
 </Cards>
 
-
-
-
-
-
-
 Tomar notas
-
-
-
-
-
-
-
-
-
