@@ -68,10 +68,17 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 | <center><img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" /></center>                |
 | <center><img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/magento#/" target="_blank" /></center> |
 
-<center>
-  <GuideCard
-    title="🚀 Cómo empezar"
-    description="<ul><li> Selecciona tu plataforma</li> <li>Descarga e instala el plugin</li> <li>Prueba tu integración</li> <li>¡Listo!</li>
-</ul>"
-  />
-</center>
+
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <div style={{ width: '100%', maxWidth: 560 }}>
+    <GuideCard title="🚀 Cómo empezar">
+      <ul style={{ margin: 0, paddingLeft: '1.2rem', textAlign: 'left' }}>
+        <li>Selecciona tu plataforma</li>
+        <li>Descarga e instala el plugin</li>
+        <li>Prueba tu integración</li>
+        <li>¡Listo!</li>
+      </ul>
+    </GuideCard>
+  </div>
+</div>
