@@ -1,7 +1,7 @@
 ---
 title: Copy of Conoce nuestros plugins
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Conoce nuestros plugins | ProntoPaga Docs
   description: >-
