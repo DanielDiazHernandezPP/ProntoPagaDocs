@@ -69,7 +69,12 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 | <center><img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/magento#/" target="_blank" /></center> |
 
 <center>
-  <GuideCard icon="" title="🚀 Cómo empezar" description="This is a description of the guide card." />
+  <GuideCard icon="" title="🚀 Cómo empezar" description="<ul>
+  <li>Selecciona tu plataforma</li>
+  <li>Descarga e instala el plugin</li>
+  <li>Configura tus credenciales de ProntoPaga</li>
+  <li>Realiza una transacci´</li>
+</ul>" />
 </center>
 
-Cómo empezar
+Realiza tus pruebas en 
