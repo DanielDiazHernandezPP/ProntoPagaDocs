@@ -94,4 +94,18 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <br />
 
-<GuideCard title=":cohete: Cómo empezar" description={`- Selecciona tu plataforma\n- Descarga e instala el plugin\n- Prueba tu integración\n- ¡Listo!`} />
+<GuideCard title="🚀Cómo empezar" description={`- Selecciona tu plataforma\n- Descarga e instala el plugin\n- Prueba tu integración\n- ¡Listo!`} />
+
+<br />
+
+<GuideCard
+  title="🚀 Cómo empezar"
+  description={
+    <ul>
+      <li>Selecciona tu plataforma</li>
+      <li>Descarga e instala el plugin</li>
+      <li>Prueba tu integración</li>
+      <li>¡Listo!</li>
+    </ul>
+  }
+/>
