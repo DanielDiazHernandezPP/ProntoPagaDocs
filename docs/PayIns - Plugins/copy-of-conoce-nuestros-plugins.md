@@ -128,11 +128,11 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   </Card>
 
   <Card title="3" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
+    Prueba tu integración
   </Card>
 
   <Card title="4" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
+    **¡Listo!**
   </Card>
 </Cards>
 
