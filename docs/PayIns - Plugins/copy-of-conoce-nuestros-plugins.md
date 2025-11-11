@@ -70,8 +70,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <br />
 
-
-<GuideCard
+<center><GuideCard
   title="🚀 Cómo empezar"
   description={
     <ul>
@@ -81,4 +80,4 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
       <li><h3>¡Listo!</h3></li>
     </ul>
   }
-/>
+/> </center>
