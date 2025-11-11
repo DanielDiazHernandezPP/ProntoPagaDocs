@@ -120,7 +120,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <Cards columns={4} className="pp-cards--autofit">
   <center>
-    <Card title="1">
+    <Card icon="fa-solid fa-hand-pointer">
       **Selecciona tu plataforma**
     </Card>
   </center>
