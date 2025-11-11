@@ -68,6 +68,6 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 | <center><img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" /></center>                |
 | <center><img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/magento#/" target="_blank" /></center> |
 
-<GuideCard icon="fa-regular fa-rocket-launch" title="Cómo empezar" description="This is a description of the guide card." />
+<center><GuideCard icon="fa-regular fa-rocket-launch" title="Cómo empezar" description="This is a description of the guide card." /></center>
 
 Cómo empezar
