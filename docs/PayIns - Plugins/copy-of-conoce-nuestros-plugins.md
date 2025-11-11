@@ -87,6 +87,10 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   }
 />
 
+***
+
+<br />
+
 ## Plugins oficiales de ProntoPaga
 
 Estos plugins están listos para ser integrados hoy mismo en tu comercio:
