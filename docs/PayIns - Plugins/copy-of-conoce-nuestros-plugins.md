@@ -57,7 +57,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <br />
 
-# V1
+## V1
 
 <Cards>
   <ImageCard imageSrc="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" imageAlt="PrestasShop" title="PrestaShop" description="Acepta pagos con tarjeta online de manera segura." />
