@@ -125,7 +125,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     </Card>
   </center>
 
-  <Card title="2">
+  <Card icon="fa-solid fa-plug">
     **Descarga e instala el plugin**
   </Card>
 
