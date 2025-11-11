@@ -102,10 +102,10 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   title="🚀 Cómo empezar"
   description={
     <ul>
-      <li><h3><b>Selecciona tu plataforma</b></h3></li>
-      <li><h3><b>Descarga e instala el plugin</b></h3></li>
-      <li><h3><b>Prueba tu integración</b></h3></li>
-      <li><h3><b>¡Listo!</b></h3></li>
+      <li><h3>Selecciona tu plataforma</h3></li>
+      <li><h3>Descarga e instala el plugin</h3></li>
+      <li><h3>Prueba tu integración</h3></li>
+      <li><h3>¡Listo!</h3></li>
     </ul>
   }
 />
