@@ -26,13 +26,14 @@ metadata:
 Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <Cards columns={2}>
-  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
+  <center><Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
     <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>PrestaShop</h3>
     Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
-<Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
-  </Card>
+
+    <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
+    </Card></center>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
     <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
