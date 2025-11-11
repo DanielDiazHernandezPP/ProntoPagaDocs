@@ -129,7 +129,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     **Descarga e instala el plugin**
   </Card>
 
-  <Card icon="fa-solid fa-vial">
+  <Card icon="fa-solid fa-flask">
     **Prueba tu integración**
   </Card>
 
