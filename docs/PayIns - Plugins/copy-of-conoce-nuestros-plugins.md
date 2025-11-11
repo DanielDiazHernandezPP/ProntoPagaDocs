@@ -131,7 +131,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     >
       <i className="fa-solid fa-hand-pointer" style={{ fontSize: '24px', marginBottom: '8px' }} />
 
-      <strong>Selecciona tu plataforma</strong>
+      <strong><center>Selecciona tu plataforma</center></strong>
     </div>
   </Card>
 
@@ -147,7 +147,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     >
       <i className="fa-solid fa-plug" style={{ fontSize: '24px', marginBottom: '8px' }} />
 
-      <strong>Descarga e instala el plugin</strong>
+      <strong><center>Descarga e instala el plugin</center></strong>
     </div>
   </Card>
 
@@ -179,7 +179,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     >
       <i className="fa-solid fa-circle-check" style={{ fontSize: '24px', marginBottom: '8px' }} />
 
-      <strong>¡Listo!</strong>
+      <strong><center>¡Listo!</center></strong>
     </div>
   </Card>
 </Cards>
