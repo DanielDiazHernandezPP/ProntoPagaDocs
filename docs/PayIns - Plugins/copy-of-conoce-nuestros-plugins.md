@@ -120,11 +120,11 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <Cards columns={4} className="pp-cards--autofit">
   <Card title="1" href="https://readme.com" icon="fa-home" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
+    *Selecciona tu plataforma*
   </Card>
 
   <Card title="2" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+    Descarga e instala el plugin
   </Card>
 
   <Card title="3" icon="fa-star">
