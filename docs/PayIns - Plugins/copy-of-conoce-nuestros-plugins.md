@@ -84,6 +84,6 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   />
 </center>
 
-integración
+<br />
 
 <br />
