@@ -21,8 +21,6 @@ metadata:
     - payin plugin
   robots: index
 ---
-# Original
-
 ## 🔌 Plugins oficiales de ProntoPaga
 
 Estos plugins están listos para ser integrados hoy mismo en tu comercio:
