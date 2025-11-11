@@ -1,5 +1,6 @@
 ---
 title: Copy of Conoce nuestros plugins
+excerpt: Integra pagos fácimelmente en las principales plataformas de e-commerce
 deprecated: false
 hidden: true
 metadata:
@@ -20,15 +21,11 @@ metadata:
     - payin plugin
   robots: index
 ---
-Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, diseñados para integrarse de forma rápida y segura con las plataformas de comercio electrónico más populares. Facilita las transacciones de tus clientes y mejora la eficiencia de tu tienda online con nuestras soluciones confiables y optimizadas para cada plataforma.
-
-***
-
 # Original
 
-## 🔌 Nuestros plugins
+## 🔌 Plugins oficiales de ProntoPaga
 
-Los plugins que ya están listos para ser integrados hoy en tu comercio son:
+Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <Cards columns={2}>
   <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
