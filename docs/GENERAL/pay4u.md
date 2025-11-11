@@ -14,4 +14,6 @@ Este servicio es útil para los clientes que están constituidos en un país y o
 
 ## Proceso de pagos Pay4U
 
-El proceso de un pago **Pay4U** inicia con el registro del destinatario de la transferencia, donde se solicitan datos de identificación, cuenta bancaria y contrato. Puedes ver el paso a paso de este proceso aquí.
+El proceso de un pago **Pay4U** inicia con el registro del destinatario de la transferencia, donde se solicitan datos de identificación, cuenta bancaria y contrato. Puedes ver el paso a paso de este proceso <Anchor label="aquí" target="_blank" href="https://docs.prontopaga.com/docs/m%C3%B3dulo-pay4u#/">aquí</Anchor>.
+
+<br />
