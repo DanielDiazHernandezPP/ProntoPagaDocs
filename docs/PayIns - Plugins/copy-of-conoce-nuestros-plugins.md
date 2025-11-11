@@ -70,19 +70,17 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <br />
 
-
-  <GuideCard
-    title="🚀 Cómo empezar tu integración"
-    description={
-    <ul>
+<GuideCard
+  title="🚀 Cómo empezar tu integración"
+  description={
+    <ol>
       <li><h3>Selecciona tu plataforma</h3></li>
       <li><h3>Descarga e instala el plugin</h3></li>
       <li><h3>Prueba tu integración</h3></li>
       <li><h3>¡Listo!</h3></li>
-   </ul>
+   </ol>
   }
-  />
-
+/>
 
 <br />
 
