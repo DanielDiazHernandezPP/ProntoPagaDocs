@@ -119,9 +119,11 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 ## 🚀 Cómo empezar tu integración
 
 <Cards columns={4} className="pp-cards--autofit">
-  <center><Card title="1">
-    **Selecciona tu plataforma**
-    </Card></center>
+  <center>
+    <Card title="1">
+      **Selecciona tu plataforma**
+    </Card>
+  </center>
 
   <Card title="2">
     **Descarga e instala el plugin**
@@ -135,5 +137,10 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     **¡Listo!**
   </Card>
 </Cards>
+
+<br />
+
+<Cards>
+  <ImageCard title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." /> </Cards>
 
 <br />
