@@ -30,7 +30,7 @@ Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, dise
 
 Los plugins que ya están listos para ser integrados hoy en tu comercio son:
 
-<Cards columns={3}>
+<Cards columns={2}>
   <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
     <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
