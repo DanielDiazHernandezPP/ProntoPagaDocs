@@ -119,19 +119,19 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 ## 🚀 Cómo empezar tu integración
 
 <Cards columns={4} className="pp-cards--autofit">
-  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+  <Card title="1" href="https://readme.com" icon="fa-home" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
-  <Card title="Second Card" icon="fa-user">
+  <Card title="2" icon="fa-user">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 
-  <Card title="Third Card" icon="fa-star">
+  <Card title="3" icon="fa-star">
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
 
-  <Card title="Fourth Card" icon="fa-question">
+  <Card title="4" icon="fa-question">
     **Excepteur sint occaecat cupidatat non proident**
   </Card>
 </Cards>
