@@ -51,7 +51,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     <img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>Adobe Commerce (Magento)</h3>
-    Acepta pagos de forma segura y eficiente con el plugin de ProntoPaga con Adobe Commerce (antes Magenta).
+    Acepta pagos de forma segura y eficiente con el plugin de ProntoPaga con Adobe Commerce (antes Magento).
   </Card>
 </Cards>
 
