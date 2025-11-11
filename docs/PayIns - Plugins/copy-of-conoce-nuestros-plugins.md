@@ -57,16 +57,15 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <br />
 
-## V1
+## Plugins oficiales de ProntoPaga
 
-<Cards>
-  <ImageCard imageSrc="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" imageAlt="PrestasShop" title="PrestaShop" description="Acepta pagos con tarjeta online de manera segura." />
+Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+<br />
 
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
+| Plataformas compatibles                                                                                                                                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} /> |
+|                                                                                                                                                                                                              |
 
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
-
-  <ImageCard imageSrc="https://fastly.picsum.photos/id/102/1200/600.jpg?hmac=QNclXkIUydKOl9ZYpra9E-8Z78ef-xI9KvZoBaUC8KI" imageAlt="Placeholder Image" title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." />
-</Cards>
+<br />
