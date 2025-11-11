@@ -119,23 +119,27 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 ## 🚀 Cómo empezar tu integración
 
 <Cards columns={4} className="pp-cards--autofit">
-  <center>
+  <div style={{ textAlign: 'center' }}>
     <Card icon="fa-solid fa-hand-pointer">
-      **Selecciona tu plataforma**
+      <strong>Selecciona tu plataforma</strong>
     </Card>
-  </center>
+  </div>
 
-  <Card icon="fa-solid fa-plug">
-    **Descarga e instala el plugin**
-  </Card>
+  <div style={{ textAlign: 'center' }}>
+    <Card icon="fa-solid fa-plug">
+      <strong>Descarga e instala el plugin</strong>
+    </Card>
+  </div>
 
-  <Card icon="fa-solid fa-flask">
-    **Prueba tu integración**
-  </Card>
+  <div style={{ textAlign: 'center' }}>
+    <Card icon="fa-solid fa-flask">
+      <strong>Prueba tu integración</strong>
+    </Card>
+  </div>
 
-  <Card icon="fa-circle-check">
-    **¡Listo!**
-  </Card>
+  <div style={{ textAlign: 'center' }}>
+    <Card icon="fa-solid fa-circle-check">
+      <strong>¡Listo!</strong>
+    </Card>
+  </div>
 </Cards>
-
-<br />
