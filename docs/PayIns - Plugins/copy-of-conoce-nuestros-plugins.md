@@ -121,7 +121,8 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 <Cards columns={4} className="pp-cards--autofit">
   <div style={{ textAlign: 'center' }}>
     <Card icon="fa-solid fa-hand-pointer">
-      <strong>Selecciona tu plataforma</strong><br></br>
+      <strong>Selecciona tu plataforma</strong>
+<br></br>
     </Card>
   </div>
 
