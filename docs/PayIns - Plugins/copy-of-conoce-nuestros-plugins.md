@@ -24,6 +24,8 @@ Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, dise
 
 ***
 
+# Original
+
 ## 🔌 Nuestros plugins
 
 Los plugins que ya están listos para ser integrados hoy en tu comercio son:
@@ -57,3 +59,9 @@ Los plugins que ya están listos para ser integrados hoy en tu comercio son:
     Consulta su Guía de instalación y configuración aquí.
   </Card>
 </Cards>
+
+<br />
+
+# V1 
+
+<br />
