@@ -37,12 +37,12 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     </Card>
   </center>
 
-  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
+  <center><Card>
     <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
     <h3>VTEX</h3>
-    Mejora conversiones con transacciones seguras y rápidas con el plugin de ProntoPaga.
-  </Card>
+    Mejora conversiones con transacciones seguras y rápidas con el plugin de ProntoPaga. <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/vtex#/" target="_blank" />
+  </Card></center>
 
   <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
     <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
