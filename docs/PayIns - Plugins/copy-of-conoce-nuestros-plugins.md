@@ -119,19 +119,19 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 ## 🚀 Cómo empezar tu integración
 
 <Cards columns={4} className="pp-cards--autofit">
-  <Card title="1" href="https://readme.com" icon="fa-home" target="_blank">
-    *Selecciona tu plataforma*
+  <Card>
+    **Selecciona tu plataforma**
   </Card>
 
-  <Card title="2" icon="fa-user">
-    Descarga e instala el plugin
+  <Card title="2">
+    **Descarga e instala el plugin**
   </Card>
 
-  <Card title="3" icon="fa-star">
-    Prueba tu integración
+  <Card title="3">
+    **Prueba tu integración**
   </Card>
 
-  <Card title="4" icon="fa-question">
+  <Card title="4">
     **¡Listo!**
   </Card>
 </Cards>
