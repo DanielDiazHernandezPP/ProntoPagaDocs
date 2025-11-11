@@ -119,9 +119,9 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 ## 🚀 Cómo empezar tu integración
 
 <Cards columns={4} className="pp-cards--autofit">
-  <Card title="1" >
+  <center><Card title="1">
     **Selecciona tu plataforma**
-  </Card>
+    </Card></center>
 
   <Card title="2">
     **Descarga e instala el plugin**
