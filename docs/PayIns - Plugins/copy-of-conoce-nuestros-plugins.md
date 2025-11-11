@@ -55,7 +55,9 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
       <h3>WooCommerce</h3>
       Con el plugin de ProntoPaga de Wordpress + WooCommerce acepta pagos de forma segura y rápida.
 
-      <br></br><Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" />
+      <br />
+
+      <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" />
     </Card>
   </center>
 
@@ -72,6 +74,18 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 </Cards>
 
 <br />
+
+<GuideCard
+  title="🚀 Cómo empezar tu integración"
+  description={
+    <ol>
+      <li><h3>Selecciona tu plataforma</h3></li>
+      <li><h3>Descarga e instala el plugin</h3></li>
+      <li><h3>Prueba tu integración</h3></li>
+      <li><h3>¡Listo!</h3></li>
+   </ol>
+  }
+/>
 
 ## Plugins oficiales de ProntoPaga
 
