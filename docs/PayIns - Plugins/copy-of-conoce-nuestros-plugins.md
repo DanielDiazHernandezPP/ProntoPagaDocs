@@ -30,28 +30,28 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>PrestaShop</h3>
-    Consulta su Guía de instalación y configuración aquí.
+    Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
     <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
     <h3>VTEX</h3>
-    Consulta su Guía de instalación y configuración aquí.
+    Mejora conversiones con transacciones seguras y rápidas con el plugin de ProntoPaga.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
     <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>WooCommerce</h3>
-    Consulta su Guía de instalación y configuración aquí.
+    Con el plugin de ProntoPaga de Wordpress + WooCommerce acepta pagos de forma segura y rápida.
   </Card>
 
   <Card href="https://docs.prontopaga.com/docs/magento#/" target="_blank">
     <img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
     <h3>Adobe Commerce (Magento)</h3>
-    Consulta su Guía de instalación y configuración aquí.
+    Acepta pagos de forma segura y eficiente con el plugin de ProntoPaga con Adobe Commerce (antes Magenta).
   </Card>
 </Cards>
 
