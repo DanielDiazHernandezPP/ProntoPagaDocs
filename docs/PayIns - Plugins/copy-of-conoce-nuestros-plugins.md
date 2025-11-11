@@ -116,6 +116,8 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   }
 />
 
+## 🚀 Cómo empezar tu integración
+
 <br />
 
 <br />
