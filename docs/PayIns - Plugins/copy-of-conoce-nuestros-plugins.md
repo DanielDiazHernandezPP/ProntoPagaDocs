@@ -129,11 +129,11 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     **Descarga e instala el plugin**
   </Card>
 
-  <Card title="3">
+  <Card icon="fa-solid fa-vial">
     **Prueba tu integración**
   </Card>
 
-  <Card title="4">
+  <Card icon="fa-circle-check">
     **¡Listo!**
   </Card>
 </Cards>
