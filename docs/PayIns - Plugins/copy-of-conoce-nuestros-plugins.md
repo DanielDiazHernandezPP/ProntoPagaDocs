@@ -99,7 +99,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 <br />
 
 <GuideCard
-  title="<h2>🚀 Cómo empezar</h2>"
+  title="🚀 Cómo empezar"
   description={
     <ul>
       <li><h3>Selecciona tu plataforma</h3></li>
