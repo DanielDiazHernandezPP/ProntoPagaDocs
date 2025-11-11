@@ -139,8 +139,3 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 </Cards>
 
 <br />
-
-<Cards>
-  <ImageCard title="Acepta pagos con tarjeta" description="Acepta pagos con tarjeta online de manera segura." /> </Cards>
-
-<br />
