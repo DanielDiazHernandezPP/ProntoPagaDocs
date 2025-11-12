@@ -177,45 +177,45 @@ Consulta en [este enlace](www.la.com)
 `}</HTMLBlock>
 
 Tabs>
-  \<Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
+\<Tab title="First Tab">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
 
-  \<Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  \</Tab>
+\<Tab title="Second Tab">
+Here's content that's only inside the second Tab.
+\</Tab>
 
-  \<Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  \</Tab>
+\<Tab title="Third Tab">
+Here's content that's only inside the third Tab.
+\</Tab>
 \</Tabs>
 
 \<Tabs>
-  \<Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
+\<Tab title="First Tab">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
 
-  \<Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  \</Tab>
+\<Tab title="Second Tab">
+Here's content that's only inside the second Tab.
+\</Tab>
 
-  \<Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  \</Tab>
+\<Tab title="Third Tab">
+Here's content that's only inside the third Tab.
+\</Tab>
 \</Tabs>
 
 \<Tabs>
-  \<Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  \</Tab>
+\<Tab title="First Tab">
+Welcome to the content that you can only see inside the first Tab.
+\</Tab>
 
-  \<Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  \</Tab>
+\<Tab title="Second Tab">
+Here's content that's only inside the second Tab.
+\</Tab>
 
-  \<Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  \</Tab>
+\<Tab title="Third Tab">
+Here's content that's only inside the third Tab.
+\</Tab>
 \</Tabs>
 
 <br />
@@ -333,5 +333,32 @@ PixQR BancoRendimiento -> Brasil
   "sign": "Signature of the parameters"
 }
 ```
+
+<br />
+
+<br />
+
+## Plugins oficiales de ProntoPaga
+
+Estos plugins están listos para ser integrados hoy mismo en tu comercio:
+
+| <center><h2>Plataformas compatibles</h2></center>                                                                                                                                                                                                                                                                                                                                                                  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <center><img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" /></center>               |
+| <center><img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />                   <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/vtex#/" target="_blank" /></center>                            |
+| <center><img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" /></center>                |
+| <center><img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/magento#/" target="_blank" /></center> |
+
+<GuideCard
+  title="🚀 Cómo empezar tu integración"
+  description={
+    <ol>
+      <li><h3>Selecciona tu plataforma</h3></li>
+      <li><h3>Descarga e instala el plugin</h3></li>
+      <li><h3>Prueba tu integración</h3></li>
+      <li><h3>¡Listo!</h3></li>
+   </ol>
+  }
+/>
 
 <br />
