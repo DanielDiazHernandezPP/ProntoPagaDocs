@@ -51,6 +51,61 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
   <center>
     <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '250px'
+    }}
+      >
+        <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
+
+        <h3>VTEX</h3>
+      Mejora conversiones con transacciones seguras y rápidas con el plugin de ProntoPaga.
+
+        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/vtex#/" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+ <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '250px'
+    }}
+      >
+        <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+        <h3>WooCommerce</h3>
+      Con el plugin de ProntoPaga de Wordpress + WooCommerce acepta pagos de forma segura y rápida.
+
+         <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<center>
+    <Card>
       <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
 
       <h3>VTEX</h3>
@@ -84,8 +139,6 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     </Card>
   </center>
 </Cards>
-
-<br />
 
 ## 🚀 Cómo empezar tu integración
 
