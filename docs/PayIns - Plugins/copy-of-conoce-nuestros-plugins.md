@@ -33,7 +33,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
       <h3>PrestaShop</h3>
       Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
 
-      <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
+      <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" style={{ width: '15px', height: '7px', marginBottom: '0px' }} />
     </Card>
   </center>
 
