@@ -14,48 +14,6 @@ metadata:
   Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
 </Card>
 
-|    |    |    |
-| :- | :- | :- |
-|    |    |    |
-|    |    |    |
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Entidad</b></th>
-      <th><b>Apta para CCI (con Validación de Terceros)</b></th>
-      <th><b>Apta para CCI (sin Validación de Terceros)</b></th>
-      <th><b>TRX CCI</b></th>
-      <th><b>TRX PHONE</b></th>
-      <th><b>LEE QR ESTATICOS</b></th>
-      <th><b>LEER QR DINÁMICOS</b></th>
-      <th><b>VISUALIZACIÓN DE MONTOS DE QR DINÁMICOS</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>INTERBANK</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>SCOTIABANK</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BBVA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO CERRADO</td></tr>
-    <tr><td>BANCO NACION</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BANCOM</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BANCO PICHINCHA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BANBIF</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BANCO GNB</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BANCO FALABELLA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>BANCO RIPLEY</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-    <tr><td>CAJA LIMA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td></td></tr>
-    <tr><td>CAJA PIURA</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td></td></tr>
-    <tr><td>CAJA TRUJILLO</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td></td></tr>
-    <tr><td>COOPERATIVA ABACO</td><td>✅ YES</td><td></td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>✅ YES</td><td>MONTO ABIERTO</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
 <br />
 
 <br />
