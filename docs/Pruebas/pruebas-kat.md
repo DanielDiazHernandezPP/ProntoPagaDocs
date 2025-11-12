@@ -11,7 +11,7 @@ metadata:
   <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
   <h3>PrestaShop</h3>
-  <p>Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.</p>
+  Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
 </Card>
 
 |    |    |    |
