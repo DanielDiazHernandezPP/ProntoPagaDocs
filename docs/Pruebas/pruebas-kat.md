@@ -27,16 +27,6 @@ metadata:
 
 <br />
 
-<Cards>
-  <ImageCard as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" imageSrc="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" imageAlt="PrestaShop" title="PrestaShop... y sus secretos" description="¿Sabías que PrestaShop puede ayudarte a vender hasta tus calcetines? ¡Es tan potente que ni tus prendas olvidadas pueden escapar!" />
-
-  <ImageCard as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" imageSrc="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" imageAlt="PrestaShop" title="Vende lo que quieras" description="Desde artículos de fútbol hasta... ¿guitarras invisibles? PrestaShop no pone límites. ¡Y con ProntoPaga, todo es más fácil!" />
-
-  <ImageCard as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" imageSrc="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" imageAlt="PrestaShop" title="¿Pagos seguros? ¡Claro!" description="PrestaShop + ProntoPaga = un combo ganador. ¿Quieres saber cómo hacer pagos seguros? ¡Aquí te lo contamos todo!" />
-
-  <ImageCard as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" imageSrc="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" imageAlt="PrestaShop" title="PrestaShop, el héroe oculto" description="PrestaShop hace magia con tu tienda. ¡Ni siquiera sabías que lo necesitabas! Pero te va a cambiar todo." />
-</Cards>
-
 <br />
 
 ### CCI
