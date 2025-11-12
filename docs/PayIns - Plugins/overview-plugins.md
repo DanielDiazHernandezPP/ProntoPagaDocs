@@ -25,7 +25,7 @@ next:
 ---
 ## 🔌 Nuestros plugins
 
-Estos plugins están listos para ser integrados hoy mismo en tu comercio::
+Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
 <Cards columns={2}>
   <center>
