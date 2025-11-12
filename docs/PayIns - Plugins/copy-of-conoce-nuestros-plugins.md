@@ -196,4 +196,4 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   </Card>
 </Cards>
 
-Tomar notas
+<br />
