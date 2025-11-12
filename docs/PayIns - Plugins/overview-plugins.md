@@ -27,8 +27,6 @@ next:
 
 Estos plugins están listos para ser integrados hoy mismo en tu comercio::
 
-<br />
-
 <Cards columns={2}>
   <center>
     <Card>
