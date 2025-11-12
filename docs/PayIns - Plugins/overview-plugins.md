@@ -42,7 +42,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
         <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
         <h3>PrestaShop</h3>
-        Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
+        Optimiza el proceso de cobro en tiendas PrestaShop con el plugin de ProntoPaga.
 
         <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
 
