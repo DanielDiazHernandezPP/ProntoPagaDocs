@@ -1,6 +1,6 @@
 ---
 title: Conoce nuestros plugins
-excerpt: ''
+excerpt: Integra pagos fácilmente en las principales plataformas de e-commerce
 deprecated: false
 hidden: false
 metadata:
@@ -23,40 +23,172 @@ metadata:
 next:
   description: ''
 ---
-Explora nuestra selección de plugins de pago desarrollados por ProntoPaga, diseñados para integrarse de forma rápida y segura con las plataformas de comercio electrónico más populares. Facilita las transacciones de tus clientes y mejora la eficiencia de tu tienda online con nuestras soluciones confiables y optimizadas para cada plataforma.
-
-***
-
 ## 🔌 Nuestros plugins
 
-Los plugins que ya están listos para ser integrados hoy en tu comercio son:
+Estos plugins están listos para ser integrados hoy mismo en tu comercio::
 
-<Cards columns={3}>
-  <Card href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank">
-    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+<br />
 
-    <h3>PrestaShop</h3>
-    Consulta su Guía de instalación y configuración aquí.
+<Cards columns={2}>
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '250px'
+    }}
+      >
+        <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+        <h3>PrestaShop</h3>
+        Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
+
+        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '250px'
+    }}
+      >
+        <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
+
+        <h3>VTEX</h3>
+        Mejora conversiones con transacciones seguras y rápidas con el plugin de ProntoPaga.
+
+        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/vtex#/" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '250px'
+    }}
+      >
+        <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+        <h3>WooCommerce</h3>
+        Con el plugin de ProntoPaga de Wordpress + WooCommerce acepta pagos de forma segura y rápida.
+
+        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '250px'
+    }}
+      >
+        <img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+        <h3>Adobe Commerce (Magento)</h3>
+        Acepta pagos de forma segura y eficiente con el plugin de ProntoPaga con Adobe Commerce (antes Magento).
+
+        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/magento#/" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+</Cards>
+
+<br />
+
+## 🚀 Cómo empezar tu integración
+
+<Cards columns={4} className="pp-cards--equal">
+  <Card>
+    <div
+      style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}
+    >
+      <i className="fa-solid fa-hand-pointer" style={{ fontSize: '24px', marginBottom: '8px' }} />
+
+      <strong><center>Selecciona tu plataforma</center></strong>
+    </div>
   </Card>
 
-  <Card href="https://docs.prontopaga.com/docs/vtex#/" target="_blank">
-    <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
+  <Card>
+    <div
+      style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}
+    >
+      <i className="fa-solid fa-plug" style={{ fontSize: '24px', marginBottom: '8px' }} />
 
-    <h3>VTEX</h3>
-    Consulta su Guía de instalación y configuración aquí.
+      <strong><center>Descarga e instala el plugin</center></strong>
+    </div>
   </Card>
 
-  <Card href="https://docs.prontopaga.com/docs/woocommerce#/" target="_blank">
-    <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+  <Card>
+    <div
+      style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}
+    >
+      <i className="fa-solid fa-vial" style={{ fontSize: '24px', marginBottom: '8px' }} />
 
-    <h3>WooCommerce</h3>
-    Consulta su Guía de instalación y configuración aquí.
+      <strong><center>Prueba tu integración</center></strong>
+    </div>
   </Card>
 
-  <Card href="https://docs.prontopaga.com/docs/magento#/" target="_blank">
-    <img src="https://files.readme.io/919e31e45c044d028965b17460df65192214f5d91f2bfb01a582ed9b4847ef5f-Adobe_Commerce_Logo.png" alt="Adobe Commerce (Magento)" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+  <Card>
+    <div
+      style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '140px'
+    }}
+    >
+      <i className="fa-solid fa-circle-check" style={{ fontSize: '24px', marginBottom: '8px' }} />
 
-    <h3>Adobe Commerce (Magento)</h3>
-    Consulta su Guía de instalación y configuración aquí.
+      <strong><center>¡Listo!</center></strong>
+    </div>
   </Card>
 </Cards>
