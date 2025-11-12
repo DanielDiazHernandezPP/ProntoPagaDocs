@@ -28,12 +28,24 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 <Cards columns={2}>
   <center>
     <Card>
-      <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+			<div
+      style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '300px'
+    }}
+    	>
+      	<img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
       <h3>PrestaShop</h3>
       Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
 
-      <Button variant="primary" text="Ver guía" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" /><br></br><br></br>
+      <Button variant="primary" text="Ver guía" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
+
+      <br /><br />
+			</div>
     </Card>
   </center>
 
