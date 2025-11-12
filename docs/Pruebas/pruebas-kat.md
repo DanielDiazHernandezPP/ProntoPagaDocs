@@ -7,15 +7,20 @@ metadata:
 ---
 <br />
 
-<Cards>
-<Card as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" style={{ textDecoration: 'none' }}>
-  <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+<Cards columns={2}>
+  <Card as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" style={{ textDecoration: 'none' }}>
+    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
 
-  <h3>PrestaShop</h3>
-  Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
+    <h3>PrestaShop</h3>
+    Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
+  </Card>
+<Card as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" style={{ textDecoration: 'none' }}>
+    <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+
+    <h3>PrestaShop</h3>
+    Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
   </Card>
 </Cards>
-
 
 <br />
 
