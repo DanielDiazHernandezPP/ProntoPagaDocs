@@ -29,8 +29,6 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
