@@ -1,7 +1,7 @@
 ---
 title: Acepta pagos con QR
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
