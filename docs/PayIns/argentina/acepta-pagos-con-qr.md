@@ -14,8 +14,15 @@ Los pagos con QR cuentan con la herramienta automatizada Decision Manager (DM) d
 
 ¿Cómo funciona?
 
-
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
+
+<br />
+
+1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
+2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico.
+3. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta.
+4. **Autorización y Captura.** Se verifica que existan los fondos suficientes, y se mueven desde el banco del cliente hacia la cuenta de tu comercio.
+5. **Confirmación.** El cliente ve en pantalla el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
 
 ***
 
