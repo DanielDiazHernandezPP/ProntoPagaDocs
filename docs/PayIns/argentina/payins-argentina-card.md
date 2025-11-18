@@ -222,8 +222,6 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-<br />
-
 ***
 
 ### Confirmación de un pago
