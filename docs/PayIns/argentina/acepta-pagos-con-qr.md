@@ -13,6 +13,8 @@ Los pagos con QR cuentan con la herramienta automatizada Decision Manager (DM) d
 ***
 
 ¿Cómo funciona?
+
+
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 
 ***
