@@ -135,6 +135,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+**Monto inválido**:
+
 ```json
 {
   "statusCode": 400,
@@ -148,7 +150,81 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+**Token de tarjeta inválido**
+
+```json
+{
+  "statusCode": 400,
+  "timestamp": "2025-07-29T20:43:59.770Z",
+  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
+  "errorCode": "VALIDATION_ERROR",
+  "message": [
+    "cardToken must not exceed 100 characters"
+  ]
+}
+```
+
+**Tipo de transacción no admitido:**
+
+```json
+{
+  "statusCode": 400,
+  "timestamp": "2025-07-29T20:43:59.770Z",
+  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
+  "errorCode": "VALIDATION_ERROR",
+  "message": [
+    "transactionType must be one of the following values: SALE, PREAUTH, RETURN, RETURN_PARTIAL"
+  ]
+}
+```
+
+**No autorizado:**
+
+```json
+{
+  "statusCode": 401,
+  "timestamp": "2025-07-30T13:54:58.700Z",
+  "message": "Invalid API Key",
+  "errorCode": "UNAUTHORIZED"
+}
+```
+
+**Credenciales no encontradas**
+
+```json
+{
+  "statusCode": 404,
+  "timestamp": "2025-06-10T18:14:18.384Z",
+  "message": "Credential with code test_14s not found",
+  "errorCode": "CREDENTIAL_NOT_FOUND"
+}
+```
+
+**Demasiadas solicitudes**
+
+```json
+{
+  "statusCode": 429,
+  "timestamp": "2025-07-29T20:53:27.468Z",
+  "message": "ThrottlerException: Too Many Requests",
+  "errorCode": "INTERNAL_ERROR"
+}
+```
+
+**Error interno del servidor**
+
+```json
+{
+  "statusCode": 500,
+  "timestamp": "2025-07-29T20:53:27.468Z",
+  "message": "Internal server error processing create transaction",
+  "errorCode": "INTERNAL_ERROR"
+}
+```
+
 <br />
+
+***
 
 ### Confirmación de un pago
 
