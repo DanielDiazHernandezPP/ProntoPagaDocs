@@ -9,7 +9,7 @@ metadata:
 
 Debido a que aún no está disponible para que lo puedan integrar los comercios, los cambios relacionados al proyecto se compilan aquí. ReadMe no permite guardar cambios no publicados, lo que podría generar que los comercios pregunten por nuevas integraciones aún no disponibles.
 
-En cuanto esté disponible la integración, los cambios serán agregados. 
+En cuanto esté disponible la integración, los cambios serán agregados.
 
 ***
 
@@ -21,7 +21,7 @@ Los cambios realizados para este desarrollo serán:
 
 > 📘 **Personalizar tu QR único**
 >
-> Con el parámetro opcional `qr_only` recibirás el base 64 del código QR para poder personalizarlo. Conoce el endpoint aquí.
+> Con el parámetro opcional `qr_only` recibirás el base 64 del código QR para poder personaliza el _QR payment template_.
 
 2. Ejemplo de body en la API Reference: [https://docs.prontopaga.com/reference/create-payment#/](https://docs.prontopaga.com/reference/create-payment#/)
 
