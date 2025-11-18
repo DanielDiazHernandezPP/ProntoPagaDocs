@@ -9,19 +9,21 @@ metadata:
 
 Debido a que aún no está disponible para que lo puedan integrar los comercios, los cambios relacionados al proyecto se compilan aquí. ReadMe no permite guardar cambios no publicados, lo que podría generar que los comercios pregunten por nuevas integraciones aún no disponibles.
 
+En cuanto esté disponible la integración, los cambios serán agregados. 
+
 ***
 
 ## Cambios en la documentación
 
 Los cambios realizados para este desarrollo serán:
 
-1. Nueva nota en el punto 2  de la sección: https://docs.prontopaga.com/docs/payins-chile-qr#/
+1. Nueva nota en el punto 2  de la sección: [https://docs.prontopaga.com/docs/payins-chile-qr#/](https://docs.prontopaga.com/docs/payins-chile-qr#/)
 
 > 📘 **Personalizar tu QR único**
 >
 > Con el parámetro opcional `qr_only` recibirás el base 64 del código QR para poder personalizarlo. Conoce el endpoint aquí.
 
-2. Ejemplo de body en la API Reference: https://docs.prontopaga.com/reference/create-payment#/
+2. Ejemplo de body en la API Reference: [https://docs.prontopaga.com/reference/create-payment#/](https://docs.prontopaga.com/reference/create-payment#/)
 
 ```json Chile QR/Wallet (MACH without redirection)
 {
@@ -65,4 +67,11 @@ Los cambios realizados para este desarrollo serán:
 }
 ```
 
-5. <br />
+5. Creación de un nuevo body param:
+   1. **Nombre:** qr_only
+   2. String
+   3. No required
+   4. **Descripción**: Para personalizar el QR payment template (configuración válida para los paymentMethod: mach_payment). Valores posibles: **true|false**
+6. Se agregarán los tres ejemplos de body en Postman.
+
+<br />
