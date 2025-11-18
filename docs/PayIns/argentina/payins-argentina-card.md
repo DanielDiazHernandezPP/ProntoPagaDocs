@@ -44,7 +44,7 @@ El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 
 ## Crea un nuevo pago
 
-Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `latam_chk_card_payment` como método de pago en el body de la solicitud.
 
@@ -56,7 +56,9 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-A continuación puedes ver un ejemplo de request:
+A continuación puedes ver dos ejemplos de request:
+
+**Ejemplo 1:** 
 
 ```json
 { 
@@ -75,11 +77,34 @@ A continuación puedes ver un ejemplo de request:
 }
 ```
 
+**Ejemplo 2:**
+
+```json
+{
+  "checkoutId": "checkout_ms_dev_0_64",
+  "customer": {
+    "id": "C123",
+    "name": "Johnsasas",
+    "lastName": "Johnsas",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "documentType": "dni",
+    "documentNumber": "12345678"
+  },
+  "amount": 900,
+  "currency": "ARS",
+  "transactionType": "SALE",
+  "cardToken": "8103D0B5-9274-4415-8E15-B2092A215E21"
+}
+```
+
+***
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-#### Ejemplo de respuesta para pago exitoso:
+#### Ejemplos de respuestas para pagos exitosos:
 
 ```json
 { 
@@ -89,7 +114,18 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-#### Ejemplo de respuesta de pago rechazado:
+```json
+{
+  "checkoutId": "checkout_local_normal_60",
+  "status": "APPROVED",
+  "transactionType": "SALE",
+  "amount": 1000.34,
+  "currency": "ARS",
+  "cardFunction": "CREDIT"
+}
+```
+
+#### Ejemplos de respuestas de pagos rechazados:
 
 ```json
 { 
@@ -98,6 +134,21 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
    "reference": "Reason for rejection" 
 }
 ```
+
+```json
+{
+  "statusCode": 400,
+  "timestamp": "2025-07-29T20:43:59.770Z",
+  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
+  "errorCode": "VALIDATION_ERROR",
+  "message": [
+    "amount must be a positive number",
+    "amount must be a number conforming to the specified constraints"
+  ]
+}
+```
+
+<br />
 
 ### Confirmación de un pago
 
