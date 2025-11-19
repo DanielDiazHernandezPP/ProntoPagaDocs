@@ -5,42 +5,19 @@ hidden: true
 metadata:
   robots: index
 ---
-<HTMLBlock>{`
-#### Web
-![Checkout page](https://b.stripecdn.com/docs-statics-srv/assets/3ds-flow-1-checkout-page.039294e0dee3a6dede8ea8a32185aae5.png)
+<Tabs>
+  <Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
 
-The customer enters their card details.
-![Loading symbol](https://b.stripecdn.com/docs-statics-srv/assets/3ds-flow-2-frictionless-flow.417618d0570c469cfb6bbc43630c7896.png)
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
 
-The customer’s bank assesses the transaction and can complete 3D Secure at this step.
-![Authentication modal](https://b.stripecdn.com/docs-statics-srv/assets/3ds-flow-3-challenge-flow.9052a220f336bbdb75a51799622c6477.png)
-
-If required by their bank, the customer completes an additional authentication step.
-
-#### iOS
-![Checkout Screen](https://b.stripecdn.com/docs-statics-srv/assets/3ds2-checkout.1cd901263328cbb76020b66c173da8b7.png)
-
-The customer enters their card details.
-![Loading screen](https://b.stripecdn.com/docs-statics-srv/assets/3ds2-loading.f93743ad15b9120027f93f49ed45b26d.png)
-
-The SDK presents a loading screen while the customer’s bank checks whether authentication is required.
-![Challenge flow screen](https://b.stripecdn.com/docs-statics-srv/assets/3ds2-otp.ce1e46e0a853d7d6e3238750a07bca86.png)
-
-If required by their bank, the SDK authenticates the customer.
-
-#### Android
-![Checkout screen](https://b.stripecdn.com/docs-statics-srv/assets/auth-flow-step01-confirm.399f5a4abbd7f303861689d186b79557.png)
-
-The customer enters their payment information.
-![Initiate authentication](https://b.stripecdn.com/docs-statics-srv/assets/auth-flow-step02-processing.3877946d74743878ec86cec56dd69085.png)
-
-The SDK presents a loading screen while the customer’s bank checks whether authentication is required.
-![Challenge flow screen](https://b.stripecdn.com/docs-statics-srv/assets/auth-flow-step03-otp.f42397e1ce4ec5975e05f1bada72d195.png)
-
-If required by their bank, the SDK authenticates the customer.
-`}</HTMLBlock>
-
-<br />
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
 
 <Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
 
