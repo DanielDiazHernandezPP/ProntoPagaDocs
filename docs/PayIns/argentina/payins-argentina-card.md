@@ -189,9 +189,10 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ## Crea un nuevo pago
 
-Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar este endpoint y colocar latam_chk_card_payment como método de pago en el body de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar este endpoint y colocar POST
+`/integration-fiserv/api/v1/transaction/fiserv/{country}/create` como método de pago en el body de la solicitud. Este endpoint admite diferentes tipos de transacción (SALE, PREAUTH, etc.)
 
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
@@ -262,8 +263,6 @@ A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si q
 }
 ```
 
-<br />
-
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -319,8 +318,6 @@ que puedes usar para comprobar que tu integración está lista, así como para v
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
 ***
-
-<br />
 
 ## Certifica tu integración
 
