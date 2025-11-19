@@ -56,7 +56,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-A continuación puedes ver dos ejemplos de request:
+A continuación puedes el ejemplo de request:
 
 **Ejemplo 1:**
 
@@ -77,36 +77,13 @@ A continuación puedes ver dos ejemplos de request:
 }
 ```
 
-**Ejemplo 2:**
-
-```json
-{
-  "checkoutId": "checkout_ms_dev_0_64",
-  "customer": {
-    "id": "C123",
-    "name": "Johnsasas",
-    "lastName": "Johnsas",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "documentType": "dni",
-    "documentNumber": "12345678"
-  },
-  "amount": 900,
-  "currency": "ARS",
-  "transactionType": "SALE",
-  "cardToken": "8103D0B5-9274-4415-8E15-B2092A215E21"
-}
-```
-
 ***
 
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-#### Ejemplos de respuestas para pagos exitosos:
-
-**Ejemplo 1:**
+#### Ejemplo de respuesta para pago exitoso:
 
 ```json
 { 
@@ -116,21 +93,6 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-**Ejemplo 2:**
-
-```json
-{
-  "checkoutId": "checkout_local_normal_60",
-  "status": "APPROVED",
-  "transactionType": "SALE",
-  "amount": 1000.34,
-  "currency": "ARS",
-  "cardFunction": "CREDIT"
-}
-```
-
-<br />
-
 #### Ejemplos de respuestas de pagos rechazados:
 
 ```json
@@ -138,93 +100,6 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
    "uid": "ID in our services",
    "status": "rejected",
    "reference": "Reason for rejection" 
-}
-```
-
-**Monto inválido**:
-
-```json
-{
-  "statusCode": 400,
-  "timestamp": "2025-07-29T20:43:59.770Z",
-  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
-  "errorCode": "VALIDATION_ERROR",
-  "message": [
-    "amount must be a positive number",
-    "amount must be a number conforming to the specified constraints"
-  ]
-}
-```
-
-**Token de tarjeta inválido**
-
-```json
-{
-  "statusCode": 400,
-  "timestamp": "2025-07-29T20:43:59.770Z",
-  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
-  "errorCode": "VALIDATION_ERROR",
-  "message": [
-    "cardToken must not exceed 100 characters"
-  ]
-}
-```
-
-**Tipo de transacción no admitido:**
-
-```json
-{
-  "statusCode": 400,
-  "timestamp": "2025-07-29T20:43:59.770Z",
-  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
-  "errorCode": "VALIDATION_ERROR",
-  "message": [
-    "transactionType must be one of the following values: SALE, PREAUTH, RETURN, RETURN_PARTIAL"
-  ]
-}
-```
-
-**No autorizado:**
-
-```json
-{
-  "statusCode": 401,
-  "timestamp": "2025-07-30T13:54:58.700Z",
-  "message": "Invalid API Key",
-  "errorCode": "UNAUTHORIZED"
-}
-```
-
-**Credenciales no encontradas**
-
-```json
-{
-  "statusCode": 404,
-  "timestamp": "2025-06-10T18:14:18.384Z",
-  "message": "Credential with code test_14s not found",
-  "errorCode": "CREDENTIAL_NOT_FOUND"
-}
-```
-
-**Demasiadas solicitudes**
-
-```json
-{
-  "statusCode": 429,
-  "timestamp": "2025-07-29T20:53:27.468Z",
-  "message": "ThrottlerException: Too Many Requests",
-  "errorCode": "INTERNAL_ERROR"
-}
-```
-
-**Error interno del servidor**
-
-```json
-{
-  "statusCode": 500,
-  "timestamp": "2025-07-29T20:53:27.468Z",
-  "message": "Internal server error processing create transaction",
-  "errorCode": "INTERNAL_ERROR"
 }
 ```
 
@@ -264,8 +139,6 @@ Ejemplo de **webhook para un pago exitoso**:
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
 
-**Ejemplo 1:**
-
 ```json
 { 
   "uid": [string] // Transaction Identifier 
@@ -283,32 +156,6 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 	"hash": [string] // Security hash parameter
  	"note": [string] // Transaction note
   "sign": [string] // Signature of the parameters
-}
-```
-
-**Ejemplo 2:**
-
-```json
-{
-  "checkoutId": "checkout_local_normal_64",
-  "statusDetail": [
-    {
-      "transactionId": "190",
-      "statusTransaction": "APPROVED",
-      "transactionType": "POSTAUTH",
-      "amount": 600,
-      "currency": "ARS",
-      "updatedAt": "2025-07-21T12:18:15.000Z"
-    },
-    {
-      "transactionId": "189",
-      "statusTransaction": "APPROVED",
-      "transactionType": "PREAUTH",
-      "amount": 900,
-      "currency": "ARS",
-      "updatedAt": "2025-07-21T12:12:10.000Z"
-    }
-  ]
 }
 ```
 
@@ -336,23 +183,152 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 </table>
 `}</HTMLBlock>
 
+<br />
+
+<Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
+
+***
+
+# Otros datos de prueba:
+
+## Crea un nuevo pago
+
+Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+
+De este modo, para crear una solicitud de nuevo pago deberás usar este endpoint y colocar latam_chk_card_payment como método de pago en el body de la solicitud.
+
+La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+
+> 🚧 **Firma de la transacción**
+>
+> Puedes ver el detalle de cómo firmar los parámetros de la transacción con tu secretKey en [este artículo](https://docs.prontopaga.com/docs/sign-transactions)
+
+También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
+
+> 📘 Notificación del estado de la transacción
+>
+> Para configurar el webhook que irá en el campo `confirmationURL` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
+
+A continuación puedes ver un ejemplo de request:
+
+```json
+{
+  "checkoutId": "checkout_ms_dev_0_64",
+  "customer": {
+    "id": "C123",
+    "name": "Johnsasas",
+    "lastName": "Johnsas",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "documentType": "dni",
+    "documentNumber": "12345678"
+  },
+  "amount": 900,
+  "currency": "ARS",
+  "transactionType": "SALE",
+  "cardToken": "8103D0B5-9274-4415-8E15-B2092A215E21"
+}
+```
+
+### Respuesta
+
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+
+#### Ejemplo de respuesta para pago exitoso:
+
+```json
+{
+  "checkoutId": "checkout_local_normal_60",
+  "status": "APPROVED",
+  "transactionType": "SALE",
+  "amount": 1000.34,
+  "currency": "ARS",
+  "cardFunction": "CREDIT"
+}
+```
+
+#### Ejemplos de respuestas de pagos rechazados
+
+A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si quieres ver más ejemplos consulta este artículo. 
+
+**Monto inválido**
+
+```json
+{
+  "statusCode": 400,
+  "timestamp": "2025-07-29T20:43:59.770Z",
+  "path": "/integration-firserv/api/v1/transaction/fiserv/ar/create",
+  "errorCode": "VALIDATION_ERROR",
+  "message": [
+    "amount must be a positive number",
+    "amount must be a number conforming to the specified constraints"
+  ]
+}
+```
+
+<br />
+
+### Confirmación de un pago
+
+Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
+
+Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+
+Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
+
+Ejemplo de **webhook para un pago exitoso**:
+
+<br />
+
+<br />
+
+### Detalles de un pago
+
+Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
+
+<br />
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "statusDetail": [
+    {
+      "transactionId": "190",
+      "statusTransaction": "APPROVED",
+      "transactionType": "POSTAUTH",
+      "amount": 600,
+      "currency": "ARS",
+      "updatedAt": "2025-07-21T12:18:15.000Z"
+    },
+    {
+      "transactionId": "189",
+      "statusTransaction": "APPROVED",
+      "transactionType": "PREAUTH",
+      "amount": 900,
+      "currency": "ARS",
+      "updatedAt": "2025-07-21T12:12:10.000Z"
+    }
+  ]
+}
+```
+
+<br />
+
 ***
 
 ## Prueba tu integración
 
-Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
+que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
 
-<br />
-
-<br />
-
 ***
+
+<br />
 
 ## Certifica tu integración
 
-La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _Sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
