@@ -75,7 +75,7 @@ next:
 
 <br />
 
-<Image align="center" src="https://files.readme.io/6e52a1e15051ba76b3802d4441bb26ef72f064dd19b315f052b69d39f626d45f-image_15.png" />
+<Image align="center" border={false} src="https://files.readme.io/6e52a1e15051ba76b3802d4441bb26ef72f064dd19b315f052b69d39f626d45f-image_15.png" />
 
 <br />
 
@@ -84,34 +84,3 @@ next:
 > CAsa
 
 <br />
-
-# division
-
-<HTMLBlock>{`
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acordeón con Imagen Expandible</title>
-</head>
-<body>
-
-  <details>
-    <summary style="background-color: #FC2B5F; color: white; padding: 10px 20px; font-size: 1.5rem; font-weight: bold; border-radius: 5px; cursor: pointer;">
-      <!-- El emoji + texto "Brasil" dentro del mismo fondo rosado -->
-      🇧🇷 Brasil
-    </summary>
-    <p>A continuación, podrás ver listados los métodos con los que contamos en Argentina, tanto para PayIns como para PayOuts.</p>
-
-    <div style="text-align: center; margin-top: 20px;">
-      <img 
-        src="https://files.readme.io/93a3a7f8c03fd798a0c78d35305272338b69d3d2e657d7bb54bf962eefdedd2a-Coverage_in_Brazil_2.png" 
-        alt="Brasil Coverage" 
-        style="width: 100%; max-width: 800px; height: auto;" />
-    </div>
-  </details>
-
-</body>
-</html>
-`}</HTMLBlock>
