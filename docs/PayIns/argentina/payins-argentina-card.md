@@ -58,7 +58,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 A continuación puedes ver dos ejemplos de request:
 
-**Ejemplo 1:** 
+**Ejemplo 1:**
 
 ```json
 { 
@@ -258,6 +258,8 @@ Ejemplo de **webhook para un pago exitoso**:
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
 
+**Ejemplo 1:** 
+
 ```json
 { 
   "uid": [string] // Transaction Identifier 
@@ -275,6 +277,32 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 	"hash": [string] // Security hash parameter
  	"note": [string] // Transaction note
   "sign": [string] // Signature of the parameters
+}
+```
+
+**Ejemplo 2:** 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "statusDetail": [
+    {
+      "transactionId": "190",
+      "statusTransaction": "APPROVED",
+      "transactionType": "POSTAUTH",
+      "amount": 600,
+      "currency": "ARS",
+      "updatedAt": "2025-07-21T12:18:15.000Z"
+    },
+    {
+      "transactionId": "189",
+      "statusTransaction": "APPROVED",
+      "transactionType": "PREAUTH",
+      "amount": 900,
+      "currency": "ARS",
+      "updatedAt": "2025-07-21T12:12:10.000Z"
+    }
+  ]
 }
 ```
 
