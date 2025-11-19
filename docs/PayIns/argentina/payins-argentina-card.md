@@ -183,10 +183,6 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 </table>
 `}</HTMLBlock>
 
-<br />
-
-<Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" html="false" />
-
 ***
 
 # Otros datos de prueba:
@@ -249,7 +245,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 #### Ejemplos de respuestas de pagos rechazados
 
-A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si quieres ver más ejemplos consulta este artículo. 
+A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si quieres ver más ejemplos consulta este artículo.
 
 **Monto inválido**
 
