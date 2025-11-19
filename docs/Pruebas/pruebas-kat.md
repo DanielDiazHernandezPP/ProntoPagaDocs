@@ -7,6 +7,46 @@ metadata:
 ---
 <br />
 
+#### Web
+
+<Image alt="Checkout page" border={false} src="https://b.stripecdn.com/docs-statics-srv/assets/3ds-flow-1-checkout-page.039294e0dee3a6dede8ea8a32185aae5.png" />
+
+The customer enters their card details.
+![](https://b.stripecdn.com/docs-statics-srv/assets/3ds-flow-2-frictionless-flow.417618d0570c469cfb6bbc43630c7896.png)
+
+The customer’s bank assesses the transaction and can complete 3D Secure at this step.
+![](https://b.stripecdn.com/docs-statics-srv/assets/3ds-flow-3-challenge-flow.9052a220f336bbdb75a51799622c6477.png)
+
+If required by their bank, the customer completes an additional authentication step.
+
+#### iOS
+
+<Image alt="Checkout Screen" border={false} src="https://b.stripecdn.com/docs-statics-srv/assets/3ds2-checkout.1cd901263328cbb76020b66c173da8b7.png" />
+
+The customer enters their card details.
+![](https://b.stripecdn.com/docs-statics-srv/assets/3ds2-loading.f93743ad15b9120027f93f49ed45b26d.png)
+
+The SDK presents a loading screen while the customer’s bank checks whether authentication is required.
+![](https://b.stripecdn.com/docs-statics-srv/assets/3ds2-otp.ce1e46e0a853d7d6e3238750a07bca86.png)
+
+If required by their bank, the SDK authenticates the customer.
+
+#### Android
+
+<Image alt="Checkout screen" border={false} src="https://b.stripecdn.com/docs-statics-srv/assets/auth-flow-step01-confirm.399f5a4abbd7f303861689d186b79557.png" />
+
+The customer enters their payment information.
+![](https://b.stripecdn.com/docs-statics-srv/assets/auth-flow-step02-processing.3877946d74743878ec86cec56dd69085.png)
+
+The SDK presents a loading screen while the customer’s bank checks whether authentication is required.
+![](https://b.stripecdn.com/docs-statics-srv/assets/auth-flow-step03-otp.f42397e1ce4ec5975e05f1bada72d195.png)
+
+If required by their bank, the SDK authenticates the customer.
+
+***
+
+<br />
+
 <Cards columns={2}>
   <Card as="a" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" style={{ textDecoration: 'none' }}>
     <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
