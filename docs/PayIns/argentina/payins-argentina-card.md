@@ -106,6 +106,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 #### Ejemplos de respuestas para pagos exitosos:
 
+**Ejemplo 1:**
+
 ```json
 { 
    "urlPay" : "Link to redirect or Iframe to insert",
@@ -113,6 +115,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
    "reference": "Reference in our services" 
 }
 ```
+
+**Ejemplo 2:**
 
 ```json
 {
@@ -124,6 +128,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
   "cardFunction": "CREDIT"
 }
 ```
+
+<br />
 
 #### Ejemplos de respuestas de pagos rechazados:
 
@@ -258,7 +264,7 @@ Ejemplo de **webhook para un pago exitoso**:
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
 
-**Ejemplo 1:** 
+**Ejemplo 1:**
 
 ```json
 { 
@@ -280,7 +286,7 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 }
 ```
 
-**Ejemplo 2:** 
+**Ejemplo 2:**
 
 ```json
 {
