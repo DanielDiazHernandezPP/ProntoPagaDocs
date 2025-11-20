@@ -206,7 +206,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 >
 > Para configurar el webhook que irá en el campo `confirmationURL` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
-A continuación puedes ver un ejemplo de request:
+A continuación puedes ver un ejemplo de **request**:
 
 ```json
 {
@@ -227,11 +227,28 @@ A continuación puedes ver un ejemplo de request:
 }
 ```
 
+Para ver otros tipos de transacciones, consulta este artículo. 
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-#### Ejemplo de respuesta para pago exitoso:
+#### Ejemplo de Pre-authorization transaction
+
+```json
+{
+  "checkoutId": "checkout_local_preauth_01",
+  "status": "PENDING",
+  "transactionType": "PREAUTH",
+  "amount": 2500,
+  "currency": "ARS",
+  "cardFunction": "CREDIT"
+}
+```
+
+<br />
+
+#### Ejemplo de respuesta para transacción creada correctamente: 
 
 ```json
 {
@@ -244,11 +261,39 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+Revisa otros tipos de respuesta para la creación de las transacciones. 
+
+#### Ejemplo de respuesta para pago exitoso
+
+La captura solo puede realizarse sobre transacciones con estado PREAUTHORIZED (PREAUTH).
+
+Debe ejecutarse antes de que venza la autorización (dentro de los 21 días).
+
+Puedes realizar una captura total o parcial (el monto debe ser menor o igual al monto preautorizado).
+
+Una vez realizada la captura, el estado de la transacción cambia a CAPTURED.
+
+Reglas del negocio
+
+El checkoutId debe existir y pertenecer al credential_code proporcionado.
+
+La transacción debe estar en un estado válido para ser capturada.
+
+El monto de captura no debe exceder el monto preautorizado disponible.
+
+No se debe superar la ventana de tiempo permitida para capturar.
+
+Validaciones
+
+El cuerpo de la solicitud debe incluir el monto a capturar y el credential_code.
+
+El parámetro country (código ISO 3166-1 alfa-3) debe ser proporcionado en la ruta.
+
 #### Ejemplos de respuestas de pagos rechazados
 
-A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si quieres ver más ejemplos consulta este artículo.
+A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si quieres ver más ejemplos, consulta este artículo.
 
-**Monto inválido**
+**Error de validación o de regla de negocio**
 
 ```json
 {
@@ -275,13 +320,9 @@ Ejemplo de **webhook para un pago exitoso**:
 
 <br />
 
-<br />
-
 ### Detalles de un pago
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
-
-<br />
 
 ```json
 {
@@ -306,8 +347,6 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   ]
 }
 ```
-
-<br />
 
 ***
 
