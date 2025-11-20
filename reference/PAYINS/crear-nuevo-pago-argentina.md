@@ -1,7 +1,7 @@
 ---
 title: Crear nuevo pago - Argentina
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
