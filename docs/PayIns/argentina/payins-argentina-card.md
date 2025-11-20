@@ -189,12 +189,8 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 ## Crea un nuevo pago
 
-Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
-
-De este modo, para crear una solicitud de nuevo pago deberás usar este endpoint y colocar POST
+Para crear una solicitud de nuevo pago deberás usar este endpoint y colocar POST
 `/integration-fiserv/api/v1/transaction/fiserv/{country}/create` como método de pago en el body de la solicitud. Este endpoint admite diferentes tipos de transacción (SALE, PREAUTH, etc.)
-
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 > 🚧 **Firma de la transacción**
 >
@@ -206,7 +202,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 >
 > Para configurar el webhook que irá en el campo `confirmationURL` y recibir notificaciones con el estado de tu transacción, revisa [este artículo](https://docs.prontopaga.com/docs/webhooks).
 
-A continuación puedes ver un ejemplo de **request**:
+A continuación puedes ver otro ejemplo de **request body**:
 
 ```json
 {
@@ -227,13 +223,13 @@ A continuación puedes ver un ejemplo de **request**:
 }
 ```
 
-Para ver otros tipos de transacciones, consulta este artículo. 
+Para ver otros tipos de transacciones, consulta este artículo.
 
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-#### Ejemplo de Pre-authorization transaction
+#### Ejemplo de transacción de preautorización (Preauth): 
 
 ```json
 {
@@ -246,9 +242,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-<br />
-
-#### Ejemplo de respuesta para transacción creada correctamente: 
+#### Ejemplo de respuesta para transacción creada correctamente:
 
 ```json
 {
@@ -261,7 +255,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-Revisa otros tipos de respuesta para la creación de las transacciones. 
+Revisa otros tipos de respuesta para la creación de las transacciones.
 
 #### Ejemplo de respuesta para pago exitoso
 
@@ -308,6 +302,58 @@ A continuación te mostramos un ejemplo de respuesta para pagos rechazados. Si q
 }
 ```
 
+### Captura
+
+Este punto de conexión le permite capturar el importe de una transacción que fue previamente preautorizada. La captura solo se puede realizar en transacciones con estado PREAUTHORIZED (PREAUTH). La captura debe ejecutarse antes de que caduque la autorización (en un plazo de 21 días). Puede realizar una captura total o parcial (importe igual o inferior al importe preautorizado). Una vez capturada, el estado de la transacción cambia a CAPTURADA. **Reglas de negocio:** - El checkoutId debe existir y pertenecer al credential_code proporcionado. - La transacción debe estar en un estado válido para la captura. - El importe a capturar no debe superar el importe preautorizado restante. - No se debe exceder el plazo permitido para la captura. **Validaciones:** - El cuerpo de la solicitud debe incluir el importe a capturar y el código de credencial. - El parámetro de país (código ISO 3166-1 alfa-3) debe proporcionarse en la ruta.
+
+Ejemplo de captura completa: 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "valueToCapture": 600
+}
+```
+
+Ejemplo de captura parcial:
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "valueToCapture": 300
+}
+```
+
+Respuestas: 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "status": {
+    "transactionId": "84623663578",
+    "statusTransaction": "APPROVED",
+    "transactionType": "POSTAUTH",
+    "amount": 600,
+    "currency": "ARS",
+    "updatedAt": "2025-07-21T12:18:15.000Z"
+  }
+}
+```
+
+Errores de captura: 
+
+Estado no válido para la captura: 
+
+```
+{
+  "message": "Action \"capture\" is not allowed for transaction type \"SALE\" and status \"REJECTED\"",
+  "errorCode": "STATUS_NOT_ALLOWED",
+  "statusCode": 400
+}
+```
+
+Para ver otros estados, consulta esta guía.
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -318,11 +364,48 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 Ejemplo de **webhook para un pago exitoso**:
 
-<br />
-
 ### Detalles de un pago
 
-Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
+Para obtener información de las transacciones, tenemos dos endpoints, uno para obtener el _status_ actual y el otro que detalla los diferentes _status_ por los cuales pasó la transacción. Para obtener el status actual se debe realizar una solicitud GET a la siguiente ruta:`/api/v1/transaction/fiserv/{{country}}/{checkout_id}`
+
+Este punto de conexión recupera el estado actual de una transacción mediante su ID de pago. **Características principales:** - Devuelve el estado más reciente de la transacción. - Útil para consultar el estado actual (p. ej., APROBADA, PENDIENTE, RECHAZADA). - Requiere el país y el ID de pago como parámetros de ruta. **Reglas de negocio:** - El ID de pago debe existir y pertenecer al código de credenciales proporcionado. - La transacción debe ser accesible con las credenciales que la solicitan. **Validaciones:** - El parámetro de país (código ISO 3166-1 alfa-3) y el ID de pago deben proporcionarse en la ruta. - El ID de pago debe ser un identificador válido.
+
+Status actual Este punto de conexión recupera el estado actual de una transacción utilizando su ID de pago.
+
+La siiguiente respuesta : 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "status": {
+    "transactionId": "160",
+    "statusTransaction": "APPROVED",
+    "transactionType": "POSTAUTH",
+    "amount": 600,
+    "currency": "ARS",
+    "updatedAt": "2025-07-21T12:18:15.000Z"
+  }
+}
+```
+
+errores: 
+
+```json
+{
+  "statusCode": 401,
+  "timestamp": "2025-07-30T13:54:58.700Z",
+  "message": "Invalid API Key",
+  "errorCode": "UNAUTHORIZED"
+}
+No links
+404	
+```
+
+Este punto de conexión recupera el historial de estado detallado de una transacción utilizando su ID de pago.
+
+Transacción con múltiples entradas en el historial de estado
+
+`/api/v1/transaction/fiserv/{{country}}/{checkout_id}`
 
 ```json
 {
@@ -348,7 +431,285 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 }
 ```
 
-***
+Errores: 
+
+```json
+{
+  "statusCode": 401,
+  "timestamp": "2025-07-30T13:54:58.700Z",
+  "message": "Invalid API Key",
+  "errorCode": "UNAUTHORIZED"
+}
+```
+
+## Datos de tokenización
+
+Este endpoint devuelve la estructura requerida para la tokenización de datos de tarjetas de pago según el proveedor de pagos.
+
+Características principales
+
+Proporciona la estructura esperada de headers y request body para las solicitudes de tokenización.
+
+Se utiliza para tokenizar de forma segura los datos de la tarjeta antes de procesar pagos.
+
+Requiere el parámetro country (código ISO 3166-1 alfa-3) en la ruta.
+
+Reglas del negocio
+
+El parámetro country debe ser válido y estar soportado.
+
+La solicitud debe estar autenticada con una API key válida.
+
+Validaciones
+
+El parámetro country debe ser proporcionado en la ruta.
+
+Para obtener información de la estructura de tokenización, tenemos un endpoint:
+GET
+`/api/v1/transaction/fiserv/{{country}}/structure/data-tokenization`
+
+Ejemplo de estructura de tokenización: 
+
+```json
+{
+  "header": {
+    "Content-Type": "application/json",
+    "Api-Key": "your-api-key",
+    "Client-Request-Id": "unique-request-id",
+    "Timestamp": "2025-07-21T12:00:00.000Z",
+    "Message-Signature": "signature-value"
+  },
+  "body": {
+    "requestType": "PaymentCardPaymentTokenizationRequest",
+    "storeId": "5925031902",
+    "paymentCard": {
+      "number": "{{ TOKEN | extract : card }}",
+      "securityCode": "{{ TOKEN | extract : cvv }}",
+      "expiryDate": {
+        "month": "{{ TOKEN | extract:expiration | date:MM}}",
+        "year": "{{ TOKEN | extract:expiration | date:YY}}"
+      }
+    },
+    "createToken": {
+      "reusable": true,
+      "declineDuplicates": false
+    }
+  }
+}
+```
+
+Errores
+
+```json
+{
+  "message": [
+    "country must be a valid ISO 3166-1 alpha-3 code"
+  ],
+  "error": "Bad Request",
+  "statusCode": 400
+}
+```
+
+<br />
+
+## Actualizar transacción
+
+Permite actualizar manualmente el estado de una transacción existente, por ejemplo, en casos donde se requiere intervención administrativa o la corrección de estados atípicos.
+Este endpoint es útil en situaciones donde el flujo automático no pudo completar la actualización del estado o cuando es necesario forzar un cambio por motivos operativos o de conciliación.
+
+Características principales
+
+Puede utilizarse para marcar una transacción como APPROVED, REJECTED, CANCELLED, entre otros.
+
+Es posible asociar el cambio de estado a un identificador de transacción del IPG, si corresponde.
+
+El uso de este endpoint debe ser controlado y auditado, ya que impacta directamente en la integridad de los registros de transacciones.
+
+Requisitos
+
+Requiere credenciales válidas y el código de país (ISO 3166-1 alfa-3) donde se procesó la transacción.
+
+Request body
+
+```json
+{
+  "transactionType": "VOID",
+  "ipgTransactionId": "123456789"
+}
+```
+
+Respuestas: 
+
+El estado de la transacción se actualizó correctamente.
+
+```json
+{
+  "checkoutId": "checkout_local_normal_63",
+  "status": {
+    "transactionId": "84623663173",
+    "statusTransaction": "APPROVED",
+    "transactionType": "RETURN",
+    "amount": 1000.34,
+    "currency": "ARS",
+    "updatedAt": "2025-07-21T12:10:40.000Z"
+  }
+}
+```
+
+Validation or business rule error
+
+```json
+{
+  "message": [
+    "checkoutId must not be empty",
+    "checkoutId must be a string"
+  ],
+  "errorCode": "BAD_REQUEST",
+  "statusCode": 400
+}
+```
+
+<br />
+
+## 3DS
+
+⚠️ IMPORTANTE:
+
+Este endpoint solo funciona después de ejecutar primero el método form.
+Si se ejecuta manualmente sin la ejecución previa del método form, no tendrá ningún efecto.
+
+Propósito
+
+Endpoint específico para validar transacciones 3DS de Fiserv.
+Este proceso forma parte del flujo de autenticación 3D Secure, el cual requiere la ejecución previa del método form para generar los datos necesarios.
+
+Flujo requerido
+
+Ejecutar el método form (obligatorio).
+
+Obtener threeDSMethodData.
+
+Llamar a este endpoint utilizando los datos generados.
+
+Características
+
+Válido solo para transacciones Fiserv 3DS.
+
+Requiere un checkoutId válido.
+
+Necesita datos del método 3DS generados previamente.
+
+Es un endpoint público (no requiere autenticación).
+
+Body request: 
+
+```json
+ {
+  "threeDSMethodData": "eyJ0aHJlZURTTWV0aG9kRGF0YSI6InNhbXBsZV9kYXRhIn0="
+}
+```
+
+Respuestas: 
+
+3DS transaction successfully validated 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "transactionType": "SALE",
+  "status": "APPROVED",
+  "amount": 1000.34,
+  "currency": "ARS"
+}
+```
+
+<br />
+
+## Cancelar un pago: 
+
+Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta: `/api/v1/transaction/fiserv/{{country}}/void`.
+
+Este punto de conexión permite cancelar (anular) una transacción previamente autorizada o capturada. **Características principales:** - **ANULACIÓN DE VENTA:** - Solo se puede realizar el mismo día de la transacción de VENTA. - Se permite hasta las 23:30 (hora local). - Elimina el movimiento antes del cierre del lote; el cliente no ve el cargo. - **ANULACIÓN DE PREAUTORIZACIÓN:** - Se puede realizar hasta 21 días después de la PREAUTORIZACIÓN. - Sin límite de tiempo durante el día. - Solo es posible si no se ha realizado la POSTAUTICIÓN. **Reglas de negocio:** - El checkoutId debe existir y pertenecer al credential_code proporcionado. - La transacción debe estar en un estado válido para la anulación. - La solicitud de anulación debe realizarse dentro del plazo permitido para el tipo de operación. - El parámetro de país (código ISO 3166-1 alfa-3) debe proporcionarse en la ruta. **Validaciones:** - El cuerpo de la solicitud debe incluir el checkoutId y el credencial. - El parámetro de país debe proporcionarse en la ruta.
+
+Datos necesarios para anular la transacción: 
+
+Body request
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64"
+}
+```
+
+Ejemplo de Transaction voided successfully, para ver más ejemplos, consutla la api reference: 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_64",
+  "status": {
+    "transactionId": "84623663578",
+    "statusTransaction": "APPROVED",
+    "transactionType": "VOID",
+    "amount": 600,
+    "currency": "ARS",
+    "updatedAt": "2025-07-21T12:18:15.000Z"
+  }
+}
+```
+
+## Reembolsar transacción
+
+Permite solicitar un reembolso para una transacción ya procesada. Es útil en casos donde el cliente devuelve un producto o se requiere reintegrar el dinero. Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta:`{baseUrl}/api/v1/transaction/fiserv/{country}/refund`
+
+**Características principales:** - Admite reembolsos totales y parciales. - El importe del reembolso no debe superar el importe registrado. - La solicitud de reembolso debe realizarse dentro de los **180 días** posteriores a la fecha de registro. - La transacción debe estar en un estado reembolsable (p. ej., REGISTRADA, APROBADA). **Reglas de negocio:** - El checkoutId debe existir y pertenecer al credential_code proporcionado. - La transacción debe estar en un estado válido para el reembolso. - El valor a reembolsar debe ser un número positivo y no superar el importe reembolsable. - La solicitud de reembolso debe realizarse dentro de los **180 días** posteriores al registro original. - El parámetro de país (código ISO 3166-1 alfa-3) debe proporcionarse en la ruta. **Validaciones:** - El cuerpo de la solicitud debe incluir el importe a reembolsar y el código de credencial. - El parámetro de país debe proporcionarse en la ruta.
+
+**Request body de reembolso total:** 
+
+```json
+{
+  "checkoutId": "checkout_local_normal_63",
+  "valueToRefund": 1000.34
+}
+```
+
+### Respuestas: 
+
+Reembolso total exitoso
+
+```json
+{
+  "checkoutId": "checkout_local_normal_63",
+  "status": {
+    "transactionId": "84623663173",
+    "statusTransaction": "APPROVED",
+    "transactionType": "RETURN",
+    "amount": 1000.34,
+    "currency": "ARS",
+    "updatedAt": "2025-07-21T12:10:40.000Z"
+  }
+}
+```
+
+Errores de reembolso: 
+
+CheckoutID inválido: 
+
+```json
+{
+  "message": [
+    "checkoutId must not be empty",
+    "checkoutId must be a string"
+  ],
+  "errorCode": "BAD_REQUEST",
+  "statusCode": 400
+}
+```
+
+<br />
+
+<br />
+
+<br />
 
 ## Prueba tu integración
 
