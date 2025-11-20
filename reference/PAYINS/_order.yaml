@@ -1,5 +1,6 @@
 - payment-methods
 - bank-codes
+- crear-nuevo-pago-argentina
 - create-payment
 - create-payment-chile-webpay-mall
 - create-payment-brazil-pixplusv2
@@ -10,4 +11,3 @@
 - cancel-qr-peru
 - refunds
 - yape-on-file
-- crear-nuevo-pago-argentina
