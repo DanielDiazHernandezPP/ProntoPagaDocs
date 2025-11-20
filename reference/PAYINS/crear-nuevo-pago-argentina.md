@@ -1,5 +1,5 @@
 ---
-title: Crear nuevo pago - Argentina
+title: Crear un nuevo pago - Argentina
 deprecated: false
 hidden: true
 metadata:
