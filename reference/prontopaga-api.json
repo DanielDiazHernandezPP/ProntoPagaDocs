@@ -6004,11 +6004,6 @@
                     "type": "string",
                     "description": "La firma de los parámetros es única para cada transacción. Conoce cómo firmar en este [artículo](https://docs.prontopaga.com/docs/sign-transactions#/)."
                   },
-                  "typePixPayment": {
-                    "type": "integer",
-                    "format": "int32",
-                    "description": "⚠️Requerido para Pix Brasil. <br>Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran: <ul> <li>Valor (1) Pago inmediato <li>Valor (2) Pago con fecha de vencimiento (temporalmente deshabilitado) <li>Valor (3) Pago por lotes con fecha de vencimiento (temporalmente deshabilitado)"
-                  },
                   "wallet_uid": {
                     "type": "string",
                     "description": "⚠️Requerido solamente para los servicios de **Perú-Yape On File**. Es el identificador único (UID) de la afiliación de la wallet del cliente."
@@ -6135,6 +6130,11 @@
               "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"yape_cof_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"order\": \"XYZ789\",\n  \"wallet_uid\": \"01JXNCAK8TX6PNBBN7ZNBSAEJH\",\n  \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Peru (Yape, One Click Payment)"
+            },
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Argentina Card"
             },
             {
               "code": "{\n  \"currency\": \"USD\",\n  \"country\": \"EC\",\n  \"amount\": \"25.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"0912345678\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"payphone_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"theme\": {\n  \t\"bgColor\": \"transparent\", \n    \"mode\": \"dark\",\n\t  \"type\": \"simple”\n\t}, \n\t\"order\": \"XYZ789\",\n\t\"sign\": \"Signature of the parameters\"\n}",
