@@ -5927,19 +5927,19 @@
                 "properties": {
                   "currency": {
                     "type": "string",
-                    "description": "Código ISO de la moneda: **BRL/CLP/USD/PEN**.",
+                    "description": "Código ISO de la moneda: **CLP/USD/PEN**.",
                     "default": "CLP"
                   },
                   "country": {
                     "type": "string",
-                    "description": "Código del país: **BR/CL/EC/PE**.",
+                    "description": "Código del país: **CL/EC/PE**.",
                     "default": "CL"
                   },
                   "amount": {
                     "type": "string",
                     "format": "int32",
                     "default": "25500",
-                    "description": "Monto de la transacción <br>⚠️En **Chile** solo se aceptan montos enteros. Mientras que en **Perú**, **Brasil** y **Ecuador** se permite el uso de montos con decimales."
+                    "description": "Monto de la transacción <br>⚠️En **Chile** solo se aceptan montos enteros. Mientras que en **Perú** y **Ecuador** se permite el uso de montos con decimales."
                   },
                   "clientName": {
                     "type": "string",
