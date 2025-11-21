@@ -254,7 +254,9 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-#### Ejemplo de respuesta para transacción creada correctamente:
+#### Ejemplo de respuesta para creación correcta:
+
+El siguiente JSON muestra un ejemplo de transacción creada correctamente. 
 
 ```json
 {
@@ -309,7 +311,7 @@ Para ver el endpoint de capturas parciales y respuestas, revisa [este artículo]
 
 ### Ejemplo de Request body: 
 
-Esto ejemplo muesta los datos necesarios para registrar una captura completa:
+Esto ejemplo muesta los datos necesarios para registrar una **captura completa**:
 
 ```json
 {
@@ -318,7 +320,7 @@ Esto ejemplo muesta los datos necesarios para registrar una captura completa:
 }
 ```
 
-Esto ejemplo muesta los datos necesarios para registrar una captura parcial:
+Esto ejemplo muesta los datos necesarios para registrar una **captura parcial**:
 
 ```json
 {
@@ -327,7 +329,7 @@ Esto ejemplo muesta los datos necesarios para registrar una captura parcial:
 }
 ```
 
-### Respuesta: 
+### Respuesta
 
 #### Ejemplo de transacción capturada correctamente
 
@@ -389,7 +391,7 @@ Para obtener el status actual debes realizar una solicitud GET a la siguiente ru
 
 ### Respuesta
 
-#### Ejemplo de status actual
+#### Ejemplo de _status_ actual
 
 Este _endpoint_ recupera el estado actual de una transacción mediante su ID de pago..
 
@@ -450,7 +452,7 @@ Además:
 
 #### Ejemplo de estructura de tokenización
 
-Este ejemplo muestra un formato básico requerido para generar un token seguro de tarjeta.
+Este ejemplo muestra el formato para generar un token.
 
 ```json
 {
@@ -482,22 +484,35 @@ Este ejemplo muestra un formato básico requerido para generar un token seguro d
 
 ## Actualizar transacción
 
-Permite actualizar manualmente el estado de una transacción existente, por ejemplo, en casos donde se requiere intervención administrativa o la corrección de estados atípicos.
-Este endpoint es útil en situaciones donde el flujo automático no pudo completar la actualización del estado o cuando es necesario forzar un cambio por motivos operativos o de conciliación.
+Este _endpoint_ permite **actualizar manualmente el estado de una transacción existente**, por ejemplo, en caso de intervención administrativa o corrección de estados atípicos. Es útil en situaciones donde el flujo automático no pudo completar la actualización del estado o cuando es necesario forzar un cambio por motivos operativos o de conciliación. Para actualizar una transaccióm debes hacer una solicitud PUT a la siguiente ruta:  `{{baseUrl}}/api/v1/transaction/fiserv/{{country}}/{{checkout_id}}/update-status`
 
-Características principales
+**Además**:
 
-Puede utilizarse para marcar una transacción como APPROVED, REJECTED, CANCELLED, entre otros.
+* Puede utilizarse para marcar una transacción como `APPROVED`, `REJECTED`, `CANCELLED`, entre otros.
+* Es posible asociar el cambio de estado a un identificador de transacción del IPG, si corresponde.
+* El uso de este _endpoint_ debe ser controlado y auditado, ya que impacta directamente en la integridad de los registros de transacciones.
+* Requiere credenciales válidas y el código de país (ISO 3166-1 alfa-3) donde se procesó la transacción.
 
-Es posible asociar el cambio de estado a un identificador de transacción del IPG, si corresponde.
+<Callout icon="🚧">
+  **Base de datos**
 
-El uso de este endpoint debe ser controlado y auditado, ya que impacta directamente en la integridad de los registros de transacciones.
+  Es un proceso que no está orientado a validar con el cliente, sino a **actualizar el estado de la transacción**. En otras palabras, si el estado actual del pago se obtiene por otra vía (ejemplo: consulta externa o webhook), este proceso se utiliza para reflejarlo y mantenerlo actualizado en la base de datos.
+</Callout>
 
-Requisitos
+### Flujos permitidos para actualizar los tipos de transacción:
 
-Requiere credenciales válidas y el código de país (ISO 3166-1 alfa-3) donde se procesó la transacción.
+| Tipo de transacción actual | Transacción siguiente permitida |
+| -------------------------- | ------------------------------- |
+| PREAUTH                    | CAPTURE                         |
+| PREAUTH                    | VOID                            |
+| SALE                       | RETURN                          |
+| SALE                       | VOID                            |
+| POSTAUTH                   | RETURN                          |
+| RETURN_PARTIAL             | RETURN                          |
 
-Request body
+### Request body
+
+El request contiene los datos necesarios para actualizar el estado de la transacción. Debe incluir el nuevo estado requerido y, opcionalmente, el identificador de transacción (ipgTransactionId), si corresponde. 
 
 ```json
 {
@@ -506,9 +521,9 @@ Request body
 }
 ```
 
-Respuestas:
+### Respuestas:
 
-El estado de la transacción se actualizó correctamente.
+Este ejemplo muestra el estado de la transacción actualizada correctamente.
 
 ```json
 {
@@ -524,52 +539,34 @@ El estado de la transacción se actualizó correctamente.
 }
 ```
 
-Validation or business rule error
-
-```json
-{
-  "message": [
-    "checkoutId must not be empty",
-    "checkoutId must be a string"
-  ],
-  "errorCode": "BAD_REQUEST",
-  "statusCode": 400
-}
-```
-
-<br />
-
 ## 3DS
 
-⚠️ IMPORTANTE:
+> ❗️ Método form
+>
+> Este _endpoint_ solo funciona después de ejecutar previamente el método _form_.
+> Si se ejecuta manualmente sin haber llamado antes al método _form_, no tendrá ningún efecto
 
-Este endpoint solo funciona después de ejecutar primero el método form.
-Si se ejecuta manualmente sin la ejecución previa del método form, no tendrá ningún efecto.
+Este _endpoint_ es específicamente para validar transacciones 3DS. Este proceso forma parte del flujo de autenticación 3D Secure, el cual requiere la ejecución previa del método _form_ para generar los datos necesarios.
 
-Propósito
+**Flujo requerido**
 
-Endpoint específico para validar transacciones 3DS de Fiserv.
-Este proceso forma parte del flujo de autenticación 3D Secure, el cual requiere la ejecución previa del método form para generar los datos necesarios.
+* Ejecutar el método _form_ (obligatorio).
+* Obtener el threeDSMethodData.
+* Llamar a este _endpoint_ usando los datos generados.
 
-Flujo requerido
+**Características**
 
-Ejecutar el método form (obligatorio).
+* Válido únicamente para transacciones 3DS de Fiserv.
+* Requiere un `checkoutId` válido.
+* Necesita los datos del método 3DS generados previamente.
 
-Obtener threeDSMethodData.
+> 📘 Autenticación
+>
+> Es un _endpoint_ público, es decir, **no requiere autenticación**.
 
-Llamar a este endpoint utilizando los datos generados.
+### Body request
 
-Características
-
-Válido solo para transacciones Fiserv 3DS.
-
-Requiere un checkoutId válido.
-
-Necesita datos del método 3DS generados previamente.
-
-Es un endpoint público (no requiere autenticación).
-
-Body request:
+Datos del método para el _request_.
 
 ```json
  {
@@ -577,9 +574,9 @@ Body request:
 }
 ```
 
-Respuestas:
+### Respuesta
 
-3DS transaction successfully validated
+Este ejemplo muestra una transacción 3DS validada con éxito.
 
 ```json
 {
@@ -591,17 +588,37 @@ Respuestas:
 }
 ```
 
-<br />
-
 ## Cancelar un pago:
 
-Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta: `/api/v1/transaction/fiserv/{{country}}/void`.
+Este endpoint permite cancelar (anular) una transacción previamente autorizada o capturada. Para cancelar una transacción haz una solicitud POST a la siguiente ruta: `/api/v1/transaction/fiserv/{{country}}/void`. 
 
-Este punto de conexión permite cancelar (anular) una transacción previamente autorizada o capturada. **Características principales:** - **ANULACIÓN DE VENTA:** - Solo se puede realizar el mismo día de la transacción de VENTA. - Se permite hasta las 23:30 (hora local). - Elimina el movimiento antes del cierre del lote; el cliente no ve el cargo. - **ANULACIÓN DE PREAUTORIZACIÓN:** - Se puede realizar hasta 21 días después de la PREAUTORIZACIÓN. - Sin límite de tiempo durante el día. - Solo es posible si no se ha realizado la POSTAUTICIÓN. **Reglas de negocio:** - El checkoutId debe existir y pertenecer al credential_code proporcionado. - La transacción debe estar en un estado válido para la anulación. - La solicitud de anulación debe realizarse dentro del plazo permitido para el tipo de operación. - El parámetro de país (código ISO 3166-1 alfa-3) debe proporcionarse en la ruta. **Validaciones:** - El cuerpo de la solicitud debe incluir el checkoutId y el credencial. - El parámetro de país debe proporcionarse en la ruta.
+ **Anulación de venta:**
 
-Datos necesarios para anular la transacción:
+* Solo se puede realizar el mismo día de la transacción de venta.
+* Se permite hasta las 23:30 (hora local).
+* Elimina el movimiento antes del cierre del lote. El cliente no ve el cargo. 
 
-Body request
+**Anulación de PREAUTH:**
+
+* Se puede realizar hasta 21 días después del PREAUTH.
+*  Sin límite de tiempo durante el día.
+*  Solo es posible si el POSTAUTH no se ha realizado. 
+
+**Reglas de negocio:** 
+
+* El `checkoutId` debe existir y pertenecer al `credential_code proporcionado`. 
+* La transacción debe estar en un estado válido para la anulación. 
+* La solicitud de anulación debe realizarse dentro del plazo permitido para el tipo de operación.
+* El parámetro de país (ISO 3166-1 alpha-3 code) debe proporcionarse en la ruta. 
+
+**Validaciones:**
+
+* El cuerpo de la solicitud debe incluir el `checkoutId` y la credencial.
+* El parámetro `country` debe proporcionarse en la ruta.
+
+### Body request
+
+El siguiente ejemplo muestra los datos necesarios para anular la transacción. 
 
 ```json
 {
@@ -609,7 +626,9 @@ Body request
 }
 ```
 
-Ejemplo de Transaction voided successfully, para ver más ejemplos, consutla la api reference:
+### Respuesta
+
+El siguiente ejemplo muestra una transacción anulada correctamente. 
 
 ```json
 {
@@ -627,11 +646,30 @@ Ejemplo de Transaction voided successfully, para ver más ejemplos, consutla la 
 
 ## Reembolsar transacción
 
-Permite solicitar un reembolso para una transacción ya procesada. Es útil en casos donde el cliente devuelve un producto o se requiere reintegrar el dinero. Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta:`{baseUrl}/api/v1/transaction/fiserv/{country}/refund`
+Este _endpoint_ permite solicitar un **reembolso para una transacción ya procesada**. Es útil en casos donde el cliente devuelve un producto o se requiere reintegrar el dinero. Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta:`{baseUrl}/api/v1/transaction/fiserv/{country}/refund`
 
-**Características principales:** - Admite reembolsos totales y parciales. - El importe del reembolso no debe superar el importe registrado. - La solicitud de reembolso debe realizarse dentro de los **180 días** posteriores a la fecha de registro. - La transacción debe estar en un estado reembolsable (p. ej., REGISTRADA, APROBADA). **Reglas de negocio:** - El checkoutId debe existir y pertenecer al credential_code proporcionado. - La transacción debe estar en un estado válido para el reembolso. - El valor a reembolsar debe ser un número positivo y no superar el importe reembolsable. - La solicitud de reembolso debe realizarse dentro de los **180 días** posteriores al registro original. - El parámetro de país (código ISO 3166-1 alfa-3) debe proporcionarse en la ruta. **Validaciones:** - El cuerpo de la solicitud debe incluir el importe a reembolsar y el código de credencial. - El parámetro de país debe proporcionarse en la ruta.
+**Características principales:**
 
-**Request body de reembolso total:**
+* Admite reembolsos totales y parciales.
+* El importe del reembolso no debe superar el importe registrado.
+* La solicitud de reembolso debe realizarse dentro de los **180 días** posteriores a la fecha de registro.
+* La transacción debe estar en un estado reembolsable, por ejemplo: REGISTRADA, APROBADA. 
+
+**Reglas de negocio:**
+
+* El `checkoutId` debe existir y pertenecer al `credential_code` proporcionado.
+* La transacción debe tener un estado válido para el reembolso.
+* La solicitud de reembolso debe realizarse dentro de los **180 días** posteriores al registro original.
+* El parámetro de país (_ISO 3166-1 alpha-3 code_) debe proporcionarse en la ruta. 
+
+**Validaciones:**
+
+* El cuerpo de la solicitud debe incluir el importe a reembolsar y el código de credencial.
+* El parámetro de país debe proporcionarse en la ruta.
+
+### Request body
+
+Este ejemplo muestra el _request body_ de reembolso total. 
 
 ```json
 {
@@ -642,7 +680,7 @@ Permite solicitar un reembolso para una transacción ya procesada. Es útil en c
 
 ### Respuestas:
 
-Reembolso total exitoso
+El siguiente ejemplo muestra un reembolso procesado correctamente. 
 
 ```json
 {
@@ -658,26 +696,7 @@ Reembolso total exitoso
 }
 ```
 
-Errores de reembolso:
-
-CheckoutID inválido:
-
-```json
-{
-  "message": [
-    "checkoutId must not be empty",
-    "checkoutId must be a string"
-  ],
-  "errorCode": "BAD_REQUEST",
-  "statusCode": 400
-}
-```
-
-<br />
-
-<br />
-
-<br />
+***
 
 ## Prueba tu integración
 
@@ -724,3 +743,5 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
     * ⚠️ El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
   </Tab>
 </Tabs>
+
+<br />
