@@ -644,9 +644,9 @@ El siguiente ejemplo muestra una transacción anulada correctamente.
 }
 ```
 
-## Reembolsar transacción
+## Reembolsar una transacción
 
-Este _endpoint_ permite solicitar un **reembolso para una transacción ya procesada**. Es útil en casos donde el cliente devuelve un producto o se requiere reintegrar el dinero. Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta:`{baseUrl}/api/v1/transaction/fiserv/{country}/refund`
+Este _endpoint_ permite solicitar un **reembolso para una transacción ya procesada**. Es útil en casos donde el cliente devuelve un producto o para reintegrar el dinero. Para cancelar una transacción se debe realizar una solicitud POST a la siguiente ruta:`{baseUrl}/api/v1/transaction/fiserv/{country}/refund`
 
 **Características principales:**
 
