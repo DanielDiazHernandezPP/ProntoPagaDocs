@@ -1,6 +1,6 @@
 ---
 title: Webhooks
-excerpt: Conoce cómo configurar un  <Glossary>webhook</Glossary> para tus transacciones
+excerpt: Conoce cómo configurar un webhook para tus transacciones
 deprecated: false
 hidden: false
 metadata:
@@ -35,7 +35,7 @@ Para iniciar la configuración de tu <Glossary>webhook</Glossary>, sigue estos p
 
 ## Agrega la URL a tus transacciones
 
-Para vincular tu webhook con la transacción deseada, **agrega la URL del endpoint que creaste en el parámetro indicado del body de la transacción**, que sería`urlConfirmation` en el caso de PayIns, o `confirmationURL` en PayOuts.
+Para vincular tu <Glossary>webhook</Glossary> con la transacción deseada, **agrega la URL del endpoint que creaste en el parámetro indicado del body de la transacción**, que sería`urlConfirmation` en el caso de PayIns, o `confirmationURL` en PayOuts.
 
 Ejemplo:
 
@@ -65,7 +65,7 @@ Ejemplo:
 
 ## Estructura del webhook
 
-Estos son los posibles parámetros que se pueden entregar en el cuerpo del webhook:
+Estos son los posibles parámetros que se pueden entregar en el cuerpo del <Glossary>webhook</Glossary>:
 
 <HTMLBlock>{`
 <table>
@@ -104,7 +104,7 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del webho
 
 ## Ejemplos
 
-Estos son algunos ejemplos de webhooks que podrías recibir.
+Estos son algunos ejemplos de <Glossary>webhooks</Glossary> que podrías recibir.
 
 ### Webhook de PayIn exitoso
 
