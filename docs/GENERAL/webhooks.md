@@ -1,6 +1,6 @@
 ---
 title: Webhooks
-excerpt: Conoce cómo configurar un webhook para tus transacciones
+excerpt: Conoce cómo configurar un  <Glossary>webhook</Glossary> para tus transacciones
 deprecated: false
 hidden: false
 metadata:
