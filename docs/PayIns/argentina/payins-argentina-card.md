@@ -564,7 +564,7 @@ Este _endpoint_ es específicamente para validar transacciones 3DS. Este proceso
 >
 > Es un _endpoint_ público, es decir, **no requiere autenticación**.
 
-### Body request
+### Request body 
 
 Datos del método para el _request_.
 
