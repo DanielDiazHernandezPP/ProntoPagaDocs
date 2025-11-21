@@ -25,7 +25,7 @@ next:
 ---
 ## Configura un webhook
 
-Para iniciar la configuración de tu webhook, sigue estos pasos:
+Para iniciar la configuración de tu <Glossary>webhook</Glossary>, sigue estos pasos:
 
 1. Crea un endpoint para recibirlo, es decir, crea una nueva ruta con la URL deseada.
 2. Ajusta la llamada HTTP de tu endpoint a POST.
