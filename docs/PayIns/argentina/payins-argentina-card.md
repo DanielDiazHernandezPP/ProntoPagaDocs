@@ -236,6 +236,8 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 **Más motivos de rechazo**
 
+A continuación se muestran varios posibles casos de rechazo, junto con su descripción
+
 <HTMLBlock>{`
 <div style="overflow-x:auto;">
 <table style="border-collapse: collapse; width: 100%;">
