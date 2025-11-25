@@ -55,7 +55,7 @@ La siguiente tabla muestra una recopilación de datos de prueba para validar pag
 <Callout icon="❗️" theme="error">
   **Ten en cuenta que**
 
-  Los siguientes datos de prueba se pueden utilizar para probar el procesamiento de tarjetas de crédito en _Gateway_, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
+  Los siguientes datos de prueba se pueden utilizar para **probar el procesamiento de tarjetas de crédito en _Gateway_**, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
 </Callout>
 
 A continuación encontrarás más ejemplos de datos de prueba necesarios para validar tu integración.
