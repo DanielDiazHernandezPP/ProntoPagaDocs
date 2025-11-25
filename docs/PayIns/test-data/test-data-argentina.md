@@ -44,4 +44,15 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 </table>
 `}</HTMLBlock>
 
-<br />
+***
+
+### Flujo sin fricción
+
+Conoce los
+
+/
+
+|    |    |    |
+| :- | :- | :- |
+|    |    |    |
+|    |    |    |
