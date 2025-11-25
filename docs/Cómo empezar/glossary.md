@@ -106,7 +106,7 @@ metadata:
 
     Si quieres conocer más acerca de las firmas, haz clic [aquí](https://docs.prontopaga.com/docs/sign-transactions#/).
 
-    **<h3>Front-end</h3>** La capa visible para el usuario (ya sea una web o una app). Aquí es donde se capturan datos, muestrannformularios de pago o cajas de checkout.
+    **<h3>Front-end</h3>** La capa visible para el usuario (ya sea una web o una aplicación). Aquí es donde se capturan datos, muestran formularios de pago o cajas de checkout.
 
     Estos siempre se enfocan en la experiencia de usuario: tiempos de carga, validaciones claras y confianza visual.
   </Tab>
