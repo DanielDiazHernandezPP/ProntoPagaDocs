@@ -294,7 +294,7 @@ A continuación encontrarás datos de prueba de flujos sin fricción con el mét
 
 ### Flujo de desafío
 
-A continuación encontrarás los datos de prueba necesarios para validar tu integración
+A continuación encontrarás los datos de prueba para flujos de desafío. 
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%;">
