@@ -75,7 +75,7 @@ metadata:
 
     **<h3>Demo</h3>** Aplicación o entorno de demostración que simula el flujo de pago real. Permite a comercios y desarrolladores visualizar la experiencia completa que verá el cliente final sin necesidad de escribir código. Suele acompañarse de ejemplos de credenciales y tarjetas de prueba.
 
-    Puedes encontrar nuestras demo de PayIns o [PayOuts](https://www.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971\&node-id=11830-66973\&viewport=1195%2C172%2C0.04\&t=ALYxaSbw4N7OP646-1\&scaling=scale-down\&content-scaling=fixed\&starting-point-node-id=11830%3A66973) en los links correspondientes.
+    Puedes encontrar nuestras demos de [PayIns](https://docs.prontopaga.com/docs/payins-overview#/) o [PayOuts](https://www.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971\&node-id=11830-66973\&viewport=1195%2C172%2C0.04\&t=ALYxaSbw4N7OP646-1\&scaling=scale-down\&content-scaling=fixed\&starting-point-node-id=11830%3A66973) en los enlace correspondientes.
   </Tab>
 
   <Tab title="E">
