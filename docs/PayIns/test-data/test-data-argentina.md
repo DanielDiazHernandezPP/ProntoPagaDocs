@@ -54,14 +54,15 @@ Conoce los
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de tarjeta</b></th>
-      <th><b>Número de tarjeta</b></th>
-      <th><b>Fecha de vencimiento</b></th>
-			<th><b>CVV</b></th>
+      <th><b>Escenario</b></th>
+      <th><b>Código de respuesta 3DS</b></th>
+      <th><b>Estado de la transacción 3DS</b></th>
+			<th><b>Número de tarjeta de prueba</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Visa</td><td>4147463011110059</td><td>dic-29</td><td>123</td></tr>
+    <tr><td>Sin fricciones - Totalmente autenticado</td><td>1</td><td>Y</td><td>4147463011110083<br>
+        5239290700000028</td></tr>
     <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td><td>123</td></tr>
     <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td><td>123</td></tr></tr>
   </tbody>
