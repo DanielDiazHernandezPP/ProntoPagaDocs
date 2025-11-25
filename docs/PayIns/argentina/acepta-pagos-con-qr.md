@@ -16,8 +16,6 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 
-<br />
-
 1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico.
 3. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta.
