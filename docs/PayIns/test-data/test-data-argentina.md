@@ -48,13 +48,13 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 
 ## Datos de prueba de autenticación/3-D Secure
 
-<Callout icon="❗️">
+<Callout icon="❗️" theme="error">
   **Escenarios soportados**
 
   Ten en cuenta que las tarjetas de prueba 3DS están configuradas únicamente para soportar los escenarios de autenticación listados a continuación y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
 </Callout>
 
-<Callout icon="👍">
+<Callout icon="👍" theme="okay">
   **Datos de vencimiento y CVV**
 
   **Fecha de expiración:** cualquier fecha futura, por ejemplo 12/2028  
@@ -63,7 +63,7 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 
 ### Flujo sin fricción
 
-Conoce los datos para pruebas de flujos sin fricción. 
+Conoce los datos para pruebas de flujos sin fricción.
 
 <HTMLBlock>{`
 <table>
@@ -170,3 +170,207 @@ Conoce los datos para pruebas de flujos sin fricción.
   </tbody>
 </table>
 `}</HTMLBlock>
+
+***
+
+### Flujo de desafío
+
+<HTMLBlock>{`
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Escenario</b></th>
+      <th><b>Código de respuesta 3DS</b></th>
+      <th><b>Estado de la transacción 3DS</b></th>
+      <th><b>Número de tarjeta de prueba</b></th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>Flujo de desafío - Respuestas configurables</td>
+      <td>1 o 4 o 6 o 3</td>
+      <td>Y o A o U o N/R</td>
+      <td>
+        4147463011110059<br>
+        5239290700000002
+      </td>
+    </tr>
+
+    <tr>
+      <td>Flujo de desafío - Totalmente autenticado</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>
+        4147463011110109
+      </td>
+    </tr>
+
+    <tr>
+      <td>Flujo de desafío - Autenticación rechazada</td>
+      <td>3</td>
+      <td>R</td>
+      <td>
+        4147463011110034<br>
+        5239290700000010
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+***
+
+### Flujo de desafío con el método 3DS
+
+<HTMLBlock>{`
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Escenario</b></th>
+      <th><b>Código de respuesta 3DS</b></th>
+      <th><b>Estado de la transacción 3DS</b></th>
+      <th><b>Número de tarjeta de prueba</b></th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>Flujo de desafío – Respuestas configurables</td>
+      <td>1 o 4 o 6 o 3</td>
+      <td>Y o A o U o N/R</td>
+      <td>
+        4099000000001960<br>
+        4149011500000527<br>
+        4265880000000064<br>
+        5204740000002745<br>
+        5544330000000235
+      </td>
+    </tr>
+
+    <tr>
+      <td>Flujo de desafío – Autenticación rechazada</td>
+      <td>3</td>
+      <td>R</td>
+      <td>
+        4149011500000535<br>
+        5204740000002760
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+***
+
+### Tarjetas de prueba generales
+
+<Callout icon="❗️">
+  **Ten en cuenta que**
+
+  Los siguientes datos de prueba se pueden utilizar para probar el procesamiento de tarjetas de crédito en _Gateway_, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
+</Callout>
+
+<br />
+
+<HTMLBlock>{`
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Número de tarjeta</b></th>
+      <th><b>PIN</b></th>
+      <th><b>CVV</b></th>
+      <th><b>Mes de expiración</b></th>
+      <th><b>Año de expiración</b></th>
+      <th><b>Marca</b></th>
+      <th><b>Tipo</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td>4761739001010010</td>
+      <td>1234</td>
+      <td>002</td>
+      <td>10</td>
+      <td>30</td>
+      <td>Visa</td>
+      <td>Prepago</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+    <tr>
+      <td>4005520000000129</td>
+      <td>1234</td>
+      <td>002</td>
+      <td>10</td>
+      <td>30</td>
+      <td>Visa</td>
+      <td>Crédito</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+    <tr>
+      <td>5413330089010640</td>
+      <td>4315</td>
+      <td>002</td>
+      <td>10</td>
+      <td>30</td>
+      <td>Mastercard</td>
+      <td>Crédito</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+    <tr>
+      <td>5413330089600119</td>
+      <td>4315</td>
+      <td>002</td>
+      <td>10</td>
+      <td>30</td>
+      <td>Mastercard</td>
+      <td>Crédito</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+    <tr>
+      <td>374245001721009</td>
+      <td>1234</td>
+      <td>002</td>
+      <td>10</td>
+      <td>30</td>
+      <td>Amex</td>
+      <td>Crédito</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+    <tr>
+      <td>4035874000424977</td>
+      <td>-</td>
+      <td>977</td>
+      <td>12</td>
+      <td>30</td>
+      <td>Visa</td>
+      <td>Crédito</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+    <tr>
+      <td>5413330089010640</td>
+      <td>-</td>
+      <td>Cualquiera</td>
+      <td>12</td>
+      <td>30</td>
+      <td>Mastercard</td>
+      <td>Crédito</td>
+      <td>Transacción exitosa</td>
+    </tr>
+
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+<br />
