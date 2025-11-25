@@ -46,9 +46,9 @@ El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `latam_chk_card_payment` como método de pago en el body de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `latam_chk_card_payment` o `ar_chk_card_payment `como método de pago en el body de la solicitud.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -95,6 +95,8 @@ A continuación puedes el ejemplo de request:
   "order" : "XYZ789" 
 }
 ```
+
+***
 
 ### Respuesta
 
@@ -152,6 +154,8 @@ Ejemplo de **webhook para un pago exitoso**:
 } 
 ```
 
+***
+
 ### Detalles de un pago
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
@@ -205,8 +209,6 @@ Puedes ajustar la apariencia de tu formulario con el parámetro opcional theme, 
 ```
 
 ***
-
-<br />
 
 ### Motivos de rechazo
 
