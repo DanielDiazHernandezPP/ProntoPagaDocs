@@ -50,6 +50,22 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 
 Conoce los
 
+<HTMLBlock>{`
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
+      <th>Escenario</th>
+      <th>Código de respuesta 3DS</th>
+      <th>Estado de la transacción de 3DS</th>
+      <th>Número de tarjeta de prueba</th>
+    </tr>
+  </thead>
+  <tbody>
+    {/* filas aquí */}
+  </tbody>
+</Table>
+`}</HTMLBlock>
+
 <br />
 
 <HTMLBlock>{`
