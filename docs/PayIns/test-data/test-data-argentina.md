@@ -55,7 +55,7 @@ La siguiente tabla muestra una recopilación de datos de prueba para validar pag
 <Callout icon="❗️" theme="error">
   **Ten en cuenta que**
 
-  Los siguientes datos de prueba se pueden utilizar para **probar el procesamiento de tarjetas de crédito en _Gateway_**, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
+  Los siguientes datos de prueba se pueden utilizar para probar el procesamiento de tarjetas de crédito en _Gateway_, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
 </Callout>
 
 A continuación encontrarás más ejemplos de datos de prueba necesarios para validar tu integración.
@@ -77,17 +77,6 @@ A continuación encontrarás más ejemplos de datos de prueba necesarios para va
   </thead>
   <tbody>
 
-    <tr>
-      <td>5165850000000008</td>
-      <td>N/A</td>
-      <td>123</td>
-      <td>12</td>
-      <td>29</td>
-      <td>Mastercard</td>
-      <td>N/A</td>
-      <td>Pago exitoso</td>
-    </tr>
-    
     <tr>
       <td>4761739001010010</td>
       <td>1234</td>
@@ -179,7 +168,7 @@ A continuación encontrarás más ejemplos de datos de prueba necesarios para va
 <Callout icon="❗️" theme="error">
   **Escenarios soportados**
 
-  Las tarjetas de prueba 3DS están configuradas **únicamente para soportar los escenarios de autenticación listados a continuación** y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
+  Ten en cuenta que las tarjetas de prueba 3DS están configuradas únicamente para soportar los escenarios de autenticación listados a continuación y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
 </Callout>
 
 <Callout icon="👍" theme="okay">
@@ -303,9 +292,9 @@ A continuación encontrarás datos de prueba de flujos sin fricción con el mét
 
 ***
 
-### Flujo de desafío
+### Flujo de challenge
 
-A continuación encontrarás los datos de prueba para flujos de desafío.
+A continuación encontrarás los datos de prueba para flujos de challenge.
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%;">
@@ -320,7 +309,7 @@ A continuación encontrarás los datos de prueba para flujos de desafío.
   <tbody>
 
     <tr>
-      <td>Flujo de desafío - Respuestas configurables</td>
+      <td>Flujo de challenge - Respuestas configurables</td>
       <td>1 o 4 o 6 o 3</td>
       <td>Y o A o U o N/R</td>
       <td>
@@ -330,7 +319,7 @@ A continuación encontrarás los datos de prueba para flujos de desafío.
     </tr>
 
     <tr>
-      <td>Flujo de desafío - Totalmente autenticado</td>
+      <td>Flujo de challenge - Totalmente autenticado</td>
       <td>1</td>
       <td>Y</td>
       <td>
@@ -339,7 +328,7 @@ A continuación encontrarás los datos de prueba para flujos de desafío.
     </tr>
 
     <tr>
-      <td>Flujo de desafío - Autenticación rechazada</td>
+      <td>Flujo de challenge - Autenticación rechazada</td>
       <td>3</td>
       <td>R</td>
       <td>
@@ -354,7 +343,7 @@ A continuación encontrarás los datos de prueba para flujos de desafío.
 
 ***
 
-### Flujo de desafío con el método 3DS
+### Flujo de challenge con el método 3DS
 
 A continuación encontrarás los datos de prueba necesarios para validar tu integración.
 
@@ -371,7 +360,7 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
   <tbody>
 
     <tr>
-      <td>Flujo de desafío – Respuestas configurables</td>
+      <td>Flujo de challenge – Respuestas configurables</td>
       <td>1 o 4 o 6 o 3</td>
       <td>Y o A o U o N/R</td>
       <td>
@@ -384,7 +373,7 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
     </tr>
 
     <tr>
-      <td>Flujo de desafío – Autenticación rechazada</td>
+      <td>Flujo de challenge – Autenticación rechazada</td>
       <td>3</td>
       <td>R</td>
       <td>
