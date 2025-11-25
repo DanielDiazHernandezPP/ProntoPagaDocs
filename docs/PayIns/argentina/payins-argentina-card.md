@@ -22,7 +22,7 @@ metadata:
 next:
   description: ''
 ---
-Crear un pago con tarjeta en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Crear un pago con tarjeta en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de Cybersource (A Visa Solution), junto con el sistema 3DS, el cual activa los desafíos (_challenges_) correspondientes para validar o rechazar transacciones.
 
@@ -233,6 +233,53 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
   </tbody>
 </table>
 `}</HTMLBlock>
+
+**Más motivos de rechazo**
+
+<HTMLBlock>{`
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Mensaje de rechazo</b></th>
+      <th><b>Código</b></th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr><td>Cancelado por usuario</td><td>USU0001</td></tr>
+    <tr><td>Cuenta bloqueada, contacta a tu banco</td><td>FRA0004</td></tr>
+    <tr><td>Datos inválidos, verifica e inténtalo nuevamente</td><td>FOR0003</td></tr>
+    <tr><td>Error del sistema de conexión, intenta más tarde</td><td>SIS0006</td></tr>
+    <tr><td>Error del sistema, verifica tus permisos</td><td>FOR0002</td></tr>
+    <tr><td>Excede monto máximo, contacta a tu banco</td><td>RES0001</td></tr>
+    <tr><td>Fondo insuficiente, contacta a tu banco</td><td>FON0001</td></tr>
+    <tr><td>Merchant inválido</td><td>SIS0001</td></tr>
+    <tr><td>No cumple requisitos de edad, no insistir</td><td>RES0005</td></tr>
+    <tr><td>Operación no permitida</td><td>RES0002</td></tr>
+    <tr><td>Pago rechazado</td><td>SIS0007</td></tr>
+    <tr><td>Problema en la autenticación, vuelva a intentar</td><td>AUT0002</td></tr>
+    <tr><td>Problema en la transacción, contacta a tu banco</td><td>SIS0003</td></tr>
+    <tr><td>Riesgo de fraude - múltiples intentos</td><td>FRA0003</td></tr>
+    <tr><td>Tarjeta bloqueada, contacta a tu banco</td><td>FRA0002</td></tr>
+    <tr><td>Tarjeta inválida</td><td>SIS0008</td></tr>
+    <tr><td>Tarjeta vencida, no insistir</td><td>RES0004</td></tr>
+    <tr><td>Tiempo de espera agotado</td><td>TIM0001</td></tr>
+    <tr><td>Transacción completada exitosamente</td><td>APR0005</td></tr>
+    <tr><td>Transacción denegada, no insistir</td><td>FRA0001</td></tr>
+    <tr><td>Transacción exitosa</td><td>APR0001</td></tr>
+    <tr><td>Transacción expirada, inténtalo de nuevo</td><td>TIM0002</td></tr>
+    <tr><td>Transacción inconsistente, no insistir</td><td>TEC0001</td></tr>
+    <tr><td>Transacción no soportada, no insistir</td><td>TEC0002</td></tr>
+    <tr><td>Verificación de edad positiva</td><td>APR0002</td></tr>
+    <tr><td>Verificaciones positivas</td><td>APR0003</td></tr>
+
+  </tbody>
+</table>
+</div>
+`}</HTMLBlock>
+
+<br />
 
 ***
 
