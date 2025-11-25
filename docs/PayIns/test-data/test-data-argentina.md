@@ -78,7 +78,7 @@ A continuación encontrarás más ejemplos de datos de prueba necesarios para va
   <tbody>
 
     <tr>
-      <td>5165 8500 0000 0008</td>
+      <td>5165850000000008</td>
       <td>N/A</td>
       <td>123</td>
       <td>12</td>
