@@ -122,8 +122,8 @@ metadata:
   <Tab title="P">
     **<h3>Paga con Tu Banco</h3>**
     Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
-    
-		**<h3>Parámetros</h3>** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
+
+    **<h3>Parámetros</h3>** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
 
     Los parámetros son aquellos que permiten personalizar el comportamiento de cada operación (y que para un mismo endpoint, el resultado sea diferente cuando cambiamos los datos del parámetro).
 
@@ -139,7 +139,7 @@ metadata:
 
     Conoce más acerca de los PayOuts en  el siguiente [artículo](https://docs.prontopaga.com/docs/payouts-overview#/).
 
-		**<h3>Payphone</h3>**
+    **<h3>Payphone</h3>**
     Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
 
     Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
@@ -166,11 +166,10 @@ metadata:
     * Ecuador  – Con puntos físicos de [pago](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) y [retiro](https://docs.prontopaga.com/docs/physical-points-payouts#/).
 
     * Perú – con puntos físicos de [pago](https://docs.prontopaga.com/docs/physical-points-payins-peru#/).
-
   </Tab>
 
   <Tab title="Q">
-    **<h3>QR</h3>** Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un link a un checkout, una orden de transferencia o un identificador único de transacción.
+    **<h3>QR</h3>** Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un enlace a un checkout, una orden de transferencia o un identificador único de transacción.
 
     Es usado por su simplicidad y compatibilidad con billeteras (wallets) digitales.
   </Tab>
