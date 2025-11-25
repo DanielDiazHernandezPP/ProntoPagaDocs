@@ -30,39 +30,6 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-        <th><b>Escenario</b></th>
-      <th><b>Código de respuesta 3DS</b></th>
-      <th><b>Estado de la transacción de 3DS</b></th>
-			<th><b>Número de tarjeta de prueba</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Sin fricciones - Totalmente autenticado</td><td>1</td><td>Y</td><td>4147463011110083
-5239290700000028</td></tr>
-    <tr><td>Sin fricción - No autenticado</td><td>3</td><td>N</td><td>4147463011110091
-5239290700000036</td></tr>
-    <tr><td>Sin fricción - Intento de autenticación</td><td>4</td><td>A</td><td>4147463011110117
-      5239290700000044</td></tr></tr>
-  <tr><td>Sin fricción - Autenticación rechazada</td><td>3</td><td>R</td><td>4147463011110042
-5239290700000051 
-    5239290700000044</td></tr></tr>
-  <tr><td>Sin fricción: no se puede autenticar</td><td>6</td><td>U</td><td>4147463011110067
-4147463011110125
-5239290700000069</td></tr></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
-***
-
-### Flujo sin fricción
-
-Conoce los
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Tipo de tarjeta</b></th>
       <th><b>Número de tarjeta</b></th>
       <th><b>Fecha de vencimiento</b></th>
@@ -76,3 +43,258 @@ Conoce los
   </tbody>
 </table>
 `}</HTMLBlock>
+
+***
+
+### Flujo sin fricción
+
+Conoce los
+
+<br />
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Escenario
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Código de respuesta 3DS
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Estado de la transacción de 3DS
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Número de tarjeta de prueba
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Sin fricciones - Totalmente autenticado
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        1
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Y
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        4147463011110083
+        5239290700000028
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Sin fricción - No autenticado
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        3
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        N
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        4147463011110091
+        5239290700000036
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Sin fricción - Intento de autenticación
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        4
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        A
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        4147463011110117
+        5239290700000044
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Sin fricción - Autenticación rechazada
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        3
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        R
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        4147463011110042
+        5239290700000051
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Sin fricción: no se puede autenticar
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        6
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        U
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        4147463011110067
+        4147463011110125
+        5239290700000069
+      </td>
+    </tr>
+  </tbody>
+</Table>
+  </tbody>
+</table>
+`}</HTMLBlock>
+
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Escenario
+      </th>
+
+      <th>
+        Código de respuesta 3DS
+      </th>
+
+      <th>
+        Estado de la transacción de 3DS
+      </th>
+
+      <th>
+        Número de tarjeta de prueba
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Sin fricciones - Totalmente autenticado
+      </td>
+
+      <td>
+        1
+      </td>
+
+      <td>
+        Y
+      </td>
+
+      <td>
+        4147463011110083
+        5239290700000028
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Sin fricción - No autenticado
+      </td>
+
+      <td>
+        3
+      </td>
+
+      <td>
+        N
+      </td>
+
+      <td>
+        4147463011110091
+        5239290700000036
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Sin fricción - Intento de autenticación
+      </td>
+
+      <td>
+        4
+      </td>
+
+      <td>
+        A
+      </td>
+
+      <td>
+        4147463011110117
+        5239290700000044
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Sin fricción - Autenticación rechazada
+      </td>
+
+      <td>
+        3
+      </td>
+
+      <td>
+        R
+      </td>
+
+      <td>
+        4147463011110042
+        5239290700000051
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Sin fricción: no se puede autenticar
+      </td>
+
+      <td>
+        6
+      </td>
+
+      <td>
+        U
+      </td>
+
+      <td>
+        4147463011110067
+        4147463011110125
+        5239290700000069
+      </td>
+    </tr>
+  </tbody>
+</Table>
