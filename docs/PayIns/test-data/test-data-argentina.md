@@ -51,19 +51,21 @@ Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta
 Conoce los
 
 <HTMLBlock>{`
-<Table align={["left","left","left","left"]}>
+<table>
   <thead>
-    <tr style={{backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
-      <th>Escenario</th>
-      <th>Código de respuesta 3DS</th>
-      <th>Estado de la transacción de 3DS</th>
-      <th>Número de tarjeta de prueba</th>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de tarjeta</b></th>
+      <th><b>Número de tarjeta</b></th>
+      <th><b>Fecha de vencimiento</b></th>
+			<th><b>CVV</b></th>
     </tr>
   </thead>
   <tbody>
-    {/* filas aquí */}
+    <tr><td>Visa</td><td>4147463011110059</td><td>dic-29</td><td>123</td></tr>
+    <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td><td>123</td></tr>
+    <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td><td>123</td></tr></tr>
   </tbody>
-</Table>
+</table>
 `}</HTMLBlock>
 
 <br />
