@@ -176,6 +176,38 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 }
 ```
 
+***
+
+### Personalizar el formulario de pago
+
+Puedes ajustar la apariencia de tu formulario con el parámetro opcional theme, cambiando el color de fondo o creando versiones en modo claro y modo oscuro con este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
+
+```json
+{
+  "currency": "ARS",
+  "country": "AR",
+  "amount": "34000.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientPhone": "999999999",
+  "clientDocument": "12345678912",
+  "paymentMethod": "ar_chk_card_payment",
+  "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://sandbox.prontopaga.com/successful",
+  "urlRejected": "https://sandbox.prontopaga.com/declined",
+  "order": "XYZ789",
+  "theme": {
+    "bgColor": "transparent", 
+    "mode": "dark"
+	},
+  "sign": "Signature of the parameters"
+}
+```
+
+***
+
+<br />
+
 ### Motivos de rechazo
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
