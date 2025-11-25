@@ -53,7 +53,7 @@ Conoce los
 <HTMLBlock>{`
 <Table align={["left","left","left","left"]}>
   <thead>
-    <tr style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
+    <tr style={{backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
       <th>Escenario</th>
       <th>Código de respuesta 3DS</th>
       <th>Estado de la transacción de 3DS</th>
