@@ -141,13 +141,12 @@ metadata:
     **<h3>PIX</h3>**
     Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
-    Si quieres conocer más acerca de este método, visita su artículo de [PayIns](https://docs.prontopaga.com/docs/payins-brazil-pix#/) o [PayOuts](https://docs.prontopaga.com/docs/payouts-brazil-pix#/) según requieras.
+   
 
     **<h3>PIX+</h3>**
     Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
 
-    Si deseas conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-brazil-pix-plus#/).
-
+    
     **<h3>Paga con Tu Banco</h3>**
     Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
 
