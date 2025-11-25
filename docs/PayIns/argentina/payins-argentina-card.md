@@ -241,45 +241,43 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Mensaje de rechazo</b></th>
       <th><b>Código</b></th>
+      <th><b>Mensaje de rechazo</b></th>
     </tr>
   </thead>
   <tbody>
 
-    <tr><td>Cancelado por usuario</td><td>USU0001</td></tr>
-    <tr><td>Cuenta bloqueada, contacta a tu banco</td><td>FRA0004</td></tr>
-    <tr><td>Datos inválidos, verifica e inténtalo nuevamente</td><td>FOR0003</td></tr>
-    <tr><td>Error del sistema de conexión, intenta más tarde</td><td>SIS0006</td></tr>
-    <tr><td>Error del sistema, verifica tus permisos</td><td>FOR0002</td></tr>
-    <tr><td>Excede monto máximo, contacta a tu banco</td><td>RES0001</td></tr>
-    <tr><td>Fondo insuficiente, contacta a tu banco</td><td>FON0001</td></tr>
-    <tr><td>Merchant inválido</td><td>SIS0001</td></tr>
-    <tr><td>No cumple requisitos de edad, no insistir</td><td>RES0005</td></tr>
-    <tr><td>Operación no permitida</td><td>RES0002</td></tr>
-    <tr><td>Pago rechazado</td><td>SIS0007</td></tr>
-    <tr><td>Problema en la autenticación, vuelva a intentar</td><td>AUT0002</td></tr>
-    <tr><td>Problema en la transacción, contacta a tu banco</td><td>SIS0003</td></tr>
-    <tr><td>Riesgo de fraude - múltiples intentos</td><td>FRA0003</td></tr>
-    <tr><td>Tarjeta bloqueada, contacta a tu banco</td><td>FRA0002</td></tr>
-    <tr><td>Tarjeta inválida</td><td>SIS0008</td></tr>
-    <tr><td>Tarjeta vencida, no insistir</td><td>RES0004</td></tr>
-    <tr><td>Tiempo de espera agotado</td><td>TIM0001</td></tr>
-    <tr><td>Transacción completada exitosamente</td><td>APR0005</td></tr>
-    <tr><td>Transacción denegada, no insistir</td><td>FRA0001</td></tr>
-    <tr><td>Transacción exitosa</td><td>APR0001</td></tr>
-    <tr><td>Transacción expirada, inténtalo de nuevo</td><td>TIM0002</td></tr>
-    <tr><td>Transacción inconsistente, no insistir</td><td>TEC0001</td></tr>
-    <tr><td>Transacción no soportada, no insistir</td><td>TEC0002</td></tr>
-    <tr><td>Verificación de edad positiva</td><td>APR0002</td></tr>
-    <tr><td>Verificaciones positivas</td><td>APR0003</td></tr>
+    <tr><td>USU0001</td><td>Cancelado por usuario</td></tr>
+    <tr><td>FRA0004</td><td>Cuenta bloqueada, contacta a tu banco</td></tr>
+    <tr><td>FOR0003</td><td>Datos inválidos, verifica e inténtalo nuevamente</td></tr>
+    <tr><td>SIS0006</td><td>Error del sistema de conexión, intenta más tarde</td></tr>
+    <tr><td>FOR0002</td><td>Error del sistema, verifica tus permisos</td></tr>
+    <tr><td>RES0001</td><td>Excede monto máximo, contacta a tu banco</td></tr>
+    <tr><td>FON0001</td><td>Fondo insuficiente, contacta a tu banco</td></tr>
+    <tr><td>SIS0001</td><td>Merchant inválido</td></tr>
+    <tr><td>RES0005</td><td>No cumple requisitos de edad, no insistir</td></tr>
+    <tr><td>RES0002</td><td>Operación no permitida</td></tr>
+    <tr><td>SIS0007</td><td>Pago rechazado</td></tr>
+    <tr><td>AUT0002</td><td>Problema en la autenticación, vuelva a intentar</td></tr>
+    <tr><td>SIS0003</td><td>Problema en la transacción, contacta a tu banco</td></tr>
+    <tr><td>FRA0003</td><td>Riesgo de fraude - múltiples intentos</td></tr>
+    <tr><td>FRA0002</td><td>Tarjeta bloqueada, contacta a tu banco</td></tr>
+    <tr><td>SIS0008</td><td>Tarjeta inválida</td></tr>
+    <tr><td>RES0004</td><td>Tarjeta vencida, no insistir</td></tr>
+    <tr><td>TIM0001</td><td>Tiempo de espera agotado</td></tr>
+    <tr><td>APR0005</td><td>Transacción completada exitosamente</td></tr>
+    <tr><td>FRA0001</td><td>Transacción denegada, no insistir</td></tr>
+    <tr><td>APR0001</td><td>Transacción exitosa</td></tr>
+    <tr><td>TIM0002</td><td>Transacción expirada, inténtalo de nuevo</td></tr>
+    <tr><td>TEC0001</td><td>Transacción inconsistente, no insistir</td></tr>
+    <tr><td>TEC0002</td><td>Transacción no soportada, no insistir</td></tr>
+    <tr><td>APR0002</td><td>Verificación de edad positiva</td></tr>
+    <tr><td>APR0003</td><td>Verificaciones positivas</td></tr>
 
   </tbody>
 </table>
 </div>
 `}</HTMLBlock>
-
-<br />
 
 ***
 
