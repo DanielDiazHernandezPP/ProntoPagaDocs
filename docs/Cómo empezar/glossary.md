@@ -175,13 +175,13 @@ metadata:
   </Tab>
 
   <Tab title="S">
-    **<h3>Sandbox</h3>** Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
-
     **<h3>Saldo Bloqueado</h3>** Fondos retenidos por situaciones especiales, como contracargos, disputas abiertas o revisiones de fraude. Estos montos permanecen inaccesibles hasta que la investigación concluya. El saldo bloqueado protege tanto al cliente como al comercio, evitando retiros que luego no podrían cubrir reembolsos.
 
     **<h3>Saldo Diferido</h3>** Es la porción del saldo que aún no puede retirarse porque está en periodo de espera. Normalmente corresponde a fondos que deben cumplir con reglas de liberación para reducir riesgos de contracargos o fraudes. Una vez cumplido ese tiempo, pasa al saldo disponible.
 
     **<h3>Saldo Neto</h3>** Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
+
+		**<h3>Sandbox</h3>** Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
 
     **<h3>SecretKey</h3>** Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
 
