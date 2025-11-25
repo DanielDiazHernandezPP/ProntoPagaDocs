@@ -63,8 +63,15 @@ Conoce los
   <tbody>
     <tr><td>Sin fricciones - Totalmente autenticado</td><td>1</td><td>Y</td><td>4147463011110083<br>
         5239290700000028</td></tr>
-    <tr><td>Mastercard</td><td>5165850000000008</td><td>dic-29</td><td>123</td></tr>
-    <tr><td>Mastercard</td><td>5200000000002490</td><td>dic-28</td><td>123</td></tr></tr>
+    <tr><td>Sin fricciones - No autenticado</td><td>3</td><td>N</td><td>4147463011110091<br>
+        5239290700000036</td></tr>
+    <tr><td>Sin fricciones - Intento de autenticación</td><td>4</td><td>A</td><td> 4147463011110117<br>
+      5239290700000044</td></tr></tr>
+    <tr><td>Sin fricciones - Autenticación rechazada</td><td>3</td><td>R</td><td> 4147463011110042<br>
+      5239290700000051</td></tr></tr>
+    <tr><td>Sin fricciones - No se puede autenticar</td><td>6</td><td>U</td><td> 4147463011110067<br>
+        4147463011110125<br>
+        5239290700000069</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
