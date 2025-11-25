@@ -71,128 +71,67 @@ Conoce los
 <br />
 
 <HTMLBlock>{`
-<table>
+<table style="border-collapse: collapse; width: 100%;">
   <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <Table align={["left","left","left","left"]}>
-  <thead>
-    <tr>
-      <th style={{ textAlign: "left" }}>
-        Escenario
-      </th>
-
-      <th style={{ textAlign: "left" }}>
-        Código de respuesta 3DS
-      </th>
-
-      <th style={{ textAlign: "left" }}>
-        Estado de la transacción de 3DS
-      </th>
-
-      <th style={{ textAlign: "left" }}>
-        Número de tarjeta de prueba
-      </th>
+    <tr style="background-color: #ff1f55; color: white; text-align: left;">
+      <th>Scenario</th>
+      <th>3DS Response Code</th>
+      <th>3DS Transaction Status</th>
+      <th>Test card number</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "left" }}>
-        Sin fricciones - Totalmente autenticado
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        1
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        Y
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        4147463011110083
+      <td>Frictionless - Fully Authenticated</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>
+        4147463011110083<br>
         5239290700000028
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
-        Sin fricción - No autenticado
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        3
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        N
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        4147463011110091
+      <td>Frictionless - Not Authenticated</td>
+      <td>3</td>
+      <td>N</td>
+      <td>
+        4147463011110091<br>
         5239290700000036
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
-        Sin fricción - Intento de autenticación
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        4
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        A
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        4147463011110117
+      <td>Frictionless - Attempted Authentication</td>
+      <td>4</td>
+      <td>A</td>
+      <td>
+        4147463011110117<br>
         5239290700000044
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
-        Sin fricción - Autenticación rechazada
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        3
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        R
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        4147463011110042
+      <td>Frictionless - Rejected Authentication</td>
+      <td>3</td>
+      <td>R</td>
+      <td>
+        4147463011110042<br>
         5239290700000051
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "left" }}>
-        Sin fricción: no se puede autenticar
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        6
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        U
-      </td>
-
-      <td style={{ textAlign: "left" }}>
-        4147463011110067
-        4147463011110125
+      <td>Frictionless - Unable to Authenticate</td>
+      <td>6</td>
+      <td>U</td>
+      <td>
+        4147463011110067<br>
+        4147463011110125<br>
         5239290700000069
       </td>
     </tr>
-  </tbody>
-</Table>
   </tbody>
 </table>
 `}</HTMLBlock>
