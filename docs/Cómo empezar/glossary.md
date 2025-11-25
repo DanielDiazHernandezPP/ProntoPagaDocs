@@ -181,7 +181,7 @@ metadata:
 
     **<h3>Saldo Neto</h3>** Es el saldo total del comercio dentro de la plataforma, sumando todo el dinero registrado (disponible, diferido y retenido), reflejando el total de lo que el comercio tiene, aunque no todo esté inmediatamente utilizable, ya que suelen incluirse pagos recién recibidos que aún no cumplen la ventana de liquidación y montos en disputa.
 
-		**<h3>Sandbox</h3>** Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
+    **<h3>Sandbox</h3>** Se trata de un ambiente aislado de pruebas donde se pueden ejecutar transacciones ficticias con tarjetas de prueba y montos inventados. En ProntoPaga, nos permite probar integraciones, entrenar equipos de soporte y verificar lógicas de negocio sin ningún tipo de riesgo financiero.
 
     **<h3>SecretKey</h3>** Son credenciales secretas que identifican y autentican un sistema frente a la API del procesador de pagos. A diferencia de las llaves públicas, las secretKeys nunca deben exponerse en el front-end ni en código, ya que se usan para firmar solicitudes, crear cargos o programar retiros.
 
@@ -189,12 +189,13 @@ metadata:
   </Tab>
 
   <Tab title="T">
-    **<h3>Transacción</h3>** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
+		**<h3>Tipos de cuenta</h3>** En ProntoPaga existen deferentes tipos de cuenta, que varían según el país, por ejemplo: Una cuenta Corriente es de tipo 1 en Brasil, pero tipo C en Chile.
+
+    Conoce más acerca de los tipos de cuentas en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).  
+  
+		**<h3>Transacción</h3>** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
 
     Además, para efectos contables, es el registro fundamental para conciliar balances y saldos.
-    **<h3>Tipos de cuenta</h3>** En ProntoPaga existen deferentes tipos de cuenta, que varían según el país, por ejemplo: Una cuenta Corriente es de tipo 1 en Brasil, pero tipo C en Chile.
-
-    Conoce más acerca de los tipos de cuentas en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
   </Tab>
 
   <Tab title="W">
