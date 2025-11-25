@@ -79,7 +79,11 @@ metadata:
   </Tab>
 
   <Tab title="E">
-    **<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación.
+    **<h3>Efectivo</h3>** Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
+
+    Puedes conocer acerca de este método de pago en los siguientes artículos de [Perú](https://docs.prontopaga.com/docs/payins-peru-cash#/) y [Ecuador](https://docs.prontopaga.com/docs/payins-ecuador-cash#/).
+
+		**<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación.
 
     Ejemplo:
 
@@ -95,10 +99,6 @@ metadata:
     * Producción, donde fluyen los pagos reales.
 
     Estos entornos suelen usar credenciales diferentes (como tu Bearer Token y secretKey dentro de ProntoPaga) y URLs separadas para evitar mezclar datos, permitiendo a los comercios desarrollar y probar flujos de pago completos antes de arriesgar dinero o exponer información sensible de clientes.
-
-    **<h3>Efectivo</h3>** Dentro de ProntoPaga, es un método de pago donde el usuario usa efectivo para realizar su pago en puntos físicos, haciendo que la transacción se refleja como PayIn en la plataforma.
-
-    Puedes conocer acerca de este método de pago en los siguientes artículos de [Perú](https://docs.prontopaga.com/docs/payins-peru-cash#/) y [Ecuador](https://docs.prontopaga.com/docs/payins-ecuador-cash#/).
   </Tab>
 
   <Tab title="F">
@@ -141,12 +141,9 @@ metadata:
     **<h3>PIX</h3>**
     Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
-   
-
     **<h3>PIX+</h3>**
     Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
 
-    
     **<h3>Paga con Tu Banco</h3>**
     Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
 
