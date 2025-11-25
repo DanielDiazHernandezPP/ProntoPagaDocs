@@ -83,7 +83,7 @@ metadata:
 
     Puedes conocer acerca de este método de pago en los siguientes artículos de [Perú](https://docs.prontopaga.com/docs/payins-peru-cash#/) y [Ecuador](https://docs.prontopaga.com/docs/payins-ecuador-cash#/).
 
-		**<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación.
+    **<h3>Endpoint</h3>** Es una URL concreta de la API que permite ejecutar una operación.
 
     Ejemplo:
 
@@ -120,7 +120,10 @@ metadata:
   </Tab>
 
   <Tab title="P">
-    **<h3>Parámetros</h3>** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
+    **<h3>Paga con Tu Banco</h3>**
+    Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
+    
+		**<h3>Parámetros</h3>** Datos específicos que se envían en una solicitud API. Estos parámetros pueden incluirse en rutas de endpoints (/payments/{}) o en el body (JSON).
 
     Los parámetros son aquellos que permiten personalizar el comportamiento de cada operación (y que para un mismo endpoint, el resultado sea diferente cuando cambiamos los datos del parámetro).
 
@@ -136,6 +139,11 @@ metadata:
 
     Conoce más acerca de los PayOuts en  el siguiente [artículo](https://docs.prontopaga.com/docs/payouts-overview#/).
 
+		**<h3>Payphone</h3>**
+    Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
+
+    Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
+
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
     **<h3>PIX</h3>**
@@ -144,13 +152,13 @@ metadata:
     **<h3>PIX+</h3>**
     Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
 
-    **<h3>Paga con Tu Banco</h3>**
-    Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
+    **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
-    **<h3>Payphone</h3>**
-    Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
+    Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
 
-    Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
+    **<h3>Producción</h3>** Es el ambiente real donde fluyen los pagos con dinero verdadero. A diferencia del ambiente Sandbox, en Producción se procesan transacciones que impactan directamente en cuentas bancarias y balances de tu comercio.
+
+    En ProntoPaga, Producción requiere credenciales específicas (Bearer Token y SecretKey del ambiente), las cuales solo se entregan una vez completada la certificación técnica. En este entorno, se aplican todas las validaciones antifraude, ventanas de liquidación y políticas regulatorias, por lo que es crítico mantener las credenciales seguras y monitorear constantemente las transacciones.
 
     **<h3>Puntos físicos de pago / de retiros</h3>**
     Ubicaciones físicas (corresponsales) donde los usuarios pueden realizar pagos en efectivo o cobrar retiros.Si deseas saber más, este método es usado en:
@@ -159,12 +167,6 @@ metadata:
 
     * Perú – con puntos físicos de [pago](https://docs.prontopaga.com/docs/physical-points-payins-peru#/).
 
-    **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
-
-    Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
-    **<h3>Producción</h3>** Es el ambiente real donde fluyen los pagos con dinero verdadero. A diferencia del ambiente Sandbox, en Producción se procesan transacciones que impactan directamente en cuentas bancarias y balances de tu comercio.
-
-    En ProntoPaga, Producción requiere credenciales específicas (Bearer Token y SecretKey del ambiente), las cuales solo se entregan una vez completada la certificación técnica. En este entorno, se aplican todas las validaciones antifraude, ventanas de liquidación y políticas regulatorias, por lo que es crítico mantener las credenciales seguras y monitorear constantemente las transacciones.
   </Tab>
 
   <Tab title="Q">
