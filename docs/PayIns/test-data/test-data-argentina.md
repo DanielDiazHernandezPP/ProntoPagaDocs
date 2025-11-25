@@ -26,9 +26,9 @@ next:
 
 Tarjetas para realizar pagos en modo prueba con el servicio de pagos con tarjeta en Argentina.
 
-### Ejemplo 1 
+### Ejemplo 1
 
-La siguiente tabla muestra una recopilación de datos de prueba para validar pagos con tarjeta. 
+La siguiente tabla muestra una recopilación de datos de prueba para validar pagos con tarjeta.
 
 <HTMLBlock>{`
 <table>
@@ -384,107 +384,4 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
 
   </tbody>
 </table>
-`}</HTMLBlock>
-
-***
-
-<br />
-
-<HTMLBlock>{`
-<div style="overflow-x: auto; width: 100%;">
-<table style="border-collapse: collapse; width: 100%; min-width: 800px;">
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Número de tarjeta</b></th>
-      <th><b>PIN</b></th>
-      <th><b>CVV</b></th>
-      <th><b>Mes de expiración</b></th>
-      <th><b>Año de expiración</b></th>
-      <th><b>Marca</b></th>
-      <th><b>Tipo</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-
-    <tr>
-      <td>4761739001010010</td>
-      <td>1234</td>
-      <td>002</td>
-      <td>10</td>
-      <td>30</td>
-      <td>Visa</td>
-      <td>Prepago</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-    <tr>
-      <td>4005520000000129</td>
-      <td>1234</td>
-      <td>002</td>
-      <td>10</td>
-      <td>30</td>
-      <td>Visa</td>
-      <td>Crédito</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-    <tr>
-      <td>5413330089010640</td>
-      <td>4315</td>
-      <td>002</td>
-      <td>10</td>
-      <td>30</td>
-      <td>Mastercard</td>
-      <td>Crédito</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-    <tr>
-      <td>5413330089600119</td>
-      <td>4315</td>
-      <td>002</td>
-      <td>10</td>
-      <td>30</td>
-      <td>Mastercard</td>
-      <td>Crédito</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-    <tr>
-      <td>374245001721009</td>
-      <td>1234</td>
-      <td>002</td>
-      <td>10</td>
-      <td>30</td>
-      <td>Amex</td>
-      <td>Crédito</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-    <tr>
-      <td>4035874000424977</td>
-      <td>-</td>
-      <td>977</td>
-      <td>12</td>
-      <td>30</td>
-      <td>Visa</td>
-      <td>Crédito</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-    <tr>
-      <td>5413330089010640</td>
-      <td>-</td>
-      <td>Cualquiera</td>
-      <td>12</td>
-      <td>30</td>
-      <td>Mastercard</td>
-      <td>Crédito</td>
-      <td>Transacción exitosa</td>
-    </tr>
-
-  </tbody>
-</table>
-</div>
 `}</HTMLBlock>
