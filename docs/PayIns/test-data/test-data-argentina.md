@@ -78,6 +78,17 @@ A continuación encontrarás más ejemplos de datos de prueba necesarios para va
   <tbody>
 
     <tr>
+      <td>5165 8500 0000 0008</td>
+      <td>N/A</td>
+      <td>123</td>
+      <td>12</td>
+      <td>29</td>
+      <td>Mastercard</td>
+      <td>N/A</td>
+      <td>Pago exitoso</td>
+    </tr>
+    
+    <tr>
       <td>4761739001010010</td>
       <td>1234</td>
       <td>002</td>
@@ -168,7 +179,7 @@ A continuación encontrarás más ejemplos de datos de prueba necesarios para va
 <Callout icon="❗️" theme="error">
   **Escenarios soportados**
 
-  Ten en cuenta que las tarjetas de prueba 3DS están configuradas únicamente para soportar los escenarios de autenticación listados a continuación y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
+  Las tarjetas de prueba 3DS están configuradas **únicamente para soportar los escenarios de autenticación listados a continuación** y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
 </Callout>
 
 <Callout icon="👍" theme="okay">
@@ -294,7 +305,7 @@ A continuación encontrarás datos de prueba de flujos sin fricción con el mét
 
 ### Flujo de desafío
 
-A continuación encontrarás los datos de prueba para flujos de desafío. 
+A continuación encontrarás los datos de prueba para flujos de desafío.
 
 <HTMLBlock>{`
 <table style="border-collapse: collapse; width: 100%;">
