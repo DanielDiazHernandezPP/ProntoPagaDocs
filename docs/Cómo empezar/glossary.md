@@ -147,8 +147,10 @@ Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/
     **<h3>Marcas de tarjetas</h3>** Identificadores del tipo de tarjeta usada (VISA, Mastercard, American Express, etc.). En pasarelas de pago son utilizadas para determinar reglas, comisiones, compatibilidad, parámetros de tokenización o riesgo. En el checkout y tokenización, la marca puede influir en el proceso de autorización y en las comisiones.
   </Tab>
 
-  <Tab title="M">
-    **<h3>Marcas de tarjetas</h3>** Identificadores del tipo de tarjeta usada (VISA, Mastercard, American Express, etc.). En pasarelas de pago son utilizadas para determinar reglas, comisiones, compatibilidad, parámetros de tokenización o riesgo. En el checkout y tokenización, la marca puede influir en el proceso de autorización y en las comisiones.
+  <Tab title="O">
+    **<h3>One-Click Payments</h3>** Método de pago que permite al usuario pagar con un solo clic, usando un medio de pago previamente afiliado (tarjeta, wallet, cuenta). En la integración de ProntoPaga con Yape, el cliente no necesita ingresar nuevamente sus datos: con su cuenta Yape afiliada puede completar la compra en un paso. 
+
+Conoce más sobre esta integración de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/yape-on-file-ocp#/). 
   </Tab>
 
   <Tab title="P">
