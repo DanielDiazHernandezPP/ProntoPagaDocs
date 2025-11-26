@@ -289,9 +289,9 @@ metadata:
   </Tab>
 
   <Tab title="Y">
-    **<h3>Yape-on-File</h3>** Mecanismo que permite almacenar (tokenizar) de forma segura la afiliación del cliente a Yape, de modo que el comercio pueda volver a cobrarle en el futuro sin pedirle que ingrese datos nuevamente. Esto permite pagos con 1 clic, cobros recurrentes y una tokenización segura.
+    **<h3>Yape On File</h3>** Mecanismo que permite almacenar (tokenizar) de forma segura la afiliación del cliente a Yape, de modo que el comercio pueda volver a cobrarle en el futuro sin pedirle que ingrese datos nuevamente. Esto permite pagos con un clic, cobros recurrentes y una tokenización segura.
 
-    Conoce más sobre la integración de ProntoPaga con Yape-on-File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/).
+    Conoce más sobre la integración de ProntoPaga con Yape On File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/).
   </Tab>
 </Tabs>
 
