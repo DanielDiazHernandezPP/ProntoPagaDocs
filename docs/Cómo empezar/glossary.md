@@ -143,6 +143,14 @@ Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/
     La mayoría de estas características están presentes en ProntoPaga.
   </Tab>
 
+  <Tab title="M">
+    **<h3>Marcas de tarjetas</h3>** Identificadores del tipo de tarjeta usada (VISA, Mastercard, American Express, etc.). En pasarelas de pago son utilizadas para determinar reglas, comisiones, compatibilidad, parámetros de tokenización o riesgo. En el checkout y tokenización, la marca puede influir en el proceso de autorización y en las comisiones.
+  </Tab>
+
+  <Tab title="M">
+    **<h3>Marcas de tarjetas</h3>** Identificadores del tipo de tarjeta usada (VISA, Mastercard, American Express, etc.). En pasarelas de pago son utilizadas para determinar reglas, comisiones, compatibilidad, parámetros de tokenización o riesgo. En el checkout y tokenización, la marca puede influir en el proceso de autorización y en las comisiones.
+  </Tab>
+
   <Tab title="P">
     **<h3>Paga con Tu Banco</h3>**
     Método de transferencia exclusivo de ProntoPaga vía enlace redirigido al banco del usuario para completar el pago o retiro, disponible en múltiples países.
