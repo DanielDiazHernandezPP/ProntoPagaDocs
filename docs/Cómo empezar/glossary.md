@@ -47,7 +47,7 @@ metadata:
 
     Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
 
-    **<h3>BeMovil</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Es ideal para retiros rápidos sin depender del sistema bancario tradicional.
+    **<h3>Bemovil</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Es ideal para retiros rápidos sin depender del sistema bancario tradicional.
 
     Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
 
@@ -192,6 +192,9 @@ En ProntoPaga contamos con un endpoint para devoluciones disponible en el siguie
     Conoce más sobre este servicio de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/pay4u#/).
 
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
+
+    **<h3>PIX</h3>**
+    Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
     **<h3>PIX</h3>**
     Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
