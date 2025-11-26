@@ -89,7 +89,13 @@ Cada país cuenta con sus propios códigos bancarios.
   </Tab>
 
   <Tab title="D">
-    **<h3>Decision Manager (DM)</h3>** Herramienta de prevención de fraude desarrollada por Cybersource (Visa). Funciona como un motor que evalúa cada transacción en tiempo real, aplicando reglas configurables y modelos de machine learning. Permite simular políticas con escenario, ajustar la tolerancia al riesgo y maximizar la tasa de aprobación reduciendo falsos positivos.
+    **<h3>Dashboard</h3>** El Portal de servicios de ProntoPaga contiene un resumen en tiempo real de las transacciones de tu comercio, que incluye información como el monto en depósitos, monto en retiros o los principales métodos de pago, así como filtros por fecha, moneda y comercio. Conoce más sobre el módulo Dashboard en el siguiente [artículo](https://docs.prontopaga.com/docs/m%C3%B3dulo-dashboard#/).   
+    
+		**<h3>Datos de prueba</h3>** Credenciales, tarjetas o cuentas bancarias que permiten realizar simulaciones de flujos de PayIns (pagos) o PayOuts (retiro) sin necesidad de mover dinero real. En ProntoPaga, los datos de prueba son utilizados en el ambiente Sandbox. 
+
+Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/test-data#/) o [PayOuts (retiro)](https://docs.prontopaga.com/docs/test-data-payouts#/) en sus artículos correspondientes. 
+    
+	**<h3>Decision Manager (DM)</h3>** Herramienta de prevención de fraude desarrollada por Cybersource (Visa). Funciona como un motor que evalúa cada transacción en tiempo real, aplicando reglas configurables y modelos de machine learning. Permite simular políticas con escenario, ajustar la tolerancia al riesgo y maximizar la tasa de aprobación reduciendo falsos positivos.
 
     **<h3>Demo</h3>** Aplicación o entorno de demostración que simula el flujo de pago real. Permite a comercios y desarrolladores visualizar la experiencia completa que verá el cliente final sin necesidad de escribir código. Suele acompañarse de ejemplos de credenciales y tarjetas de prueba.
 
