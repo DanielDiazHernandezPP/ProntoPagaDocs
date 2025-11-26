@@ -287,6 +287,14 @@ Conoce más acerca de este método de PayOut, visita nuestro [artículo](https:/
 
     Para aceptar pagos, WooCommerce puede integrarse con ProntoPaga, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/woocommerce#/).
   </Tab>
+
+  <Tab title="Y">
+    **<h3>Yape-on-File</h3>** Mecanismo que permite almacenar (tokenizar) de forma segura la afiliación del usuario a Yape, de modo que el comercio pueda volver a cobrarle en el futuro sin pedirle que ingrese datos nuevamente. Es el equivalente funcional a card-on-file, pero aplicado a Yape. Esto permite pagos con 1 clic, cobros recurrentes y una tokenización segura.  
+
+Conoce más sobre la integración de ProntoPaga con Yape-on-File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/). 
+
+ 
+  </Tab>
 </Tabs>
 
 <br />
