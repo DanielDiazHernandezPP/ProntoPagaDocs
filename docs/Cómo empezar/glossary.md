@@ -101,9 +101,9 @@ metadata:
 
     Puedes encontrar nuestras demos de [PayIns](https://docs.prontopaga.com/docs/payins-overview#/) o [PayOuts](https://www.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971\&node-id=11830-66973\&viewport=1195%2C172%2C0.04\&t=ALYxaSbw4N7OP646-1\&scaling=scale-down\&content-scaling=fixed\&starting-point-node-id=11830%3A66973) en los enlace correspondientes.
 
-    **<h3>Devoluciones</h3>** Reembolsos o reversos de fondos a un cliente o comercio cuando la transación debe ser revertida (pedido cancelado, error, contracargo, etc.). Las devoluciones dependen del método de pago o retiro utilizado, pues cada uno cuenta con sus propias políticas de devolución y tiempos disponibles para solicitarlas. 
+    **<h3>Devoluciones</h3>** Reembolsos o reversos de fondos a un cliente o comercio cuando la transación debe ser revertida (pedido cancelado, error, contracargo, etc.). Las devoluciones dependen del método de pago o retiro utilizado, pues cada uno cuenta con sus propias políticas de devolución y tiempos disponibles para solicitarlas.
 
-En ProntoPaga contamos con un endpoint para devoluciones disponible en el siguiente [enlace](https://docs.prontopaga.com/reference/refunds#/). 
+    En ProntoPaga contamos con un endpoint para devoluciones disponible en el siguiente [enlace](https://docs.prontopaga.com/reference/refunds#/).
   </Tab>
 
   <Tab title="E">
@@ -195,9 +195,9 @@ En ProntoPaga contamos con un endpoint para devoluciones disponible en el siguie
 
     **<h3>PIX</h3>** Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
-    **<h3>PonleMas</h3>** Ponle Más es una plataforma y red de recargas y retiros en efectivo utilizada en Ecuador. Opera a través de una amplia red de tiendas físicas, donde los usuarios pueden recibir dinero en efectivo sin necesidad de una cuenta bancaria, utilizando un código de retiro generado por un comercio o plataforma de pagos. 
+    **<h3>PonleMas</h3>** Ponle Más es una plataforma y red de recargas y retiros en efectivo utilizada en Ecuador. Opera a través de una amplia red de tiendas físicas, donde los usuarios pueden recibir dinero en efectivo sin necesidad de una cuenta bancaria, utilizando un código de retiro generado por un comercio o plataforma de pagos.
 
-Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/). 
+    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
 
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
@@ -289,9 +289,9 @@ Conoce más acerca de este método de PayOut, visita nuestro [artículo](https:/
   </Tab>
 
   <Tab title="Y">
-    **<h3>Yape-on-File</h3>** Mecanismo que permite almacenar (tokenizar) de forma segura la afiliación del usuario a Yape, de modo que el comercio pueda volver a cobrarle en el futuro sin pedirle que ingrese datos nuevamente. Es el equivalente funcional a card-on-file, pero aplicado a Yape. Esto permite pagos con 1 clic, cobros recurrentes y una tokenización segura.  
+    **<h3>Yape-on-File</h3>** Mecanismo que permite almacenar (tokenizar) de forma segura la afiliación del cliente a Yape, de modo que el comercio pueda volver a cobrarle en el futuro sin pedirle que ingrese datos nuevamente. Es el equivalente funcional a card-on-file, pero aplicado a Yape. Esto permite pagos con 1 clic, cobros recurrentes y una tokenización segura.
 
-Conoce más sobre la integración de ProntoPaga con Yape-on-File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/).
+    Conoce más sobre la integración de ProntoPaga con Yape-on-File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/).
   </Tab>
 </Tabs>
 
