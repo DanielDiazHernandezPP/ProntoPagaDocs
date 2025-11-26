@@ -22,12 +22,13 @@ metadata:
 
     Conoce más acerca de este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/magento#/).
 
-    **<h3>Afiliación</h3>**
-    **<h3>API</h3>** Autorización del método de pago por parte de un usuario para que pueda ser utilizado de forma recurrente sin necesidad de ingresar sus credenciales nuevamente. En la [integración de ProntoPaga con Yape](https://docs.prontopaga.com/docs/yape-on-file-recurrent#/), la afiliación permite al cliente registrar su cuenta Yape una vez, y luego la plataforma hace los cobros recurrentes de forma automática. 
+    **<h3>Afiliación</h3>** Autorización del método de pago por parte de un usuario para que pueda ser utilizado de forma recurrente sin necesidad de ingresar sus credenciales nuevamente. En la [integración de ProntoPaga con Yape](https://docs.prontopaga.com/docs/yape-on-file-recurrent#/), la afiliación permite al cliente registrar su cuenta Yape una vez, y luego la plataforma hace los cobros recurrentes de forma automática.
 
-Este método es muy útil en comercios que usan modelos de suscripción, reduciendo la fricción de UX y mejorando la experiencia de usuario. 
+    Este método es muy útil en comercios que usan modelos de suscripción, reduciendo la fricción de UX y mejorando la experiencia de usuario.
 
-    Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
+    **<h3>API</h3>** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout. 
+
+		Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas. 
   </Tab>
 
   <Tab title="B">
