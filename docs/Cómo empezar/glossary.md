@@ -193,12 +193,17 @@ metadata:
     **<h3>PIX</h3>**
     Sistema de pagos instantáneos de Brasil integrado en ProntoPaga, que permite PayIns y PayOuts en tiempo real. PIX fue creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas.
 
-    **<h3>PIX+</h3>**
-    Expansión de PIX basada en Open Finance; permite interacciones financieras más flexibles e integradas en Brasil.
-
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
+    
+		**<h3>Portal de servicios</h3>** Se trata de una plataforma digital que actúa como centro de control para administrar todos los flujos de pagos, desde la integración técnica hasta el monitoreo. Cuenta con una serie de módulos que te permitirán gestionar toda tu operación. 
+
+    En ProntoPaga contamos con un [manual](https://docs.prontopaga.com/docs/service-portal#/) detallamos cada módulo del Portal de servicios. 
+    
+		**<h3>PrestaShop</h3>** Plataforma de e-commerce de código abierto que permite crear y gestionar tiendas online con catálogo, módulos, extensiones, envíos y múltiples idiomas y monedas de forma flexible y personalizada.  
+
+En ProntoPaga integramos una solución de pagos diseñada específicamente para optimizar el proceso de cobro en tiendas PrestaShop. Conoce más sobre esta integración en el siguiente [artículo](https://docs.prontopaga.com/docs/prestashop#/). 
 
     **<h3>Producción</h3>** Es el ambiente real donde fluyen los pagos con dinero verdadero. A diferencia del ambiente Sandbox, en Producción se procesan transacciones que impactan directamente en cuentas bancarias y balances de tu comercio.
 
@@ -216,6 +221,16 @@ metadata:
     **<h3>QR</h3>** Código de barras bidimensional que almacena información y puede ser leído con una cámara. En pagos, los QR contienen instrucciones de pago: ya sea un enlace a un checkout, una orden de transferencia o un identificador único de transacción.
 
     Es usado por su simplicidad y compatibilidad con billeteras (wallets) digitales.
+  </Tab>
+
+  <Tab title="R">
+    **<h3>Red activa / Western Unión</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Cuenta con más de 270 puntos de atención y 1100 locales franquciados en 226 ciudades y poblaciones de Ecuador. 
+
+    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/). 
+
+    **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (p.ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (“success”, “error”), códigos, identificadores o mensajes.  
+
+Los parámetros de cada body response depende del tipo de solicitud realizada, método utilizado y procesador. Conoce los tipos de response que puede recibir tu comercio en la [sección de API Reference](https://docs.prontopaga.com/reference/quick-guide-doc#/) de ProntoPaga. 
   </Tab>
 
   <Tab title="S">
