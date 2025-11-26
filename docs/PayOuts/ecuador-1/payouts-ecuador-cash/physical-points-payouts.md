@@ -55,7 +55,7 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ***
 
-## Ponle más
+## PonleMas
 
 ### Ubicaciones
 
