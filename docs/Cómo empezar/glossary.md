@@ -61,7 +61,7 @@ metadata:
   <Tab title="C">
     **<h3>CCI</h3>** iglas de Código de Cuenta Interbancario utilizado en Perú. Se trata de un número único asignado a una cuenta bancaria que permite identificarla para transferencias. Para realizar un PayOut (retiro) instantáneo, el cliente debe ingresar los datos necesarios, en los que se incluye el CCI. Conoce más acerca de cómo funciona este método de retiro en el siguiente [artículo](https://docs.prontopaga.com/docs/instant-payouts#/).
 
-		**<h3>Certificación</h3>** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
+    **<h3>Certificación</h3>** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
 
     **<h3>Changelog</h3>** Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
 
@@ -70,10 +70,10 @@ metadata:
     **<h3>Checkout</h3>** Es la interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
 
     Reduce tiempo de integración y garantiza que la experiencia cumpla los estándares de calidad necesarios.
-    
-		**<h3>Códigos bancarios </h3>** Identificadores usados para determinar qué banco y a qué tipo de cuenta se envía un pago. Estos deben incluirse dentro del parámetro bankcode del body request al crear un nuevo [PayIn (pago)](https://docs.prontopaga.com/docs/c%C3%B3digos-bancarios-para-payins-con-transferencia#/) o [PayOut (retiro)](https://docs.prontopaga.com/docs/bank-codes-transfer#/).  
 
-Cada país cuenta con sus propios códigos bancarios. 
+    **<h3>Códigos bancarios</h3>** Identificadores usados para determinar qué banco y a qué tipo de cuenta se envía un pago. Estos deben incluirse dentro del parámetro bankcode del body request al crear un nuevo [PayIn (pago)](https://docs.prontopaga.com/docs/c%C3%B3digos-bancarios-para-payins-con-transferencia#/) o [PayOut (retiro)](https://docs.prontopaga.com/docs/bank-codes-transfer#/).
+
+    Cada país cuenta con sus propios códigos bancarios.
 
     **<h3>Código del país (ISO 3166-1 alpha-2)</h3>**
     Código estándar de dos letras para identificar países (por ejemplo: AR, BR y CL). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
@@ -89,13 +89,13 @@ Cada país cuenta con sus propios códigos bancarios.
   </Tab>
 
   <Tab title="D">
-    **<h3>Dashboard</h3>** El Portal de servicios de ProntoPaga contiene un resumen en tiempo real de las transacciones de tu comercio, que incluye información como el monto en depósitos, monto en retiros o los principales métodos de pago, así como filtros por fecha, moneda y comercio. Conoce más sobre el módulo Dashboard en el siguiente [artículo](https://docs.prontopaga.com/docs/m%C3%B3dulo-dashboard#/).   
-    
-		**<h3>Datos de prueba</h3>** Credenciales, tarjetas o cuentas bancarias que permiten realizar simulaciones de flujos de PayIns (pagos) o PayOuts (retiro) sin necesidad de mover dinero real. En ProntoPaga, los datos de prueba son utilizados en el ambiente Sandbox. 
+    **<h3>Dashboard</h3>** El Portal de servicios de ProntoPaga contiene un resumen en tiempo real de las transacciones de tu comercio, que incluye información como el monto en depósitos, monto en retiros o los principales métodos de pago, así como filtros por fecha, moneda y comercio. Conoce más sobre el módulo Dashboard en el siguiente [artículo](https://docs.prontopaga.com/docs/m%C3%B3dulo-dashboard#/).
 
-Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/test-data#/) o [PayOuts (retiro)](https://docs.prontopaga.com/docs/test-data-payouts#/) en sus artículos correspondientes. 
-    
-	**<h3>Decision Manager (DM)</h3>** Herramienta de prevención de fraude desarrollada por Cybersource (Visa). Funciona como un motor que evalúa cada transacción en tiempo real, aplicando reglas configurables y modelos de machine learning. Permite simular políticas con escenario, ajustar la tolerancia al riesgo y maximizar la tasa de aprobación reduciendo falsos positivos.
+    **<h3>Datos de prueba</h3>** Credenciales, tarjetas o cuentas bancarias que permiten realizar simulaciones de flujos de PayIns (pagos) o PayOuts (retiro) sin necesidad de mover dinero real. En ProntoPaga, los datos de prueba son utilizados en el ambiente Sandbox.
+
+    Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/test-data#/) o [PayOuts (retiro)](https://docs.prontopaga.com/docs/test-data-payouts#/) en sus artículos correspondientes.
+
+    **<h3>Decision Manager (DM)</h3>** Herramienta de prevención de fraude desarrollada por Cybersource (Visa). Funciona como un motor que evalúa cada transacción en tiempo real, aplicando reglas configurables y modelos de machine learning. Permite simular políticas con escenario, ajustar la tolerancia al riesgo y maximizar la tasa de aprobación reduciendo falsos positivos.
 
     **<h3>Demo</h3>** Aplicación o entorno de demostración que simula el flujo de pago real. Permite a comercios y desarrolladores visualizar la experiencia completa que verá el cliente final sin necesidad de escribir código. Suele acompañarse de ejemplos de credenciales y tarjetas de prueba.
 
@@ -148,12 +148,11 @@ Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/
   </Tab>
 
   <Tab title="O">
-    **<h3>One-Click Payments</h3>** Método de pago que permite al usuario pagar con un solo clic, usando un medio de pago previamente afiliado (tarjeta, wallet, cuenta). En la integración de ProntoPaga con Yape, el cliente no necesita ingresar nuevamente sus datos: con su cuenta Yape afiliada puede completar la compra en un paso. 
+    **<h3>One-Click Payments</h3>** Método de pago que permite al usuario pagar con un solo clic, usando un medio de pago previamente afiliado (tarjeta, wallet, cuenta). En la integración de ProntoPaga con Yape, el cliente no necesita ingresar nuevamente sus datos: con su cuenta Yape afiliada puede completar la compra en un paso.
 
-    Conoce más sobre esta integración de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/yape-on-file-ocp#/). 
-    
-		**<h3>Order number</h3>** Número de orden del PayIn (pago) que debe ser incluido dentro del parámetro <code>order</code> en el body request al momento de realizar una solicitud de pago. Es el identificador del pago a asociar y debe ser único y no repetitivo. 
+    Conoce más sobre esta integración de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/yape-on-file-ocp#/).
 
+    **<h3>Order number</h3>** Número de orden del PayIn (pago) que debe ser incluido dentro del parámetro <code>order</code> en el body request al momento de realizar una solicitud de pago. Es el identificador del pago a asociar y debe ser único y no repetitivo.
   </Tab>
 
   <Tab title="P">
@@ -180,6 +179,14 @@ Conoce los datos de prueba de [PayIns (pagos)](https://docs.prontopaga.com/docs/
     Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
 
     Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
+    
+		**<h3>Pay4U</h3>**
+    Funcionalidad exclusiva de ProntoPaga en Chile, Perú y Ecuador. Permite realizar pagos mediante transferencias bancarias utilizando fondos disponibles en el balance de cada comercio directamente a sus asociados. 
+
+		Este servicio es útil para los clientes que están constituidos en un país y operan en otros, ya que recaudan fondos en los países de operación, pero deben pagar por un producto o servicio de distribuidores locales e internacionales de forma esporádica o recurrente. 
+
+		Conoce más sobre este servicio de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/pay4u#/). 
+
 
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
