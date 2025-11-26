@@ -257,6 +257,16 @@ Los parámetros de cada body response depende del tipo de solicitud realizada, m
     Además, para efectos contables, es el registro fundamental para conciliar balances y saldos.
   </Tab>
 
+  <Tab title="U">
+    **<h3>UID</h3>** Siglas de User Unique Identifier. Es un identificador único que ProntoPaga asigna a los usuarios, comercios y transacciones que permite referenciar de forma inequívoca los recursos en la base de datos. 
+  </Tab>
+
+  <Tab title="V">
+    **<h3>VTEX</h3>** VTEX es una plataforma de comercio digital que permite a empresas crear y gestionar un e-commerce de forma escalable y flexible.  Permite manejar catálogo, stock, pedidos, experiencias unificadas en web/móvil, y manejo de tienda personalizada. 
+
+En ProntoPaga desarrollamos un plugin optimizado para VTEX que mejora la experiencia de compra y garantizar transacciones seguras y rápidas. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/vtex#/).  
+  </Tab>
+
   <Tab title="W">
     **<h3>Wallet</h3>** En el sector de pagos, el término puede referirse a dos cosas:
 
@@ -266,5 +276,11 @@ Los parámetros de cada body response depende del tipo de solicitud realizada, m
     **<h3>Webhook</h3>** Mecanismo de notificación automática: cuando ocurre un evento en la plataforma (ejemplo: pago aprobado, contracargo iniciado, payout rechazado), ProntoPaga envía un mensaje POST a una URL configurada por el comercio. De esta forma, el sistema del comercio puede reaccionar en tiempo real (enviar confirmaciones, actualizar estados, liberar productos).
 
     Para conocer más acerca de los webhooks, haz clic [aquí](https://docs.prontopaga.com/update/docs/webhooks#/).
+
+    **<h3>WooCommerce</h3>** Plugin de e-commerce para WordPress que convierte un sitio WordPress en una tienda online. Además, al ser parte del ecosistema WordPress, permite usar plantillas, plugins, extensiones y adaptarlo de forma sencilla. 
+
+		Para aceptar pagos, WooCommerce puede integrarse con ProntoPaga, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/woocommerce#/). 
   </Tab>
 </Tabs>
+
+<br />
