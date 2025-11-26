@@ -100,6 +100,10 @@ metadata:
     **<h3>Demo</h3>** Aplicación o entorno de demostración que simula el flujo de pago real. Permite a comercios y desarrolladores visualizar la experiencia completa que verá el cliente final sin necesidad de escribir código. Suele acompañarse de ejemplos de credenciales y tarjetas de prueba.
 
     Puedes encontrar nuestras demos de [PayIns](https://docs.prontopaga.com/docs/payins-overview#/) o [PayOuts](https://www.figma.com/proto/sR8GayinfgLhXyMxlKjNJI/Demos-PayOuts-Prontopaga?page-id=11830%3A66971\&node-id=11830-66973\&viewport=1195%2C172%2C0.04\&t=ALYxaSbw4N7OP646-1\&scaling=scale-down\&content-scaling=fixed\&starting-point-node-id=11830%3A66973) en los enlace correspondientes.
+
+    **<h3>Devoluciones</h3>** Reembolsos o reversos de fondos a un cliente o comercio cuando la transación debe ser revertida (pedido cancelado, error, contracargo, etc.). Las devoluciones dependen del método de pago o retiro utilizado, pues cada uno cuenta con sus propias políticas de devolución y tiempos disponibles para solicitarlas. 
+
+En ProntoPaga contamos con un endpoint para devoluciones disponible en el siguiente [enlace](https://docs.prontopaga.com/reference/refunds#/). 
   </Tab>
 
   <Tab title="E">
@@ -179,14 +183,13 @@ metadata:
     Método de pago integrado a ProntoPaga usado en Ecuador que permite aceptar pagos con tarjeta Visa o Mastercard, de crédito o débito, de cualquier banco en dispositivos físicos tipo POS. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
 
     Si quieres conocer más acerca de este método, visita el siguiente [artículo](https://docs.prontopaga.com/docs/payins-ecuador-card#/).
-    
-		**<h3>Pay4U</h3>**
-    Funcionalidad exclusiva de ProntoPaga en Chile, Perú y Ecuador. Permite realizar pagos mediante transferencias bancarias utilizando fondos disponibles en el balance de cada comercio directamente a sus asociados. 
 
-		Este servicio es útil para los clientes que están constituidos en un país y operan en otros, ya que recaudan fondos en los países de operación, pero deben pagar por un producto o servicio de distribuidores locales e internacionales de forma esporádica o recurrente. 
+    **<h3>Pay4U</h3>**
+    Funcionalidad exclusiva de ProntoPaga en Chile, Perú y Ecuador. Permite realizar pagos mediante transferencias bancarias utilizando fondos disponibles en el balance de cada comercio directamente a sus asociados.
 
-		Conoce más sobre este servicio de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/pay4u#/). 
+    Este servicio es útil para los clientes que están constituidos en un país y operan en otros, ya que recaudan fondos en los países de operación, pero deben pagar por un producto o servicio de distribuidores locales e internacionales de forma esporádica o recurrente.
 
+    Conoce más sobre este servicio de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/pay4u#/).
 
     **<h3>Pendiente por Retiro</h3>** Monto que el comercio ya solicitó retirar (PayOut iniciado) pero que aún no se ha liquidado en su cuenta bancaria. Este estado intermedio permite distinguir entre lo que está disponible y lo que ya está “en camino”.
 
@@ -196,14 +199,14 @@ metadata:
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
-    
-		**<h3>Portal de servicios</h3>** Se trata de una plataforma digital que actúa como centro de control para administrar todos los flujos de pagos, desde la integración técnica hasta el monitoreo. Cuenta con una serie de módulos que te permitirán gestionar toda tu operación. 
 
-    En ProntoPaga contamos con un [manual](https://docs.prontopaga.com/docs/service-portal#/) detallamos cada módulo del Portal de servicios. 
-    
-		**<h3>PrestaShop</h3>** Plataforma de e-commerce de código abierto que permite crear y gestionar tiendas online con catálogo, módulos, extensiones, envíos y múltiples idiomas y monedas de forma flexible y personalizada.  
+    **<h3>Portal de servicios</h3>** Se trata de una plataforma digital que actúa como centro de control para administrar todos los flujos de pagos, desde la integración técnica hasta el monitoreo. Cuenta con una serie de módulos que te permitirán gestionar toda tu operación.
 
-En ProntoPaga integramos una solución de pagos diseñada específicamente para optimizar el proceso de cobro en tiendas PrestaShop. Conoce más sobre esta integración en el siguiente [artículo](https://docs.prontopaga.com/docs/prestashop#/). 
+    En ProntoPaga contamos con un [manual](https://docs.prontopaga.com/docs/service-portal#/) detallamos cada módulo del Portal de servicios.
+
+    **<h3>PrestaShop</h3>** Plataforma de e-commerce de código abierto que permite crear y gestionar tiendas online con catálogo, módulos, extensiones, envíos y múltiples idiomas y monedas de forma flexible y personalizada.
+
+    En ProntoPaga integramos una solución de pagos diseñada específicamente para optimizar el proceso de cobro en tiendas PrestaShop. Conoce más sobre esta integración en el siguiente [artículo](https://docs.prontopaga.com/docs/prestashop#/).
 
     **<h3>Producción</h3>** Es el ambiente real donde fluyen los pagos con dinero verdadero. A diferencia del ambiente Sandbox, en Producción se procesan transacciones que impactan directamente en cuentas bancarias y balances de tu comercio.
 
@@ -224,13 +227,13 @@ En ProntoPaga integramos una solución de pagos diseñada específicamente para 
   </Tab>
 
   <Tab title="R">
-    **<h3>Red activa / Western Unión</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Cuenta con más de 270 puntos de atención y 1100 locales franquciados en 226 ciudades y poblaciones de Ecuador. 
+    **<h3>Red activa / Western Unión</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Cuenta con más de 270 puntos de atención y 1100 locales franquciados en 226 ciudades y poblaciones de Ecuador.
 
-    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/). 
+    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
 
-    **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (p.ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (“success”, “error”), códigos, identificadores o mensajes.  
+    **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (p.ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (“success”, “error”), códigos, identificadores o mensajes.
 
-Los parámetros de cada body response depende del tipo de solicitud realizada, método utilizado y procesador. Conoce los tipos de response que puede recibir tu comercio en la [sección de API Reference](https://docs.prontopaga.com/reference/quick-guide-doc#/) de ProntoPaga. 
+    Los parámetros de cada body response depende del tipo de solicitud realizada, método utilizado y procesador. Conoce los tipos de response que puede recibir tu comercio en la [sección de API Reference](https://docs.prontopaga.com/reference/quick-guide-doc#/) de ProntoPaga.
   </Tab>
 
   <Tab title="S">
@@ -258,13 +261,13 @@ Los parámetros de cada body response depende del tipo de solicitud realizada, m
   </Tab>
 
   <Tab title="U">
-    **<h3>UID</h3>** Siglas de User Unique Identifier. Es un identificador único que ProntoPaga asigna a los usuarios, comercios y transacciones que permite referenciar de forma inequívoca los recursos en la base de datos. 
+    **<h3>UID</h3>** Siglas de User Unique Identifier. Es un identificador único que ProntoPaga asigna a los usuarios, comercios y transacciones que permite referenciar de forma inequívoca los recursos en la base de datos.
   </Tab>
 
   <Tab title="V">
-    **<h3>VTEX</h3>** VTEX es una plataforma de comercio digital que permite a empresas crear y gestionar un e-commerce de forma escalable y flexible.  Permite manejar catálogo, stock, pedidos, experiencias unificadas en web/móvil, y manejo de tienda personalizada. 
+    **<h3>VTEX</h3>** VTEX es una plataforma de comercio digital que permite a empresas crear y gestionar un e-commerce de forma escalable y flexible.  Permite manejar catálogo, stock, pedidos, experiencias unificadas en web/móvil, y manejo de tienda personalizada.
 
-En ProntoPaga desarrollamos un plugin optimizado para VTEX que mejora la experiencia de compra y garantizar transacciones seguras y rápidas. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/vtex#/).  
+    En ProntoPaga desarrollamos un plugin optimizado para VTEX que mejora la experiencia de compra y garantizar transacciones seguras y rápidas. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/vtex#/).
   </Tab>
 
   <Tab title="W">
@@ -277,9 +280,9 @@ En ProntoPaga desarrollamos un plugin optimizado para VTEX que mejora la experie
 
     Para conocer más acerca de los webhooks, haz clic [aquí](https://docs.prontopaga.com/update/docs/webhooks#/).
 
-    **<h3>WooCommerce</h3>** Plugin de e-commerce para WordPress que convierte un sitio WordPress en una tienda online. Además, al ser parte del ecosistema WordPress, permite usar plantillas, plugins, extensiones y adaptarlo de forma sencilla. 
+    **<h3>WooCommerce</h3>** Plugin de e-commerce para WordPress que convierte un sitio WordPress en una tienda online. Además, al ser parte del ecosistema WordPress, permite usar plantillas, plugins, extensiones y adaptarlo de forma sencilla.
 
-		Para aceptar pagos, WooCommerce puede integrarse con ProntoPaga, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/woocommerce#/). 
+    Para aceptar pagos, WooCommerce puede integrarse con ProntoPaga, permitiendo a tu tienda en línea aceptar pagos de forma segura, rápida y eficiente. Conoce más sobre este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/woocommerce#/).
   </Tab>
 </Tabs>
 
