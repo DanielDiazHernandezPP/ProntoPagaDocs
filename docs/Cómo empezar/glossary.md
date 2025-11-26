@@ -47,9 +47,9 @@ metadata:
 
     Suelen tener caducidad alcances definidos, limitando qué operaciones puede ejecutar.
 
-		**<h3>BeMovil </h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Es ideal para retiros rápidos sin depender del sistema bancario tradicional. 
+    **<h3>BeMovil</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Es ideal para retiros rápidos sin depender del sistema bancario tradicional.
 
-Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/). 
+    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
 
     **<h3>Body</h3>** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
 
@@ -59,7 +59,9 @@ Conoce más acerca de este método de PayOut, visita nuestro [artículo](https:/
   </Tab>
 
   <Tab title="C">
-    **<h3>Certificación</h3>** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
+    **<h3>CCI</h3>** iglas de Código de Cuenta Interbancario utilizado en Perú. Se trata de un número único asignado a una cuenta bancaria que permite identificarla para transferencias. Para realizar un PayOut (retiro) instantáneo, el cliente debe ingresar los datos necesarios, en los que se incluye el CCI. Conoce más acerca de cómo funciona este método de retiro en el siguiente [artículo](https://docs.prontopaga.com/docs/instant-payouts#/).
+
+		**<h3>Certificación</h3>** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
 
     **<h3>Changelog</h3>** Se trata de un registro cronológico de cambios en la API y la plataforma: nuevas funcionalidades, endpoints deprecados, mejoras de seguridad.
 
@@ -68,6 +70,10 @@ Conoce más acerca de este método de PayOut, visita nuestro [artículo](https:/
     **<h3>Checkout</h3>** Es la interfaz lista para usarse que verán tus clientes finales para simplificar cobros. Puede ser una página redirigida o un modal embebido. Incluye métodos de pago, validaciones antifraude y cumplimiento PCI.
 
     Reduce tiempo de integración y garantiza que la experiencia cumpla los estándares de calidad necesarios.
+    
+		**<h3>Códigos bancarios </h3>** Identificadores usados para determinar qué banco y a qué tipo de cuenta se envía un pago. Estos deben incluirse dentro del parámetro bankcode del body request al crear un nuevo [PayIn (pago)](https://docs.prontopaga.com/docs/c%C3%B3digos-bancarios-para-payins-con-transferencia#/) o [PayOut (retiro)](https://docs.prontopaga.com/docs/bank-codes-transfer#/).  
+
+Cada país cuenta con sus propios códigos bancarios. 
 
     **<h3>Código del país (ISO 3166-1 alpha-2)</h3>**
     Código estándar de dos letras para identificar países (por ejemplo: AR, BR y CL). Conoce más acerca de los códigos usados en ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
