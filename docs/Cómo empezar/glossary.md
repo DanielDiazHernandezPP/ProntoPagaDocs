@@ -18,7 +18,12 @@ metadata:
 ---
 <Tabs>
   <Tab title="A">
-    **<h3>API</h3>** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consultar el estado de una transacción, iniciar un reembolso o programar un payout.
+    **<h3>Adobe Commerce (antes Magento)</h3>** Adobe Commerce es la evolución comercial de un sistema de código abierto Magento. Permite crear e-commerce medianas y grandes con gran flexibilidad, gestionar un catálogo, inventario, envíos, etc. La integración con Prontopaga a través de un plugin facilita el checkout, tokenización y el flujo completo de pago dentro del e-commerce.
+
+		Conoce más acerca de este plugin en el siguiente [artículo](https://docs.prontopaga.com/docs/magento#/). 
+    
+		**<h3>Afiliación </h3>** 
+		**<h3>API</h3>** Conjunto de reglas, protocolos y endpoints que permiten que tu sistema de software se comunique con otro. En el sector de pagos, gracias a las APIs puedes generar operaciones como crear un cobro, consul
 
     Se basa en estándares como JSON sobre HTTPS, lo que asegura interoperabilidad entre distintas plataformas.
   </Tab>
@@ -189,11 +194,11 @@ metadata:
   </Tab>
 
   <Tab title="T">
-		**<h3>Tipos de cuenta</h3>** En ProntoPaga existen deferentes tipos de cuenta, que varían según el país, por ejemplo: Una cuenta Corriente es de tipo 1 en Brasil, pero tipo C en Chile.
+    **<h3>Tipos de cuenta</h3>** En ProntoPaga existen deferentes tipos de cuenta, que varían según el país, por ejemplo: Una cuenta Corriente es de tipo 1 en Brasil, pero tipo C en Chile.
 
-    Conoce más acerca de los tipos de cuentas en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).  
-  
-		**<h3>Transacción</h3>** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
+    Conoce más acerca de los tipos de cuentas en el siguiente [artículo](https://docs.prontopaga.com/docs/countries-currencies-accounts#/).
+
+    **<h3>Transacción</h3>** Es la unidad básica de movimiento de dinero. Puede ser un cobro (PayIn), un retiro (PayOut), un reembolso, un contracargo o incluso una pre-autorización. Cada transacción tiene un identificador único y estados que permiten su trazabilidad.
 
     Además, para efectos contables, es el registro fundamental para conciliar balances y saldos.
   </Tab>
