@@ -16,7 +16,7 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 <Image align="center" border={false} src="https://files.readme.io/7d966bb565600eafff1fcf1853cb066728a04ee3589007318fd1cb8944962887-Argentina_MODO.jpg" />
 
-El proceso de pago con wallet en Argentina consta de cinco etapas principales:
+El proceso de pago con wallet en Argentina consta de cuatro etapas principales:
 
 1. **Selección de método.** El cliente elige pagar con código QR en tu sitio web.
 
@@ -27,22 +27,23 @@ El proceso de pago con wallet en Argentina consta de cinco etapas principales:
 </Callout>
 
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
-3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
-4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
-<br />
-
-**Ten en cuenta que el flujo varía dependiendo de la versión utilizada**:
+Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
 
 <Cards columns={2}>
   <Card title="🌐 En web">
-    Se genera un QR para que el cliente lo escaneé y es redirigido a la web para continuar con el pago.
+    Se genera un código QR para que el cliente lo escaneé desde la apliación de su celular.
   </Card>
 
   <Card title="📱En mobile">
-    Se abre la aplicación de MACH y se valida al cliente para confirmar el pago.
+    La opción de pago con wallet abre la aplicación del cliente y se valida para confirmar el pago.
   </Card>
 </Cards>
+
+3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
+4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+
+
 
 ***
 
@@ -65,11 +66,76 @@ A continuación puedes ver dos ejemplos de request:
 **Ejemplo 1**:
 
 ```json
+{
+  "notificationUrl": "https://tu-comercio.com/webhook",
+  "customer": {
+    "firstName": "Juan",
+    "lastName": "Pérez",
+    "email": "juan.perez@email.com",
+    "phoneNumber": "+5491123456789",
+    "documentType": "DNI",
+    "documentNumber": "12345678"
+  },
+  "amount": 1000.50,
+  "currency": "ARS",
+  "transactionType": "PCT",
+  "billingAddress": {
+    "street": "Av. Corrientes",
+    "number": "1234",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "country": "AR",
+    "zipCode": "C1043"
+  },
+  "products": [
+    {
+      "name": "Producto 1",
+      "description": "Descripción del producto",
+      "quantity": 2,
+      "unitPrice": 500.25
+    }
+  ]
+}
 ```
 
 **Ejemplo 2:**
 
 ```json
+{
+  "checkoutId": "checkout_123456",
+  "notificationUrl": "https://tu-comercio.com/webhook",
+  "amount": 1500.50,
+  "currency": "ARS",
+  "description": "Pago de orden #123",
+  "cc_code": "1CSI",
+  "expiration_date": "2025-04-25T07:00:33.627Z",
+  "message": "Gracias por tu compra",
+  "customer": {
+    "name": "Juan Pérez",
+    "email": "juan.perez@email.com",
+    "phone": "+5491123456789",
+    "identification": {
+      "type": "DNI",
+      "number": "12345678"
+    }
+  },
+  "billingAddress": {
+    "street": "Av. Corrientes",
+    "number": "1234",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "zipCode": "C1043",
+    "country": "AR"
+  },
+  "products": [
+    {
+      "name": "Producto 1",
+      "description": "Descripción del producto",
+      "quantity": 2,
+      "unitPrice": 750.25
+    }
+  ]
+}
 ```
 
 <br />
