@@ -59,7 +59,7 @@ metadata:
   </Tab>
 
   <Tab title="C">
-    **<h3>CCI</h3>** iglas de Código de Cuenta Interbancario utilizado en Perú. Se trata de un número único asignado a una cuenta bancaria que permite identificarla para transferencias. Para realizar un PayOut (retiro) instantáneo, el cliente debe ingresar los datos necesarios, en los que se incluye el CCI. Conoce más acerca de cómo funciona este método de retiro en el siguiente [artículo](https://docs.prontopaga.com/docs/instant-payouts#/).
+    **<h3>CCI</h3>** Siglas de Código de Cuenta Interbancario utilizado en Perú. Se trata de un número único asignado a una cuenta bancaria que permite identificarla para transferencias. Para realizar un PayOut (retiro) instantáneo, el cliente debe ingresar los datos necesarios, en los que se incluye el CCI. Conoce más acerca de cómo funciona este método de retiro en el siguiente [artículo](https://docs.prontopaga.com/docs/instant-payouts#/).
 
     **<h3>Certificación</h3>** Proceso formal en donde se valida que una integración cumple todos los requisitos técnicos y de seguridad antes de pasar a producción. En muchos casos, esto incluye que se ejecuten casos de prueba (éxito, error, contracargo, etc.) y documentar resultados. Una vez aprobado, se otorgan credenciales de producción.
 
