@@ -234,7 +234,7 @@ metadata:
 
     Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
 
-    **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (p.ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (“success”, “error”), códigos, identificadores o mensajes.
+    **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (p.ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (`success`, `error`), códigos, identificadores o mensajes.
 
     Los parámetros de cada body response depende del tipo de solicitud realizada, método utilizado y procesador. Conoce los tipos de response que puede recibir tu comercio en la [sección de API Reference](https://docs.prontopaga.com/reference/quick-guide-doc#/) de ProntoPaga.
   </Tab>
