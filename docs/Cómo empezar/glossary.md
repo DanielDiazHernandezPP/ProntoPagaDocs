@@ -199,7 +199,7 @@ metadata:
 
     Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/) en sus respectivos visita nuestro artículos.
 
-    **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar cobros de manera segura.
+    **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar pagos de manera segura.
 
     Puedes revisar nuestra [sección de plugins](https://docs.prontopaga.com/docs/overview-plugins#/) para conocer cómo realizar la integración.
 
@@ -294,8 +294,8 @@ metadata:
     Conoce más sobre la integración de ProntoPaga con Yape On File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/).
 
     **<h3>Yape On File: One-Click Payments</h3>** Modalidad donde el usuario afilia su cuenta Yape una sola vez, y a partir de ese momento puede realizar pagos instantáneos con un solo clic, sin volver a escanear QR ni abrir la aplicación.
-    
-		Funciona mediante tokenización segura, donde Yape y ProntoPaga generan un token permanente que representa la afiliación del usuario. Ese token permite que el comercio inicie nuevos pagos con autorización inmediata.
+
+    Funciona mediante tokenización segura, donde Yape y ProntoPaga generan un token permanente que representa la afiliación del usuario. Ese token permite que el comercio inicie nuevos pagos con autorización inmediata.
 
     Conoce más sobre la integración de ProntoPaga con Yape On File: One-Click Payments [aquí](https://docs.prontopaga.com/docs/yape-on-file-ocp#/).
 
