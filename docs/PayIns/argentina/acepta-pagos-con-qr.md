@@ -16,21 +16,18 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
 
-1. **Selección de método.** El cliente elige pagar con tarjeta en tu sitio web o aplicación.
-2. **Ingreso de datos.** El cliente llena los datos requeridos en el formulario de pago con tarjeta, como: número de tarjeta, fecha de vencimiento, CVV, nombre y correo electrónico.
-3. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta.
-4. **Autorización y Captura.** Se verifica que existan los fondos suficientes, y se mueven desde el banco del cliente hacia la cuenta de tu comercio.
-5. **Confirmación.** El cliente ve en pantalla el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+1. **Selección de método.** El cliente elige pagar con QR en tu sitio web o aplicación móvil.
+2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará. 
+3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
+4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 ***
-
-<br />
 
 ## Crea un nuevo pago
 
 Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `latam_chk_card_payment` como método de pago en el body de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y `colocar ar_qr_payment` o `ar_qr_2_payment` como método de pago en el _body_ de la solicitud.
 
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
@@ -40,24 +37,21 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-A continuación puedes ver un ejemplo de request:
+A continuación puedes ver dos ejemplos de request:
+
+**Ejemplo 1**:
 
 ```json
-{ 
-  "currency": "ARS", 
-  "country": "AR", 
-  "amount": "34000.90",
-  "clientName" : "John Doe", 
-  "clientEmail" : "johndoe@example.com", 
-  "clientPhone" : "999999999", 
-  "clientDocument" : "12345678912", 
-  "paymentMethod" : "latam_chk_card_payment", 
-  "urlConfirmation" : "https://www.webhook.com", 
-  "urlFinal" : "https://sandbox.prontopaga.com/successful", 
-  "urlRejected" : "https://sandbox.prontopaga.com/declined", 
-  "order" : "XYZ789" 
-}
 ```
+
+**Ejemplo 2:**
+
+```json
+```
+
+<br />
+
+<br />
 
 ### Respuesta
 
