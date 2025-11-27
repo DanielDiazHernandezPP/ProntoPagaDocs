@@ -169,7 +169,7 @@ metadata:
 
     **<h3>PayIns</h3>** Se refiere al flujo de entrada de dinero, es decir, los cobros que tus usuarios o clientes hacen a tu comercio. Estos pueden provenir de múltiples métodos: tarjetas de crédito/débito, transferencias bancarias, billeteras digitales o pagos en efectivo a través de corresponsales. Todos estos métodos están disponibles en ProntoPaga.
 
-    Los PayIns cuentan con diferentes estados dentro de ProntoPaga, que son: new, created, success, canceled, rejected, pending y expired.
+    Los PayIns cuentan con diferentes estados dentro de ProntoPaga, que son: <code>new</code>, <code>created</code>, <code>success</code>, <code>canceled</code>, <code>rejected</code>, <code>pending</code> y <code>expired</code>.
 
     Conoce más acerca de los estados de PayIns en este [artículo](https://docs.prontopaga.com/docs/payins-status#/).
 
