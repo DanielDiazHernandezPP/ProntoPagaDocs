@@ -264,7 +264,7 @@ metadata:
   </Tab>
 
   <Tab title="U">
-    **<h3>UID</h3>** Siglas de User Unique Identifier. Es un identificador único que ProntoPaga asigna a los usuarios, comercios y transacciones que permite referenciar de forma inequívoca los recursos en la base de datos.
+    **<h3>UID</h3>** Siglas de *User Unique Identifier*. Es un identificador único que ProntoPaga asigna a los usuarios, comercios y transacciones que permite referenciar de forma inequívoca los recursos en la base de datos.
   </Tab>
 
   <Tab title="V">
