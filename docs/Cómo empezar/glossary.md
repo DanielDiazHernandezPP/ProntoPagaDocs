@@ -49,7 +49,7 @@ metadata:
 
     **<h3>Bemovil</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Es ideal para retiros rápidos sin depender del sistema bancario tradicional.
 
-    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
+    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/) en sus respectivos visita nuestro artículos.
 
     **<h3>Body</h3>** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
 
