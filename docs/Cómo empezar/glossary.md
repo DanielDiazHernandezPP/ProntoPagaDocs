@@ -292,6 +292,18 @@ metadata:
     **<h3>Yape On File</h3>** Mecanismo que permite almacenar (tokenizar) de forma segura la afiliación del cliente a Yape, de modo que el comercio pueda volver a cobrarle en el futuro sin pedirle que ingrese datos nuevamente. Esto permite pagos con un clic, cobros recurrentes y una tokenización segura.
 
     Conoce más sobre la integración de ProntoPaga con Yape On File [aquí](https://docs.prontopaga.com/docs/payins-peru-wallet#/).
+
+    **<h3>Yape On File: One-Click Payments</h3>** Modalidad donde el usuario afilia su cuenta Yape una sola vez, y a partir de ese momento puede realizar pagos instantáneos con un solo clic, sin volver a escanear QR ni abrir la aplicación.
+    
+		Funciona mediante tokenización segura, donde Yape y ProntoPaga generan un token permanente que representa la afiliación del usuario. Ese token permite que el comercio inicie nuevos pagos con autorización inmediata.
+
+    Conoce más sobre la integración de ProntoPaga con Yape On File: One-Click Payments [aquí](https://docs.prontopaga.com/docs/yape-on-file-ocp#/).
+
+    **<h3>Yape On File: Recurrencia</h3>** Modalidad donde el usuario afilia su cuenta Yape para que el comercio pueda cobrarle automáticamente pagos repetitivos, sin que intervenga cada vez, equivalente a un modelo de suscripción.
+
+    Esta modalidad permite que el comercio programe cobros periódicos (semanales, mensuales, anuales). Todos se realizan usando el mismo token de afiliación, sin requerir que el usuario vuelva a aprobar el pago.
+
+    Conoce más sobre la integración de ProntoPaga con Yape On File: Recurrencia [aquí](https://docs.prontopaga.com/docs/yape-on-file-recurrent#/).
   </Tab>
 </Tabs>
 
