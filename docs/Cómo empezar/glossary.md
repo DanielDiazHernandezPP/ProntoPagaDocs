@@ -230,9 +230,9 @@ metadata:
   </Tab>
 
   <Tab title="R">
-    **<h3>Red activa / Western Unión</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Cuenta con más de 270 puntos de atención y 1100 locales franquciados en 226 ciudades y poblaciones de Ecuador.
+    **<h3>Red activa / Western Union</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Cuenta con más de 270 puntos de atención y 1100 locales franquciados en 226 ciudades y poblaciones de Ecuador.
 
-    Conoce más acerca de este método de PayOut, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
+    Conoce más acerca de este método, visita nuestro [artículo](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/).
 
     **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (`success`, `error`), códigos, identificadores o mensajes.
 
