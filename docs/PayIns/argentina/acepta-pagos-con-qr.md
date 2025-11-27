@@ -14,12 +14,35 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ¿Cómo funciona?
 
-El proceso de pago con tarjeta en Argentina consta de cinco etapas principales:
+<Image align="center" border={false} src="https://files.readme.io/7d966bb565600eafff1fcf1853cb066728a04ee3589007318fd1cb8944962887-Argentina_MODO.jpg" />
 
-1. **Selección de método.** El cliente elige pagar con QR en tu sitio web o aplicación móvil.
-2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará. 
+El proceso de pago con wallet en Argentina consta de cinco etapas principales:
+
+1. **Selección de método.** El cliente elige pagar con código QR en tu sitio web.
+
+<Callout icon="📘" theme="info">
+  **Versión mobile 📱**
+
+  Si el dispositivo del cliente es mobile se abrirá la aplicación correspondiente para la confirmación del pago.
+</Callout>
+
+2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
 3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+
+<br />
+
+Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
+
+<Cards columns={2}>
+  <Card title="🌐 En web">
+    Se genera un QR para que el cliente lo escaneé y es redirigido a la web para continuar con el pago.
+  </Card>
+
+  <Card title="📱En mobile">
+    Se abre la aplicación de MACH y se valida al cliente para confirmar el pago.
+  </Card>
+</Cards>
 
 ***
 
