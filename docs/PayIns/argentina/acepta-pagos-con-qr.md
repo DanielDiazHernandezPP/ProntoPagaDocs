@@ -23,7 +23,7 @@ El proceso de pago con wallet en Argentina consta de cinco etapas principales:
 <Callout icon="📘" theme="info">
   **Versión mobile 📱**
 
-  Si el dispositivo del cliente es mobile se abrirá la aplicación correspondiente para la confirmación del pago.
+  Si el dispositivo del cliente es mobile deberá elegir la opción de pago con wallet que abrirá la aplicación correspondiente para la confirmación del pago.
 </Callout>
 
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
@@ -32,7 +32,7 @@ El proceso de pago con wallet en Argentina consta de cinco etapas principales:
 
 <br />
 
-Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
+**Ten en cuenta que el flujo varía dependiendo de la versión utilizada**:
 
 <Cards columns={2}>
   <Card title="🌐 En web">
