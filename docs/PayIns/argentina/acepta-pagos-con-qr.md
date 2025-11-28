@@ -99,6 +99,8 @@ A continuación puedes ver dos ejemplos de _request_:
 }
 ```
 
+***
+
 <br />
 
 ### Respuesta
@@ -111,7 +113,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 {
     "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
     "reference": "17643498227932",
-    "urlPay": "https://qa.prontopaga.com/payment/rest/01KB5Q3HCRQZVPFXZTKESCRHDK"
+    "urlPay": "https://www.webhook.com"
 }
 ```
 
