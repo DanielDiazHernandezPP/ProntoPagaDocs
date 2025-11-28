@@ -10,8 +10,6 @@ metadata:
 ---
 ProntoPaga permite procesar pagos con las principales marcas de tarjetas de crédito y débito. La disponibilidad puede variar según el país.
 
-<br />
-
 <Cards columns={3}>
   <center>
     <Card>
@@ -95,5 +93,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
     </Card>
   </center>
 </Cards>
+
+## Disponibilidad por país
 
 <br />
