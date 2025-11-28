@@ -6407,102 +6407,6 @@
         }
       }
     },
-    "/v2/biometric/{uid}/status": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "Successful": {
-                    "summary": "Successful",
-                    "value": "{\n    \"biometricVerification\": {\n        \"uid\": \"a5d089a7-00a4-475a-8e12-1ce559976e6f\",\n        \"status\": \"success\",\n        \"reference\": \"04K8VEGC40897X2NM1JHQ8PXMF\",\n        \"verificationUrl\": \"https://sandbox.prontopaga.com/v2/biometric/a5d089a7-00a4-475a-8e12-1ce559976e6f/verification\",\n        \"decisions\": [\n         {\n        \"verification\": {\n            \"id\": \"e5c11508-1512-42ec-bbec-0dfea9786e81\",\n            \"providerVerificationId\": \"e5c11508-1512-42ec-bbec-0dfea9786e81\",\n            \"verificationType\": \"document-selfie\",\n            \"vendorData\": \"015a5b17-df41-72b5-b18d-6f0be6459a1e\",\n            \"status\": \"started\",\n            \"person\": {\n                \"firstName\": \"John\",\n                \"lastName\": \"Doe\",\n                \"idNumber\": \"12345678\"\n            },\n            \"document\": {\n                \"number\": \"12345678\",\n                \"country\": \"PE\",\n                \"type\": \"PP\"\n            },\n            \"finalDocument\": {\n                \"number\": null,\n                \"country\": null,\n                \"type\": null\n            }\n        ],\n        \"createdAt\": \"2025-10-30 17:56:17\",\n        \"updatedAt\": \"2025-10-30 17:56:17\"\n    }\n}"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "Bad Request": {
-                    "summary": "Bad Request",
-                    "value": {
-                      "message": "biometricNotFound",
-                      "code": 1
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "parameters": [
-          {
-            "in": "path",
-            "name": "uid",
-            "schema": {
-              "type": "string",
-              "default": "Country",
-              "enum": [
-                "Country"
-              ]
-            },
-            "required": true,
-            "description": "D"
-          }
-        ],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
-              "language": "json",
-              "name": "Tarjeta"
-            },
-            {
-              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"ar_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
-              "language": "json",
-              "name": "Tarjeta"
-            },
-            {
-              "code": "",
-              "language": "shell",
-              "name": "QR Argentina"
-            },
-            {
-              "code": "",
-              "language": "shell",
-              "name": "QE Argentina "
-            }
-          ],
-          "samples-languages": [
-            "json",
-            "shell"
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
-      }
-    },
     "/": {
       "get": {
         "description": "",
@@ -6584,6 +6488,88 @@
           }
         },
         "parameters": []
+      }
+    },
+    "/.payment/new": {
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Successful": {
+                    "summary": "Successful",
+                    "value": "{\n    \"biometricVerification\": {\n        \"uid\": \"a5d089a7-00a4-475a-8e12-1ce559976e6f\",\n        \"status\": \"success\",\n        \"reference\": \"04K8VEGC40897X2NM1JHQ8PXMF\",\n        \"verificationUrl\": \"https://sandbox.prontopaga.com/v2/biometric/a5d089a7-00a4-475a-8e12-1ce559976e6f/verification\",\n        \"decisions\": [\n         {\n        \"verification\": {\n            \"id\": \"e5c11508-1512-42ec-bbec-0dfea9786e81\",\n            \"providerVerificationId\": \"e5c11508-1512-42ec-bbec-0dfea9786e81\",\n            \"verificationType\": \"document-selfie\",\n            \"vendorData\": \"015a5b17-df41-72b5-b18d-6f0be6459a1e\",\n            \"status\": \"started\",\n            \"person\": {\n                \"firstName\": \"John\",\n                \"lastName\": \"Doe\",\n                \"idNumber\": \"12345678\"\n            },\n            \"document\": {\n                \"number\": \"12345678\",\n                \"country\": \"PE\",\n                \"type\": \"PP\"\n            },\n            \"finalDocument\": {\n                \"number\": null,\n                \"country\": null,\n                \"type\": null\n            }\n        ],\n        \"createdAt\": \"2025-10-30 17:56:17\",\n        \"updatedAt\": \"2025-10-30 17:56:17\"\n    }\n}"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "biometricNotFound",
+                      "code": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "description": "Not Found"
+          }
+        },
+        "parameters": [],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Tarjeta"
+            },
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"ar_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Tarjeta"
+            },
+            {
+              "code": "{\n    \"currency\": \"ARS\",\n    \"country\": \"AR\",\n    \"amount\": \"110\",\n    \"clientName\": \"Demo\",\n    \"clientEmail\": \"luiggi@demo.cl\",\n    \"clientPhone\": \"933020100\",\n    \"clientDocument\": \"11111111\",\n    \"paymentMethod\": \"ar_qr_payment\",\n    \"urlConfirmation\": \"https://sandbox.prontopaga.com/test/logs\",\n    \"urlFinal\": \"https://sandbox.prontopaga.com/test/logs\",\n    \"urlRejected\": \"https://sandbox.prontopaga.com/test/logs\",\n    \"order\": randomData\n}",
+              "language": "shell",
+              "name": "QR Argentina"
+            },
+            {
+              "code": "{\n    \"currency\": \"ARS\",\n    \"country\": \"AR\",\n    \"amount\": \"110\",\n    \"clientName\": \"Demo\",\n    \"clientEmail\": \"luiggi@demo.cl\",\n    \"clientPhone\": \"933020100\",\n    \"clientDocument\": \"11111111\",\n    \"paymentMethod\": \"ar_qr_2_payment\",\n    \"urlConfirmation\": \"https://sandbox.prontopaga.com/test/logs\",\n    \"urlFinal\": \"https://sandbox.prontopaga.com/test/logs\",\n    \"urlRejected\": \"https://sandbox.prontopaga.com/test/logs\",\n    \"order\": randomData\n}",
+              "language": "shell",
+              "name": "QE Argentina "
+            }
+          ],
+          "samples-languages": [
+            "json",
+            "shell"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     }
   },
