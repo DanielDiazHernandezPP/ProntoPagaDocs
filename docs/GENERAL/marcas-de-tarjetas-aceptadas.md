@@ -101,18 +101,18 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Marca</b></th>
-			<th><b>Argentinar</b></th>
+			<th><b>Argentina</b></th>
       <th><b>Chile</b></th>
       <th><b>Ecuador</b></th>
 			<th><b>Perú</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Visa</td><td>CL</td><td>✔️</td><td>CL</td><td>CLP</td></tr></tr>
-    <tr><td>Mastercard</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
-		<tr><td>American Express</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
-		<tr><td>Diners Club International</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
-    <tr><td>UnionPay</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td><b>Visa</b></td><td>CL</td><td>✔️</td><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td><b>Mastercard</b></td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+		<tr><td><b>American Express</b></td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+		<tr><td><b>Diners Club International</b></td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td><b>UnionPay</b></td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
