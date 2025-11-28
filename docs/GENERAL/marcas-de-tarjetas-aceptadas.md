@@ -21,7 +21,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '250px'
+      height: '150px'
     }}
       >
         <img src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" style={{ width: '200px', height: '50px', marginBottom: '0px' }} />
