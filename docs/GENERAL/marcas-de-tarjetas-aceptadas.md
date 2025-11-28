@@ -2,7 +2,7 @@
 title: Marcas de tarjetas aceptadas
 excerpt: 'Conoce las marcas de tarjeta '
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
