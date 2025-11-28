@@ -24,14 +24,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       height: '250px'
     }}
       >
-        <img src="https://files.readme.io/dab29f87c4fd5dcf40c043bf9cb6ee7cdd6e26bd3d580ccb01010ae9e2b95fde-prestashop_alt_1.png" alt="PrestaShop" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
-
-        <h3>PrestaShop</h3>
-        Optimiza el proceso de cobre en tiendas PrestaShop con el plugin de ProntoPaga.
-
-        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
-
-        <br />
+        <img src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
