@@ -10,6 +10,10 @@ metadata:
 ---
 ProntoPaga permite procesar pagos con las principales marcas de tarjetas de crédito y débito. La disponibilidad puede variar según el país.
 
-<Image align="center" border={false} width="50% " src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" />
+<br />
+
+<br />
+
+<Image align="center" border={false} width="30% " src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" />
 
 <br />
