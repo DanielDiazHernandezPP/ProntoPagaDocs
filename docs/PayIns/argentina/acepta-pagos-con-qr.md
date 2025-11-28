@@ -127,39 +127,51 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+***
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
-Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `APPROVED`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
-Ejemplo de **webhook para un pago exitoso**:
+#### Ejemplo de pago aprobado: 
 
 ```json
-{ 
-  "uid":"01HZ7HFEJZ0GN2TYNDDXC456F", 
-  "status":"success", 
-  "amount":36400.90, 
-  "method":"AR Tarjeta", 
-  "reference":"1687348107370523",
-  "clientEmail" : "johndoe@example.com",
-  "clientDocument" : "999999999",         
-  "order":"XYZ789", 
-  "currency":"ARS", 
-  "country":"AR", 
-  "method_type":"TDD", 
-  "method_detail":"6623 VD", 
-  "hash":"25aGF34G33HG34H41111",
-  "note":"Transaction successful", 
-  "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
-} 
+{
+  "checkoutId": "checkout_123456",
+  "status": "APPROVED"
+}
 ```
+
+***
+
+<br />
 
 ### Detalles de un pago
 
-Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
+Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details-uid#/) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
+
+```json
+{
+  "checkoutId": "chk_abc123xyz",
+  "status": "approved",
+  "transactionId": "txn_987654321",
+  "amount": 1000.50,
+  "currency": "ARS",
+  "customer": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "juan.perez@email.com"
+  },
+  "createdAt": "2025-11-26T10:30:00Z",
+  "updatedAt": "2025-11-26T10:35:00Z"
+}
+```
+
+<br />
 
 ```json
 { 
