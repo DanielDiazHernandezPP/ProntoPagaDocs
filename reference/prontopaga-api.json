@@ -6454,7 +6454,29 @@
           {
             "BearerAuth": []
           }
-        ]
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Tarjeta Argentina"
+            },
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"ar_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Tarjeta Argentina"
+            },
+            {
+              "code": "",
+              "language": "json",
+              "name": "QR Argentina"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        }
       }
     },
     "//v2/biometric/{uid}/status": {
