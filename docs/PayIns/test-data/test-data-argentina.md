@@ -418,13 +418,15 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
 
 #### ✅ Código de respuesta 3DS
 
-```
+<br />
+
 <table>
   <thead>
     <tr>
       <th style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
         <b>Valor</b>
       </th>
+
       <th style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
         <b>Descripción</b>
       </th>
@@ -440,7 +442,3 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
     <tr><td>6</td><td>No se pudo autenticar / el ACS o el DS no pueden autenticar al titular de la tarjeta (Visa ECI 07).</td></tr>
   </tbody>
 </table>
-
-```
-
-<br />
