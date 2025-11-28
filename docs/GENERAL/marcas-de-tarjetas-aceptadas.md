@@ -74,7 +74,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       height: '150px'
     }}
       >
-        <img src="https://files.readme.io/24c011ae5e01ece98d04fa250a3c6ebbdad6f9254662b2998f792c921064a30f-Diners_Club_Logo3.svg.png" style={{ width: '150px', height: '94px', marginBottom: '0px' }} />
+        <img src="https://files.readme.io/24c011ae5e01ece98d04fa250a3c6ebbdad6f9254662b2998f792c921064a30f-Diners_Club_Logo3.svg.png" style={{ width: '150px', height: '39px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
