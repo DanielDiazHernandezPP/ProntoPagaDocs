@@ -12,7 +12,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
 
 <br />
 
-<Cards columns={3}>
+<Cards columns={5}>
   <center>
     <Card>
       <div
