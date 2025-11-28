@@ -125,6 +125,10 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+***
+
+<br />
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -177,6 +181,10 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   "updatedAt": "2025-11-26T10:35:00Z"
 }
 ```
+
+***
+
+<br />
 
 ### Motivos de rechazo
 
