@@ -6440,6 +6440,34 @@
               }
             }
           },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "statusCode": 400,
+                      "message": "Validation failed",
+                      "errors": [
+                        {
+                          "field": "amount",
+                          "message": "Amount must be a positive number"
+                        }
+                      ],
+                      "timestamp": "2025-04-25T07:00:00.000Z",
+                      "path": "/transaction/create"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
+          },
           "404": {
             "content": {
               "application/json": {
