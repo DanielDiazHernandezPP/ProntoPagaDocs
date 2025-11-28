@@ -6484,6 +6484,25 @@
           "samples-languages": [
             "json"
           ]
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "checkoutId": {
+                    "type": "string",
+                    "default": "checkoutId",
+                    "description": "Identificador único del checkout"
+                  }
+                },
+                "required": [
+                  "checkoutId"
+                ]
+              }
+            }
+          }
         }
       }
     },
