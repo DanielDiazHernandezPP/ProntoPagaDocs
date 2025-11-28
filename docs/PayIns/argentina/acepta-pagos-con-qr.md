@@ -108,10 +108,10 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 #### Ejemplo de respuesta para pago exitoso:
 
 ```json
-{ 
-   "urlPay" : "Link to redirect or Iframe to insert",
-   "uid" : "ID in our services",
-   "reference": "Reference in our services" 
+{
+    "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
+    "reference": "17643498227932",
+    "urlPay": "https://qa.prontopaga.com/payment/rest/01KB5Q3HCRQZVPFXZTKESCRHDK"
 }
 ```
 
