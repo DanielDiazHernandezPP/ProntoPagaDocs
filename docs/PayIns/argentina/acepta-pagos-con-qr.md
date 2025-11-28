@@ -105,7 +105,7 @@ A continuación puedes ver dos ejemplos de _request_:
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-#### Ejemplo de respuesta para pago exitoso:
+#### Ejemplo de respuesta para solicitud exitosa:
 
 ```json
 {
@@ -129,53 +129,52 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
-Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `APPROVED`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
 Ejemplo de **webhook para un pago exitoso**:
 
 ```json
-{ 
-  "uid":"01HZ7HFEJZ0GN2TYNDDXC456F", 
-  "status":"success", 
-  "amount":36400.90, 
-  "method":"AR Tarjeta", 
-  "reference":"1687348107370523",
-  "clientEmail" : "johndoe@example.com",
-  "clientDocument" : "999999999",         
-  "order":"XYZ789", 
-  "currency":"ARS", 
-  "country":"AR", 
-  "method_type":"TDD", 
-  "method_detail":"6623 VD", 
-  "hash":"25aGF34G33HG34H41111",
-  "note":"Transaction successful", 
-  "sign":"e6f27650e5e7703949b0f2be41dde1aeab84145595c4183271e0a42f1500aa"
-} 
+{
+  "checkoutId": "checkout_123456",
+  "status": "APPROVED"
+}
 ```
+
+***
+
+<br />
 
 ### Detalles de un pago
 
 Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
 
 ```json
-{ 
-  "uid": [string] // Transaction Identifier 
-  "status": [string] // Transaction status 
-  "amount": [integer] // Transaction amount 
-  "method": [string] // Payment method used 
-  "reference": [string] // Reference of the transaction 
-  "clientEmail": [string] // Client's email address 
-  "clientDocument": [string] // Customer's ID number 
-  "order": [string] // Payment identifier to be associated with 
-  "currency": [string] // ISO currency code 
-  "country": [string] // International Country Format 
-  "method_type": [string] // Method type 
-  "method_detail": [string] // Method details 
-	"hash": [string] // Security hash parameter
- 	"note": [string] // Transaction note
-  "sign": [string] // Signature of the parameters
+{
+  "checkoutId": "chk_abc123xyz",
+  "status": "approved",
+  "amount": 34000.90,
+  "currency": "ARS",
+  "events": [
+    {
+      "eventType": "created",
+      "timestamp": "2025-11-26T10:30:00Z",
+      "status": "pending"
+    },
+    {
+      "eventType": "payment_received",
+      "timestamp": "2025-11-26T10:35:00Z",
+      "status": "approved"
+    }
+  ],
+  "customer": {
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  "products": [...],
+  "createdAt": "2025-11-26T10:30:00Z",
+  "updatedAt": "2025-11-26T10:35:00Z"
 }
 ```
 
