@@ -24,7 +24,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       height: '100px'
     }}
       >
-        <img src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" style={{ width: '150px', height: '50px', marginBottom: '0px' }} />
+        <img src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" style={{ width: '200px', height: '50px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
@@ -58,7 +58,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       height: '250px'
     }}
       >
-        <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '40px', marginBottom: '0px' }} />
+        <img src="https://files.readme.io/b53455a90f631d51aa6cb66f51a5873c994374db04d4502f3fe5d2dc76f4e474-pngwing.com_1.png" alt="WooCommerce" style={{ width: '150px', height: '150px', marginBottom: '0px' }} />
 
         <h3>WooCommerce</h3>
         Con el plugin de ProntoPaga de Wordpress + WooCommerce acepta pagos de forma segura y rápida.
