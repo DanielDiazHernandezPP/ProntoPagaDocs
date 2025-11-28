@@ -416,16 +416,18 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
   </tbody>
 </table>
 
-
-
-
 #### ✅ Código de respuesta 3DS
 
+```
 <table>
   <thead>
-    <tr className="table-header-prontopaga">
-      <th><b>Valor</b></th>
-      <th><b>Descripción</b></th>
+    <tr>
+      <th style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
+        <b>Valor</b>
+      </th>
+      <th style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
+        <b>Descripción</b>
+      </th>
     </tr>
   </thead>
 
@@ -439,6 +441,6 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
   </tbody>
 </table>
 
-
+```
 
 <br />
