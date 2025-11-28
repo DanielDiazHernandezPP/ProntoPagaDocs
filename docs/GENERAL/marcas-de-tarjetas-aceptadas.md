@@ -108,11 +108,11 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
     </tr>
   </thead>
   <tbody>
-    <tr><td>Visa</td><td>CL</td><td>✔️</td></tr><td>CL</td><td>CLP</td></tr></tr>
-    <tr><td>Mastercard</td><td>CL</td><td>CLP</td></tr><td>CL</td><td>CLP</td></tr></tr>
-		<tr><td>American Express</td><td>CL</td><td>CLP</td></tr><td>CL</td><td>CLP</td></tr></tr>
-		<tr><td>Diners Club International</td><td>CL</td><td>CLP</td></tr><td>CL</td><td>CLP</td></tr></tr>
-    <tr><td>UnionPay</td><td>CL</td><td>CLP</td></tr><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td>Visa</td><td>CL</td><td>✔️</td><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td>Mastercard</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+		<tr><td>American Express</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+		<tr><td>Diners Club International</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td>UnionPay</td><td>CL</td><td>CLP</td><td>CL</td><td>CLP</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
