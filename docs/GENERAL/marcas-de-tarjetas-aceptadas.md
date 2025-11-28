@@ -96,4 +96,19 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
 
 ## Disponibilidad por país
 
-<br />
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Marca</b></th>
+      <th><b>Chile</b></th>
+      <th><b>Ecuador</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Chile</td><td>CL</td><td>CLP</td></tr></tr>
+    <tr><td>Ecuador</td><td>EC</td><td>USD</td></tr>
+    <tr><td>Perú</td><td>PE</td><td>PEN / USD</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
