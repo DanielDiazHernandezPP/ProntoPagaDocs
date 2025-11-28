@@ -390,7 +390,6 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
 
 ### Datos de prueba de autenticación 3D Secure
 
-
 <Callout icon="📘" theme="info">
   **Antes de iniciar**
 
@@ -401,7 +400,7 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
 
 <table>
   <thead>
-    <tr>
+    <tr className="table-header-prontopaga">
       <th><b>Valor</b></th>
       <th><b>Descripción</b></th>
     </tr>
@@ -418,15 +417,18 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
 </table>
 
 
+
+
 #### ✅ Código de respuesta 3DS
 
 <table>
   <thead>
-    <tr>
+    <tr className="table-header-prontopaga">
       <th><b>Valor</b></th>
       <th><b>Descripción</b></th>
     </tr>
   </thead>
+
   <tbody>
     <tr><td>1</td><td>Autenticación exitosa (Visa ECI 05, Mastercard ECI 02).</td></tr>
     <tr><td>2</td><td>Autenticación exitosa sin AVV (Visa ECI 05, Mastercard ECI 02).</td></tr>
@@ -436,3 +438,7 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
     <tr><td>6</td><td>No se pudo autenticar / el ACS o el DS no pueden autenticar al titular de la tarjeta (Visa ECI 07).</td></tr>
   </tbody>
 </table>
+
+
+
+<br />
