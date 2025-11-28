@@ -74,7 +74,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       height: '150px'
     }}
       >
-        <img src="https://files.readme.io/805eaafc303263f8484a8a906fdfadf54fc0b9d507e5810428d5022100bf9556-visa-brandmark-blue-1960x622.webp" style={{ width: '150px', height: '48px', marginBottom: '0px' }} />
+        <img src="https://files.readme.io/5e0a62afd11d47397080f2f8974d1cf3d61af5eda1ecc71726c9eae40f53a4bf-UnionPay_logo.svg.png" style={{ width: '150px', height: '94px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
