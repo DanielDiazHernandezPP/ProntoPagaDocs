@@ -24,7 +24,7 @@ next:
       title: Primeros Pasos
       type: basic
 ---
-En **ProntoPaga**, somos líderes en el procesamiento de pagos en Latinoamérica, distinguiéndonos por la seguridad, eficiencia y rapidez en las transacciones. Nuestra plataforma ofrece una amplia gama de métodos de pago y retiro, incluyendo: tarjetas de crédito, tarjetas de débito, tarjetas prepago, efectivo, transferencias bancarias, QR y wallets. **Todo con una sola integración.**
+En *ProntoPaga**, somos líderes en el procesamiento de pagos en Latinoamérica, distinguiéndonos por la seguridad, eficiencia y rapidez en las transacciones. Nuestra plataforma ofrece una amplia gama de métodos de pago y retiro, incluyendo: tarjetas de crédito, tarjetas de débito, tarjetas prepago, efectivo, transferencias bancarias, QR y wallets. **Todo con una sola integración.**
 
 Para ello, en esta documentación encontrarás las guías de integración de cada método, nuestra referencia API y toda la información necesaria para comenzar a usar nuestros métodos de pago y retiro.
 
