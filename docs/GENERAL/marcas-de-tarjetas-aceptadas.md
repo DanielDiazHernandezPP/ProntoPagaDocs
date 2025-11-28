@@ -12,7 +12,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
 
 <br />
 
-<Cards columns={2}>
+<Cards columns={4}>
   <center>
     <Card>
       <div
@@ -37,15 +37,10 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '250px'
+      height: '100px'
     }}
       >
-        <img src="https://files.readme.io/0d7d83bbdaf7f085a281bd6340701a1b2cc12698fe8a9109964131c4b82af03c-VTEX.png" alt="VTEX" style={{ width: '100px', height: '40px', marginBottom: '0px' }} />
-
-        <h3>VTEX</h3>
-        Mejora conversiones con transacciones seguras y rápidas con el plugin de ProntoPaga.
-
-        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/vtex#/" target="_blank" />
+        <img src="https://files.readme.io/bec5c1aec733055f993a3c8c75910e8b57260edbf108945d9e4288883f271f23-ma_symbol_opt_45_2x.png" style={{ width: '150px', height: '50px', marginBottom: '0px' }} />
 
         <br />
       </div>
