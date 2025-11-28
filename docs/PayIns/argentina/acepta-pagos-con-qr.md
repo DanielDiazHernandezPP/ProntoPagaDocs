@@ -215,41 +215,43 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 
   <tbody>
     <tr style={{ backgroundColor: '#fff' }}>
-      <td style={{ padding: '10px' }}>PENDING</td>
+      <td style={{ padding: '10px' }}><code>PENDING</code></td>
       <td style={{ padding: '10px' }}>Pago o transacción pendiente.</td>
     </tr>
 
     <tr style={{ backgroundColor: '#f9f9f9' }}>
-      <td style={{ padding: '10px' }}>APPROVED</td>
+      <td style={{ padding: '10px' }}><code>APPROVED</code></td>
       <td style={{ padding: '10px' }}>Pago o transacción aprobada.</td>
     </tr>
 
     <tr style={{ backgroundColor: '#fff' }}>
-      <td style={{ padding: '10px' }}>REJECTED</td>
+      <td style={{ padding: '10px' }}><code>REJECTED</code></td>
       <td style={{ padding: '10px' }}>Pago o transacción rechazada.</td>
     </tr>
 
     <tr style={{ backgroundColor: '#f9f9f9' }}>
-      <td style={{ padding: '10px' }}>CANCELLED</td>
+      <td style={{ padding: '10px' }}><code>CANCELLED</code></td>
       <td style={{ padding: '10px' }}>Pago o transacción cancelada.</td>
     </tr>
 
     <tr style={{ backgroundColor: '#fff' }}>
-      <td style={{ padding: '10px' }}>EXPIRED</td>
+      <td style={{ padding: '10px' }}><code>EXPIRED</code></td>
       <td style={{ padding: '10px' }}>Pago expirado.</td>
     </tr>
 
     <tr style={{ backgroundColor: '#f9f9f9' }}>
-      <td style={{ padding: '10px' }}>PARTIAL\_REFUND</td>
+      <td style={{ padding: '10px' }}><code>PARTIAL\_REFUND</code></td>
       <td style={{ padding: '10px' }}>Reembolso parcial.</td>
     </tr>
 
     <tr style={{ backgroundColor: '#fff' }}>
-      <td style={{ padding: '10px' }}>REFUNDED</td>
+      <td style={{ padding: '10px' }}><code>REFUNDED</code></td>
       <td style={{ padding: '10px' }}>Reembolso total.</td>
     </tr>
   </tbody>
 </table>
+
+<br />
 
 ***
 
