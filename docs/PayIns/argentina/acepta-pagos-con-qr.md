@@ -184,6 +184,23 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 
 ***
 
+### Cancelar transacción
+
+<br />
+
+```json
+{
+  "checkoutId": "chk_abc123xyz",
+  "status": "cancelled",
+  "message": "Transaction cancelled successfully",
+  "cancelledAt": "2025-11-26T11:00:00Z"
+}
+```
+
+<br />
+
+***
+
 <br />
 
 ### Motivos de rechazo
