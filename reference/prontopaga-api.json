@@ -6408,7 +6408,7 @@
       }
     },
     "/v2/biometric/{uid}/status": {
-      "get": {
+      "post": {
         "description": "",
         "operationId": "get_new-endpoint",
         "responses": {
