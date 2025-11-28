@@ -190,6 +190,8 @@ Si un cliente generó un QR, pero no realizó el pago al momento, puedes cancela
 
 Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
+**Ejemplo de cancelación exitosa**:
+
 ```json
 {
   "checkoutId": "chk_abc123xyz",
