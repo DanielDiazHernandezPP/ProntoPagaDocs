@@ -32,7 +32,7 @@ Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
 
 <Cards columns={2}>
   <Card title="🌐 En web">
-    Se genera un código QR para que el cliente lo escaneé desde la apliación de su celular.
+    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
   </Card>
 
   <Card title="📱En mobile">
@@ -42,8 +42,6 @@ Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
 
 3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
 4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
-
-
 
 ***
 
