@@ -183,21 +183,42 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
 <HTMLBlock>{`
-<table>
+<table style="border-collapse: collapse; width:100%;">
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Mensaje de rechazo</b></th>
-      <th><b>Descripción</b></th>
+      <th style="padding:10px;"><b>Mensaje de rechazo</b></th>
+      <th style="padding:10px;"><b>Descripción</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>INSUFFICIENT_FUNDS</td><td>Saldo insuficiente para realizar la transacción.</td></tr>
-    <tr><td>RECHAZADO POR EL BANCO</td><td>Tu banco rechazó la transacción. Contáctate con ellos para más información.</td></tr>
-    <tr><td>DO_NOT_HONOR</td><td>Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.</td></tr>
-<tr><td>INVALID_SECURITY_CODE</td><td>El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.</td></tr>
-    <tr><td>INVALID_CARD_DATA</td><td>Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.</td></tr>
-    <tr><td>REPORTED_STOLEN</td><td>No se puede realizar la transacciones. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.</td></tr>
-    <tr><td>ERROR</td><td>Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.</td></tr>
+    <tr style="background-color:#fff;">
+      <td style="padding:10px;">INSUFFICIENT_FUNDS</td>
+      <td style="padding:10px;">Saldo insuficiente para realizar la transacción.</td>
+    </tr>
+    <tr style="background-color:#f9f9f9;">
+      <td style="padding:10px;">RECHAZADO POR EL BANCO</td>
+      <td style="padding:10px;">Tu banco rechazó la transacción. Contáctate con ellos para más información.</td>
+    </tr>
+    <tr style="background-color:#fff;">
+      <td style="padding:10px;">DO_NOT_HONOR</td>
+      <td style="padding:10px;">Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.</td>
+    </tr>
+    <tr style="background-color:#f9f9f9;">
+      <td style="padding:10px;">INVALID_SECURITY_CODE</td>
+      <td style="padding:10px;">El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.</td>
+    </tr>
+    <tr style="background-color:#fff;">
+      <td style="padding:10px;">INVALID_CARD_DATA</td>
+      <td style="padding:10px;">Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.</td>
+    </tr>
+    <tr style="background-color:#f9f9f9;">
+      <td style="padding:10px;">REPORTED_STOLEN</td>
+      <td style="padding:10px;">No se puede realizar la transacción. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.</td>
+    </tr>
+    <tr style="background-color:#fff;">
+      <td style="padding:10px;">ERROR</td>
+      <td style="padding:10px;">Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.</td>
+    </tr>
   </tbody>
 </table>
 `}</HTMLBlock>
