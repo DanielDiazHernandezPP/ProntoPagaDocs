@@ -59,40 +59,24 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-A continuación puedes ver dos ejemplos de request:
+A continuación puedes ver dos ejemplos de _request_:
 
 **Ejemplo 1**:
 
 ```json
 {
-  "notificationUrl": "https://tu-comercio.com/webhook",
-  "customer": {
-    "firstName": "Juan",
-    "lastName": "Pérez",
-    "email": "juan.perez@email.com",
-    "phoneNumber": "+5491123456789",
-    "documentType": "DNI",
-    "documentNumber": "12345678"
-  },
-  "amount": 1000.50,
-  "currency": "ARS",
-  "transactionType": "PCT",
-  "billingAddress": {
-    "street": "Av. Corrientes",
-    "number": "1234",
-    "city": "Buenos Aires",
-    "state": "CABA",
+    "currency": "ARS",
     "country": "AR",
-    "zipCode": "C1043"
-  },
-  "products": [
-    {
-      "name": "Producto 1",
-      "description": "Descripción del producto",
-      "quantity": 2,
-      "unitPrice": 500.25
-    }
-  ]
+    "amount": "110",
+    "clientName": "Demo",
+    "clientEmail": "luiggi@demo.cl",
+    "clientPhone": "933020100",
+    "clientDocument": "11111111",
+    "paymentMethod": "ar_qr_payment",
+    "urlConfirmation": "https://sandbox.prontopaga.com/test/logs",
+    "urlFinal": "https://sandbox.prontopaga.com/test/logs",
+    "urlRejected": "https://sandbox.prontopaga.com/test/logs",
+    "order": randomData
 }
 ```
 
@@ -100,43 +84,20 @@ A continuación puedes ver dos ejemplos de request:
 
 ```json
 {
-  "checkoutId": "checkout_123456",
-  "notificationUrl": "https://tu-comercio.com/webhook",
-  "amount": 1500.50,
-  "currency": "ARS",
-  "description": "Pago de orden #123",
-  "cc_code": "1CSI",
-  "expiration_date": "2025-04-25T07:00:33.627Z",
-  "message": "Gracias por tu compra",
-  "customer": {
-    "name": "Juan Pérez",
-    "email": "juan.perez@email.com",
-    "phone": "+5491123456789",
-    "identification": {
-      "type": "DNI",
-      "number": "12345678"
-    }
-  },
-  "billingAddress": {
-    "street": "Av. Corrientes",
-    "number": "1234",
-    "city": "Buenos Aires",
-    "state": "CABA",
-    "zipCode": "C1043",
-    "country": "AR"
-  },
-  "products": [
-    {
-      "name": "Producto 1",
-      "description": "Descripción del producto",
-      "quantity": 2,
-      "unitPrice": 750.25
-    }
-  ]
+    "currency": "ARS",
+    "country": "AR",
+    "amount": "110",
+    "clientName": "Demo",
+    "clientEmail": "luiggi@demo.cl",
+    "clientPhone": "933020100",
+    "clientDocument": "11111111",
+    "paymentMethod": "ar_qr_2_payment",
+    "urlConfirmation": "https://sandbox.prontopaga.com/test/logs",
+    "urlFinal": "https://sandbox.prontopaga.com/test/logs",
+    "urlRejected": "https://sandbox.prontopaga.com/test/logs",
+    "order": randomData
 }
 ```
-
-<br />
 
 <br />
 
