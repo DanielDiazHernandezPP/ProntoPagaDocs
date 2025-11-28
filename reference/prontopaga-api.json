@@ -6425,55 +6425,17 @@
                       "urlPay": "https://qa.prontopaga.com/payment/rest/01KB5Q3HCRQZVPFXZTKESCRHDK"
                     }
                   },
-                  "OK ": {
-                    "summary": "OK ",
+                  "OK - Solicitud exitosa": {
+                    "summary": "OK - Solicitud exitosa",
                     "value": {
-                      "id": 1,
-                      "checkoutId": "checkout_123456",
-                      "notificationUrl": "https://www.webhook.com",
-                      "customerId": "C123",
-                      "amount": "34000.90",
-                      "amountWithInterest": "1575.5",
-                      "currency": "ARS",
-                      "refundAmount": 0,
-                      "status": "APPROVED",
-                      "transactionType": "PAYMENT_UPDATE",
-                      "paymentRequestId": "49e8ed80-903c-4110-bab2-1c6a31ee8582",
-                      "qrCode": "00020126580014br.gov.bcb.pix...",
-                      "deeplink": "https://www.deeplink.modo.com.ar",
-                      "expirationDate": "2025-04-25T07:00:33.627Z",
-                      "events": [
-                        {
-                          "id": 1,
-                          "eventType": "PAYMENT_CREATED",
-                          "status": "PENDING",
-                          "timestamp": "2025-04-25T06:50:33.627Z"
-                        },
-                        {
-                          "id": 2,
-                          "eventType": "PAYMENT_APPROVED",
-                          "status": "APPROVED",
-                          "timestamp": "2025-04-25T06:55:10.123Z"
-                        }
-                      ],
-                      "payerInfo": {
-                        "name": "John",
-                        "email": "johndoe@example.com",
-                        "phone": "999999999"
-                      },
-                      "cardInfo": {
-                        "brand": "VISA",
-                        "lastFourDigits": "1234",
-                        "firstSixDigits": "444444"
-                      },
-                      "installmentsInfo": {
-                        "quantity": 3,
-                        "hasInterest": false,
-                        "interestRate": 0
-                      },
-                      "createdAt": "2025-04-25T06:50:33.627Z",
-                      "updatedAt": "2025-04-25T06:55:10.123Z"
+                      "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
+                      "reference": "17643498227932",
+                      "urlPay": "https://www.webhook.com"
                     }
+                  },
+                  "OK  - Detalle Completo de Transacción": {
+                    "summary": "OK  - Detalle Completo de Transacción",
+                    "value": "{\n  \"id\": 1,\n  \"checkoutId\": \"checkout_123456\",\n  \"notificationUrl\": \"https://www.webhook.com\",\n  \"customerId\": \"C123\",\n  \"amount\": \"34000.90\",\n  \"amountWithInterest\": \"1575.5\",\n  \"currency\": \"ARS\",\n  \"refundAmount\": 0,\n  \"status\": \"APPROVED\",\n  \"transactionType\": \"PAYMENT_UPDATE\",\n  \"paymentRequestId\": \"49e8ed80-903c-4110-bab2-1c6a31ee8582\",\n  \"qrCode\": \"00020126580014br.gov.bcb.pix...\",\n  \"deeplink\": \"https://www.deeplink.modo.com.ar\",\n  \"expirationDate\": \"2025-04-25T07:00:33.627Z\",\n  \"events\": [\n    {\n      \"id\": 1,\n      \"eventType\": \"PAYMENT_CREATED\",\n      \"status\": \"PENDING\",\n      \"timestamp\": \"2025-04-25T06:50:33.627Z\"\n    },\n    {\n      \"id\": 2,\n      \"eventType\": \"PAYMENT_APPROVED\",\n      \"status\": \"APPROVED\",\n      \"timestamp\": \"2025-04-25T06:55:10.123Z\"\n    }\n  ],\n  \"payerInfo\": {\n    \"name\": \"John\",\n    \"email\": \"johndoe@example.com\",\n    \"phone\": \"999999999\"\n  },\n  \"cardInfo\": {\n    \"brand\": \"VISA\",\n    \"lastFourDigits\": \"1234\",\n    \"firstSixDigits\": \"444444\"\n  },\n  \"installmentsInfo\": {\n    \"quantity\": \"3\",\n    \"hasInterest\": \"false,\n    \"interestRate\": \"0\"\n  },\n  \"createdAt\": \"2025-04-25T06:50:33.627Z\",\n  \"updatedAt\": \"2025-04-25T06:55:10.123Z\"\n}"
                   }
                 }
               }
