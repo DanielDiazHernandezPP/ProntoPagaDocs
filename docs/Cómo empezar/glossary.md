@@ -49,7 +49,7 @@ metadata:
 
     **<h3>BeMovil</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Es ideal para retiros rápidos sin depender del sistema bancario tradicional.
 
-    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestro artículos.
+    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestros artículos.
 
     **<h3>Body</h3>** Parte del mensaje HTTP que contiene los datos que envías en una petición (request) POST, PUT o GET. Normalmente va en formato JSON e incluye parámetros como monto, moneda, país o método de pago.
 
@@ -152,7 +152,7 @@ metadata:
   </Tab>
 
   <Tab title="O">
-    **<h3>One-Click Payments</h3>** Método de pago que permite al usuario pagar con un solo clic, usando un medio de pago previamente afiliado (tarjeta, wallet, cuenta). En la integración de ProntoPaga con Yape, el cliente no necesita ingresar nuevamente sus datos: con su cuenta Yape afiliada puede completar la compra en un paso.
+    **<h3>One Click Payments</h3>** Método de pago que permite al usuario pagar con un solo clic, usando un medio de pago previamente afiliado (tarjeta, wallet, cuenta). En la integración de ProntoPaga con Yape, el cliente no necesita ingresar nuevamente sus datos: con su cuenta Yape afiliada puede completar la compra en un paso.
 
     Conoce más sobre esta integración de ProntoPaga en el siguiente [artículo](https://docs.prontopaga.com/docs/yape-on-file-ocp#/).
 
@@ -197,7 +197,7 @@ metadata:
 
     **<h3>PonleMas</h3>** Ponle Más es una plataforma y red de recargas y retiros en efectivo utilizada en Ecuador. Opera a través de una amplia red de tiendas físicas, donde los usuarios pueden recibir dinero en efectivo sin necesidad de una cuenta bancaria, utilizando un código de retiro generado por un comercio o plataforma de pagos.
 
-    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestro artículos.
+    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestros artículos.
 
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar pagos de manera segura.
 
@@ -232,7 +232,7 @@ metadata:
   <Tab title="R">
     **<h3>Red activa / Western Union</h3>** Plataforma ecuatoriana que permite realizar retiros de dinero en efectivo mediante una amplia red de puntos físicos autorizados. Funciona como un método alternativo para usuarios que no cuenta con cuenta bancaria. Cuenta con más de 270 puntos de atención y 1100 locales franquciados en 226 ciudades y poblaciones de Ecuador.
 
-    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestro artículos.
+    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestros artículos.
 
     **<h3>Responses</h3>** Respuestas HTTP/JSON que da la API tras una solicitud (ej. Crear un nuevo pago, consulta de saldo, devolución, etc.). Contienen datos como el estado (`success`, `error`), códigos, identificadores o mensajes.
 
