@@ -385,3 +385,54 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
   </tbody>
 </table>
 `}</HTMLBlock>
+
+***
+
+### Datos de prueba de autenticación 3D Secure
+
+
+<Callout icon="📘" theme="info">
+  **Antes de iniciar**
+
+  Revisa los valores de los códigos de respuesta y estado de las transacciones 3DS. Puedes revisar todos los valores en la documentación externa de Fiserv.
+</Callout>
+
+#### ✅ Valores de estado de la transacción
+
+<table>
+  <thead>
+    <tr>
+      <th><b>Valor</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr><td>Y</td><td>Verificación de autenticación exitosa.</td></tr>
+    <tr><td>N</td><td>No autenticado / cuenta no verificada. La transacción es denegada.</td></tr>
+    <tr><td>U</td><td>No se pudo realizar la autenticación o verificación por un problema técnico u otro motivo, según lo indicado en Authentication Response (ARes) o Results Request (RReq).</td></tr>
+    <tr><td>A</td><td>Se realizaron intentos de autenticación o verificación. No se autenticó, pero se proporciona una prueba del intento.</td></tr>
+    <tr><td>D</td><td>Challenge requerido. Autenticación desacoplada confirmada.</td></tr>
+    <tr><td>R</td><td>Autenticación o verificación de la cuenta rechazada por el emisor.</td></tr>
+  </tbody>
+</table>
+
+
+#### ✅ Código de respuesta 3DS
+
+<table>
+  <thead>
+    <tr>
+      <th><b>Valor</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Autenticación exitosa (Visa ECI 05, Mastercard ECI 02).</td></tr>
+    <tr><td>2</td><td>Autenticación exitosa sin AVV (Visa ECI 05, Mastercard ECI 02).</td></tr>
+    <tr><td>3</td><td>Autenticación fallida o rechazada por el DS o el ACS (la transacción es rechazada por la pasarela).</td></tr>
+    <tr><td>4</td><td>Intento de autenticación (Visa ECI 06, Mastercard ECI 01).</td></tr>
+    <tr><td>5</td><td>No se pudo autenticar / el DS no responde (Visa ECI 07).</td></tr>
+    <tr><td>6</td><td>No se pudo autenticar / el ACS o el DS no pueden autenticar al titular de la tarjeta (Visa ECI 07).</td></tr>
+  </tbody>
+</table>
