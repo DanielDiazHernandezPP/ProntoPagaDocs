@@ -1,7 +1,7 @@
 ---
 title: marcas de tarjetas
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
