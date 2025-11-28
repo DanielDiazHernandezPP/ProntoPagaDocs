@@ -205,49 +205,51 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 
 <br />
 
-```json
-<table style="border-collapse: collapse; width:100%;">
+<table style={{ borderCollapse: 'collapse', width: '100%' }}>
   <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th style="padding:10px;"><b>Estado</b></th>
-      <th style="padding:10px;"><b>Descripción</b></th>
+    <tr style={{ backgroundColor: '#ff1f55', color: 'white', textAlign: 'left' }}>
+      <th style={{ padding: '10px' }}><b>Estado</b></th>
+      <th style={{ padding: '10px' }}><b>Descripción</b></th>
     </tr>
   </thead>
+
   <tbody>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">PENDING</td>
-      <td style="padding:10px;">Pago o transacción pendiente.</td>
+    <tr style={{ backgroundColor: '#fff' }}>
+      <td style={{ padding: '10px' }}>PENDING</td>
+      <td style={{ padding: '10px' }}>Pago o transacción pendiente.</td>
     </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:10px;">APPROVED</td>
-      <td style="padding:10px;">Pago o transacción aprobada.</td>
+
+    <tr style={{ backgroundColor: '#f9f9f9' }}>
+      <td style={{ padding: '10px' }}>APPROVED</td>
+      <td style={{ padding: '10px' }}>Pago o transacción aprobada.</td>
     </tr>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">REJECTED</td>
-      <td style="padding:10px;">Pago o transacción rechazada.</td>
+
+    <tr style={{ backgroundColor: '#fff' }}>
+      <td style={{ padding: '10px' }}>REJECTED</td>
+      <td style={{ padding: '10px' }}>Pago o transacción rechazada.</td>
     </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:10px;">CANCELLED</td>
-      <td style="padding:10px;">Pago o transacción cancelada.</td>
+
+    <tr style={{ backgroundColor: '#f9f9f9' }}>
+      <td style={{ padding: '10px' }}>CANCELLED</td>
+      <td style={{ padding: '10px' }}>Pago o transacción cancelada.</td>
     </tr>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">EXPIRED</td>
-      <td style="padding:10px;">Pago expirado.</td>
+
+    <tr style={{ backgroundColor: '#fff' }}>
+      <td style={{ padding: '10px' }}>EXPIRED</td>
+      <td style={{ padding: '10px' }}>Pago expirado.</td>
     </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:10px;">PARTIAL_REFUND</td>
-      <td style="padding:10px;">Reembolso parcial.</td>
+
+    <tr style={{ backgroundColor: '#f9f9f9' }}>
+      <td style={{ padding: '10px' }}>PARTIAL\_REFUND</td>
+      <td style={{ padding: '10px' }}>Reembolso parcial.</td>
     </tr>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">REFUNDED</td>
-      <td style="padding:10px;">Reembolso total.</td>
+
+    <tr style={{ backgroundColor: '#fff' }}>
+      <td style={{ padding: '10px' }}>REFUNDED</td>
+      <td style={{ padding: '10px' }}>Reembolso total.</td>
     </tr>
   </tbody>
 </table>
-
-```
-
-<br />
 
 ***
 
