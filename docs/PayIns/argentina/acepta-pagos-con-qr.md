@@ -67,16 +67,16 @@ A continuación puedes ver dos ejemplos de _request_:
 {
     "currency": "ARS",
     "country": "AR",
-    "amount": "110",
-    "clientName": "Demo",
+    "amount": "34000.90",
+    "clientName": "John Doe",
     "clientEmail": "johndoe@example.com",
-    "clientPhone": "933020100",
-    "clientDocument": "11111111",
+    "clientPhone": "999999999",
+    "clientDocument": "12345678912",
     "paymentMethod": "ar_qr_payment",
-    "urlConfirmation": "https://sandbox.prontopaga.com/test/logs",
-    "urlFinal": "https://sandbox.prontopaga.com/test/logs",
-    "urlRejected": "https://sandbox.prontopaga.com/test/logs",
-    "order": randomData
+    "urlConfirmation": "https://www.webhook.com",
+    "urlFinal": "https://sandbox.prontopaga.com/successful",
+    "urlRejected": "https://sandbox.prontopaga.com/declined",
+    "order": "XYZ789"
 }
 ```
 
@@ -84,24 +84,22 @@ A continuación puedes ver dos ejemplos de _request_:
 
 ```json
 {
-    "currency": "ARS",
+"currency": "ARS",
     "country": "AR",
-    "amount": "110",
-    "clientName": "Demo",
+    "amount": "34000.90",
+    "clientName": "John Doe",
     "clientEmail": "johndoe@example.com",
-    "clientPhone": "933020100",
-    "clientDocument": "11111111",
+    "clientPhone": "999999999",
+    "clientDocument": "12345678912",
     "paymentMethod": "ar_qr_2_payment",
-    "urlConfirmation": "https://sandbox.prontopaga.com/test/logs",
-    "urlFinal": "https://sandbox.prontopaga.com/test/logs",
-    "urlRejected": "https://sandbox.prontopaga.com/test/logs",
-    "order": randomData
+    "urlConfirmation": "https://www.webhook.com",
+    "urlFinal": "https://sandbox.prontopaga.com/successful",
+    "urlRejected": "https://sandbox.prontopaga.com/declined",
+    "order": "XYZ789"
 }
 ```
 
 ***
-
-<br />
 
 ### Respuesta
 
