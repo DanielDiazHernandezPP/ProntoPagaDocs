@@ -94,6 +94,10 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
   </center>
 </Cards>
 
+***
+
+<br />
+
 ## Disponibilidad por país
 
 <HTMLBlock>{`
@@ -116,3 +120,9 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
   </tbody>
 </table>
 `}</HTMLBlock>
+
+***
+
+<br />
+
+## Consideraciones importantes
