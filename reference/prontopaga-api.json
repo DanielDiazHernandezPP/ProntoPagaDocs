@@ -6443,6 +6443,21 @@
                       "checkoutId": "checkout_123456",
                       "valueToRefund": "34000.9"
                     }
+                  },
+                  "OK - Argentina QR 2": {
+                    "summary": "OK - Argentina QR 2",
+                    "value": {
+                      "checkoutId": "checkout_123456",
+                      "status": "APPROVED"
+                    }
+                  },
+                  "OK - Argentina QR rejection": {
+                    "summary": "OK - Argentina QR rejection",
+                    "value": {
+                      "uid": "ID in our services",
+                      "status": "rejected",
+                      "reference": "Reason for rejection"
+                    }
                   }
                 }
               }
