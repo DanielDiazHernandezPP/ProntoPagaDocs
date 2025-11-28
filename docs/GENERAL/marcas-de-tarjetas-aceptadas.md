@@ -56,7 +56,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
       height: '150px'
     }}
       >
-        <img src="https://files.readme.io/65464d839affbc3f1cca228c2b1f68e9759d5bef39819e38e673f71bcea071cf-AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png" style={{ width: '150px', height: '150px', marginBottom: '0px' }} />
+        <img src="https://files.readme.io/24c011ae5e01ece98d04fa250a3c6ebbdad6f9254662b2998f792c921064a30f-Diners_Club_Logo3.svg.png" style={{ width: '150px', height: '39px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
@@ -91,22 +91,6 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
     }}
       >
         <img src="https://files.readme.io/bec5c1aec733055f993a3c8c75910e8b57260edbf108945d9e4288883f271f23-ma_symbol_opt_45_2x.png" style={{ width: '147px', height: '104px', marginBottom: '0px' }} />
-      </div>
-    </Card>
-  </center>
-
-  <center>
-    <Card>
-      <div
-        style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '150px'
-    }}
-      >
-        <img src="https://files.readme.io/65464d839affbc3f1cca228c2b1f68e9759d5bef39819e38e673f71bcea071cf-AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png" style={{ width: '150px', height: '150px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
