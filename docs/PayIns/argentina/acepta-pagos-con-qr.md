@@ -203,7 +203,7 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 
 ### Estados
 
-<br />
+Estos son los posibles estados que pueden tener los PayIns con QR en Argentina.
 
 <table style={{ borderCollapse: 'collapse', width: '100%' }}>
   <thead>
@@ -250,8 +250,6 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
     </tr>
   </tbody>
 </table>
-
-<br />
 
 ***
 
