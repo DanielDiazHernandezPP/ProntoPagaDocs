@@ -1,5 +1,5 @@
 ---
-title: Acepta pagos con PIX+ (Open Finance)
+title: '[DEPRECADO] Acepta pagos con PIX+ (Open Finance)'
 excerpt: Conoce el paso a paso de cómo crear un pago con PIX+ (Open Finance) en Brasil.
 deprecated: false
 hidden: true
