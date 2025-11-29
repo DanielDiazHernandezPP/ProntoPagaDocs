@@ -1,5 +1,5 @@
 ---
-title: Acepta pagos con PIX
+title: '[DEPRECADO] Acepta pagos con PIX'
 excerpt: Conoce el paso a paso de cómo crear un pago con PIX en Brasil.
 deprecated: false
 hidden: true
