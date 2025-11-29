@@ -1,5 +1,5 @@
 ---
-title: Webpay Mall
+title: '[DEPRECADO] Webpay Mall'
 excerpt: ''
 deprecated: false
 hidden: true
