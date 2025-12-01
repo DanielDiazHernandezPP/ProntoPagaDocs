@@ -6729,7 +6729,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{\n  \"checkoutId\": \"chk_abc123xyz\"\n}",
+              "code": "{\n  \"checkoutId\": \"chk_abc133xyz\"\n}",
               "language": "json",
               "name": ""
             }
