@@ -125,6 +125,23 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
+#### Ejemplo de error: 
+
+```json
+{
+  "statusCode": 400,
+  "message": "Validation failed",
+  "errors": [
+    {
+      "field": "amount",
+      "message": "Amount must be a positive number"
+    }
+  ],
+  "timestamp": "2025-04-25T07:00:00.000Z",
+  "path": "/transaction/create"
+}
+```
+
 ***
 
 <br />
