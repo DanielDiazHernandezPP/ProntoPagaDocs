@@ -8,6 +8,12 @@ hidden: true
 metadata:
   robots: index
 ---
+Puedes hacer la devolución de un pago con QR en Argentina. 
+
+> ❗️ Monto de la devolución
+>
+> Debes especificar el monto a reembolsar (min: 0.01, max: 99999999999.99), si no se especifica, se reembolsará el monto total disponible. 
+
 <br />
 
 Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
@@ -25,21 +31,4 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 </html>
 `}</HTMLBlock>
 
-***
-
-> 🚧 Importante
->
-> Solo los pagos con estado exitoso pueden ser reembolsados.
-
-Endpoint para realizar la devolución de un pago. Actualmente, este servicio está operativo solamente para los siguientes métodos de pago:
-
-* [Tarjeta Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/)
-* [QR (PE)](https://docs.prontopaga.com/docs/payins-peru-qr#/)
-* [Servicios de Yape On File: One Click Payments ](https://docs.prontopaga.com/update/docs/yape-on-file-ocp#/)
-* [Servicios de Yape On File: Recurrencia](https://docs.prontopaga.com/update/docs/yape-on-file-recurrent#/)
-* [Payphone Wallet](https://docs.prontopaga.com/update/docs/payins-ecuador-wallet#/)
-* [Payphone Tarjeta](https://docs.prontopaga.com/update/docs/payins-ecuador-card#/)
-
-> ❗️ Número de documento
->
-> Para que la devolución sea exitosa, en el campo `clientDocument` debe enviarse el mismo número de documento que el cliente utilizó para realizar la afiliación.
+<br />
