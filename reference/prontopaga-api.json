@@ -6746,7 +6746,19 @@
             "description": ""
           }
         },
-        "parameters": []
+        "parameters": [],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "",
+              "language": "shell",
+              "name": "json"
+            }
+          ],
+          "samples-languages": [
+            "shell"
+          ]
+        }
       }
     }
   },
