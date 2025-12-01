@@ -6779,7 +6779,34 @@
           {
             "BearerAuth": []
           }
-        ]
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "default": "checkoutId",
+                    "description": "Maximo 255. Identificador del checkout a reembolsar."
+                  },
+                  "name1": {
+                    "type": "number",
+                    "default": "valueToRefund",
+                    "description": "Máximo 2 decimales: Monto a reembolsar mínimo 0.01 ARS, max: 99999999999.9 ARS "
+                  },
+                  "name2": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name"
+                ]
+              }
+            }
+          }
+        }
       }
     }
   },
