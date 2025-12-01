@@ -6425,10 +6425,6 @@
                       "urlPay": "https://www.webhook.com"
                     }
                   },
-                  "OK  - Argentina details": {
-                    "summary": "OK  - Argentina details",
-                    "value": "{\n  \"id\": 1,\n  \"checkoutId\": \"checkout_123456\",\n  \"notificationUrl\": \"https://www.webhook.com\",\n  \"customerId\": \"C123\",\n  \"amount\": \"34000.90\",\n  \"amountWithInterest\": \"1575.5\",\n  \"currency\": \"ARS\",\n  \"refundAmount\": 0,\n  \"status\": \"APPROVED\",\n  \"transactionType\": \"PAYMENT_UPDATE\",\n  \"paymentRequestId\": \"49e8ed80-903c-4110-bab2-1c6a31ee8582\",\n  \"qrCode\": \"00020126580014br.gov.bcb.pix...\",\n  \"deeplink\": \"https://www.deeplink.modo.com.ar\",\n  \"expirationDate\": \"2025-04-25T07:00:33.627Z\",\n  \"events\": [\n    {\n      \"id\": 1,\n      \"eventType\": \"PAYMENT_CREATED\",\n      \"status\": \"PENDING\",\n      \"timestamp\": \"2025-04-25T06:50:33.627Z\"\n    },\n    {\n      \"id\": 2,\n      \"eventType\": \"PAYMENT_APPROVED\",\n      \"status\": \"APPROVED\",\n      \"timestamp\": \"2025-04-25T06:55:10.123Z\"\n    }\n  ],\n  \"payerInfo\": {\n    \"name\": \"John\",\n    \"email\": \"johndoe@example.com\",\n    \"phone\": \"999999999\"\n  },\n  \"cardInfo\": {\n    \"brand\": \"VISA\",\n    \"lastFourDigits\": \"1234\",\n    \"firstSixDigits\": \"444444\"\n  },\n  \"installmentsInfo\": {\n    \"quantity\": \"3\",\n    \"hasInterest\": \"false,\n    \"interestRate\": \"0\"\n  },\n  \"createdAt\": \"2025-04-25T06:50:33.627Z\",\n  \"updatedAt\": \"2025-04-25T06:55:10.123Z\"\n}"
-                  },
                   "OK - Argentina card": {
                     "summary": "OK - Argentina card",
                     "value": {
