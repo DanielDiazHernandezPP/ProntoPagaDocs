@@ -16,6 +16,7 @@ metadata:
     - card brand Peru ProntoPaga
     - Card brand Chile ProntoPaga
     - Card brand Argentina ProntoPaga
+    - Card brands Ecuador ProntoPaga
     - ''
   robots: index
 ---
