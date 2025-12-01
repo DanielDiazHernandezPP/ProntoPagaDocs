@@ -150,45 +150,19 @@ Ejemplo de **webhook para un pago exitoso**:
 
 <br />
 
-### Detalles de un pago
-
-Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details-uid#/) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
-
-```json
-{
-  "checkoutId": "chk_abc123xyz",
-  "status": "approved",
-  "amount": 34000.90,
-  "currency": "ARS",
-  "events": [
-    {
-      "eventType": "created",
-      "timestamp": "2025-11-26T10:30:00Z",
-      "status": "pending"
-    },
-    {
-      "eventType": "payment_received",
-      "timestamp": "2025-11-26T10:35:00Z",
-      "status": "approved"
-    }
-  ],
-  "customer": {
-    "firstName": "John",
-    "lastName": "Doe"
-  },
-  "products": [...],
-  "createdAt": "2025-11-26T10:30:00Z",
-  "updatedAt": "2025-11-26T10:35:00Z"
-}
-```
-
-***
-
 ### Cancelar transacción
 
 Si un cliente generó un QR, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
 
-Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
+Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/update/reference/cancelar-un-pago-con-qr-argentina#/) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
+
+**Ejemplo de solicitud de cancelación**
+
+```json
+{
+  "checkoutId": "chk_abc123xyz"
+}
+```
 
 **Ejemplo de cancelación exitosa**:
 
