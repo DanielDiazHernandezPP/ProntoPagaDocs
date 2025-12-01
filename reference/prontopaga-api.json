@@ -6744,6 +6744,27 @@
           }
         ]
       }
+    },
+    "/transaction/{checkoutId}": {
+      "get": {
+        "description": "",
+        "operationId": "get_transaction{checkoutId}",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "checkoutId",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ]
+      }
     }
   },
   "x-readme": {
