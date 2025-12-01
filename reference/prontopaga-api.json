@@ -6743,14 +6743,30 @@
         "operationId": "get_transactionrefund",
         "responses": {
           "200": {
-            "description": ""
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "amount": 500,
+                      "status": "PARTIAL_REFUND",
+                      "reference_transaction_token": "878dDbwjJ0pX2MfxTwf88nAnegs",
+                      "currency": "ARS",
+                      "message": "Succeeded!"
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "parameters": [],
         "x-readme": {
           "code-samples": [
             {
-              "code": "",
+              "code": "{\n  \"checkoutId\": \"checkout_123456\",\n  \"valueToRefund\": \"500.00\"\n}",
               "language": "shell",
               "name": "json"
             }
@@ -6758,7 +6774,12 @@
           "samples-languages": [
             "shell"
           ]
-        }
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     }
   },
