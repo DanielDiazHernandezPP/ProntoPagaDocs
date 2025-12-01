@@ -6,6 +6,17 @@ excerpt: >-
 deprecated: false
 hidden: true
 metadata:
+  title: Marcas de tarjetas aceptadas | ProntoPaga Docs
+  description: Check the card brands accepted by ProntoPaga in each country.
+  image: >-
+    https://files.readme.io/4d4430cd6564f9736e98ec68c50ca62d9cf55b86b59106df3ad52bf97659e59a-Prontopaga_Logotipo_2.JPG
+  keywords:
+    - card brands
+    - card
+    - card brand Peru ProntoPaga
+    - Card brand Chile ProntoPaga
+    - Card brand Argentina ProntoPaga
+    - ''
   robots: index
 ---
 ProntoPaga permite procesar pagos con las principales marcas de tarjetas de crédito y débito. La disponibilidad puede variar según el país.
