@@ -6738,7 +6738,7 @@
     },
     "/transaction/{checkoutId}": {},
     "/transaction/refund": {
-      "get": {
+      "post": {
         "description": "",
         "operationId": "get_transactionrefund",
         "responses": {
