@@ -6701,16 +6701,43 @@
         ]
       }
     },
-    "/new-endpoint-1": {
+    "/transaction/cancellation": {
       "post": {
         "description": "",
         "operationId": "get_new-endpoint-1",
         "responses": {
           "200": {
-            "description": ""
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "checkoutId": "chk_abc123xyz",
+                      "status": "cancelled",
+                      "message": "Transaction cancelled successfully",
+                      "cancelledAt": "2025-11-26T11:00:00Z"
+                    }
+                  }
+                }
+              }
+            }
           }
         },
-        "parameters": []
+        "parameters": [],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"checkoutId\": \"chk_abc123xyz\"\n}",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        }
       }
     }
   },
