@@ -8,8 +8,6 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
 Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
@@ -27,4 +25,4 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-Con este endpoint podrás cancelar un pago con QR en Perú (cuando no se realizó al momento). De este modo, se evitará que un cliente guarde la imagen del QR e intente pagar tiempo después.
+Con este endpoint podrás cancelar un pago con QR en Argentina, cuando tiene el estado **pendiente**. De este modo, se evitará que un cliente guarde la imagen del QR e intente pagar tiempo después.
