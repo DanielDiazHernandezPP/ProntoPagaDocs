@@ -6437,13 +6437,6 @@
                       "reference": "17424654000570548730"
                     }
                   },
-                  "- Argentina QR refund": {
-                    "summary": "- Argentina QR refund",
-                    "value": {
-                      "checkoutId": "checkout_123456",
-                      "valueToRefund": "34000.9"
-                    }
-                  },
                   "OK - Argentina QR 2": {
                     "summary": "OK - Argentina QR 2",
                     "value": {
