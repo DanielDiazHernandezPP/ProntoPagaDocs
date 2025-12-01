@@ -25,8 +25,6 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-<br />
-
 Puedes hacer la devolución de un pago con QR en Argentina.
 
 > ❗️ Monto de la devolución
