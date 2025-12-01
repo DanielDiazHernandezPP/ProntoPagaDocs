@@ -6736,7 +6736,19 @@
         ]
       }
     },
-    "/transaction/{checkoutId}": {}
+    "/transaction/{checkoutId}": {},
+    "/transaction/refund": {
+      "get": {
+        "description": "",
+        "operationId": "get_transactionrefund",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
+    }
   },
   "x-readme": {
     "headers": [],
