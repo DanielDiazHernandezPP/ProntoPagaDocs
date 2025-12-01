@@ -6737,7 +6737,12 @@
           "samples-languages": [
             "json"
           ]
-        }
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     }
   },
