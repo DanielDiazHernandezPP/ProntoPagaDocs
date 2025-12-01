@@ -1,5 +1,5 @@
 ---
-title: Reembolsar transacción - QR - Argentina
+title: Devolución de un pago - QR - Argentina
 api:
   file: prontopaga-api.json
   operationId: get_transactionrefund
