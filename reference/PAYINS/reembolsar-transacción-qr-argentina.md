@@ -1,7 +1,10 @@
 ---
 title: Reembolsar transacción - QR - Argentina
+api:
+  file: prontopaga-api.json
+  operationId: get_transactionrefund
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
