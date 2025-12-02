@@ -21,9 +21,9 @@ El proceso de pago con wallet en Argentina consta de cuatro etapas principales:
 1. **Selección de método.** El cliente elige pagar con código QR en tu sitio web.
 
 <Callout icon="📘" theme="info">
-  **Versión mobile 📱**
+  **Versión _mobile_ 📱**
 
-  Si el dispositivo del cliente es mobile deberá elegir la opción de pago con wallet que abrirá la aplicación correspondiente para la confirmación del pago.
+  Si el dispositivo del cliente es _mobile_ deberá elegir la opción de pago con _wallet_ que abrirá la aplicación correspondiente para la confirmación del pago.
 </Callout>
 
 2. **Generación del QR.** ProntoPaga le entrega un QR único al cliente, el cual podrá escanear con la aplicación de la wallet con la que pagará.
@@ -36,22 +36,22 @@ Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
   </Card>
 
   <Card title="📱En mobile">
-    La opción de pago con wallet abre la aplicación del cliente y se valida para confirmar el pago.
+    La opción de pago con wallet abre la aplicación del cliente y se valida la identidad para confirmar el pago.
   </Card>
 </Cards>
 
-3. **Pago en aplicación.** El cliente abre la aplicación de su wallet, escanea el código QR y hace el pago. El dinero se mueve desde la wallet del cliente hacia la cuenta de tu comercio.
-4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+3. **Pago en aplicación.** El cliente abre la aplicación de su _wallet_, escanea el código QR y hace el pago. El dinero se mueve desde la _wallet_ del cliente hacia la cuenta de tu comercio.
+4. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los _webhooks_ que hayas configurado.
 
 ***
 
 ## Crea un nuevo pago
 
-Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y `colocar ar_qr_payment` o `ar_qr_2_payment` como método de pago en el _body_ de la solicitud.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -125,7 +125,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-#### Ejemplo de error: 
+#### Ejemplo de error 400:
 
 ```json
 {
