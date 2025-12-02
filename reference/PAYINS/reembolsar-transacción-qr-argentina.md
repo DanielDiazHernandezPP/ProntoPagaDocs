@@ -8,7 +8,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón:
+Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-Este endpoint permite hacer la devolución de un pago con QR en Argentina.
+Este _endpoint_ permite hacer la devolución de un pago con QR en Argentina.
 
 > ❗️ Monto de la devolución
 >
