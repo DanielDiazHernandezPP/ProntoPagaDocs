@@ -289,6 +289,10 @@ Después de introducir los datos de la tarjeta, el usuario es redirigido al siti
 
 Revisa [los datos de tarjetas](https://docs.prontopaga.com/docs/test-data-argentina?isFramePreview=true#datos-de-prueba-de-autenticaci%C3%B3n3-d-secure) para probar la autenticación con 3DS.
 
+Para solicitar un _challenge_, verifica el siguiente **ejemplo de request**:
+
+<br />
+
 ***
 
 ## Prueba tu integración
