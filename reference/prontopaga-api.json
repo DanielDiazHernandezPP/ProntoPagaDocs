@@ -6417,13 +6417,6 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK - Argentina QR 2": {
-                    "summary": "OK - Argentina QR 2",
-                    "value": {
-                      "checkoutId": "checkout_123456",
-                      "status": "APPROVED"
-                    }
-                  },
                   "OK - Argentina QR rejection": {
                     "summary": "OK - Argentina QR rejection",
                     "value": {
@@ -6446,6 +6439,13 @@
                       "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQPX93GR8TP1A1A7752TFT",
                       "uid": "01JRTQPX93GR8TP1A1A7752TFT",
                       "reference": "17424654000570548730"
+                    }
+                  },
+                  "- Argentina QR (1)": {
+                    "summary": "- Argentina QR (1)",
+                    "value": {
+                      "checkoutId": "checkout_123456",
+                      "status": "APPROVED"
                     }
                   }
                 }
@@ -6496,8 +6496,8 @@
                       "timestamp": "2025-11-26T10:30:00Z"
                     }
                   },
-                  "Bad Request - QR 1": {
-                    "summary": "Bad Request - QR 1",
+                  "Bad Request - QR (1)": {
+                    "summary": "Bad Request - QR (1)",
                     "value": {
                       "statusCode": 400,
                       "message": "Validation failed",
@@ -6530,7 +6530,7 @@
                       "success": false,
                       "statusCode": 404,
                       "message": "No existe una solicitud con el ID proporcionado.",
-                      "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b4f00000/status",
+                      "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b6f00000/status",
                       "timestamp": "2025-11-04T14:20:17.098Z"
                     }
                   }
