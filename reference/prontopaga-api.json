@@ -6830,14 +6830,14 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "name": {
+                  "checkoutId": {
                     "type": "string",
-                    "default": "checkoutId",
+                    "default": "checkout_123456",
                     "description": "Maximo 255. Identificador del checkout a reembolsar."
                   },
-                  "name1": {
+                  "valueToRefund": {
                     "type": "number",
-                    "default": "valueToRefund",
+                    "default": "34000.90",
                     "description": "Máximo 2 decimales: Monto a reembolsar mínimo 0.01 ARS, max: 99999999999.9 ARS "
                   },
                   "name2": {
@@ -6845,7 +6845,7 @@
                   }
                 },
                 "required": [
-                  "name"
+                  "checkoutId"
                 ]
               }
             }
