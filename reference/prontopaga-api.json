@@ -6839,9 +6839,6 @@
                     "type": "number",
                     "default": "34000.90",
                     "description": "Máximo 2 decimales: Monto a reembolsar mínimo 0.01 ARS, max: 99999999999.9 ARS "
-                  },
-                  "name2": {
-                    "type": "string"
                   }
                 },
                 "required": [
