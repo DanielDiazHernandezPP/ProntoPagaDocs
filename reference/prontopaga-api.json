@@ -6590,7 +6590,7 @@
                   "checkoutId": {
                     "type": "string",
                     "default": "checkoutId",
-                    "description": "Identificador único del checkout"
+                    "description": "Identificador único del checkout."
                   }
                 },
                 "required": [
