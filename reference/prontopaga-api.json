@@ -6580,25 +6580,6 @@
           "samples-languages": [
             "json"
           ]
-        },
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "checkoutId": {
-                    "type": "string",
-                    "default": "checkout_123456",
-                    "description": "Identificador único del checkout."
-                  }
-                },
-                "required": [
-                  "checkoutId"
-                ]
-              }
-            }
-          }
         }
       }
     },
