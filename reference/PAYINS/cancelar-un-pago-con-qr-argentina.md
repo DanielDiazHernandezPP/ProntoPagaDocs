@@ -6,6 +6,20 @@ api:
 deprecated: false
 hidden: true
 metadata:
+  title: Cancelar un pago con QR - Argentina | ProntoPaga Docs
+  description: >-
+    This page describes an endpoint that allows to cancel a QR payment in
+    Argentina if it was not made immediately, preventing a customer from using
+    the QR image to try to pay later.
+  image: >-
+    https://files.readme.io/a19c236b1675b7716c6e4b3bd9044497340e00420d7f90cae9fc9665ce4dbb84-Prontopaga_logotipo.png
+  keywords:
+    - endpoint Prontopaga
+    - cancel a QR
+    - cancel a payment
+    - qr argentina prontopaga
+    - api prontopaga
+    - cancelar un pago con QR Argentina
   robots: index
 ---
 Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón:
