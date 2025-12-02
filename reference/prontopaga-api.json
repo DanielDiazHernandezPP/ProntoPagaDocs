@@ -6417,22 +6417,6 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK - Argentina QR": {
-                    "summary": "OK - Argentina QR",
-                    "value": {
-                      "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
-                      "reference": "17643498227932",
-                      "urlPay": "https://www.webhook.com"
-                    }
-                  },
-                  "OK - Argentina card": {
-                    "summary": "OK - Argentina card",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQPX93GR8TP1A1A7752TFT",
-                      "uid": "01JRTQPX93GR8TP1A1A7752TFT",
-                      "reference": "17424654000570548730"
-                    }
-                  },
                   "OK - Argentina QR 2": {
                     "summary": "OK - Argentina QR 2",
                     "value": {
@@ -6446,6 +6430,22 @@
                       "uid": "ID in our services",
                       "status": "rejected",
                       "reference": "Reason for rejection"
+                    }
+                  },
+                  "- Argentina QR": {
+                    "summary": "- Argentina QR",
+                    "value": {
+                      "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
+                      "reference": "17643498227932",
+                      "urlPay": "https://www.webhook.com"
+                    }
+                  },
+                  "- Argentina card": {
+                    "summary": "- Argentina card",
+                    "value": {
+                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQPX93GR8TP1A1A7752TFT",
+                      "uid": "01JRTQPX93GR8TP1A1A7752TFT",
+                      "reference": "17424654000570548730"
                     }
                   }
                 }
