@@ -25,8 +25,10 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-Puedes hacer la devolución de un pago con QR en Argentina.
+Este endpoint permite hacer la devolución de un pago con QR en Argentina. 
 
 > ❗️ Monto de la devolución
 >
 > Debes especificar el monto a reembolsar (min: 0.01, max: 99999999999.99), si no se especifica, se reembolsará el monto total disponible.
+
+<br />
