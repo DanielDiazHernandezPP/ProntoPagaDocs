@@ -9,6 +9,8 @@ metadata:
     Learn how to create secure QR payments in Argentina using the Prontopaga
     API. Includes full process flow, test data, error codes, webhook examples,
     and certification requirements.
+  image: >-
+    https://files.readme.io/c85c58f4672246336aeb066769381b9b130bacabdce866d86eddc3508b6aa65a-Captura_de_pantalla_2025-09-08_a_las_4.24.49_p._m..png
   keywords:
     - QR payments Argentina
     - webhook examples Argentina
