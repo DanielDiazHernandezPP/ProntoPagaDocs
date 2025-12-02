@@ -4,6 +4,18 @@ excerpt: Conoce el paso a paso de cómo crear un pago con QR en Argentina.
 deprecated: false
 hidden: true
 metadata:
+  title: Crea pagos con QR en Argentina | ProntoPaga Docs
+  description: >-
+    Learn how to create secure QR payments in Argentina using the Prontopaga
+    API. Includes full process flow, test data, error codes, webhook examples,
+    and certification requirements.
+  keywords:
+    - QR payments Argentina
+    - webhook examples Argentina
+    - crear pagos con QR Argentina
+    - Bearer Token Argentina
+    - secretKey Argentina
+    - endpoint Argentina Prontopaga
   robots: index
 ---
 Crear un pago con QR en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
