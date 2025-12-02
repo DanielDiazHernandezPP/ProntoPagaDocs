@@ -6767,7 +6767,7 @@
                 "properties": {
                   "name": {
                     "type": "string",
-                    "default": "checkoutId",
+                    "default": "checkout_123456",
                     "description": "Identificador único del checkout."
                   }
                 },
