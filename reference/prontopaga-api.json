@@ -6833,12 +6833,12 @@
                   "checkoutId": {
                     "type": "string",
                     "default": "checkout_123456",
-                    "description": "Maximo 255. Identificador del checkout a reembolsar."
+                    "description": "Maximo 255. Identificador del _checkout_ a reembolsar."
                   },
                   "valueToRefund": {
                     "type": "number",
                     "default": "34000.90",
-                    "description": "Máximo 2 decimales: Monto a reembolsar mínimo 0.01 ARS, max: 99999999999.9 ARS. Si no se especifica, se reembolsa el monto total disponible. "
+                    "description": "Máximo 2 decimales: - Monto a reembolsar mínimo: 0.01 ARS - Monto a reembolsar maáximo: 99999999999.9 ARS  Si no se especifica, **se reembolsa el monto total** disponible."
                   }
                 },
                 "required": [
