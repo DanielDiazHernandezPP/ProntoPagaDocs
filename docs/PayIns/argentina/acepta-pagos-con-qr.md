@@ -45,7 +45,7 @@ Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
 
 ***
 
-## Crea un nuevo pago
+## Crear un nuevo pago
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
@@ -146,7 +146,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 <br />
 
-### Confirmación de un pago
+### Confirmar un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
@@ -160,6 +160,19 @@ Ejemplo de **webhook para un pago exitoso**:
 {
   "checkoutId": "checkout_123456",
   "status": "APPROVED"
+}
+```
+
+***
+
+### Devolver un pago
+
+Para solicitar la devolución de un pago exitoso realizado con este método, [usa este endpoint](https://docs.prontopaga.com/update/reference/reembolsar-transacci%C3%B3n-qr-argentina#/). A continuación, se muestra un ejemplo del _body request_ que debe llevar:
+
+```json
+{
+  "checkoutId": "checkout_123456",
+  "valueToRefund": "34000.9"
 }
 ```
 
