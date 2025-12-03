@@ -1,6 +1,6 @@
 ---
 title: Biometría
-excerpt: Implementa verificación por biometría de reconocimiento facial en tu comercio.
+excerpt: Implementa verificación por biometría de reconocimiento facial en tu comercio
 deprecated: false
 hidden: true
 metadata:
