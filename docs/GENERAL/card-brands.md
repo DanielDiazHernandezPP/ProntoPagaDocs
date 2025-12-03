@@ -126,7 +126,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
   <tbody>
     <tr><td><b>Visa</b></td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
     <tr><td><b>Mastercard</b></td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-		<tr><td><b>American Express</b></td><td>✔️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
+		<tr><td><b>American Express</b></td><td>✔️</td><td>✔️</td><td>✖️</td><td>✔️</td></tr></tr>
 		<tr><td><b>Diners Club International</b></td><td>✖️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
     <tr><td><b>UnionPay</b></td><td>✖️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
   </tbody>
