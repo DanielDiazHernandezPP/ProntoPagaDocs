@@ -110,7 +110,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
 
 ## Disponibilidad por país
 
-A continuación se muestran las posibles tarjetas aceptadas por ProntoPaga, así como los países correspondientes.
+A continuación se muestran las marcas de tarjetas que ProntoPaga puede procesar actualmente, ajunto con su disponibilidad por país.
 
 <HTMLBlock>{`
 <table>
