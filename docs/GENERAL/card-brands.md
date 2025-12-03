@@ -117,18 +117,17 @@ A continuación se muestran las marcas de tarjetas que ProntoPaga puede procesar
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Marca</b></th>
-			<th><b>Argentina</b></th>
       <th><b>Chile</b></th>
       <th><b>Ecuador</b></th>
 			<th><b>Perú</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Visa</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-    <tr><td>Mastercard</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-		<tr><td>American Express</td><td>✔️</td><td>✔️</td><td>✖️</td><td>✔️</td></tr></tr>
-		<tr><td>Diners Club International</td><td>✖️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
-    <tr><td>UnionPay</td><td>✖️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
+    <tr><td>Visa</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
+    <tr><td>Mastercard</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
+		<tr><td>American Express</td><td>✔️</td><td>✖️</td><td>✔️</td></tr></tr>
+		<tr><td>Diners Club International</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
+    <tr><td>UnionPay</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
