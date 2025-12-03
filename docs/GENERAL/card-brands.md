@@ -108,9 +108,7 @@ ProntoPaga permite procesar pagos con las principales marcas de tarjetas de cré
 
 ***
 
-<br />
-
-# Disponibilidad por país
+## Disponibilidad por país
 
 <HTMLBlock>{`
 <table>
