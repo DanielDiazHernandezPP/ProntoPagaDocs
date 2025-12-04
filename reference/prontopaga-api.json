@@ -6819,7 +6819,7 @@
                   "valueToRefund": {
                     "type": "number",
                     "default": "34000.90",
-                    "description": "⚠️**Importante.** Se permiten hasta 2 decimales en el monto a reembolsar. \n- Monto a reembolsar mínimo: 0.01 ARS \n- Monto a reembolsar maáximo: 99999999999.9 ARS.\nSi no se especifica, **se reembolsa el monto total** disponible."
+                    "description": "⚠️**Importante.** Se permiten hasta 2 decimales en el monto a reembolsar. \n- Monto a reembolsar mínimo: 0.01 ARS \n- Monto a reembolsar maáximo: 99999999999.9 ARS.\n\nSi no se especifica, **se reembolsa el monto total** disponible."
                   }
                 },
                 "required": [
