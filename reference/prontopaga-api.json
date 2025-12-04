@@ -6817,7 +6817,7 @@
                     "description": "Máximo 2 decimales: - Monto a reembolsar mínimo: 0.01 ARS - Monto a reembolsar máximo: 99999999999.9 ARS. Si no se especifica, **se reembolsa el monto total** disponible."
                   },
                   "valueToRefund": {
-                    "type": "integer",
+                    "type": "number",
                     "default": "34000.90",
                     "description": "Máximo 2 decimales: - Monto a reembolsar mínimo: 0.01 ARS - Monto a reembolsar máximo: 99999999999.9 ARS. Si no se especifica, **se reembolsa el monto total** disponible."
                   }
