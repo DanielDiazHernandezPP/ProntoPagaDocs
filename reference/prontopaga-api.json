@@ -6417,14 +6417,6 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK - Argentina QR rejection": {
-                    "summary": "OK - Argentina QR rejection",
-                    "value": {
-                      "uid": "ID in our services",
-                      "status": "rejected",
-                      "reference": "Reason for rejection"
-                    }
-                  },
                   "- Argentina QR": {
                     "summary": "- Argentina QR",
                     "value": {
@@ -6446,6 +6438,23 @@
                     "value": {
                       "checkoutId": "checkout_123456",
                       "status": "APPROVED"
+                    }
+                  }
+                },
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "uid": {
+                      "type": "string",
+                      "example": "01KB5Q3HCRQZVPFXZTKESCRHDK"
+                    },
+                    "reference": {
+                      "type": "string",
+                      "example": "17643498227932"
+                    },
+                    "urlPay": {
+                      "type": "string",
+                      "example": "https://www.webhook.com"
                     }
                   }
                 }
@@ -6509,6 +6518,14 @@
                       ],
                       "timestamp": "2025-04-25T07:00:00.000Z",
                       "path": "/transaction/create"
+                    }
+                  },
+                  "Bad Request - Argentina card rejection": {
+                    "summary": "Bad Request - Argentina card rejection",
+                    "value": {
+                      "uid": "ID in our services",
+                      "status": "rejected",
+                      "reference": "Reason for rejection"
                     }
                   }
                 }
