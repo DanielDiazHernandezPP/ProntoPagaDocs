@@ -6417,14 +6417,6 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "- Argentina QR": {
-                    "summary": "- Argentina QR",
-                    "value": {
-                      "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
-                      "reference": "17643498227932",
-                      "urlPay": "https://www.webhook.com"
-                    }
-                  },
                   "- Argentina card": {
                     "summary": "- Argentina card",
                     "value": {
@@ -6433,8 +6425,24 @@
                       "reference": "17424654000570548730"
                     }
                   },
-                  "- Argentina QR (1)": {
-                    "summary": "- Argentina QR (1)",
+                  "OK - Argentina QR rejection": {
+                    "summary": "OK - Argentina QR rejection",
+                    "value": {
+                      "uid": "ID in our services",
+                      "status": "rejected",
+                      "reference": "Reason for rejection"
+                    }
+                  },
+                  "- Argentina QR - Example 1": {
+                    "summary": "- Argentina QR - Example 1",
+                    "value": {
+                      "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
+                      "reference": "17643498227932",
+                      "urlPay": "https://www.webhook.com"
+                    }
+                  },
+                  "- Argentina QR - Example 2": {
+                    "summary": "- Argentina QR - Example 2",
                     "value": {
                       "checkoutId": "checkout_123456",
                       "status": "APPROVED"
