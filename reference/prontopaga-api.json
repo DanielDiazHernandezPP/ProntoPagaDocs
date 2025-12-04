@@ -6495,8 +6495,16 @@
                       "timestamp": "2025-11-26T10:30:00Z"
                     }
                   },
-                  "Bad Request - QR": {
-                    "summary": "Bad Request - QR",
+                  "Bad Request - Argentina card rejection": {
+                    "summary": "Bad Request - Argentina card rejection",
+                    "value": {
+                      "uid": "ID in our services",
+                      "status": "rejected",
+                      "reference": "Reason for rejection"
+                    }
+                  },
+                  "Bad Request - QR - Example 1": {
+                    "summary": "Bad Request - QR - Example 1",
                     "value": {
                       "statusCode": 400,
                       "message": "Validation failed",
@@ -6513,8 +6521,8 @@
                       "timestamp": "2025-11-26T10:30:00Z"
                     }
                   },
-                  "Bad Request - QR (1)": {
-                    "summary": "Bad Request - QR (1)",
+                  "Bad Request - QR - Example 2": {
+                    "summary": "Bad Request - QR - Example 2",
                     "value": {
                       "statusCode": 400,
                       "message": "Validation failed",
@@ -6526,14 +6534,6 @@
                       ],
                       "timestamp": "2025-04-25T07:00:00.000Z",
                       "path": "/transaction/create"
-                    }
-                  },
-                  "Bad Request - Argentina card rejection": {
-                    "summary": "Bad Request - Argentina card rejection",
-                    "value": {
-                      "uid": "ID in our services",
-                      "status": "rejected",
-                      "reference": "Reason for rejection"
                     }
                   }
                 }
