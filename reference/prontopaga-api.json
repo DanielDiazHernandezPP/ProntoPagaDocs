@@ -6814,7 +6814,7 @@
                   "checkoutId": {
                     "type": "string",
                     "default": "checkout_123456",
-                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid`. "
+                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid` . "
                   },
                   "valueToRefund": {
                     "type": "number",
