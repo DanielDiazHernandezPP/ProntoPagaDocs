@@ -6791,7 +6791,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{\n  \"checkoutId\": \"chk_abc123xyz\",\n  \"valueToRefund\": \"34000.9\"\n}",
+              "code": "{\n  \"checkoutId\": \"chk_abc123xyz\",\n  \"valueToRefund\": 34000.9\n}",
               "language": "json",
               "name": "json"
             }
