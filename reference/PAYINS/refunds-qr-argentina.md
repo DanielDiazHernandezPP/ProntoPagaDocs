@@ -46,5 +46,3 @@ Este _endpoint_ permite hacer la devolución de un pago con QR en Argentina.
 > * Máximo: 99999999999.9 ARS
 >
 > Si no lo especificas, se reembolsará el monto total disponible.
-
- 
