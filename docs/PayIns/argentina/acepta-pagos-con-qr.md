@@ -273,55 +273,6 @@ Estos son los posibles estados que pueden tener los PayIns con QR en Argentina.
 
 <br />
 
-### Motivos de rechazo
-
-A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
-
-<HTMLBlock>{`
-<table style="border-collapse: collapse; width:100%;">
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th style="padding:10px;"><b>Mensaje de rechazo</b></th>
-      <th style="padding:10px;"><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">INSUFFICIENT_FUNDS</td>
-      <td style="padding:10px;">Saldo insuficiente para realizar la transacción.</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:10px;">RECHAZADO POR EL BANCO</td>
-      <td style="padding:10px;">Tu banco rechazó la transacción. Contáctate con ellos para más información.</td>
-    </tr>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">DO_NOT_HONOR</td>
-      <td style="padding:10px;">Tu banco rechazó la transacción. Intenta con otra tarjeta o contacta a tu banco.</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:10px;">INVALID_SECURITY_CODE</td>
-      <td style="padding:10px;">El código CVV ingresado no es correcto. Verifica e inténtalo nuevamente.</td>
-    </tr>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">INVALID_CARD_DATA</td>
-      <td style="padding:10px;">Los datos de la tarjeta ingresados son incorrectos. Revisa los datos e inténtalo de nuevo.</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:10px;">REPORTED_STOLEN</td>
-      <td style="padding:10px;">No se puede realizar la transacción. La tarjeta ha sido reportada como robada. Contacta a tu banco para más información.</td>
-    </tr>
-    <tr style="background-color:#fff;">
-      <td style="padding:10px;">ERROR</td>
-      <td style="padding:10px;">Se ha producido un error en la transacción. Inténtalo nuevamente o usa otro método de pago.</td>
-    </tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
-***
-
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
