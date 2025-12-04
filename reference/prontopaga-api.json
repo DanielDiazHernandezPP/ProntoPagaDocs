@@ -6792,12 +6792,12 @@
           "code-samples": [
             {
               "code": "{\n  \"checkoutId\": \"chk_abc123xyz\",\n  \"valueToRefund\": 34000.9\n}",
-              "language": "shell",
+              "language": "json",
               "name": "json"
             }
           ],
           "samples-languages": [
-            "shell"
+            "json"
           ]
         },
         "security": [
