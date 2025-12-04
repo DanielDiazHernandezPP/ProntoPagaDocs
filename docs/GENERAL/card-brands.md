@@ -4,7 +4,7 @@ excerpt: >-
   Consulta las tarjetas disponibles para procesar pagos en ProntoPaga en cada
   país
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Marcas de tarjetas aceptadas | ProntoPaga Docs
   description: Check the card brands accepted by ProntoPaga in each country.
