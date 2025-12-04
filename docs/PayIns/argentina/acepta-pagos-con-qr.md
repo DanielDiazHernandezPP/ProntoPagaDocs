@@ -26,7 +26,7 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ***
 
-¿Cómo funciona?
+## ¿Cómo funciona?
 
 <Image align="center" border={false} src="https://files.readme.io/7d966bb565600eafff1fcf1853cb066728a04ee3589007318fd1cb8944962887-Argentina_MODO.jpg" />
 
@@ -63,7 +63,7 @@ Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y `colocar ar_qr_payment` o `ar_qr_2_payment` como método de pago en el _body_ de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `ar_qr_payment` o `ar_qr_2_payment` como método de pago en el _body_ de la solicitud.
 
 La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
@@ -219,7 +219,7 @@ Para cancelarlo, deberás consultar <Anchor label="este endpoint" target="_blank
 
 ***
 
-### Estados
+### Estados de transacción
 
 Estos son los posibles estados que pueden tener los PayIns con QR en Argentina.
 
@@ -234,37 +234,37 @@ Estos son los posibles estados que pueden tener los PayIns con QR en Argentina.
   <tbody>
     <tr style={{ backgroundColor: '#fff' }}>
       <td style={{ padding: '10px' }}><code>PENDING</code></td>
-      <td style={{ padding: '10px' }}>Pago o transacción pendiente.</td>
+      <td style={{ padding: '10px' }}>Pago o transacción pendiente</td>
     </tr>
 
     <tr style={{ backgroundColor: '#f9f9f9' }}>
       <td style={{ padding: '10px' }}><code>APPROVED</code></td>
-      <td style={{ padding: '10px' }}>Pago o transacción aprobada.</td>
+      <td style={{ padding: '10px' }}>Pago o transacción aprobada</td>
     </tr>
 
     <tr style={{ backgroundColor: '#fff' }}>
       <td style={{ padding: '10px' }}><code>REJECTED</code></td>
-      <td style={{ padding: '10px' }}>Pago o transacción rechazada.</td>
+      <td style={{ padding: '10px' }}>Pago o transacción rechazada</td>
     </tr>
 
     <tr style={{ backgroundColor: '#f9f9f9' }}>
       <td style={{ padding: '10px' }}><code>CANCELLED</code></td>
-      <td style={{ padding: '10px' }}>Pago o transacción cancelada.</td>
+      <td style={{ padding: '10px' }}>Pago o transacción cancelada</td>
     </tr>
 
     <tr style={{ backgroundColor: '#fff' }}>
       <td style={{ padding: '10px' }}><code>EXPIRED</code></td>
-      <td style={{ padding: '10px' }}>Pago expirado.</td>
+      <td style={{ padding: '10px' }}>Pago expirado</td>
     </tr>
 
     <tr style={{ backgroundColor: '#f9f9f9' }}>
       <td style={{ padding: '10px' }}><code>PARTIAL\_REFUND</code></td>
-      <td style={{ padding: '10px' }}>Reembolso parcial.</td>
+      <td style={{ padding: '10px' }}>Reembolso parcial</td>
     </tr>
 
     <tr style={{ backgroundColor: '#fff' }}>
       <td style={{ padding: '10px' }}><code>REFUNDED</code></td>
-      <td style={{ padding: '10px' }}>Reembolso total.</td>
+      <td style={{ padding: '10px' }}>Reembolso total</td>
     </tr>
   </tbody>
 </table>
