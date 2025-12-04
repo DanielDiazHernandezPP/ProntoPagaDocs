@@ -19,7 +19,7 @@ metadata:
     - devolver un pago prontopaga
   robots: index
 ---
-Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón:
+Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón: 
 
 <HTMLBlock>{`
 <!DOCTYPE html>
