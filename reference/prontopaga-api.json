@@ -6425,14 +6425,6 @@
                       "reference": "17424654000570548730"
                     }
                   },
-                  "OK - Argentina QR rejection": {
-                    "summary": "OK - Argentina QR rejection",
-                    "value": {
-                      "uid": "ID in our services",
-                      "status": "rejected",
-                      "reference": "Reason for rejection"
-                    }
-                  },
                   "- Argentina QR - Example 1": {
                     "summary": "- Argentina QR - Example 1",
                     "value": {
