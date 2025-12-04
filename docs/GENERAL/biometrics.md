@@ -2,7 +2,7 @@
 title: Biometría
 excerpt: Implementa verificación por biometría de reconocimiento facial en tu comercio
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Biometría | ProntoPaga Docs
   description: Learn how to implement biometric verification for your merch.
