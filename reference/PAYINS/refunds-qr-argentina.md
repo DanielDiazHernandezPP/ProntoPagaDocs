@@ -47,4 +47,4 @@ Este _endpoint_ permite hacer la devolución de un pago con QR en Argentina.
 >
 > Si no lo especificas, se reembolsará el monto total disponible.
 
-<br />
+ 
