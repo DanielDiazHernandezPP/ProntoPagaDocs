@@ -6827,8 +6827,8 @@
                 ]
               },
               "examples": {
-                "New Example": {
-                  "summary": "New Example",
+                "Body request": {
+                  "summary": "Body request",
                   "value": {
                     "checkoutId": "chk_abc123xyz",
                     "valueToRefund": 34000.9
