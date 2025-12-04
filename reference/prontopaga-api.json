@@ -6791,7 +6791,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{\n  \"checkoutId\": \"checkout_123456\",\n  \"valueToRefund\": \"34000.9\"\n}",
+              "code": "{\n  \"checkoutId\": \"checkout_123456\",\n  \"valueToRefund\": 34000.9\n}",
               "language": "shell",
               "name": "json"
             }
