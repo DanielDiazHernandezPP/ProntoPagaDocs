@@ -6746,14 +6746,14 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "name": {
+                  "checkoutId": {
                     "type": "string",
                     "default": "checkout_123456",
                     "description": "Identificador único del checkout."
                   }
                 },
                 "required": [
-                  "name"
+                  "checkoutId"
                 ]
               }
             }
