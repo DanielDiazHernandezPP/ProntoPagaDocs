@@ -119,7 +119,7 @@ A continuación puedes ver dos ejemplos de _request_:
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-#### Ejemplo de respuesta para solicitud exitosa:
+#### Ejemplo de respuesta para solicitud exitosa
 
 ```json
 {
@@ -129,7 +129,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-#### Ejemplo de respuesta de pago rechazado:
+#### Ejemplo de respuesta de pago rechazado
 
 ```json
 { 
@@ -139,7 +139,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-#### Ejemplo de error 400:
+#### Ejemplo de error 400
 
 ```json
 {
@@ -158,8 +158,6 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 ***
 
-<br />
-
 ### Confirmar un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -168,7 +166,7 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/payins-status).
 
-Ejemplo de **webhook para un pago exitoso**:
+**Ejemplo de webhook para un pago exitoso**
 
 ```json
 {
@@ -198,7 +196,7 @@ Para solicitar la devolución de un pago exitoso realizado con este método, [us
 
 Si un cliente generó un QR, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
 
-Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/update/reference/cancelar-un-pago-con-qr-argentina#/) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
+Para cancelarlo, deberás consultar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/update/reference/cancelar-un-pago-con-qr-argentina#/">este endpoint</Anchor> con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
 **Ejemplo de solicitud de cancelación**
 
@@ -208,7 +206,7 @@ Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/
 }
 ```
 
-**Ejemplo de cancelación exitosa**:
+**Ejemplo de cancelación exitosa**
 
 ```json
 {
