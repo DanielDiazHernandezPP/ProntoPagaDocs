@@ -123,11 +123,11 @@ A continuación se muestran las marcas de tarjetas que ProntoPaga puede procesar
     </tr>
   </thead>
   <tbody>
-    <tr><td><b>Visa</b></td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-    <tr><td><b>Mastercard</b></td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-		<tr><td><b>American Express</b></td><td>✔️</td><td>✖️</td><td>✔️</td></tr></tr>
-		<tr><td><b>Diners Club International</b></td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
-    <tr><td><b>UnionPay</b></td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
+    <tr><td>Visa</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
+    <tr><td>Mastercard</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
+		<tr><td>American Express</td><td>✔️</td><td>✖️</td><td>✔️</td></tr></tr>
+		<tr><td>Diners Club International</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
+    <tr><td>UnionPay</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
