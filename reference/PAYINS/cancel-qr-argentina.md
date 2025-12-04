@@ -40,5 +40,3 @@ Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente bot
 ***
 
 Con este _endpoint_ podrás cancelar un pago con QR en Argentina, cuando tiene el estado **pendiente**. De este modo, se evitará que un cliente intente pagar tiempo después.
-
-<br />
