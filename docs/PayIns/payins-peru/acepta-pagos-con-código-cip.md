@@ -33,6 +33,30 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 2. **Solicitud.** ProntoPaga genera el **código CIP** y muestra al cliente los datos para realizar el pago.
 3. **Cuenta**. El cliente inicia sesión en su plataforma elegida para realizar el pago. La siguiente parte del flujo varía según el canal que elija el cliente:
 
+<br />
+
+<br />
+
+<Cards columns={4}>
+  <Card title="🌐 En web">
+    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
+  </Card>
+
+  <Card title="📱En mobile">
+    La opción de pago con wallet abre la aplicación del cliente y se valida la identidad para confirmar el pago.
+  </Card>
+
+  <Card title="🌐 En web">
+  Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
+  </Card>
+
+  <Card title="🌐 En web">
+  Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
+  </Card>
+
+</Cards>
+
+
 **🌐 En Yape:**
 
 <Cards columns={4}>
@@ -71,5 +95,14 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
   </Card>
 </Cards>
 
-1. en la opción de **Pagar servicios**, busca **ProntoPaga** e ingresa el código CIP. El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
-2. **Confirmación**. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+en la opción de **Pagar servicios**, busca **ProntoPaga** e ingresa el código CIP. El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
+
+1. **Confirmación**. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
