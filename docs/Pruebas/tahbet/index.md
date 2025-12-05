@@ -13,6 +13,12 @@ metadata:
 
 <br />
 
+<Cards>
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="Description number 1." iconColor="#FFFF" bgIconColor="#182230" />
+
+  <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title 2 prueba" description="This is a description of the guide card." iconColor="#FFFF" bgIconColor="#182230" />
+</Cards>
+
 <Cards columns={4} className="pp-cards--autofit">
   <Card title="Tahbét" href="https://readme.com" icon="fa-home" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
