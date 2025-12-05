@@ -38,42 +38,30 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 <br />
 
 <Cards columns={4}>
-  <Card title="🌐 En web">
+  <Card title="**🌐 En Yape:**">
     Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
   </Card>
 
-  <Card title="📱En mobile">
+  <Card title="**📱En App Banca móvil BCP:**">
     La opción de pago con wallet abre la aplicación del cliente y se valida la identidad para confirmar el pago.
   </Card>
 
   <Card title="🌐 En web">
-  Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
+    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
   </Card>
 
   <Card title="🌐 En web">
-  Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
-  </Card>
-
-</Cards>
-
-
-**🌐 En Yape:**
-
-<Cards columns={4}>
-  <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    Se le pide al cliente ingresar su número de celular para solicitar el pago. Luego, se le muestra en pantalla un instructivo para abrir su aplicación y aprobar el pago en la sección de **Aprobar compras**.
+    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
   </Card>
 </Cards>
 
-**📱En App Banca móvil BCP:**
+<br />
 
-<Cards columns={1}>
-  <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    El cliente debe hacer clic en el botón **Solicitar aprobación**. Luego, será redirigido a la aplicación de Yape mediante un deeplink dinámico generado a demanda, el cual estará activo por 15 minutos.
 
-    Después de ingresar su clave de acceso, aparecerá un modal en la pantalla, donde podrá aprobar la afiliación directamente.
-  </Card>
-</Cards>
+
+**📱En App Banca  BCP:**
+
+
 
 **🖥️ En Banca por internet:**
 
