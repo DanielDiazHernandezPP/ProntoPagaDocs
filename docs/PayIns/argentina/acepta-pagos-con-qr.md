@@ -217,11 +217,11 @@ Para cancelarlo, deberás consultar <Anchor label="este endpoint" target="_blank
 
 ***
 
-### Validación pago terceros
+### Validación de pago a terceros
 
 ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincida con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros y maximizando la seguridad de tus transacciones.
 
-Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración. 
+Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración.
 
 ***
 
