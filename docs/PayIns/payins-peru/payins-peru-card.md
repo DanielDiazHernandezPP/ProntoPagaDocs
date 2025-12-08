@@ -85,7 +85,7 @@ Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectar�
 
 > 📘 **Marcas de tarjetas aceptadas**
 >
-> Consulta el listado de marcas de tarjetas compatibles con ProntoPaga para Perú, Chile y Ecuador en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
+> Consulta el listado de marcas de tarjetas aceptadas en transacciones a través de ProntoPaga para Perú, Chile y Ecuador en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
 
 ***
 
