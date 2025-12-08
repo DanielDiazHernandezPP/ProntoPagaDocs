@@ -27,12 +27,6 @@ next:
 ---
 Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
-* <Anchor label="Datos de prueba para Chile" target="_blank" href="https://docs.prontopaga.com/docs/test-data-webpay-cards">Datos de prueba para Chile</Anchor>.
-* <Anchor label="Datos de prueba para Ecuador" target="_blank" href="https://docs.prontopaga.com/docs/test-data-ecuador">Datos de prueba para Ecuador</Anchor>.
-* <Anchor label="Datos de prueba para Perú" target="_blank" href="https://docs.prontopaga.com/docs/test-data-cards-peru">Datos de prueba para Perú</Anchor>.
-
-<br />
-
 <Cards columns={3}>
   <center>
     <Card>
