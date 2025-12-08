@@ -557,3 +557,91 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   </tbody>
 </table>
 `}</HTMLBlock>
+
+<br />
+
+<br />
+
+<Cards columns={3}>
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '150px'
+    }}
+      >
+        <img src="🇨🇱" style={{ width: '150px', height: '48px', marginBottom: '0px' }} />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '150px'
+    }}
+      >
+        <img src="https://files.readme.io/bec5c1aec733055f993a3c8c75910e8b57260edbf108945d9e4288883f271f23-ma_symbol_opt_45_2x.png" style={{ width: '147px', height: '104px', marginBottom: '0px' }} />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '150px'
+    }}
+      >
+        <img src="https://files.readme.io/0c00b174b70de72b9c1b082121816e9df531acf448812725d79551bf13617f8e-AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png" style={{ width: '150px', height: '150px', marginBottom: '0px' }} />
+      </div>
+    </Card>
+  </center>
+</Cards>
+
+<Cards columns={2}>
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '150px'
+    }}
+      >
+        <img src="https://files.readme.io/24c011ae5e01ece98d04fa250a3c6ebbdad6f9254662b2998f792c921064a30f-Diners_Club_Logo3.svg.png" style={{ width: '150px', height: '39px', marginBottom: '0px' }} />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div
+        style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: '150px'
+    }}
+      >
+        <img src="https://files.readme.io/5e0a62afd11d47397080f2f8974d1cf3d61af5eda1ecc71726c9eae40f53a4bf-UnionPay_logo.svg.png" style={{ width: '147px', height: '104px', marginBottom: '0px' }} />
+      </div>
+    </Card>
+  </center>
+</Cards>
