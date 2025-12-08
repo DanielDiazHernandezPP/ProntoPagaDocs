@@ -673,7 +673,7 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
         <h3>Chile</h3>
         Consulta los datos de prueba para PayIns en Chile
 
-        <Button variant="primary" text="Ver guía" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/prestashop#/" target="_blank" />
+        <Button variant="primary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
 
         <br />
       </div>
