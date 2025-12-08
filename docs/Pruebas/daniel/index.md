@@ -566,15 +566,8 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   <center>
     <Card>
       <div
-        style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '200px'
-    }}
       >
-        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" style={{ width: '150px', height: '100px', marginBottom: '0px' }} />
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
       </div>
     </Card>
   </center>
