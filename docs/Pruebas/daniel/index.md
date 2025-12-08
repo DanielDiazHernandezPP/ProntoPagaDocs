@@ -607,7 +607,8 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
     <Card>
       <div>
         <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
-
+  		
+        Conoce los datos de prueba de Chile
         <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
 
         <br />
