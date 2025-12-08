@@ -566,77 +566,34 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   <center>
     <Card>
       <div>
-        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png"/>
 
         <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
 
+        <br/>
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div>
+        <img src="https://files.readme.io/e0348270b05242d447ad8a8055d47e34868b854a914feb91e8f7902e298689d5-ecuador.png"/>
+
+        <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-ecuador" target="_blank" />
+        <br/>
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div>
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png"/>
+
+ 				<Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-cards-peru" target="_blank" />
+
         <br />
-      </div>
-    </Card>
-  </center>
-
-  <center>
-    <Card>
-      <div
-        style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '150px'
-    }}
-      >
-        <img src="https://files.readme.io/bec5c1aec733055f993a3c8c75910e8b57260edbf108945d9e4288883f271f23-ma_symbol_opt_45_2x.png" style={{ width: '147px', height: '104px', marginBottom: '0px' }} />
-      </div>
-    </Card>
-  </center>
-
-  <center>
-    <Card>
-      <div
-        style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '150px'
-    }}
-      >
-        <img src="https://files.readme.io/0c00b174b70de72b9c1b082121816e9df531acf448812725d79551bf13617f8e-AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png" style={{ width: '150px', height: '150px', marginBottom: '0px' }} />
-      </div>
-    </Card>
-  </center>
-</Cards>
-
-<Cards columns={2}>
-  <center>
-    <Card>
-      <div
-        style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '150px'
-    }}
-      >
-        <img src="https://files.readme.io/24c011ae5e01ece98d04fa250a3c6ebbdad6f9254662b2998f792c921064a30f-Diners_Club_Logo3.svg.png" style={{ width: '150px', height: '39px', marginBottom: '0px' }} />
-      </div>
-    </Card>
-  </center>
-
-  <center>
-    <Card>
-      <div
-        style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '150px'
-    }}
-      >
-        <img src="https://files.readme.io/5e0a62afd11d47397080f2f8974d1cf3d61af5eda1ecc71726c9eae40f53a4bf-UnionPay_logo.svg.png" style={{ width: '147px', height: '104px', marginBottom: '0px' }} />
       </div>
     </Card>
   </center>
