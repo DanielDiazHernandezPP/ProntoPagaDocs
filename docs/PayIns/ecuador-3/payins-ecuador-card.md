@@ -48,7 +48,7 @@ El proceso de pago con tarjeta (Payphone) en Ecuador consta de cinco etapas prin
 
 > 📘 **Marcas de tarjetas aceptadas**
 >
-> Consulta el listado de marcas de tarjetas compatibles con ProntoPaga para Ecuador, Chile y Perú en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
+> Consulta el listado de marcas de tarjetas aceptadas en transacciones con ProntoPaga para Ecuador, Chile y Perú en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
 
 ***
 
