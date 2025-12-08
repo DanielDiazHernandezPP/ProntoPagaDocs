@@ -34,7 +34,7 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ## ¿Cómo funciona?
 
-PayPhone es un método de pago en línea utilizado en Ecuador que permite recibir pagos con tarjetas de crédito o débito de cualquier banco. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
+PayPhone es un método de pago en línea utilizado en Ecuador que permite recibir pagos con tarjetas de crédito o débito. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
 
 El proceso de pago con tarjeta (Payphone) en Ecuador consta de cinco etapas principales:
 
