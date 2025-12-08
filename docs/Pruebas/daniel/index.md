@@ -610,7 +610,6 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
         Consulta los datos de prueba para PayIns en Chile
 
-        <br />
 
         <Button variant="primary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
 
@@ -626,7 +625,6 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
         Consulta los datos de prueba para PayIns en Ecuador
 
-        <br />
 
         <Button variant="primary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-ecuador" target="_blank" />
 
@@ -642,7 +640,6 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
 
         Consulta los datos de prueba para PayIns en Perú
 
-        <br />
 
         <Button variant="primary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-cards-peru" target="_blank" />
 
