@@ -48,7 +48,7 @@ El proceso de pago con tarjeta en Chile consta de seis etapas principales:
 
 > 📘 **Marcas de tarjetas aceptadas**
 >
-> Consulta el listado de marcas de tarjetas aceptadas en transacciones con ProntoPaga para Chile, Ecuador y Perú en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
+> Consulta el listado de marcas de tarjetas aceptadas en transacciones a través de ProntoPaga para Chile, Ecuador y Perú en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
 
 ***
 
