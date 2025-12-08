@@ -34,7 +34,7 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ## ¿Cómo funciona?
 
-PayPhone es un método de pago en línea utilizado en Ecuador que permite recibir pagos con tarjetas Visa o Mastercard, de crédito o débito, de cualquier banco. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
+PayPhone es un método de pago en línea utilizado en Ecuador que permite recibir pagos con tarjetas de crédito o débito de cualquier banco. Para completar una transacción utilizando este método de pago, el cliente debe ingresar los datos de su tarjeta (número, fecha de expiración y código CVV).
 
 El proceso de pago con tarjeta (Payphone) en Ecuador consta de cinco etapas principales:
 
@@ -45,6 +45,10 @@ El proceso de pago con tarjeta (Payphone) en Ecuador consta de cinco etapas prin
 3. **Validación de datos.** Se verifican los datos con el emisor de la tarjeta.
 4. **Autorización y Captura.** Se verifica que existan los fondos suficientes, y se mueven desde el banco del cliente hacia la cuenta de tu comercio.
 5. **Confirmación.** El cliente ve en pantalla el resultado de la transacción. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+
+> 📘 **Marcas de tarjetas aceptadas**
+>
+> Consulta el listado de marcas de tarjetas compatibles con ProntoPaga para Ecuador, Chile y Perú en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
 
 ***
 
@@ -156,7 +160,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
