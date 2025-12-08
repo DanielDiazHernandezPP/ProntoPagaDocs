@@ -566,11 +566,11 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   <center>
     <Card>
       <div>
-        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png"/>
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
 
         <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
 
-        <br/>
+        <br />
       </div>
     </Card>
   </center>
@@ -578,10 +578,11 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   <center>
     <Card>
       <div>
-        <img src="https://files.readme.io/e0348270b05242d447ad8a8055d47e34868b854a914feb91e8f7902e298689d5-ecuador.png"/>
+        <img src="https://files.readme.io/e0348270b05242d447ad8a8055d47e34868b854a914feb91e8f7902e298689d5-ecuador.png" />
 
         <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-ecuador" target="_blank" />
-        <br/>
+
+        <br />
       </div>
     </Card>
   </center>
@@ -589,9 +590,49 @@ Estos plugins están listos para ser integrados hoy mismo en tu comercio:
   <center>
     <Card>
       <div>
-        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png"/>
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
 
- 				<Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-cards-peru" target="_blank" />
+        <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-cards-peru" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+</Cards>
+
+<br />
+
+<Cards columns={3}>
+  <center>
+    <Card>
+      <div>
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
+
+        <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div>
+        <img src="https://files.readme.io/e0348270b05242d447ad8a8055d47e34868b854a914feb91e8f7902e298689d5-ecuador.png" />
+
+        <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-ecuador" target="_blank" />
+
+        <br />
+      </div>
+    </Card>
+  </center>
+
+  <center>
+    <Card>
+      <div>
+        <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" />
+
+        <Button variant="primary" text="Ver datos de prueba" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-cards-peru" target="_blank" />
 
         <br />
       </div>
