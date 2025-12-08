@@ -35,7 +35,7 @@ Los pagos con tarjeta cuentan con la herramienta automatizada Decision Manager (
 
 ## ¿Cómo funciona?
 
-Pagos con Tarjeta es un servicio que permite aceptar pagos con tarjetas de crédito y débito Visa, Mastercard, American Express, Diners Club y UnionPay en Perú. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Tarjeta" e ingresar los datos de su tarjeta, incluyendo número, fecha de expiración y código CVV.
+Pagos con Tarjeta es un servicio que permite aceptar pagos con tarjetas de crédito y débito en Perú. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con Tarjeta" e ingresar los datos de su tarjeta, incluyendo número, fecha de expiración y código CVV.
 
 El proceso de pago con tarjeta en Perú consta de cinco etapas principales:
 
@@ -71,7 +71,7 @@ Si el cliente desea recordar su tarjeta para futuras compras, contamos con un ca
 
 <Image align="center" border={false} src="https://files.readme.io/05694f34656428e9cabb3184d9f52bde33c4eb8d1628f5146329b52849ee3f0b-recordar.png" />
 
-> 📘 Monedas
+> 📘 **Monedas**
 >
 > Si el cliente guarda una tarjeta después de un pago en soles, esa tarjeta guardada solo se podrá utilizar para pagos futuros en soles. Si desea usarla en dólares, deberá guardarla nuevamente en dólares.
 
@@ -82,6 +82,10 @@ Si el cliente desea recordar su tarjeta para futuras compras, contamos con un ca
 Nuestro sistema cuenta con soporte de pagos con tarjetas foráneas. Se detectará en automático cuando se trata de una tarjeta de este tipo, con lo cual, el cliente verá dos campos extras en su formulario de pagos (ciudad y país de la tarjeta):
 
 <Image align="center" border={false} src="https://files.readme.io/256cae68c54af6a16b733f1924a23b17aff6c9e55361164f4044d90bd550a12d-extranjera.png" />
+
+> 📘 **Marcas de tarjetas aceptadas**
+>
+> Consulta el listado de marcas de tarjetas compatibles con ProntoPaga para Perú, Chile y Ecuador en <Anchor label="este artículo" target="_blank" href="https://docs.prontopaga.com/docs/card-brands#/">este artículo</Anchor>.
 
 ***
 
@@ -312,7 +316,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
