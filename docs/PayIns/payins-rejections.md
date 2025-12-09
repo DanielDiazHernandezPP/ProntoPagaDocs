@@ -165,7 +165,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
     </tr>
   </thead>
   <tbody>
-    <tr><td>Excede límite Depósito Máximo por Transacción</td><td>BSe ha excedido el límite de depósito máximo por transacción.</td></tr>
+    <tr><td>Excede límite Depósito Máximo por Transacción</td><td>Se ha excedido el límite de depósito máximo por transacción.</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
