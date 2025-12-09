@@ -3223,7 +3223,7 @@
                   },
                   "documentType": {
                     "type": "string",
-                    "description": "<br>⚠️<b>Requerido para Perú</b>. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte <br><br> En <b>Brasil</b>, <b>Chile</b> y <b>Ecuador</b>, este tipo de documento no es requerido."
+                    "description": "<br>⚠️<b>Requerido para Perú</b>. <br>Es el tipo de documento de identidad. El código puede ser: <br><br>**DN:** DNI <br>**CE:** Carné de extranjería <br>**PP:** Pasaporte <br><br> En <b>Chile</b> y <b>Ecuador</b>, este tipo de documento no es requerido."
                   },
                   "bankCode": {
                     "type": "string",
