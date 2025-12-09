@@ -194,7 +194,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
     <tr><td>Ya existe una transacción con el <code>ClientTransactionId</code> especificado.</td><td>Cambia el identificador; cada transacción debe tener un ID único.</td></tr>
     <tr><td>La transacción ya se encuentra cancelada.</td><td>Verifica el estado de la transacción antes de intentar cancelarla.</td></tr>
     <tr><td>La transacción no se pudo cancelar. Puede que ya se encuentre aprobada o cancelada.</td><td>Asegúrate de que no esté ya aprobada o cancelada.</td></tr>
-    <tr><td>Solo se permiten 0 transacciones por día para la misma tarjeta. Por favor póngase en contacto con la persona encargada de la tienda.</td><td>Contacta al administrador de la tienda para revisar restricciones.</td></tr>
+    <tr><td>Third-party payments not allowed.</td><td>El pago fue rechazado porque el instrumento utilizado (tarjeta, wallet o cuenta) pertenece a una persona diferente al titular que inició la transacción. Por políticas del proveedor no se permiten pagos de terceros. El cliente debe usar un medio de pago cuyo titular coincida con el documento y datos registrados.</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
