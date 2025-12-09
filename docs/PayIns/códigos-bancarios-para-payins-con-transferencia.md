@@ -34,7 +34,7 @@ metadata:
     - pasarela de pagos
   robots: index
 ---
-Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesario utilizar el endpoint [Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y enviar el código bancario en el campo `bankCode`. El valor de `bankCode` depende del país.
+Para crear un nuevo pago por transferencia bancaria en Chile y Perú, es necesario utilizar el endpoint [Create Payment](https://docs.prontopaga.com/reference/create-payment#/), y enviar el código bancario en el campo `bankCode`. El valor en el parámetro `bankCode` se modifica dependiedo del país.
 
 ***
 
