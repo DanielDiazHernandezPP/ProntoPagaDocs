@@ -44,7 +44,9 @@ Contamos con una lista de datos de prueba para nuestros diversos métodos. Con e
         <img src="https://files.readme.io/d601642d081a443b6cf93ded068d2d6d132f16753ea16904a0f743ed2818088e-chile_1.png" alt="Chile" style={{ width: '100px', height: '100px', marginBottom: '0px' }} />
 
         Consulta los datos de prueba para PayIns en Chile
-				<Button variant="secondary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank"/>
+
+        <Button variant="primary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
+
         <Button variant="primary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-webpay-cards" target="_blank" />
 
         <br />
