@@ -27,6 +27,8 @@ next:
 ---
 Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
+<br />
+
 <Cards columns={3}>
   <center>
     <Card>
