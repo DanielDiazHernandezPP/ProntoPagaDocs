@@ -53,7 +53,7 @@ El proceso de pago con tarjeta en Perú consta de cinco etapas principales:
 
 ## Especificaciones
 
-El pago con tarjeta en Perú cuenta con características extras. Algunas de ellas las puedes activar o desactivar en la Consola, según lo requieras. A continuación se detallan.
+El pago con tarjeta en Perú cuenta con características extras. Algunas de ellas las puedes activar o desactivar en el Portal de servicios, según lo requieras. A continuación se detallan.
 
 <br />
 
