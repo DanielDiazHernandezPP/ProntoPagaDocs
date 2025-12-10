@@ -28,7 +28,7 @@ metadata:
 next:
   description: ''
 ---
-Dentro de tu Consola cuentas con un Balance general (wallet empresarial). Este balance se subdivide en diferentes tipos de saldos, que se detallan a continuación:
+Dentro de tu Portal de servicio cuentas con un Balance general (wallet empresarial). Este balance se subdivide en diferentes tipos de saldos, que se detallan a continuación:
 
 * **Saldo Neto:** Saldo total del comercio, contando el saldo ya disponible para retiro y el saldo diferido.
 * **Saldo Diferido:** Saldo a la espera de cumplir el tiempo necesario para estar disponible.
