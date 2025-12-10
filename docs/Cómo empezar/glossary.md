@@ -39,7 +39,7 @@ metadata:
     **<h3>Balance Disponible</h3>** Es el monto que realmente está listo para ser retirado por el comercio en ese momento. Se calcula restando al saldo neto el saldo diferido y el bloqueado. Representa la liquidez inmediata del comercio.
 
     **<h3>Balance (Wallet empresarial)</h3>**
-    Billetera empresarial que muestra el balance total de tu comercio. Esto incluye saldos disponibles, diferidos y retenidos. Proporciona una visión completa de los montos disponibles en la Consola de Prontopaga. Para saber más, visita nuestro [artículo](https://docs.prontopaga.com/docs/balance-wallet#/).
+    Billetera empresarial que muestra el balance total de tu comercio. Esto incluye saldos disponibles, diferidos y retenidos. Proporciona una visión completa de los montos disponibles en el Portal de servicios de Prontopaga. Para saber más, visita nuestro [artículo](https://docs.prontopaga.com/docs/balance-wallet#/).
 
     **<h3>Bearer Token</h3>** Es un tipo de credencial de seguridad utilizado en APIs. El cliente incluye este token para demostrar que tiene permiso de acceder al recurso solicitado.
 
