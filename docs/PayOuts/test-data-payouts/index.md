@@ -16,7 +16,7 @@ metadata:
 ---
 Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos, podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
-<Cards columns={3}>
+<Cards columns={1}>
   <center>
     <Card>
       <div
@@ -25,7 +25,7 @@ Contamos con una lista de datos de prueba para nuestros diversos métodos. Con e
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '250px'
+      height: '150px'
     }}
       >
         <img src="https://files.readme.io/159e36b71340058b8bbfcecba4e6d6a22f142f1c6d26f6bc82c5612cd481a037-peru.png" alt="Peru" style={{ width: '100px', height: '100px', marginBottom: '0px' }} />
