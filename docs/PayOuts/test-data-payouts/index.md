@@ -16,7 +16,7 @@ metadata:
 ---
 Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos, podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
-<Cards columns={2}>
+<Cards columns={3}>
   <center>
     <Card>
       <div
