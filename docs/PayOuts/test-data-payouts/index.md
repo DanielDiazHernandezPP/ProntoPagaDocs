@@ -16,10 +16,6 @@ metadata:
 ---
 Contamos con una lista de datos de prueba para nuestros diversos métodos. Con ellos, podrás simular diversos escenarios y comprobar el buen funcionamiento de tu integración.
 
-* [Datos de prueba para Perú](https://docs.prontopaga.com/docs/test-data-peru-payouts#/).
-
-<br />
-
 <Cards columns={1}>
   <center>
     <Card>
@@ -36,7 +32,7 @@ Contamos con una lista de datos de prueba para nuestros diversos métodos. Con e
 
         Consulta los datos de prueba para PayIns en Perú
 
-        <Button variant="secondary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-cards-peru" target="_blank" />
+        <Button variant="secondary" text="Ver datos" icon="fa-solid fa-arrow-up-right-from-square" href="https://docs.prontopaga.com/docs/test-data-peru-payouts#/" target="_blank" />
 
         <br />
       </div>
