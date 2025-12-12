@@ -206,7 +206,7 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 ## Posibles resultados de una verificación biométrica
 
-El parámetros `status` muestra el estado actual de una verificación de biometría. Los posibles resultados dentro de este parámetro son los siguientes:
+El parámetro `status` muestra el estado actual de una verificación de biometría. Los posibles resultados dentro de este parámetro son los siguientes:
 
 <HTMLBlock>{`
 <table>
