@@ -6407,106 +6407,6 @@
         }
       }
     },
-    "/": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "uid": {
-                      "type": "string",
-                      "example": "01KB5Q3HCRQZVPFXZTKESCRHDK"
-                    },
-                    "reference": {
-                      "type": "string",
-                      "example": "17643498227932"
-                    },
-                    "urlPay": {
-                      "type": "string",
-                      "example": "https://www.webhook.com"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                },
-                "examples": {
-                  "": {
-                    "summary": "",
-                    "value": {
-                      "statusCode": 400,
-                      "message": "Validation failed",
-                      "errors": [
-                        {
-                          "field": "amount",
-                          "message": "Amount must have at most 2 decimal places"
-                        },
-                        {
-                          "field": "customer.email",
-                          "message": "Invalid email format"
-                        }
-                      ],
-                      "timestamp": "2025-11-26T10:30:00Z"
-                    }
-                  }
-                }
-              }
-            },
-            "description": "Bad Request"
-          },
-          "404": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                }
-              }
-            },
-            "description": "Not Found"
-          }
-        },
-        "parameters": [
-          {
-            "in": "header",
-            "name": "param",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "No body JSON",
-              "language": "json",
-              "name": ""
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        }
-      }
-    },
     "//v2/biometric/{uid}/status": {
       "get": {
         "description": "",
@@ -6761,6 +6661,114 @@
               }
             }
           }
+        }
+      }
+    },
+    "/v2/biometric/{uid}/status": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "uid": {
+                      "type": "string",
+                      "example": "01KB5Q3HCRQZVPFXZTKESCRHDK"
+                    },
+                    "reference": {
+                      "type": "string",
+                      "example": "17643498227932"
+                    },
+                    "urlPay": {
+                      "type": "string",
+                      "example": "https://www.webhook.com"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "": {
+                    "summary": "",
+                    "value": {
+                      "statusCode": 400,
+                      "message": "Validation failed",
+                      "errors": [
+                        {
+                          "field": "amount",
+                          "message": "Amount must have at most 2 decimal places"
+                        },
+                        {
+                          "field": "customer.email",
+                          "message": "Invalid email format"
+                        }
+                      ],
+                      "timestamp": "2025-11-26T10:30:00Z"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "description": "Not Found"
+          }
+        },
+        "parameters": [
+          {
+            "in": "header",
+            "name": "param",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No body JSON",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
         }
       }
     }
