@@ -6416,31 +6416,6 @@
             "description": "",
             "content": {
               "application/json": {
-                "examples": {
-                  "- Argentina card": {
-                    "summary": "- Argentina card",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQPX93GR8TP1A1A7752TFT",
-                      "uid": "01JRTQPX93GR8TP1A1A7752TFT",
-                      "reference": "17424654000570548730"
-                    }
-                  },
-                  "- Argentina QR - Example 1": {
-                    "summary": "- Argentina QR - Example 1",
-                    "value": {
-                      "uid": "01KB5Q3HCRQZVPFXZTKESCRHDK",
-                      "reference": "17643498227932",
-                      "urlPay": "https://www.webhook.com"
-                    }
-                  },
-                  "- Argentina QR - Example 2": {
-                    "summary": "- Argentina QR - Example 2",
-                    "value": {
-                      "checkoutId": "checkout_123456",
-                      "status": "APPROVED"
-                    }
-                  }
-                },
                 "schema": {
                   "type": "object",
                   "properties": {
@@ -6486,47 +6461,6 @@
                       ],
                       "timestamp": "2025-11-26T10:30:00Z"
                     }
-                  },
-                  "Bad Request - Argentina card rejection": {
-                    "summary": "Bad Request - Argentina card rejection",
-                    "value": {
-                      "uid": "ID in our services",
-                      "status": "rejected",
-                      "reference": "Reason for rejection"
-                    }
-                  },
-                  "Bad Request - QR - Example 1": {
-                    "summary": "Bad Request - QR - Example 1",
-                    "value": {
-                      "statusCode": 400,
-                      "message": "Validation failed",
-                      "errors": [
-                        {
-                          "field": "amount",
-                          "message": "Amount must have at most 2 decimal places"
-                        },
-                        {
-                          "field": "customer.email",
-                          "message": "Invalid email format"
-                        }
-                      ],
-                      "timestamp": "2025-11-26T10:30:00Z"
-                    }
-                  },
-                  "Bad Request - QR - Example 2": {
-                    "summary": "Bad Request - QR - Example 2",
-                    "value": {
-                      "statusCode": 400,
-                      "message": "Validation failed",
-                      "errors": [
-                        {
-                          "field": "amount",
-                          "message": "Amount must be a positive number"
-                        }
-                      ],
-                      "timestamp": "2025-04-25T07:00:00.000Z",
-                      "path": "/transaction/create"
-                    }
                   }
                 }
               }
@@ -6539,18 +6473,6 @@
                 "schema": {
                   "type": "object",
                   "properties": {}
-                },
-                "examples": {
-                  "Not Found": {
-                    "summary": "Not Found",
-                    "value": {
-                      "success": false,
-                      "statusCode": 404,
-                      "message": "No existe una solicitud con el ID proporcionado.",
-                      "path": "/veriff/5916a804-b795-4074-96e5-b2d027739b6f00000/status",
-                      "timestamp": "2025-11-04T14:20:17.098Z"
-                    }
-                  }
                 }
               }
             },
@@ -6574,24 +6496,9 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "code": "No body JSON",
               "language": "json",
-              "name": "Argentina Card"
-            },
-            {
-              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"ar_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
-              "language": "json",
-              "name": "Argentina Card"
-            },
-            {
-              "code": "{\n  \"currency\": \"ARS\",\n  \"country\": \"AR\",\n  \"amount\": \"34000.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"ar_qr_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\"\n}",
-              "language": "json",
-              "name": "Argentina QR"
-            },
-            {
-              "code": "{\n  \"currency\": \"ARS\",\n  \"country\": \"AR\",\n  \"amount\": \"34000.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"ar_qr_2_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\"\n}",
-              "language": "json",
-              "name": "Argentina QR"
+              "name": ""
             }
           ],
           "samples-languages": [
