@@ -58,7 +58,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 ## Crea un nuevo pago
 
-Tu _front-end _será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
+Tu _front-end_será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
 De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar _pe_service_payment_ como método de pago en el _body_ de la solicitud.
 
