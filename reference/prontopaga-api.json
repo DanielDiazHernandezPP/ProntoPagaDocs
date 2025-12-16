@@ -6465,7 +6465,19 @@
           {
             "BearerAuth": []
           }
-        ]
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        }
       }
     },
     "/new-endpoint": {
