@@ -6,7 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para la versión web como para la versión _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del BCP (Banco de Crédito del Perú) sin necesidad de usar tarjeta bancaria. 
+Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para la versión web como para la versión _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del BCP (Banco de Crédito del Perú) sin necesidad de usar tarjeta bancaria.
 
 <Callout icon="👍" theme="okay">
   **CIP**
@@ -25,7 +25,7 @@ BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o 
 * Telecrédito (banca negocios)
 * Banca Móvil BCP (_app_)
 
-El monto se recaudará directamente de la cuenta BCP del cliente. 
+El monto se recaudará directamente de la cuenta BCP del cliente.
 
 El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
@@ -37,54 +37,19 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 <Cards columns={4}>
   <Card title="**🌐 En Yape:**">
-    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
+    El usuario abre su app Yape en su celular y elige la opción Yapear servicios. En el buscador de empresa ingresa ProntoPaga y luego digita el código CIP asignado para completar la transacción.
   </Card>
 
   <Card title="**📱En App Banca móvil BCP:**">
-    La opción de pago con wallet abre la aplicación del cliente y se valida la identidad para confirmar el pago.
+    El usuario inicia sesión en su app Banca móvil BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP otorgado para finalizar la transacción.
   </Card>
 
-  <Card title="🌐 En web">
-    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
+  <Card title="🌐 En Banca por internet">
+    El usuario ingresa a su banca por internet del BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el número de código CIP otorgado para continuar la transacción.
   </Card>
 
-  <Card title="🌐 En web">
-    Se genera un código QR para que el cliente lo escanee desde la apliación de su celular.
-  </Card>
-</Cards>
+  <Card title="🌐 En Telecrédito web BCP">
+El usuario inicia sesión en Telecrédito web y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP asignado para completar la transacción.
 
-<br />
-
-**📱En App Banca  BCP:**
-
-**🖥️ En Banca por internet:**
-
-<Cards columns={1}>
-  <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    El cliente debe hacer clic en el botón **Solicitar aprobación**. Luego, será redirigido a la aplicación de Yape mediante un deeplink dinámico generado a demanda, el cual estará activo por 15 minutos.
-
-    Después de ingresar su clave de acceso, aparecerá un modal en la pantalla, donde podrá aprobar la afiliación directamente.
   </Card>
 </Cards>
-
-**🖥️ En telecrédito web:**
-
-<Cards columns={1}>
-  <Card title="Si se tiene desactivado el servicio de validación pago de terceros">
-    El cliente debe hacer clic en el botón **Solicitar aprobación**. Luego, será redirigido a la aplicación de Yape mediante un deeplink dinámico generado a demanda, el cual estará activo por 15 minutos.
-
-    Después de ingresar su clave de acceso, aparecerá un modal en la pantalla, donde podrá aprobar la afiliación directamente.
-  </Card>
-</Cards>
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-en la opción de **Pagar servicios**, busca **ProntoPaga** e ingresa el código CIP. El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
-
-1. **Confirmación**. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
