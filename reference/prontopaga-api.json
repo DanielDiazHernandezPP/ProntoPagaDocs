@@ -6440,8 +6440,9 @@
                   "Bad Request": {
                     "summary": "Bad Request",
                     "value": {
-                      "message": "biometricNotFound",
-                      "code": 1
+                      "error": {
+                        "orderValidate": "order, already exists."
+                      }
                     }
                   }
                 }
