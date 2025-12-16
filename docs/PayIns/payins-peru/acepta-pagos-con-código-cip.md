@@ -25,15 +25,11 @@ BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o 
 * Telecrédito (banca negocios)
 * Banca Móvil BCP (_app_)
 
-El monto se recaudará directamente de la cuenta BCP del cliente.
-
 El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 1. **Selección de método.** El cliente elige pagar vía banca por internet/móvil en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga genera el **código CIP** y muestra al cliente los datos para realizar el pago.
 3. **Cuenta**. El cliente inicia sesión en su plataforma elegida para realizar el pago. La siguiente parte del flujo varía según el canal que elija el cliente:
-
-<br />
 
 <Cards columns={4}>
   <Card title="📱 En Yape:">
@@ -52,3 +48,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
     El usuario inicia sesión en Telecrédito web y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP asignado para completar la transacción.
   </Card>
 </Cards>
+
+4. **Pago**. El monto se recaudará directamente de la cuenta BCP del cliente.
+
+<br />
