@@ -62,7 +62,7 @@ Tu _front-end _será el encargado de recopilar los datos necesarios de tu client
 
 De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar ~~pagoefectivo_payment~~ como método de pago en el _body_ de la solicitud.
 
-[La]() solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -70,9 +70,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-### Personalización del formulario
-
-Puedes ajustar la apariencia de tu formulario con el parámetro `theme` cambiando el color de fondo o creando versiones modo claro y modo oscuro.
+<br />
 
 ### Body de la solicitud
 
@@ -154,122 +152,7 @@ Para modificar el estilo del formulario de pago, usa este <Anchor label="endpoin
 }
 ```
 
-***
-
-## QR embebido (solo datos QR)
-
-Si únicamente requieres el código QR en formato base64, esta opción es perfecta para ti. Está pensada especialmente para quienes ya cuentan con una interfaz personalizada o un flujo de usuario propio, y solo necesitan incorporar la imagen del QR en el lugar que más les convenga. Es una solución ideal si ya tienes resuelto el front-end y buscas simplemente insertar el QR sin complicaciones adicionales.
-
-> 🚧 Monto no precargado
->
-> Esta modalidad no carga automáticamente el monto en la wallet, por lo tanto, el cliente debe ingresarlo de manera manual.
-
-***
-
-## Crea un nuevo pago (solo datos QR)
-
-En esta modalidad, al hacer una solicitud de pago y mandar dentro del `"theme"` el parámetro `"type": "qr"`, los comercios recibirán en la respuesta de la solicitud el código QR, el cual podrán presentar directamente en su página web o aplicación, dentro de una etiqueta IMG.
-
-De este modo, para crear una solicitud de nuevo pago con este formato, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `pe_qr_payment` como método de pago en el body de la solicitud.
-
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
-
-<NotaFirma />
-
-También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
-
-<NotaWebhooks />
-
-### Solicitar el QR
-
-Para recibir el código QR en la respuesta, deberás usar el parámetro de personalización `"theme"` y mandar el parámetro `"type": "qr"`, tal como se muestra en el ejemplo del body de la solicitud.
-
-### Body de la solicitud
-
-A continuación puedes ver un ejemplo del body que se envía en la solicitud:
-
-```json
-{
-  "currency": "PEN",
-  "country": "PE",
-  "amount": "100.90",
-  "clientName": "John Doe",
-  "clientEmail": "johndoe@example.com",
-  "clientPhone": "999999999",
-  "clientDocument": "12345678912",
-  "paymentMethod": "pe_qr_3_payment",
-  "urlConfirmation": "https://www.webhook.com",
-  "urlFinal": "https://sandbox.prontopaga.com/successful",
-  "urlRejected": "https://sandbox.prontopaga.com/declined",
-  "order": "XYZ789",
-  "theme": "{\"type\":\"qr\"}",
-  "sign": "Signature of the parameters"
-}
-```
-
-### Respuesta
-
-Como respuesta a una solicitud de pago exitosa recibirás el enlace para procesar el pago, un identificador de pago del sistema y el código QR, el cual podrás insertar directamente en tu página web o aplicación, usando una etiqueta IMG.
-
-#### Ejemplo de respuesta para pago exitoso
-
-```json
-{
-    "urlPay": "https://prontopaga.com/payment/rest/01JRAZYTH4A55JB5R9GQ",
-    "uid": "01JRAZYTH4A55JB59GQ",
-    "reference": "1743461",
-    "height": {
-        "desktop": {
-            "width": "500px",
-            "height": "730px"
-        },
-        "mobile": {
-            "width": "100%",
-            "height": "730px"
-        }
-    },
-    "qrCode": "data:image/png;base64,code"
-}
-```
-
-### Confirmación de un pago
-
-Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
-
-Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
-
-Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-### Devolución de un pago
-
-Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
-
-```json
-{
-  "reference": "1111111111",
-  "clientDocument": "12345678912",
-  "amount": "100.90",
-  "urlCallbackRefund": "https://www.webhook.com",
-  "sign": "Signature of the parameters"
-}
-```
-
-### Cancelar un pago con QR
-
-Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
-
-Para cancelarlo, deberás consultar [este endpoint](https://docs.prontopaga.com/reference/cancel-qr-peru) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
-
-***
-
-## Listado de wallets
-
-Este es un listado de las wallets disponibles para hacer pagos con QR en Perú:
-
-* Yape
-* Plin
-* Wayki
-* Financiera Efectiva
+<br />
 
 ***
 
