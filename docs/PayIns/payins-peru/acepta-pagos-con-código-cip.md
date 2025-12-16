@@ -40,7 +40,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
     El usuario inicia sesión en su app Banca móvil BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP otorgado para finalizar la transacción.
   </Card>
 
-  <Card title="💻 En Banca por internet">
+  <Card title="💻 En VíaBCP Banca por internet">
     El usuario ingresa a su banca por internet del BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el número de código CIP otorgado para continuar la transacción.
   </Card>
 
