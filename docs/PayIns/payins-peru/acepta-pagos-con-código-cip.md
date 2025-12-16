@@ -50,5 +50,6 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 </Cards>
 
 4. **Pago**. El monto se recaudará directamente de la cuenta BCP del cliente.
+5. **Confirmación**. El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
 
 <br />
