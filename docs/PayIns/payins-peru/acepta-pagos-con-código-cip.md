@@ -22,7 +22,7 @@ BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o 
 
 * Yape
 * VíaBCP (banca por internet)
-* Telecrédito (banca negocios)
+* Telecrédito web BCP (banca negocios)
 * Banca Móvil BCP (_app_)
 
 El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
