@@ -6,14 +6,7 @@ hidden: true
 metadata:
   robots: index
 ---
-Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para versión web como para versión mobile. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas sin necesidad de usar tarjeta.
-
-El monto se recauda directamente desde la cuenta BCP asociada a:
-
-* Yape
-* VíaBCP (banca por internet)
-* Telecrédito (banca negocios)
-* Banca Móvil BCP (_app_)
+Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para la versión web como para la versión _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del BCP (Banco de Crédito del Perú) sin necesidad de usar tarjeta bancaria. 
 
 <Callout icon="👍" theme="okay">
   **CIP**
@@ -25,15 +18,20 @@ El monto se recauda directamente desde la cuenta BCP asociada a:
 
 ## ¿Cómo funciona?
 
-Payphone es una billetera digital ecuatoriana que permite recibir pagos, administrar dinero y realizar transacciones desde el celular. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar "Paga con QR/Wallet - Payphone", tener la aplicación instalada en su dispositivo móvil, una cuenta creada con saldo disponible o un medio de pago vinculado, y aprobar el pago desde la aplicación.
+BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe seleccionar la opción:
+
+* Yape
+* VíaBCP (banca por internet)
+* Telecrédito (banca negocios)
+* Banca Móvil BCP (_app_)
+
+El monto se recaudará directamente de la cuenta BCP del cliente. 
 
 El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 1. **Selección de método.** El cliente elige pagar vía banca por internet/móvil en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga genera el **código CIP** y muestra al cliente los datos para realizar el pago.
 3. **Cuenta**. El cliente inicia sesión en su plataforma elegida para realizar el pago. La siguiente parte del flujo varía según el canal que elija el cliente:
-
-<br />
 
 <br />
 
@@ -57,11 +55,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 <br />
 
-
-
 **📱En App Banca  BCP:**
-
-
 
 **🖥️ En Banca por internet:**
 
