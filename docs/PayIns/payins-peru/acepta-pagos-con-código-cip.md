@@ -60,7 +60,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 Tu _front-end _será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar ~~pagoefectivo_payment~~ como método de pago en el _body_ de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar _pe_service_payment_ como método de pago en el _body_ de la solicitud.
 
 La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
@@ -74,18 +74,18 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 ### Body de la solicitud
 
-A continuación puedes ver un ejemplo del body que se envía en la solicitud:
+A continuación puedes ver un ejemplo del _body_ que se envía en la solicitud:
 
 ```json
 {
   "currency": "PEN",
   "country": "PE",
-  "amount": "100.90",
+  "amount": 100.90,
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
-  "clientDocument": "12345678912",
-  "paymentMethod": "pe_qr_3_payment",
+  "clientDocument": "12345678",
+  "paymentMethod": "pe_service_payment",
   "urlConfirmation": "https://www.webhook.com",
   "urlFinal": "https://sandbox.prontopaga.com/successful",
   "urlRejected": "https://sandbox.prontopaga.com/declined",
