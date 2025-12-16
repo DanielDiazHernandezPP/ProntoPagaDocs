@@ -96,29 +96,26 @@ A continuación puedes ver un ejemplo del _body_ que se envía en la solicitud:
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema y un código CIP.
+
+```json
+{
+    "urlPay": "https://prontopaga.com/payment/rest/0A853DD8",
+    "uid": "01JRGVFWM2N1H8Y817R9KWZPD9",
+    "reference": "123456789",
+    "cip": "0A853BD9"
+}
+```
+
+<br />
 
 ### Confirmación de un pago
 
-Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
+Una vez que el usuario haya completado el proceso de pago, ProntoPaga le notificará el resultado de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
-
-### Consulta de un CIP
-
-* Ejemplo de request
-* Ejemplo de respuesta
-
-<br />
-
-### Consulta de un pago
-
-* Ejemplo de request
-* Ejemplo de respuesta
-
-<br />
 
 ***
 
