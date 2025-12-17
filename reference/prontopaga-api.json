@@ -6407,18 +6407,6 @@
         }
       }
     },
-    "/new-endpoint": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
-      }
-    },
     "/.payment/new": {
       "post": {
         "description": "",
@@ -6749,6 +6737,25 @@
             "json"
           ]
         }
+      },
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ]
       }
     },
     "/payment/yape/{uid}/process": {
