@@ -110,22 +110,6 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 <br />
 
-### Devolución de un pago
-
-Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
-
-```json
-{
-  "reference": "1111111111",
-  "clientDocument": "12345678912",
-  "amount": "100.90",
-  "urlCallbackRefund": "https://www.webhook.com",
-  "sign": "Signature of the parameters"
-}
-```
-
-<br />
-
 ### Personalizar el formulario de pago
 
 Puedes ajustar la apariencia de tu formulario con el parámetro opcional `theme`, cambiando el color de fondo, creando versiones modo claro y modo oscuro, o definiendo el tipo de vista con este <Anchor label="endpoint" target="_blank" href="https://docs.prontopaga.com/reference/create-payment#/">endpoint</Anchor>. A continuación, se muestra un ejemplo del body request:
@@ -185,7 +169,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
