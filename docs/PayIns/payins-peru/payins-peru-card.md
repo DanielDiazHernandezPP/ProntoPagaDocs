@@ -187,7 +187,7 @@ Ejemplo de **webhook para un pago exitoso**:
 
 ### Detalles de un pago
 
-Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
+Si así lo deseas, puedes consultar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/reference/payment-details-uid">este endpoint</Anchor> para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
 
 ```json
 { 
