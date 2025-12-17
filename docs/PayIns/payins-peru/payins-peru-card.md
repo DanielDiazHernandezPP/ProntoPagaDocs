@@ -244,19 +244,7 @@ A continuación se muestran varios posibles casos de rechazo junto con su códig
 
 ### Devolución de un pago
 
-Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
-
-```json
-{
-  "reference": "1111111111",
-  "clientDocument": "12345678912",
-  "amount": "100.90",
-  "urlCallbackRefund": "https://www.webhook.com",
-  "sign": "Signature of the parameters"
-}
-```
-
-<br />
+Para solicitar la devolución de un pago exitoso realizado con este método, debes ingresar al [Portal de servicios](https://prontopaga.com/es/login) de ProntoPaga. 
 
 ### Personalizar el formulario de pago
 
