@@ -6601,6 +6601,11 @@
             },
             "required": true
           }
+        ],
+        "security": [
+          {
+            "BearerAuth": []
+          }
         ]
       }
     },
