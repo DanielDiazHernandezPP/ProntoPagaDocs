@@ -29,7 +29,7 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 <html>
 <body>
 
-<p><a href="https://www.postman.com/prontopaga-api/prontopaga-docs/request/avzi5x4/biometric-verification?action=share&source=copy-link&creator=45976681&ctx=documentation" target="_blank">
+<p><a href="https://www.postman.com/prontopaga-api/prontopaga-docs/request/gl9g1ms/prontopaga-api?action=share&creator=45976681" target="_blank">
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
 </a></p>
 
