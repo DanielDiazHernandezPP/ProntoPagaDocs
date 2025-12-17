@@ -107,20 +107,6 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
-### Devolución de un pago
-
-Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
-
-```json
-{
-  "reference": "1111111111",
-  "clientDocument": "12345678912",
-  "amount": "100.90",
-  "urlCallbackRefund": "https://www.webhook.com",
-  "sign": "Signature of the parameters"
-}
-```
-
 ### Cancelar un pago con QR
 
 Si un cliente generó un QR y le tomó captura de pantalla, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
@@ -239,19 +225,7 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
-### Devolución de un pago
-
-Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
-
-```json
-{
-  "reference": "1111111111",
-  "clientDocument": "12345678912",
-  "amount": "100.90",
-  "urlCallbackRefund": "https://www.webhook.com",
-  "sign": "Signature of the parameters"
-}
-```
+<br />
 
 ### Cancelar un pago con QR
 
