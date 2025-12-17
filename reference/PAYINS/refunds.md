@@ -50,7 +50,7 @@ Endpoint para realizar la devolución de un pago. Actualmente, este servicio est
 
 > 📘 Tarjeta Perú
 >
-> Para casos de devolución con [Tarjeta en Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/) la solicitud se realiza desde el Portal de servicios.
+> Para casos de devolución con [Tarjeta en Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/) la solicitud se realiza desde el Portal de servicios de ProntoPaga.
 
 > ❗️ Número de documento
 >
