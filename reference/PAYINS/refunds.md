@@ -48,16 +48,12 @@ Endpoint para realizar la devolución de un pago. Actualmente, este servicio est
 * [Servicios de Yape On File: One Click Payments ](https://docs.prontopaga.com/update/docs/yape-on-file-ocp#/)
 * [Servicios de Yape On File: Recurrencia](https://docs.prontopaga.com/update/docs/yape-on-file-recurrent#/)
 
-<Callout icon="📘" theme="info">
-  **Tarjeta Perú**
+> 📘 Tarjeta Perú
+>
+> Para casos de devolución con [Tarjeta en Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/) la solicitud se realiza desde el Portal de servicios.
 
-  Para casos de devolución con [Tarjeta en Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/) la solicitud se realiza desde el Portal de servicios.
-</Callout>
-
-### Número de documento
-
-<Callout icon="❗️" theme="error">
-  Para que la devolución sea exitosa, en el campo `clientDocument` debe enviarse el mismo número de documento que el cliente utilizó para realizar la afiliación.
-</Callout>
+> ❗️ Número de documento
+>
+> Para que la devolución sea exitosa, en el campo `clientDocument` debe enviarse el mismo número de documento que el cliente utilizó para realizar la afiliación.
 
 ***
