@@ -107,13 +107,36 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-### Confirmación de un pago
+### Consulta de un pago
 
 Una vez que el usuario haya completado el proceso de pago, ProntoPaga le notificará el resultado de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
+
+### Detalles de un pago
+
+Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details-uid) para conocer los detalles del pago. De ser exitosa la consulta, obtendrás una respuesta similar a la siguiente:
+
+```json
+{ 
+  "uid": [string] // Transaction Identifier 
+  "status": [string] // Transaction status 
+  "amount": [string] // Transaction amount 
+  "method": [string] // Payment method used 
+  "reference": [string] // Reference of the transaction 
+  "clientEmail": [string] // Client's email address 
+  "clientDocument": [string] // Customer's ID number 
+  "order": [string] // Payment identifier to be associated with 
+  "currency": [string] // ISO currency code 
+  "country": [string] // International Country Format 
+  "method_type": [string] // Method type 
+  "method_detail": [string] // Method details 
+  "hash": [string] // Security hash parameter 
+  "sign": [string] // Signature of the parameters
+}
+```
 
 ***
 
