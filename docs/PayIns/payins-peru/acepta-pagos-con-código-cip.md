@@ -18,7 +18,7 @@ Crear un pago con esta modalidad consiste en hacer una solicitud para crear un *
 
 ## ¿Cómo funciona?
 
-BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe seleccionar la opción:
+BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe iniciar sesión en:
 
 * Yape
 * VíaBCP (banca por internet)
@@ -60,7 +60,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar _pe_service_payment_ como método de pago en el _body_ de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar `_pe_service_payment_` como método de pago en el _body_ de la solicitud.
 
 La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
