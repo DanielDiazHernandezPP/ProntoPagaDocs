@@ -1,6 +1,7 @@
 - payment-methods
 - bank-codes
 - create-payment
+- get_new-endpoint-arg_v2
 - get_new-endpoint-v1
 - refunds-qr-argentina
 - create-payment-chile-webpay-mall
