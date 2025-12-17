@@ -45,15 +45,19 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 Endpoint para realizar la devolución de un pago. Actualmente, este servicio está operativo solamente para los siguientes métodos de pago:
 
-* [Tarjeta Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/)
-* [QR (PE)](https://docs.prontopaga.com/docs/payins-peru-qr#/)
 * [Servicios de Yape On File: One Click Payments ](https://docs.prontopaga.com/update/docs/yape-on-file-ocp#/)
 * [Servicios de Yape On File: Recurrencia](https://docs.prontopaga.com/update/docs/yape-on-file-recurrent#/)
-* [Payphone Wallet](https://docs.prontopaga.com/update/docs/payins-ecuador-wallet#/)
-* [Payphone Tarjeta](https://docs.prontopaga.com/update/docs/payins-ecuador-card#/)
 
-> ❗️ Número de documento
->
-> Para que la devolución sea exitosa, en el campo `clientDocument` debe enviarse el mismo número de documento que el cliente utilizó para realizar la afiliación.
+<Callout icon="📘" theme="info">
+  **Tarjeta Perú**
+
+  Para casos de devolución con [Tarjeta en Perú](https://docs.prontopaga.com/update/docs/payins-peru-card#/)la devolución se solicita desde el Portal de servicios. 
+</Callout>
+
+### Número de documento
+
+<Callout icon="❗️" theme="error">
+  Para que la devolución sea exitosa, en el campo `clientDocument` debe enviarse el mismo número de documento que el cliente utilizó para realizar la afiliación.
+</Callout>
 
 ***
