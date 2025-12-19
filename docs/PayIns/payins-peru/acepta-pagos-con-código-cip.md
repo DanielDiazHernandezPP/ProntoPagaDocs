@@ -80,7 +80,7 @@ A continuación puedes ver un ejemplo del _body_ que se envía en la solicitud:
 {
   "currency": "PEN",
   "country": "PE",
-  "amount": 100.90,
+  "amount": "100.90",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
@@ -100,7 +100,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 ```json
 {
-    "urlPay": "https://prontopaga.com/payment/rest/0A853DD8",
+    "urlPay": "https://prontopaga.com/payment/rest/0A853BDD8",
     "uid": "01JRGVFWM2N1H8Y817R9KWZPD9",
     "reference": "123456789",
     "cip": "0A853BD9"
@@ -119,20 +119,20 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 ```json
 {
-    "uid": "01KCMCJP1SCTKEMVT58JZVBJGZ",
+    "uid": "01KCNCJP1SCTKEMVT57JZVBJGZ",
     "status": "success",
-    "amount": "134.70",
+    "amount": "100.90",
     "method": "Pago de Servicios PE",
-    "reference": "17659158423907",
-    "clientEmail": "daniel.rivera@prontopaga.com",
-    "clientDocument": "478921766",
-    "order": "144121",
+    "reference": "17559158613909",
+    "clientEmail": "johndoe@example.com",
+    "clientDocument": "12345678912",
+    "order": "1234",
     "currency": "PEN",
     "country": "PE",
     "method_type": null,
     "method_detail": null,
-    "hash": "789cec4da3d7251974a4da660b417169",
-    "sign": "c30770d0a128eb537e9bf26948c497ae7e4139a6e8fda8787eb9444a4771996d"
+    "hash": "789cec4be3d8251974a4da660b417169",
+    "sign": "Signature of the parameters"
 }
 ```
 
@@ -144,18 +144,18 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 {
     "uid": "01KCMB9Q4SQVVP1Z08030ZG9JE",
     "status": "expired",
-    "amount": "35.02",
+    "amount": "100.90",
     "method": "Pago de Servicios PE",
-    "reference": "17659145008994",
-    "clientEmail": "daniel.rivera@prontopaga.com",
-    "clientDocument": "478921766",
-    "order": "51917",
+    "reference": "17559158613909",
+    "clientEmail": "johndoe@example.com",
+    "clientDocument": "12345678912",
+    "order": "1234",
     "currency": "PEN",
     "country": "PE",
     "method_type": null,
     "method_detail": null,
-    "hash": "3fb8cc86561672f93f151dac33f3115d",
-    "sign": "92e20007ffdfad90aeb04ec783c38c8d375624c61ff205dc2ab30469be6910d1"
+    "hash": "3fb8cc86561672p91f152dac33f3115d",
+    "sign": "Signature of the parameters"
 }
 ```
 
