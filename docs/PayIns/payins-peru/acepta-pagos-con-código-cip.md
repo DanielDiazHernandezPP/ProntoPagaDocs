@@ -6,14 +6,16 @@ hidden: true
 metadata:
   robots: index
 ---
-Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para la versión web como para la versión _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria. 
+Crear un pago con **código CIP (Código de Identificación de Pago único)** en Perú consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-El CIP contiene el monto a pagar y una fecha de expiración.
+Además, los pagos con código CIP utilizan el método de autenticación _Basic Auth_, que permite autenticar y autorizar el acceso al servicio.
+
+La solicitud de pago podrá realizarse tanto en la versión web como _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria.
 
 <Callout icon="👍" theme="okay">
   **CIP**
 
-  El **Código de Identificación de Pago único (CIP)** es generado por ProntoPaga y vincula una operación específica con el usuario.
+  El **(CIP)** incluye el monto a pagar y la fecha de expiración.
 </Callout>
 
 ***
