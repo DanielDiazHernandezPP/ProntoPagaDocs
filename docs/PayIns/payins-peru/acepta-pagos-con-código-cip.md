@@ -6,9 +6,9 @@ hidden: true
 metadata:
   robots: index
 ---
-Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para la versión web como para la versión _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria.
+Crear un pago con esta modalidad consiste en hacer una solicitud para crear un **código CIP** a través de nuestra API. Esta solicitud podrá realizarse tanto para la versión web como para la versión _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria. 
 
-CIP contiene el monto a pagar y tiene una fecha de expiración.
+El CIP contiene el monto a pagar y una fecha de expiración.
 
 <Callout icon="👍" theme="okay">
   **CIP**
