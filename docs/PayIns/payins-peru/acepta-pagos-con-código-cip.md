@@ -152,8 +152,8 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
     "order": "1234",
     "currency": "PEN",
     "country": "PE",
-    "method_type": null,
-    "method_detail": null,
+    "method_type": "null",
+    "method_detail": "null",
     "hash": "3fb8cc86561672p91f152dac33f3115d",
     "sign": "Signature of the parameters"
 }
