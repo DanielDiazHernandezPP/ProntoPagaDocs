@@ -26,8 +26,6 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
 MACH y Mercado Pago son billeteras digitales utilizadas en Chile que permiten realizar pagos en línea a través de sus aplicaciones. Para completar una transacción utilizando estos métodos de pago, el cliente debe seleccionar la opción "Paga con QR/Wallet - MACH" o "Paga con QR/Wallet - MercadoPago", tener una cuenta creada con saldo disponible o un medio de pago vinculado, y aprobar el pago desde la aplicación.
@@ -165,7 +163,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3).
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
