@@ -33,7 +33,7 @@ La solicitud de pago podrá realizarse tanto en la versión web como _mobile_. U
 <Callout icon="👍" theme="okay">
   **CIP**
 
-  El **(CIP)** incluye el monto a pagar y la fecha de expiración.
+  El **CIP** incluye el monto a pagar y la fecha de expiración.
 </Callout>
 
 ***
