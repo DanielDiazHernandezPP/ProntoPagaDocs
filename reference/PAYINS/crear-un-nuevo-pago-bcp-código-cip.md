@@ -13,3 +13,10 @@ link:
 metadata:
   robots: index
 ---
+Endpoint para crear un nuevo pago en Perú, con código CIP en BCP. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario.
+
+> 📘 Datos del cliente
+>
+> Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
+
+<br />
