@@ -100,8 +100,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 ```json
 {
-    "urlPay": "https://prontopaga.com/payment/rest/0A852BBB8",
-    "uid": "01JRGVFWM2N1H8Y817R9KWZPD9",
+    "urlPay": "https://www.webhook.com",
+    "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
     "reference": "123456789",
     "cip": "0A853BD9"
 }
@@ -142,7 +142,7 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 ```json
 {
-    "uid": "01KCMB9Q4SQVVP1Z08030ZG9JE",
+    "uid": "01KCMB9Q2SQVVP1Z07030ZG9JE",
     "status": "expired",
     "amount": "100.90",
     "method": "Pago de Servicios PE",
@@ -177,8 +177,8 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   "order": [string] // Payment identifier to be associated with 
   "currency": [string] // ISO currency code 
   "country": [string] // International Country Format 
-  "method_type": [string] // Method type 
-  "method_detail": [string] // Method details 
+  "method_type": [string] // null 
+  "method_detail": [string] // null
   "hash": [string] // Security hash parameter 
   "sign": [string] // Signature of the parameters
 }
