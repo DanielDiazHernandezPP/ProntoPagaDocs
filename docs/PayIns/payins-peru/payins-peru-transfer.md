@@ -26,11 +26,11 @@ Crear un pago en Perú por medio de transferencia bancaria consiste en capturar 
 
 ***
 
-<br />
-
 ## ¿Cómo funciona?
 
-Paga con Tu Banco (Transferencia) es un método utilizado en Perú donde se realiza transferencia electrónica de fondos entre cuentas bancarias. Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción "Paga con tu Banco", ingresar a su cuenta con su número de identificación, número de tarjeta y la clave de internet de 6 dígitos. Luego, debe seleccionar la cuenta desde la cual desea realizar la transferencia e ingresar su token para autorizar la operación.
+Paga con Tu Banco (Transferencia) es un método utilizado en Perú donde se realiza transferencia electrónica de fondos entre cuentas bancarias. 
+
+Para completar una transacción utilizando este método de pago, el cliente debe seleccionar la opción **Paga con tu Banco**, ingresar a su cuenta con su número de identificación, número de tarjeta y la clave de internet de 6 dígitos. Luego, debe seleccionar la cuenta desde la cual desea realizar la transferencia e ingresar su token para autorizar la operación.
 
 El proceso de pago con transferencia en Perú consta de cuatro etapas principales:
 
