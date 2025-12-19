@@ -6844,8 +6844,8 @@
                   "properties": {}
                 },
                 "examples": {
-                  "Bad Request": {
-                    "summary": "Bad Request",
+                  "Expired payment": {
+                    "summary": "Expired payment",
                     "value": {
                       "uid": "01KCMB9Q2SQVVP1Z07030ZG9JE",
                       "status": "expired",
