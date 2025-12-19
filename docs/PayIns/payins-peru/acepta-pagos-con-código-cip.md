@@ -100,7 +100,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 ```json
 {
-    "urlPay": "https://prontopaga.com/payment/rest/0A853BDD8",
+    "urlPay": "https://prontopaga.com/payment/rest/0A852BBB8",
     "uid": "01JRGVFWM2N1H8Y817R9KWZPD9",
     "reference": "123456789",
     "cip": "0A853BD9"
