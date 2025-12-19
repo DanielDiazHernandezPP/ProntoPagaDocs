@@ -4,6 +4,24 @@ excerpt: 'Conoce el paso a paso de cómo crear un pago con código CIP en Perú.
 deprecated: false
 hidden: true
 metadata:
+  title: Acepta pagos con código CIP| ProntoPaga Docs
+  description: >-
+    ProntoPaga offers CIP code payments in Peru via BCP, allowing merchants to
+    generate secure and reliable payment requests with minimal friction.
+
+    Users can complete the payment through BCP channels, enabling fast,
+    traceable, and easily reconcilable transactions.
+  image: >-
+    https://files.readme.io/0a17be7e0d9585a7ed98e7b72a71d4fb35feb01bd50a26dd08b12ee64feeed19-Prontopaga_logotipo.png
+  keywords:
+    - CIP payments
+    - BCP
+    - CIP
+    - payments
+    - Prontopaga Peru
+    - Peru CIP payment  CIP payment code  Bank payment code
+    - Peru
+    - ''
   robots: index
 ---
 Crear un pago con **código CIP (Código de Identificación de Pago único)** en Perú consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
