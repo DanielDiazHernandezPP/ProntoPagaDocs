@@ -30,7 +30,7 @@ Crear un pago en efectivo en Perú consiste en capturar los datos necesarios del
 
 ## ¿Cómo funciona?
 
-Los pagos en efectivo son un método utilizado en Perú para compras en línea, sin necesidad de tarjeta o cuenta bancaria. Los pagos se realizan mediante un código de pago único (CIP), que el cliente puede usar para pagar en establecimientos afiliados, como bancos, agentes autorizados y tiendas de conveniencia. Para utilizar este método, el cliente debe seleccionar la opción *Paga con PagoEfectivo*, generar el CIP, presentarlo (impreso o en su celular) en un punto autorizado y realizar el pago.
+Los pagos en efectivo son un método utilizado en Perú para compras en línea, sin necesidad de tarjeta o cuenta bancaria. Los pagos se realizan mediante un código de pago único (CIP), que el cliente puede usar para pagar en establecimientos afiliados, como bancos, agentes autorizados y tiendas de conveniencia. Para utilizar este método, el cliente debe seleccionar la opción **Paga con PagoEfectivo**, generar el CIP, presentarlo (impreso o en su celular) en un punto autorizado y realizar el pago.
 
 El proceso de pago con efectivo en Perú consta de seis etapas principales:
 
