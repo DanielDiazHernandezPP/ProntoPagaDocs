@@ -22,7 +22,7 @@ La solicitud de pago podrá realizarse tanto en la versión web como _mobile_. U
 
 ## ¿Cómo funciona?
 
-BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe iniciar sesión en:
+**BCP** es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe iniciar sesión en:
 
 * Yape
 * VíaBCP (banca por internet)
@@ -53,7 +53,7 @@ El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
   </Card>
 </Cards>
 
-4. **Pago**. El monto se recaudará directamente de la cuenta BCP del cliente.
+4. **Pago**. ProntoPaga valida la información del pago.
 5. **Confirmación**. El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los _webhooks_ que hayas configurado.
 
 ***
