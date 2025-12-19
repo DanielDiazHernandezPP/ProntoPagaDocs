@@ -6823,8 +6823,8 @@
                       "sign": "Signature of the parameters"
                     }
                   },
-                  "Service Payment Response": {
-                    "summary": "Service Payment Response",
+                  "Service payment response": {
+                    "summary": "Service payment response",
                     "value": {
                       "urlPay": "https://www.webhook.com",
                       "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
