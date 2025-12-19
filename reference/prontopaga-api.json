@@ -6817,8 +6817,8 @@
                       "order": "1234",
                       "currency": "PEN",
                       "country": "PE",
-                      "method_type": null,
-                      "method_detail": null,
+                      "method_type": "null",
+                      "method_detail": "null",
                       "hash": "789cec4be3d8251974a4da660b417169",
                       "sign": "Signature of the parameters"
                     }
