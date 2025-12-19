@@ -6800,7 +6800,7 @@
         "operationId": "get_new-endpoint-1",
         "responses": {
           "200": {
-            "description": "",
+            "description": "Successful",
             "content": {
               "application/json": {
                 "examples": {
