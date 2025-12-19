@@ -25,8 +25,6 @@ next:
 ---
 Crear un pago en Perú con QR consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
-
 **Hay dos formas de integrar este método en tu comercio:**
 
 * [QR con interfaz estándar (flujo completo)](https://docs.prontopaga.com/docs/payins-peru-qr#qr-con-interfaz-est%C3%A1ndar-flujo-completo): Para quienes desean usar nuestra interfaz ya construida, en donde se genera y se muestra el QR automáticamente al usuario final. Incluye experiencia visual y seguimiento del estado del pago.
