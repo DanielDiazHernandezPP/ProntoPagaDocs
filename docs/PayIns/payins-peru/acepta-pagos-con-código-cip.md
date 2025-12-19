@@ -107,13 +107,59 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 }
 ```
 
-### Consulta de un pago
+### Pago exitoso
 
 Una vez que el usuario haya completado el proceso de pago, ProntoPaga le notificará el resultado de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
+
+#### Ejemplo de respuesta para pago exitoso
+
+```json
+{
+    "uid": "01KCMCJP1SCTKEMVT58JZVBJGZ",
+    "status": "success",
+    "amount": "134.70",
+    "method": "Pago de Servicios PE",
+    "reference": "17659158423907",
+    "clientEmail": "daniel.rivera@prontopaga.com",
+    "clientDocument": "478921766",
+    "order": "144121",
+    "currency": "PEN",
+    "country": "PE",
+    "method_type": null,
+    "method_detail": null,
+    "hash": "789cec4da3d7251974a4da660b417169",
+    "sign": "c30770d0a128eb537e9bf26948c497ae7e4139a6e8fda8787eb9444a4771996d"
+}
+```
+
+<br />
+
+#### Ejemplo de respuesta para pago expirado
+
+```json
+{
+    "uid": "01KCMB9Q4SQVVP1Z08030ZG9JE",
+    "status": "expired",
+    "amount": "35.02",
+    "method": "Pago de Servicios PE",
+    "reference": "17659145008994",
+    "clientEmail": "daniel.rivera@prontopaga.com",
+    "clientDocument": "478921766",
+    "order": "51917",
+    "currency": "PEN",
+    "country": "PE",
+    "method_type": null,
+    "method_detail": null,
+    "hash": "3fb8cc86561672f93f151dac33f3115d",
+    "sign": "92e20007ffdfad90aeb04ec783c38c8d375624c61ff205dc2ab30469be6910d1"
+}
+```
+
+<br />
 
 ### Detalles de un pago
 
