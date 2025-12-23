@@ -6846,7 +6846,7 @@
       }
     },
     "/payment/arqr/cancel/{uid}": {
-      "post": {
+      "get": {
         "description": "",
         "operationId": "get_new-endpoint-v1",
         "responses": {
@@ -6876,21 +6876,11 @@
             "schema": {
               "type": "string"
             },
-            "required": true
+            "required": true,
+            "description": "String que identifica el Payment."
           }
         ],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{\n  \"checkoutId\": \"chk_abc133xyz\"\n}",
-              "language": "json",
-              "name": ""
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
+        "x-readme": {},
         "security": [
           {
             "BearerAuth": []
