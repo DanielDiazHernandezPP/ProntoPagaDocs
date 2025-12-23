@@ -207,6 +207,7 @@ Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/
   "method_detail": [string] // null
   "hash": [string] // Security hash parameter 
   "sign": [string] // Signature of the parameters
+  "cip": [string] // Generated CIP code
 }
 ```
 
