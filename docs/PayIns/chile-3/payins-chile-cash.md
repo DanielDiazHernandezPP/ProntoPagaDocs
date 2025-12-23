@@ -1,5 +1,5 @@
 ---
-title: Efectivo
+title: '[DEPRECADO] Efectivo'
 excerpt: ''
 deprecated: false
 hidden: true
