@@ -6804,8 +6804,17 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "Details of a payment": {
-                    "summary": "Details of a payment",
+                  "Successful payment creation": {
+                    "summary": "Successful payment creation",
+                    "value": {
+                      "urlPay": "https://www.webhook.com",
+                      "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
+                      "reference": "123456789",
+                      "cip": "0A853BD9"
+                    }
+                  },
+                  "Details of a payment - success": {
+                    "summary": "Details of a payment - success",
                     "value": {
                       "uid": "01KCNCJP1SCTKEMVT57JZVBJGZ",
                       "status": "success",
@@ -6824,8 +6833,8 @@
                       "cip": "42277677"
                     }
                   },
-                  "Expired CIP payment": {
-                    "summary": "Expired CIP payment",
+                  "Details of a payment - Expired": {
+                    "summary": "Details of a payment - Expired",
                     "value": {
                       "uid": "01KCMB9Q2SQVVP1Z07030ZG9JE",
                       "status": "expired",
@@ -6842,15 +6851,6 @@
                       "hash": "3fb8cc86561672p91f152dac33f3115d",
                       "sign": "Signature of the parameters",
                       "cip": "42277677"
-                    }
-                  },
-                  "Successful payment creation": {
-                    "summary": "Successful payment creation",
-                    "value": {
-                      "urlPay": "https://www.webhook.com",
-                      "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
-                      "reference": "123456789",
-                      "cip": "0A853BD9"
                     }
                   }
                 }
