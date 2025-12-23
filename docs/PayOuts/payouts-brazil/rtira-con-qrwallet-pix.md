@@ -42,24 +42,24 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json
 {
-  "amount": "100.90",
-  "document_id": "12345678912",
-  "beneficiaryName": "John",
-  "beneficiaryLastName": "Doe",
-  "beneficiaryEmail": "johndoe@example.com",
-  "beneficiaryPhone": "999999999",
-  "accountType": "1",
-  "bankCode": "633",
-  "data": "XYZ789",
-  "confirmationURL": "https://www.webhook.com",
-  "currency": "BRL",
-  "country": "BR",
-  "pagamentoType": 1,
-  "type": "beneficiaryPhone",
-  "accountNumber": "11111111",
-  "agency": "string",
-  "ispb": "string",
-  "sign": "Signature of the parameters"
+    "amount": "100.00",
+    "document_id":"604.184.437-34",
+    "beneficiaryName": "test",
+    "beneficiaryLastName":"qa",
+    "beneficiaryEmail": "test@prontopaga.com",
+    "beneficiaryPhone" : "5511963197695",
+    "accountType" :"SL",
+    "bankCode" : "001",
+    "data": randomData,
+    "confirmationURL": "https://sandbox.prontopaga.com/test/logs",
+    "currency" : "BRL",
+    "country" : "BR",
+    "pagamentoType" : "1",
+    "Type" : "payment",
+    'accountNumber' :"10000294290",
+    'agency' : "0001",
+    'ispb' :'30980539',
+    "sign": "Signature of the parameters"
 }
 ```
 
