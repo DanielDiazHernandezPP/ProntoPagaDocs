@@ -6867,6 +6867,25 @@
               }
             },
             "description": "Bad Request"
+          },
+          "401": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Unauthorized": {
+                    "summary": "Unauthorized",
+                    "value": {
+                      "message": "Token could not be found."
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Unauthorized"
           }
         },
         "parameters": [],
