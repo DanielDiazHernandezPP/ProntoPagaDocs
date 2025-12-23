@@ -90,3 +90,35 @@ La certificación de la integración en _sandbox_ es un paso obligatorio que tod
 ### Requisitos de certificación
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
+
+<br />
+
+<Tabs>
+  <Tab title="ID del cliente">
+    * ❌ El documento de identidad del cliente no debe ser modificable en ningún punto de la transacción.
+    * ✅ Es recomendable que este dato no se muestre en el *checkout*. Solo puede estar disponible en la sección de perfil del usuario autenticado.
+    * ⚠️ Esta medida tiene como objetivo prevenir fraudes y evitar que se realicen transacciones en nombre de terceros o menores de edad.
+  </Tab>
+
+  <Tab title="Logotipos">
+    * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/EtPhXrMz3TxAtA11de5jVZEB3yowkpS1i2v6lm_eMKkB7g?e=KXcZX5).
+    * 🔎 Todos los nombres y logos de los métodos de retiro habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+    * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
+  </Tab>
+
+  <Tab title="Mensajes al usuario">
+    * ✅ El *checkout* debe incluir mensajes claros y visibles que orienten al usuario durante todo el proceso.
+
+    ❗ Es obligatorio mostrar:
+
+    * ℹ️ Montos mínimos y máximos permitidos para cada método de retiro.
+    * ℹ️ Estados transaccionales con claridad: por ejemplo, **Transacción aprobada** o **Transacción rechazada**, junto con una sugerencia de los pasos a seguir en caso de que corresponda.
+  </Tab>
+
+  <Tab title="Consideraciones importantes">
+    * ❌ No almacenar datos sensibles del cliente en tu base de datos.
+    * ✅ La certificación se otorga únicamente si estos requisitos se cumplen en su totalidad en el entorno de *sandbox*.
+    * 💻 Una vez validada la integración, se habilitarán las credenciales para el entorno productivo.
+    * ⚠️ El incumplimiento de estos requisitos podrá resultar en la denegación de la certificación.
+  </Tab>
+</Tabs>
