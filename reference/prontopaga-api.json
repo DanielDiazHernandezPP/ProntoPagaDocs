@@ -6858,7 +6858,7 @@
                   "OK": {
                     "summary": "OK",
                     "value": {
-                      "checkoutId": "chk_abc123xyz",
+                      "Id": "chk_abc123xyz",
                       "status": "cancelled",
                       "message": "Transaction cancelled successfully",
                       "cancelledAt": "2025-11-26T11:00:00Z"
