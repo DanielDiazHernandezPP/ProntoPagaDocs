@@ -47,7 +47,9 @@ La solicitud de pago podrá realizarse tanto en la versión web como _mobile_. U
 * Telecrédito web BCP (banca negocios)
 * Banca Móvil BCP (_app_)
 
-El proceso de pago con código CIP en Perú consta de cuatro etapas principales:
+El proceso de pago con código CIP en Perú consta de cinco etapas principales:
+
+<Image align="center" border={false} src="https://files.readme.io/609df4ee66d48ba0a90265b3633cb48b6bb95021860e987b8fb136585ffa950b-payIn-peru_-_6.jpg" />
 
 1. **Selección de método.** El cliente elige pagar vía banca por internet/móvil BCP en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga genera el **código CIP** y muestra al cliente los datos para realizar el pago.
@@ -125,7 +127,7 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
     "urlPay": "https://www.webhook.com",
     "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
     "reference": "123456789",
-    "cip": "0A853BD9"
+    "cip": "42277677"
 }
 ```
 
@@ -151,10 +153,11 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
     "order": "1234",
     "currency": "PEN",
     "country": "PE",
-    "method_type": null,
-    "method_detail": null,
+    "method_type": "null",
+    "method_detail": "null",
     "hash": "789cec4be3d8251974a4da660b417169",
     "sign": "Signature of the parameters"
+    "cip": "42277677"
 }
 ```
 
