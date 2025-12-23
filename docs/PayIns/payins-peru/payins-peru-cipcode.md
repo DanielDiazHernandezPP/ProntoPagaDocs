@@ -156,7 +156,7 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
     "method_type": "null",
     "method_detail": "null",
     "hash": "789cec4be3d8251974a4da660b417169",
-    "sign": "Signature of the parameters"
+    "sign": "Signature of the parameters",
     "cip": "42277677"
 }
 ```
@@ -180,7 +180,8 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
     "method_type": "null",
     "method_detail": "null",
     "hash": "3fb8cc86561672p91f152dac33f3115d",
-    "sign": "Signature of the parameters"
+    "sign": "Signature of the parameters",    
+    "cip": "42277677"
 }
 ```
 
