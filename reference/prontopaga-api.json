@@ -6813,26 +6813,6 @@
                       "cip": "0A853BD9"
                     }
                   },
-                  "Details of a payment - success": {
-                    "summary": "Details of a payment - success",
-                    "value": {
-                      "uid": "01KCNCJP1SCTKEMVT57JZVBJGZ",
-                      "status": "success",
-                      "amount": "100.90",
-                      "method": "Pago de Servicios PE",
-                      "reference": "17559158613909",
-                      "clientEmail": "johndoe@example.com",
-                      "clientDocument": "12345678912",
-                      "order": "1234",
-                      "currency": "PEN",
-                      "country": "PE",
-                      "method_type": "null",
-                      "method_detail": "null",
-                      "hash": "789cec4be3d8251974a4da660b417169",
-                      "sign": "Signature of the parameters",
-                      "cip": "42277677"
-                    }
-                  },
                   "Details of a payment - Expired": {
                     "summary": "Details of a payment - Expired",
                     "value": {
@@ -6849,6 +6829,26 @@
                       "method_type": "null",
                       "method_detail": "null",
                       "hash": "3fb8cc86561672p91f152dac33f3115d",
+                      "sign": "Signature of the parameters",
+                      "cip": "42277677"
+                    }
+                  },
+                  "Details of a payment - Success": {
+                    "summary": "Details of a payment - Success",
+                    "value": {
+                      "uid": "01KCNCJP1SCTKEMVT57JZVBJGZ",
+                      "status": "success",
+                      "amount": "100.90",
+                      "method": "Pago de Servicios PE",
+                      "reference": "17559158613909",
+                      "clientEmail": "johndoe@example.com",
+                      "clientDocument": "12345678912",
+                      "order": "1234",
+                      "currency": "PEN",
+                      "country": "PE",
+                      "method_type": "null",
+                      "method_detail": "null",
+                      "hash": "789cec4be3d8251974a4da660b417169",
                       "sign": "Signature of the parameters",
                       "cip": "42277677"
                     }
