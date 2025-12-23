@@ -1,5 +1,5 @@
 ---
-title: Rtira con QR/Wallet PIX
+title: Retira con QR/Wallet PIX
 deprecated: false
 hidden: false
 metadata:
