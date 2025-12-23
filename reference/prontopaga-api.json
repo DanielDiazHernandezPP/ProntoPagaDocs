@@ -6640,69 +6640,6 @@
       }
     },
     "/ARG/payment/new": {},
-    "/transaction/cancellation": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint-v1",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "OK": {
-                    "summary": "OK",
-                    "value": {
-                      "checkoutId": "chk_abc123xyz",
-                      "status": "cancelled",
-                      "message": "Transaction cancelled successfully",
-                      "cancelledAt": "2025-11-26T11:00:00Z"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{\n  \"checkoutId\": \"chk_abc133xyz\"\n}",
-              "language": "json",
-              "name": ""
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "checkoutId": {
-                    "type": "string",
-                    "default": "checkout_123456",
-                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid`. "
-                  }
-                },
-                "required": [
-                  "checkoutId"
-                ]
-              }
-            }
-          }
-        }
-      }
-    },
     "/transaction/{checkoutId}": {},
     "/transaction/refund": {
       "post": {
@@ -6906,6 +6843,78 @@
             "BearerAuth": []
           }
         ]
+      }
+    },
+    "/payment/arqr/cancel/{uid}": {
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint-v1",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "checkoutId": "chk_abc123xyz",
+                      "status": "cancelled",
+                      "message": "Transaction cancelled successfully",
+                      "cancelledAt": "2025-11-26T11:00:00Z"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"checkoutId\": \"chk_abc133xyz\"\n}",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "checkoutId": {
+                    "type": "string",
+                    "default": "checkout_123456",
+                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid`. "
+                  }
+                },
+                "required": [
+                  "checkoutId"
+                ]
+              }
+            }
+          }
+        }
       }
     }
   },
