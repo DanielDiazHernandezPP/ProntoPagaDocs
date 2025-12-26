@@ -3619,7 +3619,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{\n  \"amount\": \"150.90\",\n  \"document_id\": \"12345678912\",\n  \"beneficiaryName\": \"John\",\n  \"beneficiaryLastName\": \"Doe\",\n  \"beneficiaryEmail\": \"johndoe@example.com\",\n  \"beneficiaryPhone\": \"999999999\",\n  \"accountType\": \"1\",\n  \"bankCode\": \"633\",\n  \"data\": \"XYZ789\",\n  \"confirmationURL\": \"https://www.webhook.com\",\n  \"currency\": \"BRL\",\n  \"country\": \"BR\",\n  \"pagamentoType\": 1,\n  \"type\": \"beneficiaryPhone\",\n  \"accountNumber\": \"11111111\",\n  \"agency\": \"string\",\n  \"ispb\": \"string\",\n\t\"sign\": \"Signature of the parameters\"\n}",
+              "code": "{\n    \"amount\": \"150.90\",\n    \"document_id\":\"123.456.789-12\",\n    \"beneficiaryName\": \"John\",\n    \"beneficiaryLastName\":\"Doe\",\n    \"beneficiaryEmail\": \"johndoe@example.com\",\n    \"beneficiaryPhone\" : \"55999999999\",\n    \"accountType\" :\"SL\",\n    \"bankCode\" : \"001\",\n    \"data\": \"XYZ789\",\n    \"confirmationURL\": \"https://www.webhook.com\",\n    \"currency\": \"BRL\",\n    \"country\": \"BR\",\n    \"pagamentoType\": \"1\",\n    \"type\": \"payment\",\n    \"accountNumber\" :\"11111111\",\n    \"agency\": \"0001\",\n    \"ispb\":\"30880529\",\n    \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Brazil PIX"
             }
