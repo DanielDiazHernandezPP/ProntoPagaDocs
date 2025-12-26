@@ -1,5 +1,5 @@
 ---
-title: Retira instántaneos con Pix
+title: Retiros instántaneos con Pix
 excerpt: Conoce el paso a paso de cómo hacer un retiro con Pix en Brasil.
 deprecated: false
 hidden: true
