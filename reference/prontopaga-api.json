@@ -3495,7 +3495,7 @@
                   },
                   "currency": {
                     "type": "string",
-                    "description": "Código ISO de la moneda: <b>BRL/USD</b>."
+                    "description": "Código ISO de la moneda: <b>BRL."
                   },
                   "country": {
                     "type": "string",
