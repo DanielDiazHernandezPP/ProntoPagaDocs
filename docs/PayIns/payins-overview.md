@@ -45,3 +45,7 @@ Un _PayIn_ se refiere a una transacción cuya finalidad es ingresar fondos en un
 Puedes probar algunos de los métodos de pago disponibles y hacer un ejemplo de cómo vería el proceso tu cliente final en el siguiente demo:
 
 <Embed url="https://experience.prontopaga.com/" href="https://experience.prontopaga.com/" typeOfEmbed="iframe" height="1000px" width="100%" iframe="true" />
+
+> 📘 **Pantalla de resultado**
+>
+> Durante el flujo de PayIns (pagos), contamos con una pantalla de resultado estandarizada que los comercios pueden utilizar. Adicionalmente, cada comercio puede desarrollar y gestionar su propia pantalla de resultado de manera independiente.
