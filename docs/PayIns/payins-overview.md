@@ -48,4 +48,4 @@ Puedes probar algunos de los métodos de pago disponibles y hacer un ejemplo de 
 
 > 📘 **Pantalla de resultado**
 >
-> Durante el flujo de PayIns (pagos), contamos con una pantalla de resultado estandarizada que los comercios pueden utilizar. Adicionalmente, cada comercio puede desarrollar y gestionar su propia pantalla de resultado de manera independiente.
+> Durante el flujo de PayIns (pagos), contamos con una pantalla de resultado estandarizada que puedes utilizar. Adicionalmente, puedes desarrollar y gestionar tu pantalla de resultado de manera independiente.
