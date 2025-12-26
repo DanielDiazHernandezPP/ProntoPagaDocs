@@ -1,6 +1,6 @@
 ---
-title: Retira instántaneos con PIX
-excerpt: Conoce el paso a paso de cómo hacer un retiro con PIX en Brasil.
+title: Retira instántaneos con Pix
+excerpt: Conoce el paso a paso de cómo hacer un retiro con Pix en Brasil.
 deprecated: false
 hidden: true
 metadata:
@@ -14,27 +14,27 @@ El flujo incluye una validación de pago a terceros, mediante la cual se verific
 
 ## ¿Cómo funciona?
 
-PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, que permite realizar transacciones en tiempo real mediante códigos QR, claves PIX o transferencias directas. Para completar una transacción con este método de retiro, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil y registrarse en el sistema Pix.
+Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, que permite realizar transacciones en tiempo real mediante códigos QR, claves Pix o transferencias directas. Para completar una transacción con este método de retiro, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil y registrarse en el sistema Pix.
 
-El proceso de PayOut con QR/Wallet PIX consta de cinco etapas principales:
+El proceso de PayOut con QR/Wallet Pix consta de cinco etapas principales:
 
 <Image align="center" border={false} src="https://files.readme.io/8ca29e682667c63a0323926a1ed2216aaec0c665ead429c0f8e043d59b45e92b-Pipx-01.jpg" />
 
-1. **Selección de método.** El cliente elige retirar dinero con PIX en tu sitio web o aplicación.
-2. **Ingreso de datos.** El cliente ingresa los datos necesarios para que el retiro sea realizado y confirma la transacción.
-3. **Validación de datos.** ProntoPaga valida la infomación e inicia la solicitud del retiro.
+1. **Selección de método.** El cliente elige retirar dinero con Pix en tu sitio web o aplicación.
+2. **Ingreso de datos.** El cliente ingresa los datos necesarios para realizar el retiro y confirma la transacción.
+3. **Validación de datos.** ProntoPaga valida la información e inicia la solicitud del retiro.
 4. **Captura.**  Se aprueba el retiro y el dinero se mueve desde la cuenta del comercio hacia la cuenta del cliente.
-5. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los webhooks que hayas configurado.
+5. **Confirmación.** El cliente recibe una confirmación de retiro exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación a través de los _webhooks_ que hayas configurado.
 
 ***
 
 ## Crea un nuevo retiro
 
-Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar [este endpoint](https://docs.prontopaga.com/reference/payout-brazil-pix). La solicitud se envía con tu Bearer Token, así como con tu secretKey.
+Para hacer una solicitud de nuevo retiro a través de nuestra API deberás usar [este endpoint](https://docs.prontopaga.com/reference/payout-brazil-pix). La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_.
 
 <NotaFirma />
 
-Además, debes incluir los datos necesarios del cliente al que le mandarás el dinero, como: nombre, apellido, correo electrónico, teléfono, ID, cuenta, entre otros.
+Además, debes incluir los datos necesarios del cliente al que le mandarás el dinero, como nombre, apellido, correo electrónico, teléfono, ID, cuenta, entre otros.
 
 <NotaWebhooks />
 
@@ -44,16 +44,16 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ```json
 {
-    "amount": "100.00",
+    "amount": "150.90",
     "document_id":"604.184.437-34",
-    "beneficiaryName": "test",
-    "beneficiaryLastName":"qa",
-    "beneficiaryEmail": "test@prontopaga.com",
-    "beneficiaryPhone" : "5511963197695",
+    "beneficiaryName": "John",
+    "beneficiaryLastName":"Doe",
+    "beneficiaryEmail": "johndoe@example.com",
+    "beneficiaryPhone" : "55999999999",
     "accountType" :"SL",
     "bankCode" : "001",
     "data": randomData,
-    "confirmationURL": "https://sandbox.prontopaga.com/test/logs",
+    "confirmationURL": "https://www.webhook.com",
     "currency" : "BRL",
     "country" : "BR",
     "pagamentoType" : "1",
