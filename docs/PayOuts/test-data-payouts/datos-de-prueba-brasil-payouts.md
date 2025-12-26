@@ -11,15 +11,6 @@ metadata:
 Datos de pruebas para retiro con Pix en Brasil.
 
 <HTMLBlock>{`
-<style>
-  table tbody td:first-child,
-  table thead th:first-child {
-    background: #fff !important;  
-  }
-
-  table tbody tr td:first-child {
-    box-shadow: inset 0 0 0 9999px #fff !important;
-  }
 </style>
 
 <table>
