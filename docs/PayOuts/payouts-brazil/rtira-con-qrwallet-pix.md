@@ -57,7 +57,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
     "currency": "BRL",
     "country": "BR",
     "pagamentoType": "1",
-    "type": "payment",
+    "Type": "payment",
     "accountNumber" :"11111111",
     "agency": "0001",
     "ispb":'30880529',
