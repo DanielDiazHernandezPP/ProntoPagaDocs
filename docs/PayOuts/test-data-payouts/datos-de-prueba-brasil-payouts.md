@@ -11,6 +11,17 @@ metadata:
 Datos de pruebas para retiro con Pix en Brasil.
 
 <HTMLBlock>{`
+<style>
+  table {
+    background: Canvas;
+  }
+
+  table tbody td:first-child {
+    background: Canvas !important;
+    /* Truco: tapa el background que venga del <tr> */
+    box-shadow: inset 0 0 0 9999px Canvas !important;
+  }
+
 </style>
 
 <table>
@@ -66,3 +77,5 @@ Datos de pruebas para retiro con Pix en Brasil.
   </tbody>
 </table>
 `}</HTMLBlock>
+
+<br />
