@@ -3479,7 +3479,7 @@
                   },
                   "accountType": {
                     "type": "string",
-                    "description": "Tipo de cuenta bancaria. <br> Puede ser: <b>1/2/3/4</b>."
+                    "description": "Tipo de cuenta bancaria. <br> Puede ser: <b> `C `,  `SL `,  `S `,  `P `/b>."
                   },
                   "bankCode": {
                     "type": "string",
