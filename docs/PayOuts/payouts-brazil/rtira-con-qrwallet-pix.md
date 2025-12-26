@@ -45,7 +45,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 ```json
 {
     "amount": "150.90",
-    "document_id":"12345678912",
+    "document_id":"123.456.789-12",
     "beneficiaryName": "John",
     "beneficiaryLastName":"Doe",
     "beneficiaryEmail": "johndoe@example.com",
@@ -57,7 +57,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
     "currency": "BRL",
     "country": "BR",
     "pagamentoType": "1",
-    "Type": "payment",
+    "type": "payment",
     "accountNumber" :"11111111",
     "agency": "0001",
     "ispb":'30880529',
