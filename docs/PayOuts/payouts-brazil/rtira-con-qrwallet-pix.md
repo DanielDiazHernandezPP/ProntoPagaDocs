@@ -6,13 +6,15 @@ hidden: true
 metadata:
   robots: index
 ---
-Hacer un retiro en Brasil por medio de **Pix** consiste en capturar los datos necesarios de la persona que recibirá el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Hacer un retiro en Brasil por medio de **Pix** consiste en capturar los datos necesarios de la persona que recibirá el pago y realizar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
+
+El flujo incluye una validación de pago a terceros, mediante la cual se verifica que la cuenta de destino pertenece al mismo titular del CPF. Si la validación no se cumple, el retiro no se procesará.
 
 ***
 
 ## ¿Cómo funciona?
 
-PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como, transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de retiro, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil y registrarse en el sistema PIX.
+PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, que permite realizar transacciones en tiempo real mediante códigos QR, claves PIX o transferencias directas. Para completar una transacción con este método de retiro, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil y registrarse en el sistema Pix.
 
 El proceso de PayOut con QR/Wallet PIX consta de cinco etapas principales:
 
