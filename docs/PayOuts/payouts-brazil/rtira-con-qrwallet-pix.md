@@ -45,7 +45,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 ```json
 {
     "amount": "150.90",
-    "document_id":"604.184.437-34",
+    "document_id":"12345678912",
     "beneficiaryName": "John",
     "beneficiaryLastName":"Doe",
     "beneficiaryEmail": "johndoe@example.com",
@@ -54,26 +54,39 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
     "bankCode" : "001",
     "data": "XYZ789",
     "confirmationURL": "https://www.webhook.com",
-    "currency" : "BRL",
-    "country" : "BR",
-    "pagamentoType" : "1",
-    "Type" : "payment",
-    'accountNumber' :"10000184290",
-    'agency' : "0001",
-    'ispb' :'30880529',
+    "currency": "BRL",
+    "country": "BR",
+    "pagamentoType": "1",
+    "Type": "payment",
+    "accountNumber" :"10000184290",
+    "agency": "0001",
+    "ispb":'30880529',
     "sign": "Signature of the parameters"
 }
 ```
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema, el estado del retiro y datos adicionales de la transacción.
+Como respuesta a una solicitud de pago exitosa, recibirás un identificador del retiro en el sistema (`uid`), el estado del retiro y los datos adicionales de la transacción.
+
+#### Ejemplo de respuesta exitosa
+
+```json
+{
+    "uid": "01KCQ208BJ2VK463NMS1Z6CYAT",
+    "status": "new",
+    "data": "1675967931",
+    "reference": 15503
+}
+```
+
+<br />
 
 ### Confirmación de un retiro
 
 Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la transacción a la URL que especificaste en `confirmationURL`.
 
-Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+Para confirmar si una transacción fue exitosa, debes verificar que en tu _webhook_ el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
 
