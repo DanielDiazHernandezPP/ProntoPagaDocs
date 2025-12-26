@@ -80,6 +80,8 @@ Como respuesta a una solicitud de pago exitosa, recibirás un identificador del 
 }
 ```
 
+***
+
 <br />
 
 ### Confirmación de un retiro
@@ -89,6 +91,45 @@ Una vez que hayas completado el proceso, ProntoPaga devolverá los datos de la t
 Para confirmar si una transacción fue exitosa, debes verificar que en tu _webhook_ el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados de los PayOuts](https://docs.prontopaga.com/docs/payouts-status).
+
+***
+
+### Códigos bancarios
+
+```json
+["name" => "Banco do Brasil S.A.", "code" => "001", "country" => "BR", "acronym" => "BB", "pay_with_your_bank" => 0],
+            ["name" => "Banco BRB", "code" => "070", "country" => "BR", "acronym" => "BRB", "pay_with_your_bank" => 0],
+            ["name" => "Caixa Econômica Federal", "code" => "104", "country" => "BR", "acronym" => "CEF", "pay_with_your_bank" => 0],
+            ["name" => "Banco Inter S.A.", "code" => "077", "country" => "BR", "acronym" => "INTER", "pay_with_your_bank" => 0],
+            ["name" => "Sicredi", "code" => "748", "country" => "BR", "acronym" => "SIC", "pay_with_your_bank" => 0],
+            ["name" => "Banco Cooperativo Sicoob S.A.", "code" => "756", "country" => "BR", "acronym" => "SICOOB", "pay_with_your_bank" => 0],
+            ["name" => "Goldman Sachs do Brasil", "code" => "064", "country" => "BR", "acronym" => "GS", "pay_with_your_bank" => 0],
+            ["name" => "Banco Inbursa S.A.", "code" => "012", "country" => "BR", "acronym" => "INB", "pay_with_your_bank" => 0],
+            ["name" => "Banco do Nordeste do Brasil S.A.", "code" => "004", "country" => "BR", "acronym" => "BNB", "pay_with_your_bank" => 0],
+            ["name" => "PicPay Bank S.A.", "code" => "380", "country" => "BR", "acronym" => "PICPAY", "pay_with_your_bank" => 0],
+            ["name" => "Banco Agibank S.A.", "code" => "121", "country" => "BR", "acronym" => "AGI", "pay_with_your_bank" => 0],
+            ["name" => "Paraná Banco S.A.", "code" => "254", "country" => "BR", "acronym" => "PB", "pay_with_your_bank" => 0],
+            ["name" => "Banco Mercantil do Brasil S.A.", "code" => "389", "country" => "BR", "acronym" => "BMB", "pay_with_your_bank" => 0],
+            ["name" => "Banco Digio S.A.", "code" => "335", "country" => "BR", "acronym" => "DIGIO", "pay_with_your_bank" => 0],
+            ["name" => "Banco do Estado do Espírito Santo S.A.", "code" => "021", "country" => "BR", "acronym" => "BANESTES", "pay_with_your_bank" => 0],
+            ["name" => "Banco BTG Pactual S.A.", "code" => "208", "country" => "BR", "acronym" => "BTG", "pay_with_your_bank" => 0],
+            ["name" => "Banco C6 S.A.", "code" => "336", "country" => "BR", "acronym" => "C6", "pay_with_your_bank" => 0],
+            ["name" => "Banco XP S.A.", "code" => "348", "country" => "BR", "acronym" => "XP", "pay_with_your_bank" => 0],
+            ["name" => "Banco Safra S.A.", "code" => "422", "country" => "BR", "acronym" => "SAFRA", "pay_with_your_bank" => 0],
+            ["name" => "Banco Pan S.A.", "code" => "623", "country" => "BR", "acronym" => "PAN", "pay_with_your_bank" => 0],
+            ["name" => "Banco Votorantim S.A.", "code" => "655", "country" => "BR", "acronym" => "BV", "pay_with_your_bank" => 0],
+            ["name" => "Itaú Unibanco S.A.", "code" => "341", "country" => "BR", "acronym" => "ITAU", "pay_with_your_bank" => 0],
+            ["name" => "Banco Bradesco S.A.", "code" => "237", "country" => "BR", "acronym" => "BBDC", "pay_with_your_bank" => 0],
+            ["name" => "Banco Crefisa S.A.", "code" => "069", "country" => "BR", "acronym" => "CREFISA", "pay_with_your_bank" => 0],
+            ["name" => "Banco BMG S.A.", "code" => "318", "country" => "BR", "acronym" => "BMG", "pay_with_your_bank" => 0],
+            ["name" => "Banco Daycoval S.A.", "code" => "707", "country" => "BR", "acronym" => "DAYCOVAL", "pay_with_your_bank" => 0],
+            ["name" => "Banco Santander S.A.", "code" => "033", "country" => "BR", "acronym" => "SAN", "pay_with_your_bank" => 0],
+            ["name" => "Banco do Estado do Rio Grande do Sul S.A.", "code" => "041", "country" => "BR", "acronym" => "BANRISUL", "pay_with_your_bank" => 0],
+            ["name" => "Banco Original S.A.", "code" => "212", "country" => "BR", "acronym" => "ORIG", "pay_with_your_bank" => 0],
+            ["name" => "Nubank", "code" => "260", "country" => "BR", "acronym" => "NU", "pay_with_your_bank" => 0]
+```
+
+<br />
 
 ***
 
@@ -116,9 +157,9 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
- * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1MmsVaugP7ztzRXA_dK9wNrwKJOfHSL59).
-    * 🔎 Todos los nombres y logos de los métodos de retiro habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
-    * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
+    * 📥 Agregar los logotipos de los diferentes métodos de retiro de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://drive.google.com/uc?export=download\&id=1MmsVaugP7ztzRXA_dK9wNrwKJOfHSL59).
+      * 🔎 Todos los nombres y logos de los métodos de retiro habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
+      * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
 
   <Tab title="Mensajes al usuario">
