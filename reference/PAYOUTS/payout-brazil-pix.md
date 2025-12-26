@@ -70,10 +70,10 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Corrente</td></tr>
-    <tr><td>2</td><td>Salario</td></tr>
-    <tr><td>3</td><td>Poupança</td></tr>
-    <tr><td>4</td><td>Transacional</td></tr>
+    <tr><td>C</td><td>Corriente</td></tr>
+    <tr><td>SL</td><td>Sueldo</td></tr>
+    <tr><td>S</td><td>Ahorros</td></tr>
+    <tr><td>P</td><td>Pagos</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
