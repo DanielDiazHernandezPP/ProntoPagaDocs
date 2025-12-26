@@ -1,12 +1,12 @@
 ---
-title: Retira con QR/Wallet PIX
+title: Retira instántaneos con PIX
 excerpt: Conoce el paso a paso de cómo hacer un retiro con PIX en Brasil.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-Hacer un retiro en Brasil por medio de PIX consiste en capturar los datos necesarios de la persona que recibirá el pago y hacer una solicitud a través de nuestra API con un Bearer Token y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Hacer un retiro en Brasil por medio de **Pix** consiste en capturar los datos necesarios de la persona que recibirá el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 ***
 
