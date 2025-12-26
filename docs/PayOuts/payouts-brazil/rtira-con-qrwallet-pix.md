@@ -58,7 +58,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
     "country": "BR",
     "pagamentoType": "1",
     "Type": "payment",
-    "accountNumber" :"10000184290",
+    "accountNumber" :"11111111",
     "agency": "0001",
     "ispb":'30880529',
     "sign": "Signature of the parameters"
