@@ -3512,19 +3512,19 @@
                   },
                   "type": {
                     "type": "string",
-                    "description": "Este campo diferencia qué tipo de PIX se utilizará al generar el retiro, y se debe distinguir por: `document_id` (CPF), `beneficiaryEmail` o `beneficiaryPhone`."
+                    "description": "Este campo diferencia qué tipo de Pix se utilizará al generar el retiro y se debe distinguir por: `document_id` (CPF), `beneficiaryEmail` o `beneficiaryPhone`."
                   },
                   "accountNumber": {
                     "type": "string",
-                    "description": "Número de cuenta bancaria <b>(Solo tipo de pago 1)</b>"
+                    "description": "Número de cuenta bancaria <b>(Solo tipo de pago C)</b>"
                   },
                   "agency": {
                     "type": "string",
-                    "description": "Sucursal bancaria brasileña donde se realizará el retiro para el tipo de pago 2, retiro a cuenta bancaria <b>(Solo tipo de pago 1)</b>"
+                    "description": "Sucursal bancaria brasileña donde se realizará el retiro para el tipo de pago `SL`, retiro a cuenta bancaria <b>(Solo tipo de pago C)</b>"
                   },
                   "ispb": {
                     "type": "string",
-                    "description": "La ispb participante de la institución financiera asociada al contacto. <b>(Solo tipo de pago 1)</b>"
+                    "description": "La ispb participante de la institución financiera asociada al contacto. <b>(Solo tipo de pago C)</b>"
                   }
                 }
               },
