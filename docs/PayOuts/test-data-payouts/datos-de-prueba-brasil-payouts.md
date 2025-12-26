@@ -11,6 +11,14 @@ metadata:
 Datos de pruebas para retiro con Pix en Brasil.
 
 <HTMLBlock>{`
+{\`
+<style>
+  table td:first-child,
+  table th:first-child {
+    background-color: transparent !important;
+  }
+</style>
+
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
@@ -38,7 +46,7 @@ Datos de pruebas para retiro con Pix en Brasil.
       <td>104</td>
     </tr>
 
-    <!-- Otro CPF con 2 cuentas -->
+    <!-- CPF con 2 cuentas -->
     <tr>
       <td rowspan="2">081234567</td>
       <td>345678904</td>
