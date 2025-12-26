@@ -3507,7 +3507,7 @@
                   },
                   "pagamentoType": {
                     "type": "integer",
-                    "description": "Este es el campo diferenciador al solicitar un retiro PIX.  <br>   <ul>  <li>El valor `1` corresponde a un retiro con una cuenta bancaria.</li> <li>El valor `2` es un retiro con una clave PIX.</li> </ul>",
+                    "description": "Este es el campo diferenciador al solicitar un retiro PIX.  <br>   <ul>  <li>El valor `C` corresponde a un retiro con una cuenta corriente.</li> <li>El valor `SL` corresponde a un retiro con una cuenta sueldo.</li><li>El valor `S` corresponde a un retiro con una cuenta de ahorros.</li> <li>El valor `P` es un retiro con una cuenta de pagos.</li> </ul>",
                     "format": "int32"
                   },
                   "type": {
