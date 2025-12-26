@@ -11,19 +11,6 @@ metadata:
 Datos de pruebas para retiro con Pix en Brasil.
 
 <HTMLBlock>{`
-<style>
-  table {
-    background: Canvas;
-  }
-
-  table tbody td:first-child {
-    background: Canvas !important;
-    /* Truco: tapa el background que venga del <tr> */
-    box-shadow: inset 0 0 0 9999px Canvas !important;
-  }
-
-</style>
-
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
@@ -65,6 +52,7 @@ Datos de pruebas para retiro con Pix en Brasil.
       <td>077</td>
     </tr>
 
+    <!-- CPF con 2 cuentas -->
     <tr>
       <td rowspan="2">675498256</td>
       <td>678901236</td>
@@ -76,6 +64,10 @@ Datos de pruebas para retiro con Pix en Brasil.
     </tr>
   </tbody>
 </table>
+`}</HTMLBlock>
+
+<HTMLBlock>{`
+
 `}</HTMLBlock>
 
 <br />
