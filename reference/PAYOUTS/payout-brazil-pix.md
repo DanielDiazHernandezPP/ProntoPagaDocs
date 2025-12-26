@@ -80,25 +80,6 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 
 ***
 
-Estos son los posibles tipos de cuentas que se pueden enviar en el campo `pagamentoType`
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>Corrente</td></tr>
-    <tr><td>2</td><td>Salario</td></tr>
-    <tr><td>3</td><td>Poupança</td></tr>
-    <tr><td>4</td><td>Transacional</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
 <br />
 
 <NmeroDeCaracteres />
