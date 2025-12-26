@@ -52,15 +52,15 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
     "beneficiaryPhone" : "55999999999",
     "accountType" :"SL",
     "bankCode" : "001",
-    "data": randomData,
+    "data": "XYZ789",
     "confirmationURL": "https://www.webhook.com",
     "currency" : "BRL",
     "country" : "BR",
     "pagamentoType" : "1",
     "Type" : "payment",
-    'accountNumber' :"10000294290",
+    'accountNumber' :"10000184290",
     'agency' : "0001",
-    'ispb' :'30980539',
+    'ispb' :'30880529',
     "sign": "Signature of the parameters"
 }
 ```
