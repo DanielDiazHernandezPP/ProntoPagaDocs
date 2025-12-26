@@ -3563,14 +3563,36 @@
                 "examples": {
                   "Result": {
                     "value": {
-                      "uid": "162628883082839",
+                      "uid": "01KCQ208BJ2VK463NMS1Z6CYAT",
                       "status": "new",
-                      "data": "12347"
+                      "data": "1675967931",
+                      "reference": 15503
                     }
                   }
                 }
               }
             }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "error": {
+                        "accountNumber": "(string) accountNumber, cannot be null and account number must be valid."
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
           },
           "401": {
             "description": "Unauthorized",
