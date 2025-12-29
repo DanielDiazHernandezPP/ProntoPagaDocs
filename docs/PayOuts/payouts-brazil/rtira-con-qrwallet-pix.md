@@ -98,15 +98,13 @@ Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados 
 
 Los pagos Pix a través de ProntoPaga están disponibles para los principales bancos brasileños, incluidos Banco do Brasil, Itaú, Bradesco, Santander, Nubank, Caixa Econômica Federal, entre otros.
 
-<br />
-
 <table>
   <thead>
     <tr style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
-      <th><b>Bank name</b></th>
-      <th><b>Bank code</b></th>
-      <th><b>Acronym</b></th>
-      <th><b>Country</b></th>
+      <th><b>Banco</b></th>
+      <th><b>Código de banco</b></th>
+      <th><b>Acrónimo</b></th>
+      <th><b>País</b></th>
     </tr>
   </thead>
 
@@ -143,9 +141,6 @@ Los pagos Pix a través de ProntoPaga están disponibles para los principales ba
     <tr><td>Nubank</td><td>260</td><td>NU</td><td>BR</td></tr>
   </tbody>
 </table>
-
-
-
 
 ```json
 [
