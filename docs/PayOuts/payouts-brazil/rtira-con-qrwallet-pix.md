@@ -96,6 +96,56 @@ Conoce todos los estados posibles de un retiro en el siguiente enlace: [Estados 
 
 ### Códigos bancarios
 
+Los pagos Pix a través de ProntoPaga están disponibles para los principales bancos brasileños, incluidos Banco do Brasil, Itaú, Bradesco, Santander, Nubank, Caixa Econômica Federal, entre otros.
+
+```
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Bank name</b></th>
+      <th><b>Bank code</b></th>
+      <th><b>Acronym</b></th>
+      <th><b>Country</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Banco do Brasil S.A.</td><td>001</td><td>BB</td><td>BR</td></tr>
+    <tr><td>Banco BRB</td><td>070</td><td>BRB</td><td>BR</td></tr>
+    <tr><td>Caixa Econômica Federal</td><td>104</td><td>CEF</td><td>BR</td></tr>
+    <tr><td>Banco Inter S.A.</td><td>077</td><td>INTER</td><td>BR</td></tr>
+    <tr><td>Sicredi</td><td>748</td><td>SIC</td><td>BR</td></tr>
+    <tr><td>Banco Cooperativo Sicoob S.A.</td><td>756</td><td>SICOOB</td><td>BR</td></tr>
+    <tr><td>Goldman Sachs do Brasil</td><td>064</td><td>GS</td><td>BR</td></tr>
+    <tr><td>Banco Inbursa S.A.</td><td>012</td><td>INB</td><td>BR</td></tr>
+    <tr><td>Banco do Nordeste do Brasil S.A.</td><td>004</td><td>BNB</td><td>BR</td></tr>
+    <tr><td>PicPay Bank S.A.</td><td>380</td><td>PICPAY</td><td>BR</td></tr>
+    <tr><td>Banco Agibank S.A.</td><td>121</td><td>AGI</td><td>BR</td></tr>
+    <tr><td>Paraná Banco S.A.</td><td>254</td><td>PB</td><td>BR</td></tr>
+    <tr><td>Banco Mercantil do Brasil S.A.</td><td>389</td><td>BMB</td><td>BR</td></tr>
+    <tr><td>Banco Digio S.A.</td><td>335</td><td>DIGIO</td><td>BR</td></tr>
+    <tr><td>Banco do Estado do Espírito Santo S.A.</td><td>021</td><td>BANESTES</td><td>BR</td></tr>
+    <tr><td>Banco BTG Pactual S.A.</td><td>208</td><td>BTG</td><td>BR</td></tr>
+    <tr><td>Banco C6 S.A.</td><td>336</td><td>C6</td><td>BR</td></tr>
+    <tr><td>Banco XP S.A.</td><td>348</td><td>XP</td><td>BR</td></tr>
+    <tr><td>Banco Safra S.A.</td><td>422</td><td>SAFRA</td><td>BR</td></tr>
+    <tr><td>Banco Pan S.A.</td><td>623</td><td>PAN</td><td>BR</td></tr>
+    <tr><td>Banco Votorantim S.A.</td><td>655</td><td>BV</td><td>BR</td></tr>
+    <tr><td>Itaú Unibanco S.A.</td><td>341</td><td>ITAU</td><td>BR</td></tr>
+    <tr><td>Banco Bradesco S.A.</td><td>237</td><td>BBDC</td><td>BR</td></tr>
+    <tr><td>Banco Crefisa S.A.</td><td>069</td><td>CREFISA</td><td>BR</td></tr>
+    <tr><td>Banco BMG S.A.</td><td>318</td><td>BMG</td><td>BR</td></tr>
+    <tr><td>Banco Daycoval S.A.</td><td>707</td><td>DAYCOVAL</td><td>BR</td></tr>
+    <tr><td>Banco Santander S.A.</td><td>033</td><td>SAN</td><td>BR</td></tr>
+    <tr><td>Banco do Estado do Rio Grande do Sul S.A.</td><td>041</td><td>BANRISUL</td><td>BR</td></tr>
+    <tr><td>Banco Original S.A.</td><td>212</td><td>ORIG</td><td>BR</td></tr>
+    <tr><td>Nubank</td><td>260</td><td>NU</td><td>BR</td></tr>
+  </tbody>
+</table>
+
+```
+
+<br />
+
 ```json
 [
   {
