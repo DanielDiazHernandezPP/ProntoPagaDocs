@@ -18,7 +18,7 @@ Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Cen
 
 El proceso de PayOut con QR/Wallet Pix consta de cinco etapas principales:
 
-<Image align="center" border={false} src="https://files.readme.io/8ca29e682667c63a0323926a1ed2216aaec0c665ead429c0f8e043d59b45e92b-Pipx-01.jpg" />
+<Image align="center" border={false} src="https://files.readme.io/8ca61b0c8899ab002b7a8eff8f53a7472e2b70ade974d8e0c188c57b507962f9-payout_PIX_updated.jpg" />
 
 1. **Selección de método.** El cliente elige retirar dinero con Pix en tu sitio web o aplicación.
 2. **Ingreso de datos.** El cliente ingresa los datos necesarios para realizar el retiro y confirma la transacción.
@@ -80,9 +80,17 @@ Como respuesta a una solicitud de pago exitosa, recibirás un identificador del 
 }
 ```
 
-***
+#### Ejemplo de respuesta fallida
 
-<br />
+```json
+{
+  "error": {
+    "accountNumber": "(string) accountNumber, cannot be null and account number must be valid."
+  }
+}
+```
+
+***
 
 ### Confirmación de un retiro
 
