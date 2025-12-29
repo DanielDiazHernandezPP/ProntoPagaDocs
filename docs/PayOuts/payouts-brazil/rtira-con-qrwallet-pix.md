@@ -4,6 +4,23 @@ excerpt: Conoce el paso a paso de cómo hacer un retiro con Pix en Brasil.
 deprecated: false
 hidden: true
 metadata:
+  title: Retiros instantáneos con PIX | ProntoPaga Docs
+  description: >-
+    To make a payout in Brazil using PIX, capture the recipient's data and send
+    a request through the API. This guide explains the payout flow, required
+    parameters, webhook confirmation, and how to simulate transactions in
+    sandbox. 
+  image: >-
+    https://files.readme.io/69276560bcb6c6100323ea965acdc8783631849415630a2668f78468636be1e3-Prontopaga_Logotipo.JPG
+  keywords:
+    - how to make a pix payout
+    - Prontopaga brazil
+    - pix payouts
+    - integration
+    - pay outs Brasil prontopaga
+    - Pix Brazil
+    - create payout Pix
+    - Guide Brazil pay outs
   robots: index
 ---
 Hacer un retiro en Brasil por medio de **Pix** consiste en capturar los datos necesarios de la persona que recibirá el pago y realizar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
