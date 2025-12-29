@@ -8,7 +8,7 @@ metadata:
 ---
 Hacer un retiro en Brasil por medio de **Pix** consiste en capturar los datos necesarios de la persona que recibirá el pago y realizar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-El flujo incluye una validación de pago a terceros, mediante la cual se verifica que la cuenta de destino pertenece al mismo titular del CPF. Si la validación no se cumple, el retiro no se procesará.
+El flujo incluye una validación de pago a terceros, mediante la cual se verifica que la cuenta de destino pertenece al mismo titular del CPF. Para comercios _gambling_, si la validación no se cumple, el retiro no se procesará.
 
 ***
 
@@ -142,7 +142,7 @@ Los pagos Pix a través de ProntoPaga están disponibles para los principales ba
   </tbody>
 </table>
 
-#### Revisa el listado de códigos bancarios en formato JSON: 
+#### Revisa el listado de códigos bancarios en formato JSON:
 
 <Accordion title="Lista de códigos bancarios" icon="fa-info-circle">
   ```json
