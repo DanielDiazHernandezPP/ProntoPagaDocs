@@ -107,13 +107,13 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un enlace de iFrame para incrustar en tu comercio, así como un código PIX que se puede convertir en QR y un identificador de pago del sistema.
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace de _iFrame_ para incrustar en tu comercio, así como un código PIX que se puede convertir en QR y un identificador de pago del sistema.
 
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
-Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
+Para confirmar si una transacción fue exitosa, debes verificar que en tu _webhook_ el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
@@ -129,7 +129,7 @@ Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/
 
 ## Certifica tu integración
 
-La certificación de la integración en _sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
+La certificación de la integración en _Sandbox_ es un paso obligatorio que todos los comercios deben realizar antes de recibir sus credenciales de producción. Su propósito es asegurar que la integración cumpla con los estándares técnicos, funcionales y de seguridad requeridos por ProntoPaga. Dentro de esta sección, se establecen los requisitos que deben cumplirse sin excepción para que la certificación sea aprobada.
 
 ### Requisitos de certificación
 
@@ -144,7 +144,9 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
 
   <Tab title="Logotipos">
     * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3)
-***
+
+    ***
+
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
