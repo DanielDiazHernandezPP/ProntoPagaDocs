@@ -112,7 +112,7 @@ Estos son los posibles parámetros que se pueden entregar en el cuerpo del <Glos
 
 Estos son algunos ejemplos de <Glossary>webhooks</Glossary> que podrías recibir.
 
-### Webhook de PayIn exitoso
+### Webhook de PayIn exitoso y rechazado
 
 ```json
 { 
@@ -136,7 +136,7 @@ Estos son algunos ejemplos de <Glossary>webhooks</Glossary> que podrías recibir
 
 > 📘 Campos del webhook
 >
-> Los campos `method`, `method_type` y `method_detail` serán distintos, dependiendo del método de pago usado.
+> Los campos `method`, `method_type`, `status`  y `method_detail` serán distintos, dependiendo del método de pago usado.
 
 ### Webhook de PayOut exitoso
 
