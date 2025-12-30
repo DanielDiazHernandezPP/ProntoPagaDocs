@@ -37,7 +37,9 @@ A continuación, puedes encontrar información detallada de cómo hacer retiros 
 
 ## ¿Cómo funciona?
 
-Wallet (retiros instantáneos) es un método digital utilizado en Perú que permite retirar fondos desde una aplicación de billetera digital en el celular. Para utilizar este método, el cliente debe seleccionar la opción "Billetera digital", tener una cuenta activa en una billetera compatible, ingresar su número de teléfono, seleccionar la billetera y confirmar la operación. Para conocer el listado de billeteras disponibles, puedes consultarlo [aquí](https://docs.prontopaga.com/docs/instant-payout-wallet#wallets-disponibles).
+Wallet (retiros instantáneos) es un método digital utilizado en Perú que permite retirar fondos desde una aplicación de billetera digital en el celular. Para utilizar este método, el cliente debe seleccionar la opción "Billetera digital", tener una cuenta activa en una billetera compatible, ingresar su número de teléfono, seleccionar la billetera y confirmar la operación. 
+
+Para conocer el listado de billeteras disponibles, puedes consultarlo [aquí](https://docs.prontopaga.com/docs/instant-payout-wallet#wallets-disponibles).
 
 El proceso de PayOut con wallet en Perú consta de cuatro etapas principales:
 
