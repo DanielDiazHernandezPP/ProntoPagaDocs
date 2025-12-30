@@ -23,6 +23,12 @@ metadata:
 next:
   description: ''
 ---
+> 🚧 Ten en cuenta que
+>
+> Al crear o configurar tu webhook, no se permite el uso de llaves, corchetes ni caracteres especiales, ni utilizar una URL de webhook basada en una dirección IP (debe ser un dominio).
+
+***
+
 ## Configura un webhook
 
 Para iniciar la configuración de tu <Glossary>webhook</Glossary>, sigue estos pasos:
