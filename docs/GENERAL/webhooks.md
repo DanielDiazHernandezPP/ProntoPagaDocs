@@ -142,9 +142,24 @@ Estos son algunos ejemplos de <Glossary>webhooks</Glossary> que podrías recibir
 
 ```json
 {      
-  "uid": "01J568DSG6CP9412EFPN3QC6WD",
+  "uid": "01J567DSG6CP9412EFPN3QC6WD",
   "status": "success",
   "data": "3325492",
   "sign": "e198c7a2c33d697c551c445b37659e06bf7c1e92db8bae04c7a1f5411b1e8a00"
 }   
 ```
+
+### Webhook de PayOut rechazado
+
+```json
+{
+  "uid": "01KDRGVZR36NR9WEMZYHDV1Q0W",
+  "status": "canceled",
+  "data": "12a234",
+  "message": "Incorrect Rut",
+  "errorCode": "9",
+  "sign": "555dd706b2db994df59006cc3756cdc6f65f9bd38be0529aa84cac7337f2c5c5"
+}
+```
+
+<br />
