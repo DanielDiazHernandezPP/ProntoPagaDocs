@@ -1,7 +1,7 @@
 ---
 title: Acepta pagos con PIX
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
