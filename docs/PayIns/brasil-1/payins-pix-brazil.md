@@ -65,22 +65,6 @@ El valor del campo `isIframePay` deberá ser enviado como  `true` para este mét
 
 El campo  `typePixPayment` es requerido para este método de pago. Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran:
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Valor</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>Pago inmediato</td></tr>
-    <tr><td>2</td><td>Pago con fecha de vencimiento (temporalmente deshabilitado)</td></tr>
-    <tr><td>3</td><td>Pago por lotes con fecha de vencimiento (temporalmente deshabilitado)</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
 ### Body de la solicitud
 
 A continuación puedes ver un ejemplo del body que se envía en la solicitud:
