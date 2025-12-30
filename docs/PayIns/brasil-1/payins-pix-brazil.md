@@ -21,7 +21,7 @@ metadata:
     - Guide Brasil pay ins
   robots: index
 ---
-Crear un pago en Brasil con PIX consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Crear un pago en Brasil con Pix consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
@@ -29,13 +29,13 @@ Además, todas tus transacciones cuentan con la herramienta automatizada Decisio
 
 ## ¿Cómo funciona?
 
-PIX es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
+Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
 
-El proceso de pago con PIX consta de cinco etapas principales:
+El proceso de pago con Pix consta de cinco etapas principales:
 
 <Image align="center" border={false} src="https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png" />
 
-1. **Selección de método.** El cliente elige pagar con PIX en tu sitio web o aplicación.
+1. **Selección de método.** El cliente elige pagar con Pix en tu sitio web o aplicación.
 2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente.
 3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla.
 4. **Captura.** El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
@@ -107,7 +107,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un enlace de _iFrame_ para incrustar en tu comercio, así como un código PIX que se puede convertir en QR y un identificador de pago del sistema.
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace de _iFrame_ para incrustar en tu comercio, así como un código Pix que se puede convertir en QR y un identificador de pago del sistema.
 
 ### Confirmación de un pago
 
