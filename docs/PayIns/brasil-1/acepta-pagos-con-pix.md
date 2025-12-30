@@ -30,11 +30,11 @@ El proceso de pago con PIX consta de cinco etapas principales:
 
 ## Crea un nuevo pago
 
-Tu front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `pix_payment` como método de pago en el body de la solicitud.
 
-La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+La solicitud se envía con tu Bearer Token, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -92,7 +92,7 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un enlace de iFrame para incrustar en tu comercio, así como un código PIX que se puede convertir en QR, y un identificador de pago del sistema.
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace de iFrame para incrustar en tu comercio, así como un código PIX que se puede convertir en QR y un identificador de pago del sistema.
 
 ### Confirmación de un pago
 
