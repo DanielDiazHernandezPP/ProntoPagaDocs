@@ -136,7 +136,7 @@ Estos son algunos ejemplos de <Glossary>webhooks</Glossary> que podrías recibir
 
 > 📘 Campos del webhook
 >
-> Los campos `method`, `method_type`, `status`  y `method_detail` serán distintos, dependiendo del método de pago usado y el resultado de la transacción.
+> Los campos `method`, `method_type`, `status`  y `method_detail` serán distintos, dependiendo del método de pago usado, y si el pago es exitoso o rechazado.
 
 ### Webhook de PayOut exitoso
 
