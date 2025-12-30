@@ -4,6 +4,21 @@ excerpt: Conoce el paso a paso de cómo crear un pago con PIX en Brasil.
 deprecated: false
 hidden: true
 metadata:
+  title: Acepta pagos con PIX | ProntoPaga Docs
+  description: >-
+    Learn how to receive payments in Brazil using PIX with the Prontopaga API.
+    This guide explains the payin flow, required parameters, webhook
+    confirmation, and how to simulate transactions in sandbox.
+  image: >-
+    https://files.readme.io/9389701d8f5b473614b95d3e6c67b7f71e0c83090528d5bd26eb4c6f4b0efe96-Prontopaga_logotipo.png
+  keywords:
+    - Prontopaga brasil
+    - pix payment
+    - integration
+    - pay ins Brasil prontopaga
+    - crear pagos con Pix Brazil
+    - create payments Pix
+    - Guide Brasil pay ins
   robots: index
 ---
 Crear un pago en Brasil con PIX consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
