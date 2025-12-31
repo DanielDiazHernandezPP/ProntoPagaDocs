@@ -197,7 +197,7 @@ metadata:
 
     **<h3>PonleMas</h3>** Ponle Más es una plataforma y red de recargas y retiros en efectivo utilizada en Ecuador. Opera a través de una amplia red de tiendas físicas, donde los usuarios pueden recibir dinero en efectivo sin necesidad de una cuenta bancaria, utilizando un código de retiro generado por un comercio o plataforma de pagos.
 
-    Conoce más acerca de este método de [PayIns (pagos)](https://docs.prontopaga.com/docs/physical-points-payins-ecuador#/) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestros artículos.
+    Para conocer más acerca de este método para [PayIns (pagos)](https://docs.prontopaga.com/docs/payins-ecuador-cash) o [PayOuts (retiros)](https://docs.prontopaga.com/docs/payouts-ecuador-cash#/), visita nuestros artículos.
 
     **<h3>Plugins</h3>** En ProntoPaga contamos con módulos listos para instalar en plataformas como WooCommerce, Shopify, Magento o VTEX que conectan tu comercio con nosotros. Esto reduce el tiempo de desarrollo y permiten a comercios sin equipo técnico integrar pagos de manera segura.
 
