@@ -33,7 +33,7 @@ Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Cen
 
 El proceso de pago con Pix consta de cinco etapas principales:
 
-<Image align="center" border={false} src="https://files.readme.io/8ff54b7f2a0598877938bd9a05c37b4c396b18875671ba29ee5ae5abb3f3062d-Pipx-01.png" />
+<Image align="center" border={false} src="https://files.readme.io/6befce8dcb8b67b10ced2b56a597a9d8094f4a1c79234814f3e2e9f7f3429db9-payin_PIX_updated.jpg" />
 
 1. **Selección de método.** El cliente elige pagar con Pix en tu sitio web o aplicación.
 2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente.
