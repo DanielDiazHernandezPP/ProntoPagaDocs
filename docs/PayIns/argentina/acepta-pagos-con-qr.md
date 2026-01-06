@@ -156,33 +156,19 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 ***
 
-### Confirmar un pago
+### Consultar un pago
 
 Una vez que el usuario haya completado el proceso de pago en el formulario, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
-Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `APPROVED`.
+Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `SUCCESS`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los pay ins](https://docs.prontopaga.com/docs/acepta-pagos-con-qr#/estados).
 
-**Ejemplo de webhook para un pago exitoso**
+**Ejemplo de pago exitoso**
 
 ```json
 {
-  "checkoutId": "checkout_123456",
-  "status": "APPROVED"
-}
-```
-
-***
-
-### Devolver un pago
-
-Para solicitar la devolución de un pago exitoso realizado con este método, [usa este endpoint](https://docs.prontopaga.com/update/reference/reembolsar-transacci%C3%B3n-qr-argentina#/). A continuación, se muestra un ejemplo del _body request_ que debe llevar:
-
-```json
-{
-  "checkoutId": "checkout_123456",
-  "valueToRefund": "34000.9"
+  "status": "SUCCESS"
 }
 ```
 
@@ -192,34 +178,15 @@ Para solicitar la devolución de un pago exitoso realizado con este método, [us
 
 ### Cancelar transacción
 
-Si un cliente generó un QR, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar más tarde con la imagen del QR.
+Si un cliente generó un QR o código, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar después. El _endpoint_ responde con una página HTML de ProntoPaga, donde se muestra el estado cancelado de la transacción.
 
-Para cancelarlo, deberás consultar <Anchor label="este endpoint" target="_blank" href="https://docs.prontopaga.com/update/reference/cancelar-un-pago-con-qr-argentina#/">este endpoint</Anchor> con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
-
-**Ejemplo de solicitud de cancelación**
-
-```json
-{
-  "checkoutId": "chk_abc123xyz"
-}
-```
-
-**Ejemplo de cancelación exitosa**
-
-```json
-{
-  "checkoutId": "chk_abc123xyz",
-  "status": "cancelled",
-  "message": "Transaction cancelled successfully",
-  "cancelledAt": "2025-11-26T11:00:00Z"
-}
-```
+Para cancelarlo, deberás consultar [estos endpoints](https://docs.prontopaga.com/reference/argentina) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
 ***
 
 ### Validación de pago a terceros
 
-ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincida con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros y maximizando la seguridad de tus transacciones.
+ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincide con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros y maximizando la seguridad de tus transacciones.
 
 Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración.
 
