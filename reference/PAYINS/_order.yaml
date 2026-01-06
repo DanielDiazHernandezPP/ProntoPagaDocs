@@ -3,7 +3,6 @@
 - create-payment
 - get_new-endpoint_arg
 - get_new-endpoint-v1
-- get_new-endpoint-v1-1
 - refunds-qr-argentina
 - ver-un-pago-finalizado-con-qr-argentina
 - create-payment-chile-webpay-mall
