@@ -7049,83 +7049,6 @@
       }
     },
     "/payment/arqr_2/verify/{uid}": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": "Successful",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "OK": {
-                    "summary": "OK",
-                    "value": "{\n  \"status\": \"SUCCESS\" | \"REJECTED\" | \"CANCELED\" | \"PENDING\"\n}"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                },
-                "examples": {
-                  "Bad Request": {
-                    "summary": "Bad Request",
-                    "value": {
-                      "message": "Payment not found",
-                      "uid": "123456"
-                    }
-                  }
-                }
-              }
-            },
-            "description": "Bad Request"
-          },
-          "401": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                }
-              }
-            },
-            "description": "Unauthorized"
-          }
-        },
-        "parameters": [
-          {
-            "in": "path",
-            "name": "uid",
-            "schema": {
-              "type": "string"
-            },
-            "required": true
-          }
-        ],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "No JSON body\n",
-              "language": "json",
-              "name": "Request"
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
-      },
       "get": {
         "description": "",
         "operationId": "get_new-endpoint-1",
@@ -7209,6 +7132,76 @@
             "json"
           ]
         }
+      }
+    },
+    "/payment": {
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": "Successful",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{\n  \"status\": \"SUCCESS\" | \"REJECTED\" | \"CANCELED\" | \"PENDING\"\n}"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "Payment not found",
+                      "uid": "123456"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
+          },
+          "401": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "description": "Unauthorized"
+          }
+        },
+        "parameters": [],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No JSON body\n",
+              "language": "json",
+              "name": "Request"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     }
   },
