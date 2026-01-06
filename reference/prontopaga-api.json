@@ -7252,7 +7252,45 @@
         "operationId": "get_paymentarqr_2verify{uid}",
         "responses": {
           "200": {
-            "description": ""
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "status": "SUCCESS"
+                    }
+                  },
+                  "OK - 1": {
+                    "summary": "OK - 1",
+                    "value": {
+                      "status": "REJECTED"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "Payment not found",
+                      "uid": "123456"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
           }
         },
         "parameters": [
@@ -7264,7 +7302,19 @@
             },
             "required": true
           }
-        ]
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No JSON body",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        }
       }
     }
   },
