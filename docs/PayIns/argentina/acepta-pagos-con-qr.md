@@ -178,9 +178,15 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 ### Cancelar transacción
 
-Si un cliente generó un QR o código, pero no realizó el pago al momento, puedes cancelar ese QR para evitar que el cliente intente pagar después. El _endpoint_ responde con una página HTML de ProntoPaga, donde se muestra el estado cancelado de la transacción.
+Si un cliente generó un QR o código, pero no realizó el pago al momento, puedes cancelarlo para evitar que el cliente intente pagar después. El _endpoint_ responde con una página HTML de ProntoPaga, donde se muestra el estado cancelado de la transacción.
 
-Para cancelarlo, deberás consultar [estos endpoints](https://docs.prontopaga.com/reference/argentina) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
+Para cancelar un pago, consulta [estos endpoints](https://docs.prontopaga.com/reference/argentina) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
+
+<Callout icon="❗️">
+  **Ten en cuenta que**
+
+  Los pagos con estado final `SUCCESS` o `REJECTED` no pueden ser cancelados.
+</Callout>
 
 ***
 
