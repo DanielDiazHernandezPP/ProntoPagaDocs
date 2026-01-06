@@ -1,5 +1,5 @@
 ---
-title: Consultar un pago con QR - Opción B
+title: Consultar un pago con QR/Wallet - Opción B
 api:
   file: prontopaga-api.json
   operationId: get_new-endpoint-1
