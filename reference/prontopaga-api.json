@@ -6957,9 +6957,10 @@
             "name": "uid",
             "schema": {
               "type": "string",
-              "default": "123456"
+              "default": ""
             },
-            "required": true
+            "required": true,
+            "description": "String que identifica el Payment."
           }
         ],
         "x-readme": {
