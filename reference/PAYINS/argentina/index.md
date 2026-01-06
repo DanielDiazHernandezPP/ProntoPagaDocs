@@ -1,7 +1,7 @@
 ---
-title: Argentina
+title: QR/Wallet - Argentina
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
