@@ -10,7 +10,7 @@ link:
 metadata:
   title: Ver flujo final de pago con QR/Wallet - Argentina | ProntoPaga Docs
   description: >-
-    This endpoint allows you to view the final payment flow for QR and Wallet
+    This endpoint allows you to view the final payment flow A for QR and wallet
     payments in Argentina. It redirects the user to a ProntoPaga-hosted HTML
     page that displays the current status of the transaction.
   image: >-
