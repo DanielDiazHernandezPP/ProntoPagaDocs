@@ -511,6 +511,10 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
       "code": 4039,
       "name": "COOP. DE A. Y C. DE LOS SERV. PUBL. DEL MIN. DE EDUCACION Y CULTURA (MIES)"
    },
+	 {
+      "code": 4042,
+      "name": "COOP. DE A. Y C. ECUAFUTURO LTDA (MIES)"
+   },
    {
       "code": 4044,
       "name": "COOP. DE A. Y C. FOCLA (MIESS)"
