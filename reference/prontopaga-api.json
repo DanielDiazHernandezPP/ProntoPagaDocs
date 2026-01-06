@@ -7037,7 +7037,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "No body request",
+              "code": "No JSON body",
               "language": "json",
               "name": "REQUEST"
             }
