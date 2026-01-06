@@ -200,14 +200,6 @@ Esta validación se asigna de forma automática a ciertos comercios integrados c
 
 <br />
 
-### Estados de transacción
-
-Estos son los posibles estados que pueden tener los PayIns con QR en Argentina.
-
-***
-
-<br />
-
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
