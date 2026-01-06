@@ -7056,7 +7056,14 @@
           "200": {
             "description": "Successful",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{\n  \"status\": \"SUCCESS\" | \"REJECTED\" | \"CANCELED\" | \"PENDING\"\n}"
+                  }
+                }
+              }
             }
           },
           "400": {
