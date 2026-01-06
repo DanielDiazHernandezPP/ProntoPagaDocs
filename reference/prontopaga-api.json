@@ -7313,7 +7313,7 @@
               "type": "string"
             },
             "required": true,
-            "description": "String que identifica el Payment."
+            "description": "String que identifica el payment."
           }
         ],
         "x-readme": {
