@@ -1,0 +1,12 @@
+---
+title: Consultar un pago con QR
+api:
+  file: prontopaga-api.json
+  operationId: get_paymentarqr_2verify{uid}
+deprecated: false
+hidden: false
+link:
+  new_tab: false
+metadata:
+  robots: index
+---
