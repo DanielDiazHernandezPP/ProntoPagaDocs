@@ -5,7 +5,7 @@ api:
   operationId: get_new-endpoint-v1
 hidden: true
 ---
-Prueba este endpoint directamente en Postman haciendo clic en el siguiente botón
+Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón
 
 <HTMLBlock>{`
 <!DOCTYPE html>
@@ -22,21 +22,12 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-<br />
+Con este endpoint puedes cancelar un pago con QR en Argentina buscando la transacción por su uid.
 
-Busca el pago por uid.
-Si no existe → lanza 404.
+Con este _endpoint_ puedes cancelar un pago con QR en Argentina mediante la búsqueda del uid. De este modo, se evitará que un cliente guarde la imagen del QR e intente pagar tiempo después. Busca el pago por uid. Si no existe → lanza 404.
 Si el pago no está finalizado (SUCCESS/REJECTED):
 Llama al servicio newPayService->cancelQRPayment().
 Si el servicio falla, usa ['status' => 'canceled'].
 Ejecuta validación validateTransaction.
-Registra cualquier error en logs.
-Redirige a la ruta payment_step_3.
-Respuestas
-RedirectResponse a payment_step_3.
-Errores posibles
-404 si no encuentra el pago.
-Errores en cancelación → logueados.
-Excepciones del servicio de validación.
 
 <br />
