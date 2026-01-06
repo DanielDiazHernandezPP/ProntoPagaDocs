@@ -6847,7 +6847,7 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "{\n  \"uid\": \"123456\"\n}",
+              "code": "",
               "language": "json",
               "name": ""
             }
