@@ -6695,18 +6695,6 @@
         "parameters": []
       }
     },
-    "/new-endpoint-1": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
-      }
-    },
     "/payment/arqr/cancel/{uid}": {
       "get": {
         "description": "",
@@ -7179,6 +7167,25 @@
         "security": [
           {
             "BearerAuth": []
+          }
+        ]
+      },
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
           }
         ]
       }
