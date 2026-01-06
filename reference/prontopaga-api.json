@@ -6955,7 +6955,8 @@
             "in": "path",
             "name": "uid",
             "schema": {
-              "type": "string"
+              "type": "string",
+              "default": "123456"
             },
             "required": true
           }
