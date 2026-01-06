@@ -6043,7 +6043,7 @@
                   },
                   "qr_only": {
                     "type": "string",
-                    "description": "Para personalizar el QR payment template (configuración válida para los paymentMethod: mach_payment). Valores posibles: **true|false**"
+                    "description": "Para personalizar el QR payment template en **Chile** (configuración válida para los paymentMethod: mach_payment). Valores posibles: **true|false**"
                   }
                 },
                 "type": "object",
