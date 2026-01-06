@@ -1,5 +1,5 @@
 ---
-title: Copy of Cancelar un pago con QR en Argentina
+title: Cancelar un pago con QR en Argentina - Opción B
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqrcancel{uid}-1
