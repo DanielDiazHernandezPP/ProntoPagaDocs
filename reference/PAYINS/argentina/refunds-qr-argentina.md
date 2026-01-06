@@ -6,17 +6,16 @@ api:
 deprecated: false
 hidden: true
 metadata:
-  title: Devolver un pago con QR - Argentina | ProntoPaga Docs
-  description: Endpoint to refund payments with ProntoPaga in Argentina.
+  title: Consultar un pago con QR/Wallet - Argentina | ProntoPaga Docs
+  description: 'Endpoint to check payment status with ProntoPaga in Argentina. '
   image: >-
     https://files.readme.io/2b5d9e667fb3a95582d2825b7de32b00900c8737f244df9e637ada1ef6c7f755-Prontopaga_logotipo.png
   keywords:
-    - refund a payment prontopaga
-    - refund payments endpoint
+    - check payment prontopaga
+    - check payments endpoint
     - prontopaga api
     - request
-    - body params Prontopaga
-    - devolver un pago prontopaga
+    - consultar un pago prontopaga
   robots: index
 ---
 Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic en el siguiente botón:
