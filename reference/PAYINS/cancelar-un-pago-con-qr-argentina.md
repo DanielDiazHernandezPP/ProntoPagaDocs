@@ -10,7 +10,7 @@ link:
 metadata:
   robots: index
 ---
-Prueba este endpoint en la colección de ProntoPaga de Postman haciendo clic en el siguiente botón:
+Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
