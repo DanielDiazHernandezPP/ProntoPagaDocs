@@ -28,8 +28,10 @@ Con este _endpoint_ puedes cancelar un pago con QR en Argentina buscando la tran
 
 El endpoint responde con una página HTML de ProntoPaga, donde se muestra el estado cancelado de la transacción.
 
-Los pagos con estado final `SUCCESS` o `REJECTED` no pueden ser cancelados.
+<Callout icon="❗️">
+  **Ten en cuenta que**
 
-***
+  Los pagos con estado final `SUCCESS` o `REJECTED` no pueden ser cancelados.
+</Callout>
 
 <br />
