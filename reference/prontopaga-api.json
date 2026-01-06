@@ -7116,6 +7116,26 @@
                 }
               }
             }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "Payment not found",
+                      "uid": "123456"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
           }
         },
         "parameters": [
