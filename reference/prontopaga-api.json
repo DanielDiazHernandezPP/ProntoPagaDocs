@@ -6928,40 +6928,7 @@
           {
             "BearerAuth": []
           }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "checkoutId": {
-                    "type": "string",
-                    "default": "checkout_123456",
-                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid`. "
-                  },
-                  "valueToRefund": {
-                    "type": "number",
-                    "default": "34000.90",
-                    "description": "⚠️**Importante.** Se permiten hasta 2 decimales en el monto a reembolsar. \n- Monto a reembolsar mínimo: 0.01 ARS \n- Monto a reembolsar maáximo: 99999999999.9 ARS.\n\nSi no se especifica, **se reembolsa el monto total** disponible."
-                  }
-                },
-                "required": [
-                  "checkoutId"
-                ]
-              },
-              "examples": {
-                "Body request": {
-                  "summary": "Body request",
-                  "value": {
-                    "checkoutId": "chk_abc123xyz",
-                    "valueToRefund": 34000.9
-                  }
-                }
-              }
-            }
-          }
-        }
+        ]
       }
     }
   },
