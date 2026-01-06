@@ -1,5 +1,5 @@
 ---
-title: Consultar un pago con QR - Argentina - Opción A
+title: Consultar un pago con QR - Opción A
 api:
   file: prontopaga-api.json
   operationId: get_transactionrefund
