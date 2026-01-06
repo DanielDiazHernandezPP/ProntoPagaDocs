@@ -1,5 +1,5 @@
 ---
-title: Cancelar un pago con QR - Opción B
+title: Cancelar un pago con QR/Wallet- Opción B
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqr_2cancel{uid}
