@@ -6937,7 +6937,17 @@
         "operationId": "get_paymentarqrcomplete{uid}",
         "responses": {
           "200": {
-            "description": ""
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{}"
+                  }
+                }
+              }
+            }
           }
         },
         "parameters": [
@@ -6949,7 +6959,19 @@
             },
             "required": true
           }
-        ]
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No JSON body",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        }
       }
     }
   },
