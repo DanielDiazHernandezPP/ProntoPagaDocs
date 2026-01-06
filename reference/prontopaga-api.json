@@ -6902,7 +6902,18 @@
             "description": "String que identifica el Payment."
           }
         ],
-        "x-readme": {},
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"uid\": \"123456\"\n}",
+              "language": "json",
+              "name": "json"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
         "security": [
           {
             "BearerAuth": []
