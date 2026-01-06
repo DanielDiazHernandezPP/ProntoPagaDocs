@@ -5903,6 +5903,17 @@
                       "uid": "01JRTSMFH40B7WXQYWNSF7MTRA",
                       "reference": "17446560231902"
                     }
+                  },
+                  "Chile QR/Wallet (MACH withoout redirection)": {
+                    "summary": "Chile QR/Wallet (MACH withoout redirection)",
+                    "value": {
+                      "qr": {
+                        "code": "00020101021226880014br.gov.bcb.pix2566qrcode-h.pixu4c.com.br/v2/cob/0197f0cc-0958-7773-ab30-11c0d5f9fd3e5204000053039865802BR5909Okto",
+                        "codeBase64": "MDAwMjAxMDEwMjEyMjY4ODAwMTRici5nb3YuYmNiLnBpeDI1NjZxcmNvZGUtaC5waXh1NGMuY29tLmJyL3YyL2NvYi8wMTk3ZjBjYy0wOTU4LTc3NzMtYWIzMC0xMWMwZDVmOWZkM2U1MjA0MDAwMDUzMDM5ODY1ODAyQlI1OTA5T2t0bw=="
+                      },
+                      "uid": "01K04CJYE81FS3607X1WCDH477",
+                      "reference": "17524940782403"
+                    }
                   }
                 }
               }
@@ -6029,6 +6040,10 @@
                   "wallet_uid": {
                     "type": "string",
                     "description": "⚠️Requerido solamente para los servicios de **Perú-Yape On File**. Es el identificador único (UID) de la afiliación de la wallet del cliente."
+                  },
+                  "qr_only": {
+                    "type": "string",
+                    "description": "Para personalizar el QR payment template (configuración válida para los paymentMethod: mach_payment). Valores posibles: **true|false**"
                   }
                 },
                 "type": "object",
@@ -6157,6 +6172,11 @@
               "code": "{\n  \"currency\": \"USD\",\n  \"country\": \"EC\",\n  \"amount\": \"25.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"0912345678\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"payphone_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"theme\": {\n  \t\"bgColor\": \"transparent\", \n    \"mode\": \"dark\",\n\t  \"type\": \"simple”\n\t}, \n\t\"order\": \"XYZ789\",\n\t\"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Ecuador Wallet (Payphone with customized form)"
+            },
+            {
+              "code": "{\n  \"currency\": \"CLP\",\n  \"country\": \"CL\",\n  \"amount\": \"25500\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"11111111-1\",\n  \"paymentMethod\": \"mach_payment\",\n  \"qr_only\": \"true\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
+              "language": "json",
+              "name": "Chile QR/Wallet (MACH without redirection)"
             }
           ],
           "samples-languages": [
