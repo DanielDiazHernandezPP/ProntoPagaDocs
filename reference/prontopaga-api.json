@@ -7113,7 +7113,19 @@
         }
       }
     },
-    "/payment": {
+    "/payment/new-1": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/payment2": {
       "post": {
         "description": "",
         "operationId": "get_new-endpoint-1",
@@ -7181,18 +7193,6 @@
             "BearerAuth": []
           }
         ]
-      }
-    },
-    "/payment/new-1": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
       }
     }
   },
