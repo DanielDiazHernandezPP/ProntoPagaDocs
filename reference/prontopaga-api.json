@@ -7152,12 +7152,12 @@
           "code-samples": [
             {
               "code": "No body request",
-              "language": "shell",
+              "language": "json",
               "name": "REQUEST"
             }
           ],
           "samples-languages": [
-            "shell"
+            "json"
           ]
         }
       }
