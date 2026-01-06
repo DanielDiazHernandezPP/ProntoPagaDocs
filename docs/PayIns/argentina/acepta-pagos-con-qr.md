@@ -1,5 +1,5 @@
 ---
-title: Acepta pagos con QR
+title: Acepta pagos con QR/Wallet
 excerpt: Conoce el paso a paso de cómo crear un pago con QR en Argentina.
 deprecated: false
 hidden: true
@@ -20,7 +20,7 @@ metadata:
     - endpoint Argentina Prontopaga
   robots: index
 ---
-Crear un pago con QR en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Crear un pago con QR/Wallet en Argentina consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una secretKey. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 ***
 
