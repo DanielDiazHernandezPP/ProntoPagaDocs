@@ -6663,84 +6663,6 @@
     },
     "/ARG/payment/new": {},
     "/transaction/{checkoutId}": {},
-    "/transaction/refund": {
-      "post": {
-        "description": "",
-        "operationId": "get_transactionrefund",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "OK": {
-                    "summary": "OK",
-                    "value": {
-                      "amount": 34000.9,
-                      "status": "PARTIAL_REFUND",
-                      "reference_transaction_token": "878dDbwjJ0pX2MfxTwf88nAnegs",
-                      "currency": "ARS",
-                      "message": "Succeeded!"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{\n  \"checkoutId\": \"chk_abc123xyz\",\n  \"valueToRefund\": 34000.9\n}",
-              "language": "json",
-              "name": "json"
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "checkoutId": {
-                    "type": "string",
-                    "default": "checkout_123456",
-                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid`. "
-                  },
-                  "valueToRefund": {
-                    "type": "number",
-                    "default": "34000.90",
-                    "description": "⚠️**Importante.** Se permiten hasta 2 decimales en el monto a reembolsar. \n- Monto a reembolsar mínimo: 0.01 ARS \n- Monto a reembolsar maáximo: 99999999999.9 ARS.\n\nSi no se especifica, **se reembolsa el monto total** disponible."
-                  }
-                },
-                "required": [
-                  "checkoutId"
-                ]
-              },
-              "examples": {
-                "Body request": {
-                  "summary": "Body request",
-                  "value": {
-                    "checkoutId": "chk_abc123xyz",
-                    "valueToRefund": 34000.9
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/new-endpoint": {
       "get": {
         "description": "",
@@ -6939,6 +6861,87 @@
             "BearerAuth": []
           }
         ]
+      }
+    },
+    "/payment/arqr/verify/{uid}": {
+      "get": {
+        "description": "",
+        "operationId": "get_transactionrefund",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{\n  \"status\": \"SUCCESS\" | \"REJECTED\" | \"CANCELED\" | \"PENDING\"\n}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"checkoutId\": \"chk_abc123xyz\",\n  \"valueToRefund\": 34000.9\n}",
+              "language": "json",
+              "name": "json"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "checkoutId": {
+                    "type": "string",
+                    "default": "checkout_123456",
+                    "description": "Es eI identificador único del checkout. El valor en este parámetro es el `uid`. "
+                  },
+                  "valueToRefund": {
+                    "type": "number",
+                    "default": "34000.90",
+                    "description": "⚠️**Importante.** Se permiten hasta 2 decimales en el monto a reembolsar. \n- Monto a reembolsar mínimo: 0.01 ARS \n- Monto a reembolsar maáximo: 99999999999.9 ARS.\n\nSi no se especifica, **se reembolsa el monto total** disponible."
+                  }
+                },
+                "required": [
+                  "checkoutId"
+                ]
+              },
+              "examples": {
+                "Body request": {
+                  "summary": "Body request",
+                  "value": {
+                    "checkoutId": "chk_abc123xyz",
+                    "valueToRefund": 34000.9
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   },
