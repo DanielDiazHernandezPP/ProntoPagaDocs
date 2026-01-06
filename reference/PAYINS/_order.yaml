@@ -4,6 +4,7 @@
 - get_new-endpoint_arg
 - get_new-endpoint-v1
 - refunds-qr-argentina
+- ver-un-pago-finalizado-con-qr-argentina
 - create-payment-chile-webpay-mall
 - create-payment-brazil-pixplusv2
 - institution-brazil-pixplus-v2
@@ -13,4 +14,3 @@
 - refunds
 - yape-on-file
 - crear-un-nuevo-pago-bcp-código-cip
-- ver-un-pago-finalizado-con-qr-argentina
