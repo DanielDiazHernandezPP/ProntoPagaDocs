@@ -10,4 +10,21 @@ link:
 metadata:
   robots: index
 ---
-Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic en el siguiente botón
+Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic en el siguiente botón:
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.postman.com/prontopaga-api/workspace/prontopaga-docs/request/34607190-924fdaa9-39de-4540-81ee-0a9bd841c496?action=share&source=copy-link&creator=45976681" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="width: 160px;">
+</a></p>
+
+</body>
+</html>
+`}</HTMLBlock>
+
+***
+
+<br />
