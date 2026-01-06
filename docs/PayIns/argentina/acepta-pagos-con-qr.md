@@ -182,7 +182,7 @@ Si un cliente generó un QR o código, pero no realizó el pago al momento, pued
 
 Para cancelar un pago, consulta [estos endpoints](https://docs.prontopaga.com/reference/argentina) con tu `Bearer Token` y mandar el `uid` del pago en la URL de la solicitud.
 
-<Callout icon="❗️">
+<Callout icon="❗️" theme="error">
   **Ten en cuenta que**
 
   Los pagos con estado final `SUCCESS` o `REJECTED` no pueden ser cancelados.
