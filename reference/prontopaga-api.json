@@ -6696,118 +6696,6 @@
       }
     },
     "/new-endpoint-1": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": "Successful",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "Successful payment creation": {
-                    "summary": "Successful payment creation",
-                    "value": {
-                      "urlPay": "https://www.webhook.com",
-                      "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
-                      "reference": "123456789",
-                      "cip": "0A853BD9"
-                    }
-                  },
-                  "Details of a payment - Expired": {
-                    "summary": "Details of a payment - Expired",
-                    "value": {
-                      "uid": "01KCMB9Q2SQVVP1Z07030ZG9JE",
-                      "status": "expired",
-                      "amount": "100.90",
-                      "method": "Pago de Servicios PE",
-                      "reference": "17559158613909",
-                      "clientEmail": "johndoe@example.com",
-                      "clientDocument": "12345678912",
-                      "order": "1234",
-                      "currency": "PEN",
-                      "country": "PE",
-                      "method_type": "null",
-                      "method_detail": "null",
-                      "hash": "3fb8cc86561672p91f152dac33f3115d",
-                      "sign": "Signature of the parameters",
-                      "cip": "42277677"
-                    }
-                  },
-                  "Details of a payment - Success": {
-                    "summary": "Details of a payment - Success",
-                    "value": {
-                      "uid": "01KCNCJP1SCTKEMVT57JZVBJGZ",
-                      "status": "success",
-                      "amount": "100.90",
-                      "method": "Pago de Servicios PE",
-                      "reference": "17559158613909",
-                      "clientEmail": "johndoe@example.com",
-                      "clientDocument": "12345678912",
-                      "order": "1234",
-                      "currency": "PEN",
-                      "country": "PE",
-                      "method_type": "null",
-                      "method_detail": "null",
-                      "hash": "789cec4be3d8251974a4da660b417169",
-                      "sign": "Signature of the parameters",
-                      "cip": "42277677"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                }
-              }
-            },
-            "description": "Bad Request"
-          },
-          "401": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                },
-                "examples": {
-                  "Unauthorized": {
-                    "summary": "Unauthorized",
-                    "value": {
-                      "message": "Token could not be found."
-                    }
-                  }
-                }
-              }
-            },
-            "description": "Unauthorized"
-          }
-        },
-        "parameters": [],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pe_service_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}\n",
-              "language": "json",
-              "name": "Crear un nuevo pago"
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
-      },
       "get": {
         "description": "",
         "operationId": "get_new-endpoint-1",
@@ -7170,6 +7058,129 @@
             "json"
           ]
         }
+      }
+    },
+    "/payment/arqr_2/verify/{uid}": {
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": "Successful",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Successful payment creation": {
+                    "summary": "Successful payment creation",
+                    "value": {
+                      "urlPay": "https://www.webhook.com",
+                      "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
+                      "reference": "123456789",
+                      "cip": "0A853BD9"
+                    }
+                  },
+                  "Details of a payment - Expired": {
+                    "summary": "Details of a payment - Expired",
+                    "value": {
+                      "uid": "01KCMB9Q2SQVVP1Z07030ZG9JE",
+                      "status": "expired",
+                      "amount": "100.90",
+                      "method": "Pago de Servicios PE",
+                      "reference": "17559158613909",
+                      "clientEmail": "johndoe@example.com",
+                      "clientDocument": "12345678912",
+                      "order": "1234",
+                      "currency": "PEN",
+                      "country": "PE",
+                      "method_type": "null",
+                      "method_detail": "null",
+                      "hash": "3fb8cc86561672p91f152dac33f3115d",
+                      "sign": "Signature of the parameters",
+                      "cip": "42277677"
+                    }
+                  },
+                  "Details of a payment - Success": {
+                    "summary": "Details of a payment - Success",
+                    "value": {
+                      "uid": "01KCNCJP1SCTKEMVT57JZVBJGZ",
+                      "status": "success",
+                      "amount": "100.90",
+                      "method": "Pago de Servicios PE",
+                      "reference": "17559158613909",
+                      "clientEmail": "johndoe@example.com",
+                      "clientDocument": "12345678912",
+                      "order": "1234",
+                      "currency": "PEN",
+                      "country": "PE",
+                      "method_type": "null",
+                      "method_detail": "null",
+                      "hash": "789cec4be3d8251974a4da660b417169",
+                      "sign": "Signature of the parameters",
+                      "cip": "42277677"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "description": "Bad Request"
+          },
+          "401": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Unauthorized": {
+                    "summary": "Unauthorized",
+                    "value": {
+                      "message": "Token could not be found."
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Unauthorized"
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pe_service_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}\n",
+              "language": "json",
+              "name": "Crear un nuevo pago"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     }
   },
