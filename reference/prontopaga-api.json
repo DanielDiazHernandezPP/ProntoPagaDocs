@@ -7114,7 +7114,7 @@
       }
     },
     "/payment/new-1": {
-      "get": {
+      "post": {
         "description": "",
         "operationId": "get_new-endpoint-1",
         "responses": {
