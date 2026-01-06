@@ -7115,7 +7115,12 @@
           "samples-languages": [
             "json"
           ]
-        }
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     },
     "/payment/new-1": {
