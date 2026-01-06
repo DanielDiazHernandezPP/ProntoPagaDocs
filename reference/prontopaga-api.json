@@ -7045,7 +7045,12 @@
           "samples-languages": [
             "json"
           ]
-        }
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
       }
     },
     "/payment/arqr_2/complete/{uid}": {
