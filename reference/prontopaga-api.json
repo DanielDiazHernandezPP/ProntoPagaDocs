@@ -6944,6 +6944,14 @@
                 "schema": {
                   "type": "object",
                   "properties": {}
+                },
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "url": "https://sandbox.prontopaga.com/payment"
+                    }
+                  }
                 }
               }
             }
