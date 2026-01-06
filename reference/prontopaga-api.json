@@ -7072,6 +7072,15 @@
                 "schema": {
                   "type": "object",
                   "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "Payment not found",
+                      "uid": "123456"
+                    }
+                  }
                 }
               }
             },
