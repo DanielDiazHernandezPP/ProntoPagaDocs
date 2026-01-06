@@ -6941,11 +6941,9 @@
             "description": "",
             "content": {
               "application/json": {
-                "examples": {
-                  "OK": {
-                    "summary": "OK",
-                    "value": "{}"
-                  }
+                "schema": {
+                  "type": "object",
+                  "properties": {}
                 }
               }
             }
