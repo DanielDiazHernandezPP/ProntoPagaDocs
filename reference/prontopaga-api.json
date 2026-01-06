@@ -6880,7 +6880,7 @@
                   "Argentina QR": {
                     "summary": "Argentina QR",
                     "value": {
-                      "uid": "chk_abc123xyz",
+                      "uid": "123456",
                       "status": "cancelled",
                       "message": "Transaction cancelled successfully",
                       "cancelledAt": "2025-11-26T11:00:00Z"
@@ -6921,7 +6921,18 @@
             "description": "String que identifica el Payment."
           }
         ],
-        "x-readme": {},
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"uid\": \"123456\"\n}",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
         "security": [
           {
             "BearerAuth": []
