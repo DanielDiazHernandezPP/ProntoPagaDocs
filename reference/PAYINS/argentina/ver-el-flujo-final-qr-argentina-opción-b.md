@@ -24,3 +24,9 @@ Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic e
 </body>
 </html>
 `}</HTMLBlock>
+
+***
+
+Este _endpoint_ se utiliza para visualizar el flujo final de **pago con QR en Argentina**. Redirige a la página HTML final de ProntoPaga. Busca el pago mediante su `uid` y no realiza validaciones adicionales ni modifica el estado de la transacción.
+
+<br />
