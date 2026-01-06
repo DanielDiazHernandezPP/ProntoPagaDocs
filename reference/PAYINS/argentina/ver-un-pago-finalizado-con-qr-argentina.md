@@ -1,5 +1,5 @@
 ---
-title: Ver flujo final- Argentina- Opción A
+title: Ver flujo final- Opción A
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqrcomplete{uid}
