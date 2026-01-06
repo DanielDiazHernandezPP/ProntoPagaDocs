@@ -10,3 +10,4 @@ link:
 metadata:
   robots: index
 ---
+Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botó
