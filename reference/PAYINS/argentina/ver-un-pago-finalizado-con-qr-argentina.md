@@ -1,5 +1,5 @@
 ---
-title: Ver el flujo final de pago con QR - Argentina
+title: Ver flujo final- Argentina- Opción A
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqrcomplete{uid}
