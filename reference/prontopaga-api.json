@@ -7245,6 +7245,27 @@
           }
         ]
       }
+    },
+    "/payment/arqr_2/verify/{uid}": {
+      "get": {
+        "description": "",
+        "operationId": "get_paymentarqr_2verify{uid}",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ]
+      }
     }
   },
   "x-readme": {
