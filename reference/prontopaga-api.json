@@ -7048,27 +7048,6 @@
         }
       }
     },
-    "/payment/arqr_2/verify/{uid}": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": [
-          {
-            "in": "path",
-            "name": "uid",
-            "schema": {
-              "type": "string"
-            },
-            "required": true
-          }
-        ]
-      }
-    },
     "/payment/arqr_2/complete/{uid}": {
       "get": {
         "description": "",
@@ -7202,6 +7181,18 @@
             "BearerAuth": []
           }
         ]
+      }
+    },
+    "/payment/new-1": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
       }
     }
   },
