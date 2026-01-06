@@ -6686,7 +6686,7 @@
     "/new-endpoint": {
       "get": {
         "description": "",
-        "operationId": "get_new-endpoint",
+        "operationId": "get_new-endpoint-01",
         "responses": {
           "200": {
             "description": ""
@@ -7128,7 +7128,7 @@
     "/payment2": {
       "post": {
         "description": "",
-        "operationId": "get_new-endpoint-1",
+        "operationId": "get_new-endpoint-21",
         "responses": {
           "200": {
             "description": "Successful",
