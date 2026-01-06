@@ -7152,7 +7152,19 @@
         "operationId": "get_paymentarqr_2complete{uid}",
         "responses": {
           "200": {
-            "description": ""
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "url": "https://sandbox.prontopaga.com/payment"
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "parameters": [
