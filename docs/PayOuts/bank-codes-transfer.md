@@ -172,18 +172,6 @@ Para crear un nuevo retiro por transferencia bancaria en Chile, Ecuador o Perú,
       "name": "B. DE MACHALA"
    },
    {
-      "code": 20,
-      "name": "LLOYDS BANK"
-   },
-   {
-      "code": 24,
-      "name": "CITIBANK"
-   },
-   {
-      "code": 25,
-      "name": "BANCO MACHALA"
-   },
-   {
       "code": 27,
       "name": "B. DELBANK S.A ( BANINCO - BANCO INDUSTRIAL Y COMERCIAL S.A. )"
    },
