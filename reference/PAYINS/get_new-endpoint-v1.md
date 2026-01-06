@@ -22,6 +22,8 @@ Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente bot
 
 ***
 
-Con este _endpoint_ puedes cancelar un pago con QR en Argentina buscando la transacción por su `uid`. De este modo, se evitará que un cliente guarde la imagen del QR e intente pagar tiempo después. 
-
 <br />
+
+Con este _endpoint_ puedes cancelar un pago con QR en Argentina buscando la transacción por su `uid`. Esto evita que un cliente conserve la imagen del QR e intente realizar el pago posteriormente.
+
+Los pagos con estado final `SUCCESS` o `REJECTED` no pueden ser cancelados.
