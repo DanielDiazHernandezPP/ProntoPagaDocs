@@ -6877,8 +6877,8 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK": {
-                    "summary": "OK",
+                  "Argentina QR": {
+                    "summary": "Argentina QR",
                     "value": {
                       "uid": "chk_abc123xyz",
                       "status": "cancelled",
@@ -6889,6 +6889,25 @@
                 }
               }
             }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "uid": "not found"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
           }
         },
         "parameters": [
@@ -6902,18 +6921,7 @@
             "description": "String que identifica el Payment."
           }
         ],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{\n  \"uid\": \"123456\"\n}",
-              "language": "json",
-              "name": "json"
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
+        "x-readme": {},
         "security": [
           {
             "BearerAuth": []
