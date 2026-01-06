@@ -25,6 +25,8 @@ Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente bot
 </html>
 `}</HTMLBlock>
 
+***
+
 <br />
 
 Con este _endpoint_ puedes cancelar un pago con QR en Argentina buscando la transacción por su `uid`. Esto evita que un cliente conserve la imagen del QR o código e intente realizar el pago posteriormente.
