@@ -8,6 +8,15 @@ hidden: true
 link:
   new_tab: false
 metadata:
+  title: Cancelar un pago con QR/Wallet - Argentina | ProntoPaga Docs
+  description: Endpoint to cancel a payment with QR/Wallet with ProntoPaga in Argentina.
+  keywords:
+    - endpoint Prontopaga
+    - cancel a QR
+    - cancel a payment
+    - qr argentina prontopaga
+    - api prontopaga
+    - cancelar un pago con QR Argentina
   robots: index
 ---
 Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic en el siguiente botón:
