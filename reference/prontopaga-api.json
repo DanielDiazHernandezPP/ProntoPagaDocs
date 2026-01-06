@@ -6930,6 +6930,27 @@
           }
         ]
       }
+    },
+    "/payment/arqr/complete/{uid}": {
+      "get": {
+        "description": "",
+        "operationId": "get_paymentarqrcomplete{uid}",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ]
+      }
     }
   },
   "x-readme": {
