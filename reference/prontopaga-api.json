@@ -6915,9 +6915,9 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "",
+              "code": "No JSON body",
               "language": "json",
-              "name": ""
+              "name": "REQUEST"
             }
           ],
           "samples-languages": [
