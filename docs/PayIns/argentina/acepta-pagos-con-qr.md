@@ -184,6 +184,14 @@ Para cancelarlo, deberás consultar [estos endpoints](https://docs.prontopaga.co
 
 ***
 
+### Visualizar el flujo final de un pago
+
+Este [_endpoint_](https://docs.prontopaga.com/update/reference/ver-un-pago-finalizado-con-qr-argentina) se utiliza para visualizar el flujo final de **pago con QR en Argentina**. Redirige a la página de ProntoPaga y busca el pago mediante su `uid`. No realiza validaciones adicionales ni modifica el estado de la transacción.
+
+<br />
+
+***
+
 ### Validación de pago a terceros
 
 ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincide con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros y maximizando la seguridad de tus transacciones.
