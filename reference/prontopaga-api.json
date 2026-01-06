@@ -6802,10 +6802,7 @@
                   "Argentina QR": {
                     "summary": "Argentina QR",
                     "value": {
-                      "uid": "123456",
-                      "status": "cancelled",
-                      "message": "Transaction cancelled successfully",
-                      "cancelledAt": "2025-11-26T11:00:00Z"
+                      "url": "https://sandbox.prontopaga.com/payment"
                     }
                   }
                 }
