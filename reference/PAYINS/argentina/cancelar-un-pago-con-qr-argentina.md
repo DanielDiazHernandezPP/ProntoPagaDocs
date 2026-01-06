@@ -39,4 +39,4 @@ El _endpoint_ responde con una página HTML de ProntoPaga, donde se muestra el e
   Los pagos con estado final `SUCCESS` o `REJECTED` no pueden ser cancelados.
 </Callout>
 
-<br />
+***
