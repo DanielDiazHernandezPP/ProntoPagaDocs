@@ -5,7 +5,7 @@ api:
   operationId: get_new-endpoint-v1
 hidden: true
 ---
-Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón
+Prueba este _endpoint_ en la colección de ProntoPaga de Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
