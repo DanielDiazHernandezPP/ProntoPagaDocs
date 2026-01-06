@@ -1,5 +1,5 @@
 ---
-title: Consultar
+title: Consultar un pago con QR - Argentina - Opción B
 api:
   file: prontopaga-api.json
   operationId: get_new-endpoint-1
