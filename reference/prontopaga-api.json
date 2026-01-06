@@ -7164,7 +7164,19 @@
             },
             "required": true
           }
-        ]
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No body request",
+              "language": "json",
+              "name": "REQUEST"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        }
       }
     }
   },
