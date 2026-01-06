@@ -6909,7 +6909,8 @@
             "schema": {
               "type": "string"
             },
-            "required": true
+            "required": true,
+            "description": "String que identifica el Payment."
           }
         ],
         "x-readme": {
