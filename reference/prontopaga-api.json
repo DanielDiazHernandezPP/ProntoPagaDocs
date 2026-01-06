@@ -6901,7 +6901,8 @@
                   "Bad Request": {
                     "summary": "Bad Request",
                     "value": {
-                      "uid": "not found"
+                      "message": "Payment not found",
+                      "uid": "123456"
                     }
                   }
                 }
