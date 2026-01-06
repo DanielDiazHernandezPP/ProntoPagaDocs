@@ -48,7 +48,7 @@ El proceso de pago con QR en Chile consta de cuatro etapas principales:
 
 > 📘 **Personalizar tu QR único**
 >
-> Con el parámetro opcional `qr_only` recibirás el base 64 del código QR para poder personaliza el _QR payment template_.
+> Con el parámetro opcional `qr_only` recibirás el base 64 del código QR para poder personalizar el _QR payment template_.
 
 En el caso de **MACH**, el flujo varía dependiendo de la versión utilizada:
 
