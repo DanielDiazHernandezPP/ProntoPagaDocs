@@ -27,4 +27,4 @@ Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic e
 
 ***
 
-<br />
+Este _endpoint_ permite consultar y exponer el estado actual del pago con QR en Argentina. [](https://docs.prontopaga.com/docs/payins-status)
