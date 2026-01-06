@@ -6915,9 +6915,9 @@
         "x-readme": {
           "code-samples": [
             {
-              "code": "No JSON body",
+              "code": "",
               "language": "json",
-              "name": "REQUEST"
+              "name": ""
             }
           ],
           "samples-languages": [
@@ -6927,27 +6927,6 @@
         "security": [
           {
             "BearerAuth": []
-          }
-        ]
-      }
-    },
-    "/payment/arqr/complete/{uid}": {
-      "get": {
-        "description": "",
-        "operationId": "get_paymentarqrcomplete{uid}",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": [
-          {
-            "in": "path",
-            "name": "uid",
-            "schema": {
-              "type": "string"
-            },
-            "required": true
           }
         ]
       }
