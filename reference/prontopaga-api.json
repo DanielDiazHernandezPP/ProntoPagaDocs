@@ -7256,14 +7256,14 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK": {
-                    "summary": "OK",
+                  "Success": {
+                    "summary": "Success",
                     "value": {
                       "status": "SUCCESS"
                     }
                   },
-                  "OK - 1": {
-                    "summary": "OK - 1",
+                  "Rejected": {
+                    "summary": "Rejected",
                     "value": {
                       "status": "REJECTED"
                     }
