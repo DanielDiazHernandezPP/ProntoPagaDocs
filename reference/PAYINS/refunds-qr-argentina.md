@@ -1,5 +1,5 @@
 ---
-title: Devolver un pago - QR - Argentina
+title: Consultar un pago con QR - Argentina
 api:
   file: prontopaga-api.json
   operationId: get_transactionrefund
@@ -19,7 +19,7 @@ metadata:
     - devolver un pago prontopaga
   robots: index
 ---
-Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón: 
+Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente botón:
 
 <HTMLBlock>{`
 <!DOCTYPE html>
@@ -36,13 +36,6 @@ Prueba este _endpoint_ directamente en Postman haciendo clic en el siguiente bot
 
 ***
 
-Este _endpoint_ permite hacer la devolución de un pago con QR en Argentina.
+Este _endpoint_ permite consultar y exponer el estado actual del pago con QR en Argentina.
 
-> ❗️ Monto de la devolución
->
-> Debes especificar el monto a reembolsar:
->
-> * Mínimo: 0.01 ARS
-> * Máximo: 99999999999.9 ARS
->
-> Si no lo especificas, se reembolsará el monto total disponible.
+<br />
