@@ -6807,6 +6807,16 @@
             "BearerAuth": []
           }
         ]
+      },
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
       }
     },
     "/payment/arqr/cancel/{uid}": {
