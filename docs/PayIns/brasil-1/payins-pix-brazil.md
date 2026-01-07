@@ -47,7 +47,7 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ## Consulta cuentas bancarias
 
-Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este _endpoint_  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias registradas en Brasil.
+Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este _endpoint_  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil.
 
 Si el cliente tiene una cuenta registrada, podrás enviar dos tipos de solicitud:
 
@@ -63,7 +63,7 @@ Si el cliente no tiene una cuenta registrada, podrás enviar estas solicitudes y
 
 #### Ejemplo de respuesta
 
-Si el `taxId` tiene una o más cuentas bancarias registradas, recibirás una respuesta como esta:
+Si el `taxId` tiene una o más cuentas bancarias asociadas, recibirás una respuesta como esta:
 
 ```json
 {
@@ -90,7 +90,7 @@ Si el `taxId` tiene una o más cuentas bancarias registradas, recibirás una res
 
 #### Ejemplo de respuesta sin cuentas
 
-Si el `taxId` no tiene una cuenta bancaria registrada, recibirás un mensaje de error: 
+Si el `taxId` no tiene una cuenta bancaria asociada, recibirás un mensaje de error: 
 
 ```json
 {
@@ -341,8 +341,18 @@ Para pagos con QR, también recibirás un código QR plano y un código QR en ba
 "height": "650px",
  "qr": {
    "code": "1234ABCD",
-   "codeBase64": "data:image/png;base64,ABCDEFG"
+   "codeBase64": "data:image/png;base64,code"
  }
+}
+```
+
+#### Ejemplo de respuesta sin cuenta sin QR
+
+```json
+{
+"uid": "01KDRERAMVGTD7EGX49BZECD30",
+"reference": "17671260847263",
+"urlPay": "Link to redirect or Iframe to insert"
 }
 ```
 
@@ -355,8 +365,6 @@ Para pagos con QR, también recibirás un código QR plano y un código QR en ba
    "reference": "Reason for rejection" 
 }
 ```
-
-***
 
 <br />
 
