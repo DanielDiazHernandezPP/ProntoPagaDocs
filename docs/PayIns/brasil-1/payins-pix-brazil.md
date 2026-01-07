@@ -281,7 +281,9 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un enlace de _iFrame_ para incrustar en tu comercio, así como un código Pix que se puede convertir en QR y un identificador de pago del sistema.
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema. Para pagos con QR, recibirás un _QR code_ plano y un QR código base 64 que puedes renderizar en tu propia interfaz. 
+
+<br />
 
 ### Confirmación de un pago
 
