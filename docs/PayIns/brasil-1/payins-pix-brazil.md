@@ -142,6 +142,8 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
   El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
 </Callout>
 
+<br />
+
 #### Body de la solicitud - sin QR
 
 A continuación, puedes ver un ejemplo del body que se envía en la solicitud para **pagos con cuenta bancaria registrada sin QR**.
