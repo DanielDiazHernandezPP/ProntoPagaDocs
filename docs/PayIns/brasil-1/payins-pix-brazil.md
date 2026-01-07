@@ -21,7 +21,7 @@ metadata:
     - Guide Brasil pay ins
   robots: index
 ---
-Crear un pago en Brasil con Pix consiste en capturar los datos necesarios del cliente para el pago y hacer una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Crear un pago en Brasil con Pix consiste en capturar los datos necesarios del cliente para el pago y enviar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
 
@@ -61,7 +61,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 ### Pagos con cuenta registrada
 
-El campo `accountType` es requerido para pagos con cuentas bancarias registradas. 
+El campo `accountType` es requerido para pagos con cuentas bancarias registradas.
 
 <br />
 
@@ -94,32 +94,26 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 }
 ```
 
-<Callout icon="👍">
-
-</Callout>
+<br />
 
 <br />
 
+<Callout icon="👍" theme="okay">
+  **Reglas de parámetros**
+
+  * El campo `accountNumber` debe tener exactamente 7, 10, 12 o 15 dígitos. 
+  * El parámetro `clientDocument` también acepta puntos y guiones. 
+  * <br />
+</Callout>
+
 ### Tipos de cuenta
 
-Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
+Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`: 
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><code>C</code></td><td>Checking</td></tr>
-    <tr><td><code>SL</code></td><td>Salary</td></tr>
-    <tr><td><code>S</code></td><td>Savings</td></tr>
-    <tr><td><code>P</code></td><td>Payment</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+* `payment`
+* `checking`
+* `salary`
+* `savings`
 
 ### Respuesta
 
