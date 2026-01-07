@@ -23,7 +23,7 @@ metadata:
 ---
 Crear un pago en Brasil con Pix consiste en capturar los datos necesarios del cliente para el pago y enviar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Para comercios _gambling_, el flujo incluye una validación de pago a terceros, mediante la cual se verifica que la información de la cuenta bancaria del pagador pertenezca al mismo titular del CPF (_Cadastro de Pessoa Física_). Si la validación no se cumple, el pago será rechazado. 
+Para comercios _gambling_, el flujo incluye una validación de pago a terceros, mediante la cual se verifica que la información de la cuenta bancaria del pagador pertenezca al mismo titular del CPF (_Cadastro de Pessoa Física_). Si la validación no se cumple, el pago será rechazado.
 
 ***
 
@@ -57,6 +57,8 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
+***
+
 <br />
 
 ### Tipos de pago
@@ -68,18 +70,28 @@ Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
 
 **Las combinaciones posibles son:**
 
-* Pago con cuenta bancaria registrada y QR. 
+* Pago con cuenta bancaria registrada y QR.
 * Pago con cuenta bancaria registrada sin QR.
 * Pago sin cuenta bancaria registrada y QR.
 * Pago sin cuenta bancaria registrada sin QR.
 
-### Pagos con cuenta registrada
+***
 
-A continuación te mostramos ejemplos de bodys para pagos con cuenta bancaria registrada. 
+<br />
 
-#### Body de la solicitud
+### Pagos con cuenta bancaria registrada
 
-A continuación puedes ver un ejemplo del body que se envía en la solicitud:
+A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada con y sin QR.
+
+<Callout icon="👍" theme="okay">
+  **Tipo de cuenta**
+
+  El campo `accountType` es necesario para pagos con cuentas bancarias registradas.
+</Callout>
+
+#### Body de la solicitud - QR
+
+A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud para **pagos con cuenta bancaria registrada y QR**:
 
 ```json
 {
@@ -108,9 +120,15 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 <br />
 
-## Reglas de validación
+#### Body de la solicitud - sin QR
+
+A continuación, puedes ver un ejemplo del body que se envía en la solicitud para **pagos con cuenta bancaria registrada y sin QR**. 
 
 <br />
+
+## Reglas de validación
+
+A continuación, te mostramos las reglas que debes tener en cuenta para los valores en el _body_ de la solicitud. 
 
 <HTMLBlock>{`
 <table>
@@ -152,27 +170,19 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 <br />
 
-| Field            | Rule                                                                                |
-| ---------------- | ----------------------------------------------------------------------------------- |
-| `accountType`    | Required for payments with registered bank accounts                                 |
-| `accountNumber`  | Must contain exactly **7, 10, 12, or 15 digits**                                    |
-| `clientDocument` | Accepts numbers, dots, and hyphens                                                  |
-| `branchCode`     | Must contain **1 to 4 digits**                                                      |
-| `bankCode`       | Must contain **5 to 8 digits**. Corresponds to the bank’s **ISPB number** in Brazil |
-
 <Callout icon="👍" theme="okay">
   **Reglas**
 
   * El campo `accountType` es requerido para pagos con cuentas bancarias registradas.
-  * El campo `accountNumber` debe tener exactamente 7, 10, 12 o 15 dígitos. 
-  * El parámetro `clientDocument` acepta también puntos y guiones. 
+  * El campo `accountNumber` debe tener exactamente 7, 10, 12 o 15 dígitos.
+  * El parámetro `clientDocument` acepta también puntos y guiones.
   * El campo `branchCode` se admita entre 1 y 4 digitos.
   * El campo `bankCode` se admite entre 5 y 8 digitos. El _ISPB number_ del banco en Brasil.
 </Callout>
 
 ### Tipos de cuenta
 
-Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`: 
+Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`:
 
 * `payment`
 * `checking`
