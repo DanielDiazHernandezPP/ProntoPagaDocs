@@ -13,7 +13,7 @@ link:
 metadata:
   robots: index
 ---
-_Endpoint_ para crear un nuevo pago con código CIP en Perú. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Endpoint para crear un nuevo pago con código CIP en Perú. La respuesta de ProntoPaga a la solicitud de pago es el UID de la transacción y la URL a la que debe redirigir al usuario. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 > 📘 Datos del cliente
 >
