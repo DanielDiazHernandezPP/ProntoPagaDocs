@@ -63,7 +63,7 @@ Si el cliente no tiene una cuenta registrada, podrás enviar estas solicitudes y
 
 #### Ejemplo de respuesta
 
-Al solicitar los tipos de cuenta del cliente, recibirás una respuesta como esta: 
+Al solicitar los tipos de cuenta del cliente, recibirás una respuesta como esta:
 
 ```json
 {
@@ -128,6 +128,8 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `a
 * `checking`
 * `salary`
 * `savings`
+
+***
 
 <br />
 
