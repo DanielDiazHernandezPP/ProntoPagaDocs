@@ -76,34 +76,6 @@ Al solicitar los tipos de cuenta del cliente, recibirás una respuesta como esta
       "account_type": "PAYMENT",
       "currency": "BRL",
       "is_active": true,
-      "is_default": false,
-      "bank": {
-        "name": "name of the bank",
-        "code": "12345678",
-        "country_code": "BR",
-        "branch_code": "0001"
-      }
-    },
-    {
-      "account_number": "234567890123",
-      "account_number_full": "234567890123",
-      "account_type": "PAYMENT",
-      "currency": "BRL",
-      "is_active": true,
-      "is_default": false,
-      "bank": {
-        "name": "name of the bank",
-        "code": "12345678",
-        "country_code": "BR",
-        "branch_code": "0001"
-      }
-    },
-    {
-      "account_number": "345678901234",
-      "account_number_full": "345678901234",
-      "account_type": "PAYMENT",
-      "currency": "BRL",
-      "is_active": true,
       "is_default": true,
       "bank": {
         "name": "name of the bank",
