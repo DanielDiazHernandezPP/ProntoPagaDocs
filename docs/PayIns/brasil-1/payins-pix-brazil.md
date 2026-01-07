@@ -54,7 +54,7 @@ Si el cliente tiene una cuenta bancaria registrada, podrás enviar dos tipos de 
 * Pago con cuenta bancaria registrada, con QR.
 * Pago con cuenta bancaria registrada, sin QR.
 
-Si no tiene una cuenta bancaria registrada, podrás enviar estas solicitudes y luego registrar la cuenta que ingresó:
+Si el cliente no tiene una cuenta bancaria registrada, podrás enviar estas solicitudes y luego registrar la cuenta que ingresó:
 
 * Pago sin cuenta bancaria registrada, con QR.
 * Pago sin cuenta bancaria registrada, sin QR.
