@@ -61,8 +61,6 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-***
-
 <br />
 
 ### Tipos de pago
@@ -88,14 +86,10 @@ Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
 A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR.
 
 <Callout icon="👍" theme="okay">
-  **Tipo de cuenta**
+  **accountType**
 
   El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
 </Callout>
-
-<br />
-
-#### Tipos de cuenta
 
 Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `accountType`:
 
@@ -231,7 +225,11 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
 }
 ```
 
-## Reglas de validación
+***
+
+<br />
+
+### Reglas de validación
 
 A continuación, te mostramos las reglas que debes tener en cuenta para los valores en el _body_ de la solicitud.
 
