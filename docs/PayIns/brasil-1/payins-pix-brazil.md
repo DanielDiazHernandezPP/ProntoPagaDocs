@@ -68,7 +68,7 @@ Al solicitar los tipos de cuenta del cliente, recibirás una respuesta como esta
 ```json
 {
   "status": "success",
-  "taxId": "604.184.437-34",
+  "taxId": "123.456.789-01",
   "accounts": [
     {
       "account_number": "123456789012",
