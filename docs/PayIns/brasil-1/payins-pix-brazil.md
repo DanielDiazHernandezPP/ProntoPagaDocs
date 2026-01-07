@@ -49,7 +49,7 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ## Crea un nuevo pago
 
-Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
+Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ se integrará con nuestra API para procesarlo.
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `br_pix_payment` como método de pago en el body de la solicitud.
 
@@ -72,7 +72,7 @@ Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
 * Si el cliente tiene o no una cuenta bancaria registrada.
 * Si el pago se realiza con QR o sin QR.
 
-**Las combinaciones posibles son:**
+**Las categorías son:**
 
 * Pago con cuenta bancaria registrada y QR.
 * Pago con cuenta bancaria registrada sin QR.
@@ -102,7 +102,7 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `a
 
 <br />
 
-#### Body de la solicitud - QR
+#### Body de la solicitud - cuenta bancaria registrada - QR
 
 A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud para **pagos con cuenta bancaria registrada y QR**:
 
@@ -119,7 +119,7 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
   "urlConfirmation": "https://www.webhook.com/confirmation",
   "urlFinal": "https://www.webhook.com/final",
   "urlRejected": "https://www.webhook.com/rejected",
-  "order": "1234",
+  "order": "XYZ789",
   "addressLine1": "Rua Haddock Lobo, 50",
   "codePostal": "01234-005",
   "city": "São Paulo",
@@ -140,7 +140,7 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
 
 <br />
 
-#### Body de la solicitud - sin QR
+#### Body de la solicitud - cuenta bancaria registrada - sin QR
 
 A continuación, puedes ver un ejemplo del body que se envía en la solicitud para **pagos con cuenta bancaria registrada sin QR**.
 
@@ -157,6 +157,7 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
   "urlConfirmation": "https://www.webhook.com/confirmation",
   "urlFinal": "https://www.webhook.com/successful",
   "urlRejected": "https://www.webhook.com/rejected",
+  "order": "XYZ789",
   "addressLine1": "Rua Haddock Lobo, 50",
   "codePostal": "01234-005",
   "city": "São Paulo",
@@ -176,7 +177,7 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta bancaria registrada, con y sin QR.
 
-#### Body de la solicitud - sin cuenta sin QR
+#### Body de la solicitud - sin cuenta bancaria registrada - QR
 
 ```json
 {
@@ -191,7 +192,7 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
   "urlConfirmation": "https://www.webhook.com/confirmation",
   "urlFinal": "https://www.webhook.com/final",
   "urlRejected": "https://www.webhook.com/rejected",
-  "order": "1234",
+  "order": "XYZ789",
   "theme": "{\"type\":\"qr\"}",
   "sign": "Signature of the parameters"
 }
@@ -203,24 +204,9 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
   El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
 </Callout>
 
-#### Ejemplo de respuesta 
-
-```json
-{
-"uid": "01KDR6G47QB3719MWK6GS&M0R8",
-"reference": "17671174264796",
-"urlPay": "https://prontopaga.test/payment/rest/01KDR6G47QB3719MWK6GS8MOR8",
-"height": "650px",
- "qr": {
-   "code": "1234ABCD",
-   "codeBase64": "data:image/png;base64,ABCDEFG"
-}
-}
-```
-
 <br />
 
-#### Body de la solicitud - sin QR
+#### Body de la solicitud - sin cuenta bancaria registrada - sin QR
 
 ```json
 {
@@ -235,7 +221,7 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
   "urlConfirmation": "https://www.webhook.com/confirmation",
   "urlFinal": "https://www.webhook.com/final",
   "urlRejected": "https://www.webhook.com/rejected",
-  "order": "1234",
+  "order": "XYZ789",
   "sign": "Signature of the parameters"
 }
 ```
@@ -302,9 +288,30 @@ Como respuesta a una solicitud de pago exitosa, recibirás un enlace para proces
 
 Para pagos con QR, también recibirás un código QR plano y un código QR en base 64 que puedes renderizar en tu propia interfaz. 
 
-<Image border={false} src="https://files.readme.io/eb44588aa32cb236aca6f0d53daed88b95a33dc2bd1cf7e606975252e11f463c-image.png" />
+#### Ejemplo de respuesta para pago con QR exitoso:
 
-<br />
+```json
+{
+"uid": "ID in our services",
+"reference": "Reference in our services",
+"urlPay": "Link to redirect or Iframe to insert",
+"height": "650px",
+ "qr": {
+   "code": "1234ABCD",
+   "codeBase64": "data:image/png;base64,ABCDEFG"
+ }
+}
+```
+
+#### Ejemplo de respuesta de pago rechazado**
+
+```json
+{ 
+   "uid": "ID in our services",
+   "status": "rejected",
+   "reference": "Reason for rejection" 
+}
+```
 
 ***
 
@@ -335,6 +342,7 @@ La certificación de la integración en _Sandbox_ es un paso obligatorio que tod
 ### Requisitos de certificación
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
+
 
 <Tabs>
   <Tab title="ID del cliente">
