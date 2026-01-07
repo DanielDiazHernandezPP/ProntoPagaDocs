@@ -47,7 +47,7 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `pix_payment` como método de pago en el body de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `br_pix_payment` como método de pago en el body de la solicitud.
 
 La solicitud se envía con tu Bearer Token, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
@@ -57,15 +57,15 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <NotaWebhooks />
 
-### iFrame y QR
+<br />
 
-El valor del campo `isIframePay` deberá ser enviado como  `true` para este método de pago. De este modo, como respuesta se proporcionará un iFrame y un código QR para que se integre dentro de la página del comercio.
+### Pagos con cuenta registrada
 
-### Tipo de pago
+El campo `accountType` es requerido para pagos con cuentas bancarias registradas. 
 
-El campo  `typePixPayment` es requerido para este método de pago. Este campo se refiere al tipo de pago que ofrecemos al cliente. Entre ellos se encuentran:
+<br />
 
-### Body de la solicitud
+#### Body de la solicitud
 
 A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
@@ -76,18 +76,50 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
   "amount": "150.90",
   "clientName": "John Doe",
   "clientEmail": "johndoe@example.com",
+  "clientDocument": "12345678901",
   "clientPhone": "999999999",
-  "clientDocument": "33177110000",
-  "paymentMethod": "pix_payment",
-  "urlConfirmation": "https://www.webhook.com",
-  "urlFinal": " https://sandbox.prontopaga.com/successful",
-  "urlRejected": "https://sandbox.prontopaga.com/declined",
-  "order": "XYZ789",
-  "typePixPayment": 1,
-  "isIframePay": "true",
+  "paymentMethod": "br_pix_payment",
+  "urlConfirmation": "https://www.webhook.com/confirmation",
+  "urlFinal": "https://www.webhook.com/successful",
+  "urlRejected": "https://www.webhook.com/declined",
+  "addressLine1": "Rua Haddock Lobo, 55",
+  "codePostal": "02415-001",
+  "city": "São Paulo",
+  "bankCode": "30980539",
+  "branchCode": "1",
+  "accountType": "payment",
+  "accountNumber": "100000284277",
+  "theme": "{\"type\":\"qr\"}",
   "sign": "Signature of the parameters"
 }
 ```
+
+<Callout icon="👍">
+
+</Callout>
+
+<br />
+
+### Tipos de cuenta
+
+Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><code>C</code></td><td>Checking</td></tr>
+    <tr><td><code>SL</code></td><td>Salary</td></tr>
+    <tr><td><code>S</code></td><td>Savings</td></tr>
+    <tr><td><code>P</code></td><td>Payment</td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ### Respuesta
 
