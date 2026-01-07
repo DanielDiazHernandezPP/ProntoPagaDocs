@@ -92,12 +92,22 @@ Esta validación se asigna de forma automática a ciertos comercios integrados c
 
 A continuación, se listan los posibles motivos de validación pago terceros, así como los mensajes que se mostrarán.
 
-| Motivo                                                                                                             | Mensaje                                                                                                          |
-| :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
-| El número de celular y el documento de identidad no están asociados.                                               | `The user's phone number and identity document do not match`                                                     |
-| El usuario no tiene una cuenta de Yape activa.                                                                     | `The user does not have an active Yape account`                                                                  |
-| El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio. | `The Document Type provided by the validation service does not match the one sent by the Merchant`               |
-| El servicio de validación no está respondiendo correctamente.                                                      | `The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM` |
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Motivo</b></th>
+      <th><b>Mensaje</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>El número de celular y el documento de identidad no están asociados.</td><td><code>The user's phone number and identity document do not match</code></td></tr>
+    <tr><td>El usuario no tiene una cuenta de Yape activa.</td><td><code>The user does not have an active Yape account</code></td></tr>
+    <tr><td>El tipo de documento de identidad proporcionado del servicio de validación es distinto al enviado por el comercio.</td><td><code>The Document Type provided by the validation service does not match the one sent by the Merchant</code></td></tr>
+    <tr><td>El servicio de validación no está respondiendo correctamente.</td><td><code>The validation service is currently unavailable. Please try again, and if the error persists, contact your KAM</code></td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ***
 
