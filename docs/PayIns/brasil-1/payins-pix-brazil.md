@@ -47,17 +47,74 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ## Consulta cuentas bancarias
 
-Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este _endpoint_ para consultar si el cliente tiene o no una cuenta bancaria registrada en Brasil. 
+Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este _endpoint_  con el `taxId` del cliente para consultar si tiene o no una cuenta bancaria registrada en Brasil.
 
-Si el cliente tiene una cuenta bancaria registrada, podrás enviar dos tipos de solicitud: 
+Si el cliente tiene una cuenta registrada, podrás enviar dos tipos de solicitud:
 
 * Pago con cuenta bancaria registrada, con QR.
 * Pago con cuenta bancaria registrada, sin QR.
 
-Si el cliente no tiene una cuenta bancaria registrada, podrás enviar estas solicitudes y luego registrar la cuenta que ingresó:
+Si el cliente no tiene una cuenta registrada, podrás enviar estas solicitudes y luego registrar la cuenta que ingresó:
 
 * Pago sin cuenta bancaria registrada, con QR.
 * Pago sin cuenta bancaria registrada, sin QR.
+
+<br />
+
+#### Ejemplo de respuesta
+
+Al solicitar los tipos de cuenta del cliente, recibirás una respuesta como esta: 
+
+```json
+{
+  "status": "success",
+  "taxId": "604.184.437-34",
+  "accounts": [
+    {
+      "account_number": "123456789012",
+      "account_number_full": "123456789012",
+      "account_type": "PAYMENT",
+      "currency": "BRL",
+      "is_active": true,
+      "is_default": false,
+      "bank": {
+        "name": "name of the bank",
+        "code": "12345678",
+        "country_code": "BR",
+        "branch_code": "0001"
+      }
+    },
+    {
+      "account_number": "234567890123",
+      "account_number_full": "234567890123",
+      "account_type": "PAYMENT",
+      "currency": "BRL",
+      "is_active": true,
+      "is_default": false,
+      "bank": {
+        "name": "name of the bank",
+        "code": "12345678",
+        "country_code": "BR",
+        "branch_code": "0001"
+      }
+    },
+    {
+      "account_number": "345678901234",
+      "account_number_full": "345678901234",
+      "account_type": "PAYMENT",
+      "currency": "BRL",
+      "is_active": true,
+      "is_default": true,
+      "bank": {
+        "name": "name of the bank",
+        "code": "12345678",
+        "country_code": "BR",
+        "branch_code": "0001"
+      }
+    }
+  ]
+}
+```
 
 <br />
 
