@@ -7273,6 +7273,18 @@
       }
     },
     "/payment/pix-payment/accounts?taxId=": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/demo1": {
       "post": {
         "description": "",
         "operationId": "get_new-endpoint-1",
@@ -7333,16 +7345,6 @@
             "BearerAuth": []
           }
         ]
-      },
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
       }
     }
   },
