@@ -23,13 +23,13 @@ metadata:
 ---
 Crear un pago en Brasil con Pix consiste en capturar los datos necesarios del cliente para el pago y enviar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
-Además, todas tus transacciones cuentan con la herramienta automatizada Decision Manager (DM) del motor de gestión de riesgos y prevención de fraude de **Cybersource (A Visa Solution)**.
+Para comercios _gambling_, el flujo incluye una validación de pago a terceros, mediante la cual se verifica que la información de la cuenta bancaria del pagador pertenezca al mismo titular del CPF (_Cadastro de Pessoa Física_). Si la validación no se cumple, el pago será rechazado. 
 
 ***
 
 ## ¿Cómo funciona?
 
-Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, tales como transacciones mediante el uso de códigos QR, claves PIX o transferencias directas. Para completar una transacción utilizando este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
+Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, como pagos con código o QR. Para completar una transacción con este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
 
 El proceso de pago con Pix consta de cinco etapas principales:
 
@@ -37,9 +37,9 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 1. **Selección de método.** El cliente elige pagar con Pix en tu sitio web o aplicación.
 2. **Generación de QR.** ProntoPaga le entrega un QR y un código único al cliente.
-3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco o wallet, o ingresar directamente el código único en la aplicación indicada. El cliente realiza el pago siguiendo las instrucciones en pantalla.
+3. **Pago en aplicación.** El cliente podrá escanear el QR con la aplicación de su banco,_wallet_, o ingresar directamente el código único en su aplicación o banca en línea. El cliente realiza el pago siguiendo las instrucciones en pantalla.
 4. **Captura.** El dinero se mueve desde la cuenta del cliente hacia la cuenta de tu comercio.
-5. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los webhooks que hayas configurado.
+5. **Confirmación.** El cliente recibe una confirmación de pago exitoso en su correo electrónico. A su vez, tu comercio recibe la confirmación del pago a través de los _webhooks_ que hayas configurado.
 
 ***
 
@@ -49,7 +49,7 @@ Tu _front-end_ será el encargado de recopilar los datos necesarios de tu client
 
 De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `br_pix_payment` como método de pago en el body de la solicitud.
 
-La solicitud se envía con tu Bearer Token, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -59,11 +59,23 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <br />
 
+### Tipos de pago
+
+Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
+
+* Si el cliente tiene o no una cuenta bancaria registrada.
+* Si el pago se realiza con QR o sin QR.
+
+**Las combinaciones posibles son:**
+
+* Pago con cuenta bancaria registrada y QR. 
+* Pago con cuenta bancaria registrada sin QR.
+* Pago sin cuenta bancaria registrada y QR.
+* Pago sin cuenta bancaria registrada sin QR.
+
 ### Pagos con cuenta registrada
 
-El campo `accountType` es requerido para pagos con cuentas bancarias registradas.
-
-<br />
+A continuación te mostramos ejemplos de bodys para pagos con cuenta bancaria registrada. 
 
 #### Body de la solicitud
 
@@ -96,14 +108,66 @@ A continuación puedes ver un ejemplo del body que se envía en la solicitud:
 
 <br />
 
+## Reglas de validación
+
 <br />
 
-<Callout icon="👍" theme="okay">
-  **Reglas de parámetros**
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Campo</b></th>
+      <th><b>Regla de validación</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>accountType</code></td>
+      <td>Obligatorio para pagos con cuentas bancarias registradas.</td>
+    </tr>
+    <tr>
+      <td><code>accountNumber</code></td>
+      <td>Debe contener exactamente <b>7, 10, 12 o 15 dígitos</b>.</td>
+    </tr>
+    <tr>
+      <td><code>clientDocument</code></td>
+      <td>Acepta números, puntos y guiones.</td>
+    </tr>
+    <tr>
+      <td><code>branchCode</code></td>
+      <td>Debe contener entre <b>1 y 4 dígitos</b>.</td>
+    </tr>
+    <tr>
+      <td><code>bankCode</code></td>
+      <td>
+        Debe contener entre <b>5 y 8 dígitos</b>. Corresponde al
+        <b> número ISPB</b> del banco en Brasil.
+      </td>
+    </tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
+<br />
+
+<br />
+
+| Field            | Rule                                                                                |
+| ---------------- | ----------------------------------------------------------------------------------- |
+| `accountType`    | Required for payments with registered bank accounts                                 |
+| `accountNumber`  | Must contain exactly **7, 10, 12, or 15 digits**                                    |
+| `clientDocument` | Accepts numbers, dots, and hyphens                                                  |
+| `branchCode`     | Must contain **1 to 4 digits**                                                      |
+| `bankCode`       | Must contain **5 to 8 digits**. Corresponds to the bank’s **ISPB number** in Brazil |
+
+<Callout icon="👍" theme="okay">
+  **Reglas**
+
+  * El campo `accountType` es requerido para pagos con cuentas bancarias registradas.
   * El campo `accountNumber` debe tener exactamente 7, 10, 12 o 15 dígitos. 
-  * El parámetro `clientDocument` también acepta puntos y guiones. 
-  * <br />
+  * El parámetro `clientDocument` acepta también puntos y guiones. 
+  * El campo `branchCode` se admita entre 1 y 4 digitos.
+  * El campo `bankCode` se admite entre 5 y 8 digitos. El _ISPB number_ del banco en Brasil.
 </Callout>
 
 ### Tipos de cuenta
