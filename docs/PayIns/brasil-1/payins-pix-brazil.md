@@ -350,8 +350,8 @@ Para pagos con QR, también recibirás un código QR plano y un código QR en ba
 
 ```json
 {
-"uid": "01KDRERAMVGTD7EGX49BZECD30",
-"reference": "17671260847263",
+"uid": "01KKRERAMVGTD7EGX37BZECD30",
+"reference": "12345678901234",
 "urlPay": "Link to redirect or Iframe to insert"
 }
 ```
@@ -365,6 +365,12 @@ Para pagos con QR, también recibirás un código QR plano y un código QR en ba
    "reference": "Reason for rejection" 
 }
 ```
+
+<br />
+
+<br />
+
+***
 
 <br />
 
