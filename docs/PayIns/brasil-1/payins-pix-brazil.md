@@ -211,11 +211,10 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
 "reference": "17671174264796",
 "urlPay": "https://prontopaga.test/payment/rest/01KDR6G47QB3719MWK6GS8MOR8",
 "height": "650px",
-"qr": f
-"code": "00020101021226850014br.gov.bcb.pix2563qrcode-h.okto-br.io/v2/cob/019b7068-2
-35d-74ca-b4c3-3231b20a79975204000053039865802BR59090kto Tech6008SA0PAUL062070503***6304F
-oE,",
-  "codeBase64": "data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAIAAABC8
+ "qr": {
+   "code": "1234ABCD",
+   "codeBase64": "data:image/png;base64,ABCDEFG"
+}
 }
 ```
 
@@ -302,6 +301,10 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
 Para pagos con QR, también recibirás un código QR plano y un código QR en base 64 que puedes renderizar en tu propia interfaz. 
+
+<Image border={false} src="https://files.readme.io/eb44588aa32cb236aca6f0d53daed88b95a33dc2bd1cf7e606975252e11f463c-image.png" />
+
+<br />
 
 ***
 
