@@ -83,7 +83,7 @@ Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
 
 <br />
 
-### Pagos con cuenta bancaria registrada
+### Cuenta bancaria registrada
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR.
 
@@ -173,7 +173,7 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 
 <br />
 
-### Pagos sin cuenta bancaria registrada
+### Sin cuenta bancaria registrada
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta bancaria registrada, con y sin QR.
 
@@ -286,7 +286,7 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-Para pagos con QR, también recibirás un código QR plano y un código QR en base 64 que puedes renderizar en tu propia interfaz. 
+Para pagos con QR, también recibirás un código QR plano y un código QR en base 64 que puedes renderizar en tu propia interfaz.
 
 #### Ejemplo de respuesta para pago con QR exitoso:
 
@@ -342,7 +342,6 @@ La certificación de la integración en _Sandbox_ es un paso obligatorio que tod
 ### Requisitos de certificación
 
 A continuación, encontrarás los distintos requisitos necesarios para completar tu certificación:
-
 
 <Tabs>
   <Tab title="ID del cliente">
