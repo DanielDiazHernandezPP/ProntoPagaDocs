@@ -90,8 +90,19 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta banca
 <Callout icon="👍" theme="okay">
   **Tipo de cuenta**
 
-  El campo `accountType` es necesario para pagos con cuentas bancarias registradas.
+  El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
 </Callout>
+
+#### Tipos de cuenta
+
+Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `accountType`:
+
+* `payment`
+* `checking`
+* `salary`
+* `savings`
+
+<br />
 
 #### Body de la solicitud - QR
 
@@ -123,10 +134,10 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
 }
 ```
 
-<Callout icon="📘">
+<Callout icon="📘" theme="info">
   **Parámetro `theme`**
 
-  El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR. 
+  El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
 </Callout>
 
 #### Body de la solicitud - sin QR
@@ -211,28 +222,9 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 </table>
 `}</HTMLBlock>
 
-<br />
+***
 
 <br />
-
-<Callout icon="👍" theme="okay">
-  **Reglas**
-
-  * El campo `accountType` es requerido para pagos con cuentas bancarias registradas.
-  * El campo `accountNumber` debe tener exactamente 7, 10, 12 o 15 dígitos.
-  * El parámetro `clientDocument` acepta también puntos y guiones.
-  * El campo `branchCode` se admita entre 1 y 4 digitos.
-  * El campo `bankCode` se admite entre 5 y 8 digitos. El _ISPB number_ del banco en Brasil.
-</Callout>
-
-### Tipos de cuenta
-
-Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`:
-
-* `payment`
-* `checking`
-* `salary`
-* `savings`
 
 ### Respuesta
 
