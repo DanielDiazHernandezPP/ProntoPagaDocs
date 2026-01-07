@@ -14,4 +14,4 @@ Endpoint para crear un nuevo pago con código CIP en Perú. La respuesta de Pron
 >
 > Como recomendación, la información que se envía en los parámetros del body debería proceder del perfil del cliente.
 
-v
+<br />
