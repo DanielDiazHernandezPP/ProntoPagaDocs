@@ -59,8 +59,6 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 ***
 
-<br />
-
 ### Tipos de pago
 
 Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
@@ -123,6 +121,30 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
 #### Body de la solicitud - sin QR
 
 A continuación, puedes ver un ejemplo del body que se envía en la solicitud para **pagos con cuenta bancaria registrada y sin QR**. 
+
+```json
+{
+  "currency": "BRL",
+  "country": "BR",
+  "amount": "150.90",
+  "clientName": "John Smith",
+  "clientEmail": "johnsmith@example.com",
+  "clientDocument": "604.184.437-34",
+  "clientPhone": "999864214",
+  "paymentMethod": "br_pix_payment",
+  "urlConfirmation": "https://tudominio.com/confirmation",
+  "urlFinal": "https://tudominio.com/final",
+  "urlRejected": "https://tudominio.com/rejected",
+  "addressLine1": "Rua Haddock Lobo, 55",
+  "codePostal": "01414-001",
+  "city": "São Paulo",
+  "bankCode": "30980539",
+  "branchCode": "1",
+  "accountType": "payment",
+  "accountNumber": "100000294292",
+  "sign": "Signature of the parameters"
+}
+```
 
 <br />
 
