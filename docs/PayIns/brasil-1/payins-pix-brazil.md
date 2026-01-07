@@ -166,8 +166,6 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 }
 ```
 
-<br />
-
 ***
 
 <br />
@@ -281,7 +279,11 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 
 ### Respuesta
 
-Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema. Para pagos con QR, recibirás un _QR code_ plano y un QR código base 64 que puedes renderizar en tu propia interfaz. 
+Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
+
+Para pagos con QR, recibirás un _QR code_ plano y un QR código base 64 que puedes renderizar en tu propia interfaz. 
+
+***
 
 <br />
 
