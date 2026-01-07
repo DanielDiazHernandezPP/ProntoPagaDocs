@@ -6683,18 +6683,7 @@
     },
     "/ARG/payment/new": {},
     "/transaction/{checkoutId}": {},
-    "/new-endpoint": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-01",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
-      }
-    },
+    "/new-endpoint": {},
     "/payment/arqr/cancel/{uid}": {
       "get": {
         "description": "",
