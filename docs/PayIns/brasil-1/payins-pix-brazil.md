@@ -85,13 +85,15 @@ Hay cuatro formas de enviar la solicitud de pago, que dependen de dos factores:
 
 ### Pagos con cuenta bancaria registrada
 
-A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada con y sin QR.
+A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR.
 
 <Callout icon="👍" theme="okay">
   **Tipo de cuenta**
 
   El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
 </Callout>
+
+<br />
 
 #### Tipos de cuenta
 
@@ -174,6 +176,59 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 
 <br />
 
+### Pagos sin cuenta bancaria registrada
+
+A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta bancaria registrada, con y sin QR.
+
+#### Body de la solicitud - QR
+
+```json
+{
+  "currency": "BRL",
+  "country": "BR",
+  "amount": "150.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientDocument": "12345678901",
+  "clientPhone": "999999999",
+  "paymentMethod": "br_pix_payment",
+  "urlConfirmation": "https://www.webhook.com/confirmation",
+  "urlFinal": "https://www.webhook.com/final",
+  "urlRejected": "https://www.webhook.com/rejected",
+  "order": "1234",
+  "theme": "{\"type\":\"qr\"}",
+  "sign": "Signature of the parameters"
+}
+```
+
+<Callout icon="📘" theme="info">
+  **Parámetro `theme`**
+
+  El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
+</Callout>
+
+<br />
+
+#### Body de la solicitud - sin QR
+
+```json
+{
+  "currency": "BRL",
+  "country": "BR",
+  "amount": "150.90",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientDocument": "12345678901",
+  "clientPhone": "999999999",
+  "paymentMethod": "br_pix_payment",
+  "urlConfirmation": "https://www.webhook.com/confirmation",
+  "urlFinal": "https://www.webhook.com/final",
+  "urlRejected": "https://www.webhook.com/rejected",
+  "order": "1234",
+  "sign": "Signature of the parameters"
+}
+```
+
 ## Reglas de validación
 
 A continuación, te mostramos las reglas que debes tener en cuenta para los valores en el _body_ de la solicitud.
@@ -223,8 +278,6 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 `}</HTMLBlock>
 
 ***
-
-<br />
 
 ### Respuesta
 
