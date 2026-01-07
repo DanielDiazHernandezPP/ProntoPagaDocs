@@ -7346,6 +7346,18 @@
           }
         ]
       }
+    },
+    "/pix": {
+      "get": {
+        "description": "",
+        "operationId": "get_pix",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
     }
   },
   "x-readme": {
