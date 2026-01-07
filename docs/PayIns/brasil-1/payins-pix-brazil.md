@@ -47,9 +47,9 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ## Consulta cuentas bancarias
 
-Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este endpoint para consultar si el cliente tiene o no una cuenta bancaria registrada en Brasil. 
+Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este _endpoint_ para consultar si el cliente tiene o no una cuenta bancaria registrada en Brasil. 
 
-Si el cliente tiene una cuenta bancaria registrada, podrás enviar dos tipos de _body_: 
+Si el cliente tiene una cuenta bancaria registrada, podrás enviar dos tipos de solicitud: 
 
 * Pago con cuenta bancaria registrada, con QR.
 * Pago con cuenta bancaria registrada, sin QR.
@@ -78,19 +78,6 @@ La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Adem
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
-
-***
-
-<br />
-
-### Tipos de pago
-
-Hay cuatro formas de enviar la solicitud de pago, que dependen principalmente de si el cliente tiene o no una cuenta bancaria registrada: 
-
-* Pago con cuenta bancaria registrada y QR.
-* Pago con cuenta bancaria registrada sin QR.
-* Pago sin cuenta bancaria registrada y QR.
-* Pago sin cuenta bancaria registrada sin QR.
 
 ***
 
@@ -339,6 +326,8 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu _webho
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
 ***
+
+### Devolución
 
 <br />
 
