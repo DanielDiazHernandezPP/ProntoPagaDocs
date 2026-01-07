@@ -27,6 +27,8 @@ Para comercios _gambling_, el flujo incluye una validación de pago a terceros, 
 
 ***
 
+<br />
+
 ## ¿Cómo funciona?
 
 Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, como pagos con código o QR. Para completar una transacción con este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
@@ -43,6 +45,8 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ***
 
+<br />
+
 ## Crea un nuevo pago
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
@@ -58,6 +62,8 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 <NotaWebhooks />
 
 ***
+
+<br />
 
 ### Tipos de pago
 
@@ -102,10 +108,11 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
   "clientPhone": "999999999",
   "paymentMethod": "br_pix_payment",
   "urlConfirmation": "https://www.webhook.com/confirmation",
-  "urlFinal": "https://www.webhook.com/successful",
-  "urlRejected": "https://www.webhook.com/declined",
-  "addressLine1": "Rua Haddock Lobo, 55",
-  "codePostal": "02415-001",
+  "urlFinal": "https://www.webhook.com/final",
+  "urlRejected": "https://www.webhook.com/rejected",
+  "order": "1234",
+  "addressLine1": "Rua Haddock Lobo, 50",
+  "codePostal": "01234-005",
   "city": "São Paulo",
   "bankCode": "30980539",
   "branchCode": "1",
@@ -116,41 +123,49 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
 }
 ```
 
-<br />
+<Callout icon="📘">
+  **Parámetro `theme`**
+
+  El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR. 
+</Callout>
 
 #### Body de la solicitud - sin QR
 
-A continuación, puedes ver un ejemplo del body que se envía en la solicitud para **pagos con cuenta bancaria registrada y sin QR**. 
+A continuación, puedes ver un ejemplo del body que se envía en la solicitud para **pagos con cuenta bancaria registrada sin QR**.
 
 ```json
 {
   "currency": "BRL",
   "country": "BR",
   "amount": "150.90",
-  "clientName": "John Smith",
-  "clientEmail": "johnsmith@example.com",
-  "clientDocument": "604.184.437-34",
-  "clientPhone": "999864214",
+  "clientName": "John Doe",
+  "clientEmail": "johndoe@example.com",
+  "clientDocument": "12345678901",
+  "clientPhone": "999999999",
   "paymentMethod": "br_pix_payment",
-  "urlConfirmation": "https://tudominio.com/confirmation",
-  "urlFinal": "https://tudominio.com/final",
-  "urlRejected": "https://tudominio.com/rejected",
-  "addressLine1": "Rua Haddock Lobo, 55",
-  "codePostal": "01414-001",
+  "urlConfirmation": "https://www.webhook.com/confirmation",
+  "urlFinal": "https://www.webhook.com/successful",
+  "urlRejected": "https://www.webhook.com/rejected",
+  "addressLine1": "Rua Haddock Lobo, 50",
+  "codePostal": "01234-005",
   "city": "São Paulo",
   "bankCode": "30980539",
   "branchCode": "1",
   "accountType": "payment",
-  "accountNumber": "100000294292",
+  "accountNumber": "100000284277",
   "sign": "Signature of the parameters"
 }
 ```
 
 <br />
 
+***
+
+<br />
+
 ## Reglas de validación
 
-A continuación, te mostramos las reglas que debes tener en cuenta para los valores en el _body_ de la solicitud. 
+A continuación, te mostramos las reglas que debes tener en cuenta para los valores en el _body_ de la solicitud.
 
 <HTMLBlock>{`
 <table>
@@ -176,6 +191,14 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
     <tr>
       <td><code>branchCode</code></td>
       <td>Debe contener entre <b>1 y 4 dígitos</b>.</td>
+    </tr>
+    <tr>
+      <td><code>address</code></td>
+      <td>Se admiten entre <b>0 y 256 caracteres</b>.</td>
+    </tr>
+    <tr>
+      <td><code>city</code></td>
+      <td>Se admiten entre <b>0 y 50 caracteres</b>.</td>
     </tr>
     <tr>
       <td><code>bankCode</code></td>
