@@ -21,7 +21,7 @@ metadata:
     - Guide Brasil pay ins
   robots: index
 ---
-Crear un pago en Brasil con Pix consiste en capturar los datos necesarios del cliente para el pago y enviar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
+Crear un pago en **Brasil con Pix** consiste en capturar los datos necesarios del cliente para el pago y enviar una solicitud a través de nuestra API con un _Bearer Token_ y una _secretKey_. De esta forma, las transacciones se autentican y se realizan de forma segura.
 
 Para comercios _gambling_, el flujo incluye una validación de pago a terceros, mediante la cual se verifica que la información de la cuenta bancaria del pagador pertenezca al mismo titular del CPF (_Cadastro de Pessoa Física_). Si la validación no se cumple, el pago será rechazado.
 
@@ -31,7 +31,7 @@ Para comercios _gambling_, el flujo incluye una validación de pago a terceros, 
 
 ## ¿Cómo funciona?
 
-Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, como pagos con código o QR. Para completar una transacción con este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema PIX y aprobar la transacción desde su aplicación.
+Pix es un sistema de pagos instantáneos, creado y administrado por el Banco Central de Brasil, mediante el cual puedes realizar transacciones en tiempo real, como pagos con código o QR. Para completar una transacción con este método de pago, el cliente debe tener una cuenta bancaria o de una institución financiera en Brasil, registrarse en el sistema Pix y aprobar la transacción desde su aplicación.
 
 El proceso de pago con Pix consta de cinco etapas principales:
 
@@ -60,6 +60,8 @@ La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Adem
 También deberás incluir la URL de retorno en caso de que la transacción sea exitosa, así como una URL en caso de que el pago sea rechazado.
 
 <NotaWebhooks />
+
+***
 
 <br />
 
@@ -174,7 +176,7 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta bancaria registrada, con y sin QR.
 
-#### Body de la solicitud - QR
+#### Body de la solicitud - sin cuenta sin QR
 
 ```json
 {
@@ -200,6 +202,22 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
 
   El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
 </Callout>
+
+#### Ejemplo de respuesta 
+
+```json
+{
+"uid": "01KDR6G47QB3719MWK6GS&M0R8",
+"reference": "17671174264796",
+"urlPay": "https://prontopaga.test/payment/rest/01KDR6G47QB3719MWK6GS8MOR8",
+"height": "650px",
+"qr": f
+"code": "00020101021226850014br.gov.bcb.pix2563qrcode-h.okto-br.io/v2/cob/019b7068-2
+35d-74ca-b4c3-3231b20a79975204000053039865802BR59090kto Tech6008SA0PAUL062070503***6304F
+oE,",
+  "codeBase64": "data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAIAAABC8
+}
+```
 
 <br />
 
@@ -277,11 +295,13 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
 
 ***
 
+<br />
+
 ### Respuesta
 
 Como respuesta a una solicitud de pago exitosa, recibirás un enlace para procesar el pago, así como un identificador de pago del sistema.
 
-Para pagos con QR, recibirás un _QR code_ plano y un QR código base 64 que puedes renderizar en tu propia interfaz. 
+Para pagos con QR, también recibirás un código QR plano y un código QR en base 64 que puedes renderizar en tu propia interfaz. 
 
 ***
 
