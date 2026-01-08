@@ -7335,7 +7335,7 @@
         "parameters": []
       }
     },
-    "/payment/pix-payment/accounts": {
+    "/payment/pix-payment/accounts{taxId=}": {
       "get": {
         "description": "",
         "operationId": "get_paymentpix-paymentaccounts?taxId=",
