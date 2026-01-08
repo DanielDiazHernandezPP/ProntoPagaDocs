@@ -7379,6 +7379,27 @@
                 }
               }
             }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "error": {
+                        "accountNumber": "accountNumber value is not valid."
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
           }
         },
         "parameters": [],
