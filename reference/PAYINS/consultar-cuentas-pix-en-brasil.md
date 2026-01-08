@@ -24,3 +24,7 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 </body>
 </html>
 `}</HTMLBlock>
+
+***
+
+Recupera las cuentas Pix asociadas con el CPF o CNPJ proporcionado.
