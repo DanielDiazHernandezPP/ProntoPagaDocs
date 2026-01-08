@@ -6683,18 +6683,6 @@
     },
     "/ARG/payment/new": {},
     "/transaction/{checkoutId}": {},
-    "/new-endpoint": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-ARG0CARD",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
-      }
-    },
     "/payment/arqr/cancel/{uid}": {
       "get": {
         "description": "",
@@ -7333,6 +7321,18 @@
             "BearerAuth": []
           }
         ]
+      }
+    },
+    "/new-endpoint123": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-ARG0CARD",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
       }
     }
   },
