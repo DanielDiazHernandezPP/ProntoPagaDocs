@@ -6683,11 +6683,22 @@
     },
     "/ARG/payment/new": {},
     "/transaction/{checkoutId}": {},
-    "/new-endpoint": {},
+    "/new-endpoint": {
+      "get": {
+        "description": "",
+        "operationId": "get_new-endpoint-ARG0CARD",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
+    },
     "/payment/arqr/cancel/{uid}": {
       "get": {
         "description": "",
-        "operationId": "get_new-endpoint-v1",
+        "operationId": "get_new-endpoint-cancelQR",
         "responses": {
           "200": {
             "description": "",
@@ -6900,7 +6911,78 @@
         ]
       }
     },
-    "/payment/arqr/cancel/{uid}-1": {},
+    "/payment/arqr/cancel/{uid}-1": {
+      "get": {
+        "description": "",
+        "operationId": "get_paymentarqrcancel{uid}-1",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Argentina QR": {
+                    "summary": "Argentina QR",
+                    "value": {
+                      "url": "https://sandbox.prontopaga.com/payment"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "Payment not found",
+                      "uid": "123456"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "String que identifica el Payment."
+          }
+        ],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No JSON body",
+              "language": "json",
+              "name": "REQUEST"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ],
+        "summary": "Copy of "
+      }
+    },
     "/payment/arqr_2/cancel/{uid}": {
       "get": {
         "description": "",
@@ -7043,7 +7125,139 @@
         ]
       }
     },
-    "/payment2": {},
+    "/payment/new-1": {
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint-1",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": {
+                      "urlPay": "https://www.webhook.com",
+                      "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
+                      "reference": "123456789",
+                      "cip": "42277677"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Unauthorized": {
+                    "summary": "Unauthorized",
+                    "value": {
+                      "message": "Token could not be found."
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Unauthorized"
+          }
+        },
+        "parameters": [],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pe_service_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
+              "language": "json",
+              "name": ""
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
+      }
+    },
+    "/payment2": {
+      "post": {
+        "description": "",
+        "operationId": "get_new-endpoint-21",
+        "responses": {
+          "200": {
+            "description": "Successful",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{\n  \"status\": \"SUCCESS\" | \"REJECTED\" | \"CANCELED\" | \"PENDING\"\n}"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "message": "Payment not found",
+                      "uid": "123456"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Bad Request"
+          },
+          "401": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "description": "Unauthorized"
+          }
+        },
+        "parameters": [],
+        "x-readme": {
+          "code-samples": [
+            {
+              "code": "No JSON body\n",
+              "language": "json",
+              "name": "Request"
+            }
+          ],
+          "samples-languages": [
+            "json"
+          ]
+        },
+        "security": [
+          {
+            "BearerAuth": []
+          }
+        ]
+      }
+    },
     "/payment/arqr_2/verify/{uid}": {
       "get": {
         "description": "",
@@ -7119,93 +7333,6 @@
             "BearerAuth": []
           }
         ]
-      }
-    },
-    "/payment/pix-payment/accounts?taxId=": {
-      "get": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
-      }
-    },
-    "/demo1": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint-1",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "OK": {
-                    "summary": "OK",
-                    "value": {
-                      "urlPay": "https://www.webhook.com",
-                      "uid": "01JRGVFWM2N1H8Y817R8KWZPD9",
-                      "reference": "123456789",
-                      "cip": "42277677"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {}
-                },
-                "examples": {
-                  "Unauthorized": {
-                    "summary": "Unauthorized",
-                    "value": {
-                      "message": "Token could not be found."
-                    }
-                  }
-                }
-              }
-            },
-            "description": "Unauthorized"
-          }
-        },
-        "parameters": [],
-        "x-readme": {
-          "code-samples": [
-            {
-              "code": "{\n  \"currency\": \"PEN\",\n  \"country\": \"PE\",\n  \"amount\": \"100.90\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"12345678912\",\n  \"paymentMethod\": \"pe_service_payment\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
-              "language": "json",
-              "name": ""
-            }
-          ],
-          "samples-languages": [
-            "json"
-          ]
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
-      }
-    },
-    "/pix": {
-      "get": {
-        "description": "",
-        "operationId": "get_pix",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": []
       }
     }
   },
