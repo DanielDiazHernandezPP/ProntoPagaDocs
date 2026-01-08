@@ -7408,7 +7408,9 @@
             "name": "taxId=",
             "schema": {
               "type": "string"
-            }
+            },
+            "required": true,
+            "description": "CPF del titular de la cuenta Pix."
           }
         ],
         "x-readme": {
