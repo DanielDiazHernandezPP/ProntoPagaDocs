@@ -7334,6 +7334,18 @@
         },
         "parameters": []
       }
+    },
+    "/payment/pix-payment/accounts?taxId=": {
+      "get": {
+        "description": "",
+        "operationId": "get_paymentpix-paymentaccounts?taxId=",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": []
+      }
     }
   },
   "x-readme": {
