@@ -7335,7 +7335,7 @@
         "parameters": []
       }
     },
-    "/payment/pix-payment/accounts?taxId=": {
+    "/payment/pix-payment/accounts": {
       "get": {
         "description": "",
         "operationId": "get_paymentpix-paymentaccounts?taxId=",
@@ -7402,7 +7402,15 @@
             "description": "Bad Request"
           }
         },
-        "parameters": [],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "taxId=",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "x-readme": {
           "code-samples": [
             {
