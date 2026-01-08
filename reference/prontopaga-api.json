@@ -7345,8 +7345,16 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK": {
-                    "summary": "OK",
+                  "": {
+                    "summary": "",
+                    "value": {
+                      "error": {
+                        "accountNumber": "accountNumber value is not valid."
+                      }
+                    }
+                  },
+                  "Success response": {
+                    "summary": "Success response",
                     "value": {
                       "status": "success",
                       "taxId": "123.456.789-01",
