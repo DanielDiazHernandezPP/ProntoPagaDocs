@@ -1,5 +1,5 @@
 ---
-title: Consultar un pago con QR/Wallet- Opción A
+title: Consultar un pago con QR/Wallet- Newpay
 api:
   file: prontopaga-api.json
   operationId: get_transactionrefund
