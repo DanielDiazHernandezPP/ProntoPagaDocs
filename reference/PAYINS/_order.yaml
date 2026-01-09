@@ -3,6 +3,7 @@
 - create-payment
 - get_new-endpoint_arg
 - consultar-el-estado-de-pago-con-qrwallet
+- verificar-el-flujo-de-un-pago-con-qrwallet-argentina
 - argentina
 - create-payment-chile-webpay-mall
 - create-payment-brazil-pixplusv2
