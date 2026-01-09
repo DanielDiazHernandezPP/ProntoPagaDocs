@@ -7335,7 +7335,7 @@
         "parameters": []
       }
     },
-    "/payment/pix-payment/accounts?taxId={taxId}": {
+    "/payment/pix-payment/accounts{taxId=}": {
       "get": {
         "description": "",
         "operationId": "get_paymentpix-paymentaccounts?taxId=",
@@ -7407,18 +7407,11 @@
             "in": "query",
             "name": "taxId=",
             "schema": {
-              "type": "string"
+              "type": "string",
+              "default": "123.456.789-01"
             },
             "required": true,
-            "description": "CPF del titular de la cuenta Pix."
-          },
-          {
-            "in": "path",
-            "name": "taxId",
-            "schema": {
-              "type": "string"
-            },
-            "required": true
+            "description": "Incluue el CPF del titular de la cuenta Pix."
           }
         ],
         "x-readme": {
