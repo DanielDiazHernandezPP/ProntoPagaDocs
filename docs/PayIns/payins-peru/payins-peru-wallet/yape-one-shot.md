@@ -136,9 +136,10 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
-  "clientDocumentType": "PP",
   "paymentMethod": "yape_oneshot_payment",
   "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://www.webhook.com",
+  "urlRejected": "https://www.webhook.com",
   "order": "XYZ789",
   "origin": "web",
   "sign": "Signature of the parameters"
@@ -169,7 +170,7 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 {
   "reference": "1111111111",
   "clientDocument": "12345678912",
-  "amount": "100.90,
+  "amount": "100.90",
   "urlCallbackRefund": "https://www.webhook.com",
   "sign": "Signature of the parameters"
 }
@@ -202,9 +203,10 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
   "clientEmail": "johndoe@example.com",
   "clientPhone": "999999999",
   "clientDocument": "12345678912",
-  "clientDocumentType": "PP",
   "paymentMethod": "yape_oneshot_payment",
   "urlConfirmation": "https://www.webhook.com",
+  "urlFinal": "https://www.webhook.com",
+  "urlRejected": "https://www.webhook.com",
   "order": "XYZ789",
   "origin": "mobile",
   "sign": "Signature of the parameters"
