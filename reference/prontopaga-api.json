@@ -6482,13 +6482,6 @@
                       "uid": "01JRTQPX93GR8TP1A1A7752TFT",
                       "reference": "17424654000570548730"
                     }
-                  },
-                  "- Argentina QR (1)": {
-                    "summary": "- Argentina QR (1)",
-                    "value": {
-                      "checkoutId": "checkout_123456",
-                      "status": "APPROVED"
-                    }
                   }
                 }
               }
