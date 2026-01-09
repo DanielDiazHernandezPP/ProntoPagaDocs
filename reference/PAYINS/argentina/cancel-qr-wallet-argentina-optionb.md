@@ -40,7 +40,7 @@ Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic e
 
 <br />
 
-Con este _endpoint_ puedes cancelar un pago con QR en Argentina buscando la transacción por su `uid`. Esto evita que un cliente conserve la imagen del QR o código e intente realizar el pago posteriormente.
+Con este _endpoint_ puedes cancelar un pago con **QR _mobile_ en Argentina** buscando la transacción por su `uid`. Esto evita que un cliente conserve la imagen del QR o código e intente realizar el pago posteriormente.
 
 El _endpoint_ responde con una página HTML de ProntoPaga, donde se muestra el estado cancelado de la transacción.
 
