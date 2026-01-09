@@ -7411,7 +7411,7 @@
               "default": "123.456.789-01"
             },
             "required": true,
-            "description": "Incluue el CPF del titular de la cuenta Pix."
+            "description": "Incluye el CPF del titular de la cuenta Pix."
           }
         ],
         "x-readme": {
