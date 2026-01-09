@@ -6531,8 +6531,8 @@
                       "timestamp": "2025-11-26T10:30:00Z"
                     }
                   },
-                  "Bad Request - QR (1)": {
-                    "summary": "Bad Request - QR (1)",
+                  "Bad Request - QR - amount": {
+                    "summary": "Bad Request - QR - amount",
                     "value": {
                       "statusCode": 400,
                       "message": "Validation failed",
