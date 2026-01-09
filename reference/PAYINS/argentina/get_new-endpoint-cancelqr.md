@@ -4,6 +4,18 @@ api:
   file: prontopaga-api.json
   operationId: get_new-endpoint-cancelQR
 hidden: true
+metadata:
+  title: Cancelar un pago con QR - Argentina | ProntoPaga Docs
+  description: Endpoint to cancel a payment QR web with ProntoPaga in Argentina.
+  image: >-
+    https://files.readme.io/9c387287ec24692f6f0ccd9e3798b812d371f2e13798e9275e26cbd465b5b63e-Captura_de_pantalla_2025-09-08_a_las_4.24.49_p._m..png
+  keywords:
+    - endpoint Prontopaga
+    - cancel a QR
+    - cancel a payment
+    - qr argentina prontopaga
+    - api prontopaga
+    - cancelar un pago con QR Argentina
 ---
 Prueba este _endpoint_ en la colección de Postman de ProntoPaga haciendo clic en el siguiente botón
 
