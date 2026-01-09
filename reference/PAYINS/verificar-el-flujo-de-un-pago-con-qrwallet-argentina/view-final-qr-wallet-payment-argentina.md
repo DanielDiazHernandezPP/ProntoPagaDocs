@@ -1,5 +1,5 @@
 ---
-title: Ver flujo final QR/Walltet -Opción B
+title: Ver flujo final QR/Walltet -MODO
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqr_2complete{uid}
