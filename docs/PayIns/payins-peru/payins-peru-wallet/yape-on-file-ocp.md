@@ -157,8 +157,6 @@ Si la afiliación se realizó con éxito, se mostrará el resultado de la transa
 
 <br />
 
-<br />
-
 ### Crea un One Click Payment
 
 Una vez que tu cliente esté afiliado correctamente, podrá realizar One Click Payments en tu comercio. Para solicitar un pago, deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `yape_cof_payment` como método de pago en el body de la solicitud, así como agregar el identificador único (UID) de la afiliación de la wallet del cliente en el parámetro `wallet_uid`.
@@ -167,7 +165,9 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 
 <NotaFirma />
 
-#### Body de la solicitud
+<br />
+
+### Body de la solicitud
 
 A continuación puedes ver un ejemplo del body que se envía en la [solicitud de un One Click Payment](https://docs.prontopaga.com/reference/create-payment):
 
@@ -192,7 +192,9 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-#### Confirmación de un pago
+<br />
+
+### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
@@ -203,6 +205,8 @@ Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una v
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
+
+<br />
 
 ### Motivos de rechazo de un pago
 
@@ -319,7 +323,9 @@ La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además,
 
 <NotaFirma />
 
-#### Body de la solicitud
+<br />
+
+### Body de la solicitud
 
 A continuación puedes ver un ejemplo del body que se envía en la [solicitud de un One Click Payment](https://docs.prontopaga.com/reference/create-payment):
 
@@ -344,7 +350,9 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
-#### Confirmación de un pago
+<br />
+
+### Confirmación de un pago
 
 Una vez que se haya completado el pago, ProntoPaga le mostrará al cliente una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
 
@@ -396,6 +404,8 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
 </table>
 `}</HTMLBlock>
 
+<br />
+
 ### Devolución de un One Click Payment
 
 Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del body request que debe llevar:
@@ -409,8 +419,6 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
   "sign": "Signature of the parameters"
 }
 ```
-
-<br />
 
 <br />
 
