@@ -1,5 +1,5 @@
 ---
-title: Ver flujo final QR/Wallet- Opción A
+title: Ver flujo final QR/Wallet- Newpay
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqrcomplete{uid}
