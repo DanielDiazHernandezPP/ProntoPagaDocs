@@ -61,9 +61,9 @@ Ten en cuenta que el flujo varía dependiendo de la versión utilizada:
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `ar_qr_payment` para pagos con Newpay o `ar_qr_2_payment` para MODO, como método de pago en el _body_ de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `ar_qr_payment` para pagos con QR web o `ar_qr_2_payment` para pagos con QR _mobile_, como método de pago en el _body_ de la solicitud.
 
-La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
+La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
 <NotaFirma />
 
@@ -73,7 +73,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 A continuación puedes ver dos ejemplos de _request_:
 
-**Ejemplo Newpay**:
+**Ejemplo QR web**:
 
 ```json
 {
@@ -92,7 +92,7 @@ A continuación puedes ver dos ejemplos de _request_:
 }
 ```
 
-**Ejemplo MODO:**
+**Ejemplo QR _mobile_:**
 
 ```json
 {
