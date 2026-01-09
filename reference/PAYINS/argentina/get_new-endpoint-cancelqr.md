@@ -1,5 +1,5 @@
 ---
-title: Cancelar un pago con QR/Wallet- MODO
+title: Cancelar un pago con QR/Wallet- Newpay
 api:
   file: prontopaga-api.json
   operationId: get_new-endpoint-cancelQR
