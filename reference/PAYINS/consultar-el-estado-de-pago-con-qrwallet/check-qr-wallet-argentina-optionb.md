@@ -1,5 +1,5 @@
 ---
-title: Consultar un pago con QR/Wallet- MODO
+title: Consultar un pago con QR/Wallet- QR mobile
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqr_2verify{uid}
