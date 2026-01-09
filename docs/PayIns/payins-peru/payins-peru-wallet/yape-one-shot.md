@@ -71,6 +71,8 @@ El proceso de pago con wallet en Perú consta de las siguientes etapas:
 
 ***
 
+<br />
+
 ## Versiones
 
 Es posible integrar el servicio **Botón Yape: One Shot** de dos maneras:
@@ -82,11 +84,15 @@ A continuación, verás las instrucciones para la versión web. Más abajo, dent
 
 ***
 
+<br />
+
 ## Validación pago terceros
 
 ProntoPaga cuenta con un servicio de validación de pago de terceros, el cual confirma que el número de teléfono celular ingresado coincida con los datos de la cuenta del cliente, evitando que se realicen pagos de terceros, y maximizando la seguridad de tus transacciones.
 
 Esta validación se asigna de forma automática a ciertos comercios integrados con nosotros. Si deseas activarla o desactivarla, comunícate con nuestro equipo de integración. Toma en cuenta las diferencias que existen en la experiencia del cliente para cada caso. Esas diferencias están descritas en la sección de **¿Cómo funciona?** de este artículo, en la parte superior.
+
+<br />
 
 ### Motivos de rechazo de validación pago terceros
 
@@ -111,9 +117,13 @@ A continuación, se listan los posibles motivos de validación pago terceros, as
 
 ***
 
+<br />
+
 ## Integra la versión web
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+
+<br />
 
 ### Crea un nuevo pago
 
@@ -122,6 +132,8 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
+
+<br />
 
 ### Body de la solicitud
 
@@ -150,6 +162,8 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
 
+<br />
+
 ### Confirmación de un pago
 
 Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una ventana con el resultado final de su transacción. Al mismo tiempo, devolverá los datos de la transacción a la URL que especificaste en `urlConfirmation`.
@@ -161,6 +175,44 @@ Una vez que el usuario haya completado el pago, ProntoPaga le mostrará una vent
 Para confirmar si una transacción fue exitosa, debes verificar que en tu webhook el valor del campo `status` sea `success`.
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
+
+### Motivos de rechazo de un pago
+
+A continuación, se listan los posibles motivos de rechazo para un pago de tipo One Click Payment, así como los mensajes que se muestran en pantalla a tu cliente.
+
+<HTMLBlock>{`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Código</b></th>
+			<th><b>Motivo</b></th>
+      <th><b>Mensaje</b></th>
+    </tr>
+  </thead>
+  <tbody>    
+		<tr><td><code>YPSBS003</code></td><td>Error por cuenta yapera no existe o inactiva</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para brindarte más información.</li></ul></td></tr>
+    <tr><tr><td><code>YPSBS004</code></td><td>Error por tipo de cuenta yapera no soportada</td><td><ul><li><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.</li></ul></td></tr>
+    <tr><tr><td><code>YPSBS005</code></td><td>Error por cuenta yapera en blacklist</td><td><ul><li><b>Por seguridad, tu cuenta Yape fue bloqueada.</b> Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.</li></ul></td></tr>
+    <tr><tr><td><code>YPSBS006</code></td><td>Error por cuenta yapera bloqueada para el canal e-commerce</td><td><ul><li><b>Tu cuenta Yape está bloqueada temporalmente.</b> Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.</li></ul></td></tr>  
+    <tr><td><code>YPSBS014</code></td><td>Error por suscripción confirmada no existente</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>  
+ 		<tr><td><code>YPSBS015</code></td><td>Error por no coincidencia del código de comercio de la suscripción</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>    
+    <tr><td><code>YPSBS016</code></td><td>Error por límite diario excedido</td><td><ul><li><b>Esta operación excede tu monto límite diario para compras por internet.</b> Vuelve a intentarlo el día de mañana.</li></ul></td></tr>
+    <tr><td><code>YPTRX001</code></td><td>Error por autorización detectada como fraude</td><td><ul><li><b>Detectamos una actividad sospechosa.</b> Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPTRX002</code></td><td>Error por fondos insuficientes</td><td><ul><li><b>Necesitas más saldo para este pago.</b> No cuentas con saldo suficiente para realizar este pago.</li></ul></td></tr>
+   <tr><td><code>YPTRX003</code></td><td>Error por cuenta bancaria bloqueada</td><td><ul><li><b>Tu cuenta asociada a Yape está bloqueada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</li></ul></td></tr> 
+    <tr><td><code>YPTRX004</code></td><td>Error por timeout en el proceso de transferencia</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
+		    <tr><td><code>YPTRX005</code></td><td>Error por cuenta yapera no encontrada</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPTRX006</code></td><td>Error por tarjeta BCP desactualizada</td><td><ul><li><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Ingresa al Centro de Ayuda de <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.</li></ul></td></tr>
+    <tr><td><code>YPTRX007</code></td><td>Error por tarjeta BCP bloqueada</td><td><ul><li><b>Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta con tus mismos datos.</li></ul></td></tr>
+    <tr><td><code>YPTRX008</code></td><td>Error por tarjeta digital inválida</td><td><ul><li><b>Tu cuenta está bloqueada.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta con tus mismos datos.</li></ul></td></tr>
+    <tr><td><code>YPTRX009</code></td><td>Error por tarjeta BCP vencida</td><td><ul><li><b>Tu cuenta está vencida.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.</li></ul></td></tr>
+    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><ul><li><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.</li></ul></td></tr>
+    <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
+    <tr><td><code>YPSBS999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
+ 	  <tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
+  </tbody>
+</table>
+`}</HTMLBlock>
 
 ### Devolución de un pago
 
@@ -178,9 +230,13 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 ***
 
+<br />
+
 ## Integra la versión mobile
 
 El front-end será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu back-end estará integrado con nuestra API, procesando el pago.
+
+<br />
 
 ### Crea un nuevo pago
 
@@ -189,6 +245,8 @@ De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoin
 La solicitud se envía con tu Bearer Token, así como con tu secretKey. Además, debes incluir los datos necesarios del cliente para hacer el pago, como: nombre, correo electrónico, monto, entre otros.
 
 <NotaFirma />
+
+<br />
 
 ### Body de la solicitud
 
@@ -216,6 +274,8 @@ A continuación puedes ver un ejemplo del body que se envía en la [solicitud de
 > 🚧 Límite transaccional
 >
 > Recuerda que el límite máximo por transacción y por día es de 2000 soles. Esto significa que, si un cliente realiza hoy una compra por ese monto, no podrá hacer otra transacción hasta mañana.
+
+<br />
 
 ### Confirmación de un pago
 
