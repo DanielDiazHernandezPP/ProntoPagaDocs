@@ -185,12 +185,13 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Código</b></th>
-			<th><b>Descripción</b></th>
+      <th><b>Descripción</b></th>
+			<th><b>Mensaje mostrado en el app Yape</b></th>
     </tr>
   </thead>
   <tbody>    
 		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td></tr>
-    <tr><tr><td><code>YPSBS004</code></td><td>Error por tipo de cuenta yapera no soportada</td><td><ul><li><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil.</li></ul></td></tr>
+    <tr><tr><td><code>YPCOCE0001</code></td><td>Consentimiento expirado o no encontrado</td><</tr>
     <tr><tr><td><code>YPSBS005</code></td><td>Error por cuenta yapera en blacklist</td><td><ul><li><b>Por seguridad, tu cuenta Yape fue bloqueada.</b> Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.</li></ul></td></tr>
     <tr><tr><td><code>YPSBS006</code></td><td>Error por cuenta yapera bloqueada para el canal e-commerce</td><td><ul><li><b>Tu cuenta Yape está bloqueada temporalmente.</b> Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.</li></ul></td></tr>  
     <tr><td><code>YPSBS014</code></td><td>Error por suscripción confirmada no existente</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>  
