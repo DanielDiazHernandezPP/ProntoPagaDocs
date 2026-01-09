@@ -1,5 +1,5 @@
 ---
-title: Cancelar un pago con QR/Wallet- MODO
+title: Cancelar un pago con QR/Wallet- QR mobile
 api:
   file: prontopaga-api.json
   operationId: get_paymentarqr_2cancel{uid}
