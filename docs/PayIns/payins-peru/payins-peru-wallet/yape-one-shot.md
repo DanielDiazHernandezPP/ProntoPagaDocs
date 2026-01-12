@@ -186,30 +186,31 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Código</b></th>
       <th><b>Descripción</b></th>
+      <th><b>Mensaje para mosrtar recomendado</b></th>
 			<th><b>Mensaje mostrado en el app Yape</b></th>
     </tr>
   </thead>
   <tbody>    
-		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td></tr>
-    <tr><tr><td><code>YPCOCE0001</code></td><td>Consentimiento expirado o no encontrado</td><</tr>
-    <tr><tr><td><code>YPSBS005</code></td><td>Error por cuenta yapera en blacklist</td><td><ul><li><b>Por seguridad, tu cuenta Yape fue bloqueada.</b> Comunícate con Yape por Whatsapp al 939 339 299 para brindarte más información.</li></ul></td></tr>
-    <tr><tr><td><code>YPSBS006</code></td><td>Error por cuenta yapera bloqueada para el canal e-commerce</td><td><ul><li><b>Tu cuenta Yape está bloqueada temporalmente.</b> Por seguridad, tu cuenta de Yape fue bloqueada solo para compras por internet. Vuelve a intentar en 24 horas.</li></ul></td></tr>  
-    <tr><td><code>YPSBS014</code></td><td>Error por suscripción confirmada no existente</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>  
- 		<tr><td><code>YPSBS015</code></td><td>Error por no coincidencia del código de comercio de la suscripción</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>    
-    <tr><td><code>YPSBS016</code></td><td>Error por límite diario excedido</td><td><ul><li><b>Esta operación excede tu monto límite diario para compras por internet.</b> Vuelve a intentarlo el día de mañana.</li></ul></td></tr>
-    <tr><td><code>YPTRX001</code></td><td>Error por autorización detectada como fraude</td><td><ul><li><b>Detectamos una actividad sospechosa.</b> Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.</li></ul></td></tr>
-    <tr><td><code>YPTRX002</code></td><td>Error por fondos insuficientes</td><td><ul><li><b>Necesitas más saldo para este pago.</b> No cuentas con saldo suficiente para realizar este pago.</li></ul></td></tr>
-   <tr><td><code>YPTRX003</code></td><td>Error por cuenta bancaria bloqueada</td><td><ul><li><b>Tu cuenta asociada a Yape está bloqueada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</li></ul></td></tr> 
-    <tr><td><code>YPTRX004</code></td><td>Error por timeout en el proceso de transferencia</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
-		    <tr><td><code>YPTRX005</code></td><td>Error por cuenta yapera no encontrada</td><td><ul><li><b>Ocurrió un inconveniente.</b> Comunícate con Yape por WhatsApp al 939 339 299 para validar y brindarte una solución.</li></ul></td></tr>
-    <tr><td><code>YPTRX006</code></td><td>Error por tarjeta BCP desactualizada</td><td><ul><li><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Ingresa al Centro de Ayuda de <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para asociar tu nueva tarjeta y renovar tu cuenta.</li></ul></td></tr>
-    <tr><td><code>YPTRX007</code></td><td>Error por tarjeta BCP bloqueada</td><td><ul><li><b>Tu tarjeta asociada a Yape está bloqueada, necesitas una nueva.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta con tus mismos datos.</li></ul></td></tr>
-    <tr><td><code>YPTRX008</code></td><td>Error por tarjeta digital inválida</td><td><ul><li><b>Tu cuenta está bloqueada.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta con tus mismos datos.</li></ul></td></tr>
-    <tr><td><code>YPTRX009</code></td><td>Error por tarjeta BCP vencida</td><td><ul><li><b>Tu cuenta está vencida.</b> Si ya tienes tu nueva tarjeta, ingresa al Centro de Ayuda de Yape <a href=" www.yape.com.pe">www.yape.com.pe</a> y conoce los pasos para renovar tu cuenta. De no tenerla, acude a una agencia BCP y solicita una nueva para renovar tu cuenta.</li></ul></td></tr>
-    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><ul><li><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por Whatsapp al 939 339 299 para brindarte una solución.</li></ul></td></tr>
-    <tr><td><code>YPSBS998</code></td><td>Error por incumplimiento de contrato</td><td><ul><li><b>Ocurrió un inconveniente.</b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos.</li></ul></td></tr>
-    <tr><td><code>YPSBS999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
- 	  <tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td><ul><li><b>Ocurrió un inconveniente. </b> Estamos poniendo manos a la obra. Por favor, vuelve a intentarlo en unos minutos</li></ul></td></tr>
+		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td><td>Mostrar pantalla de win state.</td><td>Yape notifica transacción exitosa por push y email</td></tr>
+    <tr><td><code>YPCOCE0001</code></td><td>Consentimiento expirado o no encontrado</td><td>No se pudo realizar tu compra por internet con Yape. Inténtalo nuevamente.</td><td>La solicitud ha expirado. Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+		<tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
