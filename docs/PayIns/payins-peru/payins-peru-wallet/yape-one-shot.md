@@ -191,7 +191,7 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     </tr>
   </thead>
   <tbody>    
-		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td><td><b>Mostrar pantalla de win state.</td><td>Yape notifica transacción exitosa por push y email</b></td></tr>
+		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td><td><b>Mostrar pantalla de win state.</b></td><td><b>Yape notifica transacción exitosa por push y email</b></td></tr>
     <tr><td><code>YPCOCE0001</code></td><td>Consentimiento expirado o no encontrado</td><td>No se pudo realizar tu compra por internet con Yape. Inténtalo nuevamente.</td><td>La solicitud ha expirado. Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
