@@ -30,7 +30,7 @@ Además, los pagos con código CIP utilizan el método de autenticación _Basic 
 
 La solicitud de pago podrá realizarse tanto en la versión web como en la _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria.
 
-> 👍 **CIP**
+> 👍 **Código CIP**
 >
 > El **CIP** incluye el monto a pagar y la fecha y hora de expiración. El código es válido por 30 minutos.
 
