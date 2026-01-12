@@ -196,13 +196,13 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     <tr><td><code>YPCOCE0002</code></td><td>Consentimiento en estado inválido</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>La solicitud ha expirado. </b>Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
     <tr><td><code>YPCOCE0003</code></td><td>Error por tipo de cuenta no soportada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil</td></tr>
     <tr><td><code>YPCOCE0004</code></td><td>Error por cuenta yapera en blacklist</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Por seguridad, tu cuenta fue bloqueada.</b> Comunícate con nosotros por WhatsApp para brindate más información.</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>YPCOCE0005</code></td><td>Error por tarjeta BCP desactualizada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Presiona "Ir a renovar cuenta" y sigue los pasos, colocando tus mismos datos.</td></tr>
+    <tr><td><code>YPCOCE0006</code></td><td>Error por tarjeta BCP bloqueada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tarjeta está bloqueada, necesitas una nueva.</b> Si ya tienes tu tarjeta, presionar en "<b>Ir a renovar cuenta</b>" e ingresa tus mismos datos. De no tenerla, acude a una agencia BCP y solicita una nueva tarjeta para renovar tu cuenta.</td></tr>
+    <tr><td><code>YPCOCE0007</code></td><td>Error por tarjeta BCP vencida</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tarjeta está vencida, necesitas una nueva.</b> Si ya tienes tu tarjeta, presionar en "<b>Ir a renovar cuenta</b>" e ingresa tus mismos datos. De no tenerla, acude a una agencia BCP y solicita una nueva tarjeta para renovar tu cuenta.</td></tr>
+    <tr><td><code>YPCOCE0008</code></td><td>Error por tarjeta digital bloqueada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu cuenta está bloquedada.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>Y</td></tr>
+    <tr><td><code>Y</code></td><td>C</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>Y</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
