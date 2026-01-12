@@ -176,6 +176,8 @@ Para confirmar si una transacción fue exitosa, debes verificar que en tu webhoo
 
 Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de los PayIns](https://docs.prontopaga.com/docs/payins-status).
 
+<br />
+
 ### Motivos de rechazo de un pago
 
 A continuación, se listan los posibles motivos de rechazo para un pago de tipo One Shot, así como los mensajes que se muestran en pantalla a tu cliente.
@@ -240,29 +242,17 @@ A continuación, se listan los posibles motivos de rechazo para una devolución 
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
       <th><b>Código</b></th>
       <th><b>Descripción</b></th>
-      <th><b>Mensaje para mosrtar recomendado</b></th>
-			<th><b>Mensaje mostrado en el app Yape</b></th>
     </tr>
   </thead>
   <tbody>    
-		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td><td><b>Mostrar pantalla de win state.</b></td><td><b>Yape notifica transacción exitosa por push y email</b></td></tr>
-    <tr><td><code>YPCOCE0001</code></td><td>Consentimiento expirado o no encontrado</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>La solicitud ha expirado. </b>Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
-    <tr><td><code>YPCOCE0002</code></td><td>Consentimiento en estado inválido</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>La solicitud ha expirado. </b>Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
-    <tr><td><code>YPCOCE0003</code></td><td>Error por tipo de cuenta no soportada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil</td></tr>
-    <tr><td><code>YPCOCE0004</code></td><td>Error por cuenta yapera en blacklist</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Por seguridad, tu cuenta fue bloqueada.</b> Comunícate con nosotros por WhatsApp para brindate más información.</td></tr>
-    <tr><td><code>YPCOCE0005</code></td><td>Error por tarjeta BCP desactualizada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Presiona "Ir a renovar cuenta" y sigue los pasos, colocando tus mismos datos.</td></tr>
-    <tr><td><code>YPCOCE0006</code></td><td>Error por tarjeta BCP bloqueada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tarjeta está bloqueada, necesitas una nueva.</b> Si ya tienes tu tarjeta, presionar en "<b>Ir a renovar cuenta</b>" e ingresa tus mismos datos. De no tenerla, acude a una agencia BCP y solicita una nueva tarjeta para renovar tu cuenta.</td></tr>
-    <tr><td><code>YPCOCE0007</code></td><td>Error por tarjeta BCP vencida</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tarjeta está vencida, necesitas una nueva.</b> Si ya tienes tu tarjeta, presionar en "<b>Ir a renovar cuenta</b>" e ingresa tus mismos datos. De no tenerla, acude a una agencia BCP y solicita una nueva tarjeta para renovar tu cuenta.</td></tr>
-    <tr><td><code>YPCOCE0008</code></td><td>Error por tarjeta digital bloqueada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu cuenta está bloquedada.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
-    <tr><td><code>YPCOCE0009</code></td><td>Error por tarjeta digital vencida</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu cuenta está bloquedada.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
-    <tr><td><code>YPCOCE0010</code></td><td>Error por límite de compras excedido</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Esta operación excede tu monto límite diario para compras por internet.</b> Superaste el límite diario de S/2000. Vuelve a intentarlo el día de mañana.</td></tr>
-    <tr><td><code>YPCOCE0021</code></td><td>Bloqueo de 24 horas por OTP incorrecto (tercer intento)</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Usaste todos tus intentos.</b> Por tu seguridad, no podrás hacer compras por internet con Yape durante 24 horas. Las demás funciones siguen disponibles.</td></tr>
-    <tr><td><code>YPTRX001</code></td><td>Error por autorización detectada como fraude</td><td><b>Encontramos restricciones para completar tu yapeo.</b> Por favor, comunícate con el BCP al (01) 311 9898 anexo *911 para brindarte una solución.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX002</code></td><td>Error por fondos insuficientes</td><td><b>Necesitas más saldo para esta compra</b></td><td>N/A</td></tr>
-    <tr><td><code>YPTRX003</code></td><td>Error por cuenta bancaria bloqueada</td><td><b>Tu cuenta asociada a Yape está bloqueada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX004</code></td><td>Error por timeout en el proceso de transferencia</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>N/A</td></tr>
+		<tr><td><code>YPTRX998</code></td><td>Error por incumplimiento del contrato</td></tr>
+    <tr><td><code>YPTRX000</code></td><td>Transacción exitosa</td></tr>
+    <tr><td><code>YPTRX005</code></td><td>Error por cuenta yapera no encontrada</td></tr>
+    <tr><td><code>YPTRX010</code></td><td>Error por operación de cargo no encontrado</td></tr>
+    <tr><td><code>YPTRX011</code></td><td>Error por plazo vecido para solicitar una devolución (máximo 365 días)</td></tr>
+    <tr><td><code>YPTRX012</code></td><td>Error en monto de devolución</td></tr>
+    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td></tr>
+		<tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
