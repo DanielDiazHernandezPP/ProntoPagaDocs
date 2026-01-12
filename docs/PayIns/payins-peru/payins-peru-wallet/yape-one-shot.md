@@ -193,9 +193,9 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
   <tbody>    
 		<tr><td><code>YPTRX000</code></td><td>Confirmación de transacción exitosa</td><td><b>Mostrar pantalla de win state.</b></td><td><b>Yape notifica transacción exitosa por push y email</b></td></tr>
     <tr><td><code>YPCOCE0001</code></td><td>Consentimiento expirado o no encontrado</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>La solicitud ha expirado. </b>Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
-    <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
+    <tr><td><code>YPCOCE0002</code></td><td>Consentimiento en estado inválido</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>La solicitud ha expirado. </b>Regresa al comercio y vuelve a solicitar la aprobación de yapeo.</td></tr>
+    <tr><td><code>YPCOCE0003</code></td><td>Error por tipo de cuenta no soportada</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Tu tipo de cuenta Yape no está habilitada para esta funcionalidad.</b> Conoce tu tipo de cuenta ingresando al menú de Yape, opción Mi perfil</td></tr>
+    <tr><td><code>YPCOCE0004</code></td><td>Error por cuenta yapera en blacklist</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Por seguridad, tu cuenta fue bloqueada.</b> Comunícate con nosotros por WhatsApp para brindate más información.</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
     <tr><td><code>Y</code></td><td>C</td><td>M</td><td>Y</td></tr>
