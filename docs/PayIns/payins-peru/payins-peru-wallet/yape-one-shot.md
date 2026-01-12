@@ -198,16 +198,16 @@ A continuación, se listan los posibles motivos de rechazo para un pago de tipo 
     <tr><td><code>YPCOCE0005</code></td><td>Error por tarjeta BCP desactualizada</td><td><b>Necesitas asociar tu nueva tarjeta BCP a Yape.</b> Presiona "Ir a renovar cuenta" y sigue los pasos, colocando tus mismos datos.</td></tr>
     <tr><td><code>YPCOCE0006</code></td><td>Error por tarjeta BCP bloqueada</td><td><b>Tu tarjeta está bloqueada, necesitas una nueva.</b> Si ya tienes tu tarjeta, presionar en "<b>Ir a renovar cuenta</b>" e ingresa tus mismos datos. De no tenerla, acude a una agencia BCP y solicita una nueva tarjeta para renovar tu cuenta.</td></tr>
     <tr><td><code>YPCOCE0007</code></td><td>Error por tarjeta BCP vencida</td><td><b>Tu tarjeta está vencida, necesitas una nueva.</b> Si ya tienes tu tarjeta, presionar en "<b>Ir a renovar cuenta</b>" e ingresa tus mismos datos. De no tenerla, acude a una agencia BCP y solicita una nueva tarjeta para renovar tu cuenta.</td></tr>
-    <tr><td><code>YPCOCE0008</code></td><td>Error por tarjeta digital bloqueada</td><td><b>Tu cuenta está bloquedada.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
-<tr><td><code>YPCOCE0009</code></td><td>Error por tarjeta digital vencida</td><td><b>Tu cuenta está bloquedada.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
-    <tr><td><code>YPCOCE0010</code></td><td>Error por límite de compras excedido</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Esta operación excede tu monto límite diario para compras por internet.</b> Superaste el límite diario de S/2000. Vuelve a intentarlo el día de mañana.</td></tr>
-    <tr><td><code>YPCOCE0021</code></td><td>Bloqueo de 24 horas por OTP incorrecto (tercer intento)</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td><b>Usaste todos tus intentos.</b> Por tu seguridad, no podrás hacer compras por internet con Yape durante 24 horas. Las demás funciones siguen disponibles.</td></tr>
-    <tr><td><code>YPTRX001</code></td><td>Error por autorización detectada como fraude</td><td><b>Encontramos restricciones para completar tu yapeo.</b> Por favor, comunícate con el BCP al (01) 311 9898 anexo *911 para brindarte una solución.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX002</code></td><td>Error por fondos insuficientes</td><td><b>Necesitas más saldo para esta compra</b></td><td>N/A</td></tr>
-    <tr><td><code>YPTRX003</code></td><td>Error por cuenta bancaria bloqueada</td><td><b>Tu cuenta asociada a Yape está bloqueada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX004</code></td><td>Error por timeout en el proceso de transferencia</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td><b>Tu cuenta asociada a Yape está cerrada.</b> No se pudo realizar el pago. Comunícate con Yape por WhatsApp al 939 339 299 para brindarte una solución.</td><td>N/A</td></tr>
-    <tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td><b>No se pudo realizar tu compra por internet con Yape.</b> Inténtalo nuevamente.</td><td>N/A</td></tr>
+    <tr><td><code>YPCOCE0008</code></td><td>Error por tarjeta digital bloqueada</td><td><b>Tu cuenta está bloqueda.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
+		<tr><td><code>YPCOCE0009</code></td><td>Error por tarjeta digital vencida</td><td><b>Tu cuenta está bloqueda.</b> Es necesario eliminar tu Yape y crear una cuenta nueva. Si tienes saldo, acude a una agencia BCP con tu DNI para retirarlo.</td></tr>
+    <tr><td><code>YPCOCE0010</code></td><td>Error por límite de compras excedido</td><td><b>Esta operación excede tu monto límite diario para compras por internet.</b> Superaste el límite diario de S/2000. Vuelve a intentarlo el día de mañana.</td></tr>
+    <tr><td><code>YPCOCE0021</code></td><td>Bloqueo de 24 horas por OTP incorrecto (tercer intento)</td><td><b>Usaste todos tus intentos.</b> Por tu seguridad, no podrás hacer compras por internet con Yape durante 24 horas. Las demás funciones siguen disponibles.</td></tr>
+<tr><td><code>YPTRX001</code></td><td>Error por autorización detectada como fraude</td><td>N/A</td></tr>
+    <tr><td><code>YPTRX002</code></td><td>Error por fondos insuficientes</td><td>N/A</td></tr>
+    <tr><td><code>YPTRX003</code></td><td>Error por cuenta bancaria bloqueada</td><td>N/A</td></tr>
+    <tr><td><code>YPTRX004</code></td><td>Error por timeout en el proceso de transferencia</td><td>N/A</td></tr>
+    <tr><td><code>YPTRX013</code></td><td>Error por cuenta bancaria cerrada</td><td>N/A</td></tr>
+    <tr><td><code>YPTRX999</code></td><td>Error inesperado ocurrido en el servidor</td><td>N/A</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
