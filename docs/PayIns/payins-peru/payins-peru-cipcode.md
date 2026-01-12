@@ -53,43 +53,23 @@ El proceso de pago con código CIP en Perú consta de cinco etapas principales:
 
 1. **Selección de método.** El cliente elige pagar vía banca por internet/móvil BCP en tu sitio web o aplicación.
 2. **Solicitud.** ProntoPaga genera el **código CIP** y muestra al cliente los datos para realizar el pago.
-3. **Cuenta**. El cliente inicia sesión en su plataforma elegida para realizar el pago. A continuación puedes conocer el flujo según el canal que elija el cliente:
-
-<br />
+3. **Cuenta**. El cliente inicia sesión en su plataforma de pago elegida. A continuación puedes conocer el flujo según el canal que elija el cliente:
 
 <Cards columns={2}>
   <Card title="📱 Yape">
-    El usuario abre su app Yape y elige la opción Yapear servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP para completar la transacción.
+    El cliente abre su app Yape y elige la opción Yapear servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP para completar la transacción.
   </Card>
 
-  <Card title="📱 App Banca móvil BCP">
-    El usuario inicia sesión en su app Banca móvil BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP para finalizar la transacción.
-  </Card>
-
-  <Card title="💻 Vía BCP – Banca por internet">
-    El usuario ingresa a su banca por internet del BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP otorgado para continuar la transacción.
-  </Card>
-
-  <Card title="🌐 Telecrédito web BCP">
-    El usuario inicia sesión en Telecrédito web y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP asignado para completar la transacción.
-  </Card>
-</Cards>
-
-<Cards columns={4}>
-  <Card title="📱 Yape">
-    El usuario abre su app Yape y elige la opción Yapear servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP para completar la transacción.
-  </Card>
-
-  <Card title="📱App Banca móvil BCP">
-    El usuario inicia sesión en su app Banca móvil BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP para finalizar la transacción.
+  <Card title="📱 Banca Móvil BCP (App)">
+    El cliente inicia sesión en su app de Banca Móvil BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el código CIP para finalizar la transacción.
   </Card>
 
   <Card title="💻 VíaBCP Banca por internet">
-    El usuario ingresa a su banca por internet del BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP otorgado para continuar la transacción.
+    El cliente ingresa a su banca por internet del BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el código CIP para continuar la transacción.
   </Card>
 
   <Card title="🌐 Telecrédito web BCP">
-    El usuario inicia sesión en Telecrédito web y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP asignado para completar la transacción.
+    El cliente inicia sesión en Telecrédito web y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP para completar la transacción.
   </Card>
 </Cards>
 
