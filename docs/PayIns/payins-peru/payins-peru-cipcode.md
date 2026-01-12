@@ -55,6 +55,26 @@ El proceso de pago con código CIP en Perú consta de cinco etapas principales:
 2. **Solicitud.** ProntoPaga genera el **código CIP** y muestra al cliente los datos para realizar el pago.
 3. **Cuenta**. El cliente inicia sesión en su plataforma elegida para realizar el pago. A continuación puedes conocer el flujo según el canal que elija el cliente:
 
+<br />
+
+<Cards columns={2}>
+  <Card title="📱 Yape">
+    El usuario abre su app Yape y elige la opción Yapear servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP para completar la transacción.
+  </Card>
+
+  <Card title="📱 App Banca móvil BCP">
+    El usuario inicia sesión en su app Banca móvil BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP para finalizar la transacción.
+  </Card>
+
+  <Card title="💻 Vía BCP – Banca por internet">
+    El usuario ingresa a su banca por internet del BCP y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y digita el número de código CIP otorgado para continuar la transacción.
+  </Card>
+
+  <Card title="🌐 Telecrédito web BCP">
+    El usuario inicia sesión en Telecrédito web y selecciona la opción Pagar servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP asignado para completar la transacción.
+  </Card>
+</Cards>
+
 <Cards columns={4}>
   <Card title="📱 Yape">
     El usuario abre su app Yape y elige la opción Yapear servicios. En el buscador ingresa ProntoPaga y luego digita el código CIP para completar la transacción.
@@ -84,7 +104,7 @@ El proceso de pago con código CIP en Perú consta de cinco etapas principales:
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ estará integrado con nuestra API, procesando el pago.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar `_pe_service_payment_` como método de pago en el _body_ de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar este _endpoint_ y colocar `"pe_service_payment"` como método de pago en el _body_ de la solicitud.
 
 La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
