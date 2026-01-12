@@ -28,24 +28,22 @@ Crear un pago con **código CIP (Código de Identificación de Pago único)** en
 
 Además, los pagos con código CIP utilizan el método de autenticación _Basic Auth_, que permite autenticar y autorizar el acceso al servicio.
 
-La solicitud de pago podrá realizarse tanto en la versión web como _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria.
+La solicitud de pago podrá realizarse tanto en la versión web como en la _mobile_. Una vez realizada con éxito, el cliente podrá realizar sus pagos ingresando el código CIP en diferentes plataformas integradas del **BCP (Banco de Crédito del Perú)** sin necesidad de usar tarjeta bancaria.
 
-<Callout icon="👍" theme="okay">
-  **CIP**
-
-  El **CIP** incluye el monto a pagar y la fecha de expiración.
-</Callout>
+> 👍 **CIP**
+>
+> El **CIP** incluye el monto a pagar y la fecha y hora de expiración. El código es válido por 30 minutos.
 
 ***
 
 ## ¿Cómo funciona?
 
-**BCP** es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe iniciar sesión en:
+BCP es un banco que opera en Perú y permite realizar pagos de cargos, cuotas o consumos mediante código CIP en sus distintas plataformas digitales. Para completar un pago con cualquiera de estas plataformas, el usuario debe iniciar sesión en:
 
 * Yape
-* VíaBCP (banca por internet)
-* Telecrédito web BCP (banca negocios)
-* Banca Móvil BCP (_app_)
+* VíaBCP (Banca por internet)
+* Telecrédito web BCP (Banca negocios)
+* Banca Móvil BCP (_App_)
 
 El proceso de pago con código CIP en Perú consta de cinco etapas principales:
 
