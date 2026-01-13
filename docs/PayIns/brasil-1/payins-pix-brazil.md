@@ -171,7 +171,7 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
   "codePostal": "01234-005",
   "city": "São Paulo",
   "bankCode": "30980539",
-  "branchCode": "1",
+  "branchCode": "0001",
   "accountType": "payment",
   "accountNumber": "100000284277",
   "theme": "{\"type\":\"qr\"}",
@@ -207,7 +207,7 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
   "codePostal": "01234-005",
   "city": "São Paulo",
   "bankCode": "30980539",
-  "branchCode": "1",
+  "branchCode": "0001",
   "accountType": "payment",
   "accountNumber": "100000284277",
   "sign": "Signature of the parameters"
