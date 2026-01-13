@@ -12,13 +12,38 @@ Los valores son:
 <br />
 
 <HTMLBlock>{`
-| Field        | Description                 |
-| ------------ | --------------------------- |
-| \`name\`       | Bank or institution name    |
-| \`code\`       | Bank code (when applicable) |
-| \`schema_skn\` | Internal identifier         |
-| \`country\`    | Country code                |
-| \`acronym\`    | Bank acronym                |
+<HTMLBlock>{\`
+<table>
+  <thead>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Field</b></th>
+      <th><b>Description</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>name</code></td>
+      <td>Nombre del banco o institución financiera.</td>
+    </tr>
+    <tr>
+      <td><code>code</code></td>
+      <td>Código bancario, cuando corresponde.</td>
+    </tr>
+    <tr>
+      <td><code>schema_skn</code></td>
+      <td>Identificador interno utilizado para la validación de la institución.</td>
+    </tr>
+    <tr>
+      <td><code>country</code></td>
+      <td>Código del país (ISO 2).</td>
+    </tr>
+    <tr>
+      <td><code>acronym</code></td>
+      <td>Acrónimo o nombre corto del banco o institución.</td>
+    </tr>
+  </tbody>
+</table>
+\`}</HTMLBlock>
 `}</HTMLBlock>
 
 Algunas entidades son:
