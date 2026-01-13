@@ -2,7 +2,7 @@
 title: Acepta pagos con QR/Wallet
 excerpt: Conoce el paso a paso de cómo crear un pago con QR en Argentina.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Crea pagos con QR en Argentina | ProntoPaga Docs
   description: >-
