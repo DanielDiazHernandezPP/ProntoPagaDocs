@@ -94,26 +94,17 @@ next:
 `}</HTMLBlock>
 
 <HTMLBlock>{`
-<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<table width="100%">
   <thead>
-    <tr bgcolor="#ff1f55">
-      <th align="left"><font color="white">Tipo de cuenta</font></th>
-      <th align="left"><font color="white">Descripción</font></th>
+    <tr style="background-color:#ff1f55; color:white; text-align:left;">
+      <th><b>Tipo de cuenta</b></th>
+      <th><b>Descripción</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>C</td>
-      <td>Cuenta corriente</td>
-    </tr>
-    <tr>
-      <td>S</td>
-      <td>Cuenta de ahorros</td>
-    </tr>
-    <tr>
-      <td>V</td>
-      <td>Cuenta Rut / Visa</td>
-    </tr>
+    <tr><td>C</td><td>Cuenta corriente</td></tr>
+    <tr><td>S</td><td>Cuenta de ahorros</td></tr>
+    <tr><td>V</td><td>Cuenta Rut / Visa</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
