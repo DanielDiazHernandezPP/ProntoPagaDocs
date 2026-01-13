@@ -99,7 +99,7 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 }
 ```
 
-> 📘 **Parámetros de una respuesta**
+> 📘 Parámetros de una respuesta
 >
 > * Los parámetros del campo `finalDocument` pueden ser `null`.
 > * El campo `decisions` puede ser un array vacío.
@@ -127,7 +127,7 @@ Como respuesta a una solicitud de biometría exitosa, recibirás un enlace para 
 
 Una vez que el usuario haya completado el proceso de la toma de fotografías, ProntoPaga lo redireccionará a la URL de retorno. Al mismo tiempo, devolverá los datos de la transacción al URL que hayas agregado anteriormente.
 
-> ❗️ **Reenvío de nueva biometría**
+> ❗️ Reenvío de nueva biometría
 >
 > Si un cliente solicita una **nueva biometría** después de haber sido dado de baja, debe usar **el mismo número y tipo de documento** en los parámetros del campo `document` que empleó en su solicitud original.
 
@@ -180,7 +180,7 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 }
 ```
 
-> 📘 **Parámetros de una respuesta**
+> 📘 Parámetros de una respuesta
 >
 > * Los parámetros del campo `finalDocument` pueden ser `null`.
 > * El campo `decisions` puede ser un array vacío.
@@ -196,7 +196,7 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 }
 ```
 
-> 📘 **Ver el estado de una verificación biométrica**
+> 📘 Ver el estado de una verificación biométrica
 >
 > Otra forma de conocer el `status` de una biometría, es copiar y pegar el `verificationURL` obtenido en la respuesta del endpoint de **Crear una nueva solicitud de biometría**, una vez hayas terminado el proceso de la toma de fotografías.
 >
