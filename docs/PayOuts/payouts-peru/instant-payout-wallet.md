@@ -209,9 +209,7 @@ Después de seleccionar una wallet del listado obtenido en el [endpoint anterior
 > Para los retiros con Yape, el monto máximo permitido por día y por transacción es de **3,000 PEN.**
 > Asegúrate de mostrar este límite de forma visible en el front-end y de implementar la lógica de validación y formato que impida ingresar montos superiores a 3,000 PEN antes de enviar la solicitud.
 
-Si el cliente supera el límite permitido, se le mostrará un mensaje de error: 
-
-<br />
+Si el cliente supera el límite permitido, se le [mostrará un mensaje de rechazo](https://docs.prontopaga.com/docs/instant-payout-wallet#motivos-de-rechazo). 
 
 ### Posibles respuestas
 
