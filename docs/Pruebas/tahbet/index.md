@@ -5,9 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-<Embed typeOfEmbed="iframe" url="https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu&export=download" href="https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu&export=download" html="false" iframe="true" />
-
-<br />
+Descarga la [lista de códigos de entidades financieras en Brasil](https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu\&export=download) que soportan transacciones con Pix. 
 
 <Cards>
   <GuideCard icon="fa-solid fa-circle-info" title="Guide Card Title" description="Description number 1." iconColor="#FFFF" bgIconColor="#182230" />
