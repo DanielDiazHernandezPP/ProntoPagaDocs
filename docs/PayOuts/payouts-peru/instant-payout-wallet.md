@@ -254,8 +254,7 @@ A continuación se muestran varios posibles casos de rechazo de un retiro, junto
   <td>26</td>
   <td>
     <ul style="margin:0; padding-left:16px;">
-      <li>Monto de retiro excede los límites, por favor reintentar con un monto válido o</li>
-      <li>Exceeds the maximum transaction amount per month</li>
+      Monto de retiro excede los límites, por favor reintentar con un monto válido
     </ul>
   </td></tr>
     <tr><td>AC03</td><td>Número de cuenta a acreditar incorrecta</td></tr>
