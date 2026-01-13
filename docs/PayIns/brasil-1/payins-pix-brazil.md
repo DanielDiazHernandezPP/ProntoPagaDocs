@@ -134,7 +134,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR.
 
-> 👍 Parámetro accountType
+> 📘 Parámetro accountType
 >
 > El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
 
@@ -247,11 +247,9 @@ A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta banca
 }
 ```
 
-<Callout icon="📘" theme="info">
-  **Parámetro `theme`**
-
-  El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
-</Callout>
+> 📘 Parámetro `theme`
+>
+> El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
 
 <br />
 
