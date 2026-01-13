@@ -6,11 +6,9 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
 Esta guía recopila todas las instituciones financieras soportadas por ProntoPaga para pagos con Pix en Brasil.
 
-Los campos son:
+Los campos que incluye la lista son:
 
 | Campo        | Descripción                                      |
 | :----------- | :----------------------------------------------- |
