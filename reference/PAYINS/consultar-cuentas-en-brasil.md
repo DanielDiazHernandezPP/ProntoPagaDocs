@@ -27,4 +27,4 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-<br />
+_Endpoint_ que recupera las cuentas Pix asociadas al CPF proporcionado. Se debe enviar el identificador del `taxId` en la ruta.
