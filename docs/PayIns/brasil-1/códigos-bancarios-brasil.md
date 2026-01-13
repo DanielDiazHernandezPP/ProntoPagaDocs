@@ -30,7 +30,7 @@ Los valores son:
     </tr>
     <tr>
       <td><code>schema_skn</code></td>
-      <td>Identificador que corresponde al <b>bankCode<b></td>
+      <td>Identificador que corresponde al <b>bankCode<b>.</td>
     </tr>
     <tr>
       <td><code>country</code></td>
