@@ -281,13 +281,7 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 </div>
 `}</HTMLBlock>
 
-***
-
-### Autenticación con challenge 3DS
-
-Después de introducir los datos de la tarjeta, el usuario es redirigido al sitio web de su banco para **completar la verificación 3-D Secure**, que puede ser a través de una contraseña, un código enviado por SMS o la aprobación desde la aplicación del banco. Para transacciones de bajo riesgo, la información enviada al finalizar la compra es suficiente. Sin embargo, para casos de alto riesgo, se requiere el _challenge_ para verificar la identidad del comprador.
-
-Revisa [los datos de tarjetas](https://docs.prontopaga.com/docs/test-data-argentina?isFramePreview=true#datos-de-prueba-de-autenticaci%C3%B3n3-d-secure) para probar la autenticación con 3DS.
+<br />
 
 ***
 
