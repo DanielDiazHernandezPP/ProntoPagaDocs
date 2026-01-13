@@ -37,8 +37,6 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ### Especificaciones
 
-<br />
-
 | Nombre                            | Límite mínimo | Límite máximo | Tiempo de expiración |
 | :-------------------------------- | :------------ | :------------ | :------------------- |
 | Puntos Red Activa / Western Union | USD 5         | USD 300       | No expira            |
