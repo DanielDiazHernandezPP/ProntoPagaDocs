@@ -94,7 +94,7 @@ Si el `taxId` tiene una o más cuentas bancarias asociadas, recibirás una respu
 
 <br />
 
-#### Ejemplo de respuesta rechazada
+#### Ejemplo de respuesta sin cuentas
 
 Si el `taxId` no tiene una cuenta bancaria asociada, recibirás un mensaje de error:
 
@@ -130,13 +130,7 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 <br />
 
-### Tipos de cuenta
-
-A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR.
-
-> 📘 Parámetro accountType
->
-> El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
+### Tipos de cuenta.
 
 Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `accountType`:
 
@@ -145,9 +139,17 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `a
 * `salary`
 * `savings`
 
+> 📘 Parámetro accountType
+>
+> El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
+
 ***
 
 <br />
+
+### Con cuenta registrada
+
+A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR
 
 #### Body de la solicitud - cuenta bancaria registrada - QR
 
