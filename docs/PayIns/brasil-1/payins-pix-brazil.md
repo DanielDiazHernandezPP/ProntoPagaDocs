@@ -389,9 +389,21 @@ Conoce todos los estados posibles de un pago en el siguiente enlace: [Estados de
 
 ### Devolución
 
-<br />
+Para solicitar la devolución de un pago exitoso realizado con este método, usa [este endpoint](https://docs.prontopaga.com/reference/refunds). A continuación, se muestra un ejemplo del _body request_ que debe llevar:
+
+```json
+{
+  "reference": "1111111111",
+  "clientDocument": "123.456.789-12",
+  "amount": "150.90",
+  "urlCallbackRefund": "https://www.webhook.com",
+  "sign": "Signature of the parameters"
+}
+```
 
 <br />
+
+***
 
 <br />
 
