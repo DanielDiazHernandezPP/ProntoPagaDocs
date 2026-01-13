@@ -251,8 +251,13 @@ A continuación se muestran varios posibles casos de rechazo de un retiro, junto
   </thead>
   <tbody>
     <tr><td>AC01</td><td>Número de cuenta incorrecta</td></tr>
-    <tr><td>26</td><td>- Monto de retiro excede los limites, por favor reintentar con un monto valido
- - Exceeds the maximum transaction amount per month</td></tr>
+  <td>26</td>
+  <td>
+    <ul style="margin:0; padding-left:16px;">
+      <li>Monto de retiro excede los límites, por favor reintentar con un monto válido</li>
+      <li>Exceeds the maximum transaction amount per month</li>
+    </ul>
+  </td></tr>
     <tr><td>AC03</td><td>Número de cuenta a acreditar incorrecta</td></tr>
     <tr><td>AC06</td><td>Cuenta bloqueada</td></tr>
     <tr><td>AC07</td><td>Cuenta a acreditar cerrada</td></tr>
