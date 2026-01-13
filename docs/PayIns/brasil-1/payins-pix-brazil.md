@@ -116,7 +116,7 @@ Si el `taxId` no tiene una cuenta bancaria asociada, recibirás un mensaje de er
 
 Tu _front-end_ será el encargado de recopilar los datos necesarios de tu cliente para procesar el pago, mientras que tu _back-end_ se integrará con nuestra API para procesarlo.
 
-De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `br_pix_payment` como método de pago en el body de la solicitud.
+De este modo, para crear una solicitud de nuevo pago deberás usar [este endpoint](https://docs.prontopaga.com/reference/create-payment) y colocar `br_pix_payment` como método de psago en el body de la solicitud.
 
 La solicitud se envía con tu _Bearer Token_, así como con tu _secretKey_. Además, debes incluir los datos necesarios del cliente para hacer el pago, como nombre, correo electrónico, teléfono, país, moneda, monto, entre otros.
 
@@ -224,13 +224,15 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 
 <br />
 
-### Sin cuenta bancaria registrada
+### Sin cuenta registrada
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta bancaria registrada, con y sin QR.
 
 > 👍 Cuentas
 >
 > Si un usuario ya tiene 3 cuentas bancarias mapeadas, no podrá usar la opción de pago sin cuenta registrada.
+
+<br />
 
 #### Body de la solicitud - sin cuenta bancaria registrada - QR
 
