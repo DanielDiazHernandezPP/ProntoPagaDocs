@@ -58,31 +58,8 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 ### Chile
 
 <HTMLBlock>{`
-<table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
-  <thead>
-    <tr style="background-color:#ff1f55; color:#ffffff; text-align:left;">
-      <th style="padding:8px 12px; border:1px solid #ddd;">
-        Tipo de cuenta
-      </th>
-      <th style="padding:8px 12px; border:1px solid #ddd;">
-        Descripción
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding:8px 12px; border:1px solid #ddd;">C</td>
-      <td style="padding:8px 12px; border:1px solid #ddd;">Cuenta corriente</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding:8px 12px; border:1px solid #ddd;">S</td>
-      <td style="padding:8px 12px; border:1px solid #ddd;">Cuenta de ahorros</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 12px; border:1px solid #ddd;">V</td>
+<table> <thead> <tr style="background-color:#ff1f55; color:white; text-align:left;"> <th><b>Tipo de cuenta</b></th> <th><b>Descripción</b></th> </tr> </thead> <tbody> <tr><td>C</td><td>Cuenta corriente</td></tr> <tr><td>S</td><td>Cuenta de ahorros</td></tr> <tr><td>V</td><td>Cuenta Rut / Visa</td></tr> </tbody> </table>
 `}</HTMLBlock>
-
-<br />
 
 ***
 
