@@ -228,7 +228,7 @@ El parámetro `status` muestra el estado actual de una verificación de biometr�
       </td>
 
       <td>
-        * Se requiere un reenvío de datos; el proceso se reinicia.
+        Se requiere un reenvío de datos; el proceso se reinicia.
       </td>
     </tr>
 
@@ -249,7 +249,7 @@ El parámetro `status` muestra el estado actual de una verificación de biometr�
       </td>
 
       <td>
-        * La verificación fue rechazada debido a un fallo en los criterios.  
+        * La verificación fue rechazada debido a un fallo en los criterios.
         * El tiempo para completar la verificación expiró sin completarse.
         * El usuario abandonó el proceso antes de finalizar.
       </td>
@@ -261,7 +261,7 @@ El parámetro `status` muestra el estado actual de una verificación de biometr�
       </td>
 
       <td>
-        * El proceso de verificación biométrica fue aprobado exitosamente.
+        El proceso de verificación biométrica fue aprobado exitosamente.
       </td>
     </tr>
   </tbody>
