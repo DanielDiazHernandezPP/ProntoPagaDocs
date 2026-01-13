@@ -165,21 +165,11 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de WooCommer
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Problema</b></th>
-      <th><b>Solución sugerida</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>No aparece el módulo de ProntoPaga en el menú lateral</td><td>Verifica si el plugin está instalado y activo en <b>Plugins > Plugins instalados</b></td></tr>
-    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
-    <tr><td>No aparece ProntoPaga como opción de pago</td><td>Asegúrate de que el plugin esté activo y configurado según esta guía</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Problema                                              | Solución sugerida                                                                 |
+| :---------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| No aparece el módulo de ProntoPaga en el menú lateral | Verifica si el plugin está instalado y activo en **Plugins > Plugins instalados** |
+| Error de redirección al pagar                         | Revisa las credenciales API configuradas                                          |
+| No aparece ProntoPaga como opción de pago             | Asegúrate de que el plugin esté activo y configurado según esta guía              |
 
 <br />
 
