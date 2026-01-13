@@ -86,34 +86,191 @@ Una vez instalado el plugin desde la terminal, termina la configuración, siguie
 
 La siguiente tabla presenta una descripción de todos los **campos que debes llenar al configurar el _plugin_** de Magento.
 
-<HTMLBlock>{`
-<table>
+<Table align={["left","left"]}>
   <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Configuración</b></th>
-      <th><b>Descripción</b></th>
+    <tr>
+      <th>
+        Configuración
+      </th>
+
+      <th>
+        Descripción
+      </th>
     </tr>
   </thead>
+
   <tbody>
-    <tr><td><b><em>Enable<em></b></td><td>Habilita o deshabilita el método de pago.</td></tr>
-    <tr><td><b>Título</b></td><td>Nombre del método de pago que aparece en el pedido (administrador Magento).</td></tr>
-    <tr><td><b><em>Merchant ID<em></b></td><td>Código de comercio en soles creado al momento de la afiliación.</td></tr>
-    <tr><td><b><em>Merchant ID Dollar<em></b></td><td>Código de comercio en dólares creado al momento de la afiliación.</td></tr>
-    <tr><td><b>Usuario</b></td><td>Usuario de acceso que permite invocar al API de seguridad y crear un token de acceso.</td></tr>
-    <tr><td><b>Contraseña</b></td><td>Contraseña de acceso que permite invocar al API de Seguridad y crear un <em>token<em> de acceso.</td></tr>
-    <tr><td><b><em>Debug<em></b></td><td>Activa o desactiva el modo producción.<br>• <em>YES<em> ⇒ Desarrollo<br>• NO ⇒ Producción</td></tr>
-    <tr><td><b>Título del formulario</b></td><td>Nombre del método de pago que aparece en el <em>checkout<em>.</td></tr>
-    <tr><td><b>Descripción en el formulario</b></td><td>Descripción del método de pago que aparece en el <em>checkout<em>.</td></tr>
-    <tr><td><b>Subir logo</b></td><td>Subir imagen del logo que aparecerá en el formulario.<br>Tamaño sugerido: 187x40px.</td></tr>
-    <tr><td><b>Color del botón</b></td><td>Define el color del botón “Pagar” en el formulario.<br>Valor por defecto: <span style="color:#FF0000; font-weight:bold;">#FF0000</span></td></tr>
-    <tr><td><b>Mostrar cantidad</b></td><td>Muestra el importe a pagar en el formulario.</td></tr>
-    <tr><td><b>Tamaño botón</b></td><td>Tamaño del botón de pago.<br>• <em>SMALL<em><br>• <em>MEDIUM<em><br>• <em>LARGE<em><br>• <em>DEFAULT<em></td></tr>
-    <tr><td><b>Política de devolución URL</b></td><td>Dirección URL de las políticas de devolución.</td></tr>
-    <tr><td><b><em>WebSite<em> Ip</b></td><td>Dirección IP del servidor.</td></tr>
-    <tr><td><b>Términos y condiciones URL</b></td><td>Dirección URL de los términos y condiciones del comercio.</td></tr>
+    <tr>
+      <td>
+        **_Enable_**
+      </td>
+
+      <td>
+        Habilita o deshabilita el método de pago.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Título**
+      </td>
+
+      <td>
+        Nombre del método de pago que aparece en el pedido (administrador Magento).
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **_Merchant ID_**
+      </td>
+
+      <td>
+        Código de comercio en soles creado al momento de la afiliación.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **_Merchant ID Dollar_**
+      </td>
+
+      <td>
+        Código de comercio en dólares creado al momento de la afiliación.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Usuario**
+      </td>
+
+      <td>
+        Usuario de acceso que permite invocar al API de seguridad y crear un token de acceso.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Contraseña**
+      </td>
+
+      <td>
+        Contraseña de acceso que permite invocar al API de Seguridad y crear un token de acceso.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        _**Debug**_
+      </td>
+
+      <td>
+        Activa o desactiva el modo producción.
+
+        * _YES ⇒ Desarrollo_
+        * _NO ⇒ Producción_
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Título del formulario**
+      </td>
+
+      <td>
+        Nombre del método de pago que aparece en el _checkout_.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Descripción en el formulario**
+      </td>
+
+      <td>
+        Descripción del método de pago que aparece en el _checkout_.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Subir logo**
+      </td>
+
+      <td>
+        Subir imagen del logo que aparecerá en el formulario.
+        Tamaño sugerido: 187x40px.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Color del botón**
+      </td>
+
+      <td>
+        Define el color del botón “Pagar” en el formulario.
+        Valor por defecto: **#FF0000**
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Mostrar cantidad**
+      </td>
+
+      <td>
+        Muestra el importe a pagar en el formulario.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Tamaño botón**
+      </td>
+
+      <td>
+        Tamaño del botón de pago.
+
+        * _SMALL_
+        * _MEDIUM_
+        * _LARGE_
+        * _DEFAULT_
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Política de devolución URL**
+      </td>
+
+      <td>
+        Dirección URL de las políticas de devolución.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        _**WebSite Ip**_
+      </td>
+
+      <td>
+        Dirección IP del servidor.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Términos y condiciones URL**
+      </td>
+
+      <td>
+        Dirección URL de los términos y condiciones del comercio.
+      </td>
+    </tr>
   </tbody>
-</table>
-`}</HTMLBlock>
+</Table>
 
 ***
 
@@ -148,23 +305,12 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de Adobe Com
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Problema</b></th>
-      <th><b>Solución sugerida</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Error de instalación de <i>plugin</i></td><td>Debes validar que la versión de Magento que estás instalando sea la correcta</td></tr>
-    <tr><td>El <i>plugin</i> no aparece en el Admin</td><td>Verifica si se instaló en el <i>workspace</i> correcto y si fue publicado</td></tr>
-    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
-  </tbody>
-		<tr><td>ProntoPaga no aparece como opción de pago</td><td>Asegúrate de que el <i>plugin</i> esté activo y configurado</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Problema                                  | Solución sugerida                                                            |
+| :---------------------------------------- | :--------------------------------------------------------------------------- |
+| Error de instalación de _plugin_          | Debes validar que la versión de Magento que estás instalando sea la correcta |
+| El _plugin_ no aparece en el Admin        | Verifica si se instaló en el _workspace _correcto y si fue publicado         |
+| Error de redirección al pagar             | Revisa las credenciales API configuradas                                     |
+| ProntoPaga no aparece como opción de pago | Asegúrate de que el _plugin_ esté activo y configurado                       |
 
 ***
 
