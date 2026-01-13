@@ -407,6 +407,33 @@ Para solicitar la devolución de un pago exitoso realizado con este método, usa
 
 <br />
 
+### Detalles de un pago
+
+Si así lo deseas, puedes consultar [este endpoint](https://docs.prontopaga.com/reference/payment-details-uid) con el `uid` de la transacción para conocer los detalles del pago. Si tu consulta es exitosa, obtendrás una respuesta similar a la siguiente:
+
+```json
+{ 
+  "uid": [string] // Transaction Identifier 
+  "status": [string] // Transaction status 
+  "amount": [string] // Transaction amount 
+  "method": [string] // Payment method used 
+  "reference": [string] // Reference of the transaction 
+  "clientEmail": [string] // Client's email address 
+  "clientDocument": [string] // Customer's ID number 
+  "order": [string] // Payment identifier to be associated with 
+  "currency": [string] // ISO currency code 
+  "country": [string] // International Country Format 
+  "method_type": [string] // Method type 
+  "method_detail": [string] // Method details 
+  "hash": [string] // Security hash parameter 
+  "sign": [string] // Signature of the parameters
+}
+```
+
+***
+
+<br />
+
 ## Prueba tu integración
 
 Contamos con un [catálogo de datos de prueba](https://docs.prontopaga.com/docs/test-data) que puedes usar para comprobar que tu integración está lista, así como para ver el flujo de pago que seguirá tu cliente. Además, puedes hacer pruebas con nuestros demos:
