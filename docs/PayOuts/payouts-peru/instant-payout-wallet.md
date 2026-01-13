@@ -56,56 +56,78 @@ El proceso de PayOut con wallet en Perú consta de cuatro etapas principales:
 
 En la tabla a continuación, podrás consultar las entidades aptas para transacciones a través de wallet, así como aquellas que requieren o no requieren validación de pagos a terceros.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Entidad</b></th>
-      <th><b>Apta para wallet (con validación de terceros)</b></th>
-      <th><b>Apta para wallet (sin validación de terceros)</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>SCOTIABANK</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANCO NACION</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCOM</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCO PICHINCHA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANBIF</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>CREDISCOTIA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>MI BANCO</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANCO FALABELLA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCO RIPLEY</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANCO ALFIN</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>TARJETA OH</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CMAC AREQUIPA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA HUANCAYO</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA LOS ANDES</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>YAPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>PLIN</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>DALE</td><td>✅ YES</td><td>✅ YES</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Entidad                   | Apta para wallet (con validación de terceros) | Apta para wallet (sin validación de terceros) |
+| :------------------------ | :-------------------------------------------- | :-------------------------------------------- |
+| BANCO DE CREDITO DEL PERU | ✅ YES                                         | ✅ YES                                         |
+| INTERBANK                 | ✅ YES                                         | ✅ YES                                         |
+| SCOTIABANK                | ❌ NO                                          | ✅ YES                                         |
+| BBVA                      | ✅ YES                                         | ✅ YES                                         |
+| BANCO NACION              | ❌ NO                                          | ✅ YES                                         |
+| BANCOM                    | ❌ NO                                          | ✅ YES                                         |
+| BANCO PICHINCHA           | ✅ YES                                         | ✅ YES                                         |
+| BANBIF                    | ❌ NO                                          | ✅ YES                                         |
+| CREDISCOTIA               | ❌ NO                                          | ✅ YES                                         |
+| MI BANCO                  | ❌ NO                                          | ✅ YES                                         |
+| BANCO GNB                 | ✅ YES                                         | ✅ YES                                         |
+| BANCO FALABELLA           | ❌ NO                                          | ✅ YES                                         |
+| BANCO RIPLEY              | ✅ YES                                         | ✅ YES                                         |
+| BANCO ALFIN               | ✅ YES                                         | ✅ YES                                         |
+| COMPARTAMOS FINANCIERA    | ✅ YES                                         | ✅ YES                                         |
+| TARJETA OH                | ✅ YES                                         | ✅ YES                                         |
+| FINANCIERA EFECTIVA       | ✅ YES                                         | ✅ YES                                         |
+| FINANCIERA CONFIANZA      | ✅ YES                                         | ✅ YES                                         |
+| PREXPE                    | ✅ YES                                         | ✅ YES                                         |
+| CAJA PIURA                | ✅ YES                                         | ✅ YES                                         |
+| CAJA TRUJILLO             | ✅ YES                                         | ✅ YES                                         |
+| CMAC AREQUIPA             | ❌ NO                                          | ✅ YES                                         |
+| WAYKI CAJA CUSCO          | ✅ YES                                         | ✅ YES                                         |
+| CAJA HUANCAYO             | ❌ NO                                          | ✅ YES                                         |
+| CAJA ICA                  | ✅ YES                                         | ✅ YES                                         |
+| CAJA LOS ANDES            | ✅ YES                                         | ✅ YES                                         |
+| YAPE                      | ✅ YES                                         | ✅ YES                                         |
+| PLIN                      | ✅ YES                                         | ✅ YES                                         |
+| COOPERATIVA ABACO         | ✅ YES                                         | ✅ YES                                         |
+| LIGO                      | ✅ YES                                         | ✅ YES                                         |
+| DALE                      | ✅ YES                                         | ✅ YES                                         |
 
 ***
 
 ## Wallets disponibles
 
 Este es la lista completa de las wallets disponibles para hacer PayOuts con ProntoPaga en Perú:
+
+| Marca                           | Valor        |
+| :------------------------------ | :----------- |
+| Banco Falabella                 | falabella    |
+| Wayki Caja Cusco                | cajaCusco    |
+| Banco Nación                    | nacion       |
+| Mibanco                         | mibanco      |
+| Tarjeta oh                      | oh           |
+| Banco GNB                       | gnb          |
+| BanBif                          | banbif       |
+| Caja Lima                       | cajaLima     |
+| Compartamos Financiera          | compartamos  |
+| Caja Huancayo                   | cajaHuancayo |
+| Caja Piura                      | cajaPiura    |
+| Dale                            | dale         |
+| Financiera Confianza            | confianza    |
+| Bancom                          | comercio     |
+| Ripley                          | ripley       |
+| Santander                       | santander    |
+| Banco Pichincha                 | pichincha    |
+| Banco de Crédito del Perú (BCP) | bcp          |
+| Financiera Efectiva             | efectiva     |
+| Caja Ica                        | Caja Ica     |
+| Caja Trujillo                   | cajaTrujillo |
+| Interbank                       | interbank    |
+| Luqea                           | luqea        |
+| Caja Sullana                    | cajaSullana  |
+| Prexpe                          | prexpe       |
+| Yape                            | yape         |
+| Plin                            | plin         |
+| Bim                             | bim          |
+
+<br />
 
 <HTMLBlock>{`
 <table>
