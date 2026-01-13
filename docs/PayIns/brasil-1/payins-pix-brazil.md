@@ -47,7 +47,7 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ## Consulta de cuentas
 
-Para crear un nuevo pago con Pix, debes enviar una solicitud a este _endpoint_  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil.
+Para crear un nuevo pago con Pix, debes enviar una solicitud a este [_endpoint_](https://docs.prontopaga.com/reference/consultar-cuentas-en-brasil)  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil.
 
 Si el cliente tiene una cuenta registrada, podrás enviar dos tipos de solicitud:
 
