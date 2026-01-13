@@ -132,21 +132,11 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu cuenta de VTEX, rea
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Problema</b></th>
-      <th><b>Solución sugerida</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>El plugin no aparece en el Admin</td><td>Verifica si se instaló en el workspace correcto, y si fue publicado</td></tr>
-    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
-    <tr><td>No aparece ProntoPaga como opción de pago</td><td>Asegúrate de que el plugin esté activo y configurado</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Problema                                  | Solución sugerida                                                   |
+| :---------------------------------------- | :------------------------------------------------------------------ |
+| El plugin no aparece en el Admin          | Verifica si se instaló en el workspace correcto, y si fue publicado |
+| Error de redirección al pagar             | Revisa las credenciales API configuradas                            |
+| No aparece ProntoPaga como opción de pago | Asegúrate de que el plugin esté activo y configurado                |
 
 <br />
 
