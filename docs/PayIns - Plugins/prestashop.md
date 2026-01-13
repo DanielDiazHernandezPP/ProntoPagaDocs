@@ -125,21 +125,13 @@ Para asegurar el correcto funcionamiento de ProntoPaga en tu tienda de PrestaSho
 
 A continuación, se presenta una tabla con los problemas más comunes asociados a esta instalación, así como las soluciones sugeridas.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Problema</b></th>
-      <th><b>Solución sugerida</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>No aparece el módulo de ProntoPaga en los Módulos de pago activos</td><td>a. Verifica si el plugin se subió correctamente. b. Intenta subirlo nuevamente. c. Verifica si el plugin está activo en <b>Módulos > Administrador de módulos</b>, en el selector de opciones (al lado del botón <b>Configurar</b> del plugin)</td></tr>
-    <tr><td>Error de redirección al pagar</td><td>Revisa las credenciales API configuradas</td></tr>
-    <tr><td>No aparece ProntoPaga como opción de pago en el <i>checkout</i></td><td>Asegúrate de que el plugin esté activo y configurado según esta guía</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Problema                                                          | Solución sugerida                                                                                                                                                                                                                        |
+| :---------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No aparece el módulo de ProntoPaga en los Módulos de pago activos | a. Verifica si el plugin se subió correctamente. b. Intenta subirlo nuevamente. c. Verifica si el plugin está activo en **Módulos > Administrador de módulos**, en el selector de opciones (al lado del botón **Configurar** del plugin) |
+| Error de redirección al pagar                                     | Revisa las credenciales API configuradas                                                                                                                                                                                                 |
+| No aparece ProntoPaga como opción de pago en el _checkout_        | Asegúrate de que el plugin esté activo y configurado según esta guía                                                                                                                                                                     |
+
+<br />
 
 ### Ayuda con un pedido
 
