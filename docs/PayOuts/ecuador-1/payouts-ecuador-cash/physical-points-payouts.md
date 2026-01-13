@@ -33,7 +33,7 @@ Si así lo desean, los clientes pueden seleccionar retirar su dinero en efectivo
 
 ### Ubicaciones
 
-🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de [esta página](https://redactiva.com/agencias/) ⬅️
+🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de [esta página](https://www.redactiva.com/red-de-locales) ⬅️
 
 ### Especificaciones
 
