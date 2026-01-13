@@ -1,7 +1,7 @@
 ---
 title: Consultar el estado de pago con QR/Wallet - Argentina
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
