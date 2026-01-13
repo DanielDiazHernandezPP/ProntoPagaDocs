@@ -9,45 +9,13 @@ Esta guía recopila todas las instituciones financieras soportadas por ProntoPag
 
 Los valores son:
 
-| Campo | Descripción |
-| :---- | :---------- |
-| name  |             |
-|       |             |
-
-<br />
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Campo</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>name</code></td>
-      <td>Nombre del banco o institución financiera.</td>
-    </tr>
-    <tr>
-      <td><code>code</code></td>
-      <td>Código bancario, cuando corresponde.</td>
-    </tr>
-    <tr>
-      <td><code>schema_skn</code></td>
-      <td>Identificador que corresponde al <code>bankCode</code>.</td>
-    </tr>
-    <tr>
-      <td><code>country</code></td>
-      <td>Código del país (ISO 2).</td>
-    </tr>
-    <tr>
-      <td><code>acronym</code></td>
-      <td>Acrónimo o nombre corto del banco o institución.</td>
-    </tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Campo        | Descripción                                      |
+| :----------- | :----------------------------------------------- |
+| `name`       | Nombre del banco o institución financiera.       |
+| `code`       | Código bancario, cuando corresponde.             |
+| `schema_skn` | Identificador que corresponde al `bankCode`.     |
+| `country`    | Código del país (ISO 2).                         |
+| `acronym`    | Acrónimo o nombre corto del banco o institución. |
 
 <br />
 
