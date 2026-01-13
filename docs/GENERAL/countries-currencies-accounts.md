@@ -61,13 +61,6 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 | AHO            | Ahorros     |
 | CTE            | Corriente   |
 
-#### Payphone
-
-| Tipo de cuenta | Descripción |
-| :------------- | :---------- |
-| C              | Cliente     |
-| B              | Comercio    |
-
 ***
 
 ### Perú
