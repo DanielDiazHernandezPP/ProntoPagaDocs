@@ -47,7 +47,7 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ## Consulta de cuentas
 
-Para crear un nuevo pago con Pix, debes enviar una solicitud a este [_endpoint_](https://docs.prontopaga.com/reference/consultar-cuentas-en-brasil)  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil.
+Para crear un nuevo pago con Pix, debes enviar una solicitud a este [_endpoint_](https://docs.prontopaga.com/reference/consultar-cuentas-en-brasil)  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil. Para comercios de tipo _gambling_ puedes mapear hasta un máximo de tres cuentas. Para comercios _e-commerce_ puedes ver todas las cuentas disponibles del usuario.
 
 Si el cliente tiene una cuenta registrada, podrás enviar dos tipos de solicitud:
 
@@ -225,6 +225,10 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
 ### Sin cuenta bancaria registrada
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos sin cuenta bancaria registrada, con y sin QR.
+
+> 👍 Cuentas
+>
+> Si un usuario ya tiene 3 cuentas bancarias mapeadas, no podrá usar la opción de pago sin cuenta registrada.
 
 #### Body de la solicitud - sin cuenta bancaria registrada - QR
 
