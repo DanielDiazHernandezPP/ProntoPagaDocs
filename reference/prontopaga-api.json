@@ -6153,6 +6153,16 @@
               "code": "{\n  \"currency\": \"CLP\",\n  \"country\": \"CL\",\n  \"amount\": \"25500\",\n  \"clientName\": \"John Doe\",\n  \"clientEmail\": \"johndoe@example.com\",\n  \"clientPhone\": \"999999999\",\n  \"clientDocument\": \"11111111-1\",\n  \"paymentMethod\": \"mach_payment\",\n  \"qr_only\": \"true\",\n  \"urlConfirmation\": \"https://www.webhook.com\",\n  \"urlFinal\": \"https://sandbox.prontopaga.com/successful\",\n  \"urlRejected\": \"https://sandbox.prontopaga.com/declined\",\n  \"order\": \"XYZ789\",\n  \"sign\": \"Signature of the parameters\"\n}",
               "language": "json",
               "name": "Chile QR/Wallet (MACH without redirection)"
+            },
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"latam_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Argentina Card - Option A"
+            },
+            {
+              "code": "{ \n  \"currency\": \"ARS\", \n  \"country\": \"AR\", \n  \"amount\": \"34000.90\",\n  \"clientName\" : \"John Doe\", \n  \"clientEmail\" : \"johndoe@example.com\", \n  \"clientPhone\" : \"999999999\", \n  \"clientDocument\" : \"12345678912\", \n  \"paymentMethod\" : \"ar_chk_card_payment\", \n  \"urlConfirmation\" : \"https://www.webhook.com\", \n  \"urlFinal\" : \"https://sandbox.prontopaga.com/successful\", \n  \"urlRejected\" : \"https://sandbox.prontopaga.com/declined\", \n  \"order\" : \"XYZ789\" \n}",
+              "language": "json",
+              "name": "Argentina Card - Option B"
             }
           ],
           "samples-languages": [
