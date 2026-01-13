@@ -33,7 +33,7 @@ Si así lo desean, los clientes pueden seleccionar pagar en efectivo en Ecuador,
 
 ### Ubicaciones
 
-🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de [esta página](https://redactiva.com/agencias/) ⬅️
+🌎 Conoce todas las ubicaciones así como los **puntos más cercanos según tu dirección** en el mapa de <Anchor label="esta página" target="_blank" href="https://redactiva.com/agencias">esta página</Anchor> ⬅️
 
 #### Especificaciones
 
