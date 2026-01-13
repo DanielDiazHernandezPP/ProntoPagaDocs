@@ -5,9 +5,13 @@ hidden: true
 metadata:
   robots: index
 ---
-ProntoPaga acepta múltiples bancos e instituciones financieras en Brasil. 
+Esta guía recopila todas las instituciones financieras soportadas por ProntoPaga para pagos con Pix en Brasil. 
+
+<br />
 
 Algunas entidades son: 
+
+<br />
 
 El valor`schema_skn`corresponde al `bankCode`en el body de la solicitud. 
 
