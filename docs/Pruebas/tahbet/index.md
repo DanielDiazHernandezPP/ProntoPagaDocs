@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-<Embed typeOfEmbed="jsfiddle" url="https://drive.google.com/file/d/1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu/view?usp=sharing" href="https://drive.google.com/file/d/1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu/view?usp=sharing" providerUrl="https://drive.google.com" providerName="Google Docs" />
+<Embed typeOfEmbed="jsfiddle" url="https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu&export=download" href="https://drive.google.com/file/d/1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu/view?usp=sharing" providerUrl="https://drive.google.com" providerName="Google Docs" />
 
 <br />
 
