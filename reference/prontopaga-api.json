@@ -5931,6 +5931,24 @@
                       "reference": "Reason for rejection"
                     },
                     "summary": "Result"
+                  },
+                  "Bad Request": {
+                    "summary": "Bad Request",
+                    "value": {
+                      "statusCode": 400,
+                      "message": "Validation failed",
+                      "errors": [
+                        {
+                          "field": "amount",
+                          "message": "Amount must have at most 2 decimal places"
+                        },
+                        {
+                          "field": "customer.email",
+                          "message": "Invalid email format"
+                        }
+                      ],
+                      "timestamp": "2025-11-26T10:30:00Z"
+                    }
                   }
                 }
               }
