@@ -80,8 +80,6 @@ next:
     </tr>
   </thead>
   <tbody>
-    <tr><td>Tarjeta</td><td>ec_card_payment</td><td>Payphone</td></tr>
-    <tr><td>Wallet</td><td>payphone_payment</td><td>Payphone</td></tr>
     <tr><td>Efectivo</td><td>broadnet_payment</td><td>Ponle más</td></tr>
     <tr><td>Efectivo</td><td>bemovil_payment</td><td>Bemovil</td></tr>
    	<tr><td>Efectivo</td><td>redactiva_payment</td><td>Red Activa / Western Union</td></tr>
