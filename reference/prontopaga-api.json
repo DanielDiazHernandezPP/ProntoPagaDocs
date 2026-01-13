@@ -7436,8 +7436,8 @@
             "content": {
               "application/json": {
                 "examples": {
-                  "OK": {
-                    "summary": "OK",
+                  "Successful response": {
+                    "summary": "Successful response",
                     "value": {
                       "status": "success",
                       "taxId": "123.456.789-01",
