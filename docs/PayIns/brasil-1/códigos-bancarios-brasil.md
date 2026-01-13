@@ -12,17 +12,13 @@ Los valores son:
 <br />
 
 <HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Campo</b></th>
-			<th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Nombre del banco o institución</td><td>Código bancario (cuando corresponde)</td><td>✔Identificador</td><td>País</td><td>Acrónimo</td></tr></tr>
-  </tbody>
-</table>
+| Field        | Description                 |
+| ------------ | --------------------------- |
+| \`name\`       | Bank or institution name    |
+| \`code\`       | Bank code (when applicable) |
+| \`schema_skn\` | Internal identifier         |
+| \`country\`    | Country code                |
+| \`acronym\`    | Bank acronym                |
 `}</HTMLBlock>
 
 Algunas entidades son:
