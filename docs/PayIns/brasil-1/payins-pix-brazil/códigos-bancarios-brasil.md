@@ -1,7 +1,7 @@
 ---
 title: Códigos bancarios - Brasil
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
