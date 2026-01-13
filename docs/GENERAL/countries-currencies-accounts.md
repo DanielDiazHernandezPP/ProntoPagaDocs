@@ -30,22 +30,11 @@ next:
 
 Los códigos de país están en formato ISO 3166-1 alpha-2. Las monedas están en formato ISO 4217.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>País</b></th>
-      <th><b>Código del país (ISO 3166-1 alpha-2)</b></th>
-      <th><b>Código de moneda (ISO 4217)</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Chile</td><td>CL</td><td>CLP</td></tr></tr>
-    <tr><td>Ecuador</td><td>EC</td><td>USD</td></tr>
-    <tr><td>Perú</td><td>PE</td><td>PEN / USD</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| País    | Código del país (ISO 3166-1 alpha-2) | Código de moneda (ISO 4217) |
+| :------ | :----------------------------------- | :-------------------------- |
+| Chile   | CL                                   | CLP                         |
+| Ecuador | EC                                   | USD                         |
+| Perú    | PE                                   | PEN / USD                   |
 
 ***
 
@@ -57,61 +46,35 @@ El tipo de cuenta se especifica con un solo caracter en la mayoría de los casos
 
 ### Chile
 
-<HTMLBlock>{`
-<table> <thead> <tr style="background-color:#ff1f55; color:white; text-align:left;"> <th><b>Tipo de cuenta</b></th> <th><b>Descripción</b></th> </tr> </thead> <tbody> <tr><td>C</td><td>Cuenta corriente</td></tr> <tr><td>S</td><td>Cuenta de ahorros</td></tr> <tr><td>V</td><td>Cuenta Rut / Visa</td></tr> </tbody> </table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción       |
+| :------------- | :---------------- |
+| C              | Cuenta corriente  |
+| S              | Cuenta de ahorros |
+| V              | Cuenta Rut / Visa |
 
 ***
 
 ### Ecuador
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>AHO</td><td>Ahorros</td></tr>
-    <tr><td>CTE</td><td>Corriente</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción |
+| :------------- | :---------- |
+| AHO            | Ahorros     |
+| CTE            | Corriente   |
 
 #### Payphone
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>C</td><td>Cliente</td></tr>
-    <tr><td>B</td><td>Comercio</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción |
+| :------------- | :---------- |
+| C              | Cliente     |
+| B              | Comercio    |
 
 ***
 
 ### Perú
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>A</td><td>Ahorros</td></tr>
-    <tr><td>C</td><td>Corriente</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción |
+| :------------- | :---------- |
+| A              | Ahorros     |
+| C              | Corriente   |
+
+<br />
