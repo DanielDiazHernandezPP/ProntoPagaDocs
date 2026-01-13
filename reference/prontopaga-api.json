@@ -5932,8 +5932,8 @@
                     },
                     "summary": "Result"
                   },
-                  "Bad Request": {
-                    "summary": "Bad Request",
+                  "Argentina QR - Bad Request": {
+                    "summary": "Argentina QR - Bad Request",
                     "value": {
                       "statusCode": 400,
                       "message": "Validation failed",
@@ -5948,6 +5948,21 @@
                         }
                       ],
                       "timestamp": "2025-11-26T10:30:00Z"
+                    }
+                  },
+                  "Argentina QR - Amount - Bad Request": {
+                    "summary": "Argentina QR - Amount - Bad Request",
+                    "value": {
+                      "statusCode": 400,
+                      "message": "Validation failed",
+                      "errors": [
+                        {
+                          "field": "amount",
+                          "message": "Amount must be a positive number"
+                        }
+                      ],
+                      "timestamp": "2025-04-25T07:00:00.000Z",
+                      "path": "/transaction/create"
                     }
                   }
                 }
@@ -5968,6 +5983,29 @@
                 }
               }
             }
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "examples": {
+                  "Not Found": {
+                    "summary": "Not Found",
+                    "value": {
+                      "success": false,
+                      "statusCode": 404,
+                      "message": "No existe una solicitud con el ID proporcionado.",
+                      "path": "/veriff/status",
+                      "timestamp": "2025-01-04T14:20:00.098Z"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Not Found"
           }
         },
         "parameters": [],
