@@ -281,7 +281,13 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 </div>
 `}</HTMLBlock>
 
-<br />
+***
+
+### Autenticación con challenge 3DS
+
+Después de introducir los datos de la tarjeta, el usuario es redirigido al sitio web de su banco para **completar la verificación 3-D Secure**, que puede ser a través de una contraseña, un código enviado por SMS o la aprobación desde la aplicación del banco. Para transacciones de bajo riesgo, la información enviada al finalizar la compra es suficiente. Sin embargo, para casos de alto riesgo, se requiere el _challenge_ para verificar la identidad del comprador.
+
+Revisa [los datos de tarjetas](https://docs.prontopaga.com/docs/test-data-argentina?isFramePreview=true#datos-de-prueba-de-autenticaci%C3%B3n3-d-secure) para probar la autenticación con 3DS.
 
 ***
 
@@ -309,7 +315,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí](https://prontopagalatam-my.sharepoint.com/:f:/g/personal/tahbet_reategui_prontopaga_com/EtPhXrMz3TxAtA11de5jVZEB3yowkpS1i2v6lm_eMKkB7g?e=BvEJpa\&download=1).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download&id=1uS8NkYCBqx_Ess2ClZ39EcNUNdFzYbX-)
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
