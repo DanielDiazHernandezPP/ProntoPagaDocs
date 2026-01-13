@@ -212,7 +212,7 @@ Puedes ajustar la apariencia de tu formulario con el parámetro opcional theme, 
 
 ### Motivos de rechazo
 
-A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
+A continuación se muestran posibles casos de rechazo desde ProntoPaga, junto con su descripción.
 
 <HTMLBlock>{`
 <table>
@@ -234,38 +234,40 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 </table>
 `}</HTMLBlock>
 
-**Más motivos de rechazo**
+<br />
 
-A continuación se muestran varios posibles casos de rechazo, junto con su descripción
+#### Otros motivos de rechazo
 
-| Código     | Mensaje                                          |
-| :--------- | :----------------------------------------------- |
-| `APR0001`	 | TRANSACCION EXITOSA                              |
-| `APR0002`	 | VERIFICACIÓN DE EDAD POSITIVA                    |
-| `APR0003`	 | VERIFICACIONES POSITIVAS                         |
-| `APR0004`  | TRANSACCIÓN INICIALIZADA EXITOSAMENTE            |
-| `APR0005`  | TRANSACCIÓN COMPLETADA EXITOSAMENTE              |
-| `AUT0002`  | PROBLEMA EN LA AUTENTICACION, VUELVA A INSISTIR  |
-| `FON0001`	 | FONDO INSUFICIENTE, CONTACTA A TU BANCO          |
-| `FOR0001`	 | ERROR DEL SISTEMA, VERIFIQUE SUS PERMISOS        |
-| `FOR0002`	 | DATOS INVALIDOS. VERIFICA E INTENTE NUEVAMENTE   |
-| `FRA0001`	 | TRANSACCION DENEGADA, NO INSISTIR                |
-| `FRA0002`  | TARJETA BLOQUEADA, CONTACTA A TU BANCO           |
-| `FRA0004`  | CUENTA BLOQUEADA, CONTACTA A TU BANCO            |
-| `FRA0005`  | TRANSACCION DENEGADA, CONTACTA A TU BANCO        |
-| `RES0001`  | EXCEDE MONTO MAXIMO, CONTACTA A TU BANCO         |
-| `RES0002`  | OPERACION NO PERMITIDA                           |
-| `RES0005`  | NO CUMPLE REQUISITOS DE EDAD, NO INSISTIR        |
-| `SIS0003`  | PROBLEMA EN LA TRANSACCION, CONTACTA A TU BANCO  |
-| `SIS0006`  | ERROR DEL SISTEMA DE CONEXION, INTENTE MAS TARDE |
-| `SIS0007`  | PAGO RECHAZADO                                   |
-| `SIS0008`  | TARJETA INVALIDA                                 |
-| `TEC0001`  | TRANSACCION INCONSISTENTE, NO INSISTIR           |
-| `TEC0002`  | TRANSACCION NO SOPORTADA, NO INSISTIR            |
-| `TIM0001`  | TIEMPO DE ESPERA AGOTADO                         |
-| `TIM0002`  | TRANSACCION EXPIRADA. INTÉNTALO DE NUEVO         |
-| `USU0001`  | CANCELADO POR USUARIO                            |
-| `USU0004`  | CUENTA NO EXISTE, CONTACTA A TU BANCO            |
+A continuación se muestran varios posibles casos de rechazo desde el procesador, junto con su descripción
+
+| Código    | Mensaje                                          |
+| :-------- | :----------------------------------------------- |
+| `APR0001` | TRANSACCION EXITOSA                              |
+| `APR0002` | VERIFICACIÓN DE EDAD POSITIVA                    |
+| `APR0003` | VERIFICACIONES POSITIVAS                         |
+| `APR0004` | TRANSACCIÓN INICIALIZADA EXITOSAMENTE            |
+| `APR0005` | TRANSACCIÓN COMPLETADA EXITOSAMENTE              |
+| `AUT0002` | PROBLEMA EN LA AUTENTICACION, VUELVA A INSISTIR  |
+| `FON0001` | FONDO INSUFICIENTE, CONTACTA A TU BANCO          |
+| `FOR0001` | ERROR DEL SISTEMA, VERIFIQUE SUS PERMISOS        |
+| `FOR0002` | DATOS INVALIDOS. VERIFICA E INTENTE NUEVAMENTE   |
+| `FRA0001` | TRANSACCION DENEGADA, NO INSISTIR                |
+| `FRA0002` | TARJETA BLOQUEADA, CONTACTA A TU BANCO           |
+| `FRA0004` | CUENTA BLOQUEADA, CONTACTA A TU BANCO            |
+| `FRA0005` | TRANSACCION DENEGADA, CONTACTA A TU BANCO        |
+| `RES0001` | EXCEDE MONTO MAXIMO, CONTACTA A TU BANCO         |
+| `RES0002` | OPERACION NO PERMITIDA                           |
+| `RES0005` | NO CUMPLE REQUISITOS DE EDAD, NO INSISTIR        |
+| `SIS0003` | PROBLEMA EN LA TRANSACCION, CONTACTA A TU BANCO  |
+| `SIS0006` | ERROR DEL SISTEMA DE CONEXION, INTENTE MAS TARDE |
+| `SIS0007` | PAGO RECHAZADO                                   |
+| `SIS0008` | TARJETA INVALIDA                                 |
+| `TEC0001` | TRANSACCION INCONSISTENTE, NO INSISTIR           |
+| `TEC0002` | TRANSACCION NO SOPORTADA, NO INSISTIR            |
+| `TIM0001` | TIEMPO DE ESPERA AGOTADO                         |
+| `TIM0002` | TRANSACCION EXPIRADA. INTÉNTALO DE NUEVO         |
+| `USU0001` | CANCELADO POR USUARIO                            |
+| `USU0004` | CUENTA NO EXISTE, CONTACTA A TU BANCO            |
 
 <br />
 
