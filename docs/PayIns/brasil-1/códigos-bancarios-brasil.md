@@ -9,10 +9,10 @@ Esta guía recopila todas las instituciones financieras soportadas por ProntoPag
 
 Los valores son:
 
-|    |    |
-| :- | :- |
-|    |    |
-|    |    |
+| Campo | Descripción |
+| :---- | :---------- |
+| name  |             |
+|       |             |
 
 <br />
 
