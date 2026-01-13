@@ -52,11 +52,9 @@ La siguiente tabla muestra una recopilación de datos de prueba para validar pag
 
 ### Ejemplo 2
 
-<Callout icon="❗️" theme="error">
-  **Ten en cuenta que**
-
-  Los siguientes datos de prueba se pueden utilizar para probar el procesamiento de tarjetas de crédito en _Gateway_, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
-</Callout>
+> ❗️ Ten en cuenta que
+>
+> Los siguientes datos de prueba se pueden utilizar para probar el procesamiento de tarjetas de crédito en _Gateway_, pero no son compatibles automáticamente con todos los simuladores de _host_ de autorización.
 
 A continuación encontrarás más ejemplos de datos de prueba necesarios para validar tu integración.
 
@@ -165,18 +163,14 @@ A continuación encontrarás más ejemplos de datos de prueba necesarios para va
 
 ## Datos de prueba de autenticación/3-D Secure
 
-<Callout icon="❗️" theme="error">
-  **Escenarios soportados**
+> ❗️ Escenarios soportados
+>
+> Ten en cuenta que las tarjetas de prueba 3DS están configuradas únicamente para soportar los escenarios de autenticación listados a continuación y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
 
-  Ten en cuenta que las tarjetas de prueba 3DS están configuradas únicamente para soportar los escenarios de autenticación listados a continuación y no están diseñadas para realizar pruebas de extremo a extremo que incluyan el procesamiento de la autorización.
-</Callout>
-
-<Callout icon="👍" theme="okay">
-  **Datos de vencimiento y CVV**
-
-  **Fecha de expiración:** cualquier fecha futura, por ejemplo 12/2028  
-  **CVV:** cualquier número de 3 dígitos, por ejemplo, 123
-</Callout>
+> 👍 Datos de vencimiento y CVV
+>
+> **Fecha de expiración:** cualquier fecha futura, por ejemplo 12/2028  
+> **CVV:** cualquier número de 3 dígitos, por ejemplo, 123
 
 ### Flujo sin fricción
 
@@ -390,11 +384,9 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
 
 ### Datos de prueba de autenticación 3D Secure
 
-<Callout icon="📘" theme="info">
-  **Antes de iniciar**
-
-  Revisa los valores de los códigos de respuesta y estado de las transacciones 3DS. Puedes revisar todos los valores en la documentación externa de Fiserv.
-</Callout>
+> 📘 Antes de iniciar
+>
+> Revisa los valores de los códigos de respuesta y estado de las transacciones 3DS. Puedes revisar todos los valores en la documentación externa de Fiserv.
 
 #### ✅ Valores de estado de la transacción
 
@@ -404,6 +396,7 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
       <th style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
         <b>Valor</b>
       </th>
+
       <th style={{ backgroundColor: "#ff1f55", color: "white", textAlign: "left" }}>
         <b>Descripción</b>
       </th>
@@ -419,7 +412,6 @@ A continuación encontrarás los datos de prueba necesarios para validar tu inte
     <tr><td>R</td><td>Autenticación o verificación de la cuenta rechazada por el emisor.</td></tr>
   </tbody>
 </table>
-
 
 #### ✅ Código de respuesta 3DS
 
