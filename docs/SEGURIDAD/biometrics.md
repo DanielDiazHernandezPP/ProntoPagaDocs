@@ -208,24 +208,14 @@ Como respuesta a una solicitud de detalles de una biometría, recibirás la info
 
 El parámetro `status` muestra el estado actual de una verificación de biometría. Los posibles resultados dentro de este parámetro son los siguientes:
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Resultado</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><code>new</code</td><td>Se requiere un reenvío de datos; el proceso se reinicia.</td></tr>
-    <tr><td><code>pending</code</td><td>Estado por defecto. Asume que está pendiente o en progreso si no coincide con algún otro estado.</td></tr>
-    <tr><td><code>pending</code</td><td>La revisión de la  verificación está en curso.</td></tr>
-    <tr><td><code>rejected</code</td><td>La verificación fue rechazada debido a un fallo en los criterios.</td></tr>
-    <tr><td><code>rejected</code</td><td>El tiempo para completar la verificación expiró sin completarse.</td></tr>
-    <tr><td><code>rejected</code</td><td>El usuario abandonó el proceso antes de finalizar.</td></tr>
- 		<tr><td><code>success</code</td><td>El proceso de verificación biométrica fue aprobado exitosamente.</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Resultado  | Descripción                                                                                      |
+| :--------- | :----------------------------------------------------------------------------------------------- |
+| `new`      | Se requiere un reenvío de datos; el proceso se reinicia.                                         |
+| `pending`  | Estado por defecto. Asume que está pendiente o en progreso si no coincide con algún otro estado. |
+| `pending`  | La revisión de la verificación está en curso.                                                    |
+| `rejected` | La verificación fue rechazada debido a un fallo en los criterios.                                |
+| `rejected` | El tiempo para completar la verificación expiró sin completarse.                                 |
+| `rejected` | El usuario abandonó el proceso antes de finalizar.                                               |
+| `success`  | El proceso de verificación biométrica fue aprobado exitosamente.                                 |
 
 <br />
