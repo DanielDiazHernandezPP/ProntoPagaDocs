@@ -1,5 +1,5 @@
 ---
-title: Consultar cuentas en Brasil
+title: Consultar cuentas - Brasil
 api:
   file: prontopaga-api.json
   operationId: get_paymentpix-paymentaccounts?taxId={taxId}
