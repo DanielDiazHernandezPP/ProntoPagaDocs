@@ -65,7 +65,7 @@ Para hacer una solicitud a un banco específico, sigue estos pasos:
 
 ### Logos de los métodos de pago
 
-Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1eOgEauFj0qIs0JXq0WHpAWWQOYkc9Vn3)
+Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1uS8NkYCBqx_Ess2ClZ39EcNUNdFzYbX-)
 
 ***
 
