@@ -63,51 +63,38 @@ La lista de códigos bancarios para PayOuts de tipo transferencia la puedes enco
 
 En la tabla a continuación, podrás consultar las entidades aptas para transacciones vía CCI, así como aquellas que requieren o no requieren validación de pagos a terceros.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Entidad</b></th>
-      <th><b>Apta para CCI (con validación de terceros)</b></th>
-      <th><b>Apta para CCI (sin validación de terceros)</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>BANCO DE CREDITO DEL PERU</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>INTERBANK</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>SCOTIABANK</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BBVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANCO NACION</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCOM</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCO PICHINCHA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANBIF</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>CREDISCOTIA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>MI BANCO</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCO GNB</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANCO FALABELLA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>BANCO RIPLEY</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>BANCO ALFIN</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>COMPARTAMOS FINANCIERA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>TARJETA OH</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>FINANCIERA EFECTIVA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>FINANCIERA CONFIANZA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>PREXPE</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA LIMA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA PIURA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA TRUJILLO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CMAC AREQUIPA</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>WAYKI CAJA CUSCO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA HUANCAYO</td><td>❌ NO</td><td>✅ YES</td></tr>
-    <tr><td>CAJA ICA</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>CAJA LOS ANDES</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>COOPERATIVA ABACO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>LIGO</td><td>✅ YES</td><td>✅ YES</td></tr>
-    <tr><td>DALE</td><td>✅ YES</td><td>✅ YES</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
-
-<br />
+| Entidad                   | Apta para CCI (con validación de terceros) | Apta para CCI (sin validación de terceros) |
+| :------------------------ | :----------------------------------------- | :----------------------------------------- |
+| BANCO DE CREDITO DEL PERU | ✅ YES                                      | ✅ YES                                      |
+| INTERBANK                 | ✅ YES                                      | ✅ YES                                      |
+| SCOTIABANK                | ❌ NO                                       | ✅ YES                                      |
+| BBVA                      | ✅ YES                                      | ✅ YES                                      |
+| BANCO NACION              | ❌ NO                                       | ✅ YES                                      |
+| BANCOM                    | ❌ NO                                       | ✅ YES                                      |
+| BANCO PICHINCHA           | ✅ YES                                      | ✅ YES                                      |
+| BANBIF                    | ❌ NO                                       | ✅ YES                                      |
+| CREDISCOTIA               | ❌ NO                                       | ✅ YES                                      |
+| MI BANCO                  | ❌ NO                                       | ✅ YES                                      |
+| BANCO GNB                 | ✅ YES                                      | ✅ YES                                      |
+| BANCO FALABELLA           | ❌ NO                                       | ✅ YES                                      |
+| BANCO RIPLEY              | ✅ YES                                      | ✅ YES                                      |
+| BANCO ALFIN               | ✅ YES                                      | ✅ YES                                      |
+| COMPARTAMOS FINANCIERA    | ✅ YES                                      | ✅ YES                                      |
+| TARJETA OH                | ✅ YES                                      | ✅ YES                                      |
+| FINANCIERA EFECTIVA       | ✅ YES                                      | ✅ YES                                      |
+| FINANCIERA CONFIANZA      | ✅ YES                                      | ✅ YES                                      |
+| PREXPE                    | ✅ YES                                      | ✅ YES                                      |
+| CAJA LIMA                 | ✅ YES                                      | ✅ YES                                      |
+| CAJA PIURA                | ✅ YES                                      | ✅ YES                                      |
+| CAJA TRUJILLO             | ✅ YES                                      | ✅ YES                                      |
+| CMAC AREQUIPA             | ❌ NO                                       | ✅ YES                                      |
+| WAYKI CAJA CUSCO          | ✅ YES                                      | ✅ YES                                      |
+| CAJA HUANCAYO             | ❌ NO                                       | ✅ YES                                      |
+| CAJA ICA                  | ✅ YES                                      | ✅ YES                                      |
+| CAJA LOS ANDES            | ✅ YES                                      | ✅ YES                                      |
+| COOPERATIVA ABACO         | ✅ YES                                      | ✅ YES                                      |
+| LIGO                      | ✅ YES                                      | ✅ YES                                      |
+| DALE                      | ✅ YES                                      | ✅ YES                                      |
 
 ***
 
