@@ -214,6 +214,8 @@ Puedes ajustar la apariencia de tu formulario con el parámetro opcional theme, 
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
+/
+
 <HTMLBlock>{`
 <table>
   <thead>
@@ -256,7 +258,6 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
     <tr><td>FOR0002</td><td>Error del sistema, verifica tus permisos</td></tr>
     <tr><td>RES0001</td><td>Excede monto máximo, contacta a tu banco</td></tr>
     <tr><td>FON0001</td><td>Fondo insuficiente, contacta a tu banco</td></tr>
-    <tr><td>SIS0001</td><td>Merchant inválido</td></tr>
     <tr><td>RES0005</td><td>No cumple requisitos de edad, no insistir</td></tr>
     <tr><td>RES0002</td><td>Operación no permitida</td></tr>
     <tr><td>SIS0007</td><td>Pago rechazado</td></tr>
@@ -315,7 +316,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download&id=1uS8NkYCBqx_Ess2ClZ39EcNUNdFzYbX-)
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1uS8NkYCBqx_Ess2ClZ39EcNUNdFzYbX-)
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
