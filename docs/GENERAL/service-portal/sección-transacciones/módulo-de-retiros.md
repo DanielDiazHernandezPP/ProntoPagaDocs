@@ -1,5 +1,5 @@
 ---
-title: Módulo de Payouts
+title: Módulo de Payouts (retiros)
 deprecated: false
 hidden: false
 metadata:
