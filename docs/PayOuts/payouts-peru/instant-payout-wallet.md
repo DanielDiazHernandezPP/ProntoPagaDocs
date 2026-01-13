@@ -255,6 +255,7 @@ A continuación se muestran varios posibles casos de rechazo de un retiro, junto
   <td>
     Monto de retiro excede los límites, por favor reintentar con un monto válido
     <ul style="margin-top:6px; padding-left:18px;">
+  Descripción:
       <li>Withdrawal amount exceeds limits, please retry with a valid amount</li>
       <li>Exceeds the maximum transaction amount per month</li>
     </ul>
