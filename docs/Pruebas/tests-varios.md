@@ -134,17 +134,6 @@ next:
 </table>
 `}</HTMLBlock>
 
-<HTMLBlock>{`
-.markdown-body .rdmd-table {
-  --table-text: black;
-  --table-head: #5b1c9f;
-  --table-head-text: white;
-  --table-stripe: #f0eaf7;
-  --table-edges: rgba(34, 5, 64, 0.5);
-  --table-row: white;
-}
-`}</HTMLBlock>
-
 <br />
 
 | Tipo de cuenta | Descripción       |
@@ -184,3 +173,16 @@ next:
 | L0   | **bold** | $1600 |
 | L1   |  `code`  |   $12 |
 | L2   | _italic_ |    $1 |
+
+```markdown
+.markdown-body .rdmd-table {
+  --table-text: black;
+  --table-head: #5b1c9f;
+  --table-head-text: white;
+  --table-stripe: #f0eaf7;
+  --table-edges: rgba(34, 5, 64, 0.5);
+  --table-row: white;
+}
+```
+
+<br />
