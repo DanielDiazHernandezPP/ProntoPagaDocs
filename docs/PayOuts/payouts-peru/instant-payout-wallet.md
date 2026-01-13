@@ -220,75 +220,504 @@ Si la transacción es rechazada, recibirás la siguiente respuesta:
 
 A continuación se muestran varios posibles casos de rechazo de un retiro, junto con su respectivo código.
 
-<HTMLBlock>{`
-<table>
+<Table align={["left","left"]}>
   <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Código</b></th>
-      <th><b>Mensaje</b></th>
+    <tr>
+      <th>
+        Código
+      </th>
+
+      <th>
+        Mensaje
+      </th>
     </tr>
   </thead>
+
   <tbody>
-    <tr><td>AC01</td><td>Número de cuenta incorrecta</td></tr>
-  <td>26</td>
-  <td>
-    Monto de retiro excede los límites, por favor reintentar con un monto válido.
-  Descripción:
-    <ul style="margin-top:6px; padding-left:18px;">
-      <li>Withdrawal amount exceeds limits, please retry with a valid amount</li>
-      <li>Exceeds the maximum transaction amount per month</li>
-    </ul>
-  </td>
-  </td></tr>
-    <tr><td>AC03</td><td>Número de cuenta a acreditar incorrecta</td></tr>
-    <tr><td>AC06</td><td>Cuenta bloqueada</td></tr>
-    <tr><td>AC07</td><td>Cuenta a acreditar cerrada</td></tr>
-    <tr><td>AC11</td><td>Moneda de la cuenta a acreditar invalida</td></tr>
-    <tr><td>AC14</td><td>Tipo de cuenta a acreditar invalida</td></tr>
-    <tr><td>AG01</td><td>Transacción prohibida</td></tr>
-    <tr><td>AG03</td><td>Operación no soportada</td></tr>
-    <tr><td>AM01</td><td>Monto Cero</td></tr>
-    <tr><td>AM02</td><td>Monto no permitido</td></tr>
-    <tr><td>AM03</td><td>Error interno en moneda de la transacción</td></tr>
-    <tr><td>AM04</td><td>Saldo de garantía insuficiente</td></tr>
-    <tr><td>AM05</td><td>Duplicado</td></tr>
-    <tr><td>AM09</td><td>Monto equivocado</td></tr>
-    <tr><td>AM11</td><td>Error interno en moneda de la transacción</td></tr>
-    <tr><td>AM13</td><td>Monto excede límite de operación</td></tr>
-    <tr><td>BE08</td><td>Nombre de cliente originante faltante</td></tr>
-    <tr><td>BE15</td><td>Id de referencia requerido</td></tr>
-    <tr><td>BE16</td><td>Código de identificación de originante invalido</td></tr>
-    <tr><td>BE22</td><td>Nombre de beneficiario faltante</td></tr>
-    <tr><td>CH11</td><td>Identificador de cliente receptor incorrecto</td></tr>
-    <tr><td>CH21</td><td>Falta de elementos obligatorios</td></tr>
-    <tr><td>DNOR</td><td>Entidad originante no registrada</td></tr>
-    <tr><td>DS0A</td><td>Forma de datos requerida</td></tr>
-    <tr><td>DS0B</td><td>Formato de firma desconocido</td></tr>
-    <tr><td>DS0D</td><td>Certificado de firma invalido</td></tr>
-    <tr><td>DS0H</td><td>Entidad indirecta no autorizada</td></tr>
-    <tr><td>DT04</td><td>Fecha de creación no soportada</td></tr>
-    <tr><td>FF02</td><td>Error de formato</td></tr>
-    <tr><td>RC01</td><td>Estructura de identificador de entidad incorrecta</td></tr>
-    <tr><td>RC02</td><td>Entidad originante no autorizado</td></tr>
-    <tr><td>RC03</td><td>Identificador de entidad originante invalido</td></tr>
-    <tr><td>RC04</td><td>Identificador de entidad receptora invalido</td></tr>
-    <tr><td>RR04</td><td>Motivo regulatorio (políticas de AML/CFT)</td></tr>
-    <tr><td>RR10</td><td>Set de caracteres invalido</td></tr>
-    <tr><td>9910</td><td>Entidad receptora en sign off</td></tr>
-    <tr><td>9912</td><td>Entidad receptora no disponible</td></tr>
-    <tr><td>9920</td><td>	Tipo de transacción, canal o código de transacción invalido</td></tr>
-    <tr><td>9921</td><td>Criterio de aplicación invalido</td></tr>
-    <tr><td>9922</td><td>Tipo de persona invalido</td></tr>
-    <tr><td>9923</td><td>Concepto de cobro no es numérico</td></tr>
-    <tr><td>9924</td><td>Indicador de activo invalido (320)</td></tr>
-    <tr><td>9934</td><td>Entidad originante en sign off</td></tr>
-    <tr><td>9946</td><td>Entidad originante suspendida</td></tr>
-    <tr><td>9947</td><td>Entidad receptora suspendida</td></tr>
-    <tr><td>9948</td><td>Servicio IPS suspendido</td></tr>
-    <tr><td>9964</td><td>Identificador de entidad invalido</td></tr>
+    <tr>
+      <td>
+        AC01
+      </td>
+
+      <td>
+        Número de cuenta incorrecta
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        26
+      </td>
+
+      <td>
+        Monto de retiro excede los límites, por favor reintentar con un monto válido. Descripción:
+
+        * Withdrawal amount exceeds limits, please retry with a valid amount
+        * Exceeds the maximum transaction amount per month
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AC03
+      </td>
+
+      <td>
+        Número de cuenta a acreditar incorrecta
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AC06
+      </td>
+
+      <td>
+        Cuenta bloqueada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AC07
+      </td>
+
+      <td>
+        Cuenta a acreditar cerrada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AC11
+      </td>
+
+      <td>
+        Moneda de la cuenta a acreditar invalida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AC14
+      </td>
+
+      <td>
+        Tipo de cuenta a acreditar invalida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AG01
+      </td>
+
+      <td>
+        Transacción prohibida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AG03
+      </td>
+
+      <td>
+        Operación no soportada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM01
+      </td>
+
+      <td>
+        Monto Cero
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM02
+      </td>
+
+      <td>
+        Monto no permitido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM03
+      </td>
+
+      <td>
+        Error interno en moneda de la transacción
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM04
+      </td>
+
+      <td>
+        Saldo de garantía insuficiente
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM05
+      </td>
+
+      <td>
+        Duplicado
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM09
+      </td>
+
+      <td>
+        Monto equivocado
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM11
+      </td>
+
+      <td>
+        Error interno en moneda de la transacción
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        AM13
+      </td>
+
+      <td>
+        Monto excede límite de operación
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        BE08
+      </td>
+
+      <td>
+        Nombre de cliente originante faltante
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        BE15
+      </td>
+
+      <td>
+        Id de referencia requerido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        BE16
+      </td>
+
+      <td>
+        Código de identificación de originante invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        BE22
+      </td>
+
+      <td>
+        Nombre de beneficiario faltante
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        CH11
+      </td>
+
+      <td>
+        Identificador de cliente receptor incorrecto
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        CH21
+      </td>
+
+      <td>
+        Falta de elementos obligatorios
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DNOR
+      </td>
+
+      <td>
+        Entidad originante no registrada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DS0A
+      </td>
+
+      <td>
+        Forma de datos requerida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DS0B
+      </td>
+
+      <td>
+        Formato de firma desconocido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DS0D
+      </td>
+
+      <td>
+        Certificado de firma invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DS0H
+      </td>
+
+      <td>
+        Entidad indirecta no autorizada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        DT04
+      </td>
+
+      <td>
+        Fecha de creación no soportada
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        FF02
+      </td>
+
+      <td>
+        Error de formato
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        RC01
+      </td>
+
+      <td>
+        Estructura de identificador de entidad incorrecta
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        RC02
+      </td>
+
+      <td>
+        Entidad originante no autorizado
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        RC03
+      </td>
+
+      <td>
+        Identificador de entidad originante invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        RC04
+      </td>
+
+      <td>
+        Identificador de entidad receptora invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        RR04
+      </td>
+
+      <td>
+        Motivo regulatorio (políticas de AML/CFT)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        RR10
+      </td>
+
+      <td>
+        Set de caracteres invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9910
+      </td>
+
+      <td>
+        Entidad receptora en sign off
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9912
+      </td>
+
+      <td>
+        Entidad receptora no disponible
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9920
+      </td>
+
+      <td>
+        Tipo de transacción, canal o código de transacción invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9921
+      </td>
+
+      <td>
+        Criterio de aplicación invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9922
+      </td>
+
+      <td>
+        Tipo de persona invalido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9923
+      </td>
+
+      <td>
+        Concepto de cobro no es numérico
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9924
+      </td>
+
+      <td>
+        Indicador de activo invalido (320)
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9934
+      </td>
+
+      <td>
+        Entidad originante en sign off
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9946
+      </td>
+
+      <td>
+        Entidad originante suspendida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9947
+      </td>
+
+      <td>
+        Entidad receptora suspendida
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9948
+      </td>
+
+      <td>
+        Servicio IPS suspendido
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        9964
+      </td>
+
+      <td>
+        Identificador de entidad invalido
+      </td>
+    </tr>
   </tbody>
-</table>
-`}</HTMLBlock>
+</Table>
 
 <br />
 
