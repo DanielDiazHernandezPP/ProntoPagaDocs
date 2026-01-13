@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: get_paymentarqrcomplete{uid}
 deprecated: false
-hidden: true
+hidden: false
 link:
   new_tab: false
 metadata:
