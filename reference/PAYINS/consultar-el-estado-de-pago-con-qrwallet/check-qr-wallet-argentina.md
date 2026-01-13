@@ -4,7 +4,7 @@ api:
   file: prontopaga-api.json
   operationId: get_transactionrefund
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: Consultar un pago con QR/Wallet - Argentina | ProntoPaga Docs
   description: 'Endpoint to check payment status with ProntoPaga in Argentina. '
