@@ -22,10 +22,12 @@ Los campos son:
 
 > 👍 Ten en cuenta que
 >
->  El valor`schema_skn`corresponde al `bankCode`en el body de la solicitud.
+> El valor`schema_skn`corresponde al `bankCode`en el body de la solicitud.
 
 ## Entidades
 
 <br />
+
+### Lista
 
 Descarga la lista completa de [códigos de entidades financieras](https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu\&export=download) para transacciones con Pix en Brasil.
