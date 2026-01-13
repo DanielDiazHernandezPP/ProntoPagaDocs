@@ -5792,14 +5792,6 @@
                       "reference": "17470465381079617490"
                     }
                   },
-                  "Ecuador Wallet (Payphone)": {
-                    "summary": "Ecuador Wallet (Payphone)",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTM6XFCMNY4JFHY3SYVM44A",
-                      "uid": "01JRTM6XFCMNY4JFHY3SYVM44A",
-                      "reference": "17446750335713609823"
-                    }
-                  },
                   "Peru Card": {
                     "summary": "Peru Card",
                     "value": {
@@ -5870,22 +5862,6 @@
                       "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTM5MB511YTT3VEP4BP",
                       "uid": "1892882700938",
                       "reference": "12345"
-                    }
-                  },
-                  "Ecuador  Card (Payphone)": {
-                    "summary": "Ecuador  Card (Payphone)",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQBVWMF39DVJTV712473XV",
-                      "uid": "01JRTQBVWMF39DVJTV712473XV",
-                      "reference": "17446253466436001138"
-                    }
-                  },
-                  "Ecuador Wallet (Payphone with customized form)": {
-                    "summary": "Ecuador Wallet (Payphone with customized form)",
-                    "value": {
-                      "urlPay": "https://sandbox.prontopaga.com/payment/rest/01JRTQECVWVY95CVRTJ3541C3T",
-                      "uid": "01JRTQECVWVY95CVRTJ3541C3T",
-                      "reference": "17446537263755"
                     }
                   },
                   "Peru Card (with customized form)": {
