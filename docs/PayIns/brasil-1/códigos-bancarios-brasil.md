@@ -7,7 +7,7 @@ metadata:
 ---
 Esta guía recopila todas las instituciones financieras soportadas por ProntoPaga para pagos con Pix en Brasil.
 
-Los valores son: 
+Los valores son:
 
 <br />
 
@@ -15,19 +15,12 @@ Los valores son:
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>name</b></th>
-			<th><b>code</b></th>
-      <th><b>schema_skn</b></th>
-      <th><b>country</b></th>
-			<th><b>acronym</b></th>
+      <th><b>Campo</b></th>
+			<th><b>Descripción</b></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Nombre del banco o institución</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-    <tr><td>Código bancario (cuando corresponde)</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr></tr>
-		<tr><td>Identificador</td><td>✔️</td><td>✔️</td><td>✖️</td><td>✔️</td></tr></tr>
-		<tr><td>País</td><td>✖️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
-    <tr><td>Acrónimo</td><td>✖️</td><td>✖️</td><td>✖️</td><td>✔️</td></tr></tr>
+    <tr><td>Nombre del banco o institución</td><td>Código bancario (cuando corresponde)</td><td>✔Identificador</td><td>País</td><td>Acrónimo</td></tr></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
