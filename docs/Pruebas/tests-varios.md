@@ -119,3 +119,9 @@ next:
 `}</HTMLBlock>
 
 <br />
+
+| Tipo de cuenta | Descripción       |
+| -------------- | ----------------- |
+| C              | Cuenta corriente  |
+| S              | Cuenta de ahorros |
+| V              | Cuenta Rut / Visa |
