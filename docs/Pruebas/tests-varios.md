@@ -134,6 +134,17 @@ next:
 </table>
 `}</HTMLBlock>
 
+<HTMLBlock>{`
+.markdown-body .rdmd-table {
+  --table-text: black;
+  --table-head: #5b1c9f;
+  --table-head-text: white;
+  --table-stripe: #f0eaf7;
+  --table-edges: rgba(34, 5, 64, 0.5);
+  --table-row: white;
+}
+`}</HTMLBlock>
+
 <br />
 
 | Tipo de cuenta | Descripción       |
