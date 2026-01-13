@@ -24,28 +24,17 @@ metadata:
 
 Datos para pruebas en el servicio de retiros hacia wallets en Perú.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Wallet</b></th>
-      <th><b>Número de celular</b></th>
-      <th><b>Número de identificación</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>luquea</td><td>987365083</td><td>00335447</td></tr>
-    <tr><td>plin / luquea</td><td>974646632</td><td>47675102</td></tr>
-    <tr><td>oh! / prexpe</td><td>987829825</td><td>42346654</td></tr></tr>
-    <tr><td>gnb</td><td>987365083</td><td>10267181</td></tr>
-    <tr><td>plin / mibanco</td><td>944000003</td><td>45790023</td></tr>
-		<tr><td>bcp / dale</td><td>984937706</td><td>95106558</td></tr></tr>
-    <tr><td>yape / confianza</td><td>974646632</td><td>19208630</td></tr>
-    <tr><td>yape</td><td>960961006</td><td>66477267</td></tr>
-    <tr><td>falabella, caja cusco, nación, mibanco, oh!, gnb, banbif, caja lima, compartamos, caja huancayo, caja piura, dale, confianza, comercio (banco de comercio), ripley, santander, banco pichincha, efectiva, bcp, caja ica, caja trujillo, interbank, luquea, caja sullana, prexpe, yape, plin, y bim</td><td>933020100</td><td>09184423</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Wallet                                                                                                                                                                                                                                                                                             | Número de celular | Número de identificación |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------- | :----------------------- |
+| luquea                                                                                                                                                                                                                                                                                             | 987365083         | 00335447                 |
+| plin / luquea                                                                                                                                                                                                                                                                                      | 974646632         | 47675102                 |
+| oh! / prexpe                                                                                                                                                                                                                                                                                       | 987829825         | 42346654                 |
+| gnb                                                                                                                                                                                                                                                                                                | 987365083         | 10267181                 |
+| plin / mibanco                                                                                                                                                                                                                                                                                     | 944000003         | 45790023                 |
+| bcp / dale                                                                                                                                                                                                                                                                                         | 984937706         | 95106558                 |
+| yape / confianza                                                                                                                                                                                                                                                                                   | 974646632         | 19208630                 |
+| yape                                                                                                                                                                                                                                                                                               | 960961006         | 66477267                 |
+| falabella, caja cusco, nación, mibanco, oh!, gnb, banbif, caja lima, compartamos, caja huancayo, caja piura, dale, confianza, comercio (banco de comercio), ripley, santander, banco pichincha, efectiva, bcp, caja ica, caja trujillo, interbank, luquea, caja sullana, prexpe, yape, plin, y bim | 933020100         | 09184423                 |
 
 ***
 
@@ -53,23 +42,13 @@ Datos para pruebas en el servicio de retiros hacia wallets en Perú.
 
 Datos para pruebas en el servicio de retiros por transferencia en Perú.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Número de cuenta interbancaria</b></th>
-      <th><b>Código bancario</b></th>
-      <th><b>Número de identificación</b></th>
-			 <th><b>Número de celular</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>00219311803687806711</td><td>02</td><td>09179328</td><td>974646320</td></tr>
-    <tr><td>00235017098310703971</td><td>02</td><td>95106558</td><td>944000003</td></tr>
-    <tr><td>00310001700746882659</td><td>03</td><td>45790023</td><td>944000003</td></tr>
-    <tr><td>00310001700922358857</td><td>03</td><td>47675102</td><td>984937706</td></tr>
-    <tr><td>04955700601816547120</td><td>49</td><td>45790023</td><td>944000003</td></tr>
-		<tr><td>05300100194255100143</td><td>53</td><td>10267181</td><td>974646320</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Número de cuenta interbancaria | Código bancario | Número de identificación | Número de celular |
+| :----------------------------- | :-------------- | :----------------------- | :---------------- |
+| 00219311803687806711           | 02              | 09179328                 | 974646320         |
+| 00235017098310703971           | 02              | 95106558                 | 944000003         |
+| 00310001700746882659           | 03              | 45790023                 | 944000003         |
+| 00310001700922358857           | 03              | 47675102                 | 984937706         |
+| 04955700601816547120           | 49              | 45790023                 | 944000003         |
+| 05300100194255100143           | 53              | 10267181                 | 974646320         |
+
+<br />
