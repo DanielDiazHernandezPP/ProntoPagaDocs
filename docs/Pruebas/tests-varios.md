@@ -73,6 +73,10 @@ next:
 
 <NotaFirma />
 
+<HTMLBlock>{`
+
+`}</HTMLBlock>
+
 <br />
 
 <Image align="center" border={false} src="https://files.readme.io/6e52a1e15051ba76b3802d4441bb26ef72f064dd19b315f052b69d39f626d45f-image_15.png" />
@@ -82,5 +86,11 @@ next:
 > 📘 ASAA
 >
 > CAsa
+
+***
+
+<HTMLBlock>{`
+<table> <thead> <tr style="background-color:#ff1f55; color:white; text-align:left;"> <th><b>Tipo de cuenta</b></th> <th><b>Descripción</b></th> </tr> </thead> <tbody> <tr><td>C</td><td>Cuenta corriente</td></tr> <tr><td>S</td><td>Cuenta de ahorros</td></tr> <tr><td>V</td><td>Cuenta Rut / Visa</td></tr> </tbody> </table>
+`}</HTMLBlock>
 
 <br />
