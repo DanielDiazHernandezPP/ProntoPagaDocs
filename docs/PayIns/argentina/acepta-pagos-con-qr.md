@@ -230,7 +230,7 @@ A continuación, encontrarás los distintos requisitos necesarios para completar
   </Tab>
 
   <Tab title="Logotipos">
-    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*.  Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download&id=1uS8NkYCBqx_Ess2ClZ39EcNUNdFzYbX-).
+    * 📥 Agregar los logotipos de los diferentes métodos de pago de ProntoPaga a tu *front-end*.  Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1uS8NkYCBqx_Ess2ClZ39EcNUNdFzYbX-)
     * 🔎 Todos los nombres y logos de los métodos de pago habilitados deben mostrarse de forma clara, sin modificaciones visuales o estilísticas que puedan generar confusión o inducir a errores.
     * ✅ Se recomienda ordenarlos según su popularidad o frecuencia de uso, para mejorar la experiencia del usuario y optimizar la conversión.
   </Tab>
