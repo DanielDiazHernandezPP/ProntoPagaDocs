@@ -109,31 +109,6 @@ next:
 </table>
 `}</HTMLBlock>
 
-<HTMLBlock>{`
-<table>
-  <tr bgcolor="#ff1f55">
-    <th>
-      <font color="white">Tipo de cuenta</font>
-    </th>
-    <th>
-      <font color="white">Descripción</font>
-    </th>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>Cuenta corriente</td>
-  </tr>
-  <tr>
-    <td>S</td>
-    <td>Cuenta de ahorros</td>
-  </tr>
-  <tr>
-    <td>V</td>
-    <td>Cuenta Rut / Visa</td>
-  </tr>
-</table>
-`}</HTMLBlock>
-
 <br />
 
 | Tipo de cuenta | Descripción       |
