@@ -45,9 +45,9 @@ El proceso de pago con Pix consta de cinco etapas principales:
 
 ***
 
-## Consulta cuentas bancarias
+## Consulta de cuentas
 
-Para crear un nuevo pago con Pix, primero deberás enviar una solicitud a este _endpoint_  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil.
+Para crear un nuevo pago con Pix, debes enviar una solicitud a este _endpoint_  con el `taxId` del cliente para consultar si tiene o no cuentas bancarias asociadas en Brasil.
 
 Si el cliente tiene una cuenta registrada, podrás enviar dos tipos de solicitud:
 
@@ -59,9 +59,13 @@ Si el cliente no tiene una cuenta registrada, podrás enviar estas solicitudes y
 * Pago sin cuenta bancaria registrada, con QR.
 * Pago sin cuenta bancaria registrada, sin QR.
 
+> 📘 **`taxId`**
+>
+> Es el número de identificación de la persona física o jurídica.
+
 <br />
 
-#### Ejemplo de respuesta
+#### Ejemplo de respuesta exitosa
 
 Si el `taxId` tiene una o más cuentas bancarias asociadas, recibirás una respuesta como esta:
 
@@ -88,9 +92,11 @@ Si el `taxId` tiene una o más cuentas bancarias asociadas, recibirás una respu
 }
 ```
 
+<br />
+
 #### Ejemplo de respuesta sin cuentas
 
-Si el `taxId` no tiene una cuenta bancaria asociada, recibirás un mensaje de error: 
+Si el `taxId` no tiene una cuenta bancaria asociada, recibirás un mensaje de error:
 
 ```json
 {
