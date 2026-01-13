@@ -9,6 +9,11 @@ Esta guía recopila todas las instituciones financieras soportadas por ProntoPag
 
 Los valores son:
 
+|    |    |
+| :- | :- |
+|    |    |
+|    |    |
+
 <br />
 
 <HTMLBlock>{`
