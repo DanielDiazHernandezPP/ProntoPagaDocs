@@ -24,22 +24,12 @@ next:
 ---
 Estos son los posibles estados que pueden tener los PayOuts.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Estado</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>new</td><td>Se ha recibido la solicitud</td></tr>
-    <tr><td>process</td><td>Solicitud en proceso</td></tr>
-    <tr><td>success</td><td>Solicitud aprobada</td></tr>
-    <tr><td>canceled</td><td>Solicitud rechazada. Conoce los tipos de retiros rechazados <a href="https://docs.prontopaga.com/docs/payouts-rejections">aquí</a></td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Estado     | Descripción                                                                                                                                                               |
+| :--------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `new`      | Se ha recibido la solicitud                                                                                                                                               |
+| `process`  | Solicitud en proceso                                                                                                                                                      |
+| `success`  | Solicitud aprobada                                                                                                                                                        |
+| `canceled` | Solicitud rechazada. Conoce los tipos de retiros rechazados <Anchor label="aquí" target="_blank" href="https://docs.prontopaga.com/docs/payouts-rejections">aquí</Anchor> |
 
 > 📘 Estado process y canceled
 >
