@@ -179,22 +179,26 @@ En caso de requerir ayuda con un pedido específico, por favor comparte con noso
 
 ***
 
-<br />
-
-## Desinstalación
+## Desactivación
 
 En caso de que desees desactivar el plugin momentáneamente, sigue estos pasos:
 
-1. En el menú lateral, dirígete a **Plugins > Plugins instalados**
-2. Busca el plugin **WooCommerce pagos con ProntoPaga**, y haz clic en la opción de **Desactivar**, debajo del nombre del plugin
-3. Como confirmación, notarás que el módulo de ProntoPaga ya no aparece en el menú lateral izquierdo
+1. En el menú lateral, dirígete a **Plugins > Plugins instalados**.
+2. Busca el plugin **WooCommerce pagos con ProntoPaga**, y haz clic en la opción de **Desactivar**, debajo del nombre del plugin.
+3. Como confirmación, notarás que el módulo de ProntoPaga ya no aparece en el menú lateral izquierdo.
+
+***
+
+## Desinstalación
 
 Si deseas desinstalar el plugin, realiza lo siguiente:
 
-1. En el menú lateral, dirígete a **Plugins > Plugins instalados**
-2. Busca el plugin **WooCommerce pagos con ProntoPaga**, y haz clic en la opción de **Desactivar**, debajo del nombre del plugin
-3. Ahora verás debajo del nombre del plugin otras opciones; haz clic en **Borrar**
+1. En el menú lateral, dirígete a **Plugins > Plugins instalados**.
+2. Busca el plugin **WooCommerce pagos con ProntoPaga**, y haz clic en la opción de **Desactivar**, debajo del nombre del plugin.
+3. Ahora verás debajo del nombre del plugin otras opciones; haz clic en **Borrar**.
 
 > ❗️ Eliminación de datos
 >
 > Al borrar el plugin, también se eliminará la información relacionada, como la tabla de transacciones que se ingresó a la base de datos que hayas indicado.
+
+<br />
