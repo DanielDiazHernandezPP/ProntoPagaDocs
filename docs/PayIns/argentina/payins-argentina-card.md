@@ -214,8 +214,6 @@ Puedes ajustar la apariencia de tu formulario con el parámetro opcional theme, 
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción.
 
-/
-
 <HTMLBlock>{`
 <table>
   <thead>
@@ -240,47 +238,36 @@ A continuación se muestran varios posibles casos de rechazo, junto con su descr
 
 A continuación se muestran varios posibles casos de rechazo, junto con su descripción
 
-<HTMLBlock>{`
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Código</b></th>
-      <th><b>Mensaje de rechazo</b></th>
-    </tr>
-  </thead>
-  <tbody>
+| Código     | Mensaje                                          |
+| :--------- | :----------------------------------------------- |
+| `APR0001`	 | TRANSACCION EXITOSA                              |
+| `APR0002`	 | VERIFICACIÓN DE EDAD POSITIVA                    |
+| `APR0003`	 | VERIFICACIONES POSITIVAS                         |
+| `APR0004`  | TRANSACCIÓN INICIALIZADA EXITOSAMENTE            |
+| `APR0005`  | TRANSACCIÓN COMPLETADA EXITOSAMENTE              |
+| `AUT0002`  | PROBLEMA EN LA AUTENTICACION, VUELVA A INSISTIR  |
+| `FON0001`	 | FONDO INSUFICIENTE, CONTACTA A TU BANCO          |
+| `FOR0001`	 | ERROR DEL SISTEMA, VERIFIQUE SUS PERMISOS        |
+| `FOR0002`	 | DATOS INVALIDOS. VERIFICA E INTENTE NUEVAMENTE   |
+| `FRA0001`	 | TRANSACCION DENEGADA, NO INSISTIR                |
+| `FRA0002`  | TARJETA BLOQUEADA, CONTACTA A TU BANCO           |
+| `FRA0004`  | CUENTA BLOQUEADA, CONTACTA A TU BANCO            |
+| `FRA0005`  | TRANSACCION DENEGADA, CONTACTA A TU BANCO        |
+| `RES0001`  | EXCEDE MONTO MAXIMO, CONTACTA A TU BANCO         |
+| `RES0002`  | OPERACION NO PERMITIDA                           |
+| `RES0005`  | NO CUMPLE REQUISITOS DE EDAD, NO INSISTIR        |
+| `SIS0003`  | PROBLEMA EN LA TRANSACCION, CONTACTA A TU BANCO  |
+| `SIS0006`  | ERROR DEL SISTEMA DE CONEXION, INTENTE MAS TARDE |
+| `SIS0007`  | PAGO RECHAZADO                                   |
+| `SIS0008`  | TARJETA INVALIDA                                 |
+| `TEC0001`  | TRANSACCION INCONSISTENTE, NO INSISTIR           |
+| `TEC0002`  | TRANSACCION NO SOPORTADA, NO INSISTIR            |
+| `TIM0001`  | TIEMPO DE ESPERA AGOTADO                         |
+| `TIM0002`  | TRANSACCION EXPIRADA. INTÉNTALO DE NUEVO         |
+| `USU0001`  | CANCELADO POR USUARIO                            |
+| `USU0004`  | CUENTA NO EXISTE, CONTACTA A TU BANCO            |
 
-    <tr><td>USU0001</td><td>Cancelado por usuario</td></tr>
-    <tr><td>FRA0004</td><td>Cuenta bloqueada, contacta a tu banco</td></tr>
-    <tr><td>FOR0003</td><td>Datos inválidos, verifica e inténtalo nuevamente</td></tr>
-    <tr><td>SIS0006</td><td>Error del sistema de conexión, intenta más tarde</td></tr>
-    <tr><td>FOR0002</td><td>Error del sistema, verifica tus permisos</td></tr>
-    <tr><td>RES0001</td><td>Excede monto máximo, contacta a tu banco</td></tr>
-    <tr><td>FON0001</td><td>Fondo insuficiente, contacta a tu banco</td></tr>
-    <tr><td>RES0005</td><td>No cumple requisitos de edad, no insistir</td></tr>
-    <tr><td>RES0002</td><td>Operación no permitida</td></tr>
-    <tr><td>SIS0007</td><td>Pago rechazado</td></tr>
-    <tr><td>AUT0002</td><td>Problema en la autenticación, vuelva a intentar</td></tr>
-    <tr><td>SIS0003</td><td>Problema en la transacción, contacta a tu banco</td></tr>
-    <tr><td>FRA0003</td><td>Riesgo de fraude - múltiples intentos</td></tr>
-    <tr><td>FRA0002</td><td>Tarjeta bloqueada, contacta a tu banco</td></tr>
-    <tr><td>SIS0008</td><td>Tarjeta inválida</td></tr>
-    <tr><td>RES0004</td><td>Tarjeta vencida, no insistir</td></tr>
-    <tr><td>TIM0001</td><td>Tiempo de espera agotado</td></tr>
-    <tr><td>APR0005</td><td>Transacción completada exitosamente</td></tr>
-    <tr><td>FRA0001</td><td>Transacción denegada, no insistir</td></tr>
-    <tr><td>APR0001</td><td>Transacción exitosa</td></tr>
-    <tr><td>TIM0002</td><td>Transacción expirada, inténtalo de nuevo</td></tr>
-    <tr><td>TEC0001</td><td>Transacción inconsistente, no insistir</td></tr>
-    <tr><td>TEC0002</td><td>Transacción no soportada, no insistir</td></tr>
-    <tr><td>APR0002</td><td>Verificación de edad positiva</td></tr>
-    <tr><td>APR0003</td><td>Verificaciones positivas</td></tr>
-
-  </tbody>
-</table>
-</div>
-`}</HTMLBlock>
+<br />
 
 ***
 
