@@ -2,7 +2,7 @@
 title: Acepta pagos con Wallet
 excerpt: Conoce el paso a paso de cómo crear un pago con wallet en Ecuador.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: Acepta pagos con Wallet | ProntoPaga Docs
   description: >-
