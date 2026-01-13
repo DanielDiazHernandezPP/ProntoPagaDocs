@@ -1,13 +1,16 @@
 ---
 title: Códigos bancarios - Brasil
+excerpt: 'Cononce los códigos bancarios que procesan transacciones con Pix. '
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
+<br />
+
 Esta guía recopila todas las instituciones financieras soportadas por ProntoPaga para pagos con Pix en Brasil.
 
-Los valores son:
+Los campos son:
 
 | Campo        | Descripción                                      |
 | :----------- | :----------------------------------------------- |
@@ -17,12 +20,12 @@ Los valores son:
 | `country`    | Código del país (ISO 2).                         |
 | `acronym`    | Acrónimo o nombre corto del banco o institución. |
 
-<br />
+> 👍 Ten en cuenta que
+>
+>  El valor`schema_skn`corresponde al `bankCode`en el body de la solicitud.
 
-Algunas entidades son:
-
-El valor`schema_skn`corresponde al `bankCode`en el body de la solicitud.
-
-Descarga la lista completa de [códigos de entidades financieras](https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu\&export=download) que soportan transacciones con Pix en Brasil.
+## Entidades
 
 <br />
+
+Descarga la lista completa de [códigos de entidades financieras](https://drive.usercontent.google.com/u/0/uc?id=1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu\&export=download) para transacciones con Pix en Brasil.
