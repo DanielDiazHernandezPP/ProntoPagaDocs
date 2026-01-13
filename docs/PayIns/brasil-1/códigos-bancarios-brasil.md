@@ -15,8 +15,8 @@ Los valores son:
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Field</b></th>
-      <th><b>Description</b></th>
+      <th><b>Campo</b></th>
+      <th><b>Descripción</b></th>
     </tr>
   </thead>
   <tbody>
@@ -30,7 +30,7 @@ Los valores son:
     </tr>
     <tr>
       <td><code>schema_skn</code></td>
-      <td>Identificador interno utilizado para la validación de la institución.</td>
+      <td>Identificador que corresponde al <b>bankCode<b>.</td>
     </tr>
     <tr>
       <td><code>country</code></td>
