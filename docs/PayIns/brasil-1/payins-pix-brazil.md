@@ -94,7 +94,7 @@ Si el `taxId` tiene una o más cuentas bancarias asociadas, recibirás una respu
 
 <br />
 
-#### Ejemplo de respuesta sin cuentas
+#### Ejemplo de respuesta rechazada
 
 Si el `taxId` no tiene una cuenta bancaria asociada, recibirás un mensaje de error:
 
