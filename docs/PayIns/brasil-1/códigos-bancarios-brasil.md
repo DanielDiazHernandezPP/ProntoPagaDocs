@@ -12,7 +12,6 @@ Los valores son:
 <br />
 
 <HTMLBlock>{`
-<HTMLBlock>{\`
 <table>
   <thead>
     <tr style="background-color:#ff1f55; color:white; text-align:left;">
@@ -43,14 +42,11 @@ Los valores son:
     </tr>
   </tbody>
 </table>
-\`}</HTMLBlock>
 `}</HTMLBlock>
 
+<br />
+
 Algunas entidades son:
-
-<br />
-
-<br />
 
 El valor`schema_skn`corresponde al `bankCode`en el body de la solicitud.
 
