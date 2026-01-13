@@ -138,6 +138,7 @@ Estos son los tipos de retiros rechazados en Perú.
     <tr><td>12</td><td>Destination bank not available</td><td>En una solicitud de PayOuts instantáneo, el banco de destino no está disponible.</td></tr>  
     <tr><td>13</td><td>Internal error, please try again</td><td>Ocurrió un error interno inesperado. Por favor reintente nuevamente.</td></tr>  
     <tr><td>20</td><td>Wallet not found for this phone number</td><td>El número de teléfono enviado no está asociado con la wallet que se seleccionó para hacer el PayOut.</td></tr>  
+    <tr><td>26</td><td>Monto de retiro excede los limites, por favor reintentar con un monto valido</td></tr>
   </tbody>
 </table>
 `}</HTMLBlock>
