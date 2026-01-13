@@ -118,7 +118,7 @@ Dependiendo de lo que requiera tu comercio, podrás configurar el estado final d
 2. Navega hasta la sección inferior de **Ajustes adicionales**
 3. Selecciona el estado final de las transacciones que deseas utilizar
    1. **Procesando:** Utiliza este estado si necesitas completar el proceso manualmente, por ejemplo, si vas a facturar o enviar el producto.
-   2. **Completada:**Utiliza este estado si con el pago el pedido queda completado y no debes hacer nada más, por ejemplo, en el caso de productos digitales.
+   2. **Completada:** Utiliza este estado si con el pago el pedido queda completado y no debes hacer nada más, por ejemplo, en el caso de productos digitales.
 4. Haz clic en el botón inferior de **Guardar Configuración**
 
 > 📘 Estado de las transacciones
