@@ -5,11 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
-<Image align="center" border={false} width="20px" src="https://files.readme.io/a6adf9c3fb306ba11fc9af7f4777ca365f26ff74b50976f2798c03d3f22c00fc-image.png" />
-
-<br />
+<Embed typeOfEmbed="jsfiddle" url="https://drive.google.com/file/d/1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu/view?usp=sharing" href="https://drive.google.com/file/d/1ChVWHPMpM12qBWfrrBJmUSrE4XnXzozu/view?usp=sharing" providerUrl="https://drive.google.com" providerName="Google Docs" />
 
 <br />
 
@@ -29,7 +25,19 @@ metadata:
 
 <br />
 
-<br />
+<Tabs>
+  <Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
+
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
+
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
 
 <br />
 
