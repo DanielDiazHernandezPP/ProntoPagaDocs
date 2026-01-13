@@ -134,11 +134,9 @@ También deberás incluir la URL de retorno en caso de que la transacción sea e
 
 A continuación, te mostramos dos ejemplos de _body_ para pagos con cuenta bancaria registrada, con y sin QR.
 
-<Callout icon="👍" theme="okay">
-  **accountType**
-
-  El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
-</Callout>
+> 👍 Parámetro accountType
+>
+> El parámetro `accountType` es necesario para pagos con cuentas bancarias registradas.
 
 Estos son los posibles tipos de cuentas que se pueden enviar en el parámetro `accountType`:
 
@@ -181,11 +179,9 @@ A continuación, puedes ver un ejemplo del _body_ que se envía en la solicitud 
 }
 ```
 
-<Callout icon="📘" theme="info">
-  **Parámetro `theme`**
-
-  El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
-</Callout>
+> 📘 Parámetro `theme`
+>
+> El campo `theme`:`"{\"type\":\"qr\"}"`es obligatorio para crear pagos con QR.
 
 <br />
 
@@ -217,6 +213,10 @@ A continuación, puedes ver un ejemplo del body que se envía en la solicitud pa
   "sign": "Signature of the parameters"
 }
 ```
+
+> 📘 Parámetro `accountNumber`
+>
+> El parámetro `accountNumber` soporta desde 7 hasta 30 caracteres.
 
 ***
 
@@ -298,7 +298,7 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
     </tr>
     <tr>
       <td><code>accountNumber</code></td>
-      <td>Debe contener exactamente <b>7, 10, 12 o 15 dígitos</b>.</td>
+      <td>Debe contener exactamente <b>desde 7 a 30 caracteres</b>.</td>
     </tr>
     <tr>
       <td><code>clientDocument</code></td>
@@ -306,7 +306,7 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
     </tr>
     <tr>
       <td><code>branchCode</code></td>
-      <td>Debe contener entre <b>1 y 4 dígitos</b>.</td>
+      <td>Debe contener <b>4 dígitos</b>.</td>
     </tr>
     <tr>
       <td><code>address</code></td>
@@ -319,8 +319,7 @@ A continuación, te mostramos las reglas que debes tener en cuenta para los valo
     <tr>
       <td><code>bankCode</code></td>
       <td>
-        Debe contener entre <b>5 y 8 dígitos</b>. Corresponde al
-        <b> número ISPB</b> del banco en Brasil.
+        Debe ser un ISPB válido y contener entre <b>5 y 8 caracteres</b>.
       </td>
     </tr>
   </tbody>
