@@ -215,7 +215,7 @@ Estos son los posibles **motivos de rechazo primarios** para pagos con Yape.
 >
 > Además, hay 3 rechazos que son especialmente importantes para los pagos realizados con la integración de Yape vía API (sin iFrame). Estos son los rechazos en donde ya no es posible colocar otro OTP:
 >
-> * Límite diario excedido (> 3000.00).
+> * Límite diario excedido (> 500.00).
 > * Cuenta bloqueada por OTP.
 > * 3er intento de OTP incorrecto.
 
