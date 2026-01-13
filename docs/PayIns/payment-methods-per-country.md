@@ -29,9 +29,20 @@ next:
 >
 > Recuerda que para conocer los métodos asociados a tu comercio, primero deberás consulta el endpoint de [Métodos de pago](https://docs.prontopaga.com/reference/payment-methods). Solo podrás hacer pruebas con los métodos de pago asociados a tu comercio.
 
-***
+<br />
+
+## Argentina
+
+| Solución    | Método de pago         | Marca             |
+| :---------- | :--------------------- | :---------------- |
+| Tarjeta     | latam_chk_card_payment | Visa y Mastercard |
+| Tarjeta     | ar_chk_card_payment    | Visa y Mastercard |
+| QR web      | ar_qr_payment          | Web               |
+| QR _mobile_ | ar_qr_2_payment        | Mobile            |
 
 <br />
+
+***
 
 ## Chile
 
