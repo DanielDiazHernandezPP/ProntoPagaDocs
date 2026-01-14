@@ -62,5 +62,3 @@ Utilizamos la norma ISO 8601 (AAAA-MM-DD) para las fechas y el versionado numér
 | 1.3     | 2025-01-15           | New Feature                         |
 | 1.1     | 2024-12-02           | Improvements                        |
 | 1.0     | 2024-09-01           | Primera versión pública             |
-
-<br />
