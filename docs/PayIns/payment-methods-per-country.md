@@ -37,8 +37,8 @@ next:
 | :---------- | :--------------------- | :--------------------- |
 | Tarjeta     | latam_chk_card_payment | Visa y Mastercard      |
 | Tarjeta     | ar_chk_card_payment    | Visa, Mastercard, Amex |
-| QR web      | ar_qr_payment          | Web                    |
-| QR _mobile_ | ar_qr_2_payment        | Mobile                 |
+| QR web      | ar_qr_payment          | QR                     |
+| QR _mobile_ | ar_qr_2_payment        | QR                     |
 
 <br />
 
