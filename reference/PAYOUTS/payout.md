@@ -63,59 +63,29 @@ Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accoun
 
 ### Chile
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>C</td><td>Corriente</td></tr>
-    <tr><td>S</td><td>Savings</td></tr>
-    <tr><td>V</td><td>Demand</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción |
+| :------------- | :---------- |
+| C              | Corriente   |
+| S              | Savings     |
+| V              | Demand      |
 
 ***
 
 ### Ecuador
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>AHO</td><td>Ahorros</td></tr>
-    <tr><td>CTE</td><td>Corriente</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción |
+| :------------- | :---------- |
+| AHO            | Ahorros     |
+| CTE            | Corriente   |
 
 ***
 
 ### Perú
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>A</td><td>Ahorros</td></tr>
-    <tr><td>C</td><td>Corriente</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Tipo de cuenta | Descripción |
+| :------------- | :---------- |
+| A              | Ahorros     |
+| C              | Corriente   |
 
 ***
 
