@@ -53,19 +53,9 @@ Para ver una lista de los bancos disponibles por país, haz una solicitud a este
 
 Se debe enviar en la URL el código de país en formato ISO 3166-1 alpha-2.
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>País</b></th>
-      <th><b>Código</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Chile</td><td>CL</td></tr>
-		<tr><td>Perú</td><td>PE</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| País  | Código |
+| :---- | :----- |
+| Chile | CL     |
+| Perú  | PE     |
 
 ***
