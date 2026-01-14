@@ -44,40 +44,48 @@ Prueba este endpoint directamente en Postman haciendo clic en el siguiente botó
 
 ***
 
-Endpoint para crear una nuevo retiro. Para crear una nueva solicitud de retiro, la solicitud debe construirse con los siguientes parámetros.
+Con este endpoint podrás hacer un retiro instantáneo desde el comercio a una wallet.
 
-> 📘 Webhook
+> 📘 Lista de wallets
 >
-> Una vez que el usuario haya completado el proceso de retiro, ProntoPaga devolverá los datos a la URL que hayas especificado en la `confirmationURL`.
+> Para conocer la lista de wallets disponibles para el número de teléfono celular del beneficiario, consulta primero [este endpoint](https://docs.prontopaga.com/reference/wallets-list).
 
 ***
 
-### Logos de los métodos de retiro
+## Lista completa de wallets
 
-Antes de finalizar tu integración, recuerda agregar los logotipos de los diferentes métodos de ProntoPaga a tu front-end. Puedes [descargarlos aquí.](https://drive.google.com/uc?export=download\&id=1MmsVaugP7ztzRXA_dK9wNrwKJOfHSL59)
+Estas son las wallets disponibles en Perú para hacer payouts con ProntoPaga.
 
-***
-
-## Tipos de cuentas
-
-Estos son los posibles tipos de cuentas que se pueden enviar en el campo `accountType`.
-
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Tipo de cuenta</b></th>
-      <th><b>Descripción</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>Corrente</td></tr>
-    <tr><td>2</td><td>Salario</td></tr>
-    <tr><td>3</td><td>Poupança</td></tr>
-    <tr><td>4</td><td>Transacional</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Marca                           | Valor        |
+| :------------------------------ | :----------- |
+| Banco Falabella                 | falabella    |
+| Wayki Caja Cusco                | cajaCusco    |
+| Banco Nación                    | nacion       |
+| Mibanco                         | mibanco      |
+| Tarjeta oh                      | oh           |
+| Banco GNB                       | gnb          |
+| BanBif                          | banbif       |
+| Caja Lima                       | cajaLima     |
+| Compartamos Financiera          | compartamos  |
+| Caja Huancayo                   | cajaHuancayo |
+| Caja Piura                      | cajaPiura    |
+| Dale                            | dale         |
+| Financiera Confianza            | confianza    |
+| Bancom                          | comercio     |
+| Ripley                          | ripley       |
+| Santander                       | santander    |
+| Banco Pichincha                 | pichincha    |
+| Banco de Crédito del Perú (BCP) | bcp          |
+| Financiera Efectiva             | efectiva     |
+| Caja Ica                        | cajaIca      |
+| Caja Trujillo                   | cajaTrujillo |
+| Interbank                       | interbank    |
+| Luqea                           | luqea        |
+| Caja Sullana                    | cajaSullana  |
+| Prexpe                          | prexpe       |
+| Yape                            | yape         |
+| Plin                            | plin         |
+| Bim                             | bim          |
 
 ***
 
