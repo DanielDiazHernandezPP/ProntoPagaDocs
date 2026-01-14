@@ -46,32 +46,21 @@ Utilizamos la norma ISO 8601 (AAAA-MM-DD) para las fechas y el versionado numér
 
 ## Histórico de versiones
 
-<HTMLBlock>{`
-<table>
-  <thead>
-    <tr style="background-color:#ff1f55; color:white; text-align:left;">
-      <th><b>Versión</b></th>
-      <th><b>Fecha de lanzamiento</b></th>
-      <th><b>Tipo de cambios</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>2.4</td><td>2025-12-17</td><td>New Feature, Improvements y Removed</td></tr>   
- 		<tr><td>2.3</td><td>2025-10-16</td><td>New Feature</td></tr>
-		<tr><td>2.2</td><td>2025-09-19</td><td>New Feature</td></tr>
-    <tr><td>2.1</td><td>2025-08-21</td><td>Improvements</td></tr>
-		<tr><td>2.0</td><td>2025-07-03</td><td>Breaking Change</td></tr>
-		<tr><td>1.9</td><td>2025-06-17</td><td>New Feature, Security</td></tr>
-		<tr><td>1.8</td><td>2025-05-14</td><td>New Feature</td></tr>
-		<tr><td>1.7</td><td>2025-04-01</td><td>New Feature, Improvements</td></tr>
-		<tr><td>1.6</td><td>2025-02-19</td><td>Improvements</td></tr>
-		<tr><td>1.5</td><td>2025-02-06</td><td>New Feature</td></tr>
-		<tr><td>1.4</td><td>2025-01-20</td><td>New Feature, Removed y Fix</td></tr>
-		<tr><td>1.3</td><td>2025-01-15</td><td>New Feature</td></tr>
-		<tr><td>1.1</td><td>2024-12-02</td><td>Improvements</td></tr>
-		<tr><td>1.0</td><td>2024-09-01</td><td>	Primera versión pública</td></tr>
-  </tbody>
-</table>
-`}</HTMLBlock>
+| Versión | Fecha de lanzamiento | Tipo de cambios                     |
+| :------ | :------------------- | :---------------------------------- |
+| 2.4     | 2025-12-17           | New Feature, Improvements y Removed |
+| 2.3     | 2025-10-16           | New Feature                         |
+| 2.2     | 2025-09-19           | New Feature                         |
+| 2.1     | 2025-08-21           | Improvements                        |
+| 2.0     | 2025-07-03           | Breaking Change                     |
+| 1.9     | 2025-06-17           | New Feature, Security               |
+| 1.8     | 2025-05-14           | New Feature                         |
+| 1.7     | 2025-04-01           | New Feature, Improvements           |
+| 1.6     | 2025-02-19           | Improvements                        |
+| 1.5     | 2025-02-06           | New Feature                         |
+| 1.4     | 2025-01-20           | New Feature, Removed y Fix          |
+| 1.3     | 2025-01-15           | New Feature                         |
+| 1.1     | 2024-12-02           | Improvements                        |
+| 1.0     | 2024-09-01           | Primera versión pública             |
 
 <br />
