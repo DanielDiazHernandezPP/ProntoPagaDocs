@@ -26,11 +26,9 @@ metadata:
 next:
   description: ''
 ---
-<Callout icon="🚧" theme="warn">
-  **Ten en cuenta que**
-
-  Este endpoint solo está disponible y es aplicable para transacciones de tipo **pagos (PayIns)**, por lo que no debe ser utilizado para otros tipos de transacciones.
-</Callout>
+> 🚧 Ten en cuenta que
+>
+> Este endpoint solo está disponible y es aplicable para transacciones de tipo **pagos (PayIns)**, por lo que no debe ser utilizado para otros tipos de transacciones.
 
 ***
 
